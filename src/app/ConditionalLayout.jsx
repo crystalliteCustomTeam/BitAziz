@@ -73,7 +73,8 @@ const isDarkHeader = [
     "/contact-us",
     "/bitswits-services-page-1",
     "/mobile-application-development-services",
-    "lp/mobile-app-development-services"
+    "/lp/mobile-app-development-services",
+    "/thank-you"
 ]
 const ConditionalLayout = ({ children }) => {
     const pathname = usePathname();

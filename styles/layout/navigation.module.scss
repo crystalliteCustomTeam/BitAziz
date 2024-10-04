@@ -60,6 +60,10 @@
 
                 a {
                     color: #fff;
+
+                    &:hover {
+                        color: #fff;
+                    }
                 }
             }
         }
@@ -301,6 +305,8 @@
             .submenuContainer {
                 top: 80px;
             }
+
+
         }
     }
 

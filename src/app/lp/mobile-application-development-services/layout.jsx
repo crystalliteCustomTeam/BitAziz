@@ -1,13 +1,3 @@
-import { Poppins } from "next/font/google";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import "@/src/app/globals.scss";
-
-
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800", "900"],
-});
-
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
@@ -24,7 +14,7 @@ export const metadata = {
     images: "/public/images/icons/footerlogo.png",
   },
   //===== Canonical =====
-  alternates: { canonical: '/mobile-application-development-services' },
+  alternates: { canonical: '/lp/mobile-application-development-services' },
 
   //===== No-Index =====
   robots: {
@@ -35,11 +25,5 @@ export const metadata = {
 
 
 export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body className={poppins.className}>
-        {children}
-      </body>
-    </html>
-  );
+  return (children);
 }
