@@ -26,7 +26,7 @@ const NewHomeWhat = () => {
                                 We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise.
                             </p>
                             <div className={styles.sec_btn}>
-                                <Link href="#href" className={`${styles.btn_txt} font-extrabold`}>
+                                <Link href="javascript:$zopim.livechat.window.show();" className={`${styles.btn_txt} font-extrabold`}>
                                     Get to know us
                                     <span>
                                         <Image quality={75} alt='BitsWits' src={ButtonIcon} width={15} height={15} />

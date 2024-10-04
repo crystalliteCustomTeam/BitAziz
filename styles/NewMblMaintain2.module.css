@@ -96,7 +96,7 @@
 .app3 {
   background-image: url(../public/newMobilePageImages/card4.png);
   background-position: right;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   padding-top: 50px;
   padding-bottom: 20px;
@@ -220,6 +220,7 @@
 
 .just {
   font-size: 130px;
+  line-height: 1.2;
   font-weight: bold;
   background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
   -webkit-background-clip: text;

@@ -21,7 +21,7 @@ const DubaiDelivered = ({ content }) => {
         },
         animate: {
             x: 0,
-            y: "-16%",
+            y: "0",
             opacity: 1,
             transition: {
                 duration: 1,
@@ -31,13 +31,13 @@ const DubaiDelivered = ({ content }) => {
     };
     const variantTwo = {
         initial: {
-            x: "-95%",
-            y: "90%",
+            x: "-36%",
+            y: "85%",
             opacity: 0,
         },
         animate: {
-            x: "-68%",
-            y: "68%",
+            x: "0",
+            y: "0",
             opacity: 1,
             transition: {
                 duration: 1,
@@ -47,13 +47,13 @@ const DubaiDelivered = ({ content }) => {
     };
     const variantThree = {
         initial: {
-            x: "111%",
-            y: "-43%",
+            x: "-33%",
+            y: "-28%",
             opacity: 0,
         },
         animate: {
-            x: "90%",
-            y: "-15%",
+            x: "0",
+            y: "0",
             opacity: 1,
             transition: {
                 duration: 1,
@@ -68,8 +68,8 @@ const DubaiDelivered = ({ content }) => {
             opacity: 0,
         },
         animate: {
-            x: "-23%",
-            y: "60%",
+            x: "0",
+            y: "0",
             opacity: 1,
             transition: {
                 duration: 1,
@@ -91,21 +91,21 @@ const DubaiDelivered = ({ content }) => {
         <>
             <section className={styles.DubaiDelivered}>
                 <motion.div
-                    variants={variantOne} initial="initial" whileInView="animate" className='h-100 w-100 d-lg-block d-none'>
-                    <Image sizes="100vw" loading='lazy' src={ParticleOne} alt='Mobile Phone' className={styles.secImage} />
+                    variants={variantOne} initial="initial" whileInView="animate" className={`${styles.imageOne} h-100 w-100 d-lg-block d-none`}>
+                    <Image loading='lazy' src={ParticleOne} alt='Mobile Phone' className={styles.secImage} />
                 </motion.div>
                 <motion.div
-                    variants={variantTwo} initial="initial" whileInView="animate" className='h-100 w-100 d-lg-block d-none'>
-                    <Image sizes="100vw" loading='lazy' src={ParticleTwo} alt='Mobile Phone' className={styles.secImageTwo} />
+                    variants={variantTwo} initial="initial" whileInView="animate" className={`${styles.imageTwo} d-lg-block d-none`}>
+                    <Image loading='lazy' src={ParticleTwo} alt='Mobile Phone' className={styles.secImageTwo} />
                 </motion.div>
                 <motion.div
-                    variants={variantThree} initial="initial" whileInView="animate" className='h-100 w-100 d-lg-block d-none'
+                    variants={variantThree} initial="initial" whileInView="animate" className={`${styles.imageThree} d-lg-block d-none`}
                 >
-                    <Image sizes="100vw" loading='lazy' src={ParticleThree} alt='Mobile Phone' className={styles.secImageThree} />
+                    <Image loading='lazy' src={ParticleThree} alt='Mobile Phone' className={styles.secImageThree} />
                 </motion.div>
                 <motion.div
-                    variants={variantFour} initial="initial" whileInView="animate" className='h-100 w-100 d-lg-block d-none'>
-                    <Image sizes="100vw" loading='lazy' src={ParticleFour} alt='Mobile Phone' height={420} width={400} className={styles.secImageFour} />
+                    variants={variantFour} initial="initial" whileInView="animate" className={`${styles.imageFour} d-lg-block d-none`}>
+                    <Image loading='lazy' src={ParticleFour} alt='Mobile Phone' className={styles.secImageFour} />
                 </motion.div>
                 <div className='container'>
                     <Row>

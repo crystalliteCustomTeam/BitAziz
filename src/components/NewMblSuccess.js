@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
-import styles from "@/styles/NewMblSuccess.module.css"; 
+import styles from "@/styles/NewMblSuccess.module.css";
 //
 import team1 from '/public/newMobilePageImages/bg-f.png'
 
@@ -12,7 +12,6 @@ const Newsuccess = (props) => {
         <>
 
             <section className={`${styles.happens} ${props.paddingTop} ${props.paddingBottom} ${styles[props.assignClass]}`}>
-
                 <Container>
                     <Row>
                         <Col xl={12}>

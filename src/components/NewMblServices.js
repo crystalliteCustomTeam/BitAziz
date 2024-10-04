@@ -2,9 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/NewMblMaintain.module.css";
 
-
 const NewMblServices = () => {
-
     return (
         <>
             <section className={`${styles.newHomeBg} combo`}>

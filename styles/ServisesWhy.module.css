@@ -4,6 +4,10 @@
   padding-top: 100px;
 }
 
+.newHomeBg h2 {
+  line-height: 1;
+}
+
 .whyBox {
   padding: 80px 20px;
   border: 1px solid #f32f53;
@@ -62,6 +66,10 @@
 
   .newHomeBg {
     padding-bottom: 50px;
+  }
+
+  .newHomeBg h2 {
+    line-height: 0.8;
   }
 }
 

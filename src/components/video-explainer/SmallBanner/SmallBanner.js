@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
 import { Col, Row } from 'react-bootstrap'
@@ -6,7 +6,12 @@ import styles from "@/styles/video-explainer/SmallBannerSec.module.css"
 // Images
 import flagIcon from "/public/videoexplainer/flag-icon.png";
 import CTAPart from "media/videoexplainer/cta-rht-img.png"
+import PopUp from '@/src/app/services/popup';
 const SmallBanner = () => {
+    const [modalShow, setModalShow] = useState(false);
+    const handleClick = () => {
+        setModalShow(true);
+    };
     return (
         <>
             <section className={styles.SmallBannerSec}>
@@ -21,9 +26,9 @@ const SmallBanner = () => {
                             </p>
                             <div className={styles.secBtns}>
                                 <div className='btnOne'>
-                                    <Link href="#href" className={styles.btnOne}>
+                                    <button onClick={() => handleClick()} className={styles.btnOne}>
                                         Get Started
-                                    </Link>
+                                    </button>
                                 </div>
                                 <div className='btnTwo'>
                                     <a href="javascript:$zopim.livechat.window.show();" className={styles.btnTwo}>
@@ -46,6 +51,7 @@ const SmallBanner = () => {
                     </Row>
                 </div>
             </section>
+            <PopUp show={modalShow} onHide={() => setModalShow(false)} />
         </>
     )
 }
