@@ -3,10 +3,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Col, Row } from 'react-bootstrap'
 import styles from "@/styles/video-explainer/Packages.module.css"
-// Images 
+// Images
 import Price from "media/videoexplainer/price-img-1.png"
 import PopUp from '@/src/app/services/popup'
-
 const Packages = () => {
     const [modalShow, setModalShow] = useState(false);
     const handleClick = () => {
@@ -30,8 +29,8 @@ const Packages = () => {
                                 <div className={styles.card_top}>
                                     <h3>STARTUP PACKAGE</h3>
                                     <Image src={Price} alt='Price_image' className='hidden md:block mx-auto mt-[20px] mb-[10px]' />
-                                    <p className='text-[#231f20] montserrat text-[14px]'>Text & Image Compilation</p>
-                                    <h4 className='text-[#231f20] text-[40px] md:text-[50px] font-[700] poppins py-0 md:py-[10px]'>$199</h4>
+                                    <p className='text-[#231F20] montserrat text-[14px]'>Text & Image Compilation</p>
+                                    <h4 className='text-[#231F20] text-[40px] md:text-[50px] font-[700] poppins py-0 md:py-[10px]'>$199</h4>
                                 </div>
                                 <div className={`${styles.card_list} ${styles.listOne}`}>
                                     <ul>
@@ -56,21 +55,21 @@ const Packages = () => {
                                     </ul>
                                 </div>
                                 <div className={`${styles.card_bottom}`}>
-                                    <div classNa'javascript:$zopim.livechat.window.show();'
+                                    <div className={styles.cardBtns}>
                                         <a href="tel:833 500 6007">
                                             speak with us
                                             <span>833 500 6007</span>
                                         </a>
-                                        <a href="javascript:$zopim.livechat.window.show();">
+                                        <a href='javascript:$zopim.livechat.window.show();'>
                                             Want to Discuss
                                             <span>Live Chat Now</span>
                                         </a>
-                                    </div>'javascript:$zopim.livechat.window.show();'
+                                    </div>
                                     <div className={styles.cardCtas}>
                                         <button onClick={() => handleClick()} className={`d-block ${styles.getStarted}`}>
                                             Get Started
                                         </button>
-                                        <a href="javascript:$zopim.livechat.window.show();" className={styles.liveChart}>
+                                        <a href='javascript:$zopim.livechat.window.show();' className={styles.liveChart}>
                                             Live Chat
                                         </a>
                                     </div>
@@ -82,8 +81,8 @@ const Packages = () => {
                                 <div className={styles.card_top}>
                                     <h3>STARTUP PACKAGE</h3>
                                     <Image src={Price} alt='Price_image' className='hidden md:block mx-auto mt-[20px] mb-[10px]' />
-                                    <p className='text-[#231f20] montserrat text-[14px]'>Text & Image Compilation</p>
-                                    <h4 className='text-[#231f20] text-[40px] md:text-[50px] font-[700] poppins py-0 md:py-[10px]'>$199</h4>
+                                    <p className='text-[#231F20] montserrat text-[14px]'>Text & Image Compilation</p>
+                                    <h4 className='text-[#231F20] text-[40px] md:text-[50px] font-[700] poppins py-0 md:py-[10px]'>$199</h4>
                                 </div>
                                 <div className={`${styles.card_list} ${styles.listTwo}`}>
                                     <ul>
@@ -108,21 +107,21 @@ const Packages = () => {
                                     </ul>
                                 </div>
                                 <div className={`${styles.card_bottom}`}>
-                                    <div classNa'javascript:$zopim.livechat.window.show();'
+                                    <div className={styles.cardBtns}>
                                         <a href="tel:833 500 6007">
                                             speak with us
                                             <span>833 500 6007</span>
                                         </a>
-                                        <a href="javascript:$zopim.livechat.window.show();">
+                                        <a href='javascript:$zopim.livechat.window.show();'>
                                             Want to Discuss
                                             <span>Live Chat Now</span>
                                         </a>
-                                    </div>'javascript:$zopim.livechat.window.show();'
+                                    </div>
                                     <div className={styles.cardCtas}>
                                         <button onClick={() => handleClick()} className={`d-block ${styles.getStarted}`}>
                                             Get Started
                                         </button>
-                                        <a href="javascript:$zopim.livechat.window.show();" className={styles.liveChart}>
+                                        <a href='javascript:$zopim.livechat.window.show();' className={styles.liveChart}>
                                             Live Chat
                                         </a>
                                     </div>
@@ -134,8 +133,8 @@ const Packages = () => {
                                 <div className={styles.card_top}>
                                     <h3>STARTUP PACKAGE</h3>
                                     <Image src={Price} alt='Price_image' className='hidden md:block mx-auto mt-[20px] mb-[10px]' />
-                                    <p className='text-[#231f20] montserrat text-[14px]'>Text & Image Compilation</p>
-                                    <h4 className='text-[#231f20] text-[40px] md:text-[50px] font-[700] poppins py-0 md:py-[10px]'>$199</h4>
+                                    <p className='text-[#231F20] montserrat text-[14px]'>Text & Image Compilation</p>
+                                    <h4 className='text-[#231F20] text-[40px] md:text-[50px] font-[700] poppins py-0 md:py-[10px]'>$199</h4>
                                 </div>
                                 <div className={`${styles.card_list} ${styles.listThree}`}>
                                     <ul>
@@ -160,21 +159,21 @@ const Packages = () => {
                                     </ul>
                                 </div>
                                 <div className={`${styles.card_bottom}`}>
-                                    <div classNa'javascript:$zopim.livechat.window.show();'
+                                    <div className={styles.cardBtns}>
                                         <a href="tel:833 500 6007">
                                             speak with us
                                             <span>833 500 6007</span>
                                         </a>
-                                        <a href="javascript:$zopim.livechat.window.show();">
+                                        <a href='javascript:$zopim.livechat.window.show();'>
                                             Want to Discuss
                                             <span>Live Chat Now</span>
                                         </a>
-                                    </div>'javascript:$zopim.livechat.window.show();'
+                                    </div>
                                     <div className={styles.cardCtas}>
                                         <button onClick={() => handleClick()} className={`d-block ${styles.getStarted}`}>
                                             Get Started
                                         </button>
-                                        <a href="javascript:$zopim.livechat.window.show();" className={styles.liveChart}>
+                                        <a href='javascript:$zopim.livechat.window.show();' className={styles.liveChart}>
                                             Live Chat
                                         </a>
                                     </div>
@@ -188,5 +187,4 @@ const Packages = () => {
         </>
     )
 }
-
 export default Packages

@@ -52,7 +52,7 @@ const Justbuilditlpdubai = (props) => {
                                 <Link href="tel:8335006007" className={`blueShade ${styles.about1}`}>
                                     Call Now
                                 </Link>
-                                <Link href="javascript:$zopim.livechat.window.show();" className={`pink ${styles.about}`}>
+                                <Link href='javascript:$zopim.livechat.window.show();' className={`pink ${styles.about}`}>
                                     Live Chat
                                 </Link>
                             </div>

@@ -26,12 +26,12 @@ const SmallBanner = () => {
                             </p>
                             <div className={styles.secBtns}>
                                 <div className='btnOne'>
-                                    <button 'javascript:$zopim.livechat.window.show();'yles.btnOne}>
+                                    <button onClick={() => handleClick()} className={styles.btnOne}>
                                         Get Started
                                     </button>
                                 </div>
                                 <div className='btnTwo'>
-                                    <a href="javascript:$zopim.livechat.window.show();" className={styles.btnTwo}>
+                                    <a href='javascript:$zopim.livechat.window.show();' className={styles.btnTwo}>
                                         Live Chat
                                     </a>
                                 </div>
@@ -55,5 +55,4 @@ const SmallBanner = () => {
         </>
     )
 }
-
 export default SmallBanner
