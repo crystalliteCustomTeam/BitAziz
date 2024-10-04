@@ -14,6 +14,7 @@ import banImg2 from '@/public/images/banner/bannerImg2.png'
 import banImg3 from '@/public/images/banner/bannerImg1.png'
 import banImg4 from '@/public/images/banner/bannerImg2.png'
 import banImg5 from '@/public/images/banner/bannerImg1.png'
+import Link from 'next/link';
 
 const Justbuilditlpdubai = (props) => {
 
@@ -48,12 +49,12 @@ const Justbuilditlpdubai = (props) => {
                             <h2 className={styles.title}><span>{props.title1}</span> {props.title}</h2>
                             <p className={styles.para}>{props.para}</p>
                             <div className={styles.pont}>
-                                <button onClick={modal} className={`blueShade ${styles.about1}`}>
+                                <Link href="tel:8335006007" className={`blueShade ${styles.about1}`}>
                                     Call Now
-                                </button>
-                                <button onClick={modal} className={`pink ${styles.about}`}>
+                                </Link>
+                                <Link href="javascript:$zopim.livechat.window.show();" className={`pink ${styles.about}`}>
                                     Live Chat
-                                </button>
+                                </Link>
                             </div>
                         </Col>
                     </Row>

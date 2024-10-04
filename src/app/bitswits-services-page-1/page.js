@@ -2,7 +2,7 @@ import React from 'react'
 import Acheived from '@/src/components/servicePage/Acheived/Acheived'
 import Banner from '@/src/components/servicePage/Banner/Banner'
 import CaseStudies from '@/src/components/servicePage/casestudies/CaseStudies'
-import CuttingEdge from '@/src/components/servicePage/CuttingEdge/CuttingEdge' 
+import CuttingEdge from '@/src/components/servicePage/CuttingEdge/CuttingEdge'
 import AppIdea from '@/src/components/servicePage/AppIdea/AppIdea'
 import WhyChoose from '@/src/components/servicePage/WhyChoose/WhyChoose'
 import DevelopmentProcess from '@/src/components/servicePage/DevelopmentProcess/DevelopmentProcess'
@@ -65,8 +65,8 @@ const page = () => {
                 num: "",
                 title: "Cross-Platform",
                 content: `<p class='font-medium'> As a bespoke 3D games development company, we excel in cross-platform game development, making sure your game reaches a wider audience by running smoothly on multiple platforms. 
-We develop games that are easily ported across PC, consoles, mobile, and AR/VR using advanced engines like Unity, Unreal Engine, and Godot.
-</p>`
+                We develop games that are easily ported across PC, consoles, mobile, and AR/VR using advanced engines like Unity, Unreal Engine, and Godot.
+                </p>`
             },
         ],
     ];
@@ -79,7 +79,7 @@ We develop games that are easily ported across PC, consoles, mobile, and AR/VR u
             <Banner />
             <CaseStudies />
             <Acheived />
-            <CuttingEdge /> 
+            <CuttingEdge />
             <CaseStudySection />
             <AppIdea />
             <WhyChoose />
@@ -123,7 +123,7 @@ We develop games that are easily ported across PC, consoles, mobile, and AR/VR u
                 ]}
             />
             <BlogPosts />
-            <GlobalPresence /> 
+            <GlobalPresence />
         </>
     )
 }

@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Col, Row } from 'react-bootstrap'
 import styles from "@/styles/video-explainer/Packages.module.css"
 // Images 
 import Price from "media/videoexplainer/price-img-1.png"
+import PopUp from '@/src/app/services/popup'
 
 const Packages = () => {
+    const [modalShow, setModalShow] = useState(false);
+    const handleClick = () => {
+        setModalShow(true);
+    };
     return (
         <>
             <section className={styles.packagesSec}>
@@ -62,9 +67,9 @@ const Packages = () => {
                                         </a>
                                     </div>
                                     <div className={styles.cardCtas}>
-                                        <Link href="#href" className={styles.getStarted}>
+                                        <button onClick={() => handleClick()} className={`d-block ${styles.getStarted}`}>
                                             Get Started
-                                        </Link>
+                                        </button>
                                         <a href="javascript:$zopim.livechat.window.show();" className={styles.liveChart}>
                                             Live Chat
                                         </a>
@@ -114,9 +119,9 @@ const Packages = () => {
                                         </a>
                                     </div>
                                     <div className={styles.cardCtas}>
-                                        <Link href="#href" className={styles.getStarted}>
+                                        <button onClick={() => handleClick()} className={`d-block ${styles.getStarted}`}>
                                             Get Started
-                                        </Link>
+                                        </button>
                                         <a href="javascript:$zopim.livechat.window.show();" className={styles.liveChart}>
                                             Live Chat
                                         </a>
@@ -166,9 +171,9 @@ const Packages = () => {
                                         </a>
                                     </div>
                                     <div className={styles.cardCtas}>
-                                        <Link href="#href" className={styles.getStarted}>
+                                        <button onClick={() => handleClick()} className={`d-block ${styles.getStarted}`}>
                                             Get Started
-                                        </Link>
+                                        </button>
                                         <a href="javascript:$zopim.livechat.window.show();" className={styles.liveChart}>
                                             Live Chat
                                         </a>
@@ -179,6 +184,7 @@ const Packages = () => {
                     </Row>
                 </div>
             </section>
+            <PopUp show={modalShow} onHide={() => setModalShow(false)} />
         </>
     )
 }

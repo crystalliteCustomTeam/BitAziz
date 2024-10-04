@@ -198,9 +198,12 @@
 }
 
 .getStarted {
+    padding: 10px 30px;
+    border-radius: 5px;
     background: #231f20;
     color: #fff !important;
     box-shadow: none;
+    box-shadow: 0 11px 21px 0 rgb(0 0 0 / 16%);
     border: 1px solid #231f20;
 }
 

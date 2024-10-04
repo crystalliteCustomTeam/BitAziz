@@ -3,8 +3,8 @@
   background: #000;
   position: relative;
   height: 100vh;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
   overflow: hidden;
 }
 
@@ -55,13 +55,6 @@
   width: 62%;
 }
 
-.secImage,
-.secImageTwo,
-.secImageThree,
-.secImageFour {
-  height: auto;
-}
-
 .cross {
   position: absolute;
   top: -1.5%;
@@ -81,28 +74,39 @@
   background-color: #ff004a;
 }
 
-/* media Query start */
+/* Images */
 
-@media only screen and (max-width: 1920px) {
-  .secImageThree {
-    position: absolute;
-    left: 130%;
-  }
-
-  .secImageFour {
-    position: absolute;
-    left: 110%;
-  }
+.imageOne {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-@media only screen and (max-width: 1599px) {
-  .secImageThree {
-    position: inherit;
-  }
+.imageTwo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 
-  .secImageFour {
-    position: inherit;
-  }
+.imageThree {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.imageFour {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.secImageFour {
+  max-height: 400px;
+}
+
+/* media Query start */
+
+@media only screen and (max-width: 1599px) {
 
   .txt h2 {
     width: 80%;
@@ -120,46 +124,43 @@
     display: block;
   }
 
-  /* .secImageTwo {
-        height: 55%;
-    } */
+  .secImageTwo {
+    max-height: 445px;
+    max-width: 500px;
+  }
 
-  .secImageThree {
-    /* height: 60%; */
-    margin-left: -60px;
+  .secImage,
+  .secImageFour {
+    max-height: 345px;
+    max-width: 345px;
   }
 }
 
 @media only screen and (max-width: 1280px) {
   .secImage {
-    /* height: 55%; */
-    max-width: 300px;
-    min-width: 308px;
-    margin-top: -30px;
+    max-width: 290px;
+    min-width: 290px;
   }
 
   .secImageTwo {
-    max-width: 458px;
-    min-width: 446px;
+    max-width: 420px;
+    min-width: 420px;
   }
 
   .secImageThree {
-    /* height: 80%; */
-    max-width: 300px;
-    min-width: 278px;
-    margin-top: -82px;
+    max-width: 250px;
+    min-width: 250px;
   }
 
   .secImageFour {
-    /* height: 80%; */
-    max-width: 300px;
-    min-width: 278px;
+    max-width: 270px;
+    min-width: 270px;
   }
 }
 
 @media only screen and (max-width: 1024px) {
   .DubaiDelivered {
-    height: 50vh;
+    height: 100vh;
   }
 
   .secImage {

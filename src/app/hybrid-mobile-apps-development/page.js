@@ -193,21 +193,21 @@ export default function HybridMobile() {
             title: "Talk To Our Experts",
             text: "Contact us without obligation by email or phone and secure your free consultation.",
             buttonText: "Connect Now!",
-            link: "#",
+            link: "javascript:$zopim.livechat.window.show();",
           },
           {
             number: "02",
             title: "Get A Quote",
             text: "Get an exact cost breakdown structure of your app.",
             buttonText: "Chat Now!",
-            link: "#",
+            link: "javascript:$zopim.livechat.window.show();",
           },
           {
             number: "03",
             title: "Build An MVP",
             text: "Start your app development journey with no-obligation consultation via email and phone.",
             buttonText: "Call Now!",
-            link: "#",
+            link: "tel:+8335006007",
           },
         ]}
       />
