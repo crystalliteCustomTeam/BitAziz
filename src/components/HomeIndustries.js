@@ -79,7 +79,7 @@ const HomeIndustries = () => {
                                         <h3>Healthcare</h3>
                                         <p>Our mobile app development services specialize in providing innovative healthcare solutions. As a US-based healthcare app development company, patient-centered treatment is our first priority.
                                         </p>
-                                        <a href="javascript:$zopim.livechat.window.show();" className={styles.btn}>
+                                        <a href='javascript:$zopim.livechat.window.show();' className={styles.btn}>
                                             Learn More
                                             <span>
                                                 <Image src={arrow} alt='Bitswits' width={17} height={11} />
@@ -96,7 +96,7 @@ const HomeIndustries = () => {
                                         <h3>Education</h3>
                                         <p>Mobile application development services transform education through digital classrooms and personalized learning. As the best app making services money can buy, we guarantee excellence.
                                         </p>
-                                        <a href="javascript:$zopim.livechat.window.show();" className={styles.btn}>
+                                        <a href='javascript:$zopim.livechat.window.show();' className={styles.btn}>
                                             Learn More
                                             <span>
                                                 <Image src={arrow} alt='Bitswits' width={17} height={11} />
@@ -112,7 +112,7 @@ const HomeIndustries = () => {
                                     <div className={`${styles.content} content`}>
                                         <h3>Logistics</h3>
                                         <p>Trusted globally, we excel in inventory management and route optimization. As a leader in ride hailing app development services, our solutions are boundless.,</p>
-                                        <a href="javascript:$zopim.livechat.window.show();" className={styles.btn}>
+                                        <a href='javascript:$zopim.livechat.window.show();' className={styles.btn}>
                                             Learn More
                                             <span>
                                                 <Image src={arrow} alt='Bitswits' width={17} height={11} />
@@ -129,7 +129,7 @@ const HomeIndustries = () => {
                                         <h3>Insurance</h3>
                                         <p>Our mobile application development service innovates in insurance, digital insurance platforms, and claims automation. Our app development agency leads with success.
                                         </p>
-                                        <a href="javascript:$zopim.livechat.window.show();" className={styles.btn}>
+                                        <a href='javascript:$zopim.livechat.window.show();' className={styles.btn}>
                                             Learn More
                                             <span>
                                                 <Image src={arrow} alt='Bitswits' width={17} height={11} />
@@ -145,7 +145,7 @@ const HomeIndustries = () => {
                                     <div className={`${styles.content} content`}>
                                         <h3>Engineering Construction & Operations</h3>
                                         <p>Our mobile application development services pioneer sustainable infrastructure solutions. We are at the forefront of the industry. Trusted globally, we integrate and automate with precision.</p>
-                                        <a href="javascript:$zopim.livechat.window.show();" className={styles.btn}>
+                                        <a href='javascript:$zopim.livechat.window.show();' className={styles.btn}>
                                             Learn More
                                             <span>
                                                 <Image src={arrow} alt='Bitswits' width={17} height={11} />
@@ -161,7 +161,7 @@ const HomeIndustries = () => {
                                     <div className={`${styles.content} content`}>
                                         <h3>Social Media</h3>
                                         <p>We have developed social media applications for several Silicon Valley tech giants that help them accelerate growth and raise investments. Your business venture is just 30 minutes away from becoming the next big thing!</p>
-                                        <a href="javascript:$zopim.livechat.window.show();" className={styles.btn}>
+                                        <a href='javascript:$zopim.livechat.window.show();' className={styles.btn}>
                                             Learn More
                                             <span>
                                                 <Image src={arrow} alt='Bitswits' width={17} height={11} />
@@ -177,7 +177,7 @@ const HomeIndustries = () => {
                                     <div className={`${styles.content} content`}>
                                         <h3>Gaming</h3>
                                         <p>Our game development services have been lauded by games from every corner of the world. We have the expertise to develop games using Unreal Engine and Unity Engine that offer an immersive experience to gamers.</p>
-                                        <a href="javascript:$zopim.livechat.window.show();" className={styles.btn}>
+                                        <a href='javascript:$zopim.livechat.window.show();' className={styles.btn}>
                                             Learn More
                                             <span>
                                                 <Image src={arrow} alt='Bitswits' width={17} height={11} />
@@ -193,7 +193,7 @@ const HomeIndustries = () => {
                                     <div className={`${styles.content} content`}>
                                         <h3>Real Estate</h3>
                                         <p>Experience a dramatic surge in sales with our real estate app development services. We develop a user-friendly interface that is easily accessible by your customers and power it with an extensive and scalable admin panel to help you manage your portfolio at ease.</p>
-                                        <a href="javascript:$zopim.livechat.window.show();" className={styles.btn}>
+                                        <a href='javascript:$zopim.livechat.window.show();' className={styles.btn}>
                                             Learn More
                                             <span>
                                                 <Image src={arrow} alt='Bitswits' width={17} height={11} />
@@ -209,7 +209,7 @@ const HomeIndustries = () => {
                                     <div className={`${styles.content} content`}>
                                         <h3>E-commerce</h3>
                                         <p>Boost your sales with our ecommerce app development services. We design user-friendly apps that drives ROI and increase your customer base. Our e-commerce marketplace and vendor solutions will help you track your best-selling items and manage inventory without breaking a sweat.</p>
-                                        <a href="javascript:$zopim.livechat.window.show();" className={styles.btn}>
+                                        <a href='javascript:$zopim.livechat.window.show();' className={styles.btn}>
                                             Learn More
                                             <span>
                                                 <Image src={arrow} alt='Bitswits' width={17} height={11} />
@@ -225,7 +225,7 @@ const HomeIndustries = () => {
                                     <div className={`${styles.content} content`}>
                                         <h3>Finance</h3>
                                         <p>Our finance app development services have helped financial institutions gauge new customers and expand their digital presence. Consult with our app development experts to launch your finance app with a bang.</p>
-                                        <a href="javascript:$zopim.livechat.window.show();" className={styles.btn}>
+                                        <a href='javascript:$zopim.livechat.window.show();' className={styles.btn}>
                                             Learn More
                                             <span>
                                                 <Image src={arrow} alt='Bitswits' width={17} height={11} />
@@ -241,7 +241,7 @@ const HomeIndustries = () => {
                                     <div className={`${styles.content} content`}>
                                         <h3>Information Technology</h3>
                                         <p>We have developed mobile applications for Silicon Valley giants to boost their online presence and sales. Our user-centric approach has enabled businesses to showcase their products and services and launch stellar mobile and IoT apps in the IT industry.</p>
-                                        <a href="javascript:$zopim.livechat.window.show();" className={styles.btn}>
+                                        <a href='javascript:$zopim.livechat.window.show();' className={styles.btn}>
                                             Learn More
                                             <span>
                                                 <Image src={arrow} alt='Bitswits' width={17} height={11} />
@@ -254,7 +254,7 @@ const HomeIndustries = () => {
 
                         <Col lg={12}>
                             <div className={`${styles.btns}`}>
-                                <a href="javascript:$zopim.livechat.window.show();" className='pink'>
+                                <a href='javascript:$zopim.livechat.window.show();' className='pink'>
                                     Let’s Discuss Your Project
                                 </a>
                             </div>

@@ -61,7 +61,7 @@ const Technologieslpdubai = () => {
                                         <Col lg={6}>
                                             <h3 className={styles.stook}>Business Growth with BitsWits: Your Trusted Mobile App Development Company</h3>
                                             <p>Build and scale your business with BitsWits Mobile App Development Company. Our Dubai-based iOS and Android developers offer customized solutions for a robust mobile presence, ensuring quality, innovation, and exceptional user experiences.</p>
-                                            <a className={styles.buld} href="javascript:$zopim.livechat.window.show();">Get In Touch With Our Experts</a>
+                                            <a className={styles.buld} href='javascript:$zopim.livechat.window.show();'>Get In Touch With Our Experts</a>
                                         </Col>
                                         <Col lg={5}>
                                             <Image className='img-fluid' src={icon1} />
@@ -78,7 +78,7 @@ const Technologieslpdubai = () => {
                                         <Col lg={6}>
                                             <h3 className={styles.stook}>Native App Development: Creating Platform-Specific Excellence</h3>
                                             <p>For a winning mobile app strategy, turn to BitsWits. We specialize in native app development services tailored for the iOS and Android ecosystems. Our expert team guarantees superior performance, unbeatable user experience, and an extensive market reach. With BitsWits, your brand's success in this ever-evolving market is not just possible; it is inevitable.</p>
-                                            <a className={styles.buld} href="javascript:$zopim.livechat.window.show();">Get In Touch With Our Experts</a>
+                                            <a className={styles.buld} href='javascript:$zopim.livechat.window.show();'>Get In Touch With Our Experts</a>
                                         </Col>
                                         <Col lg={5}>
                                             <Image className='img-fluid' src={icon2} />
@@ -94,7 +94,7 @@ const Technologieslpdubai = () => {
                                         <Col lg={6}>
                                             <h3 className={styles.stook}>Upgrade Business Growth with Hybrid App Development</h3>
                                             <p>At BitsWits, we empower businesses to reach their full potential with hybrid app development. Our app development company excels in creating and deploying apps across multiple platforms, ensuring seamless consistency and delivering top-notch user experiences. Do not limit your app's reach – choose hybrid app development for versatility, efficiency, and excellence.</p>
-                                            <a className={styles.buld} href="javascript:$zopim.livechat.window.show();">Get In Touch With Our Experts</a>
+                                            <a className={styles.buld} href='javascript:$zopim.livechat.window.show();'>Get In Touch With Our Experts</a>
                                         </Col>
                                         <Col lg={5}>
                                             <Image className='img-fluid' src={icon3} />
@@ -111,7 +111,7 @@ const Technologieslpdubai = () => {
                                         <Col lg={6}>
                                             <h3 className={styles.stook}>Expert Product Strategy Development Ensures Market Success</h3>
                                             <p>BitsWits' consultants specialize in product strategy development, ensuring innovative and strategically positioned product ideas for market launch. We navigate market complexities, conduct in-depth research, and identify opportunities and challenges. Our guidance ensures products meet and exceed customer expectations, driving success and market prominence.</p>
-                                            <a className={styles.buld} href="javascript:$zopim.livechat.window.show();">Get In Touch With Our Experts</a>
+                                            <a className={styles.buld} href='javascript:$zopim.livechat.window.show();'>Get In Touch With Our Experts</a>
                                         </Col>
                                         <Col lg={5}>
                                             <Image className='img-fluid' src={icon4} />
@@ -126,7 +126,7 @@ const Technologieslpdubai = () => {
                                         <Col lg={6}>
                                             <h3 className={styles.stook}>Revolutionize Your Online Retail with Our Ecommerce App Development</h3>
                                             <p>BitsWits offers an Ecommerce app development service that combines digital marketing expertise with app development expertise to create visually appealing, functional apps that drive sales and conversions, enhancing user experience and revenue.</p>
-                                            <a className={styles.buld} href="javascript:$zopim.livechat.window.show();">Get In Touch With Our Experts</a>
+                                            <a className={styles.buld} href='javascript:$zopim.livechat.window.show();'>Get In Touch With Our Experts</a>
                                         </Col>
                                         <Col lg={5}>
                                             <Image className='img-fluid' src={icon5} />
@@ -142,7 +142,7 @@ const Technologieslpdubai = () => {
                                         <Col lg={6}>
                                             <h3 className={styles.stook}>Elevating B2B Interaction with Human-Centric B2B App Development</h3>
                                             <p>BitsWits focuses on putting people at the heart of business operations, developing B2B apps that streamline internal processes, foster efficient communication, and enhance collaboration. Our  human-centric approach empowers organizations to thrive in a competitive environment.</p>
-                                            <a className={styles.buld} href="javascript:$zopim.livechat.window.show();">Get In Touch With Our Experts</a>
+                                            <a className={styles.buld} href='javascript:$zopim.livechat.window.show();'>Get In Touch With Our Experts</a>
                                         </Col>
                                         <Col lg={5}>
                                             <Image className='img-fluid' src={icon6} />

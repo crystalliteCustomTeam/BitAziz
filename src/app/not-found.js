@@ -13,7 +13,7 @@ const NotFound = () => {
                             <h4 className="fw500 font40 color-white t-center font-f mb-2">THIS IS SOMEWHAT EMBARRASSING, ISN’T IT?</h4>
                             <p className="font18 fw400 color-white t-center font-f mb-4">It looks like nothing was found at this location. Maybe try a search?</p>
                             <div className='mt-4 t-center'>
-                                <a href="javascript:$zopim.livechat.window.show();" className={styles.btn404}>LET'S DISCUSS</a>
+                                <a href='javascript:$zopim.livechat.window.show();' className={styles.btn404}>LET'S DISCUSS</a>
                                 <a href="tel:3123795987" className={styles.btn404}>+1 312 379 5987</a>
                             </div>
                         </Col>

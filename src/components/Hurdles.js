@@ -70,7 +70,7 @@ const Hurdles = () => {
 
 
                                 <h3 className='white font40 f-700'>We Get It and We've Got Solutions</h3>
-                                <a href="javascript:$zopim.livechat.window.show();" className={styles.dus}>Talk To An Expert</a>
+                                <a href='javascript:$zopim.livechat.window.show();' className={styles.dus}>Talk To An Expert</a>
                             </div>
                         </Col>
                     </Row>

@@ -10,7 +10,7 @@ import Icon06 from "media/services/tech/6.webp"
 import Icon07 from "media/services/tech/7.webp"
 import Icon08 from "media/services/tech/8.webp"
 import TechImg from "media/services/techImg.webp"
-import ButtonCommon from "@/src/components/common/button"
+import CtaCommon from "@/src/components/common/cta";
 
 const Icons = [
     {
@@ -69,7 +69,10 @@ const Technologies = () => {
                                 </div>
                             ))}
                         </div>
-                        <ButtonCommon txt="Free Consultation" />
+                        <CtaCommon
+                            txt="Free Consultation"
+                            href='javascript:$zopim.livechat.window.show();'
+                        />
                     </Col>
                     <Col lg={4} md={12} className="my-auto offset-lg-1">
                         <Image src={TechImg} alt="TechImg Box" width={500} height={743} className={styles.ImgPhone} />

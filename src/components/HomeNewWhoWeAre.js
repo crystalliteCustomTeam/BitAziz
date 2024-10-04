@@ -173,7 +173,7 @@ const HomeNewWhoWeAre = ({ content, contentTwo, onAnchorClick }) => {
                                     <h6>Our Value Additions for Clients</h6>
                                     <h3>Progress By <br /> Numbers</h3>
                                     <div className={`${styles.btn}`}>
-                                        <a href="javascript:$zopim.livechat.window.show();" className='blackPulse' onClick={onAnchorClick}>
+                                        <a href='javascript:$zopim.livechat.window.show();' className='blackPulse' onClick={onAnchorClick}>
                                             Time to Execute
                                         </a>
                                     </div>

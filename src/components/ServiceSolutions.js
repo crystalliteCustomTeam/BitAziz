@@ -16,7 +16,7 @@ const ServiceSolutions = (props) => {
                             <h3 className='white font20'>{props.subTitle}</h3>
                             <h2 className='newchoose font-bold mb-3 text-white'>{props.title}</h2>
                             <p className='text-white f-16 pb-2 lheight23'>{props.text}</p>
-                            <a className={styles.about} href="javascript:$zopim.livechat.window.show();">LET's CONNECT</a>
+                            <a className={styles.about} href='javascript:$zopim.livechat.window.show();'>LET's CONNECT</a>
                         </Col>
                         <Col lg={6}>
                             <div className={`${styles.solImg} ${props.marginTop}`}>

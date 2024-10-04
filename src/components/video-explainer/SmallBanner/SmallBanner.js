@@ -26,7 +26,7 @@ const SmallBanner = () => {
                             </p>
                             <div className={styles.secBtns}>
                                 <div className='btnOne'>
-                                    <button onClick={() => handleClick()} className={styles.btnOne}>
+                                    <button 'javascript:$zopim.livechat.window.show();'yles.btnOne}>
                                         Get Started
                                     </button>
                                 </div>

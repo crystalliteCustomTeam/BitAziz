@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import BannerLogos from "media/services/bannerLogo.webp"
 import BannerBg from "media/services/bgBanner.webp"
 import Image from "next/image"
-import ButtonCommon from "@/src/components/common/button"
+import CtaCommon from "@/src/components/common/cta"
 import ContactFrom from "@/src/components/common/contactfrom"
 
 const Banner = () => {
@@ -19,7 +19,10 @@ const Banner = () => {
                             <Image src={BannerLogos.src} alt="Bitswits Services" width={528} height={50} />
                         </div>
                         <div className={styles.btnFlex}>
-                            <ButtonCommon txt="Free Consultation" />
+                            <CtaCommon
+                                txt="Free Consultation"
+                                href='javascript:$zopim.livechat.window.show();'
+                            />
                         </div>
                     </Col>
                     <Col lg={6} md={6} className="my-auto">

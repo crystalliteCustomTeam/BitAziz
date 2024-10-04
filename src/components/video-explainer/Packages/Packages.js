@@ -56,7 +56,7 @@ const Packages = () => {
                                     </ul>
                                 </div>
                                 <div className={`${styles.card_bottom}`}>
-                                    <div className={styles.cardBtns}>
+                                    <div classNa'javascript:$zopim.livechat.window.show();'
                                         <a href="tel:833 500 6007">
                                             speak with us
                                             <span>833 500 6007</span>
@@ -65,7 +65,7 @@ const Packages = () => {
                                             Want to Discuss
                                             <span>Live Chat Now</span>
                                         </a>
-                                    </div>
+                                    </div>'javascript:$zopim.livechat.window.show();'
                                     <div className={styles.cardCtas}>
                                         <button onClick={() => handleClick()} className={`d-block ${styles.getStarted}`}>
                                             Get Started
@@ -108,7 +108,7 @@ const Packages = () => {
                                     </ul>
                                 </div>
                                 <div className={`${styles.card_bottom}`}>
-                                    <div className={styles.cardBtns}>
+                                    <div classNa'javascript:$zopim.livechat.window.show();'
                                         <a href="tel:833 500 6007">
                                             speak with us
                                             <span>833 500 6007</span>
@@ -117,7 +117,7 @@ const Packages = () => {
                                             Want to Discuss
                                             <span>Live Chat Now</span>
                                         </a>
-                                    </div>
+                                    </div>'javascript:$zopim.livechat.window.show();'
                                     <div className={styles.cardCtas}>
                                         <button onClick={() => handleClick()} className={`d-block ${styles.getStarted}`}>
                                             Get Started
@@ -160,7 +160,7 @@ const Packages = () => {
                                     </ul>
                                 </div>
                                 <div className={`${styles.card_bottom}`}>
-                                    <div className={styles.cardBtns}>
+                                    <div classNa'javascript:$zopim.livechat.window.show();'
                                         <a href="tel:833 500 6007">
                                             speak with us
                                             <span>833 500 6007</span>
@@ -169,7 +169,7 @@ const Packages = () => {
                                             Want to Discuss
                                             <span>Live Chat Now</span>
                                         </a>
-                                    </div>
+                                    </div>'javascript:$zopim.livechat.window.show();'
                                     <div className={styles.cardCtas}>
                                         <button onClick={() => handleClick()} className={`d-block ${styles.getStarted}`}>
                                             Get Started

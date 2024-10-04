@@ -1,4 +1,4 @@
-import ButtonCommon from "@/src/components/common/button"
+import CtaCommon from "@/src/components/common/cta";
 import IMG01 from "media/services/customImg01.webp"
 import IMG02 from "media/services/customImg02.webp"
 import Link from "next/link"
@@ -24,7 +24,10 @@ const Risks = () => {
                         </div>
                         <p>Validate your app concept with minimal risk before launching a full-scale app!</p>
 
-                        <ButtonCommon txt="Free Consultation" />
+                        <CtaCommon
+                            txt="Free Consultation"
+                            href='javascript:$zopim.livechat.window.show();'
+                        />
                         <div className={styles.flexBtn}>
                             <div className={styles.telNumber}>
                                 <a href="tel:+18335006007">+1 833 500 6007</a>

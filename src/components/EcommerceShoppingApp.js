@@ -23,7 +23,7 @@ const EcommerceShoppingApp = () => {
 
                             <p className='font15 text-white'>Say goodbye to the genie in a lamp – our eCommerce app solutions grant all your wishes with just a tap!</p>
 
-                            <a href="javascript:$zopim.livechat.window.show();" className={`text-white font16 font-semibold ${styles.BtnBrightness}`}>
+                            <a href='javascript:$zopim.livechat.window.show();' className={`text-white font16 font-semibold ${styles.BtnBrightness}`}>
                                 Begin Now!
                                 <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                             </a>

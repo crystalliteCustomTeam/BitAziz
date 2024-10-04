@@ -97,7 +97,7 @@ export default function Transform(props) {
                             <h2 className='white font35 f-700 mb-4 mt-4'>Transforming Ideas Into Apps Partner With The Trusted Mobile App Development Agency!</h2>
                             <p className='white font16 f-500 mb-4'>Step into the dynamic world of mobile apps, where we bring innovation and creativity to every project. Our mobile app developers are masters at making visually appealing and easy-to-use apps. We work with you from ideation to launch to ensure that your app exceeds your expectations and aligns perfectly with your business goals.</p>
                             <div className={styles.ourt}>
-                                <a href="javascript:$zopim.livechat.window.show();" className={styles.dus}>Request A Quote <Image alt='BitsWits' src={arow} className='img-fluid' /> </a>
+                                <a href='javascript:$zopim.livechat.window.show();' className={styles.dus}>Request A Quote <Image alt='BitsWits' src={arow} className='img-fluid' /> </a>
                             </div>
                             <Slider {...awardslogo} >
 
@@ -155,7 +155,7 @@ export default function Transform(props) {
                                 <h2 className='white font35 f-700 mb-4 mt-4'>Transforming Ideas Into Apps Partner With The Trusted Mobile App Development Agency!</h2>
                                 <p className='white font16 f-500 mb-4'>Step into the dynamic world of mobile apps, where we bring innovation and creativity to every project. Our mobile app developers are masters at making visually appealing and easy-to-use apps. We work with you from ideation to launch to ensure that your app exceeds your expectations and aligns perfectly with your business goals.</p>
                                 <div className={styles.ourt}>
-                                    <a href="javascript:$zopim.livechat.window.show();" className={styles.dus}>Request A Quote <Image alt='BitsWits' src={arow} className='img-fluid' /> </a>
+                                    <a href='javascript:$zopim.livechat.window.show();' className={styles.dus}>Request A Quote <Image alt='BitsWits' src={arow} className='img-fluid' /> </a>
                                 </div>
                             </Col>
                             <Col lg={6}>

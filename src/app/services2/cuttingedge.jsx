@@ -10,37 +10,37 @@ const data = [
     {
         title: (<>Android App <br />Development Services</>),
         txt: "As a leading mobile app development agency, we use Kotlin, Java, and Jetpack Compose to build lightweight Android apps. Our applications enhance UX and functionality across smartphones, wearable devices, and TVs, providing exceptional design, look, and feel for diverse industries.",
-        links: "",
+        links: 'javascript:$zopim.livechat.window.show();',
     },
     {
         title: (<>iOS Application<br />Development Services</>),
         txt: "Our iOS mobile development services utilize Swift and Xcode to build human-centered, easy-to-navigate apps for iPhone, iPad, Mac, Apple TV, and Apple Watch, delivering exceptional functionality and user experience across all Apple devices.",
-        links: "",
+        links: 'javascript:$zopim.livechat.window.show();',
     },
     {
         title: (<>Cross-Platform<br />Development Services</>),
         txt: "Make your app accessible on iOS and Android with a write-once, deploy-anywhere cross-platform framework! Reduce development costs by 50% with our Flutter and React Native development models, delivering apps with a native-like experience.",
-        links: "",
+        links: 'javascript:$zopim.livechat.window.show();',
     },
     {
         title: (<>Mobile Web Apps<br />Development Services</>),
         txt: "BitsWits helps businesses achieve 2X conversion rates with high-performance web solutions. We deliver scalable web portals, enterprise apps for better management, and customer-facing applications, including analytics apps and B2B eCommerce solutions, to enhance business growth and efficiency.",
-        links: "",
+        links: 'javascript:$zopim.livechat.window.show();',
     },
     {
         title: (<>Mobile Game<br />Development Services</>),
         txt: "As a top-grade mobile game development company, we use technologies like Unity and Unreal Engine to create adrenaline-pumping games in action, RPG, and sports! We offer flexible options, including full-cycle, co-development, and game porting services to meet the diverse needs of our clients",
-        links: "",
+        links: 'javascript:$zopim.livechat.window.show();',
     }
     , {
         title: (<>Blockchain Mobile<br />App Services</>),
         txt: "We are a top mobile app development company specializing in apps powered by blockchain technology, including decentralized networks, NFTs, and smart contracts. Our solutions enhance transparency, immutability, and automation for DeFi, ICOs, tokens, crypto exchanges, and gamification.",
-        links: "",
+        links: 'javascript:$zopim.livechat.window.show();',
     }
     , {
         title: (<>AR/VR App<br />App Services</>),
         txt: "We build immersive AR/VR apps using tools like ARToolKit, Apple ARKit, Google ARCore, Unity, and Vuforia, covering sensor-based, location-based, and visual recognition solutions. With expertise in C# and Java, our developers create scalable applications to deliver exceptional results across various platforms!",
-        links: "",
+        links: 'javascript:$zopim.livechat.window.show();',
     }
 ]
 const Cuttingedge = () => {
@@ -70,7 +70,7 @@ const Cuttingedge = () => {
                                         <div className={styles.titleBox}>
                                             <h5>{item.title}</h5>
                                             <div className={styles.normalButton}>
-                                                <div className={styles.linksBtn} onClick={handleChatOpen}>Let’s Do This!</div>
+                                                <Link href={item.links} className={styles.linksBtn}>Let’s Do This!</Link>
                                             </div>
                                         </div>
                                         <div className={styles.contentBox}>
@@ -91,7 +91,7 @@ const Cuttingedge = () => {
                     </Col>
                 </Row>
             </Container>
-        </section >
+        </section>
     )
 }
 

@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "@/styles/services/process.module.scss";
-import ButtonCommon from "@/src/components/common/button";
+import CtaCommon from "@/src/components/common/cta";
 import Image from "next/image";
 import IMG from "media/services/process/tab01.webp"
 const tabs = [
@@ -109,7 +109,10 @@ const Process = () => {
                                 <div className={styles.txtTitle}>
                                     <h4>{tabs[activeTab].content.heading}</h4>
                                     <p>{tabs[activeTab].content.description}</p>
-                                    <ButtonCommon txt="Free Consultation" />
+                                    <CtaCommon
+                                        txt="Free Consultation"
+                                        href='javascript:$zopim.livechat.window.show();'
+                                    />
                                 </div>
                                 <div className={styles.txtImg}>
                                     <Image

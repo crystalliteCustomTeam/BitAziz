@@ -45,7 +45,7 @@ const Capabilities3d = () => {
                                         Realistic 3D Gaming with Us</h2>
                                     <p className='white f-14'>We focus on creating on-demand 3D gameplay environments, utilizing cutting-edge technologies to bring a range of virtual worlds to life. We make it happen, whether it be an action-packed first-person shooter, a thrilling online multiplayer game, or a captivating puzzle game. The cornerstone of our services caters to realistic 3D character models, dynamic lighting and shadow effects, physics-based animations, realistic particle systems, and dynamic weather effects.</p>
                                 </div>
-                                <a className={styles.about} href="javascript:$zopim.livechat.window.show();">LET's CONNECT</a>
+                                <a className={styles.about} href='javascript:$zopim.livechat.window.show();'>LET's CONNECT</a>
                             </div>
                         </Col>
                     </Row>

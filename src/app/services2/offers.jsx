@@ -2,7 +2,7 @@
 import { useState } from "react";
 import styles from "@/styles/services/offers.module.scss"
 import { Col, Container, Row } from "react-bootstrap"
-import ButtonCommon from "@/src/components/common/button";
+import CtaCommon from "@/src/components/common/cta";
 
 const tabs = [
 
@@ -85,7 +85,10 @@ const Offers = () => {
                             <div className={styles.tabContent}>
                                 <h4>{tabs[activeTab].content.heading}</h4>
                                 <p>{tabs[activeTab].content.description}</p>
-                                <ButtonCommon txt="Free Consultation" />
+                                <CtaCommon
+                                    txt="Free Consultation"
+                                    href='javascript:$zopim.livechat.window.show();'
+                                />
                             </div>
                         </div>
                     </Col>

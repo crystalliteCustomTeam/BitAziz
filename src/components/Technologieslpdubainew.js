@@ -46,7 +46,7 @@ const Technologieslpdubai = ({ content }) => {
                                             <p className='fontsfregular'>
                                                 We are well-versed in developing native applications programmed exclusively for a specific platform, such as iOS or Android. This method equally utilizes each platform's distinctive traits and strengths, resulting in the same optimized user interface.
                                             </p>
-                                            <a href="javascript:$zopim.livechat.window.show();" className={styles.btn}>
+                                            <a href='javascript:$zopim.livechat.window.show();' className={styles.btn}>
                                                 <span>
                                                     Talk Our Experts
                                                 </span>
@@ -71,7 +71,7 @@ const Technologieslpdubai = ({ content }) => {
                                             <p className='fontsfregular'>
                                                 We develop hybrid mobile applications capable of working on different platforms with a single codebase that allows you to get a wider audience coverage of the target market. Hybrid apps cost less and aren’t tied to a specific platform, meaning performance isn’t compromised when they run on different devices.
                                             </p>
-                                            <a href="javascript:$zopim.livechat.window.show();" className={styles.btn}>
+                                            <a href='javascript:$zopim.livechat.window.show();' className={styles.btn}>
                                                 <span>
                                                     Talk Our Experts
                                                 </span>
@@ -95,7 +95,7 @@ const Technologieslpdubai = ({ content }) => {
                                             <p className='fontsfregular'>
                                                 The product strategy services offered by us assist you in deciding the goals of your app, the target audience as well as the key features of your app. Our team will work with you to agree on the best approach for your app, making sure that it helps achieve your business objectives and is appealing to your target audience.
                                             </p>
-                                            <a href="javascript:$zopim.livechat.window.show();" className={styles.btn}>
+                                            <a href='javascript:$zopim.livechat.window.show();' className={styles.btn}>
                                                 <span>
                                                     Talk Our Experts
                                                 </span>
@@ -119,7 +119,7 @@ const Technologieslpdubai = ({ content }) => {
                                             <p className='fontsfregular'>
                                                 We excel in creating e-commerce applications that offer your customers a flawless online purchasing process. We go beyond doing the job that matters and deliver an e-commerce app with intelligent navigation, safe payment gateways, and every other feature that helps you increase sales and income.
                                             </p>
-                                            <a href="javascript:$zopim.livechat.window.show();" className={styles.btn}>
+                                            <a href='javascript:$zopim.livechat.window.show();' className={styles.btn}>
                                                 <span>
                                                     Talk Our Experts
                                                 </span>
@@ -143,7 +143,7 @@ const Technologieslpdubai = ({ content }) => {
                                             <p className='fontsfregular'>
                                                 Our B2B app development services are crafted to accommodate the business specifications of any company that strives to reduce manual work and amplify processing Be it a custom-made CRM or sales management app, we are proficient in developing sophisticated solutions for any type of business.
                                             </p>
-                                            <a href="javascript:$zopim.livechat.window.show();" className={styles.btn}>
+                                            <a href='javascript:$zopim.livechat.window.show();' className={styles.btn}>
                                                 <span>
                                                     Talk Our Experts
                                                 </span>

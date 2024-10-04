@@ -290,7 +290,7 @@ const EcommerceBanner = () => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="javascript:$zopim.livechat.window.show();" className='d-flex align-items-center'>
+                                    <a href='javascript:$zopim.livechat.window.show();' className='d-flex align-items-center'>
                                         <Image src={Support} alt='email' width={18} height={18} />
                                         <span className='font14 text-white font-medium ms-2'>Live Chat</span>
                                     </a>

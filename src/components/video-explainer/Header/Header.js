@@ -32,7 +32,7 @@ const VideoHeader = () => {
                                 </a>
                             </div>
                             <div>
-                                <a href="javascript:$zopim.livechat.window.show();" className={`${styles.btn} d-lg-flex align-items-center d-none`}>
+                                <a href='javascript:$zopim.livechat.window.show();' className={`${styles.btn} d-lg-flex align-items-center d-none`}>
                                     <Image src={chatIcon} lt='Chat Icon' className={`me-2 ${styles.chatIcon}`} />
                                     Live Chat
                                 </a>
