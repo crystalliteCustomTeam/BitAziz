@@ -15,7 +15,7 @@ const Globalmap = ({ content }) => {
                 <h2>Meet Our Experts <br></br>
                   One-on-One</h2>
                 <a className={styles.address} target="_blank" href={link}>{address}</a>
-                <a className={`pink ${styles.timr}`} href="javascript:$zopim.livechat.window.show();">
+                <a className={`pink ${styles.timr}`} href='javascript:$zopim.livechat.window.show();'>
                   Let's Chat
                 </a>
                 <p className="black mb-0">Call us at <a className={styles.num} href={href}>{number}</a> </p>

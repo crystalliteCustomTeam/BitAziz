@@ -29,7 +29,7 @@ const DubaiDevelopment = ({ content }) => {
                                     </p>
                                 </div>
                             ))}
-                            <a href="javascript:$zopim.livechat.window.show();">Get in Touch with our Experts Now!</a>
+                            <a href='javascript:$zopim.livechat.window.show();'>Get in Touch with our Experts Now!</a>
                         </Col>
                     </Row>
                 </Container>

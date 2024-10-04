@@ -48,7 +48,7 @@ const GameCapabilities = () => {
                                     <h2>Explore a New Dimension of Fun with <br className='d-xl-block d-none'></br> Our Blockchain Game Development  <br></br> Company</h2>
                                     <p className='white'>Our blockchain-based solutions provide gamers with the highest level of security, ensuring that their digital assets remain safely in their hands. BitsWits is experienced in crafting games for both mobile and PC platforms and boasts a wealth of experience in creating games for both the public and private sectors. We also ensure that all of our games comply with the latest industry standards, so you can be sure that your investment in our technology is secure. From world-class art direction to feature-rich gameplay mechanics, BitsWits is your partner in creating the perfect gaming experience. Contact us today to learn how we can help make your upcoming game a success!</p>
                                 </div>
-                                <a className={styles.about} href="javascript:$zopim.livechat.window.show();">LET'S CONNECT</a>
+                                <a className={styles.about} href='javascript:$zopim.livechat.window.show();'>LET'S CONNECT</a>
                             </div>
                         </Col>
                     </Row>

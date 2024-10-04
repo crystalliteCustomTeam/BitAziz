@@ -88,7 +88,7 @@ const HireServices = () => {
                                     <h5>{service.title}</h5>
                                     <p>{service.description}</p>
                                     <div className={styles.btns}>
-                                        <a className={`${styles.btn} ${styles.btn2}`} href="javascript:$zopim.livechat.window.show();">
+                                        <a className={`${styles.btn} ${styles.btn2}`} href='javascript:$zopim.livechat.window.show();'>
                                             Hire Now
                                         </a>
                                     </div>
@@ -107,7 +107,7 @@ const HireServices = () => {
                                             <h5>{service.title}</h5>
                                             <p>{service.description}</p>
                                             <div className={styles.btns}>
-                                                <a className={`${styles.btn} ${styles.btn2}`} href="javascript:$zopim.livechat.window.show();">
+                                                <a className={`${styles.btn} ${styles.btn2}`} href='javascript:$zopim.livechat.window.show();'>
                                                     Hire Now
                                                 </a>
                                             </div>

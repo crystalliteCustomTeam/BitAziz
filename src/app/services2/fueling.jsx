@@ -2,7 +2,7 @@ import IMG from "media/services/cuttingEdge.webp"
 import styles from "@/styles/services/fueling.module.scss"
 import { Col, Container, Row } from "react-bootstrap"
 import Image from "next/image"
-import ButtonCommon from "@/src/components/common/button"
+import CtaCommon from "@/src/components/common/cta"
 
 const Fueling = () => {
     return (
@@ -22,7 +22,10 @@ const Fueling = () => {
                                     <Image src={IMG.src} alt="Bitswits Services" width={350} height={290} />
                                 </div>
                             </div>
-                            <ButtonCommon txt="Free Consultation" />
+                            <CtaCommon
+                                txt="Free Consultation"
+                                href='javascript:$zopim.livechat.window.show();'
+                            />
                         </div>
                     </Col>
                     <Col lg={5} md={6} className="offset-lg-1">

@@ -11,7 +11,7 @@ const cta = (props) => {
         <>
             <div className='mt-4 d-md-flex justify-content-left align-content-left mobile-center'>
                 <span className='pe-3 text-sm-center'>
-                    <a className='btn btn-primary marginb' href="javascript:$zopim.livechat.window.show();">{props.discuss}</a>
+                    <a className='btn btn-primary marginb' href='javascript:$zopim.livechat.window.show();'>{props.discuss}</a>
                 </span>
                 <span className='line'></span>
                 <span  className='px-3 pt-sm-2 text-sm-center'>

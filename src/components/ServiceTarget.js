@@ -24,7 +24,7 @@ const ServiceTarget = (props) => {
                             <div className={styles.desigh}>
                                 <h3>{props.heading1}</h3>
                                 <p>{props.content1}</p>
-                                <a href="javascript:$zopim.livechat.window.show();">
+                                <a href='javascript:$zopim.livechat.window.show();'>
                                     Get to know us
                                     <Image quality={75} alt='BitsWits' src={home_btn1} className='img-fluid' />
                                 </a>
@@ -36,7 +36,7 @@ const ServiceTarget = (props) => {
                             <div className={styles.desigh}>
                                 <h3>{props.heading2}</h3>
                                 <p>{props.content2}</p>
-                                <a href="javascript:$zopim.livechat.window.show();">
+                                <a href='javascript:$zopim.livechat.window.show();'>
                                     Get to know us
                                     <Image quality={75} alt='BitsWits' src={home_btn1} className='img-fluid' />
                                 </a>
@@ -46,7 +46,7 @@ const ServiceTarget = (props) => {
                             <div className={styles.desigh}>
                                 <h3>{props.heading3}</h3>
                                 <p>{props.content3}</p>
-                                <a href="javascript:$zopim.livechat.window.show();">
+                                <a href='javascript:$zopim.livechat.window.show();'>
                                     Get to know us
                                     <Image quality={75} alt='BitsWits' src={home_btn1} className='img-fluid' />
                                 </a>

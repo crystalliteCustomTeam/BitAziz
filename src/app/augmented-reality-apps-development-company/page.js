@@ -260,7 +260,7 @@ export default function augmentedrealityappsdevelopment() {
             title: "Consult Our Specialists",
             text: "Reach out to our specialists without any hesitation via email or call to attain a free consultation.",
             buttonText: "Connect Now!",
-            link: "javascript:$zopim.livechat.window.show();",
+            link: 'javascript:$zopim.livechat.window.show();',
           },
           {
             number: "02",
@@ -272,7 +272,7 @@ export default function augmentedrealityappsdevelopment() {
             ),
             text: "Get a detailed cost breakdown for your app development project.",
             buttonText: "Chat Now!",
-            link: "javascript:$zopim.livechat.window.show();",
+            link: 'javascript:$zopim.livechat.window.show();',
           },
           {
             number: "03",

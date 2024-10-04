@@ -21,7 +21,7 @@ const LpChoosedubaiship = (props) => {
                 At BitsWits, we offer a wide range of services and solutions across diverse sectors and industries. Our app development company in Dubai work hand in hand with clients to create spectacular apps that drive results and generate revenue.
               </p>
               <div className="mt-4">
-                <a href="javascript:$zopim.livechat.window.show();" className={styles.dus}>
+                <a href='javascript:$zopim.livechat.window.show();' className={styles.dus}>
                   Let’s Get Connected Today!
                 </a>
               </div>

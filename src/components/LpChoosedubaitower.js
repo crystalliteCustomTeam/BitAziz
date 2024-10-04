@@ -26,7 +26,7 @@ const LpChoosedubaitower = (props) => {
                 At BitsWits, we are bringing an exceptional team of certified software engineers, product developers, Q&A engineers, and business strategists to the region. We promise a tech-driven environment that thrives on experience-led digital solutions, further nurturing Dubai's entrepreneurial culture.
               </p>
               <p>BitsWits has developed a comprehensive digital transformation suite, encompassing all the necessary digital tools that businesses need to navigate uncertain times, plan strategically, and maintain the resilience of their industries and business models. With BitsWits, your digital transformation is in expert hands, ready to conquer challenges and secure success.</p>
-              <a href="javascript:$zopim.livechat.window.show();" className={styles.dus}>
+              <a href='javascript:$zopim.livechat.window.show();' className={styles.dus}>
                 Let’s Get Started
               </a>
             </Col>

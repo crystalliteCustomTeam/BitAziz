@@ -72,9 +72,9 @@ const CaseStudySection = () => {
                                             <p>We designed Practice Pen as a skill development app that uses video-based learning and gamification. Users can upload practice videos, receive feedback, and compete in interactive challenges to win prizes, making learning fun and engaging.</p>
                                             <div className={styles.blackBtn}>
                                                 <Image src={store} alt='Bitswits' className='img-fluid' />
-                                                <div className={styles.linksBtn} onClick={handleChatOpen}>
+                                                <Link href='javascript:$zopim.livechat.window.show();' className={styles.linksBtn}>
                                                     Let’s Talk
-                                                </div>
+                                                </Link>
                                             </div>
                                         </div>
                                         <div className={styles.bottomBox}>
@@ -141,9 +141,9 @@ const CaseStudySection = () => {
                                             <p>We created Soul Scribe as a social networking app that serves as a digital diary, allowing users to invite friends and family to contribute to an online journal. Featuring a freemium subscription model with a complimentary family room option.</p>
                                             <div className={styles.blackBtn}>
                                                 <Image src={store} alt='Bitswits' className='img-fluid' />
-                                                <div className={styles.linksBtn} onClick={handleChatOpen}>
+                                                <Link href='javascript:$zopim.livechat.window.show();' className={styles.linksBtn}>
                                                     Let’s Talk
-                                                </div>
+                                                </Link>
                                             </div>
                                         </div>
                                         <div className={styles.bottomBox}>
@@ -210,9 +210,9 @@ const CaseStudySection = () => {
                                             <p>We developed Crave Cuisine, a food delivery app that streamlines the process of selecting local eateries and placing orders. Enjoy convenient dining with a wide range of meal choices, all in one easy-to-use app.</p>
                                             <div className={styles.blackBtn}>
                                                 <Image src={store} alt='Bitswits' className='img-fluid' />
-                                                <div className={styles.linksBtn} onClick={handleChatOpen}>
+                                                <Link href='javascript:$zopim.livechat.window.show();' className={styles.linksBtn}>
                                                     Let’s Talk
-                                                </div>
+                                                </Link>
                                             </div>
                                         </div>
                                         <div className={styles.bottomBox}>
@@ -279,9 +279,9 @@ const CaseStudySection = () => {
                                             <p>We developed Fitnow as a user-friendly fitness app that allows users to select workouts, set goals, and customize routines with expert guidance. With a simple interface, Fitnow makes tracking progress and achieving fitness goals easy.</p>
                                             <div className={styles.blackBtn}>
                                                 <Image src={store} alt='Bitswits' className='img-fluid' />
-                                                <div className={styles.linksBtn} onClick={handleChatOpen}>
+                                                <Link href='javascript:$zopim.livechat.window.show();' className={styles.linksBtn}>
                                                     Let’s Talk
-                                                </div>
+                                                </Link>
                                             </div>
                                         </div>
                                         <div className={styles.bottomBox}>
@@ -348,9 +348,9 @@ const CaseStudySection = () => {
                                             <p>We created Route Rover, a navigation and route-planning app designed to optimize travel. Whether for daily commutes or road trips, users can discover efficient routes, avoid traffic, and explore new destinations with ease.</p>
                                             <div className={styles.blackBtn}>
                                                 <Image src={store} alt='Bitswits' className='img-fluid' />
-                                                <div className={styles.linksBtn} onClick={handleChatOpen}>
+                                                <Link href='javascript:$zopim.livechat.window.show();' className={styles.linksBtn}>
                                                     Let’s Talk
-                                                </div>
+                                                </Link>
                                             </div>
                                         </div>
                                         <div className={styles.bottomBox}>
