@@ -10,20 +10,20 @@ const Activity = () => {
                     <Col lg={10} md={12} className="m-auto">
                         <div className={`${styles.activityBox} commongradientBG`}>
                             <div className={styles.activityitem}>
-                                60K
-                                <span>Our Active User</span>
+                                99%
+                                <span>Satisfaction Rate</span>
                             </div>
                             <div className={styles.activityitem}>
-                                67K
-                                <span>Our Active User</span>
+                                85%
+                                <span>User Retention</span>
                             </div>
                             <div className={styles.activityitem}>
-                                47K
-                                <span>Our Active User</span>
+                                10k+
+                                <span>Game Download </span>
                             </div>
                             <div className={styles.activityitem}>
-                                42K
-                                <span>Our Active User</span>
+                                12+
+                                <span>Years Experience</span>
                             </div>
                         </div>
                     </Col>
