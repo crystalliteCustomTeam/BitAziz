@@ -24,7 +24,7 @@ import TechStackIcon07 from "media/casestudies/techIcon/JavaScript.svg"
 import TechStackIcon08 from "media/casestudies/techIcon/Adobe-XD.webp"
 import TechStackIcon09 from "media/casestudies/techIcon/Adobe-Illustrator.webp"
 import TechStackIcon10 from "media/casestudies/techIcon/Adobe-Photoshop.webp"
-import TechStackIcon11 from "media/casestudies/techIcon/Figma.webp"
+import TechStackIcon11 from "media/casestudies/techIcon/figma.webp"
 import TechStackIcon12 from "media/casestudies/techIcon/InVision.webp"
 import TechStackIcon13 from "media/casestudies/techIcon/Balsamiq.webp"
 
