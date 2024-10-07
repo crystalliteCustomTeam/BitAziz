@@ -121,7 +121,7 @@ export default function dubaidevelopmentcompany() {
       <span className="mb-5 mb-sm-0 d-block">Here is the process we follow for developing mobile apps for our clients.</span>
     </>,
     heading1: "Research and Strategy",
-    para1: "In the research and strategy phase for app development Dubai, we conduct intensive user interviews, ethnographic research, and competitive analysis. This informs our conception, prototyping, and user testing process. Guided by strategy workshops with the client, we develop hypotheses for MVPs and prototypes to align with client goals, ensuring effective product development.",
+    para1: (<> In the research and strategy phase for <a className="text-black" href="https://www.bitswits.co/mobile-app-development-company-dubai">app development Dubai</a>, we conduct intensive user interviews, ethnographic research, and competitive analysis. This informs our conception, prototyping, and user testing process. Guided by strategy workshops with the client, we develop hypotheses for MVPs and prototypes to align with client goals, ensuring effective product development. </>),
     heading2: "Development",
     para2: "In the development phase, our mobile app developers in Dubai follow agile methodologies with 2-week sprints for iterative development and testing of user stories and features. We conduct comprehensive usability testing and optimize app store metadata. Our process includes sprintly regression tests and end-to-end scenario tests to ensure a smooth app launch and submission process.",
     heading3: "UI and UX",
@@ -206,7 +206,7 @@ export default function dubaidevelopmentcompany() {
       num: "04",
       title: "How to choose a reputable mobile app development company in Dubai?",
       content: `<p class='fontsfregular'>When searching for a premier mobile app development firm in Dubai, it's crucial to assess various essential characteristics to guarantee your app's success.</p>
-        <p class='fontsfregular'>Several vital factors to consider when selecting an app development company in Dubai include:</p>
+        <p class='fontsfregular'>Several vital factors to consider when selecting an <a class="text-black" href="https://www.bitswits.co/mobile-app-development-company-dubai">app development company in Dubai</a> include:</p>
         <h3>Vast Experience & Expertise</h3>
         <p class='fontsfregular'>Primarily, ensure that the chosen company not only showcases a robust portfolio but also demonstrates expertise across various platforms and sectors. Their previous achievements validate their ability to develop fully functional mobile apps within specified timelines. Additionally, ascertain the company's proficiency in handling diverse mobile app development tasks and assess their experience and competence in your targeted industry or niche.</p>
         <h3>Effective Communication</h3>
@@ -284,14 +284,13 @@ export default function dubaidevelopmentcompany() {
       content: 'There Are Around 2.69 Million Apps For Android Smartphones. Almost Everyone Understands Android Apps, And Many Are Ready To Launch Their Own. But...'
     },
   ];
-
   // Global Conten
   const global = {
-    address: "",
+    address: "Office 1402, Jumeirah Business Center 3 - Cluster Y - Jumeirah Lake Towers - Dubai - United Arab Emirates",
     number: "(971) 55 503 1266 ",
     href: "tel:+971555031266",
     image: MapImage,
-    link: "https://maps.app.goo.gl/8PKQdpVrHinUxnFK8"
+    link: "https://maps.app.goo.gl/x56GvefpZPJFMbK7A"
   }
   return (
     <>
