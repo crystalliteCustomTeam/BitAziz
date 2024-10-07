@@ -434,7 +434,7 @@
 /* ============Chicago============ */
 
 .chicago .marker {
-  top: 140px;
+  top: 130px;
 }
 
 .chicago .timelineMain:before {
@@ -443,26 +443,35 @@
 }
 
 .chicago .timeOne::after {
-  height: 75%;
+  height: 80%;
+  bottom: -75px;
 }
 
 .chicago .timeTwo::after {
-  height: 33%;
-  top: 126px;
+  height: 30%;
+  top: 135px;
+}
+
+.chicago .numberOne {
+  top: 80px;
 }
 
 .chicago .numberTwo {
   top: 320px;
 }
 
+.chicago .numberThree {
+  top: -42px;
+}
+
 .chicago .timeThree::before {
-  height: 33.7%;
-  top: -197px;
+  height: 32%;
+  top: -223px;
 }
 
 .chicago .timeThree::after {
-  height: 38%;
-  top: 45px;
+  height: 43%;
+  top: 12px;
 }
 
 .chicago .numberFour {
@@ -1000,7 +1009,7 @@
   }
 
   .chicago .numberTwo {
-    top: 320px;
+    top: 315px;
   }
 
   .chicago .timeThree::before {
