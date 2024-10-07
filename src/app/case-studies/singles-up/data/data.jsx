@@ -14,12 +14,19 @@ import SolutionImg from "media/casestudies/singles-up/SolutionImg.webp"
 import ScrollingSectionImg from "media/casestudies/singles-up/ScrollingImage.webp"
 
 // TechStack Images
-import TechStackIcon01 from "media/casestudies/techIcon/01.webp"
-import TechStackIcon02 from "media/casestudies/techIcon/02.webp"
-import TechStackIcon03 from "media/casestudies/techIcon/03.webp"
-import TechStackIcon04 from "media/casestudies/techIcon/04.webp"
-import TechStackIcon05 from "media/casestudies/techIcon/05.webp"
-import TechStackIcon06 from "media/casestudies/techIcon/06.webp"
+import TechStackIcon01 from "media/casestudies/techIcon/React-Native.webp"
+import TechStackIcon02 from "media/casestudies/techIcon/Flutter.webp"
+import TechStackIcon03 from "media/casestudies/techIcon/Xamarin.webp"
+import TechStackIcon04 from "media/casestudies/techIcon/Swift.webp"
+import TechStackIcon05 from "media/casestudies/techIcon/Ionic.webp"
+import TechStackIcon06 from "media/casestudies/techIcon/AWS.webp"
+import TechStackIcon07 from "media/casestudies/techIcon/JavaScript.svg"
+import TechStackIcon08 from "media/casestudies/techIcon/Adobe-XD.webp"
+import TechStackIcon09 from "media/casestudies/techIcon/Adobe-Illustrator.webp"
+import TechStackIcon10 from "media/casestudies/techIcon/Adobe-Photoshop.webp"
+import TechStackIcon11 from "media/casestudies/techIcon/Figma.webp"
+import TechStackIcon12 from "media/casestudies/techIcon/InVision.webp"
+import TechStackIcon13 from "media/casestudies/techIcon/Balsamiq.webp"
 
 // Result Images
 import ResultImg from "media/casestudies/singles-up/ResultImg.webp"
@@ -103,29 +110,57 @@ export const TechStackData = {
 
 export const TechStackList = [
     {
-        title: "Android",
+        title: "React Native",
         icon: TechStackIcon01.src
     },
     {
-        title: "Python",
+        title: "Flutter",
         icon: TechStackIcon02.src
     },
     {
-        title: "Android",
+        title: "Xamarin",
         icon: TechStackIcon03.src
     },
     {
-        title: "Node JS",
+        title: "Swift",
         icon: TechStackIcon04.src
     },
     {
-        title: "Abode Photoshop",
+        title: "Ionic",
         icon: TechStackIcon05.src
     },
     {
-        title: "Figma",
+        title: "AWS",
         icon: TechStackIcon06.src
     },
+    {
+        title: "JavaScript",
+        icon: TechStackIcon07.src
+    },
+    {
+        title: "Adobe-XD",
+        icon: TechStackIcon08.src
+    },
+    {
+        title: "Adobe-Illustrator",
+        icon: TechStackIcon09.src
+    },
+    {
+        title: "Adobe-Photoshop",
+        icon: TechStackIcon10.src
+    },
+    {
+        title: "Figma",
+        icon: TechStackIcon11.src
+    },
+    {
+        title: "InVision",
+        icon: TechStackIcon12.src
+    },
+    {
+        title: "Balsamiq",
+        icon: TechStackIcon13.src
+    }
 ]
 
 export const ResultData = {

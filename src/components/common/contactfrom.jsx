@@ -170,7 +170,7 @@ const ContactFrom = ({ idea, appidea, discussion, popup, contactpage }) => {
                 </div>
 
                 {discussion ?
-                    null
+                    <textarea name="comment" placeholder='Tell us about your Project' className='d-none' value=""></textarea>
                     :
                     <>
                         <div className={styles.fieldBox}>

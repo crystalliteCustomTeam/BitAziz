@@ -68,13 +68,15 @@ const isDarkHeader = [
     "/ai-development-company",
     "/blockchain-game-development-company",
     "/mobile-application-development-services",
+    "/hybrid-app-development-company",
     "/lp/mobile-application-development-services",
     "/portfolio",
     "/contact-us",
     "/bitswits-services-page-1",
     "/mobile-application-development-services",
     "/lp/mobile-app-development-services",
-    "/thank-you"
+    "/thank-you",
+    "/blog/"
 ]
 const ConditionalLayout = ({ children }) => {
     const pathname = usePathname();
@@ -83,7 +85,7 @@ const ConditionalLayout = ({ children }) => {
     const [useAltStyle, setUseAltStyle] = useState(false);
     useEffect(() => {
         setIsLight(isLightHeader.includes(pathname) || pathname.startsWith('/case-studies/'));
-        setIsDark(isDarkHeader.includes(pathname));
+        setIsDark(isDarkHeader.includes(pathname) || pathname.startsWith('/blog/'));
         if (typeof window !== 'undefined') {
             const pathname = window.location.pathname;
             document.body.style.fontFamily = '';
