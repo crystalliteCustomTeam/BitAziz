@@ -170,6 +170,12 @@
                                         left: -27px;
                                         transform: translate(0px, -50%);
                                     }
+
+                                    &:hover {
+                                        transition: .3s linear;
+                                        color: #F32FAF;
+                                    }
+
                                 }
                             }
                         }

@@ -56,8 +56,10 @@ export default function Page() {
       <Blogs data={BlogsContent} list={BlogsList} />
 
       {/* Breadcrumb Schema */}
-      <script type="application/ld+json">
-        {`
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: `
       {
         "@context": "https://schema.org/", 
         "@type": "BreadcrumbList", 
@@ -73,12 +75,15 @@ export default function Page() {
           "item": "https://www.bitswits.co/social-media-app-development-company"  
         }]
       }
-      `}
-      </script>
+    `
+        }}
+      />
 
       {/* Website Schema */}
-      <script type="application/ld+json">
-        {`
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: `
       {
         "@context": "https://schema.org/",
         "@type": "WebSite",
@@ -90,12 +95,15 @@ export default function Page() {
           "query-input": "required name=search_term_string"
         }
       }
-      `}
-      </script>
+    `
+        }}
+      />
 
       {/* Organization Schema */}
-      <script type="application/ld+json">
-        {`
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: `
       {
         "@context": "https://schema.org",
         "@type": "Organization",
@@ -118,12 +126,15 @@ export default function Page() {
           "https://www.linkedin.com/company/officialBitsWits"
         ]
       }
-      `}
-      </script>
+    `
+        }}
+      />
 
       {/* Local Business Schema */}
-      <script type="application/ld+json">
-        {`
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: `
       {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
@@ -166,12 +177,15 @@ export default function Page() {
           "https://www.linkedin.com/company/officialBitsWits"
         ]
       }
-      `}
-      </script>
+    `
+        }}
+      />
 
       {/* Product Schema */}
-      <script type="application/ld+json">
-        {`
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: `
       {
         "@context": "https://schema.org",
         "@type": "Product",
@@ -197,8 +211,10 @@ export default function Page() {
           }
         }
       }
-      `}
-      </script>
+    `
+        }}
+      />
+
 
     </>
   );

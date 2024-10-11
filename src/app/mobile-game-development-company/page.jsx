@@ -17,42 +17,43 @@ import Projectdiscuss from "@/src/app/mobile-game-development-company/projectdis
 import Services from "@/src/app/mobile-game-development-company/services";
 
 import {
-    BannerData, ProjectdiscussContent, ServicesContent,
-    ServicesList, GameCtaContent, ContentSecContent,
-    ContentSecLGContent, ProcessContent,
-    WhyChooseContent, WhyChooseList1,
-    WhyChooseList2, ProcessTabs, TestimonialContent,
-    TestimonialSLIDES, OffersContent,
-    OffersTabs, FuelingContent, FuelingList,
-    TechStackTabs, TechStackContent, IdeaCtaContent,
-    FaqsContent, FaqsList, BlogsContent,
-    BlogsList
+  BannerData, ProjectdiscussContent, ServicesContent,
+  ServicesList, GameCtaContent, ContentSecContent,
+  ContentSecLGContent, ProcessContent,
+  WhyChooseContent, WhyChooseList1,
+  WhyChooseList2, ProcessTabs, TestimonialContent,
+  TestimonialSLIDES, OffersContent,
+  OffersTabs, FuelingContent, FuelingList,
+  TechStackTabs, TechStackContent, IdeaCtaContent,
+  FaqsContent, FaqsList, BlogsContent,
+  BlogsList
 } from "@/src/app/mobile-game-development-company/data/data";
 
 export default function Home() {
-    return (
-        <>
-            <Banner data={BannerData} />
-            <Activity />
-            <Projectdiscuss data={ProjectdiscussContent} />
-            <Services data={ServicesContent} list={ServicesList} />
-            <Testimonial data={TestimonialContent} list={TestimonialSLIDES} />
-            <GameCta data={GameCtaContent} />
-            <ContentSec data={ContentSecContent} />
-            <Process data={ProcessContent} tabs={ProcessTabs} />
-            <WhyChoose data={WhyChooseContent} list1={WhyChooseList1} list2={WhyChooseList2} />
-            <Offers bg={true} data={OffersContent} tabs={OffersTabs} />
-            <ContentSecLG data={ContentSecLGContent} />
-            <IdeaCta data={IdeaCtaContent} />
-            {/* <TechStack data={TechStackContent} tabs={TechStackTabs} /> */}
-            <Fueling data={FuelingContent} list={FuelingList} />
-            <Faqs data={FaqsContent} list={FaqsList} />
-            <Blogs data={BlogsContent} list={BlogsList} />
+  return (
+    <>
+      <Banner data={BannerData} />
+      <Activity />
+      <Projectdiscuss data={ProjectdiscussContent} />
+      <Services data={ServicesContent} list={ServicesList} />
+      <Testimonial data={TestimonialContent} list={TestimonialSLIDES} />
+      <GameCta data={GameCtaContent} />
+      <ContentSec data={ContentSecContent} />
+      <Process data={ProcessContent} tabs={ProcessTabs} />
+      <WhyChoose data={WhyChooseContent} list1={WhyChooseList1} list2={WhyChooseList2} />
+      <Offers bg={true} data={OffersContent} tabs={OffersTabs} />
+      <ContentSecLG data={ContentSecLGContent} />
+      <IdeaCta data={IdeaCtaContent} />
+      {/* <TechStack data={TechStackContent} tabs={TechStackTabs} /> */}
+      <Fueling data={FuelingContent} list={FuelingList} />
+      <Faqs data={FaqsContent} list={FaqsList} />
+      <Blogs data={BlogsContent} list={BlogsList} />
 
-            {/* Breadcrumb Schema */}
-            <script type="application/ld+json">
-                {`
-          {
+      {/* Breadcrumb Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org/",
             "@type": "BreadcrumbList",
             "itemListElement": [
@@ -69,14 +70,15 @@ export default function Home() {
                 "item": "https://www.bitswits.co/mobile-game-development-company"
               }
             ]
-          }
-        `}
-            </script>
+          })
+        }}
+      />
 
-            {/* Website Schema */}
-            <script type="application/ld+json">
-                {`
-          {
+      {/* Website Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org/",
             "@type": "WebSite",
             "name": "Mobile Game App Development Company - BitsWits",
@@ -86,14 +88,15 @@ export default function Home() {
               "target": "{search_term_string}",
               "query-input": "required name=search_term_string"
             }
-          }
-        `}
-            </script>
+          })
+        }}
+      />
 
-            {/* Organization Schema */}
-            <script type="application/ld+json">
-                {`
-          {
+      {/* Organization Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
             "name": "Mobile Game App Development Company - BitsWits",
@@ -114,14 +117,15 @@ export default function Home() {
               "https://www.youtube.com/@officialBitsWits",
               "https://www.linkedin.com/company/officialBitsWits"
             ]
-          }
-        `}
-            </script>
+          })
+        }}
+      />
 
-            {/* Local Business Schema */}
-            <script type="application/ld+json">
-                {`
-          {
+      {/* Local Business Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Mobile Game App Development Company - BitsWits",
@@ -161,14 +165,15 @@ export default function Home() {
               "https://www.youtube.com/@officialBitsWits",
               "https://www.linkedin.com/company/officialBitsWits"
             ]
-          }
-        `}
-            </script>
+          })
+        }}
+      />
 
-            {/* Product Schema */}
-            <script type="application/ld+json">
-                {`
-          {
+      {/* Product Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Product",
             "name": "Mobile Game App Development Company - BitsWits",
@@ -192,10 +197,11 @@ export default function Home() {
                 "url": "https://clutch.co/profile/bitswits"
               }
             }
-          }
-        `}
-            </script>
+          })
+        }}
+      />
 
-        </>
-    );
+
+    </>
+  );
 }

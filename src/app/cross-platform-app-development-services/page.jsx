@@ -59,9 +59,10 @@ export default function Page() {
       <Faqs data={FaqsContent} list={FaqsList} />
       <Blogs data={BlogsContent} list={BlogsList} />
       {/* Breadcrumb Schema */}
-      <script type="application/ld+json">
-        {`
-          {
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org/",
             "@type": "BreadcrumbList",
             "itemListElement": [
@@ -69,23 +70,24 @@ export default function Page() {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://www.bitswits.co/"
+                "item": "https://www.bitswits.co/",
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Cross-Platform App Development Services",
-                "item": "https://www.bitswits.co/cross-platform-app-development-services"
-              }
-            ]
-          }
-        `}
-      </script>
+                "item": "https://www.bitswits.co/cross-platform-app-development-services",
+              },
+            ],
+          }),
+        }}
+      />
 
       {/* Website Schema */}
-      <script type="application/ld+json">
-        {`
-          {
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org/",
             "@type": "WebSite",
             "name": "Cross-Platform App Development Services | BitsWits",
@@ -93,16 +95,17 @@ export default function Page() {
             "potentialAction": {
               "@type": "SearchAction",
               "target": "{search_term_string}",
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}
-      </script>
+              "query-input": "required name=search_term_string",
+            },
+          }),
+        }}
+      />
 
       {/* Organization Schema */}
-      <script type="application/ld+json">
-        {`
-          {
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
             "name": "Cross-Platform App Development Services | BitsWits",
@@ -114,23 +117,24 @@ export default function Page() {
               "telephone": "+1 833 500-6007",
               "contactType": "customer service",
               "areaServed": "US",
-              "availableLanguage": "en"
+              "availableLanguage": "en",
             },
             "sameAs": [
               "https://www.facebook.com/officialBitsWits",
               "https://twitter.com/BitsWits_/",
               "https://www.instagram.com/officialBitsWits/",
               "https://www.youtube.com/@officialBitsWits",
-              "https://www.linkedin.com/company/officialBitsWits"
-            ]
-          }
-        `}
-      </script>
+              "https://www.linkedin.com/company/officialBitsWits",
+            ],
+          }),
+        }}
+      />
 
       {/* Local Business Schema */}
-      <script type="application/ld+json">
-        {`
-          {
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Cross-Platform App Development Services | BitsWits",
@@ -143,60 +147,71 @@ export default function Page() {
               "addressLocality": "Houston",
               "addressRegion": "TX",
               "postalCode": "77056",
-              "addressCountry": "US"
+              "addressCountry": "US",
             },
             "geo": {
               "@type": "GeoCoordinates",
               "latitude": 29.7372487,
-              "longitude": -95.4618603
+              "longitude": -95.4618603,
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+              ],
               "opens": "00:00",
-              "closes": "23:59"
+              "closes": "23:59",
             },
             "sameAs": [
               "https://www.facebook.com/officialBitsWits",
               "https://twitter.com/BitsWits_/",
               "https://www.instagram.com/officialBitsWits/",
               "https://www.youtube.com/@officialBitsWits",
-              "https://www.linkedin.com/company/officialBitsWits"
-            ]
-          }
-        `}
-      </script>
+              "https://www.linkedin.com/company/officialBitsWits",
+            ],
+          }),
+        }}
+      />
 
       {/* Product Schema */}
-      <script type="application/ld+json">
-        {`
-          {
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Product",
             "name": "Cross-Platform App Development Services | BitsWits",
             "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
             "url": "https://www.bitswits.co/cross-platform-app-development-services",
-            "description": "Expert cross-platform app development services for seamless, high-performing apps on iOS, Android, and web. Boost engagement with cost-effective solutions.",
+            "description":
+              "Expert cross-platform app development services for seamless, high-performing apps on iOS, Android, and web. Boost engagement with cost-effective solutions.",
             "brand": {
               "@type": "Brand",
-              "name": "BitsWits"
+              "name": "BitsWits",
             },
             "review": {
               "@type": "Review",
               "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "4.9",
-                "bestRating": "5"
+                "bestRating": "5",
               },
               "author": {
                 "@type": "Organization",
                 "name": "Clutch",
-                "url": "https://clutch.co/profile/bitswits"
-              }
-            }
-          }
-        `}
-      </script>
+                "url": "https://clutch.co/profile/bitswits",
+              },
+            },
+          }),
+        }}
+      />
+
+
     </>
   );
 }

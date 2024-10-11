@@ -54,31 +54,31 @@ export default function dubaidevelopmentcompany() {
   //=====StoryLine Fold=====//
   const accordionData = [
     {
-      question: 'Android App Development in NYC',
+      question: 'Android App Development in New York',
       answer: "We offer top-tier Android app development services to entrepreneurs looking to build high-performance native Android apps. Our tech stack for Android app development in New York includes programming languages like Kotlin, Java, and PHP, with Android Studio as the IDE, MongoDB or MySQL for databases, and Android Jetpack for UI components, ensuring seamless performance.",
       btn: "Let’s Build My Android App",
       StoryLineImg: StoryLine2
     },
     {
-      question: 'iOS App Development in NYC',
+      question: 'iOS App Development in New York',
       answer: "Building top-tier iOS apps requires a solid tech stack, and our iOS app developers in New York are experienced with the essential tools and languages for success. Our team uses Swift and Objective-C, along with tools like Xcode and SwiftUI, to develop native apps that leverage GPS, cameras, and high-performance processors, ensuring seamless performance across all iOS devices.",
       btn: "Let’s Build My iOS App!",
       StoryLineImg: StoryLine3
     },
     {
-      question: 'Cross-Platform App Development in NYC',
+      question: 'Cross-Platform App Development in New York',
       answer: "Using top frameworks like React Native and Flutter, we specialize in delivering seamless cross-platform apps for both Android and iOS. As a leading cross-platform app development company in NYC, we create apps with a single codebase that maintains native-like performance and user experience, all while offering a cost-effective solution for businesses aiming for consistency across platforms.",
       btn: "Let’s Build My Cross-Platform App!",
       StoryLineImg: StoryLine4
     },
     {
-      question: 'Progressive Web App Development',
+      question: 'Progressive Web App Development in New York',
       answer: "We specialize in progressive web app development using modern web technologies to create fast, reliable, and user-friendly PWAs across devices like smartphones, desktops, and tablets. As experienced progressive web app developers in NYC, we utilize popular frameworks such as Angular, React, and Vue.js to deliver seamless performance and an engaging user experience.",
       btn: "Let’s Build My PWA!",
       StoryLineImg: StoryLine5
     },
     {
-      question: 'Game Development in NYC',
+      question: 'Game Development in New York',
       answer: "Our expert game development team builds binge-worthy, adrenaline-pumping games using cutting-edge tools and technologies. With a team of dedicated mobile game app developers in New York City, we excel with engines like Unity or Unreal Engine, programming languages such as C# and C++, and 3D modeling software like Blender or Maya, creating immersive games that keep players coming back.",
       btn: "Let’s Build My Game App!",
       StoryLineImg: StoryLine6
@@ -593,10 +593,10 @@ export default function dubaidevelopmentcompany() {
               <>
                 <p>The most important factor when hiring an app development company is the pricing. For top-end brands with unlimited means of funding and resources, hiring an app development company is a no-brainer as they can afford to work with app development companies like Accenture where pricing starts from $1 Million. </p>
                 <p>
-                However, for mid-level and low-end brands who’re bootstrapping their startups, pricing and time to market are two of the most important factors. The best way to find an app development company in New York City that resonates with your values and beliefs is to search on top review platforms like Clutch, shortlist a few app development companies, and interview their teams to see if they are a fit or not.
+                  However, for mid-level and low-end brands who’re bootstrapping their startups, pricing and time to market are two of the most important factors. The best way to find an app development company in New York City that resonates with your values and beliefs is to search on top review platforms like Clutch, shortlist a few app development companies, and interview their teams to see if they are a fit or not.
                 </p>
                 <p>
-                You can book your free consultation with our app development and project management teams here to get a better understanding of the technology stack we use and the values we have at our company.
+                  You can book your free consultation with our app development and project management teams here to get a better understanding of the technology stack we use and the values we have at our company.
                 </p>
               </>
             ),

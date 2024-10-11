@@ -58,10 +58,12 @@ export default function Page() {
       <IdeaCta data={IdeaCtaContent} />
       <Faqs data={FaqsContent} list={FaqsList} />
       <Blogs data={BlogsContent} list={BlogsList} />
+
       {/* Breadcrumb Schema */}
-      <script type="application/ld+json">
-        {`
-          {
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org/",
             "@type": "BreadcrumbList",
             "itemListElement": [
@@ -78,14 +80,14 @@ export default function Page() {
                 "item": "https://www.bitswits.co/hybrid-app-development-company"
               }
             ]
-          }
-        `}
-      </script>
-
+          }),
+        }}
+      />
       {/* Website Schema */}
-      <script type="application/ld+json">
-        {`
-          {
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org/",
             "@type": "WebSite",
             "name": "Hybrid App Development Company - BitsWits",
@@ -95,15 +97,15 @@ export default function Page() {
               "target": "{search_term_string}",
               "query-input": "required name=search_term_string"
             }
-          }
-        `}
-      </script>
-
+          }),
+        }}
+      />
       {/* Organization Schema */}
-      <script type="application/ld+json">
-        {`
-          {
-            "@context": "https://schema.org",
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org/",
             "@type": "Organization",
             "name": "Hybrid App Development Company - BitsWits",
             "alternateName": "BitsWits",
@@ -123,15 +125,15 @@ export default function Page() {
               "https://www.youtube.com/@officialBitsWits",
               "https://www.linkedin.com/company/officialBitsWits"
             ]
-          }
-        `}
-      </script>
-
+          }),
+        }}
+      />
       {/* Local Business Schema */}
-      <script type="application/ld+json">
-        {`
-          {
-            "@context": "https://schema.org",
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org/",
             "@type": "LocalBusiness",
             "name": "Hybrid App Development Company - BitsWits",
             "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
@@ -152,7 +154,14 @@ export default function Page() {
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+              ],
               "opens": "00:00",
               "closes": "23:59"
             },
@@ -163,15 +172,15 @@ export default function Page() {
               "https://www.youtube.com/@officialBitsWits",
               "https://www.linkedin.com/company/officialBitsWits"
             ]
-          }
-        `}
-      </script>
-
+          }),
+        }}
+      />
       {/* Product Schema */}
-      <script type="application/ld+json">
-        {`
-          {
-            "@context": "https://schema.org",
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org/",
             "@type": "Product",
             "name": "Hybrid App Development Company - BitsWits",
             "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
@@ -194,9 +203,10 @@ export default function Page() {
                 "url": "https://clutch.co/profile/bitswits"
               }
             }
-          }
-        `}
-      </script>
+          }),
+        }}
+      />
+
     </>
   );
 }

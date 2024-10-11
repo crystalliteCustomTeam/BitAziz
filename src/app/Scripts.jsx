@@ -83,10 +83,10 @@ const Scripts = () => {
                 gtag('config', 'G-T8JYHWL639');
             `;
             document.head.appendChild(analyticConfigScript);
-        }, 3000);
+        }, 5000);
         return () => clearTimeout(timer);
     }, []);
-    
+
     useEffect(() => {
         const handleClick = (event) => {
             const target = event.target;

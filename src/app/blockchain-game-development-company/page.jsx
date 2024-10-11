@@ -59,9 +59,10 @@ export default function Page() {
       <Faqs data={FaqsContent} list={FaqsList} />
       <Blogs data={BlogsContent} list={BlogsList} />
       {/* Breadcrumb Schema */}
-      <script type="application/ld+json">
-        {`
-          {
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org/",
             "@type": "BreadcrumbList",
             "itemListElement": [
@@ -78,14 +79,15 @@ export default function Page() {
                 "item": "https://www.bitswits.co/blockchain-game-development-company"
               }
             ]
-          }
-        `}
-      </script>
+          }),
+        }}
+      />
 
       {/* Website Schema */}
-      <script type="application/ld+json">
-        {`
-          {
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org/",
             "@type": "WebSite",
             "name": "Blockchain Game Development Company | BitsWits",
@@ -95,14 +97,15 @@ export default function Page() {
               "target": "{search_term_string}",
               "query-input": "required name=search_term_string"
             }
-          }
-        `}
-      </script>
+          }),
+        }}
+      />
 
       {/* Organization Schema */}
-      <script type="application/ld+json">
-        {`
-          {
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
             "name": "Blockchain Game Development Company | BitsWits",
@@ -123,14 +126,15 @@ export default function Page() {
               "https://www.youtube.com/@officialBitsWits",
               "https://www.linkedin.com/company/officialBitsWits"
             ]
-          }
-        `}
-      </script>
+          }),
+        }}
+      />
 
       {/* Local Business Schema */}
-      <script type="application/ld+json">
-        {`
-          {
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Blockchain Game Development Company | BitsWits",
@@ -163,14 +167,15 @@ export default function Page() {
               "https://www.youtube.com/@officialBitsWits",
               "https://www.linkedin.com/company/officialBitsWits"
             ]
-          }
-        `}
-      </script>
+          }),
+        }}
+      />
 
       {/* Product Schema */}
-      <script type="application/ld+json">
-        {`
-          {
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Product",
             "name": "Blockchain Game Development Company | BitsWits",
@@ -194,9 +199,10 @@ export default function Page() {
                 "url": "https://clutch.co/profile/bitswits"
               }
             }
-          }
-        `}
-      </script>
+          }),
+        }}
+      />
+
     </>
   );
 }

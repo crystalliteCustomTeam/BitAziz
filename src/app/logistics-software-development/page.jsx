@@ -56,29 +56,37 @@ export default function Page() {
       <Blogs data={BlogsContent} list={BlogsList} />
 
       {/* Breadcrumb Schema */}
-      <script type="application/ld+json">
-        {`
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: `
       {
-        "@context": "https://schema.org/", 
-        "@type": "BreadcrumbList", 
-        "itemListElement": [{
-          "@type": "ListItem", 
-          "position": 1, 
-          "name": "Home",
-          "item": "https://www.bitswits.co/"  
-        },{
-          "@type": "ListItem", 
-          "position": 2, 
-          "name": "Logistics Software Development Company",
-          "item": "https://www.bitswits.co/logistics-software-development"  
-        }]
+        "@context": "https://schema.org/",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.bitswits.co/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Logistics Software Development Company",
+            "item": "https://www.bitswits.co/logistics-software-development"
+          }
+        ]
       }
-      `}
-      </script>
+    `,
+        }}
+      />
 
       {/* Website Schema */}
-      <script type="application/ld+json">
-        {`
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: `
       {
         "@context": "https://schema.org/",
         "@type": "WebSite",
@@ -90,12 +98,15 @@ export default function Page() {
           "query-input": "required name=search_term_string"
         }
       }
-      `}
-      </script>
+    `,
+        }}
+      />
 
       {/* Organization Schema */}
-      <script type="application/ld+json">
-        {`
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: `
       {
         "@context": "https://schema.org",
         "@type": "Organization",
@@ -118,12 +129,15 @@ export default function Page() {
           "https://www.linkedin.com/company/officialBitsWits"
         ]
       }
-      `}
-      </script>
+    `,
+        }}
+      />
 
       {/* Local Business Schema */}
-      <script type="application/ld+json">
-        {`
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: `
       {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
@@ -166,12 +180,15 @@ export default function Page() {
           "https://www.linkedin.com/company/officialBitsWits"
         ]
       }
-      `}
-      </script>
+    `,
+        }}
+      />
 
       {/* Product Schema */}
-      <script type="application/ld+json">
-        {`
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: `
       {
         "@context": "https://schema.org",
         "@type": "Product",
@@ -197,8 +214,10 @@ export default function Page() {
           }
         }
       }
-      `}
-      </script>
+    `,
+        }}
+      />
+
 
     </>
   );

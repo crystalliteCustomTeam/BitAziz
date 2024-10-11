@@ -29,7 +29,7 @@ const OPTIONS = { loop: true, align: 'center' }
 export default function Page() {
   return (
     <>
-     <Banner data={BannerData} />
+      <Banner data={BannerData} />
       <CompanyInfo data={CompanyInfoContent} />
       <HomeServices data={HomeServicesContent} list={HomeServicesList} />
       <CaseStudy data={CaseStudyContent} />
@@ -44,42 +44,47 @@ export default function Page() {
       <IdeaCta data={IdeaCtaContent} />
 
       {/* Breadcrumb Schema */}
-      <script type="application/ld+json">
-        {`
-          {
-            "@context": "https://schema.org/", 
-            "@type": "BreadcrumbList", 
-            "itemListElement": [{
-              "@type": "ListItem", 
-              "position": 1, 
-              "name": "Home",
-              "item": "https://www.bitswits.co/"  
-            }]
-          }
-        `}
-      </script>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org/",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.bitswits.co/",
+              },
+            ],
+          }),
+        }}
+      />
 
       {/* Website Schema */}
-      <script type="application/ld+json">
-        {`
-          {
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org/",
             "@type": "WebSite",
             "name": "Expert Mobile App Development Company | BitsWits",
             "url": "https://www.bitswits.co/",
             "potentialAction": {
               "@type": "SearchAction",
-              "target": "{search_term_string}",
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}
-      </script>
+              "target": "https://www.bitswits.co/?s={search_term_string}",
+              "query-input": "required name=search_term_string",
+            },
+          }),
+        }}
+      />
 
       {/* Organization Schema */}
-      <script type="application/ld+json">
-        {`
-          {
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
             "name": "Expert Mobile App Development Company | BitsWits",
@@ -91,49 +96,53 @@ export default function Page() {
               "telephone": "+1 833 500-6007",
               "contactType": "customer service",
               "areaServed": "US",
-              "availableLanguage": "en"
+              "availableLanguage": "en",
             },
             "sameAs": [
               "https://www.facebook.com/officialBitsWits",
-              "https://twitter.com/BitsWits_/",
+              "https://twitter.com/BitsWits_",
               "https://www.instagram.com/officialBitsWits/",
               "https://www.youtube.com/@officialBitsWits",
-              "https://www.linkedin.com/company/officialBitsWits"
-            ]
-          }
-        `}
-      </script>
+              "https://www.linkedin.com/company/officialBitsWits",
+            ],
+          }),
+        }}
+      />
+
 
       {/* Product Schema */}
-      <script type="application/ld+json">
-        {`
-          {
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Product",
             "name": "Expert Mobile App Development Company | BitsWits",
             "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
             "url": "https://www.bitswits.co/",
-            "description": "BitsWits empowers SMBs and entrepreneurs with mobile app development, delivering solutions across 10+ industries to drive business success and growth.",
+            "description":
+              "BitsWits empowers SMBs and entrepreneurs with mobile app development, delivering solutions across 10+ industries to drive business success and growth.",
             "brand": {
               "@type": "Brand",
-              "name": "BitsWits"
+              "name": "BitsWits",
             },
             "review": {
               "@type": "Review",
               "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "4.9",
-                "bestRating": "5"
+                "bestRating": "5",
               },
               "author": {
                 "@type": "Organization",
                 "name": "Clutch",
-                "url": "https://clutch.co/profile/bitswits"
-              }
-            }
-          }
-        `}
-      </script>
+                "url": "https://clutch.co/profile/bitswits",
+              },
+            },
+          }),
+        }}
+      />
+
     </>
   );
 }
