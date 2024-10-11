@@ -16,6 +16,14 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/cross-platform-app-development-services' },
+   //===== GEO Tags =====
+   other: {
+    "DC.title": "Cross-Platform App Development Services | BitsWits",
+    "geo.region": "US",
+    "geo.placename": "Houston",
+    "geo.position": "29.7372487; -95.4618603",
+    "ICBM": "29.7372487; -95.4618603",
+     }
 }
 
 

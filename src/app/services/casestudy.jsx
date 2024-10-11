@@ -6,11 +6,13 @@ import styles from "@/styles/services/casestudy.module.scss";
 //========= Images
 import store from "media/newmobileapp/store.png";
 import arrow from "media/newmobileapp/arrow.png";
+import PopUp from './popup';
 
-const CaseStudySection = ({data, caseStudies}) => {
-    
+const CaseStudySection = ({ data, caseStudies }) => {
+
     const [activeTab, setActiveTab] = useState(0);
-
+    // Chat Code
+    const [modalShow, setModalShow] = useState(false);
 
     const handleTabChange = (index) => {
         setActiveTab(index);
@@ -28,11 +30,8 @@ const CaseStudySection = ({data, caseStudies}) => {
         return () => clearInterval(interval);
     }, [caseStudies.length]);
     // Chat Code
-    const handleChatOpen = (e) => {
-        e.preventDefault();
-        if (typeof $zopim !== 'undefined' && $zopim.livechat && $zopim.livechat.window) {
-            $zopim.livechat.window.show();
-        }
+    const handleChatOpen = () => {
+        setModalShow(true);
     };
     return (
         <>
@@ -77,7 +76,7 @@ const CaseStudySection = ({data, caseStudies}) => {
                                             <p>{caseStudies[activeTab].description}</p>
                                             <div className={styles.blackBtn}>
                                                 <Image src={store} alt='Store' className='img-fluid' />
-                                                <div className={styles.linksBtn} onClick={handleChatOpen}>
+                                                <div className={styles.linksBtn} onClick={() => handleChatOpen()}>
                                                     Let’s Talk
                                                 </div>
                                             </div>
@@ -117,6 +116,7 @@ const CaseStudySection = ({data, caseStudies}) => {
                     </div>
                 </div>
             </section>
+            <PopUp show={modalShow} onHide={() => setModalShow(false)} />
         </>
     );
 };

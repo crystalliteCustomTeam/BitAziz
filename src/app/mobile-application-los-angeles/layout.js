@@ -17,6 +17,11 @@ export const metadata = {
   alternates: { canonical: '/mobile-application-los-angeles' },
   //===== GEO Tags =====
   other: {},
+  //===== No-Index =====
+  robots: {
+    index: false,
+    follow: false,
+  },
 }
 
 export default function RootLayout({ children }) {

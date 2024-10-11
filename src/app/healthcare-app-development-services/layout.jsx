@@ -16,6 +16,19 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/healthcare-app-development-services' },
+  //===== No-Index =====
+  robots: {
+    index: false,
+    follow: false,
+  },
+  //===== GEO Tags =====
+  other: {
+    "DC.title": "Premier Healthcare App Development Company| BitsWits",
+    "geo.region": "US",
+    "geo.placename": "Houston",
+    "geo.position": "29.7372487; -95.4618603",
+    "ICBM": "29.7372487; -95.4618603",
+  }
 }
 
 

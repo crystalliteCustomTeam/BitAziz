@@ -81,15 +81,15 @@ import TAB7_2 from "media/industry/techstack/FHIR.svg";
 import TAB7_3 from "media/industry/techstack/DICOM.svg";
 
 //========= Industries Images
-import { FintechSVG, EcommerceSVG, EducationSVG, SocialSVG, RealEstateSVG, RideHailingSVG, TravelSVG, LogisticsSVG, } from "@/src/app/app-constants";
+import { LogisticsSVG, MusicSVG, EcommerceSVG, AutomotiveSVG, EducationSVG, FintechSVG, RealEstateSVG, SocialSVG, } from "@/src/app/app-constants";
 import Ecommerce from "media/services/industry/Ecommerce.webp";
 import Fintech from "media/services/industry/Fintech.webp";
-import Healthcare from "media/services/industry/Healthcare.webp";
+import Music from "media/services/industry/music.webp";
 import Education from "media/services/industry/Education.webp";
 import SocialMarketing from "media/services/industry/SocialMarketing.webp";
 import RealEstate from "media/services/industry/RealEstate.webp";
-import RideHailing from "media/services/industry/RideHailing.webp";
-import Travel from "media/services/industry/Travel.webp";
+import Automotive from "media/services/industry/Automotive.webp";
+import Logistics from "media/services/industry/Logistics.webp";
 
 //========= Blogs Images
 import BlogsIMG01 from "media/services/blogs/post-1.webp"
@@ -733,7 +733,7 @@ export const IndustriesList = [
         title: "Logistics",
         txt: "Our apps optimize fleet and shipment tracking. Integrated eCommerce lets businesses offer logistics to clients, boosting efficiency and operations.",
         url: "/healthcare-app-development-services",
-        img: Healthcare.src,
+        img: Logistics.src,
     },
     {
         icon: <EducationSVG />,
@@ -757,18 +757,18 @@ export const IndustriesList = [
         img: RealEstate.src,
     },
     {
-        icon: <RideHailingSVG />,
-        title: "Ride-hailing",
-        txt: "Our ride-hailing apps provide seamless booking, real-time tracking, and smooth driver-passenger interactions for an efficient ride experience.",
-        url: "#",
-        img: RideHailing.src,
+        icon: <MusicSVG />,
+        title: "Music",
+        txt: "Music apps with streaming, personalized playlists, and social sharing. Elevate listening experiences, enabling seamless music discovery, enjoyment, and interaction.",
+        url: "/music-app-development-company",
+        img: Music.src,
     },
     {
-        icon: <TravelSVG />,
-        title: "Travel",
-        txt: "We design user-friendly travel apps tailored to enhance booking experiences, navigation, and personalized travel itineraries.",
-        url: "#",
-        img: Travel.src,
+        icon: <AutomotiveSVG />,
+        title: "Automotive",
+        txt: "Custom automotive apps streamline vehicle management, customer service, and dealership operations. Simplify bookings, maintenance tracking, and user engagement.",
+        url: "/automotive-software-development",
+        img: Automotive.src,
     },
 ];
 

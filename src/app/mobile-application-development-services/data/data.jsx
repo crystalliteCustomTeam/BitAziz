@@ -100,15 +100,15 @@ import TAB7_5 from "media/services/tech/tab7/05.webp";
 import TAB7_6 from "media/services/tech/tab7/06.webp";
 
 //========= Industries Images
-import { Icon01, Icon02, Icon03, Icon04, Icon05, Icon06, Icon07, Icon08 } from "@/src/app/app-constants";
+import { LogisticsSVG, MusicSVG, EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, RealEstateSVG, SocialSVG,  } from "@/src/app/app-constants";
 import Ecommerce from "media/services/industry/Ecommerce.webp";
 import Fintech from "media/services/industry/Fintech.webp";
 import Healthcare from "media/services/industry/Healthcare.webp";
 import Education from "media/services/industry/Education.webp";
 import SocialMarketing from "media/services/industry/SocialMarketing.webp";
 import RealEstate from "media/services/industry/RealEstate.webp";
-import RideHailing from "media/services/industry/RideHailing.webp";
-import Travel from "media/services/industry/Travel.webp";
+import Logistics from "media/services/industry/Logistics.webp";
+import Music from "media/services/industry/music.webp";
 
 
 //========= Blogs Images
@@ -744,61 +744,62 @@ export const IndustriesContent = {
 }
 
 export const IndustriesList = [
+
     {
-        icon: <Icon01 />,
-        title: "Ecommerce",
-        txt: "We at BitsWits create powerful e-commerce apps, transforming your business with seamless shopping experiences and robust sales platforms.",
-        url: "#",
-        img: Ecommerce.src,
-    },
-    {
-        icon: <Icon02 />,
+        icon: <FintechSVG />,
         title: "Fintech",
         txt: "We develop mobile banking, investment tracking, and finance management apps with real-time data and strong security for streamlined operations.",
-        url: "#",
+        url: "/fintech-app-development",
         img: Fintech.src,
     },
     {
-        icon: <Icon03 />,
+        icon: <EcommerceSVG />,
+        title: "Ecommerce",
+        txt: "We at BitsWits create powerful e-commerce apps, transforming your business with seamless shopping experiences and robust sales platforms.",
+        url: "/ecommerce-app-development",
+        img: Ecommerce.src,
+    },
+    {
+        icon: <HealthcareSVG />,
         title: "Healthcare",
         txt: "We create custom mobile apps designed to enhance healthcare delivery, patient care, and medical management efficiency.",
-        url: "#",
+        url: "/healthcare-app-development-services",
         img: Healthcare.src,
     },
     {
-        icon: <Icon04 />,
+        icon: <EducationSVG />,
         title: "Education",
         txt: "We revolutionize education with apps for online learning, virtual classrooms, and management systems, enriching experiences for students and educators.",
-        url: "#",
+        url: "/education-app-development",
         img: Education.src,
     },
     {
-        icon: <Icon05 />,
+        icon: <SocialSVG />,
         title: "Social Media",
         txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
         url: "/social-media-app-development-company",
         img: SocialMarketing.src,
     },
     {
-        icon: <Icon06 />,
+        icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We develop apps for real estate, including property listings, virtual tours, and client management, enhancing user experience and transaction efficiency.",
-        url: "#",
+        url: "/real-estate-app-development-company",
         img: RealEstate.src,
     },
     {
-        icon: <Icon07 />,
-        title: "Ride-hailing",
-        txt: "Our ride-hailing apps provide seamless booking, real-time tracking, and smooth driver-passenger interactions for an efficient ride experience.",
-        url: "#",
-        img: RideHailing.src,
+        icon: <MusicSVG />,
+        title: "Music",
+        txt: "Music apps with streaming, personalized playlists, and social sharing. Elevate listening experiences, enabling seamless music discovery, enjoyment, and interaction.",
+        url: "/music-app-development-company",
+        img: Music.src,
     },
     {
-        icon: <Icon08 />,
-        title: "Travel",
-        txt: "We design user-friendly travel apps tailored to enhance booking experiences, navigation, and personalized travel itineraries.",
-        url: "#",
-        img: Travel.src,
+        icon: <LogisticsSVG />,
+        title: "Logistics",
+        txt: "Our apps optimize fleet and shipment tracking. Integrated eCommerce lets businesses offer logistics to clients, boosting efficiency and operations.",
+        url: "/healthcare-app-development-services",
+        img: Logistics.src,
     },
 ];
 

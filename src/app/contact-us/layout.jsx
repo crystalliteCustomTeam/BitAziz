@@ -8,14 +8,14 @@ export const metadata = {
     openGraph: {
         title: "Contact US | BitsWits",
         description: "Partner with a leading NFT game development company providing custom NFT game solutions to enhance user engagement and achieve business growth.",
-        url: '/About',
+        url: '/contact-us',
         siteName: 'BitsWits',
         locale: 'en_US',
         type: 'website',
         images: "/public/images/icons/footerlogo.png",
     },
     //===== Canonical =====
-    alternates: { canonical: '/About' },
+    alternates: { canonical: '/contact-us' },
 }
 
 

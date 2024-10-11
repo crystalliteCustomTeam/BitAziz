@@ -15,6 +15,19 @@ export const metadata = {
     },
     //===== Canonical =====
     alternates: { canonical: '/mobile-application-development-services' },
+    //===== No-Index =====
+    robots: {
+        index: true,
+        follow: true,
+    },
+    //===== GEO Tags =====
+    other: {
+        "DC.title": "Top Mobile App Development Services | BitsWits",
+        "geo.region": "US",
+        "geo.placename": "Houston",
+        "geo.position": "29.7372487; -95.4618603",
+        "ICBM": "29.7372487; -95.4618603",
+    }
 }
 export default function RootLayout({ children }) {
     return (children);

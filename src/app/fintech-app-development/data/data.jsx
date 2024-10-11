@@ -78,15 +78,15 @@ import TAB6_3 from "media/industry/techstack/MicrosoftAzure.svg";
 import TAB6_4 from "media/industry/techstack/DigitalOcean.svg";
 
 //========= Industries Images
-import { AutomotiveSVG, EcommerceSVG, EducationSVG, HealthcareSVG, RealEstateSVG, RideHailingSVG, SocialSVG, Icon08 } from "@/src/app/app-constants";
+import { AutomotiveSVG, EcommerceSVG, EducationSVG, HealthcareSVG, LogisticsSVG, MusicSVG, RealEstateSVG, SocialSVG} from "@/src/app/app-constants";
 import Ecommerce from "media/services/industry/Ecommerce.webp";
 import Automotive from "media/services/industry/Automotive.webp";
 import Healthcare from "media/services/industry/Healthcare.webp";
 import Education from "media/services/industry/Education.webp";
 import SocialMarketing from "media/services/industry/SocialMarketing.webp";
 import RealEstate from "media/services/industry/RealEstate.webp";
-import RideHailing from "media/services/industry/RideHailing.webp";
-import Travel from "media/services/industry/Travel.webp";
+import Logistics from "media/services/industry/Logistics.webp";
+import Music from "media/services/industry/music.webp";
 
 //========= Blogs Images
 import BlogsIMG01 from "media/services/blogs/post-1.webp"
@@ -714,11 +714,18 @@ export const IndustriesList = [
         img: Ecommerce.src,
     },
     {
-        icon: <AutomotiveSVG />,
-        title: "Automotive",
-        txt: "Our custom automotive apps enhance vehicle management, customer service, and dealership efficiency, streamlining bookings, maintenance, and interactions.",
-        url: "/automotive-software-development",
-        img: Automotive.src,
+        icon: <SocialSVG />,
+        title: "Social Media",
+        txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
+        url: "/social-media-app-development-company",
+        img: SocialMarketing.src,
+    },
+    {
+        icon: <LogisticsSVG />,
+        title: "Logistics",
+        txt: "We build logistics apps for fleet and shipment optimization. Built-in eCommerce lets businesses manage and sell logistics services directly to clients.",
+        url: "/logistics-software-development",
+        img: Logistics.src,
     },
     {
         icon: <HealthcareSVG />,
@@ -728,18 +735,11 @@ export const IndustriesList = [
         img: Healthcare.src,
     },
     {
-        icon: <EducationSVG />,
-        title: "Education",
-        txt: "We revolutionize education with apps for online learning, virtual classrooms, and management systems, enriching experiences for students and educators.",
-        url: "/education-app-development",
-        img: Education.src,
-    },
-    {
-        icon: <SocialSVG />,
-        title: "Social Media",
-        txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
-        url: "/social-media-app-development-company",
-        img: SocialMarketing.src,
+        icon: <MusicSVG />,
+        title: "Music",
+        txt: "Music apps with streaming, personalized playlists, and social sharing. Elevate listening experiences, enabling seamless music discovery, enjoyment, and interaction.",
+        url: "/music-app-development-company",
+        img: Music.src,
     },
     {
         icon: <RealEstateSVG />,
@@ -749,18 +749,18 @@ export const IndustriesList = [
         img: RealEstate.src,
     },
     {
-        icon: <RideHailingSVG />,
-        title: "Ride-hailing",
-        txt: "Our ride-hailing apps provide seamless booking, real-time tracking, and smooth driver-passenger interactions for an efficient ride experience.",
-        url: "#",
-        img: RideHailing.src,
+        icon: <EducationSVG />,
+        title: "Education",
+        txt: "We revolutionize education with apps for online learning, virtual classrooms, and management systems, enriching experiences for students and educators.",
+        url: "/education-app-development",
+        img: Education.src,
     },
     {
-        icon: <Icon08 />,
-        title: "Travel",
-        txt: "We design user-friendly travel apps tailored to enhance booking experiences, navigation, and personalized travel itineraries.",
-        url: "#",
-        img: Travel.src,
+        icon: <AutomotiveSVG />,
+        title: "Automotive",
+        txt: "Custom automotive apps streamline vehicle management, customer service, and dealership operations. Simplify bookings, maintenance tracking, and user engagement.",
+        url: "/automotive-software-development",
+        img: Automotive.src,
     },
 ];
 

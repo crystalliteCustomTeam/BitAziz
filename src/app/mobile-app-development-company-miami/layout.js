@@ -1,12 +1,12 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "Mobile App Development Company in Miami - BitsWits",
-  description: "Make sure your mobile app is in safe hands by trusting our expert app developers in Miami. Hire us as we are the pioneers of Miami mobile app development",
+  title: "App Developers in Miami",
+  description: " BitsWits is a top-rated mobile app development company in Miami. Our expert app developers can provide custom mobile app solutions for your business.",
   //===== OG Tags =====
   openGraph: {
-    title: 'Mobile App Development Company in Miami - BitsWits',
-    description: 'Make sure your mobile app is in safe hands by trusting our expert app developers in Miami. Hire us as we are the pioneers of Miami mobile app development',
+    title: 'App Developers in Miami',
+    description: ' BitsWits is a top-rated mobile app development company in Miami. Our expert app developers can provide custom mobile app solutions for your business.',
     url: '/mobile-app-development-company-miami',
     siteName: 'BitsWits',
     locale: 'en_US',
@@ -16,17 +16,17 @@ export const metadata = {
   alternates: { canonical: '/mobile-app-development-company-miami' },
   //===== GEO Tags =====
   other: {
-    "DC.title": "Mobile App Development Company in Miami - BitsWits",
+    "DC.title": "App Developers in Miami",
     "geo.region": "US",
     "geo.position": "25.7671623, -80.1859032",
     "ICBM": " 25.7671623, -80.1859032",
     //==========
-    "DC.title": "Mobile App Development Company in Miami - BitsWits",
+    "DC.title": "App Developers in Miami",
     "geo.region": "US",
     "geo.position": "25.7671623, -80.1859032",
     "ICBM": "25.7671623, -80.1859032",
     //==========
-    "DC.title": "Mobile App Development Company in Miami - BitsWits",
+    "DC.title": "App Developers in Miami",
     "geo.region": "US",
     "geo.placename": "",
     "geo.position": "25.7671623, -80.1859032",

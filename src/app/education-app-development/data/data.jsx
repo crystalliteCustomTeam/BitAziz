@@ -94,15 +94,15 @@ import TAB6_5 from "media/industry/techstack/AuthorizeNet.svg";
 import TAB6_6 from "media/industry/techstack/ApplePay.svg";
 
 //========= Industries Images
-import { FintechSVG, HealthcareSVG, AutomotiveSVG, SocialSVG, RealEstateSVG, RideHailingSVG, TravelSVG, EcommerceSVG } from "@/src/app/app-constants";
+import { FintechSVG, HealthcareSVG, AutomotiveSVG, SocialSVG, RealEstateSVG, EcommerceSVG, LogisticsSVG, MusicSVG } from "@/src/app/app-constants";
 import Ecommerce from "media/services/industry/Ecommerce.webp";
 import Fintech from "media/services/industry/Fintech.webp";
 import Healthcare from "media/services/industry/Healthcare.webp";
 import Automotive from "media/services/industry/Automotive.webp";
 import SocialMarketing from "media/services/industry/SocialMarketing.webp";
 import RealEstate from "media/services/industry/RealEstate.webp";
-import RideHailing from "media/services/industry/RideHailing.webp";
-import Travel from "media/services/industry/Travel.webp";
+import Logistics from "media/services/industry/Logistics.webp";
+import Music from "media/services/industry/music.webp";
 
 //========= Blogs Images
 import BlogsIMG01 from "media/services/blogs/post-1.webp"
@@ -748,19 +748,20 @@ export const IndustriesList = [
         img: Fintech.src,
     },
     {
+        icon: <LogisticsSVG />,
+        title: "Logistics",
+        txt: "We build logistics apps for fleet and shipment optimization. Built-in eCommerce lets businesses manage and sell logistics services directly to clients.",
+        url: "/logistics-software-development",
+        img: Logistics.src,
+    },
+    {
         icon: <HealthcareSVG />,
         title: "Healthcare",
         txt: "We create custom mobile apps designed to enhance healthcare delivery, patient care, and medical management efficiency.",
         url: "/healthcare-app-development-services",
         img: Healthcare.src,
     },
-    {
-        icon: <AutomotiveSVG />,
-        title: "Automotive",
-        txt: "Custom automotive apps streamline vehicle management, customer service, and dealership operations. Simplify bookings, maintenance tracking, and user engagement.",
-        url: "/automotive-software-development",
-        img: Automotive.src,
-    },
+    
     {
         icon: <SocialSVG />,
         title: "Social Media",
@@ -774,20 +775,20 @@ export const IndustriesList = [
         txt: "We develop apps for real estate, including property listings, virtual tours, and client management, enhancing user experience and transaction efficiency.",
         url: "/real-estate-app-development-company",
         img: RealEstate.src,
+    },    
+    {
+        icon: <MusicSVG />,
+        title: "Music",
+        txt: "Music apps with streaming, personalized playlists, and social sharing. Elevate listening experiences, enabling seamless music discovery, enjoyment, and interaction.",
+        url: "/music-app-development-company",
+        img: Music.src,
     },
     {
-        icon: <RideHailingSVG />,
-        title: "Ride-hailing",
-        txt: "Our ride-hailing apps provide seamless booking, real-time tracking, and smooth driver-passenger interactions for an efficient ride experience.",
-        url: "#",
-        img: RideHailing.src,
-    },
-    {
-        icon: <TravelSVG />,
-        title: "Travel",
-        txt: "We design user-friendly travel apps tailored to enhance booking experiences, navigation, and personalized travel itineraries.",
-        url: "#",
-        img: Travel.src,
+        icon: <AutomotiveSVG />,
+        title: "Automotive",
+        txt: "Custom automotive apps streamline vehicle management, customer service, and dealership operations. Simplify bookings, maintenance tracking, and user engagement.",
+        url: "/automotive-software-development",
+        img: Automotive.src,
     },
 ];
 

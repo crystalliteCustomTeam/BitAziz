@@ -8,14 +8,14 @@ export const metadata = {
     openGraph: {
         title: "About Us | BitsWits",
         description: "At BitsWits, history meets future. Our journey: from concept to digital revolution. We stand for creativity, excellence, and transformative technology.",
-        url: '/About',
+        url: '/about-us',
         siteName: 'BitsWits',
         locale: 'en_US',
         type: 'website',
         images: "/public/images/icons/footerlogo.png",
     },
     //===== Canonical =====
-    alternates: { canonical: '/About' },
+    alternates: { canonical: '/about-us' },
 }
 
 

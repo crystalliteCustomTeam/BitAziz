@@ -59,6 +59,152 @@ export default function Home() {
             <Faqs data={FaqsContent} list={FaqsList} />
             <Blogs data={BlogsContent} list={BlogsList} />
 
+            {/* Breadcrumb Schema */}
+            <script type="application/ld+json">
+                {`
+          {
+            "@context": "https://schema.org/",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.bitswits.co/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Mobile App Development Services",
+                "item": "https://www.bitswits.co/mobile-application-development-services"
+              }
+            ]
+          }
+        `}
+            </script>
+
+            {/* Website Schema */}
+            <script type="application/ld+json">
+                {`
+          {
+            "@context": "https://schema.org/",
+            "@type": "WebSite",
+            "name": "Top Mobile App Development Services | BitsWits",
+            "url": "https://www.bitswits.co/mobile-application-development-services",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "{search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          }
+        `}
+            </script>
+
+            {/* Organization Schema */}
+            <script type="application/ld+json">
+                {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Top Mobile App Development Services | BitsWits",
+            "alternateName": "BitsWits",
+            "url": "https://www.bitswits.co/mobile-application-development-services",
+            "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1920&q=75",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+1 833 500-6007",
+              "contactType": "customer service",
+              "areaServed": "US",
+              "availableLanguage": "en"
+            },
+            "sameAs": [
+              "https://www.facebook.com/officialBitsWits",
+              "https://twitter.com/BitsWits_/",
+              "https://www.instagram.com/officialBitsWits/",
+              "https://www.youtube.com/@officialBitsWits",
+              "https://www.linkedin.com/company/officialBitsWits"
+            ]
+          }
+        `}
+            </script>
+
+            {/* Local Business Schema */}
+            <script type="application/ld+json">
+                {`
+          {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Top Mobile App Development Services | BitsWits",
+            "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+            "url": "https://www.bitswits.co/mobile-application-development-services",
+            "telephone": "+1 833 500-6007",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "2800 Post Oak Blvd STE 4100",
+              "addressLocality": "Houston",
+              "addressRegion": "TX",
+              "postalCode": "77056",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 29.7372487,
+              "longitude": -95.4618603
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+              ],
+              "opens": "00:00",
+              "closes": "23:59"
+            },
+            "sameAs": [
+              "https://www.facebook.com/officialBitsWits",
+              "https://twitter.com/BitsWits_/",
+              "https://www.instagram.com/officialBitsWits/",
+              "https://www.youtube.com/@officialBitsWits",
+              "https://www.linkedin.com/company/officialBitsWits"
+            ]
+          }
+        `}
+            </script>
+
+            {/* Product Schema */}
+            <script type="application/ld+json">
+                {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": "Top Mobile App Development Services | BitsWits",
+            "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+            "url": "https://www.bitswits.co/mobile-application-development-services",
+            "description": "BitsWits delivers best mobile app development services with the top app developers, offering customized solutions across industries for impactful results!",
+            "brand": {
+              "@type": "Brand",
+              "name": "BitsWits"
+            },
+            "review": {
+              "@type": "Review",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4.9",
+                "bestRating": "5"
+              },
+              "author": {
+                "@type": "Organization",
+                "name": "Clutch",
+                "url": "https://clutch.co/profile/bitswits"
+              }
+            }
+          }
+        `}
+            </script>
         </>
     );
 }

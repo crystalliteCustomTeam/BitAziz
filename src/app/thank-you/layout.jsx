@@ -8,14 +8,19 @@ export const metadata = {
     openGraph: {
         title: "Portfolio | BitsWits",
         description: "",
-        url: '/porfolio',
+        url: '/thank-you',
         siteName: 'BitsWits',
         locale: 'en_US',
         type: 'website',
         images: "/public/images/icons/footerlogo.png",
     },
     //===== Canonical =====
-    alternates: { canonical: '/porfolio' },
+    alternates: { canonical: '/thank-you' },
+    //===== No-Index =====
+    robots: {
+        index: false,
+        follow: false,
+    },
 }
 
 

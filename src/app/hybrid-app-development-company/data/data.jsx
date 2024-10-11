@@ -76,15 +76,15 @@ import TAB6_3 from "media/services/tech/tab6/03.webp";
 
 //========= Industries Images
 
-import { EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, RealEstateSVG, RideHailingSVG, SocialSVG, TravelSVG } from "@/src/app/app-constants";
+import { LogisticsSVG, MusicSVG, EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, RealEstateSVG, RideHailingSVG, SocialSVG, TravelSVG } from "@/src/app/app-constants";
 import Ecommerce from "media/services/industry/Ecommerce.webp";
 import Fintech from "media/services/industry/Fintech.webp";
 import Healthcare from "media/services/industry/Healthcare.webp";
 import Education from "media/services/industry/Education.webp";
 import SocialMarketing from "media/services/industry/SocialMarketing.webp";
 import RealEstate from "media/services/industry/RealEstate.webp";
-import RideHailing from "media/services/industry/RideHailing.webp";
-import Travel from "media/services/industry/Travel.webp";
+import Logistics from "media/services/industry/Logistics.webp";
+import Music from "media/services/industry/music.webp";
 
 //========= Blogs Images
 import BlogsIMG01 from "media/services/blogs/post-1.webp"
@@ -649,18 +649,18 @@ export const IndustriesList = [
         img: RealEstate.src,
     },
     {
-        icon: <RideHailingSVG />,
-        title: "Ride-hailing",
-        txt: "Our ride-hailing apps provide seamless booking, real-time tracking, and smooth driver-passenger interactions for an efficient ride experience.",
-        url: "#",
-        img: RideHailing.src,
+        icon: <LogisticsSVG />,
+        title: "Logistics",
+        txt: "We build logistics apps for fleet and shipment optimization. Built-in eCommerce lets businesses manage and sell logistics services directly to clients.",
+        url: "/logistics-software-development",
+        img: Logistics.src,
     },
     {
-        icon: <TravelSVG />,
-        title: "Travel",
-        txt: "We design user-friendly travel apps tailored to enhance booking experiences, navigation, and personalized travel itineraries.",
-        url: "#",
-        img: Travel.src,
+        icon: <MusicSVG />,
+        title: "Music",
+        txt: "Music apps with streaming, personalized playlists, and social sharing. Elevate listening experiences, enabling seamless music discovery, enjoyment, and interaction.",
+        url: "/music-app-development-company",
+        img: Music.src,
     },
 ];
 

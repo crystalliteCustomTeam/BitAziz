@@ -16,6 +16,14 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/react-native-app-development' },
+  //===== GEO Tags =====
+  other: {
+    "DC.title": "Top React Native App Development Company - BitsWits",  // Update title if needed
+    "geo.region": "US",
+    "geo.placename": "Houston",
+    "geo.position": "29.7372487; -95.4618603",
+    "ICBM": "29.7372487, -95.4618603",
+  }
 }
 
 

@@ -16,6 +16,14 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/real-estate-app-development-company' },
+  //===== GEO Tags =====
+  other: {
+    "DC.title": "Best Real Estate App Development Company - BitsWits",
+    "geo.region": "US",
+    "geo.placename": "Houston",
+    "geo.position": "29.7372487; -95.4618603",
+    "ICBM": "29.7372487; -95.4618603",
+  }
 }
 
 

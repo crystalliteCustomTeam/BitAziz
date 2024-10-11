@@ -91,15 +91,15 @@ import TAB6_5 from "media/industry/techstack/Docker.svg";
 import TAB6_6 from "media/industry/techstack/GitLab.svg";
 
 //========= Industries Images
-import { EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, RealEstateSVG, RideHailingSVG, SocialSVG, TravelSVG } from "@/src/app/app-constants";
+import { EcommerceSVG, LogisticsSVG, EducationSVG, FintechSVG, HealthcareSVG, RealEstateSVG, MusicSVG, SocialSVG} from "@/src/app/app-constants";
 import Ecommerce from "media/services/industry/Ecommerce.webp";
 import Fintech from "media/services/industry/Fintech.webp";
 import Healthcare from "media/services/industry/Healthcare.webp";
 import Education from "media/services/industry/Education.webp";
 import SocialMarketing from "media/services/industry/SocialMarketing.webp";
 import RealEstate from "media/services/industry/RealEstate.webp";
-import RideHailing from "media/services/industry/RideHailing.webp";
-import Travel from "media/services/industry/Travel.webp";
+import Logistics from "media/services/industry/Logistics.webp";
+import Music from "media/services/industry/music.webp";
 
 //========= Blogs Images
 import BlogsIMG01 from "media/services/blogs/post-1.webp"
@@ -757,32 +757,11 @@ export const IndustriesContent = {
 
 export const IndustriesList = [
     {
-        icon: <EcommerceSVG />,
-        title: "Ecommerce",
-        txt: "We at BitsWits create powerful e-commerce apps, transforming your business with seamless shopping experiences and robust sales platforms.",
-        url: "/ecommerce-app-development",
-        img: Ecommerce.src,
-    },
-    {
         icon: <FintechSVG />,
         title: "Fintech",
         txt: "We develop mobile banking, investment tracking, and finance management apps with real-time data and strong security for streamlined operations.",
         url: "/fintech-app-development",
         img: Fintech.src,
-    },
-    {
-        icon: <HealthcareSVG />,
-        title: "Healthcare",
-        txt: "We create custom mobile apps designed to enhance healthcare delivery, patient care, and medical management efficiency.",
-        url: "/healthcare-app-development-services",
-        img: Healthcare.src,
-    },
-    {
-        icon: <EducationSVG />,
-        title: "Education",
-        txt: "We revolutionize education with apps for online learning, virtual classrooms, and management systems, enriching experiences for students and educators.",
-        url: "/education-app-development",
-        img: Education.src,
     },
     {
         icon: <SocialSVG />,
@@ -792,25 +771,46 @@ export const IndustriesList = [
         img: SocialMarketing.src,
     },
     {
+        icon: <LogisticsSVG />,
+        title: "Logistics",
+        txt: "We develop logistics apps for efficient fleet management and shipment tracking. Our solutions include the ability to manage and sell logistics services directly.",
+        url: "/logistics-software-development",
+        img: Logistics.src,
+    },
+    {
+        icon: <HealthcareSVG />,
+        title: "Healthcare",
+        txt: "We create custom mobile apps designed to enhance healthcare delivery, patient care, and medical management efficiency.",
+        url: "/healthcare-app-development-services",
+        img: Healthcare.src,
+    },
+    {
+        icon: <MusicSVG />,
+        title: "Music",
+        txt: "Music apps with streaming, personalized playlists, and social sharing. Elevate listening experiences, enabling seamless music discovery, enjoyment, and interaction.",
+        url: "/music-app-development-company",
+        img: Music.src,
+    },
+    {
+        icon: <EcommerceSVG />,
+        title: "Ecommerce",
+        txt: "We at BitsWits create powerful e-commerce apps, transforming your business with seamless shopping experiences and robust sales platforms.",
+        url: "/ecommerce-app-development",
+        img: Ecommerce.src,
+    },
+    {
+        icon: <EducationSVG />,
+        title: "Education",
+        txt: "We revolutionize education with apps for online learning, virtual classrooms, and management systems, enriching experiences for students and educators.",
+        url: "/education-app-development",
+        img: Education.src,
+    },    
+    {
         icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We develop apps for real estate, including property listings, virtual tours, and client management, enhancing user experience and transaction efficiency.",
         url: "/real-estate-app-development-company",
         img: RealEstate.src,
-    },
-    {
-        icon: <RideHailingSVG />,
-        title: "Ride-hailing",
-        txt: "Our ride-hailing apps provide seamless booking, real-time tracking, and smooth driver-passenger interactions for an efficient ride experience.",
-        url: "#",
-        img: RideHailing.src,
-    },
-    {
-        icon: <TravelSVG />,
-        title: "Travel",
-        txt: "We design user-friendly travel apps tailored to enhance booking experiences, navigation, and personalized travel itineraries.",
-        url: "#",
-        img: Travel.src,
     },
 ];
 

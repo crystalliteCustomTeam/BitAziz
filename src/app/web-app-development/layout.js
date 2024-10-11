@@ -28,6 +28,11 @@ export const metadata = {
     "geo.position": "39.78373;-100.445882",
     "ICBM": "39.78373, -100.445882",
   },
+  //===== No-Index =====
+  robots: {
+    index: false,
+    follow: false,
+  },
 }
 
 export default function RootLayout({ children }) {

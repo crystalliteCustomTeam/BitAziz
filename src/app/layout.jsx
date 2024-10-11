@@ -22,18 +22,7 @@ export const metadata = {
   //===== Canonical =====
   alternates: { canonical: '/' },
   //===== GEO Tags =====
-  other: {
-    "DC.title": "App Development Company",
-    "geo.region": "US-TX",
-    "geo.placename": "Houston",
-    "geo.position": "39.78373;-100.445882",
-    "ICBM": "39.78373, -100.445882",
-    //==========
-    "DC.title": "App Development Company",
-    "geo.region": "US",
-    "geo.position": "39.78373;-100.445882",
-    "ICBM": "39.78373, -100.445882",
-  },
+
   //===== Google Varification =====
   verification: {
     other: {
