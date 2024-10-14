@@ -7,14 +7,19 @@ export const metadata = {
   openGraph: {
     title: 'Custom Mobile App Development Company | Custom Mobile App Developers',
     description: 'Looking for a reliable custom mobile app development company? Our team of expert custom app developers specializes in creating customized mobile applications.',
-    url: '/custom-mobile-development',
+    url: '/mobile-application-development-services',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
     images: "/public/images/icons/footerlogo.png",
   },
   //===== Canonical =====
-  alternates: { canonical: '/custom-mobile-development' },
+  alternates: { canonical: '/mobile-application-development-services' },
+  //===== No-Index =====
+  robots: {
+    index: false,
+    follow: false,
+  },
   //===== GEO Tags =====
   other: {
     "DC.title": "Custom Mobile App Development Company",

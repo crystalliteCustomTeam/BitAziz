@@ -58,26 +58,24 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `
-      {
-        "@context": "https://schema.org/",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://www.bitswits.co/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Automotive Software Development Company",
-            "item": "https://www.bitswits.co/automotive-software-development"
-          }
-        ]
-      }
-    `,
+          __html: JSON.stringify({
+            "@context": "https://schema.org/",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.bitswits.co/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Automotive Software Development Company",
+                "item": "https://www.bitswits.co/automotive-software-development"
+              }
+            ]
+          }),
         }}
       />
 
@@ -85,19 +83,17 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `
-      {
-        "@context": "https://schema.org/",
-        "@type": "WebSite",
-        "name": "Automotive Software Development Company - BitsWits",
-        "url": "https://www.bitswits.co/automotive-software-development",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "{search_term_string}",
-          "query-input": "required name=search_term_string"
-        }
-      }
-    `,
+          __html: JSON.stringify({
+            "@context": "https://schema.org/",
+            "@type": "WebSite",
+            "name": "Automotive Software Development Company - BitsWits",
+            "url": "https://www.bitswits.co/automotive-software-development",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "{search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          }),
         }}
       />
 
@@ -105,30 +101,28 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `
-      {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Automotive Software Development Company - BitsWits",
-        "alternateName": "BitsWits",
-        "url": "https://www.bitswits.co/automotive-software-development",
-        "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1920&q=75",
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "telephone": "+1 833 500-6007",
-          "contactType": "customer service",
-          "areaServed": "US",
-          "availableLanguage": "en"
-        },
-        "sameAs": [
-          "https://www.facebook.com/officialBitsWits",
-          "https://twitter.com/BitsWits_/",
-          "https://www.instagram.com/officialBitsWits/",
-          "https://www.youtube.com/@officialBitsWits",
-          "https://www.linkedin.com/company/officialBitsWits"
-        ]
-      }
-    `,
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Automotive Software Development Company - BitsWits",
+            "alternateName": "BitsWits",
+            "url": "https://www.bitswits.co/automotive-software-development",
+            "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1920&q=75",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+1 833 500-6007",
+              "contactType": "customer service",
+              "areaServed": "US",
+              "availableLanguage": "en"
+            },
+            "sameAs": [
+              "https://www.facebook.com/officialBitsWits",
+              "https://twitter.com/BitsWits_/",
+              "https://www.instagram.com/officialBitsWits/",
+              "https://www.youtube.com/@officialBitsWits",
+              "https://www.linkedin.com/company/officialBitsWits"
+            ]
+          }),
         }}
       />
 
@@ -136,50 +130,48 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `
-      {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Automotive Software Development Company - BitsWits",
-        "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
-        "@id": "",
-        "url": "https://www.bitswits.co/automotive-software-development",
-        "telephone": "+1 833 500-6007",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "2800 Post Oak Blvd STE 4100",
-          "addressLocality": "Houston",
-          "addressRegion": "TX",
-          "postalCode": "77056",
-          "addressCountry": "US"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 29.7372487,
-          "longitude": -95.4618603
-        },
-        "openingHoursSpecification": {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday"
-          ],
-          "opens": "00:00",
-          "closes": "23:59"
-        },
-        "sameAs": [
-          "https://www.facebook.com/officialBitsWits",
-          "https://twitter.com/BitsWits_/",
-          "https://www.instagram.com/officialBitsWits/",
-          "https://www.youtube.com/@officialBitsWits",
-          "https://www.linkedin.com/company/officialBitsWits"
-        ]
-      }
-    `,
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Automotive Software Development Company - BitsWits",
+            "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+            "@id": "",
+            "url": "https://www.bitswits.co/automotive-software-development",
+            "telephone": "+1 833 500-6007",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "2800 Post Oak Blvd STE 4100",
+              "addressLocality": "Houston",
+              "addressRegion": "TX",
+              "postalCode": "77056",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 29.7372487,
+              "longitude": -95.4618603
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+              ],
+              "opens": "00:00",
+              "closes": "23:59"
+            },
+            "sameAs": [
+              "https://www.facebook.com/officialBitsWits",
+              "https://twitter.com/BitsWits_/",
+              "https://www.instagram.com/officialBitsWits/",
+              "https://www.youtube.com/@officialBitsWits",
+              "https://www.linkedin.com/company/officialBitsWits"
+            ]
+          }),
         }}
       />
 
@@ -187,33 +179,31 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `
-      {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Automotive Software Development Company - BitsWits",
-        "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
-        "url": "https://www.bitswits.co/automotive-software-development",
-        "description": "BitsWits is a leading automotive software development company with 50+ projects, creating advanced vehicle software to enhance performance and connectivity.",
-        "brand": {
-          "@type": "Brand",
-          "name": "BitsWits"
-        },
-        "review": {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4.9",
-            "bestRating": "5"
-          },
-          "author": {
-            "@type": "Organization",
-            "name": "Clutch",
-            "url": "https://clutch.co/profile/bitswits"
-          }
-        }
-      }
-    `,
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": "Automotive Software Development Company - BitsWits",
+            "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+            "url": "https://www.bitswits.co/automotive-software-development",
+            "description": "BitsWits is a leading automotive software development company with 50+ projects, creating advanced vehicle software to enhance performance and connectivity.",
+            "brand": {
+              "@type": "Brand",
+              "name": "BitsWits"
+            },
+            "review": {
+              "@type": "Review",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4.9",
+                "bestRating": "5"
+              },
+              "author": {
+                "@type": "Organization",
+                "name": "Clutch",
+                "url": "https://clutch.co/profile/bitswits"
+              }
+            }
+          }),
         }}
       />
 

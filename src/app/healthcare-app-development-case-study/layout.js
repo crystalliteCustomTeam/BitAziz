@@ -15,6 +15,11 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/healthcare-app-development-case-study' },
+  //===== No-Index =====
+  robots: {
+    index: false,
+    follow: false,
+  },
   //===== GEO Tags =====
   other: {},
 }

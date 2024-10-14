@@ -1,3 +1,4 @@
+
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
@@ -7,14 +8,14 @@ export const metadata = {
   openGraph: {
     title: 'Custom Web Development - BitsWits',
     description: 'BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications.',
-    url: '/mobile-application-development-services',
+    url: '/custom-web-development-services',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
     images: "/public/images/icons/footerlogo.png",
   },
   //===== Canonical =====
-  alternates: { canonical: '/mobile-application-development-services' },
+  alternates: { canonical: '/custom-web-development-services' },
   //===== GEO Tags =====
   other: {
     "DC.title": "Custom Web Development Services",
@@ -27,11 +28,6 @@ export const metadata = {
     "geo.region": "US",
     "geo.position": "39.78373;-100.445882",
     "ICBM": "39.78373, -100.445882",
-  },
-  //===== No-Index =====
-  robots: {
-    index: false,
-    follow: false,
   },
 }
 

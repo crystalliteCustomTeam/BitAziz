@@ -1,18 +1,18 @@
 
 import {
-    BannerData, CuttingedgeContent, CuttingedgeList,
-    AppIdeaContent, caseStudiesList,
-    caseStudiesContent, ProcessContent,
-    WhyChooseContent, WhyChooseList1,
-    WhyChooseList2, ProcessTabs, TechnologiesContent,
-    TechnologiesIcons, TestimonialContent,
-    TestimonialSLIDES, RisksContent,
-    OffersContent, OffersTabs, FuelingContent, FuelingList,
-    CtaEstimatedContent, TechStackTabs,
-    TechStackContent, IndustriesContent,
-    IndustriesList, IdeaCtaContent,
-    FaqsContent, FaqsList, BlogsContent,
-    BlogsList
+  BannerData, CuttingedgeContent, CuttingedgeList,
+  AppIdeaContent, caseStudiesList,
+  caseStudiesContent, ProcessContent,
+  WhyChooseContent, WhyChooseList1,
+  WhyChooseList2, ProcessTabs, TechnologiesContent,
+  TechnologiesIcons, TestimonialContent,
+  TestimonialSLIDES, RisksContent,
+  OffersContent, OffersTabs, FuelingContent, FuelingList,
+  CtaEstimatedContent, TechStackTabs,
+  TechStackContent, IndustriesContent,
+  IndustriesList, IdeaCtaContent,
+  FaqsContent, FaqsList, BlogsContent,
+  BlogsList
 } from "@/src/app/mobile-application-development-services/data/data";
 
 import Achieved from "@/src/app/services/achieved";
@@ -38,55 +38,55 @@ import Blogs from "@/src/app/services/blogs";
 
 export default function Home() {
 
-    return (
-        <>
-            <Banner data={BannerData} />
-            <Achieved />
-            <Cuttingedge data={CuttingedgeContent} list={CuttingedgeList} />
-            <CaseStudySection data={caseStudiesContent} caseStudies={caseStudiesList} />
-            <AppIdea data={AppIdeaContent} />
-            <WhyChoose data={WhyChooseContent} list1={WhyChooseList1} list2={WhyChooseList2} />
-            <Process data={ProcessContent} tabs={ProcessTabs} />
-            <Technologies data={TechnologiesContent} list={TechnologiesIcons} />
-            <Testimonial data={TestimonialContent} list={TestimonialSLIDES} />
-            <Risks data={RisksContent} />
-            <Offers bg={true} data={OffersContent} tabs={OffersTabs} />
-            <Fueling data={FuelingContent} list={FuelingList} />
-            <CtaEstimated data={CtaEstimatedContent} />
-            <TechStack data={TechStackContent} tabs={TechStackTabs} />
-            <Industries data={IndustriesContent} list={IndustriesList} />
-            <IdeaCta data={IdeaCtaContent} />
-            <Faqs data={FaqsContent} list={FaqsList} />
-            <Blogs data={BlogsContent} list={BlogsList} />
+  return (
+    <>
+      <Banner data={BannerData} />
+      <Achieved />
+      <Cuttingedge data={CuttingedgeContent} list={CuttingedgeList} />
+      <CaseStudySection data={caseStudiesContent} caseStudies={caseStudiesList} />
+      <AppIdea data={AppIdeaContent} />
+      <WhyChoose data={WhyChooseContent} list1={WhyChooseList1} list2={WhyChooseList2} />
+      <Process data={ProcessContent} tabs={ProcessTabs} />
+      <Technologies data={TechnologiesContent} list={TechnologiesIcons} />
+      <Testimonial data={TestimonialContent} list={TestimonialSLIDES} />
+      <Risks data={RisksContent} />
+      <Offers bg={true} data={OffersContent} tabs={OffersTabs} />
+      <Fueling data={FuelingContent} list={FuelingList} />
+      <CtaEstimated data={CtaEstimatedContent} />
+      <TechStack data={TechStackContent} tabs={TechStackTabs} />
+      <Industries data={IndustriesContent} list={IndustriesList} />
+      <IdeaCta data={IdeaCtaContent} />
+      <Faqs data={FaqsContent} list={FaqsList} />
+      <Blogs data={BlogsContent} list={BlogsList} />
 
-            {/* Breadcrumb Schema */}
-            <script type="application/ld+json">
-                {`
-          {
+
+      {/* Breadcrumb Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org/",
             "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.bitswits.co/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Mobile App Development Services",
-                "item": "https://www.bitswits.co/mobile-application-development-services"
-              }
-            ]
-          }
-        `}
-            </script>
+            "itemListElement": [{
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.bitswits.co/"
+            }, {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Mobile App Development Services",
+              "item": "https://www.bitswits.co/mobile-application-development-services"
+            }]
+          }),
+        }}
+      />
 
-            {/* Website Schema */}
-            <script type="application/ld+json">
-                {`
-          {
+      {/* Website Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org/",
             "@type": "WebSite",
             "name": "Top Mobile App Development Services | BitsWits",
@@ -96,14 +96,15 @@ export default function Home() {
               "target": "{search_term_string}",
               "query-input": "required name=search_term_string"
             }
-          }
-        `}
-            </script>
+          }),
+        }}
+      />
 
-            {/* Organization Schema */}
-            <script type="application/ld+json">
-                {`
-          {
+      {/* Organization Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
             "name": "Top Mobile App Development Services | BitsWits",
@@ -124,18 +125,20 @@ export default function Home() {
               "https://www.youtube.com/@officialBitsWits",
               "https://www.linkedin.com/company/officialBitsWits"
             ]
-          }
-        `}
-            </script>
+          }),
+        }}
+      />
 
-            {/* Local Business Schema */}
-            <script type="application/ld+json">
-                {`
-          {
+      {/* Local Business Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Top Mobile App Development Services | BitsWits",
             "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+            "@id": "",
             "url": "https://www.bitswits.co/mobile-application-development-services",
             "telephone": "+1 833 500-6007",
             "address": {
@@ -171,14 +174,15 @@ export default function Home() {
               "https://www.youtube.com/@officialBitsWits",
               "https://www.linkedin.com/company/officialBitsWits"
             ]
-          }
-        `}
-            </script>
+          }),
+        }}
+      />
 
-            {/* Product Schema */}
-            <script type="application/ld+json">
-                {`
-          {
+      {/* Product Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Product",
             "name": "Top Mobile App Development Services | BitsWits",
@@ -202,10 +206,10 @@ export default function Home() {
                 "url": "https://clutch.co/profile/bitswits"
               }
             }
-          }
-        `}
-            </script>
-        </>
-    );
+          }),
+        }}
+      />
+    </>
+  );
 }
 

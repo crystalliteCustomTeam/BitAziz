@@ -1,4 +1,3 @@
-
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
@@ -16,11 +15,6 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/healthcare-app-development-services' },
-  //===== No-Index =====
-  robots: {
-    index: false,
-    follow: false,
-  },
   //===== GEO Tags =====
   other: {
     "DC.title": "Premier Healthcare App Development Company| BitsWits",
