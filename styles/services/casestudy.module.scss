@@ -19,6 +19,16 @@
     font-weight: 400;
     line-height: 26px;
     color: #000000;
+    a {
+      color: #585858;
+      transition: 0.3s linear;
+      font-weight: 500;
+
+      &:hover {
+        transition: 0.3s linear;
+        color: #4d77ee;
+      }
+    }
   }
 }
 
@@ -183,7 +193,6 @@
     padding: 30px;
     gap: 60px;
 
-
     p {
       font-size: 15px;
     }
@@ -264,10 +273,8 @@
 }
 
 @media only screen and (max-width: 567px) {
-
   .appStyles {
     padding: 50px 0;
-
   }
 
   .tabList {
@@ -285,7 +292,6 @@
     p {
       margin: 20px 0 30px;
     }
-
   }
 
   .bottomBox {

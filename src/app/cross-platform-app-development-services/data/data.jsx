@@ -117,7 +117,7 @@ export const CuttingedgeContent = {
 export const CuttingedgeList = [
     {
         title: (<>Cross-Platform App<br />Strategy & Consulting</>),
-        txt: "We offer expert consulting to define your app’s objectives, target audience, and market strategy, ensuring it meets your business needs while staying ahead of market trends.",
+        txt: (<>Our team designs intuitive, visually appealing interfaces that work seamlessly across devices, delivering an engaging user experience for both  <Link href='/android-app-development-company'>Android </Link> and <Link href='/ios-app-development-company'>iOS</Link> platforms.</>),
         links: "",
     },
     {
@@ -127,7 +127,7 @@ export const CuttingedgeList = [
     },
     {
         title: (<>Cross-Platform <br /> App Development</>),
-        txt: "We develop high-performance apps using the latest frameworks, ensuring your app delivers native-like performance and compatibility across multiple devices.",
+        txt: (<>We offer high-performance mobile app development services apps using the latest frameworks, ensuring your app delivers native-like performance and compatibility across multiple devices.</>),
         links: "",
     },
     {
@@ -142,7 +142,7 @@ export const CuttingedgeList = [
     },
     {
         title: (<>App Deployment<br />& Optimization</>),
-        txt: "We manage the deployment for both Google Play and App Store, optimizing your app for visibility and downloads with tailored ASO strategies.",
+        txt: (<>As a top-grade app development company, we manage the deployment for both Google Play and App Store, optimizing your app for visibility and downloads with tailored ASO strategies.</>),
         links: "",
     },
 ]

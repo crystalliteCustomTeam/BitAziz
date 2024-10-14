@@ -100,7 +100,7 @@ import TAB7_5 from "media/services/tech/tab7/05.webp";
 import TAB7_6 from "media/services/tech/tab7/06.webp";
 
 //========= Industries Images
-import { LogisticsSVG, MusicSVG, EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, RealEstateSVG, SocialSVG,  } from "@/src/app/app-constants";
+import { LogisticsSVG, MusicSVG, EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, RealEstateSVG, SocialSVG, } from "@/src/app/app-constants";
 import Ecommerce from "media/services/industry/Ecommerce.webp";
 import Fintech from "media/services/industry/Fintech.webp";
 import Healthcare from "media/services/industry/Healthcare.webp";
@@ -115,6 +115,7 @@ import Music from "media/services/industry/music.webp";
 import BlogsIMG01 from "media/services/blogs/post-1.webp"
 import BlogsIMG02 from "media/services/blogs/post-2.webp"
 import BlogsIMG03 from "media/services/blogs/post-3.webp"
+import Link from "next/link";
 
 
 export const BannerData = {
@@ -136,17 +137,17 @@ export const CuttingedgeContent = {
 export const CuttingedgeList = [
     {
         title: (<>Android App <br />Development Services</>),
-        txt: "As a leading mobile app development agency, we use Kotlin, Java, and Jetpack Compose to build lightweight Android apps. Our applications enhance UX and functionality across smartphones, wearable devices, and TVs, providing exceptional design, look, and feel for diverse industries.",
+        txt: (<>As a leading <Link href='/android-app-development-company'>Android app development agency</Link>, we use Kotlin, Java, and Jetpack Compose to build lightweight Android apps. Our applications enhance UX and functionality across smartphones, wearable devices, and TVs, providing exceptional design, look, and feel for diverse industries.</>),
         links: "",
     },
     {
         title: (<>iOS Application<br />Development Services</>),
-        txt: "Our iOS mobile development services utilize Swift and Xcode to build human-centered, easy-to-navigate apps for iPhone, iPad, Mac, Apple TV, and Apple Watch, delivering exceptional functionality and user experience across all Apple devices.",
+        txt: (<>Our <Link href='/ios-app-development-company'>iOS mobile development services</Link> utilize Swift and Xcode to build human-centered, easy-to-navigate apps for iPhone, iPad, Mac, Apple TV, and Apple Watch, delivering exceptional functionality and user experience across all Apple devices.</>),
         links: "",
     },
     {
         title: (<>Cross-Platform<br />Development Services</>),
-        txt: "Make your app accessible on iOS and Android with a write-once, deploy-anywhere cross-platform framework! Reduce development costs by 50% with our Flutter and React Native development models, delivering apps with a native-like experience.",
+        txt: (<>Make your app accessible on iOS and Android with a write-once, deploy-anywhere cross-platform framework! Reduce development costs by 50% with our <Link href='/flutter-app-development'>Flutter</Link> and <Link href='/react-native-app-development'>React Native</Link> development models, delivering apps with a native-like experience.</>),
         links: "",
     },
     {
@@ -156,7 +157,7 @@ export const CuttingedgeList = [
     },
     {
         title: (<>Mobile Game<br />Development Services</>),
-        txt: "As a top-grade mobile game development company, we use technologies like Unity and Unreal Engine to create adrenaline-pumping games in action, RPG, and sports! We offer flexible options, including full-cycle, co-development, and game porting services to meet the diverse needs of our clients",
+        txt: (<>As a top-grade <Link href='/mobile-game-development-company'>mobile game development company,</Link> we use technologies like Unity and Unreal Engine to create adrenaline-pumping games in action, RPG, and sports! We offer flexible options, including full-cycle, co-development, and game porting services to meet the diverse needs of our clients.</>),
         links: "",
     }
     , {
@@ -250,7 +251,7 @@ export const ProcessTabs = [
         content: {
             heading: "Project Planning",
             description:
-                "In project planning, our business analysts collaborate with clients to accurately translate their business needs into a comprehensive project scope. We assign the right resources and work closely with stakeholders to determine accurate cost and time estimates while exploring various cost optimization options for efficient and effective project execution.",
+                <>In project planning, our business analysts collaborate with clients to accurately translate their business needs and <Link href='/blog/mobile-app-ideas'>mobile app ideas</Link> into a comprehensive project scope. We assign the right resources and work closely with stakeholders to determine accurate cost and time estimates, while also exploring various cost optimization options for efficient and effective project execution.</>,
             imgSrc: IMG.src,
         },
     },
@@ -259,7 +260,7 @@ export const ProcessTabs = [
         content: {
             heading: "Cost and Schedule",
             description:
-                "After the project planning phase, we focus on maintaining cost and time-frame integrity. Our mobile app development services include realistic project estimations and ongoing monitoring of expenditures and deadlines, consistently collaborating with clients to stay within budget and meet agreed-upon time frames as the project moves toward completion.",
+                <>After the project planning phase, we focus on maintaining the <Link href='/blog/mobile-app-development-cost'>app development cost</Link> and time-frame integrity. Our mobile app development services include realistic project estimations and ongoing monitoring of expenditures and deadlines, consistently collaborating with clients to stay within budget and meet agreed-upon time frames as the project moves toward completion.</>,
             imgSrc: IMG.src,
 
         },
@@ -464,7 +465,7 @@ export const OffersTabs = [
 
 export const FuelingContent = {
     title: "In-App Features That Your Users Are Looking For!",
-    text: "As a leading mobile development agency, we deliver all the must-have features, from user-friendly interfaces to advanced security, creating apps that meet modern user needs and support business growth.",
+    text: (<>As a leading mobile development agency, we deliver all the must-have features, from user-friendly interfaces to advanced security throughout the <Link href='/blog/application-development-life-cycle'> application development lifecycle,</Link>  creating apps that meet modern user needs and support business growth.</>),
     subtitle: "Reduce Risk and Validate Your Idea With a Fast MVP Launch!",
     subtext: "BitsWits takes a hands-on approach to guide your project, providing expertise and support at every stage!",
     FuelingImg: FuelingImg.src
@@ -489,7 +490,7 @@ export const FuelingList = [
     },
     {
         title: "Chatbots",
-        text: "We design and integrate intelligent chatbots to provide instant customer support and engagement. Utilizing AI and NLP, our chatbots enhance user interaction, automate responses, and handle queries efficiently, improving overall customer satisfaction and retention."
+        text: (<>As a top-tier <Link href='/ai-development-company'>AI development company,</Link> we design and integrate intelligent chatbots to provide instant customer support and engagement. Utilizing AI and NLP, our chatbots enhance user interaction, automate responses, and handle queries efficiently, improving overall customer satisfaction and retention.</>)
     },
     {
         title: "Immersive Experience",
@@ -514,7 +515,7 @@ export const CtaEstimatedContent = {
 
 export const TechStackContent = {
     title: "Our Tech Stack For Mobile App Development",
-    text: "We use the latest tools and technologies to deliver secure and resilient mobile apps!",
+    text: (<>We use the latest technologies and <Link href='/blog/mobile-app-development-frameworks'>app frameworks</Link> to deliver secure and resilient mobile apps!</>),
 }
 
 export const TechStackTabs = [

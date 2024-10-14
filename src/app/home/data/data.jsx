@@ -14,6 +14,7 @@ import { DedicatedTeamModel, FixedPriceModel, HourlyPriceModel, OnsiteTeamModel 
 
 //========= Engagement Images
 import { Automotive, ECommerce, Education, Food, Healthcare, Insurance, Music, RealEstate, SocialMedia } from "@/src/app/app-constants"
+import Link from "next/link"
 
 
 
@@ -38,22 +39,24 @@ export const HomeServicesContent = {
 export const HomeServicesList = [
     {
         title: "Mobile App Development",
-        txt: "We provide end-to-end mobile app development services, from ideation to deployment. Our team ensures optimal UI/UX design, robust backend architecture, and post-launch support, delivering secure and high-performing apps for various business needs.",
+        txt: (<>We provide end-to-end <Link href='/mobile-application-development-services'>mobile app development services</Link>, from ideation to deployment. Our team ensures optimal UI/UX design, robust backend architecture, and post-launch support, delivering secure and high-performing apps for various business needs.</>),
+        // txt:(<></>),
+        // <Link href=''></Link>,
         url: "/mobile-application-development-services"
     },
     {
         title: "Android App Development",
-        txt: "We specialize in Android app development using Java and Kotlin, building high-performance apps optimized for the Google Play Store. Our custom solutions support diverse industries and deliver smooth user experiences across all Android devices.",
+        txt:(<>We specialize in <Link href='/android-app-development-company'>Android app development</Link> using Java and Kotlin, building high-performance apps optimized for the Google Play Store. Our custom solutions support diverse industries and deliver smooth user experiences across all Android devices.</>),
         url: "/android-app-development-company"
     },
     {
         title: "iOS App Development",
-        txt: "Our iOS app development expertise includes Swift and Xcode, creating secure apps for the App Store. We build custom iOS apps that enhance user engagement and performance, providing exceptional UX across iPhones, iPads, and other Apple devices.",
+        txt:(<>Our <Link href='/ios-app-development-company'>iOS app development</Link> expertise includes Swift and Xcode, creating secure apps for the App Store. We build custom iOS apps that enhance user engagement and performance, providing exceptional UX across iPhones, iPads, and other Apple devices.</>),
         url: "/ios-app-development-company"
     },
     {
         title: "Cross Platform App Development",
-        txt: "We deliver cross-platform apps using Flutter and React Native, providing businesses with scalable solutions. Our apps work efficiently across iOS, Android, and other platforms, reducing development time and costs while maintaining quality.",
+        txt:(<>We deliver cross-platform apps using <Link href='/flutter-app-development'>Flutter</Link> and <Link href='/react-native-app-development'>React Native</Link>, providing businesses with scalable solutions. Our apps work seamlessly across iOS, Android, and other platforms, reducing development time and costs without compromising quality, positioning us as a leading <Link href='/cross-platform-app-development-services'>cross-platform app development company.</Link></>),
         url: "/cross-platform-app-development-services"
     },
     {

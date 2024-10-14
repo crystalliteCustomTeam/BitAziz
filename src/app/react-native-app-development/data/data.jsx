@@ -85,6 +85,7 @@ import Music from "media/services/industry/music.webp";
 import BlogsIMG01 from "media/services/blogs/post-1.webp"
 import BlogsIMG02 from "media/services/blogs/post-2.webp"
 import BlogsIMG03 from "media/services/blogs/post-3.webp"
+import Link from "next/link";
 
 
 
@@ -113,12 +114,12 @@ export const CuttingedgeList = [
     },
     {
         title: (<>React Native <br />Application Development</>),
-        txt: "As a leading React Native app development company, we provide end-to-end, full-cycle development using advanced methodologies to create efficient iOS and Android apps with intuitive design and optimal performance.",
+        txt: (<>As a leading React Native app development company, we provide end-to-end, full-cycle development using advanced methodologies to create efficient <Link href='/ios-app-development-company'>iOS</Link> and <Link href='/android-app-development-company'>Android apps</Link> with intuitive design and optimal performance.</>),
         links: "",
     },
     {
         title: (<>React Native <br />UI/UX & Design </>),
-        txt: "Create engaging user interfaces and real-time experiences with our React Native app development services, addressing UI/UX gaps to deliver apps that feel great, using detailed wireframes to enhance both design and functionality.",
+        txt: (<>Create engaging user interfaces and real-time experiences with our React Native app development services, addressing UI/UX gaps to deliver apps that feel great, using detailed <Link href='/blog/guide-to-creating-mobile-app-wireframes'>wireframes</Link> to enhance both design and functionality.</>),
         links: "",
     },
     {
@@ -140,7 +141,7 @@ export const CuttingedgeList = [
 
 export const caseStudiesContent = {
     title: "Our Results-Driven React Native App Development Portfolio!",
-    text: "Drive business growth and enhance user engagement with our top-tier apps! As a trusted react native app development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
+    text: (<>Drive business growth and enhance user engagement with top-tier <Link href='/hybrid-app-development-company'>hybrid app development!</Link> As a trusted React Native company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.</>),
 }
 
 export const caseStudiesList = [
@@ -209,7 +210,8 @@ export const WhyChooseList2 = [
 
 export const ProcessContent = {
     title: "Our React Native App Development Process",
-    text: "Our React Native app development services adhere to a structured process, focusing on user experience to eliminate platform discrepancies, delivering seamless, high-quality applications across all devices."
+    text: (<>Our React Native app development services follow a structured <Link href='/blog/application-development-life-cycle'>app development lifecycle,</Link> with a strong focus on user experience to eliminate platform discrepancies and deliver seamless, high-quality applications across all devices.
+    </>)
 }
 
 export const ProcessTabs = [
@@ -218,7 +220,7 @@ export const ProcessTabs = [
         content: {
             heading: "Discovery and Ideation",
             description:
-                "As a premium-grade React Native development company, we collaborate with all stakeholders during the discovery and ideation phase to define the project scope and establish clear milestones. Our team selects the optimal tech stack for building your React Native app, creating a well-architected solution, and documenting every detail to align with your vision, laying a solid foundation for development success.",
+                <>As a premium-grade React Native development company, we collaborate with all stakeholders during the discovery and ideation phase to define the project scope and establish clear milestones. Our team selects the optimal tech stack for building your <Link href='/blog/mobile-app-ideas'>mobile app idea,</Link> creating a well-architected solution, and documenting every detail to align with your vision, laying a solid foundation for development success.</>,
             imgSrc: IMG.src,
         },
     },
@@ -227,7 +229,7 @@ export const ProcessTabs = [
         content: {
             heading: "Planning",
             description:
-                "In the planning stage, we analyze your business requirements to craft a detailed development roadmap for your React Native app. We create a customized plan with strategies and methodologies tailored to your needs, efficiently allocating resources and setting clear timelines to guide the project toward successful completion.",
+                <>In the planning stage, we analyze your business requirements to craft a detailed development roadmap for your React Native app. We also assess <Link href='/blog/mobile-app-development-cost'>mobile app development costs,</Link> creating a customized plan with strategies and methodologies tailored to your needs, efficiently allocating resources and setting clear timelines to guide the project toward successful completion.</>,
             imgSrc: IMG.src,
 
         },
@@ -257,7 +259,7 @@ export const ProcessTabs = [
         content: {
             heading: "Development",
             description:
-                "In the development phase, our React Native application developers employ agile methodologies to build your app, delivering new builds every two weeks for your review and approval. This iterative development process allows us to quickly adapt to changes and integrate feedback while consistently delivering high-quality results without compromising on project goals.",
+                <>In the development phase, our React Native application developers employ agile methodologies and use the <Link href='/blog/react-native-ides'>top React Native IDEs</Link> to build your app. We deliver new builds every two weeks for your review and approval, allowing us to quickly adapt to changes and integrate feedback while consistently delivering high-quality results without compromising on project goals.</>,
             imgSrc: IMG.src,
 
         },
@@ -277,7 +279,7 @@ export const ProcessTabs = [
         content: {
             heading: "Launch and Support",
             description:
-                "During the launch and support phase, we release your iOS and Android apps to the Google Play Store and Apple App Store. Our support doesn’t end there. As a top-tier React Native app development company, we provide ongoing assistance and maintenance to keep your app operating smoothly and adapting to market trends, maximizing its performance and relevance post-launch.",
+                <>During the launch and support phase, we <Link href='https://www.bitswits.co/blog/how-to-publish-an-app-to-google-play-store'>publish the app on the Google Play Store</Link> or Apple App Store. Our support doesn’t end there. As a top-tier React Native app development company, we provide ongoing assistance and maintenance to keep your app operating smoothly and adapting to market trends, maximizing its performance and relevance post-launch.</>,
             imgSrc: IMG.src,
 
         },
@@ -286,7 +288,7 @@ export const ProcessTabs = [
 
 export const TechnologiesContent = {
     title: "Strategic Advantages of Hiring BitsWits as Your React Native App Development Company",
-    text: (<><p>BitsWits is a leading React Native app development company in USA that offers top-quality mobile solutions designed to enhance user engagement and increase market competitiveness. Our skilled React Native app developers focus on efficient cross-platform development, engaging UI/UX design, and a rapid development process. We provide robust, scalable solutions with seamless third-party integrations, helping your app succeed in a dynamic market.</p>
+    text: (<><p>BitsWits is a leading React Native app development company in USA that offers top-quality mobile solutions designed to enhance user engagement and increase market competitiveness. Our skilled React Native app developers focus on efficient <Link href='/cross-platform-app-development-services'>cross-platform development,</Link> engaging UI/UX design, and a rapid development process. We provide robust, scalable solutions with seamless third-party integrations, helping your app succeed in a dynamic market.</p>
     </>),
 
     TechImg: TechImg.src
@@ -375,7 +377,7 @@ export const RisksContent = {
 
 export const OffersContent = {
     title: "Why Choose React Native For Cross-Platform App Development?",
-    text: "Choosing React Native development services for cross-platform is a strategic choice for startups to grow, enhance productivity, and decrease costs, giving them a competitive advantage in the market.",
+    text: (<>Choosing React Native development services for cross-platform is a strategic choice for startups, as it is one of the best <Link href='/blog/mobile-app-development-frameworks'>app development frameworks</Link> to enhance productivity, reduce costs, and provide a competitive advantage in the market.</>),
 }
 
 export const OffersTabs = [

@@ -1,5 +1,5 @@
 // Next
-import Image from "next/image" 
+import Image from "next/image"
 
 // Bannar Images
 import BannerLogos from "media/services/bannerLogo.webp";
@@ -94,6 +94,7 @@ import Music from "media/services/industry/music.webp";
 import BlogsIMG01 from "media/services/blogs/post-1.webp"
 import BlogsIMG02 from "media/services/blogs/post-2.webp"
 import BlogsIMG03 from "media/services/blogs/post-3.webp"
+import Link from "next/link";
 
 
 export const BannerData = {
@@ -120,12 +121,12 @@ export const CuttingedgeList = [
     },
     {
         title: (<>Cross-Platform <br />App Development</>),
-        txt: "Our cross-platform solutions deliver scalable, secure, and seamless applications for both B2B and B2C, providing high-performance apps and exceptional user experience on iOS and Android, driving business success and engagement.",
+        txt: (<>Our cross-platform solutions deliver scalable, secure, and seamless applications for both B2B and B2C, providing high-performance apps and exceptional user experience on <Link href='/ios-app-development-company'>iOS</Link> and <Link href='/android-app-development-company'>Android,</Link> driving business success and engagement.</>),
         links: "",
     },
     {
         title: (<>Custom Flutter <br />App Development</>),
-        txt: "Achieve a strong multi-platform presence with fully functional Flutter applications for Android and iOS, delivering native-like performance and product-market fit to enhance your business reach and customer engagement.",
+        txt: (<>Achieve a strong multi-platform presence with fully functional Flutter applications for Android and iOS, delivering native-like performance and product-market fit. Our expertise in <Link href='/ios-app-development-company'>cross-platform app development</Link> enhances your business reach and boosts customer engagement.</>),
         links: "",
     },
     {
@@ -147,7 +148,7 @@ export const CuttingedgeList = [
 
 export const caseStudiesContent = {
     title: "Our Results-Driven Flutter App Development Portfolio!",
-    text: "Drive business growth and enhance user engagement with our top-tier apps! As a trusted flutter app development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
+    text: (<>Drive business growth and enhance user engagement with our top-tier apps! As a trusted Flutter app development company, our portfolio reflects our commitment to delivering high-impact <Link href='/hybrid-app-development-company'>hybrid solutions</Link> and showcases the success of our clients.</>),
 }
 
 export const caseStudiesList = [
@@ -216,7 +217,7 @@ export const WhyChooseList2 = [
 
 export const ProcessContent = {
     title: "Our Flutter App Development Process",
-    text: "Our Flutter app development services follow a well-defined process, placing user experience at the center to achieve zero platform differences for seamless, high-quality applications across all devices."
+    text: (<>Our Flutter app development services follow a well-defined <Link href='blog/application-development-life-cycle'>app development lifecycle,</Link> placing user experience at the center to ensure zero platform differences, delivering seamless, high-quality applications across all devices.</>)
 }
 
 export const ProcessTabs = [
@@ -225,7 +226,7 @@ export const ProcessTabs = [
         content: {
             heading: "Discovery and Ideation",
             description:
-                "To set a solid foundation, we define your project scope and establish clear milestones in the discovery and ideation phase by collaborating with all the stakeholders. Then, our team decides on an optimal tech stack to build your Flutter app, creating a well-architected solution and documenting every detail to reflect your vision, setting a solid foundation for development success.",
+                <>To set a solid foundation, we define your project scope and establish clear milestones in the discovery and ideation phase by collaborating with all the stakeholders. Then, our team decides on an optimal tech stack to build your <Link href='/blog/mobile-app-ideas'>mobile app idea,</Link> creating a well-architected solution and documenting every detail to reflect your vision, setting a solid foundation for development success.</>,
             imgSrc: IMG.src,
         },
     },
@@ -234,7 +235,7 @@ export const ProcessTabs = [
         content: {
             heading: "Planning",
             description:
-                "In the planning stage, we analyze your business requirements to create a comprehensive development roadmap for your Flutter product. We develop a dedicated plan with strategies and methodologies tailored to your needs, efficiently allocating resources and setting clear timelines to guide the project toward successful completion.",
+                <>In the planning stage, we analyze your business requirements to create a comprehensive development roadmap for your Flutter product. We also evaluate the <Link href='/blog/mobile-app-development-cost'>mobile app development</Link> cost, ensuring strategies and methodologies are tailored to your needs, efficiently allocating resources and setting clear timelines to guide the project toward successful completion.</>,
             imgSrc: IMG.src,
 
         },
@@ -244,7 +245,7 @@ export const ProcessTabs = [
         content: {
             heading: "UI/UX Design",
             description:
-                "Our UI/UX design phase means expert-vetted designers building customer journey maps and user flows to enhance the overall UX of your mobile app. Our team builds user-friendly interfaces and perfects the visual appeal of your Flutter app to achieve seamless navigation. The ultimate goal is to engage your users with intuitive design.",
+                <>Our UI/UX design phase includes <Link href='/blog/guide-to-creating-mobile-app-wireframes'>creating wireframes,</Link> where expert-vetted designers map out customer journeys and user flows to enhance the overall UX of your mobile app. Our team builds user-friendly interfaces and perfects the visual appeal of your Flutter app for seamless navigation, with the ultimate goal of engaging your users through intuitive design.</>,
             imgSrc: IMG.src,
 
         },
@@ -284,7 +285,7 @@ export const ProcessTabs = [
         content: {
             heading: "Launch and Support",
             description:
-                "In the launch and support phase, we release your iOS and Android apps to the Google Play Store and Apple App Store. However, our support doesn’t end there. As a top-grade Flutter app development agency, we provide ongoing assistance and maintenance to keep your app operating smoothly and adapting to market trends, maximizing its performance and relevance post-launch.",
+                <>In the launch and support phase, we <Link href='/blog/how-to-publish-an-app-to-google-play-store'>publish your app on the Google Play Store</Link> or the App Store. However, our support doesn’t end there. As a top-grade Flutter app development agency, we provide ongoing assistance and maintenance to keep your app operating smoothly and adapting to market trends, maximizing its performance and relevance post-launch.</>,
             imgSrc: IMG.src,
 
         },
