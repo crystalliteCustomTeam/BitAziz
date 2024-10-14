@@ -338,45 +338,45 @@ export default function dubaidevelopmentcompany() {
           {
             question: "How long does it typically take to develop a mobile app?",
             answer: (
-              <>
+              <p>
                 The time to develop a mobile app varies based on its complexity and features. Typically, a simple app can take 2 to 4 months, while more complex ones might require 6 months to over a year.
-              </>
+              </p>
             ),
           },
           {
             question:
               "What platforms do you develop mobile apps for (iOS, Android, both)?",
             answer: (
-              <>
+              <p>
                 We specialize in developing apps for both iOS and Android platforms. Whether you need an app for one platform or cross-platform compatibility, our team has the expertise to meet your needs.
-              </>
+              </p>
             ),
           },
           {
             question:
               "Can you help with app design as well as development?",
             answer: (
-              <>
+              <p>
                 Yes, we offer comprehensive app development services that include both design and development. From creating wireframes and UI/UX design to coding and testing, we ensure your app looks great and functions flawlessly.
-              </>
+              </p>
             ),
           },
           {
             question:
               "How do you ensure the security of mobile apps?",
             answer: (
-              <>
+              <p>
                 We prioritize security throughout the development process. Our team follows best practices for secure coding, implements encryption techniques, and conducts thorough security testing to identify and address any vulnerabilities.
-              </>
+              </p>
             ),
           },
           {
             question:
               "Do you provide ongoing support and maintenance after the app is launched?",
             answer: (
-              <>
+              <p>
                 Yes, we offer ongoing support and maintenance services to ensure your app remains up-to-date and performs optimally. Whether it's fixing bugs, adding new features, or addressing compatibility issues, we're here to support your app post-launch.
-              </>
+              </p>
             ),
           },
           {

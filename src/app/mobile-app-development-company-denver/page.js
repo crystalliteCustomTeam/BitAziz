@@ -250,72 +250,72 @@ export default function dubaidevelopmentcompany() {
           {
             question: "Which sectors do you majorly aim your app development services in Denver?",
             answer: (
-              <>
+              <p>
                 Denver has got us servicing many industries. We have done successful app projects across a range of sectors such as e-commerce, healthcare, finance, hospitality, entertainment, real estate, sports, automotive, and enterprise mobility. Our development team with their extensive experience is able to provide custom-made solutions that perfectly fit in with the unique requirements of your company. You might be a healthcare provider who wants to have seamless patient services or an e-commerce platform seeking improved user engagement; we are here for you.
-              </>
+              </p>
             ),
           },
           {
             question:
               "For which platforms are your app development services suitable?",
             answer: (
-              <>
+              <p>
                 We are versatile enough to develop applications that can work on different platforms including Android and iOS. Our developers have extensive knowledge in building native apps that cater for specific nuances of each platform as well as cross-platform ones that can reach more people. They enable your app to be accessed by most people despite the device used therefore targeting the largest audience possible.
-              </>
+              </p>
             ),
           },
           {
             question:
               "How will you ensure my app’s safety and data confidentiality?",
             answer: (
-              <>
+              <p>
                 Security is our first priority when it comes to apps. We follow strict standards commonly employed across the industry as well as best practices in order to safeguard both your app and its potentially confidential users’ data.
-              </>
+              </p>
             ),
           },
           {
             question:
               "How long does it typically take in Denver to create a mobile application?",
             answer: (
-              <>
+              <p>
                 A mobile app's development timetable is flexible and mostly dependent on the app's complexity and your unique needs. We will go over your demands in great detail and provide you with a project timetable in our initial meeting. This guarantees that you are aware of the project's deliverables and milestones, which will facilitate a seamless and effective project execution.
-              </>
+              </p>
             ),
           },
           {
             question:
               "Do you help with the marketing of apps?",
             answer: (
-              <>
+              <p>
                 Indeed, we do. We offer excellent mobile app marketing services to increase the popularity of your app within the intended user group. Search engine optimization (SEO), app store optimization (ASO), and social media channel promotion are some of our adapted advertising efforts. Ensuring your application gains the recognition and user base it deserves is the primary goal of all of these tactics.
-              </>
+              </p>
             ),
           },
           {
             question:
               "Do you provide regular app updates and maintenance?",
             answer: (
-              <>
+              <p>
                 Indeed. We are committed to providing full-suite app development services, which include post-launch assistance. To stay up with customer expectations and industry developments, we handle routine updates, fixing any faults that may arise, and adding feature additions. Our goal is to make sure your app remains relevant and competitive in the ever-changing business market
-              </>
+              </p>
             ),
           },
           {
             question:
               "What are the current trends and technologies used in mobile app development in Denver?",
             answer: (
-              <>
+              <p>
                 AI/ML, IoT, AR/VR, Cloud, and Blockchain technologies are among the latest trends in mobile app development in Denver. These trends allow businesses to design better and interactive apps which in turn make the user experience much better and seamless.
-              </>
+              </p>
             ),
           },
           {
             question:
               "Can your mobile app developers in Denver create apps for multiple platforms?",
             answer: (
-              <>
+              <p>
                 Yes, at BitsWits, our mobile app developers in Denver have the professional expertise and technical knowledge to develop apps that can efficiently run on multiple platforms. Whether you need an iOS app or an Android one, they have the expertise to develop exquisite apps that can perform across various platforms smoothly and efficiently.
-              </>
+              </p>
             ),
           }
         ]}

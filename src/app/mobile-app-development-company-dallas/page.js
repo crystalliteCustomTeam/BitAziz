@@ -366,26 +366,26 @@ export default function dubaidevelopmentcompany() {
         faqsData={[
           {
             question: "What platforms do you specialize in for app development?",
-            answer: (<>
+            answer: (<p>
               We focus on app development for diverse platforms that include <b>iOS</b> (iPhone and iPad), <b>Android</b>, <b>web apps</b> (mobile and desktop), and <b>cross-platform apps</b> using <b>Flutter</b> and <b>React Native</b> frameworks.
-            </>)
+            </p>)
           },
           {
             question: "How do you ensure the security of mobile applications?",
-            answer: (<>
-              We ensure mobile app security through <b>encryption</b>, <b>secure authentication</b>, <b>regular updates</b>, <b>thorough testing</b>, <b>adherence to secure coding practices</b>, and <b>staying informed about security threats</b>. </>)
+            answer: (<p>
+              We ensure mobile app security through <b>encryption</b>, <b>secure authentication</b>, <b>regular updates</b>, <b>thorough testing</b>, <b>adherence to secure coding practices</b>, and <b>staying informed about security threats</b>. </p>)
           },
           {
             question: "Do you offer ongoing support and maintenance after the app launch?",
-            answer: (<> <b>Yes</b>, we offer ongoing support and maintenance services after the app launch to ensure its smooth operation, address any issues, and implement updates as needed. </>)
+            answer: (<p> <b>Yes</b>, we offer ongoing support and maintenance services after the app launch to ensure its smooth operation, address any issues, and implement updates as needed. </p>)
           },
           {
             question: "What is your approach to user experience design in app development?",
-            answer: (<> As a top-grade mobile app design company in Dallas, our approach to user experience design focuses on <b>understanding user needs</b>, <b>conducting research</b>, <b>creating intuitive interfaces</b>, and <b>iterative testing</b> for optimal usability and satisfaction. </>)
+            answer: (<p> As a top-grade mobile app design company in Dallas, our approach to user experience design focuses on <b>understanding user needs</b>, <b>conducting research</b>, <b>creating intuitive interfaces</b>, and <b>iterative testing</b> for optimal usability and satisfaction. </p>)
           },
           {
             question: "Can you integrate third-party services or APIs into the app?",
-            answer: (<> <b>Yes</b>, we can integrate third-party services or APIs into the app to extend its functionality and provide additional features as per your requirements and preferences. </>)
+            answer: (<p> <b>Yes</b>, we can integrate third-party services or APIs into the app to extend its functionality and provide additional features as per your requirements and preferences. </p>)
           },
         ]}
       />

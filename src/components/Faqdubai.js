@@ -46,7 +46,7 @@ const Faqdubai = (props) => {
                                     </div>
                                     <div className={faqStates[index] ? `d-block ${styles.mostimg}` : "d-none"}>
                                         <div>
-                                            <p>{faq.answer}</p>
+                                            {faq.answer}
                                             <button onClick={modal}>Get Started</button>
                                         </div>
                                     </div>

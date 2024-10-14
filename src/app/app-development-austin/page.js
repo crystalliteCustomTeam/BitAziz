@@ -367,7 +367,7 @@ export default function dubaidevelopmentcompany() {
               "What makes us at BitsWits different from other mobile app development companies in Austin?",
             answer: (
               <>
-                There is a wide range of benefits that differentiate our app development company in Austin from others.
+                <p>There is a wide range of benefits that differentiate our app development company in Austin from others.</p>
                 <ul className="mt-3">
                   <li className="text-black">Firstly, we offer applications that are built using modern technologies, creativity, & innovative approaches.</li>
                   <li className="text-black">Secondly, our app developers have extensive experience in developing mobile apps that generate massive revenue.</li>
@@ -380,7 +380,7 @@ export default function dubaidevelopmentcompany() {
             question: "What industries do you specialize in for mobile app development?",
             answer: (
               <>
-                At BitsWits, we specialize in mobile app development for a wide range of industries, including but not limited to:
+                <p>At BitsWits, we specialize in mobile app development for a wide range of industries, including but not limited to:</p>
                 <ul className="mt-3">
                   <li className="text-black">Healthcare</li>
                   <li className="text-black">Finance and Fintech</li>
@@ -393,7 +393,7 @@ export default function dubaidevelopmentcompany() {
                   <li className="text-black">Food and Beverage</li>
                   <li className="text-black">Automotive</li>
                 </ul>
-                Our team has extensive experience catering to the unique needs and requirements of each industry, ensuring that the mobile apps we develop are tailored to meet specific business objectives and user demands
+                <p>Our team has extensive experience catering to the unique needs and requirements of each industry, ensuring that the mobile apps we develop are tailored to meet specific business objectives and user demands</p>
               </>
             ),
           },
@@ -402,13 +402,9 @@ export default function dubaidevelopmentcompany() {
               "How do you ensure the security of mobile apps developed by BitsWits?",
             answer: (
               <>
-                At BitsWits, we prioritize mobile app security through <b>secure coding practices</b>, <b>data encryption</b>, and <b>robust authentication mechanisms</b>.
-                <br />
-                <br />
-                We conduct regular security audits and compliance checks to identify and address vulnerabilities. Our team ensures compliance with industry standards like GDPR and HIPAA.
-                <br />
-                <br />
-                With a focus on secure backend infrastructure, we aim to deliver mobile apps that provide users with a safe and reliable experience.
+                <p>At BitsWits, we prioritize mobile app security through <b>secure coding practices</b>, <b>data encryption</b>, and <b>robust authentication mechanisms</b>.</p>
+                <p>We conduct regular security audits and compliance checks to identify and address vulnerabilities. Our team ensures compliance with industry standards like GDPR and HIPAA.</p>
+                <p>With a focus on secure backend infrastructure, we aim to deliver mobile apps that provide users with a safe and reliable experience.</p>
               </>
             ),
           },
@@ -417,13 +413,9 @@ export default function dubaidevelopmentcompany() {
               "What is the typical timeline for developing a mobile app with BitsWits?",
             answer: (
               <>
-                <b>The typical timeline for developing a mobile app with BitsWits varies based on project complexity and specific client requirements.</b>
-                <br />
-                <br />
-                However, a general timeline includes phases such as <b>project planning</b>, <b>design</b>, <b>development</b>, <b>testing</b>, and <b>deployment</b>.
-                <br />
-                <br />
-                Depending on these factors, development can range from a <b>few weeks for simpler apps to several months for more complex projects</b>.
+                <p><b>The typical timeline for developing a mobile app with BitsWits varies based on project complexity and specific client requirements.</b></p>
+                <p>However, a general timeline includes phases such as <b>project planning</b>, <b>design</b>, <b>development</b>, <b>testing</b>, and <b>deployment</b>.</p>
+                <p>Depending on these factors, development can range from a <b>few weeks for simpler apps to several months for more complex projects</b>.</p>
               </>
             ),
           },
@@ -432,7 +424,7 @@ export default function dubaidevelopmentcompany() {
               "What post-launch support and maintenance services do you offer for mobile apps?",
             answer: (
               <>
-                At BitsWits, our post-launch support and maintenance services ensure that your mobile app continues to perform optimally after deployment. We offer:
+                <p>At BitsWits, our post-launch support and maintenance services ensure that your mobile app continues to perform optimally after deployment. We offer:</p>
                 <ul className="mt-3">
                   <li className="text-black"><b>Bug Fixes</b>: Prompt resolution of any technical issues or bugs that may arise post-launch.</li>
                   <li className="text-black"><b>Performance Optimization</b>: Continuous monitoring and optimization to enhance app performance and responsiveness.</li>

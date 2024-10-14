@@ -540,29 +540,28 @@ export default function dubaidevelopmentcompany() {
           {
             question: "How much does mobile app development cost in New York?",
             answer: (
-              <>
-                Building a software or mobile application is both complicated and expensive. App developers in New York City  usually charge an average of $45 per hour. Similarly, front-end developers, designers, project managers, etc. charge more or less the same hourly rate. Assuming you’re building native apps for both iOS and Android, and your LOE is somewhere around 1200 - 1500 for a single version, the cost of app development could easily go above $100,000. And that’s where BitsWits come to help!<br />
-
+              <p>Building a software or mobile application is both complicated and expensive. App developers in New York City  usually charge an average of $45 per hour. Similarly, front-end developers, designers, project managers, etc. charge more or less the same hourly rate. Assuming you’re building native apps for both iOS and Android, and your LOE is somewhere around 1200 - 1500 for a single version, the cost of app development could easily go above $100,000. And that’s where BitsWits come to help!
+                <br />
                 BitsWits has offices in around 7 countries with production houses across Pakistan, UAE, and the USA. The hourly rates are cheaper here with slightly better development quality. Thus, if you work with us, you can easily get the same app within $25k to $40k.
-              </>
+              </p>
             ),
           },
           {
             question:
               "Do I need to build separate Android and iOS versions of my app?",
             answer: (
-              <>
+              <p>
                 Building separate Android and iOS versions of your app depends on your target audience and business goals. While native apps offer better performance and user experience, they require separate development for each platform. Alternatively, you can opt for cross-platform app development to save time and resources while reaching a wider audience.
-              </>
+              </p>
             ),
           },
           {
             question:
               "Are there any drawbacks of cross-platform app development?",
             answer: (
-              <>
+              <p>
                 While cross-platform app development offers benefits like reduced development time and cost, there are some drawbacks to consider. Cross-platform apps may not offer the same level of performance or user experience as native apps. They may also have limitations in accessing platform-specific features and capabilities.
-              </>
+              </p>
             ),
           },
           {
@@ -570,8 +569,8 @@ export default function dubaidevelopmentcompany() {
               "Do I have to pay at once for mobile app development?",
             answer: (
               <>
-                No, you don't have to pay all at once for mobile app development. Most app development companies offer flexible payment options, including milestone-based payments.
-                For instance, BitsWits offers you the flexibility to divide your project into several stages and get started with the alpha development fee.
+                <p>No, you don't have to pay all at once for mobile app development. Most app development companies offer flexible payment options, including milestone-based payments.</p>
+                <p>For instance, BitsWits offers you the flexibility to divide your project into several stages and get started with the alpha development fee.</p>
                 <p>You can book a free consultation call with our team to discuss the pricing plans and flexibility we offer for app development cost.
                 </p>
               </>
@@ -581,9 +580,9 @@ export default function dubaidevelopmentcompany() {
             question:
               "What’s better between hiring freelance app developers in NYC vs working with an app development company?",
             answer: (
-              <>
+              <p>
                 You can hire a freelance app developer in NYC if you already have an existing in-house team and need to augment it for better results. Besides that, hiring a freelance app developer is not the right approach. While it might seem a little cost effective and monitorable, the overall cost and results are not guaranteed and the only person who's accountable for any mishap is you. At the same time, hiring an app development company in NYC like BitsWits gives you freedom to be as flexible and customizable as you want. Plus, you can check the portfolio of an app development company and see if they’re capable of building something similar to what you are looking for.
-              </>
+              </p>
             ),
           },
           {

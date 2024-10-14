@@ -352,54 +352,54 @@ export default function dubaidevelopmentcompany() {
           {
             question: "What are the factors that affect the cost of an app?",
             answer: (
-              <>
+              <p>
                 Factors affecting the cost of app development include features, complexity, platform compatibility, design requirements, and development team rates.
-              </>
+              </p>
             ),
           },
           {
             question:
               "Which app is mostly used in Saudi Arabia?",
             answer: (
-              <>
+              <p>
                 The most commonly used apps in Saudi Arabia are WhatsApp and Snapchat.
-              </>
+              </p>
             ),
           },
           {
             question:
               "What types of mobile apps do you develop?",
             answer: (
-              <>
+              <p>
                 We develop a wide range of mobile apps, including native, hybrid, and cross-platform applications for iOS and Android. Our expertise covers various industries such as e-commerce, healthcare, finance, education, and entertainment.
-              </>
+              </p>
             ),
           },
           {
             question:
               "How long does it take to develop a mobile app?",
             answer: (
-              <>
+              <p>
                 The development timeline for a mobile app varies depending on the complexity and specific requirements of your project. Typically, it can range from a few weeks to several months. We provide a detailed project timeline during the initial consultation.
-              </>
+              </p>
             ),
           },
           {
             question:
               "Do you offer post-launch support and maintenance?",
             answer: (
-              <>
+              <p>
                 Yes, we offer comprehensive post-launch support and maintenance services to ensure your app remains up-to-date, secure, and fully functional. Our services include bug fixes, updates, and enhancements as needed.
-              </>
+              </p>
             ),
           },
           {
             question:
               "How do you ensure the security and privacy of my app and data?",
             answer: (
-              <>
+              <p>
                 We prioritize the security and privacy of your app and data by implementing industry-standard security measures and best practices. Our development process includes rigorous testing, encryption, and compliance with relevant data protection regulations.
-              </>
+              </p>
             ),
           }
         ]}

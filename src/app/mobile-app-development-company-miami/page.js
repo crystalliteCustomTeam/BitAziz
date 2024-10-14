@@ -352,74 +352,74 @@ export default function dubaidevelopmentcompany() {
             question:
               "Can you update an existing app, and how does this process work?",
             answer: (
-              <>
+              <p>
                 <span>Yes, updating an existing app is a common practice and is crucial for maintaining its relevance and functionality. The process typically involves evaluating the current app’s performance, gathering user feedback, and identifying new requirements or changes in technology that necessitate an update.</span>
                 <br />
                 <br />
                 <span>Once these factors are assessed, the development team will prioritize updates, which could include fixing bugs, improving user interface designs, adding new features, or enhancing security measures.</span>
-              </>
+              </p>
             ),
           },
           {
             question: "How long will it take to build and launch the app?",
             answer: (
-              <>
+              <p>
                 Average mobile app development can take up to 3-9 months. The accurate time estimation is dependent on factors such as Project complexity, functionality, and the professional experience of the developer.
-              </>
+              </p>
             ),
           },
           {
             question:
               "Which technology is used by BitsWits for mobile app development?",
             answer: (
-              <>
+              <p>
                 At BitsWits, we employ a range of superior technologies such as Swift and Kotlin for native iOS and Android Apps, React Native, and Flutter for cross-platform app development. We employ backend technologies such as Firebase, and Node.js, and popular databases including MongoDB MySQL.
-              </>
+              </p>
             ),
           },
           {
             question:
               "Do you provide support & Maintenance post-development?",
             answer: (
-              <>
+              <p>
                 Yes! Our team of professionals ensures comprehensive post-deployment support and maintenance. We offer performance optimization services, timely bug fixes, audits as per modern tech updates, and evolving user requirements.
-              </>
+              </p>
             ),
           },
           {
             question:
               "Will you sign an NDA (Non-disclosure Agreement)?",
             answer: (
-              <>
+              <p>
                 We at BitsWits ensure to keep confidentiality as the cornerstone of our processes. Once you entrust us with your app development project, we proceed to signing an NDA (Non-disclosure Agreement). This document ensures that every piece of sensitive information shared with us is kept strictly confidential and utilized when needed within the app development process.
-              </>
+              </p>
             ),
           },
           {
             question:
               "How to find an app developer?",
             answer: (
-              <>
+              <p>
                 Pen down the checklist of the app vision requirements, project details, industry, and more. Once you have a list of all the in-app features you wish to have in your app, you can start looking for app developers with a proven work record of delivering similar projects with positive client reviews.
-              </>
+              </p>
             ),
           },
           {
             question:
               "What are the current trends and technologies used in mobile app development in Miami?",
             answer: (
-              <>
+              <p>
                 AI/ML, IoT, AR/VR, Cloud, and Blockchain technologies are among the latest trends in mobile app development in Miami. These trends allow businesses to design better and interactive apps which in turn make the user experience much better and seamless.
-              </>
+              </p>
             ),
           },
           {
             question:
               "Why should I hire BitsWits for mobile app development in Miami?",
             answer: (
-              <>
+              <p>
                 BitsWits surpasses other mobile app development companies in Miami being at the forefront of digitally transforming brands through robust app solutions. With a proven track record of delivering 100+ successful projects, we take pride in streamlining core business operations through seamless UI/UX, smooth navigation, and feature-rich integration.
-              </>
+              </p>
             ),
           }
         ]}

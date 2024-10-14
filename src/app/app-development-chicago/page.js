@@ -339,26 +339,26 @@ export default function dubaidevelopmentcompany() {
             question:
               "What specific mobile app development services does your company offer in Chicago?",
             answer: (
-              <>
+              <p>
                 Our company in Chicago offers a comprehensive range of mobile app development services, including iOS and Android, cross-platform UI/UX design, app testing, and ongoing maintenance and support.
-              </>
+              </p>
             ),
           },
           {
             question: "How experienced is your team in developing mobile apps for businesses in Chicago?",
             answer: (
-              <>
+              <p>
                 Our Chicago-based team of mobile app developers has extensive experience developing mobile apps for businesses, specializing in various industries and understanding unique challenges and opportunities in the Chicago market.
-              </>
+              </p>
             ),
           },
           {
             question:
               "What is your approach to mobile app development, and how do you ensure client satisfaction?",
             answer: (
-              <>
+              <p>
                 Our Chicago-based mobile app development approach prioritizes client understanding and employs agile methodologies, regular communication, and feedback loops to ensure alignment with expectations and client satisfaction.
-              </>
+              </p>
             ),
           },
           {
@@ -366,10 +366,10 @@ export default function dubaidevelopmentcompany() {
               "How much time it takes to build a mobile app in Chicago?",
             answer: (
               <>
-                The time it takes to build a mobile app in Chicago varies depending on app complexity, features and functionalities, design requirements, and testing.
+                <p>The time it takes to build a mobile app in Chicago varies depending on app complexity, features and functionalities, design requirements, and testing.</p>
                 <br />
                 <br />
-                On average, a simple mobile app can take <b>3 to 6 months</b> to develop, while more complex apps may require <b>6 months to a year</b> or more for development, testing, and deployment.
+                <p>On average, a simple mobile app can take <b>3 to 6 months</b> to develop, while more complex apps may require <b>6 months to a year</b> or more for development, testing, and deployment.</p>
               </>
             ),
           }

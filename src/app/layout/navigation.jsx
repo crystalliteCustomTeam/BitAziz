@@ -8,6 +8,10 @@ import PopUp from "@/src/app/services/popup"
 
 const ServicesMenu = [
     {
+        title: "Mobile App Development",
+        url: "/mobile-application-development-services",
+    },
+    {
         title: "Flutter app development",
         url: "/flutter-app-development",
     },
