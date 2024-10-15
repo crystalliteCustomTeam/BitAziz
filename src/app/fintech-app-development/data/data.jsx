@@ -78,7 +78,7 @@ import TAB6_3 from "media/industry/techstack/MicrosoftAzure.svg";
 import TAB6_4 from "media/industry/techstack/DigitalOcean.svg";
 
 //========= Industries Images
-import { AutomotiveSVG, EcommerceSVG, EducationSVG, HealthcareSVG, LogisticsSVG, MusicSVG, RealEstateSVG, SocialSVG} from "@/src/app/app-constants";
+import { AutomotiveSVG, EcommerceSVG, EducationSVG, HealthcareSVG, LogisticsSVG, MusicSVG, RealEstateSVG, SocialSVG } from "@/src/app/app-constants";
 import Ecommerce from "media/services/industry/Ecommerce.webp";
 import Automotive from "media/services/industry/Automotive.webp";
 import Healthcare from "media/services/industry/Healthcare.webp";
@@ -92,6 +92,7 @@ import Music from "media/services/industry/music.webp";
 import BlogsIMG01 from "media/services/blogs/post-1.webp"
 import BlogsIMG02 from "media/services/blogs/post-2.webp"
 import BlogsIMG03 from "media/services/blogs/post-3.webp"
+import Link from "next/link";
 
 
 export const BannerData = {
@@ -102,7 +103,7 @@ export const BannerData = {
 
 export const IndustryServiceContent = {
     title: (<>Fintech App Development Services for <br /> High-Performance Applications</>),
-    text: "As a leading fintech app development company, we offer full-cycle services for building secure, scalable financial applications. Our fintech app developers create solutions that improve financial operations and user interactions.",
+    text: (<>As a leading fintech app development company, we offer full-cycle <Link href='/mobile-application-development-services'> mobile app development services</Link>to build secure, scalable financial applications. Our fintech developers craft solutions that enhance financial operations and user interactions.</>),
 }
 
 export const IndustryServiceList = [
@@ -243,9 +244,9 @@ export const ExpertiseList2 = [
 export const TechnologiesContent = {
     title: "Hire Fintech App Developers for Secure, High-Performance Solutions",
     text: (<>
-        <p>Partner with skilled <strong>fintech app developers</strong> to create tailored financial solutions using advanced technologies like Swift, Kotlin, Flutter, and React Native.</p>
-        <p>Our <strong>fintech app development</strong> services deliver secure, efficient apps for banking, payments, wealth management, and digital wallets. We prioritize security, scalability, and seamless user experiences, making us a trusted <strong>fintech app development</strong> company.</p>
-        <p>Curious about the cost? Use our free cost calculator for an accurate estimate based on your project’s requirements.</p>
+        <p>Partner with skilled fintech app developers to create tailored financial solutions using advanced technologies like Swift, Kotlin,  <Link href='/react-native-app-development'>React Native,</Link> and <Link href='/flutter-app-development'>Flutter.</Link></p>
+        <p>Our fintech app development services deliver secure, efficient apps for banking, payments, wealth management, and digital wallets. We prioritize security, scalability, and seamless user experiences, making us a trusted fintech app development company.</p>
+        <p>Curious about the cost? Contact us to get an accurate estimate based on your project’s requirements.</p>
     </>),
 
     TechImg: TechImg.src
@@ -288,7 +289,7 @@ export const TechnologiesIcons = [
 
 export const ProcessContent = {
     title: "Efficient Fintech App Development Process for Rapid Market Entry",
-    text: "At BitsWits, we use a practical and efficient approach to develop fintech apps that meet modern financial needs while focusing on scalability and usability."
+    text: (<>At BitsWits, we follow a practical and efficient <Link href='/blog/application-development-life-cycle'>app development lifecycle</Link> to create fintech apps that meet modern financial needs, with a focus on scalability and usability.</>),
 }
 
 export const ProcessTabs = [
@@ -296,8 +297,7 @@ export const ProcessTabs = [
         title: "Discovery",
         content: {
             heading: "Discovery Phase",
-            description:
-                "We kick off by thoroughly understanding your financial goals, compliance needs, and user base. Our fintech app development team identifies core functionalities, regulatory frameworks like PCI DSS, and the most suitable technologies to build a secure and scalable solution that aligns with your business model.",
+            description: (<>We kick off by thoroughly understanding your financial goals, <Link href='/blog/mobile-app-ideas'>mobile app idea,</Link> compliance needs, and user base. Our fintech app development team identifies core functionalities, evaluates the <Link href='/blog/mobile-app-development-cost'> app development cost, </Link> considers regulatory frameworks like PCI DSS, and selects the most suitable technologies to build a secure and scalable solution aligned with your business model.</>),
             imgSrc: IMG.src,
         },
     },
@@ -314,8 +314,7 @@ export const ProcessTabs = [
         title: "UI/UX Design",
         content: {
             heading: "UI/UX Design",
-            description:
-                "Our design team crafts intuitive, secure user interfaces tailored to fintech. From seamless KYC processes to multi-factor authentication (MFA), we ensure that every interaction is user-friendly and fortified with robust security protocols, enhancing both the user experience and data protection.",
+            description: (<>Our design team begins by <Link href='/blog/guide-to-creating-mobile-app-wireframes'>creating wireframes</Link>  to map out intuitive, secure user interfaces tailored to fintech. From seamless KYC processes to multi-factor authentication (MFA), we ensure every interaction is user-friendly and fortified with robust security protocols, enhancing both user experience and data protection.</>),
             imgSrc: IMG.src,
         },
     },
@@ -323,8 +322,7 @@ export const ProcessTabs = [
         title: "Backend Development",
         content: {
             heading: "Backend Development",
-            description:
-                "We develop in modular sprints, incorporating blockchain where necessary for immutable transactions, and integrating AI-driven analytics for personalized financial insights. Every feature is stress-tested to handle large transaction volumes while maintaining data integrity and speed.",
+            description: (<>Our <Link href='/blog/guide-mobile-app-backend-development'>backend development</Link> follows a modular sprint approach, incorporating blockchain where necessary for immutable transactions and integrating AI-driven analytics for personalized financial insights. Each feature is rigorously stress-tested to ensure it can handle large transaction volumes while maintaining data integrity and speed</>),
             imgSrc: IMG.src,
         },
     },
@@ -526,7 +524,7 @@ export const FuelingContent2 = {
 export const FuelingList2 = [
     {
         title: "AI for Smart Financial Insights",
-        text: "As a leading fintech app development company, we incorporate AI to provide advanced financial tools. AI helps predict market trends, automate routine tasks, and offer personalized financial advice. This makes your fintech app more intuitive and useful, ensuring users get the most out of their financial decisions."
+        text: (<>As a leading fintech app development company, we incorporate advanced technologies through  <Link href='/ai-development-company'>AI app development</Link> to offer powerful financial tools. AI predicts market trends, automates routine tasks, and delivers personalized financial advice, making your app more intuitive and useful for smarter financial decisions.</>),
     },
     {
         title: "Blockchain for Secure Transactions",
@@ -548,7 +546,7 @@ export const FuelingList2 = [
 
 export const TechStackContent = {
     title: "Our Fintech App Development Tech Stack",
-    text: "Our comprehensive tech stack ensures robust, scalable, and high-performing fintech applications.",
+    text: (<>Our comprehensive tech stack, built on the <Link href='/blog/mobile-app-development-frameworks'>latest app development frameworks,</Link> ensures robust, scalable, and high-performing fintech applications.</>),
 }
 
 export const TechStackTabs = [

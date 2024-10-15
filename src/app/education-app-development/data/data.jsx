@@ -108,6 +108,7 @@ import Music from "media/services/industry/music.webp";
 import BlogsIMG01 from "media/services/blogs/post-1.webp"
 import BlogsIMG02 from "media/services/blogs/post-2.webp"
 import BlogsIMG03 from "media/services/blogs/post-3.webp"
+import Link from "next/link";
 
 
 export const BannerData = {
@@ -258,9 +259,9 @@ export const ExpertiseList2 = [
 export const TechnologiesContent = {
     title: "Hire Skilled Developers for Education App Development",
     text: (<>
-        <p>Our developers specialize in creating effective <strong>Education App’s</strong> using technologies like Flutter, Swift, Kotlin, and React Native. </p>
+        <p>Our developers specialize in creating effective education apps using technologies like  <Link href='/react-native-app-development'>React Native,</Link> Swift, Kotlin, and <Link href='/flutter-app-development'>Flutter.</Link></p>
         <p>They design intuitive, engaging solutions that support interactive learning and improve educational outcomes. Whether it’s a mobile app for online courses or a platform for virtual classrooms, our team delivers tailored solutions that cater to the needs of modern education.</p>
-        <p>Use our free app cost calculator to get an instant breakdown of your app cost!</p>
+        <p>Contact us to get an instant breakdown of your app cost!</p>
     </>),
 
     TechImg: TechImg.src
@@ -303,7 +304,7 @@ export const TechnologiesIcons = [
 
 export const ProcessContent = {
     title: "Efficient Education App Development Process for Faster Time-to-Market",
-    text: "As a leading e Learning app development company, we utilize an agile development process to deliver the best solutions on time, making sure that every project meets its deadlines efficiently. "
+    text: (<>As a leading eLearning app development company, we follow a well-structured <Link href='/blog/application-development-life-cycle'>app development lifecycle</Link>  to deliver the best solutions on time, ensuring that every project meets its deadlines efficiently.</>),
 }
 
 export const ProcessTabs = [
@@ -311,7 +312,7 @@ export const ProcessTabs = [
         title: "Planning",
         content: {
             heading: "Project Planning",
-            description: "In the project planning stage of our educational app development services, we define the purpose and parameters of your app. This includes identifying the learner demographic, selecting the appropriate platforms and learning management system (LMS) integration, and outlining features that align with your instructional objectives and user engagement goals.",
+            description: (<>In the project planning stage of our educational app development services, we refine your <Link href='/blog/mobile-app-ideas'>mobile app idea</Link> and define the app’s purpose. This includes identifying the learner demographic, selecting platforms, evaluating the <Link href='/blog/mobile-app-development-cost'> app development cost, </Link> integrating with an LMS, and outlining features that align with your instructional objectives and engagement goals.</>),
             imgSrc: Process01.src,
         },
     },
@@ -319,7 +320,7 @@ export const ProcessTabs = [
         title: "Design",
         content: {
             heading: "Design",
-            description: "As a top-tier provider of eLearning app development services, our design process incorporates human-computer interaction (HCI) principles and UI/UX best practices to create a seamless learning interface. We develop interactive prototypes and conduct usability testing with educators and learners to refine the design, ensuring the app offers an intuitive and learner-centric experience.",
+            description: (<>As a top-tier provider of eLearning app development services, our design process incorporates human-computer interaction (HCI) principles and UI/UX best practices. A key step involves  <Link href='/blog/guide-to-creating-mobile-app-wireframes'>creating wireframes</Link> to map out the app’s structure. We then develop interactive prototypes and conduct usability testing with educators and learners to refine the design, ensuring the app offers an intuitive, learner-centric experience.</>),
             imgSrc: Process02.src,
         },
     },
@@ -327,7 +328,7 @@ export const ProcessTabs = [
         title: "Development",
         content: {
             heading: "Development",
-            description: "Our education app developers work on both frontend and backend development to integrate interactive courseware, assessment tools, and adaptive learning technologies. We utilize advanced programming languages and API integration to create robust educational features like adaptive testing, content authoring tools, and real-time learning analytics, ensuring your app aligns with modern instructional technology standards.",
+            description: (<>Our education app developers work on both frontend and <Link href='/blog/guide-mobile-app-backend-development'>backend development</Link>  to integrate interactive courseware, assessment tools, and adaptive learning technologies. We utilize advanced programming languages and API integration to create robust educational features like adaptive testing, content authoring tools, and real-time learning analytics, ensuring your app aligns with modern instructional technology standards.</>),
             imgSrc: Process03.src,
         },
     },
@@ -351,7 +352,7 @@ export const ProcessTabs = [
         title: "Launch",
         content: {
             heading: "Launch",
-            description: "We release the beta version or MVP of your app to gather data-driven insights from real users, including educators and students, identifying any areas for enhancement. This feedback loop helps optimize the app before its full-scale launch, ensuring a scalable, data-validated product.",
+            description: (<>We release the beta version or MVP of your app to gather data-driven insights from real users, including educators and students, identifying areas for enhancement. This feedback loop ensures the app is optimized before <Link href='/blog/how-to-publish-an-app-to-google-play-store'>publishing your app on the Google Play Store</Link>  or App Store, delivering a scalable, data-validated product for full-scale launch.</>),
             imgSrc: Process06.src,
         },
     },
@@ -521,7 +522,7 @@ export const FuelingContent2 = {
 export const FuelingList2 = [
     {
         title: "Artificial Intelligence",
-        text: "As a leading e-Learning app development company, we integrate AI to personalize learning experiences, automate administrative tasks, and provide AI tutoring systems that adapt to individual student needs.",
+        text: (<>As a leading e-Learning app development company, we leverage <Link href='/ai-development-company'>AI app development</Link> to personalize learning experiences, automate administrative tasks, and create AI tutoring systems that adapt to individual student needs.</>),
     },
     {
         title: "Cloud Computing",
@@ -543,7 +544,7 @@ export const FuelingList2 = [
 
 export const TechStackContent = {
     title: "Our Tech Stack For Education App Development",
-    text: "Our tech stack utilizes the latest technology, delivering quality in educational app development.",
+    text: (<>Our tech stack incorporates the <Link href='/blog/mobile-app-development-frameworks'>latest app development frameworks,</Link> ensuring top-quality delivery in educational app development.</>),
 }
 
 export const TechStackTabs = [
@@ -761,7 +762,7 @@ export const IndustriesList = [
         url: "/healthcare-app-development-services",
         img: Healthcare.src,
     },
-    
+
     {
         icon: <SocialSVG />,
         title: "Social Media",
@@ -775,7 +776,7 @@ export const IndustriesList = [
         txt: "We develop apps for real estate, including property listings, virtual tours, and client management, enhancing user experience and transaction efficiency.",
         url: "/real-estate-app-development-company",
         img: RealEstate.src,
-    },    
+    },
     {
         icon: <MusicSVG />,
         title: "Music",

@@ -1,7 +1,20 @@
 .fuelingSection {
   font-family: "Poppins", sans-serif;
+
   &.industryfueling {
     .fuelingSickty {
+      p {
+        color: #000;
+        a {
+          color: #000;
+
+          transition: 0.3s linear;
+          &:hover {
+            color: #4d77ee;
+            transition: 0.3s linear;
+          }
+        }
+      }
       .fuelingImg {
         margin: 20px auto 20px;
       }
@@ -90,7 +103,7 @@
         font-weight: 500;
         color: #fff;
         a {
-            color: #fff;
+          color: #fff;
           transition: 0.3s linear;
           font-weight: 500;
 

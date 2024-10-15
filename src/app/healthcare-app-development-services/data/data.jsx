@@ -95,6 +95,7 @@ import Logistics from "media/services/industry/Logistics.webp";
 import BlogsIMG01 from "media/services/blogs/post-1.webp"
 import BlogsIMG02 from "media/services/blogs/post-2.webp"
 import BlogsIMG03 from "media/services/blogs/post-3.webp"
+import Link from "next/link";
 
 
 export const BannerData = {
@@ -242,9 +243,9 @@ export const ExpertiseList2 = [
 export const TechnologiesContent = {
     title: "Hire Skilled Developers for Healthcare App Development",
     text: (<>
-        <p>Partner with our expert developers to build your <strong>healthcare app</strong> using top technologies like React Native, Swift, Kotlin, and Flutter.</p>
+        <p>Partner with our expert developers to build your healthcare app using top technologies like <Link href='/react-native-app-development'>React Native,</Link> Swift, Kotlin, and <Link href='/flutter-app-development'>Flutter.</Link></p>
         <p>Our team specializes in developing solutions for appointment scheduling, telehealth, patient management, and medication tracking, ensuring top-tier functionality and security for your healthcare needs.</p>
-        <p>Want to know how much does it cost to build your healthcare app? Use our free cost calculator to get an accurate estimate based on your project specifications.</p>
+        <p>Want to know how much does it cost to build your healthcare app? Contact us to get an accurate estimate based on your project specifications.</p>
     </>),
 
     TechImg: TechImg.src
@@ -287,7 +288,7 @@ export const TechnologiesIcons = [
 
 export const ProcessContent = {
     title: "BitsWits' Proven Healthcare App Development Process For Optimizing Patient Care",
-    text: "We genuinely care about supporting doctors and healthcare professionals. Our process for custom healthcare development is designed with a compassionate approach, understanding that your time and patients are your top priority."
+    text: (<>We genuinely care about supporting doctors and healthcare professionals. Our <Link href='/blog/application-development-life-cycle'>app development lifecycle </Link> for custom healthcare solutions is designed with a compassionate approach, understanding that your time and patients are your top priority.</>),
 }
 
 export const ProcessTabs = [
@@ -296,7 +297,7 @@ export const ProcessTabs = [
         content: {
             heading: "Discovery Phase",
             description:
-                "Our process starts with a discovery phase, where we take the time to listen and understand your specific healthcare goals. We gather information to understand the challenges you face daily. Whether it’s improving patient engagement, streamlining appointments, or ensuring secure data management, we focus on creating a solution that truly benefits your practice. By the end of this phase, we have a clear understanding of your needs.",
+                <>Our process begins with a discovery phase, where we take the time to understand your healthcare goals and <Link href='/blog/mobile-app-ideas'>  mobile app idea. </Link> We gather insights into the challenges you face daily, whether it’s improving patient engagement, streamlining appointments, or managing data securely. During this phase, we also evaluate the <Link href='/blog/mobile-app-development-cost'>app development cost</Link> to ensure the solution aligns with your budget and delivers maximum value for your practice.</>,
             imgSrc: IMG.src,
         },
     },
@@ -314,7 +315,7 @@ export const ProcessTabs = [
         content: {
             heading: "UI/UX Design",
             description:
-                "While the term 'design' often refers to an aesthetic concept, it does indeed discuss how an application will feel for the user. Our UI/UX healthcare app design team works collaboratively with you to craft an intuitive, user-friendly app that is tailored to the needs of your practice. We design the app with your patients in mind, so the interface will be smooth and easy to use.",
+                <>While the term 'design' often refers to aesthetics, it also defines how an application will feel for the user. As part of the process, our UI/UX healthcare app design team focuses on<Link href='/blog/guide-to-creating-mobile-app-wireframes'>creating wireframes</Link> that map out the user journey. We work collaboratively with you to craft an intuitive, user-friendly app tailored to the needs of your practice, ensuring the interface is smooth and easy to use for your patients.</>,
             imgSrc: IMG.src,
         },
     },
@@ -323,7 +324,7 @@ export const ProcessTabs = [
         content: {
             heading: "Development",
             description:
-                "During the development phase, we build your app incrementally using agile methodologies. This approach allows for ongoing feedback and testing, ensuring that the app is flexible and able to adapt to any changes or new requirements that may arise. We know healthcare is an evolving field, so we make sure the app can scale with your practice’s growth and changes. We keep you updated throughout the cycle.",
+                <>During the development phase, we focus on both frontend and  <Link href='/blog/guide-mobile-app-backend-development'>backend development,</Link> building your app incrementally using agile methodologies. This approach allows for ongoing feedback and testing, ensuring the app remains flexible and adaptable to new requirements or changes. Since healthcare is an evolving field, we ensure the app can scale with your practice’s growth. Throughout the cycle, we keep you informed every step of the way.</>,
             imgSrc: IMG.src,
         },
     },
@@ -341,7 +342,7 @@ export const ProcessTabs = [
         content: {
             heading: "Launch",
             description:
-                "Once we have passed your application through the most rigorous QA checks, this is when the time for the launch arrives. We can handle the entire process of launch, from deploying the application to relevant platforms to monitoring its initial performance. We are right with you throughout the launch so that whatever rises could be treated promptly, and the application would naturally flow into your practice.",
+                <>Once your application has passed rigorous QA checks, it’s time for the launch. We handle the entire process, including <Link href='/blog/how-to-publish-an-app-to-google-play-store'>publishing your app on Google Play Store</Link> or App Store and monitoring its initial performance. We're with you throughout the launch to address any issues promptly, ensuring the app integrates smoothly into your practice.</>,
             imgSrc: IMG.src,
         },
     },
@@ -389,7 +390,7 @@ export const WhyChooseList2 = [
 
 export const OffersContent = {
     title: "We Prioritize Regulatory Compliance In Every App",
-    text: "We understand that adhering to industry standards is critical for protecting patient data. Our team ensures compliance with a range of key regulations, including HIPAA, GDPR, FDA, HITECH, SaMD, SOC 2, CPT, GxP, and more.",
+    text: (<>We understand that adhering to industry standards is critical for protecting patient data. Our  <Link href='/mobile-application-development-services'>mobile app development services</Link> ensure compliance with key regulations, including HIPAA, GDPR, FDA, HITECH, SaMD, SOC 2, CPT, GxP, and more.</>),
 }
 
 export const OffersTabs = [
@@ -437,7 +438,7 @@ export const OffersTabs = [
 
 export const FuelingContent1 = {
     title: "Benefits of Building a Healthcare App",
-    text: "Creating a healthcare app through our development services offers significant advantages, from enhanced patient care to operational efficiencies.",
+     text: "Creating a healthcare app through our development services offers significant advantages, from enhanced patient care to operational efficiencies.",
     FuelingImg1: FuelingImg1.src
 }
 
@@ -507,7 +508,7 @@ export const TestimonialSLIDES = [
 
 export const FuelingContent2 = {
     title: "Integrating Advanced Technologies in Healthcare App Development",
-    text: "Whether it's AI for predictive analytics, blockchain for secure data management, or wearables for real-time health tracking, BitsWits uses the latest technology to create healthcare apps that improve patient care and streamline operations.",
+    text: (<>Whether it's AI for predictive analytics, blockchain for secure data management, or wearables for real-time health tracking, BitsWits uses the latest technology to <Link href='/blog/mobile-medical-apps-for-patient-engagement'>create healthcare apps</Link> that improve patient care and streamline operations.</>),
     subtitle: "Explore the Future of Healthcare with Innovative Technologies",
     subtext: "Schedule a consultation today to see how our healthcare app development company can transform your mobile healthcare applications and enhance patient outcomes.",
     FuelingImg: FuelingImg.src,
@@ -517,7 +518,7 @@ export const FuelingContent2 = {
 export const FuelingList2 = [
     {
         title: "AI in Healthcare",
-        text: "Our healthcare app developers integrate AI to offer personalized care and predictive analytics. AI enhances diagnostic accuracy, automates routine tasks, and customizes treatment plans, leading to improved patient outcomes and operational efficiency in custom healthcare app development."
+        text: (<>Our healthcare app developers incorporate <Link href='/ai-development-company'>AI app development</Link> to deliver personalized care and predictive analytics. This approach enhances diagnostic accuracy, automates routine tasks, and customizes treatment plans, driving better patient outcomes and greater operational efficiency.</>),
     },
     {
         title: "Blockchain for Secure Health Data",
@@ -539,7 +540,7 @@ export const FuelingList2 = [
 
 export const TechStackContent = {
     title: "Our Healthcare App Development Tech Stack",
-    text: "Our tech stack is selected to create reliable and scalable healthcare apps, enhancing patient care and streamlining operations efficiently.",
+    text: (<>We utilize the <Link href='/blog/mobile-app-development-frameworks'> latest app development frameworks </Link> to build reliable and scalable healthcare apps, enhancing patient care and efficiently streamlining operations.</>),
 }
 
 export const TechStackTabs = [

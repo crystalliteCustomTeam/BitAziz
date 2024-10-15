@@ -109,6 +109,7 @@ import Automotive from "media/services/industry/Automotive.webp";
 import BlogsIMG01 from "media/services/blogs/post-1.webp"
 import BlogsIMG02 from "media/services/blogs/post-2.webp"
 import BlogsIMG03 from "media/services/blogs/post-3.webp"
+import Link from "next/link";
 
 
 export const BannerData = {
@@ -264,10 +265,10 @@ export const ExpertiseList2 = [
 export const TechnologiesContent = {
     title: "Hire Top Developers for Your Social Media Apps",
     text: (<>
-        <p>Developers at BitsWits are skilled in creating <strong>social media apps</strong> using technologies like React Native, Swift, Kotlin, and Flutter. </p>
-        <p>They develop solutions for content sharing, messaging, real-time notifications, and user engagement features. </p>
+        <p>Developers at BitsWits are skilled in creating social media apps using technologies like <Link href='/react-native-app-development'>React Native,</Link> Swift, Kotlin, and <Link href='/flutter-app-development'>Flutter.</Link></p>
+        <p>They develop solutions for content sharing, messaging, real-time notifications, and user engagement features.</p>
         <p>With a focus on interactive and scalable designs, our team builds apps that enhance community interaction and maintain high levels of user engagement.</p>
-        <p>Use the free cost calculator by BitsWits to get a detailed estimate.</p>
+        <p>Contact us to get a detailed estimate of your mobile app development project.</p>
     </>),
 
     TechImg: TechImg.src
@@ -310,7 +311,7 @@ export const TechnologiesIcons = [
 
 export const ProcessContent = {
     title: "Efficient Social Media App Development Process for Fast Launches",
-    text: "As a leading social media app development firm, our well-planned process involves close collaboration between app designers, developers, and clients to create tailored solutions that meet your specific needs and objectives."
+    text: (<>As a leading social media app development firm, our well-planned <Link href='/blog/application-development-life-cycle'>app development lifecycle </Link> involves close collaboration between designers, developers, and clients to create tailored solutions that meet your specific needs and objectives</>),
 }
 
 export const ProcessTabs = [
@@ -318,7 +319,7 @@ export const ProcessTabs = [
         title: "Project Planning",
         content: {
             heading: "Project Planning",
-            description: "In the project planning stage of our social media app development services, we establish the purpose and parameters of your app. Our social media app development process starts with a target audience analysis and defining key features like real-time interactions, push notifications, and user-generated content moderation. We identify the best platforms, tech stack, and API integrations to support scalable social network infrastructures.",
+            description: (<>In the project planning stage of our social media app development services, we refine your <Link href='/blog/mobile-app-ideas'>mobile app idea</Link> and establish the purpose and parameters of your app. Our process begins with a target audience analysis and defining key features like real-time interactions, push notifications, and user-generated content moderation. We also evaluate the <Link href='/blog/mobile-app-development-cost'>app development cost</Link> and identify the best platforms, tech stack, and API integrations to support scalable social network infrastructures.</>),
             imgSrc: Process01.src,
         },
     },
@@ -326,7 +327,7 @@ export const ProcessTabs = [
         title: "Design",
         content: {
             heading: "Design",
-            description: "As a top-grade social media app development company, our design phase focuses on developing an intuitive UI/UX, optimized for multi-platform responsiveness. Prototypes are created to showcase features like in-app messaging, customizable user profiles, and content-sharing mechanisms. User testing is conducted to refine the design and enhance engagement.",
+            description: (<>As a top-grade social media app development company, our design phase focuses on<Link href='/blog/guide-to-creating-mobile-app-wireframes'>creating wireframes</Link> to map out an intuitive UI/UX, optimized for multi-platform responsiveness. Prototypes are then developed to showcase features like in-app messaging, customizable user profiles, and content-sharing mechanisms. User testing is conducted to refine the design and enhance engagement.</>),
             imgSrc: Process02.src,
         },
     },
@@ -334,7 +335,7 @@ export const ProcessTabs = [
         title: "Development",
         content: {
             heading: "Development",
-            description: "Our social media app developers build on both frontend and backend, using microservices architecture and integrating core features such as live chat, news feeds, and social graph algorithms. We also ensure API integration with third-party services like OAuth for seamless login and social media plugins for cross-platform sharing.",
+            description: (<>Our social media app developers build on both frontend and<Link href='/blog/guide-mobile-app-backend-development'> backend </Link> using microservices architecture and integrating core features such as live chat, news feeds, and social graph algorithms. We also ensure API integration with third-party services like OAuth for seamless login and social media plugins for cross-platform sharing.</>),
             imgSrc: Process03.src,
         },
     },
@@ -350,7 +351,7 @@ export const ProcessTabs = [
         title: "Deployment",
         content: {
             heading: "Deployment",
-            description: "The deployment phase covers all platform-specific guidelines and app store compliance. Our team handles the final app release, ensuring it meets the guidelines for App Store Optimization (ASO) and that your app is readily discoverable by the target audience.",
+            description: (<>The deployment phase ensures your app complies with platform-specific guidelines. Our team manages the final release, including <Link href='/blog/how-to-publish-an-app-to-google-play-store'>publishing the app on the Google Play Store</Link> or App Store, while ensuring it meets App Store Optimization (ASO) standards, making it easily discoverable by your target audience.</>),
             imgSrc: Process05.src,
         },
     },
@@ -405,7 +406,7 @@ export const WhyChooseList2 = [
 
 export const OffersContent = {
     title: "Types Of Social Media Apps We Can Build For You",
-    text: "As a leading social media app development company, we build a wide range of apps, including photo and video-sharing social apps. Our support and services match the quality of today’s most famous social media apps. Here are the types of apps we can develop for you:",
+    text: (<>As a leading social media app development company, we build a wide range of apps, including photo and video-sharing social apps. Our <Link href='/mobile-application-development-services'>mobile app development services</Link> match the quality of today’s most famous social media apps. Here are the types of apps we can develop for you:</>),
 }
 
 export const OffersTabs = [
@@ -434,7 +435,7 @@ export const OffersTabs = [
         title: "Apps Like Tinder",
         content: {
             heading: "Apps Like Tinder",
-            description: "Our social media app developers specialize in creating dating apps like Tinder, integrating user-friendly interfaces and advanced matching algorithms. Let us help you build the next big dating platform that connects people seamlessly.",
+            description: (<>Our social media app developers specialize in building dating platforms like Tinder and <Link href='/blog/apps-like-omegle'>apps like Omegle,</Link>incorporating user-friendly interfaces and advanced matching algorithms. Let us help you create the next big platform that connects people effortlessly.</>),
         },
     },
     {
@@ -528,7 +529,7 @@ export const FuelingContent2 = {
 export const FuelingList2 = [
     {
         title: "Artificial Intelligence",
-        text: "As a leading social media app development company, we integrate AI into social media apps to offer personalized content feeds, automated moderation, and chatbots, enhancing user engagement and improving platform functionality."
+        text: (<>As a leading social media app development company, we incorporate <Link href='/ai-development-company'>AI app development</Link> to provide personalized content feeds, automated moderation, and chatbots, boosting user engagement and enhancing platform functionality.</>),
     },
     {
         title: "Cloud Computing",
@@ -551,7 +552,7 @@ export const FuelingList2 = [
 
 export const TechStackContent = {
     title: "Our Tech Stack For Social Media App Development",
-    text: "Our tech stack utilizes the latest technology, delivering quality in social media app development.",
+    text: (<>Our tech stack incorporates the<Link href='/blog/mobile-app-development-frameworks'>latest app development frameworks,</Link>ensuring top-quality results in building social media platforms.</>),
 }
 
 export const TechStackTabs = [
