@@ -1,5 +1,21 @@
 .cuttingedgeSection {
   font-family: "Poppins", sans-serif;
+
+  p {
+    color: #585858;
+    margin-bottom: 50px;
+    a {
+      color: #585858;
+      transition: 0.3s linear;
+      font-weight: 500;
+
+      &:hover {
+        color: #4d77ee;
+        transition: 0.3s linear;
+      }
+    }
+  }
+
   .ServicesBox {
     display: flex;
     gap: 30px;
@@ -79,10 +95,9 @@
             color: #585858;
             margin-bottom: 0px;
             a {
-                color: #585858;
-                font-weight: 400;
-              }
-            
+              color: #585858;
+              font-weight: 400;
+            }
           }
         }
 
