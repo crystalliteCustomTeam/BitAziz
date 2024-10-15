@@ -90,6 +90,7 @@ import Music from "media/services/industry/music.webp";
 import BlogsIMG01 from "media/services/blogs/post-1.webp"
 import BlogsIMG02 from "media/services/blogs/post-2.webp"
 import BlogsIMG03 from "media/services/blogs/post-3.webp"
+import Link from "next/link";
 
 
 export const BannerData = {
@@ -111,7 +112,7 @@ export const CuttingedgeContent = {
 export const CuttingedgeList = [
     {
         title: (<>Custom <br />Game Development </>),
-        txt: "We have experienced game developers who can create new-generation Web3, Blockchain, and Metaverse games based on the newest technologies. Most of our games are designed to fit certain project specifications and conditions.",
+        txt: (<>We have experienced game developers who can create new-generation <Link href='/2d-game-development-company'>2D,</Link> <Link href='/3d-game-development-company'>3D,</Link> Web3, Blockchain, and Metaverse games based on the newest technologies. Most of our games are designed to fit certain project specifications and conditions.</>),
         links: "",
     },
     {
@@ -126,7 +127,7 @@ export const CuttingedgeList = [
     },
     {
         title: (<>Cross-Platform <br />Game Development </>),
-        txt: "Deploy our cross-platform game development services to create powerful web3 games that are engaging in terms of response. Develop games that simulate real-world environments & can be played on multiple devices.",
+        txt: (<>Deploy our cross-platform <Link href='/mobile-game-development-company'>game development services</Link> to create powerful web3 games that are engaging in terms of response. Develop games that simulate real-world environments & can be played on multiple devices.</>),
         links: "",
     },
     {
@@ -212,7 +213,7 @@ export const WhyChooseList2 = [
 
 export const ProcessContent = {
     title: "Our Comprehensive Blockchain Game Development Process",
-    text: "Being a reliable Blockchain development company, we ensure to provide tailor-made solutions for our respective clients. From ideation to launch, our game developers excel at every stage. Here is how we develop our game;"
+    text: (<>As a reliable Blockchain development company, we provide tailor-made solutions for our clients. From ideation to launch, our game developers excel at every stage of the <Link href='/blog/application-development-life-cycle'>app development lifecycle.</Link>  Here’s how we develop our game:</>),
 }
 
 export const ProcessTabs = [
@@ -221,7 +222,7 @@ export const ProcessTabs = [
         content: {
             heading: "Discovery and Planning",
             description:
-                "In the initial phase, our Blockchain development firm conducts a thorough analysis of your project objectives. Utilizing tools like Unity & Unreal Engine, we define the project scope, identify the target audience, and then create detailed game design documents. This foundational step enables us to craft a strategic roadmap that aligns the Blockchain game development process with your goals, ensuring long-term success.",
+                <>In the initial phase, our Blockchain development firm conducts a thorough analysis of your <Link href='/blog/mobile-app-ideas'> app idea </Link> and project objectives. Using tools like Unity and Unreal Engine, we define the project scope, identify the target audience, and evaluate the <Link href='/blog/mobile-app-development-cost'> development cost. </Link> This foundational step enables us to craft a strategic roadmap that aligns the Blockchain game development process with your goals, ensuring long-term success.</>,
             imgSrc: IMG.src,
         },
     },
@@ -250,7 +251,7 @@ export const ProcessTabs = [
         content: {
             heading: "Development",
             description:
-                "In the development phase, we build robust frontend & backend solutions that emphasize scalability, security, and real-time interaction. Our developers utilize solidity for smart contract development and integrate Blockchain protocols like Ethereum and Polygon to ensure a seamless gaming experience across different platforms, positioning your game competitively in the market.",
+                <>In the development phase, we build robust frontend and<Link href='/blog/guide-mobile-app-backend-development'>backend development</Link> solutions that emphasize scalability, security, and real-time interaction. Our developers use Solidity for smart contract development and integrate Blockchain protocols like Ethereum and Polygon, ensuring a seamless gaming experience across different platforms, positioning your game competitively in the market.</>,
             imgSrc: IMG.src,
 
         },
@@ -458,7 +459,7 @@ export const FuelingList = [
     },
     {
         title: "AI & ML",
-        text: "AI & ML technology helps in creating intelligent, adaptive game environments. These technologies enhance NPC behavior, making interactions more realistic and dynamic. Also, they improve player experiences and enable predictive analytics, resulting in more engaging and tailored gameplay. "
+        text: (<>AI and ML technology play a key role in creating intelligent, adaptive game environments. Through <Link href='/ai-development-company'>AI app development,</Link> we enhance NPC behavior, making interactions more realistic and dynamic. These technologies also improve player experiences and enable predictive analytics, leading to more engaging and tailored gameplay.</>),
     },
     {
         title: "Decentralized Autonomous Organizations (DAOs)",

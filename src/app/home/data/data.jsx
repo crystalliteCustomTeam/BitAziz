@@ -40,8 +40,6 @@ export const HomeServicesList = [
     {
         title: "Mobile App Development",
         txt: (<>We provide end-to-end <Link href='/mobile-application-development-services'>mobile app development services</Link>, from ideation to deployment. Our team ensures optimal UI/UX design, robust backend architecture, and post-launch support, delivering secure and high-performing apps for various business needs.</>),
-        // txt:(<></>),
-        // <Link href=''></Link>,
         url: "/mobile-application-development-services"
     },
     {

@@ -100,6 +100,7 @@ import Music from "media/services/industry/music.webp";
 import BlogsIMG01 from "media/services/blogs/post-1.webp"
 import BlogsIMG02 from "media/services/blogs/post-2.webp"
 import BlogsIMG03 from "media/services/blogs/post-3.webp"
+import Link from "next/link";
 
 
 export const BannerData = {
@@ -121,7 +122,7 @@ export const CuttingedgeContent = {
 export const CuttingedgeList = [
     {
         title: (<>iOS App  <br />Strategy & Consulting</>),
-        txt: "We provide strategic consulting to define app goals, target audience, and market positioning, ensuring your iOS app aligns with business objectives and market trends for maximum impact.",
+        txt: (<>We provide strategic consulting to define app goals, target audience, and market positioning, ensuring our <Link href='/mobile-application-development-services'>mobile app development services</Link> align your iOS app with business objectives and market trends for maximum impact.</>),
         links: "",
     },
     {
@@ -131,7 +132,7 @@ export const CuttingedgeList = [
     },
     {
         title: (<>iOS App <br />Development </>),
-        txt: "Our skilled iOS app developers use the latest technologies and best practices to build robust, high-performance iOS apps that meet your business needs and provide an outstanding user experience.",
+        txt: (<>Our skilled iOS app developers use the latest <Link href='/blog/mobile-app-development-frameworks'>app development frameworks</Link> and best practices to build robust, high-performance iOS apps that meet your business needs and provide an outstanding user experience.</>),
         links: "",
     },
     {
@@ -222,7 +223,7 @@ export const WhyChooseList2 = [
 
 export const ProcessContent = {
     title: "Our iOS App Development Process",
-    text: "We have a tried and tested iOS app development process that promises seamless execution from discovery to deployment. We utilize cutting-edge tools and technologies to deliver high-quality iOS mobile applications."
+    text: (<>We follow a tried and tested <Link href='/blog/application-development-life-cycle'>app development lifecycle</Link> for iOS, ensuring seamless execution from discovery to deployment. Utilizing cutting-edge tools and technologies, we deliver high-quality iOS mobile applications that meet your business needs.</>),
 }
 
 export const ProcessTabs = [
@@ -231,7 +232,7 @@ export const ProcessTabs = [
         content: {
             heading: "Discovery and Planning",
             description:
-                "In this initial phase, our iOS app developers conduct a comprehensive analysis of your business objectives. Using Figma and Miro, we define the project scope, identify target user personas, and create detailed wireframes. This foundation helps us outline a strategic roadmap, aligning the custom iOS app development process with your business goals, and setting the stage for maximum impact and success.",
+                <>In this initial phase, our iOS app developers conduct a comprehensive analysis of your business objectives and <Link href='/blog/mobile-app-ideas'>mobile app idea.</Link> We define the project scope, identify target user personas, and evaluate the <Link href='/blog/mobile-app-development-cost'>app development cost.</Link> This foundation helps us outline a strategic roadmap, aligning the custom iOS app development process with your business goals, setting the stage for maximum impact and success.</>,
             imgSrc: IMG.src,
         },
     },
@@ -240,7 +241,7 @@ export const ProcessTabs = [
         content: {
             heading: "Wireframing and Prototyping",
             description:
-                "Before moving into design, we develop interactive wireframes and prototypes using tools like InVision and Adobe XD. This phase allows us to visualize the app’s structure and flow, gathering early feedback to make necessary adjustments. It helps minimize risks in the design and development stages by clarifying expectations upfront.",
+                <>Before moving into design, we <Link href='/blog/guide-to-creating-mobile-app-wireframes'> develop interactive wireframes </Link> and prototypes using tools like InVision and Adobe XD. This phase allows us to visualize the app’s structure and flow, gathering early feedback to make necessary adjustments. It helps minimize risks in the design and development stages by clarifying expectations upfront.</>,
             imgSrc: IMG.src,
 
         },
@@ -260,7 +261,7 @@ export const ProcessTabs = [
         content: {
             heading: "Development",
             description:
-                "During the development stage, our team uses Swift and Objective-C to build high-performance iOS mobile applications. We integrate robust backend solutions with Firebase and CoreData, emphasizing scalability, performance, and reliability. Our development process delivers an app that meets your specific needs while providing a seamless user experience across all iOS devices, ensuring your application stands out in the market.",
+                <>During the development stage, our team uses Swift and Objective-C to build high-performance iOS mobile applications. We handle <Link href='/blog/guide-mobile-app-backend-development'> backend development </Link> by integrating robust solutions like Firebase and CoreData, with a focus on scalability, performance, and reliability. Our process ensures your app meets specific needs and provides a seamless user experience across all iOS devices, making it stand out in the market.</>,
             imgSrc: IMG.src,
 
         },
@@ -451,7 +452,7 @@ export const FuelingContent = {
 export const FuelingList = [
     {
         title: "AI & ML",
-        text: "We use AI and ML to develop self-learning, adaptive apps that personalize user experiences. From healthcare to finance,AI & ML technologies enable predictive analytics and automation, boosting engagement and streamlining operations."
+        text: (<>We specialize in <Link href='/ai-development-company'>AI app development,</Link> creating self-learning, adaptive apps that personalize user experiences. Whether in healthcare or finance, AI and ML technologies enable predictive analytics and automation, boosting engagement and streamlining operations.</>),
     },
     {
         title: "Augmented Reality (AR)",

@@ -128,7 +128,7 @@ export const CuttingedgeList = [
     },
     {
         title: (<>Cross-Platform <br /> App Development</>),
-        txt: (<>We offer high-performance mobile app development services apps using the latest frameworks, ensuring your app delivers native-like performance and compatibility across multiple devices.</>),
+        txt: (<>We offer high-performance <Link href='/mobile-application-development-services'>mobile app development services</Link> apps using the <Link href='/blog/mobile-app-development-frameworks'>latest frameworks,</Link> ensuring your app delivers native-like performance and compatibility across multiple devices.</>),
         links: "",
     },
     {
@@ -150,7 +150,7 @@ export const CuttingedgeList = [
 
 export const caseStudiesContent = {
     title: "Our Results-Driven Cross-Platform App Development Portfolio!",
-    text: "Drive business growth and enhance user engagement with our top-tier apps! As a trusted cross-platform app development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
+    text: (<>Portfolio! Drive business growth and enhance user engagement with our top-tier <Link href='/hybrid-app-development-company'>hybrid app development!</Link> As a trusted cross-platform company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.</>),
 }
 
 export const caseStudiesList = [
@@ -219,7 +219,7 @@ export const WhyChooseList2 = [
 
 export const ProcessContent = {
     title: "Our Cross-Platform App Development Process",
-    text: "At BitsWits, we have a tried-and-true cross-platform app development process to deliver high-quality apps that tops the ranking charts on application stores. Our approach? Helpful, user-friendly interface design "
+    text: (<>At BitsWits, we follow a tried-and-true <Link href='blog/application-development-life-cycle'>app development lifecycle</Link> for cross-platform development, ensuring we deliver high-quality apps that top the ranking charts on app stores. Our approach focuses on creating helpful, user-friendly interface designs.</>)
 }
 
 export const ProcessTabs = [
@@ -227,7 +227,7 @@ export const ProcessTabs = [
         title: "Discovery",
         content: {
             heading: "Discovery & Strategy",
-            description: "Our cross-platform app developers start by analyzing your business objectives and target audience. We use tools like Figma and Miro to map out the project scope and create detailed wireframes. This strategic planning sets the stage for a well-aligned app development journey, tailored to meet your goals effectively.",
+            description: (<>Our cross-platform app developers start by analyzing your business objectives and <Link href='/blog/mobile-app-ideas'>mobile app idea,</Link> while also evaluating the <Link href='/blog/mobile-app-development-cost'>mobile app development cost</Link> to ensure budget alignment. This strategic planning sets the stage for a well-aligned app development journey, tailored to meet your goals effectively.</>),
             imgSrc: IMG.src,
         },
     },
@@ -235,7 +235,7 @@ export const ProcessTabs = [
         title: "Wireframing",
         content: {
             heading: "Wireframing and Prototyping",
-            description: "Before moving into full design, we create interactive wireframes and prototypes using tools like Figma and Adobe XD. This stage helps us visualize the app’s functionality, structure, and user flow, ensuring early feedback and adjustments before moving forward. It also allows you to see a preview of your app’s layout and functionality.",
+            description: (<>Before moving into full design, we <Link href='/blog/guide-to-creating-mobile-app-wireframes'>create interactive wireframes</Link> and prototypes using tools like Figma and Adobe XD. This stage helps us visualize the app’s functionality, structure, and user flow, ensuring early feedback and adjustments before moving forward. It also allows you to see a preview of your app’s layout and functionality.</>),
             imgSrc: IMG.src,
         },
     },
@@ -275,7 +275,7 @@ export const ProcessTabs = [
         title: "Support",
         content: {
             heading: "Ongoing Support Post-launch",
-            description: "Even once the app is live, we keep our support and maintenance services up and running using project management tools like Jira. Our services include updates, performance enhancements, and new feature integrations. We help your app stay relevant and adapt to changing market needs to keep ranking in the top charts.",
+            description: (<>Even after we <Link href='/blog/how-to-publish-an-app-to-google-play-store'>publish the app on the Google Play Store</Link> or Apple Store, our support and maintenance services remain active, using project management tools like Jira. Our services include updates, performance enhancements, and new feature integrations, ensuring your app stays relevant and adapts to changing market needs, helping it maintain top chart rankings.</>),
             imgSrc: IMG.src,
         },
     },

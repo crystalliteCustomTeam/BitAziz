@@ -84,6 +84,14 @@
 
       p {
         color: #707780;
+        a {
+          color: #585858;
+          font-weight: 500;
+          &:hover {
+            transition: 0.3s linear;
+            color: #4d77ee;
+          }
+        }
       }
     }
   }

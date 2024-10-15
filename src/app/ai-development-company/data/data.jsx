@@ -105,6 +105,7 @@ import Music from "media/services/industry/music.webp";
 import BlogsIMG01 from "media/services/blogs/post-1.webp"
 import BlogsIMG02 from "media/services/blogs/post-2.webp"
 import BlogsIMG03 from "media/services/blogs/post-3.webp"
+import Link from "next/link";
 
 
 export const BannerData = {
@@ -232,7 +233,7 @@ export const WhyChooseList2 = [
 
 export const ProcessContent = {
     title: "Our AI & Machine Learning Development Process",
-    text: "BitsWits has fully adopted a structured and innovation-driven approach towards the development of AI and machine learning, allowing seamless execution from first consultation to last deployment."
+    text: (<>BitsWits has fully adopted a structured and innovation-driven <Link href='/blog/application-development-life-cycle'>app development lifecycle</Link> for AI and machine learning projects, ensuring seamless execution from the first consultation to the final deployment.</>)
 }
 
 export const ProcessTabs = [
@@ -241,7 +242,7 @@ export const ProcessTabs = [
         content: {
             heading: "Discovery & Consultation",
             description:
-                "Our journey begins with a thorough discovery phase where we engage in detailed consultations to understand your business objectives. We use advanced tools and techniques to analyze your data requirements, define project goals, and outline strategic AI solutions. This phase establishes a clear project roadmap, setting the foundation for creating tailored AI applications that align with your business vision.",
+                <>Our journey starts with a detailed discovery phase, where we consult to understand your business objectives and explore your <Link href='/blog/mobile-app-ideas'>mobile app idea.</Link> We also evaluate the <Link href='/blog/mobile-app-development-cost'>mobile app development cost,</Link> using advanced tools to analyze data requirements, define project goals, and outline strategic AI solutions. This phase sets a clear roadmap for building tailored AI applications that align with your business vision.</>,
             imgSrc: IMG.src,
         },
     },
@@ -260,7 +261,7 @@ export const ProcessTabs = [
         content: {
             heading: "Model Design & Development",
             description:
-                "In this phase, our data scientists and AI engineers design and develop customized machine learning models with state-of-the-art frameworks like TensorFlow, PyTorch, and Scikit-learn. We solve challenges and use the power of data effectively to get actionable insights. We work such that these AI models are scalable, can deliver high-performance outcomes, and solve complex problems at reduced costs.",
+            <>In this phase, our data scientists and AI engineers design and develop customized machine learning models using state-of-the-art frameworks like TensorFlow, PyTorch, and Scikit-learn. Before diving into development, we focus on <Link href='/blog/guide-to-creating-mobile-app-wireframes'>creating wireframes</Link> to map out the AI model structure. This helps us effectively solve challenges, ensuring these AI models are scalable, deliver high-performance outcomes, and address complex problems at reduced costs.</>,
             imgSrc: IMG.src,
 
         },
@@ -290,7 +291,7 @@ export const ProcessTabs = [
         content: {
             heading: "Deployment & Optimization",
             description:
-                "We handle the deployment of AI solutions, focusing on optimizing performance and ensuring compatibility with your operational environment. Our in-house team leverages best CI/CD practices to have a systematic way of updating and enhancing the application. We have implemented monitoring tools to follow model performance, make needed changes, and keep the application tuned, effective, and responsive over time.",
+            <>We handle the deployment of AI solutions, focusing on optimizing performance and ensuring compatibility with your operational environment. After we <Link href='/blog/how-to-publish-an-app-to-google-play-store'>publish the app on the Google Play Store</Link> or App Store, our in-house team leverages best CI/CD practices to systematically update and enhance the application. We also implement monitoring tools to track model performance, make necessary changes, and keep the app tuned, effective, and responsive over time.</>,
             imgSrc: IMG.src,
 
         },
@@ -398,7 +399,7 @@ export const RisksContent = {
 
 export const OffersContent = {
     title: "AI Development for Every Business Need!",
-    text: "As a leading artificial intelligence development company, we build infrastructures that help businesses streamline operations, enhance personalization, and drive growth! Here are the AI solutions we offer for different businesses:",
+    text: (<>As a leading artificial intelligence development company, we build infrastructures with the <Link href='/blog/mobile-app-development-frameworks'>latest frameworks</Link> that help businesses streamline operations, enhance personalization, and drive growth! Here are the AI solutions we offer for different businesses:</>)
 }
 
 export const OffersTabs = [

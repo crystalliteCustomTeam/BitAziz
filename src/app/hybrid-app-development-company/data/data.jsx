@@ -90,6 +90,7 @@ import Music from "media/services/industry/music.webp";
 import BlogsIMG01 from "media/services/blogs/post-1.webp"
 import BlogsIMG02 from "media/services/blogs/post-2.webp"
 import BlogsIMG03 from "media/services/blogs/post-3.webp"
+import Link from "next/link";
 
 
 export const BannerData = {
@@ -104,14 +105,15 @@ export const BannerData = {
 
 export const CuttingedgeContent = {
     title: "Performance-Focused Hybrid App Development Services for Dynamic Business Growth",
-    text: "We provide tailored hybrid mobile application development services for ambitious startups and SMEs, enabling rapid market entry and scalable growth!",
+    text: (<>We provide tailored hybrid <Link href='/mobile-application-development-services'>mobile application development services</Link>  for ambitious startups and SMEs, enabling rapid market entry and scalable growth!
+</>),
     subtext: "Estimate Your App Project’s Cost Now!"
 }
 
 export const CuttingedgeList = [
     {
         title: (<>Hybrid Mobile  <br />App Development</>),
-        txt: "We create secure hybrid apps that run seamlessly on multiple platforms. Using React Native and Flutter, our hybrid application development services help you expand your market reach and minimize costs with future-proof hybrid apps.",
+        txt: (<>We create secure hybrid apps that run seamlessly on multiple platforms. Using <Link href='/react-native-app-development'>React Native </Link> and <Link href='/flutter-app-development'> Flutter,</Link> our hybrid application development services help you expand your market reach and minimize costs with future-proof hybrid apps.</>),
         links: "",
     },
     {
@@ -148,7 +150,7 @@ export const CuttingedgeList = [
 
 export const caseStudiesContent = {
     title: "Our Results-Driven Hybrid App Development Portfolio!",
-    text: "Drive business growth and enhance user engagement with our top-tier apps! As a trusted hybrid app development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
+    text: (<>Drive business growth and enhance user engagement with our top-tier <Link href='/cross-platform-app-development-services'>cross-platform app development!</Link> As a trusted hybrid company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.</>),
 }
 
 export const caseStudiesList = [
@@ -217,7 +219,7 @@ export const WhyChooseList2 = [
 
 export const ProcessContent = {
     title: "Our Hybrid App Development Process",
-    text: "With years of experience, our hybrid app developers use a comprehensive methodology to deliver well-architected solutions. Our strategic evolution ensures top-notch hybrid mobile app development services in USA tailored to your needs."
+    text: (<>With years of experience, our hybrid app developers follow a comprehensive <Link href='/blog/application-development-life-cycle'>app development lifecycle</Link> to deliver well-architected solutions. Our strategic evolution ensures top-notch hybrid mobile app development services in the USA, tailored to your specific needs.</>),
 }
 
 export const ProcessTabs = [
@@ -226,7 +228,7 @@ export const ProcessTabs = [
         content: {
             heading: "Discovery Session",
             description:
-                "In our discovery session, we document every detail to gain a better understanding of your project. We examine all data to define the project scope and establish clear milestones. Our tech experts collaborate to determine the best technologies for your hybrid mobile app development, ensuring a well-architected and efficient solution.",
+                <>In our discovery session, we document every detail to gain a better understanding of your  <Link href='/blog/mobile-app-ideas'> mobile app idea. </Link> We examine all data to define the project scope, establish clear milestones, and assess the  <Link href='/blog/mobile-app-development-cost'> development cost. </Link> Our tech experts collaborate to determine the best technologies for your hybrid mobile app development, ensuring a well-architected and efficient solution.</>,
             imgSrc: IMG.src,
         },
     },
@@ -235,7 +237,7 @@ export const ProcessTabs = [
         content: {
             heading: "Design, Wireframes, & Mockups",
             description:
-                "We create interactive UI designs and wireframes for a user-friendly flow. Our UX design process iterates based on feedback to align with your business goals and enhance user flow. Through detailed mockups, we visualize the final product, guaranteeing a seamless and engaging user experience for your hybrid mobile app.",
+                <>We create interactive UI designs and <Link href='/blog/guide-to-creating-mobile-app-wireframes'>wireframes for a user-friendly flow. </Link> Our UX design process iterates based on feedback to align with your business goals and enhance user flow. Through detailed mockups, we visualize the final product, guaranteeing a seamless and engaging user experience for your hybrid mobile app.</>,
             imgSrc: IMG.src,
 
         },
@@ -255,7 +257,7 @@ export const ProcessTabs = [
         content: {
             heading: "Development",
             description:
-                "Upon client approval, our technical team begins the development phase, utilizing the best-suited technologies to meet your requirements. We work within the agreed timeframe, focusing on both front-end and back-end development, and ensuring a robust database structure. This phase transforms your approved designs into a fully functional hybrid app ready for deployment.",
+                <>Upon client approval, our technical team begins the development phase, utilizing the best-suited  <Link href='/blog/mobile-app-development-frameworks'>app development frameworks</Link> to meet your requirements. We focus on both front-end and <Link href='/blog/guide-mobile-app-backend-development'>backend development,</Link> ensuring a robust database structure. This phase transforms your approved designs into a fully functional hybrid app, ready for deployment within the agreed timeframe.</>,
             imgSrc: IMG.src,
 
         },
@@ -275,7 +277,7 @@ export const ProcessTabs = [
         content: {
             heading: "Deployment",
             description:
-                "In the deployment phase, we integrate all necessary components and adhere to a scheduled timeline for a smooth launch. We make your app available on the Google Play Store or Apple App Store, monitor its performance, and troubleshoot any issues that arise to guarantee a successful market entry and ongoing stability.",
+                <>In the deployment phase, we integrate all necessary components and adhere to a scheduled timeline for a smooth launch. We <Link href='/blog/how-to-publish-an-app-to-google-play-store'> make your app available on the Google Play Store</Link>  or Apple App Store, monitor its performance, and troubleshoot any issues that arise to guarantee a successful market entry and ongoing stability.</>,
             imgSrc: IMG.src,
 
         },
@@ -446,7 +448,7 @@ export const FuelingContent = {
 export const FuelingList = [
     {
         title: "AI & ML",
-        text: "We integrate AI & ML to create self-learning apps that personalize user experiences, use predictive analytics, and automate processes. These technologies streamline operations, making apps smarter and more efficient in real time."
+        text: (<>We integrate <Link href='/ai-development-company'>AI app development</Link> and ML to create self-learning apps that personalize user experiences, utilize predictive analytics, and automate processes. These technologies streamline operations, making apps smarter and more efficient in real time.</>),
     },
     {
         title: "Augmented Reality (AR)",
@@ -462,7 +464,7 @@ export const FuelingList = [
     },
     {
         title: "Blockchain",
-        text: "Blockchain integration provides security and transparency in supply chains and transactions. It enhances data integrity, reduces fraud, and builds trust with tamper-proof records, benefiting industries like finance, logistics, and healthcare."
+        text: (<>Blockchain integration provides security and transparency in supply chains and transactions, reducing fraud and enhancing data integrity. We also offer <Link href='/blockchain-game-development-company'>blockchain game development,</Link> ensuring secure in-game transactions with tamper-proof records.</>),
     }
 ];
 

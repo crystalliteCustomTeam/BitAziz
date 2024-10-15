@@ -76,6 +76,7 @@ import FuelingImg from "media/services/cuttingEdge.webp"
 import BlogsIMG01 from "media/services/blogs/post-1.webp"
 import BlogsIMG02 from "media/services/blogs/post-2.webp"
 import BlogsIMG03 from "media/services/blogs/post-3.webp"
+import Link from "next/link"
 
 
 
@@ -100,19 +101,19 @@ export const ServicesContent = {
 export const ServicesList = [
     {
         title: "2D Mobile Game App Development",
-        txt: "The game app designers at BitsWits help clients conceptualize game ideas with engaging storylines and captivating character designs. Using tools like Unity and Cocos2d, we deliver precise game mechanics, intuitive controls, and realistic physics for iOS and Android. Our services are ideal for casual gaming, educational purposes, and gamified apps.",
+        txt: (<>The game app designers at BitsWits help clients conceptualize game ideas with engaging storylines and captivating character designs. Specializing in <Link href='/2d-game-development-company'>2D game development, </Link> we use tools like Unity and Cocos2d to deliver precise game mechanics, intuitive controls, and realistic physics for iOS and Android. Our services are ideal for casual gaming, educational purposes, </>),
         links: "",
         Img: GameBg1.src
     },
     {
         title: "3D Mobile Game App Development",
-        txt: "As a leading gaming app development company, we create storyboards and immersive game narratives with lifelike 3D models and animations. Utilizing Unreal Engine, Unity, Blender, and Autodesk Maya, we employ advanced physics engines to develop realistic environments and dynamic characters, delivering smooth performance and scalability across various platforms.",
+        txt: (<>As a leading gaming app development company, we create storyboards and immersive game narratives with lifelike 3D models and animations. Our expertise in <Link href='/3d-game-development-company'>3D game development</Link> allows us to utilize tools like Unreal Engine, Unity, Blender, and Autodesk Maya, employing advanced physics engines to build realistic environments and dynamic characters while ensuring smooth performance across various platforms.</>),
         links: "",
         Img: GameBg2.src
     },
     {
         title: "Blockchain Game App Development",
-        txt: "Our blockchain game app development services include using smart contracts to automate transactions and ensure fairness in gameplay, creating and managing NFTs for digital asset ownership, and facilitating item trading. We also build decentralized economies and player-driven markets, providing real-world value to in-game assets through blockchain technology.",
+        txt: (<>Our <Link href='/blockchain-game-development-company'>blockchain game app development services</Link>include using smart contracts to automate transactions and ensure fairness in gameplay, creating and managing NFTs for digital asset ownership, and facilitating item trading. We also build decentralized economies and player-driven markets, providing real-world value to in-game assets through blockchain technology.</>),
         links: "",
         Img: GameBg3.src
     },
@@ -136,7 +137,7 @@ export const ServicesList = [
     },
     {
         title: "NFT Game Development",
-        txt: "We offer NFT game development across multiple genres, creating immersive play-and-own experiences. Our skilled developers build in-game economies using digital assets and tokenomics to enhance player engagement and promote true ownership. This approach makes your gaming environment more interactive, rewarding, and aligned with modern digital trends.",
+        txt: (<>We offer<Link href='/nft-game-development-company'>NFT game development</Link>across multiple genres, creating immersive play-and-own experiences. Our skilled developers build in-game economies using digital assets and tokenomics to enhance player engagement and promote true ownership. This approach makes your gaming environment more interactive, rewarding, and aligned with modern digital trends.</>),
         links: "",
         Img: GameBg7.src
     },
@@ -201,7 +202,7 @@ export const ContentSecContent = {
 
 export const ProcessContent = {
     title: "Our Mobile Game Development Process",
-    text: "Our game development services cover all levels and app requirements. We assist you through each stage, providing a smoother launch and a successful mobile game that engages players from start to finish."
+    text: (<>Our game development services cover all levels and app requirements, guiding you through each stage of the<Link href='/blog/application-development-life-cycle'>app development lifecycle.</Link>We ensure a smoother launch and deliver a successful mobile game that engages players from start to finish.</>),
 }
 
 export const ProcessTabs = [
@@ -210,7 +211,7 @@ export const ProcessTabs = [
         content: {
             heading: "Pre-Stage Analysis",
             description:
-                "In the pre-stage analysis, we establish a solid foundation for your game concept through an in-depth approach. Our team develops a storyboard, technical design document, wireframe, and UX flow, providing a clear path for the production process. This thorough analysis sets the groundwork for a successful game development journey.",
+                "In the pre-stage analysis, we establish a solid foundation for your game concept through an in-depth approach. Along with developing a storyboard, technical design document, wireframe, and UX flow, we also evaluate the development cost to provide a clear path for the production process. This thorough analysis sets the groundwork for a successful game development journey.",
             imgSrc: ProcessIMG.src,
         },
     },
@@ -319,7 +320,7 @@ export const OffersTabs = [
         content: {
             heading: "iOS",
             description:
-                "As a prime iPhone game app development company, we create high-quality iOS games using advanced tools like Unity 3D, Unreal Engine, and Godot. Our experienced iOS game developers can help your game reach a wide audience, delivering exceptional performance and captivating gameplay on iOS devices.",
+                <>As a prime iPhone game app development company, we create high-quality iOS games using advanced tools like Unity 3D, Unreal Engine, and Godot. Our experienced developers craft some of the best online and <Link href='/blog/best-offline-iphone-games'>offline iPhone games,</Link> ensuring exceptional performance and captivating gameplay that reaches a wide audience on iOS devices.</>,
         },
     },
 

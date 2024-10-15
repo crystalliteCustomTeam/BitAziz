@@ -2,11 +2,11 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "music app development company - BitsWits",
+  title: "Music App Development Company - BitsWits",
   description: "Expert music app development company delivering custom solutions for streaming, offline playback, user playlists, and seamless audio experiences.",
   //===== OG Tags =====
   openGraph: {
-    title: "music app development company - BitsWits",
+    title: "Music App Development Company - BitsWits",
     description: "Expert music app development company delivering custom solutions for streaming, offline playback, user playlists, and seamless audio experiences.",
     url: '/music-app-development-company',
     siteName: 'BitsWits',

@@ -21,7 +21,7 @@ export default function Page() {
                             <li><CheckList />Support and Maintenance</li>
                         </ul>
                     </Col>
-                    <Col lg={5} md={6} className="offset-lg-2">
+                    <Col lg={6} md={6} className="offset-lg-1">
                         <div className={styles.contactForm}>
                             <div className={`${styles.contactHeading} subTitle txtColor`}>Let’s Discuss Your App Idea</div>
                             <ContactFrom contactpage={true} />

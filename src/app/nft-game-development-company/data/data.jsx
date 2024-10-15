@@ -92,6 +92,7 @@ import Music from "media/services/industry/music.webp";
 import BlogsIMG01 from "media/services/blogs/post-1.webp"
 import BlogsIMG02 from "media/services/blogs/post-2.webp"
 import BlogsIMG03 from "media/services/blogs/post-3.webp"
+import Link from "next/link";
 
 
 export const BannerData = {
@@ -209,7 +210,8 @@ export const WhyChooseList2 = [
 
 export const ProcessContent = {
     title: "Performance-Focused NFT Game Development Process",
-    text: "Our expert-vetted NFT game developers and UX team have a special brainstorming approach that leads us to stellar NFT game designs and deliver top-tier NFT game development services."
+    text: (<>Our expert-vetted NFT game developers and UX team follow a well-structured <Link href='/blog/application-development-life-cycle'>development lifecycle </Link> with a unique brainstorming approach, resulting in stellar NFT game designs and delivering top-tier NFT game development services.
+    </>),
 }
 
 export const ProcessTabs = [
@@ -218,7 +220,7 @@ export const ProcessTabs = [
         content: {
             heading: "Research & Concept Creation",
             description:
-                "It all begins with your game concept. We put our heads together to figure out how the game concept would turn out to be an immersive experience for gamers, making them stick to the platform. To achieve this, we perform rigorous research on competition, design, aesthetics, tech stack, visual assets, blockchain processes, costs, financials, testing, and updates.  ",
+                "It all begins with your game concept. We collaborate to transform your idea into an immersive experience for gamers, keeping them engaged on the platform. To achieve this, we conduct thorough research on competition, design, aesthetics, tech stack, visual assets, blockchain processes, development costs, financials, testing, and updates.",
             imgSrc: IMG.src,
         },
     },
@@ -254,7 +256,7 @@ export const ProcessTabs = [
         content: {
             heading: "Development",
             description:
-                "Our NFT development process is well-planned into two parts: Front-end, and Back-end development. Our expert NFT developers would work up the design, UX, mechanics, and gameplay experience. For the back end, we manage blockchain integration, token management, smart contracts, and security updates via a robust server infrastructure. ",
+                "Our NFT development process is well-planned into two parts: front-end, and backend development. Our expert NFT developers utilize top app development frameworks to create the design, UX, mechanics, and gameplay experience. For the back end, we manage blockchain integration, token management, smart contracts, and security updates via a robust server infrastructure.",
             imgSrc: IMG.src,
         },
     },
@@ -280,7 +282,7 @@ export const ProcessTabs = [
 
 export const TechnologiesContent = {
     title: "The Benefits When You Hire An NFT Game Development Company?",
-    text: (<><p>BitsWits is an NFT game development company in the USA that tops everyone. We have an outstanding portfolio of versatile NFT gaming projects. Our flawless NFT game development has led us to partner with some of the top gaming studios, and creative teams around the world. Our NFT game developers have proven their worth by building seamless blockchain integrations for NFT games. </p>
+    text: (<><p><Link href='/'>BitsWits </Link> is a leading NFT game development company in the USA with an outstanding portfolio of versatile NFT gaming projects. Our flawless <Link href='/blockchain-game-development-company'>blockchain game development</Link> has led us to partner with top gaming studios and creative teams worldwide. Our NFT game developers have proven their worth by building seamless blockchain integrations for NFT games</p>
     </>),
 
     TechImg: TechImg.src

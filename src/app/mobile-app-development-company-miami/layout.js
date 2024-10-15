@@ -1,10 +1,10 @@
 export const metadata = {
   //===== Meta Tags =====
-  title: "App Developers in Miami - BitsWits",
+  title: "App Developers in Miami - Mobile App Development Company",
   description: " BitsWits is a top-rated mobile app development company in Miami. Our expert app developers can provide custom mobile app solutions for your business.",
   //===== OG Tags =====
   openGraph: {
-    title: 'App Developers in Miami - BitsWits',
+    title: 'App Developers in Miami - Mobile App Development Company',
     description: ' BitsWits is a top-rated mobile app development company in Miami. Our expert app developers can provide custom mobile app solutions for your business.',
     url: '/mobile-app-development-company-miami',
     siteName: 'BitsWits',
