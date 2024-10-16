@@ -121,7 +121,7 @@ export const CuttingedgeList = [
     },
     {
         title: (<>Cross-Platform <br />App Development</>),
-        txt: (<>Our cross-platform solutions deliver scalable, secure, and seamless applications for both B2B and B2C, providing high-performance apps and exceptional user experience on <Link href='/ios-app-development-company'>iOS</Link> and <Link href='/android-app-development-company'>Android,</Link> driving business success and engagement.</>),
+        txt: (<>Our cross-platform solutions deliver scalable, secure, and seamless applications for both B2B and B2C, providing high-performance apps and exceptional user experience on <Link href='/ios-app-development-company'>iOS</Link> and <Link href='/android-app-development-company'>Android</Link>, driving business success and engagement.</>),
         links: "",
     },
     {
@@ -217,7 +217,7 @@ export const WhyChooseList2 = [
 
 export const ProcessContent = {
     title: "Our Flutter App Development Process",
-    text: (<>Our Flutter app development services follow a well-defined <Link href='blog/application-development-life-cycle'>app development lifecycle,</Link> placing user experience at the center to ensure zero platform differences, delivering seamless, high-quality applications across all devices.</>)
+    text: (<>Our Flutter app development services follow a well-defined <Link href='blog/application-development-life-cycle'>app development lifecycle</Link>, placing user experience at the center to ensure zero platform differences, delivering seamless, high-quality applications across all devices.</>)
 }
 
 export const ProcessTabs = [
@@ -226,7 +226,7 @@ export const ProcessTabs = [
         content: {
             heading: "Discovery and Ideation",
             description:
-                <>To set a solid foundation, we define your project scope and establish clear milestones in the discovery and ideation phase by collaborating with all the stakeholders. Then, our team decides on an optimal tech stack to build your <Link href='/blog/mobile-app-ideas'>mobile app idea,</Link> creating a well-architected solution and documenting every detail to reflect your vision, setting a solid foundation for development success.</>,
+                <>To set a solid foundation, we define your project scope and establish clear milestones in the discovery and ideation phase by collaborating with all the stakeholders. Then, our team decides on an optimal tech stack to build your <Link href='/blog/mobile-app-ideas'>mobile app idea</Link>, creating a well-architected solution and documenting every detail to reflect your vision, setting a solid foundation for development success.</>,
             imgSrc: IMG.src,
         },
     },
@@ -245,7 +245,7 @@ export const ProcessTabs = [
         content: {
             heading: "UI/UX Design",
             description:
-                <>Our UI/UX design phase includes <Link href='/blog/guide-to-creating-mobile-app-wireframes'>creating wireframes,</Link> where expert-vetted designers map out customer journeys and user flows to enhance the overall UX of your mobile app. Our team builds user-friendly interfaces and perfects the visual appeal of your Flutter app for seamless navigation, with the ultimate goal of engaging your users through intuitive design.</>,
+                <>Our UI/UX design phase includes <Link href='/blog/guide-to-creating-mobile-app-wireframes'>creating wireframes</Link>, where expert-vetted designers map out customer journeys and user flows to enhance the overall UX of your mobile app. Our team builds user-friendly interfaces and perfects the visual appeal of your Flutter app for seamless navigation, with the ultimate goal of engaging your users through intuitive design.</>,
             imgSrc: IMG.src,
 
         },

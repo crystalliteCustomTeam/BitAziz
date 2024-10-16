@@ -202,7 +202,7 @@ export const ContentSecContent = {
 
 export const ProcessContent = {
     title: "Our Mobile Game Development Process",
-    text: (<>Our game development services cover all levels and app requirements, guiding you through each stage of the<Link href='/blog/application-development-life-cycle'>app development lifecycle.</Link>We ensure a smoother launch and deliver a successful mobile game that engages players from start to finish.</>),
+    text: (<>Our game development services cover all levels and app requirements, guiding you through each stage of the<Link href='/blog/application-development-life-cycle'>app development lifecycle</Link>.We ensure a smoother launch and deliver a successful mobile game that engages players from start to finish.</>),
 }
 
 export const ProcessTabs = [
@@ -320,7 +320,7 @@ export const OffersTabs = [
         content: {
             heading: "iOS",
             description:
-                <>As a prime iPhone game app development company, we create high-quality iOS games using advanced tools like Unity 3D, Unreal Engine, and Godot. Our experienced developers craft some of the best online and <Link href='/blog/best-offline-iphone-games'>offline iPhone games,</Link> ensuring exceptional performance and captivating gameplay that reaches a wide audience on iOS devices.</>,
+                <>As a prime iPhone game app development company, we create high-quality iOS games using advanced tools like Unity 3D, Unreal Engine, and Godot. Our experienced developers craft some of the best online and <Link href='/blog/best-offline-iphone-games'>offline iPhone games</Link>, ensuring exceptional performance and captivating gameplay that reaches a wide audience on iOS devices.</>,
         },
     },
 

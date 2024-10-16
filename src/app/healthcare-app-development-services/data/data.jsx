@@ -243,7 +243,7 @@ export const ExpertiseList2 = [
 export const TechnologiesContent = {
     title: "Hire Skilled Developers for Healthcare App Development",
     text: (<>
-        <p>Partner with our expert developers to build your healthcare app using top technologies like <Link href='/react-native-app-development'>React Native,</Link> Swift, Kotlin, and <Link href='/flutter-app-development'>Flutter.</Link></p>
+        <p>Partner with our expert developers to build your healthcare app using top technologies like <Link href='/react-native-app-development'>React Native</Link>, Swift, Kotlin, and <Link href='/flutter-app-development'>Flutter</Link>.</p>
         <p>Our team specializes in developing solutions for appointment scheduling, telehealth, patient management, and medication tracking, ensuring top-tier functionality and security for your healthcare needs.</p>
         <p>Want to know how much does it cost to build your healthcare app? Contact us to get an accurate estimate based on your project specifications.</p>
     </>),
@@ -324,7 +324,7 @@ export const ProcessTabs = [
         content: {
             heading: "Development",
             description:
-                <>During the development phase, we focus on both frontend and  <Link href='/blog/guide-mobile-app-backend-development'>backend development,</Link> building your app incrementally using agile methodologies. This approach allows for ongoing feedback and testing, ensuring the app remains flexible and adaptable to new requirements or changes. Since healthcare is an evolving field, we ensure the app can scale with your practice’s growth. Throughout the cycle, we keep you informed every step of the way.</>,
+                <>During the development phase, we focus on both frontend and  <Link href='/blog/guide-mobile-app-backend-development'>backend development</Link>, building your app incrementally using agile methodologies. This approach allows for ongoing feedback and testing, ensuring the app remains flexible and adaptable to new requirements or changes. Since healthcare is an evolving field, we ensure the app can scale with your practice’s growth. Throughout the cycle, we keep you informed every step of the way.</>,
             imgSrc: IMG.src,
         },
     },

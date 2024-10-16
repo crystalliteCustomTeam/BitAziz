@@ -128,7 +128,7 @@ export const CuttingedgeList = [
     },
     {
         title: (<>Cross-Platform <br /> App Development</>),
-        txt: (<>We offer high-performance <Link href='/mobile-application-development-services'>mobile app development services</Link> apps using the <Link href='/blog/mobile-app-development-frameworks'>latest frameworks,</Link> ensuring your app delivers native-like performance and compatibility across multiple devices.</>),
+        txt: (<>We offer high-performance <Link href='/mobile-application-development-services'>mobile app development services</Link> apps using the <Link href='/blog/mobile-app-development-frameworks'>latest frameworks</Link>, ensuring your app delivers native-like performance and compatibility across multiple devices.</>),
         links: "",
     },
     {
@@ -227,7 +227,7 @@ export const ProcessTabs = [
         title: "Discovery",
         content: {
             heading: "Discovery & Strategy",
-            description: (<>Our cross-platform app developers start by analyzing your business objectives and <Link href='/blog/mobile-app-ideas'>mobile app idea,</Link> while also evaluating the <Link href='/blog/mobile-app-development-cost'>mobile app development cost</Link> to ensure budget alignment. This strategic planning sets the stage for a well-aligned app development journey, tailored to meet your goals effectively.</>),
+            description: (<>Our cross-platform app developers start by analyzing your business objectives and <Link href='/blog/mobile-app-ideas'>mobile app idea</Link>, while also evaluating the <Link href='/blog/mobile-app-development-cost'>mobile app development cost</Link> to ensure budget alignment. This strategic planning sets the stage for a well-aligned app development journey, tailored to meet your goals effectively.</>),
             imgSrc: IMG.src,
         },
     },

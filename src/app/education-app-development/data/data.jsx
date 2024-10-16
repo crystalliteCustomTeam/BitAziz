@@ -259,7 +259,7 @@ export const ExpertiseList2 = [
 export const TechnologiesContent = {
     title: "Hire Skilled Developers for Education App Development",
     text: (<>
-        <p>Our developers specialize in creating effective education apps using technologies like  <Link href='/react-native-app-development'>React Native,</Link> Swift, Kotlin, and <Link href='/flutter-app-development'>Flutter.</Link></p>
+        <p>Our developers specialize in creating effective education apps using technologies like  <Link href='/react-native-app-development'>React Native</Link>, Swift, Kotlin, and <Link href='/flutter-app-development'>Flutter</Link>.</p>
         <p>They design intuitive, engaging solutions that support interactive learning and improve educational outcomes. Whether it’s a mobile app for online courses or a platform for virtual classrooms, our team delivers tailored solutions that cater to the needs of modern education.</p>
         <p>Contact us to get an instant breakdown of your app cost!</p>
     </>),
@@ -544,7 +544,7 @@ export const FuelingList2 = [
 
 export const TechStackContent = {
     title: "Our Tech Stack For Education App Development",
-    text: (<>Our tech stack incorporates the <Link href='/blog/mobile-app-development-frameworks'>latest app development frameworks,</Link> ensuring top-quality delivery in educational app development.</>),
+    text: (<>Our tech stack incorporates the <Link href='/blog/mobile-app-development-frameworks'>latest app development frameworks</Link>, ensuring top-quality delivery in educational app development.</>),
 }
 
 export const TechStackTabs = [

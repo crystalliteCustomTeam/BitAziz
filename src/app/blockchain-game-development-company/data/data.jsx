@@ -112,7 +112,7 @@ export const CuttingedgeContent = {
 export const CuttingedgeList = [
     {
         title: (<>Custom <br />Game Development </>),
-        txt: (<>We have experienced game developers who can create new-generation <Link href='/2d-game-development-company'>2D,</Link> <Link href='/3d-game-development-company'>3D,</Link> Web3, Blockchain, and Metaverse games based on the newest technologies. Most of our games are designed to fit certain project specifications and conditions.</>),
+        txt: (<>We have experienced game developers who can create new-generation <Link href='/2d-game-development-company'>2D</Link>, <Link href='/3d-game-development-company'>3D</Link>, Web3, Blockchain, and Metaverse games based on the newest technologies. Most of our games are designed to fit certain project specifications and conditions.</>),
         links: "",
     },
     {
@@ -213,7 +213,7 @@ export const WhyChooseList2 = [
 
 export const ProcessContent = {
     title: "Our Comprehensive Blockchain Game Development Process",
-    text: (<>As a reliable Blockchain development company, we provide tailor-made solutions for our clients. From ideation to launch, our game developers excel at every stage of the <Link href='/blog/application-development-life-cycle'>app development lifecycle.</Link>  Here’s how we develop our game:</>),
+    text: (<>As a reliable Blockchain development company, we provide tailor-made solutions for our clients. From ideation to launch, our game developers excel at every stage of the <Link href='/blog/application-development-life-cycle'>app development lifecycle</Link>.  Here’s how we develop our game:</>),
 }
 
 export const ProcessTabs = [
@@ -459,7 +459,7 @@ export const FuelingList = [
     },
     {
         title: "AI & ML",
-        text: (<>AI and ML technology play a key role in creating intelligent, adaptive game environments. Through <Link href='/ai-development-company'>AI app development,</Link> we enhance NPC behavior, making interactions more realistic and dynamic. These technologies also improve player experiences and enable predictive analytics, leading to more engaging and tailored gameplay.</>),
+        text: (<>AI and ML technology play a key role in creating intelligent, adaptive game environments. Through <Link href='/ai-development-company'>AI app development</Link>, we enhance NPC behavior, making interactions more realistic and dynamic. These technologies also improve player experiences and enable predictive analytics, leading to more engaging and tailored gameplay.</>),
     },
     {
         title: "Decentralized Autonomous Organizations (DAOs)",
