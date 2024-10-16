@@ -252,7 +252,7 @@ export default function dubaidevelopmentcompany() {
 
       <h5>Loupe</h5>
       <p class='fontsfregular'><strong>Industry: </strong> Live E-commerce Streaming</p>  
-      <p class='fontsfregular'>Miami-based Loupe offers a live-streaming platform for e-commerce, allowing brands and influencers to engage with customers in real-time through interactive shopping experiences.</p>  
+      <p class='fontsfregular'><a href='https://www.bitswits.co/mobile-app-development-company-miami'>Miami</a>-based Loupe offers a live-streaming platform for e-commerce, allowing brands and influencers to engage with customers in real-time through interactive shopping experiences.</p>  
 
       <h5>Modernizing Medicine</h5>
       <p class='fontsfregular'><strong>Industry: </strong> Healthcare IT</p>  
