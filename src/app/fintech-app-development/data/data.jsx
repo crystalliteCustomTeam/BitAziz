@@ -244,7 +244,7 @@ export const ExpertiseList2 = [
 export const TechnologiesContent = {
     title: "Hire Fintech App Developers for Secure, High-Performance Solutions",
     text: (<>
-        <p>Partner with skilled fintech app developers to create tailored financial solutions using advanced technologies like Swift, Kotlin,  <Link href='/react-native-app-development'>React Native,</Link> and <Link href='/flutter-app-development'>Flutter.</Link></p>
+        <p>Partner with skilled fintech app developers to create tailored financial solutions using advanced technologies like Swift, Kotlin,  <Link href='/react-native-app-development'>React Native</Link>, and <Link href='/flutter-app-development'>Flutter</Link>.</p>
         <p>Our fintech app development services deliver secure, efficient apps for banking, payments, wealth management, and digital wallets. We prioritize security, scalability, and seamless user experiences, making us a trusted fintech app development company.</p>
         <p>Curious about the cost? Contact us to get an accurate estimate based on your project’s requirements.</p>
     </>),
@@ -297,7 +297,7 @@ export const ProcessTabs = [
         title: "Discovery",
         content: {
             heading: "Discovery Phase",
-            description: (<>We kick off by thoroughly understanding your financial goals, <Link href='/blog/mobile-app-ideas'>mobile app idea,</Link> compliance needs, and user base. Our fintech app development team identifies core functionalities, evaluates the <Link href='/blog/mobile-app-development-cost'> app development cost, </Link> considers regulatory frameworks like PCI DSS, and selects the most suitable technologies to build a secure and scalable solution aligned with your business model.</>),
+            description: (<>We kick off by thoroughly understanding your financial goals, <Link href='/blog/mobile-app-ideas'>mobile app idea</Link>, compliance needs, and user base. Our fintech app development team identifies core functionalities, evaluates the <Link href='/blog/mobile-app-development-cost'> app development cost, </Link> considers regulatory frameworks like PCI DSS, and selects the most suitable technologies to build a secure and scalable solution aligned with your business model.</>),
             imgSrc: IMG.src,
         },
     },
@@ -546,7 +546,7 @@ export const FuelingList2 = [
 
 export const TechStackContent = {
     title: "Our Fintech App Development Tech Stack",
-    text: (<>Our comprehensive tech stack, built on the <Link href='/blog/mobile-app-development-frameworks'>latest app development frameworks,</Link> ensures robust, scalable, and high-performing fintech applications.</>),
+    text: (<>Our comprehensive tech stack, built on the <Link href='/blog/mobile-app-development-frameworks'>latest app development frameworks</Link>, ensures robust, scalable, and high-performing fintech applications.</>),
 }
 
 export const TechStackTabs = [

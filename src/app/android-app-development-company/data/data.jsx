@@ -226,7 +226,7 @@ export const WhyChooseList2 = [
 
 export const ProcessContent = {
     title: "Our Android App Development Process",
-    text: (<>We develop top-notch Android apps by following a well-structured <Link href='/blog/application-development-life-cycle'>app development lifecycle.</Link> Our expert developers use the latest tools and technologies to ensure we deploy a game-changing app for you!
+    text: (<>We develop top-notch Android apps by following a well-structured <Link href='/blog/application-development-life-cycle'>app development lifecycle</Link>. Our expert developers use the latest tools and technologies to ensure we deploy a game-changing app for you!
     </>),
 
 }
@@ -237,7 +237,7 @@ export const ProcessTabs = [
         content: {
             heading: "Discovery & Blueprinting",
             description:
-                <>We kick off with a deep dive into your business goals and<Link href='/blog/mobile-app-ideas'>mobile app idea.</Link> Using tools like Miro and Balsamiq, we sketch out the project’s blueprint and identify key user personas. Along with this, we evaluate the <Link href='/blog/mobile-app-development-cost'>app development cost,</Link> ensuring a strategic plan that aligns perfectly with your business vision and sets a solid foundation for your Android app.</> ,
+                <>We kick off with a deep dive into your business goals and<Link href='/blog/mobile-app-ideas'>mobile app idea</Link>. Using tools like Miro and Balsamiq, we sketch out the project’s blueprint and identify key user personas. Along with this, we evaluate the <Link href='/blog/mobile-app-development-cost'>app development cost</Link>, ensuring a strategic plan that aligns perfectly with your business vision and sets a solid foundation for your Android app.</> ,
             imgSrc: IMG.src,
         },
     },
@@ -457,7 +457,7 @@ export const FuelingContent = {
 export const FuelingList = [
     {
         title: "AI & Machine Learning",
-        text: (<>Utilizing the power of <Link href='/ai-development-company'>AI app development,</Link> we create smart, adaptive apps that adjust to individual user preferences. Whether in healthcare or finance, AI and ML drive predictive analytics and automation, enhancing user engagement and streamlining operations.</>),
+        text: (<>Utilizing the power of <Link href='/ai-development-company'>AI app development</Link>, we create smart, adaptive apps that adjust to individual user preferences. Whether in healthcare or finance, AI and ML drive predictive analytics and automation, enhancing user engagement and streamlining operations.</>),
     },
     {
         title: "Augmented Reality (AR)",
@@ -465,7 +465,7 @@ export const FuelingList = [
     },
     {
         title: "Blockchain",
-        text: (<>We integrate blockchain technology into our Android apps for enhanced security and transparency, ideal for sectors like finance and logistics. We also offer <Link href='/blockchain-game-development-company'>blockchain game development,</Link> ensuring secure in-game transactions and robust data integrity for gaming apps.</>),
+        text: (<>We integrate blockchain technology into our Android apps for enhanced security and transparency, ideal for sectors like finance and logistics. We also offer <Link href='/blockchain-game-development-company'>blockchain game development</Link>, ensuring secure in-game transactions and robust data integrity for gaming apps.</>),
     },
     {
         title: "Cloud Computing",

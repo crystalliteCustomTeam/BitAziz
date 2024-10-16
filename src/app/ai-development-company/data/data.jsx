@@ -242,7 +242,7 @@ export const ProcessTabs = [
         content: {
             heading: "Discovery & Consultation",
             description:
-                <>Our journey starts with a detailed discovery phase, where we consult to understand your business objectives and explore your <Link href='/blog/mobile-app-ideas'>mobile app idea.</Link> We also evaluate the <Link href='/blog/mobile-app-development-cost'>mobile app development cost,</Link> using advanced tools to analyze data requirements, define project goals, and outline strategic AI solutions. This phase sets a clear roadmap for building tailored AI applications that align with your business vision.</>,
+                <>Our journey starts with a detailed discovery phase, where we consult to understand your business objectives and explore your <Link href='/blog/mobile-app-ideas'>mobile app idea</Link>. We also evaluate the <Link href='/blog/mobile-app-development-cost'>mobile app development cost</Link>, using advanced tools to analyze data requirements, define project goals, and outline strategic AI solutions. This phase sets a clear roadmap for building tailored AI applications that align with your business vision.</>,
             imgSrc: IMG.src,
         },
     },
