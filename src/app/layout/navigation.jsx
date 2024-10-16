@@ -90,6 +90,10 @@ const IndustriesMenu = [
         title: "Fintech",
         url: "/fintech-app-development",
     },
+    {
+        title: "Taxi App",
+        url: "/taxi-app-development-company",
+    },
 ]
 
 
