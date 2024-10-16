@@ -54,7 +54,7 @@ export const HomeServicesList = [
     },
     {
         title: "Cross Platform App Development",
-        txt:(<>We deliver cross-platform apps using <Link href='/flutter-app-development'>Flutter</Link> and <Link href='/react-native-app-development'>React Native</Link>, providing businesses with scalable solutions. Our apps work seamlessly across iOS, Android, and other platforms, reducing development time and costs without compromising quality, positioning us as a leading <Link href='/cross-platform-app-development-services'>cross-platform app development company.</Link></>),
+        txt:(<>We deliver cross-platform apps using <Link href='/flutter-app-development'>Flutter</Link> and <Link href='/react-native-app-development'>React Native</Link>, providing businesses with scalable solutions. Our apps work seamlessly across iOS, Android, and other platforms, reducing development time and costs without compromising quality, positioning us as a leading <Link href='/cross-platform-app-development-services'>cross-platform app development company</Link>.</>),
         url: "/cross-platform-app-development-services"
     },
     {

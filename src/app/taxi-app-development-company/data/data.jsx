@@ -280,7 +280,7 @@ export const ExpertiseList2 = [
 export const TechnologiesContent = {
     title: "Hire Top Developers for Your Taxi Booking App",
     text: (<>
-        <p>Developers at BitsWits are experts in building taxi booking apps using cutting-edge technologies like <Link href='/react-native-app-development'>React Native,</Link> Swift, Kotlin, and <Link href='/flutter-app-development'>Flutter.</Link></p>
+        <p>Developers at BitsWits are experts in building taxi booking apps using cutting-edge technologies like <Link href='/react-native-app-development'>React Native</Link>, Swift, Kotlin, and <Link href='/flutter-app-development'>Flutter</Link>.</p>
         <p>As a leading taxi booking app development agency, our expert-vetted professionals create solutions for real-time ride tracking, driver management, seamless payments, and in-app communication, designed to boost your taxi business operations.</p>
         <p>Contact our team at BitsWits to get a detailed estimate for your custom taxi app.</p>
     </>),
@@ -330,9 +330,9 @@ export const ProcessContent = {
 
 export const ProcessTabs = [
     {
-        title: "Discovery",
+        title: "Project Planning",
         content: {
-            heading: "Discovery Phase",
+            heading: "Project Planning",
             description:
                 <>In the project planning phase of our taxi booking app development services, we refine your <Link href='/blog/mobile-app-ideas'>  mobile app idea. </Link> and set clear objectives. This includes identifying your target market, fleet size, and platforms, evaluating the <Link href='/blog/mobile-app-development-cost'>app development cost</Link>  and outlining features like real-time tracking, driver management, and payment integration to meet your business needs.</>,
             imgSrc: IMG.src,
@@ -352,7 +352,7 @@ export const ProcessTabs = [
         content: {
             heading: "Development",
             description:
-                <>Our skilled taxi app developers manage both frontend and  <Link href='/blog/guide-mobile-app-backend-development'>backend development,</Link> to integrate key features like real-time GPS tracking, ride requests, and in-app communication. Through custom taxi app development, we build scalable solutions that accommodate growing fleets, passenger demand, and peak-hour traffic.</>,
+                <>Our skilled taxi app developers manage both frontend and  <Link href='/blog/guide-mobile-app-backend-development'>backend development</Link>, to integrate key features like real-time GPS tracking, ride requests, and in-app communication. Through custom taxi app development, we build scalable solutions that accommodate growing fleets, passenger demand, and peak-hour traffic.</>,
             imgSrc: IMG.src,
         },
     },
@@ -762,7 +762,7 @@ export const IndustriesList = [
         icon: <LogisticsSVG />,
         title: "Logistics",
         txt: "Our apps optimize fleet and shipment tracking. Integrated eCommerce lets businesses offer logistics to clients, boosting efficiency and operations.",
-        url: "/taxicare-app-development-services",
+        url: "/logistics-software-development",
         img: Logistics.src,
     },
     {

@@ -265,7 +265,7 @@ export const ExpertiseList2 = [
 export const TechnologiesContent = {
     title: "Hire Top Developers for Your Social Media Apps",
     text: (<>
-        <p>Developers at BitsWits are skilled in creating social media apps using technologies like <Link href='/react-native-app-development'>React Native,</Link> Swift, Kotlin, and <Link href='/flutter-app-development'>Flutter.</Link></p>
+        <p>Developers at BitsWits are skilled in creating social media apps using technologies like <Link href='/react-native-app-development'>React Native</Link>, Swift, Kotlin, and <Link href='/flutter-app-development'>Flutter</Link>.</p>
         <p>They develop solutions for content sharing, messaging, real-time notifications, and user engagement features.</p>
         <p>With a focus on interactive and scalable designs, our team builds apps that enhance community interaction and maintain high levels of user engagement.</p>
         <p>Contact us to get a detailed estimate of your mobile app development project.</p>
@@ -435,7 +435,7 @@ export const OffersTabs = [
         title: "Apps Like Tinder",
         content: {
             heading: "Apps Like Tinder",
-            description: (<>Our social media app developers specialize in building dating platforms like Tinder and <Link href='/blog/apps-like-omegle'>apps like Omegle,</Link>incorporating user-friendly interfaces and advanced matching algorithms. Let us help you create the next big platform that connects people effortlessly.</>),
+            description: (<>Our social media app developers specialize in building dating platforms like Tinder and <Link href='/blog/apps-like-omegle'>apps like Omegle</Link>,incorporating user-friendly interfaces and advanced matching algorithms. Let us help you create the next big platform that connects people effortlessly.</>),
         },
     },
     {
@@ -552,7 +552,7 @@ export const FuelingList2 = [
 
 export const TechStackContent = {
     title: "Our Tech Stack For Social Media App Development",
-    text: (<>Our tech stack incorporates the<Link href='/blog/mobile-app-development-frameworks'>latest app development frameworks,</Link>ensuring top-quality results in building social media platforms.</>),
+    text: (<>Our tech stack incorporates the<Link href='/blog/mobile-app-development-frameworks'>latest app development frameworks</Link>,ensuring top-quality results in building social media platforms.</>),
 }
 
 export const TechStackTabs = [

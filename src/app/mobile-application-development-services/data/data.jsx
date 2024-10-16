@@ -157,7 +157,7 @@ export const CuttingedgeList = [
     },
     {
         title: (<>Mobile Game<br />Development Services</>),
-        txt: (<>As a top-grade <Link href='/mobile-game-development-company'>mobile game development company,</Link> we use technologies like Unity and Unreal Engine to create adrenaline-pumping games in action, RPG, and sports! We offer flexible options, including full-cycle, co-development, and game porting services to meet the diverse needs of our clients.</>),
+        txt: (<>As a top-grade <Link href='/mobile-game-development-company'>mobile game development company</Link>, we use technologies like Unity and Unreal Engine to create adrenaline-pumping games in action, RPG, and sports! We offer flexible options, including full-cycle, co-development, and game porting services to meet the diverse needs of our clients.</>),
         links: "",
     }
     , {
@@ -465,7 +465,7 @@ export const OffersTabs = [
 
 export const FuelingContent = {
     title: "In-App Features That Your Users Are Looking For!",
-    text: (<>As a leading mobile development agency, we deliver all the must-have features, from user-friendly interfaces to advanced security throughout the <Link href='/blog/application-development-life-cycle'> application development lifecycle,</Link>  creating apps that meet modern user needs and support business growth.</>),
+    text: (<>As a leading mobile development agency, we deliver all the must-have features, from user-friendly interfaces to advanced security throughout the <Link href='/blog/application-development-life-cycle'> application development lifecycle</Link>,  creating apps that meet modern user needs and support business growth.</>),
     subtitle: "Reduce Risk and Validate Your Idea With a Fast MVP Launch!",
     subtext: "BitsWits takes a hands-on approach to guide your project, providing expertise and support at every stage!",
     FuelingImg: FuelingImg.src
@@ -490,7 +490,7 @@ export const FuelingList = [
     },
     {
         title: "Chatbots",
-        text: (<>As a top-tier <Link href='/ai-development-company'>AI development company,</Link> we design and integrate intelligent chatbots to provide instant customer support and engagement. Utilizing AI and NLP, our chatbots enhance user interaction, automate responses, and handle queries efficiently, improving overall customer satisfaction and retention.</>)
+        text: (<>As a top-tier <Link href='/ai-development-company'>AI development company</Link>, we design and integrate intelligent chatbots to provide instant customer support and engagement. Utilizing AI and NLP, our chatbots enhance user interaction, automate responses, and handle queries efficiently, improving overall customer satisfaction and retention.</>)
     },
     {
         title: "Immersive Experience",

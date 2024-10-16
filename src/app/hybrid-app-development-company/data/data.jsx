@@ -113,7 +113,7 @@ export const CuttingedgeContent = {
 export const CuttingedgeList = [
     {
         title: (<>Hybrid Mobile  <br />App Development</>),
-        txt: (<>We create secure hybrid apps that run seamlessly on multiple platforms. Using <Link href='/react-native-app-development'>React Native </Link> and <Link href='/flutter-app-development'> Flutter,</Link> our hybrid application development services help you expand your market reach and minimize costs with future-proof hybrid apps.</>),
+        txt: (<>We create secure hybrid apps that run seamlessly on multiple platforms. Using <Link href='/react-native-app-development'>React Native </Link> and <Link href='/flutter-app-development'> Flutter</Link>, our hybrid application development services help you expand your market reach and minimize costs with future-proof hybrid apps.</>),
         links: "",
     },
     {
@@ -257,7 +257,7 @@ export const ProcessTabs = [
         content: {
             heading: "Development",
             description:
-                <>Upon client approval, our technical team begins the development phase, utilizing the best-suited  <Link href='/blog/mobile-app-development-frameworks'>app development frameworks</Link> to meet your requirements. We focus on both front-end and <Link href='/blog/guide-mobile-app-backend-development'>backend development,</Link> ensuring a robust database structure. This phase transforms your approved designs into a fully functional hybrid app, ready for deployment within the agreed timeframe.</>,
+                <>Upon client approval, our technical team begins the development phase, utilizing the best-suited  <Link href='/blog/mobile-app-development-frameworks'>app development frameworks</Link> to meet your requirements. We focus on both front-end and <Link href='/blog/guide-mobile-app-backend-development'>backend development</Link>, ensuring a robust database structure. This phase transforms your approved designs into a fully functional hybrid app, ready for deployment within the agreed timeframe.</>,
             imgSrc: IMG.src,
 
         },
@@ -464,7 +464,7 @@ export const FuelingList = [
     },
     {
         title: "Blockchain",
-        text: (<>Blockchain integration provides security and transparency in supply chains and transactions, reducing fraud and enhancing data integrity. We also offer <Link href='/blockchain-game-development-company'>blockchain game development,</Link> ensuring secure in-game transactions with tamper-proof records.</>),
+        text: (<>Blockchain integration provides security and transparency in supply chains and transactions, reducing fraud and enhancing data integrity. We also offer <Link href='/blockchain-game-development-company'>blockchain game development</Link>, ensuring secure in-game transactions with tamper-proof records.</>),
     }
 ];
 

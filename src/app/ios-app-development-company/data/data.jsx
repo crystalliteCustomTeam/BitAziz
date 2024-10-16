@@ -232,7 +232,7 @@ export const ProcessTabs = [
         content: {
             heading: "Discovery and Planning",
             description:
-                <>In this initial phase, our iOS app developers conduct a comprehensive analysis of your business objectives and <Link href='/blog/mobile-app-ideas'>mobile app idea.</Link> We define the project scope, identify target user personas, and evaluate the <Link href='/blog/mobile-app-development-cost'>app development cost.</Link> This foundation helps us outline a strategic roadmap, aligning the custom iOS app development process with your business goals, setting the stage for maximum impact and success.</>,
+                <>In this initial phase, our iOS app developers conduct a comprehensive analysis of your business objectives and <Link href='/blog/mobile-app-ideas'>mobile app idea</Link>. We define the project scope, identify target user personas, and evaluate the <Link href='/blog/mobile-app-development-cost'>app development cost</Link>. This foundation helps us outline a strategic roadmap, aligning the custom iOS app development process with your business goals, setting the stage for maximum impact and success.</>,
             imgSrc: IMG.src,
         },
     },
@@ -452,7 +452,7 @@ export const FuelingContent = {
 export const FuelingList = [
     {
         title: "AI & ML",
-        text: (<>We specialize in <Link href='/ai-development-company'>AI app development,</Link> creating self-learning, adaptive apps that personalize user experiences. Whether in healthcare or finance, AI and ML technologies enable predictive analytics and automation, boosting engagement and streamlining operations.</>),
+        text: (<>We specialize in <Link href='/ai-development-company'>AI app development</Link>, creating self-learning, adaptive apps that personalize user experiences. Whether in healthcare or finance, AI and ML technologies enable predictive analytics and automation, boosting engagement and streamlining operations.</>),
     },
     {
         title: "Augmented Reality (AR)",

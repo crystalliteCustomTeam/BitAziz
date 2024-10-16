@@ -210,7 +210,7 @@ export const WhyChooseList2 = [
 
 export const ProcessContent = {
     title: "Our React Native App Development Process",
-    text: (<>Our React Native app development services follow a structured <Link href='/blog/application-development-life-cycle'>app development lifecycle,</Link> with a strong focus on user experience to eliminate platform discrepancies and deliver seamless, high-quality applications across all devices.
+    text: (<>Our React Native app development services follow a structured <Link href='/blog/application-development-life-cycle'>app development lifecycle</Link>, with a strong focus on user experience to eliminate platform discrepancies and deliver seamless, high-quality applications across all devices.
     </>)
 }
 
@@ -220,7 +220,7 @@ export const ProcessTabs = [
         content: {
             heading: "Discovery and Ideation",
             description:
-                <>As a premium-grade React Native development company, we collaborate with all stakeholders during the discovery and ideation phase to define the project scope and establish clear milestones. Our team selects the optimal tech stack for building your <Link href='/blog/mobile-app-ideas'>mobile app idea,</Link> creating a well-architected solution, and documenting every detail to align with your vision, laying a solid foundation for development success.</>,
+                <>As a premium-grade React Native development company, we collaborate with all stakeholders during the discovery and ideation phase to define the project scope and establish clear milestones. Our team selects the optimal tech stack for building your <Link href='/blog/mobile-app-ideas'>mobile app idea</Link>, creating a well-architected solution, and documenting every detail to align with your vision, laying a solid foundation for development success.</>,
             imgSrc: IMG.src,
         },
     },
@@ -229,7 +229,7 @@ export const ProcessTabs = [
         content: {
             heading: "Planning",
             description:
-                <>In the planning stage, we analyze your business requirements to craft a detailed development roadmap for your React Native app. We also assess <Link href='/blog/mobile-app-development-cost'>mobile app development costs,</Link> creating a customized plan with strategies and methodologies tailored to your needs, efficiently allocating resources and setting clear timelines to guide the project toward successful completion.</>,
+                <>In the planning stage, we analyze your business requirements to craft a detailed development roadmap for your React Native app. We also assess <Link href='/blog/mobile-app-development-cost'>mobile app development costs</Link>, creating a customized plan with strategies and methodologies tailored to your needs, efficiently allocating resources and setting clear timelines to guide the project toward successful completion.</>,
             imgSrc: IMG.src,
 
         },
@@ -288,7 +288,7 @@ export const ProcessTabs = [
 
 export const TechnologiesContent = {
     title: "Strategic Advantages of Hiring BitsWits as Your React Native App Development Company",
-    text: (<><p>BitsWits is a leading React Native app development company in USA that offers top-quality mobile solutions designed to enhance user engagement and increase market competitiveness. Our skilled React Native app developers focus on efficient <Link href='/cross-platform-app-development-services'>cross-platform development,</Link> engaging UI/UX design, and a rapid development process. We provide robust, scalable solutions with seamless third-party integrations, helping your app succeed in a dynamic market.</p>
+    text: (<><p>BitsWits is a leading React Native app development company in USA that offers top-quality mobile solutions designed to enhance user engagement and increase market competitiveness. Our skilled React Native app developers focus on efficient <Link href='/cross-platform-app-development-services'>cross-platform development</Link>, engaging UI/UX design, and a rapid development process. We provide robust, scalable solutions with seamless third-party integrations, helping your app succeed in a dynamic market.</p>
     </>),
 
     TechImg: TechImg.src
