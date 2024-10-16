@@ -206,6 +206,11 @@ strong {
   font-family: "SF-Pro-Display-Regular", sans-serif;
 }
 
+.fontsfregular a{
+  color: #000;
+  font-weight: 500;
+}
+
 .manrope {
   font-family: "Manrope";
 }
