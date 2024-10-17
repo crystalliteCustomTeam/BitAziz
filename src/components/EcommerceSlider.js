@@ -3,8 +3,8 @@ import { Col, Row } from 'react-bootstrap';
 import styles from "@/styles/EcommerceSlider.module.css";
 //
 import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/autoplay';
+import 'swiper/css/Navigation';
+import 'swiper/css/Autoplay';
 import Swiper from 'swiper/bundle';
 import SwiperCore, { Navigation, Autoplay } from 'swiper/core';
 import { register } from "swiper/element/bundle";

@@ -4,8 +4,8 @@ import { Row, Col, Container } from 'react-bootstrap';
 import styles from "@/styles/Homeslider.module.css";
 //
 import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/autoplay';
+import 'swiper/css/Navigation';
+import 'swiper/css/Autoplay';
 import { register } from "swiper/element/bundle";
 import SwiperCore, { Navigation, Autoplay } from 'swiper/core';
 
