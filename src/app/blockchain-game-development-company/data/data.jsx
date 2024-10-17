@@ -222,7 +222,7 @@ export const ProcessTabs = [
         content: {
             heading: "Discovery and Planning",
             description:
-                <>In the initial phase, our Blockchain development firm conducts a thorough analysis of your <Link href='/blog/mobile-app-ideas'> app idea </Link> and project objectives. Using tools like Unity and Unreal Engine, we define the project scope, identify the target audience, and evaluate the <Link href='/blog/mobile-app-development-cost'> development cost. </Link> This foundational step enables us to craft a strategic roadmap that aligns the Blockchain game development process with your goals, ensuring long-term success.</>,
+                <>In the initial phase, our Blockchain development firm conducts a thorough analysis of your <Link href='/blog/mobile-app-ideas'> app idea </Link> and project objectives. Using tools like Unity and Unreal Engine, we define the project scope, identify the target audience, and evaluate the <Link href='/blog/mobile-app-development-cost'> development cost</Link>. This foundational step enables us to craft a strategic roadmap that aligns the Blockchain game development process with your goals, ensuring long-term success.</>,
             imgSrc: IMG.src,
         },
     },
@@ -251,7 +251,7 @@ export const ProcessTabs = [
         content: {
             heading: "Development",
             description:
-                <>In the development phase, we build robust frontend and<Link href='/blog/guide-mobile-app-backend-development'>backend development</Link> solutions that emphasize scalability, security, and real-time interaction. Our developers use Solidity for smart contract development and integrate Blockchain protocols like Ethereum and Polygon, ensuring a seamless gaming experience across different platforms, positioning your game competitively in the market.</>,
+                <>In the development phase, we build robust frontend and <Link href='/blog/guide-mobile-app-backend-development'>backend development</Link> solutions that emphasize scalability, security, and real-time interaction. Our developers use Solidity for smart contract development and integrate Blockchain protocols like Ethereum and Polygon, ensuring a seamless gaming experience across different platforms, positioning your game competitively in the market.</>,
             imgSrc: IMG.src,
 
         },

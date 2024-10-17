@@ -101,7 +101,7 @@ export const ServicesContent = {
 export const ServicesList = [
     {
         title: "2D Mobile Game App Development",
-        txt: (<>The game app designers at BitsWits help clients conceptualize game ideas with engaging storylines and captivating character designs. Specializing in <Link href='/2d-game-development-company'>2D game development, </Link> we use tools like Unity and Cocos2d to deliver precise game mechanics, intuitive controls, and realistic physics for iOS and Android. Our services are ideal for casual gaming, educational purposes, </>),
+        txt: (<>The game app designers at BitsWits help clients conceptualize game ideas with engaging storylines and captivating character designs. Specializing in <Link href='/2d-game-development-company'>2D game development</Link>, we use tools like Unity and Cocos2d to deliver precise game mechanics, intuitive controls, and realistic physics for iOS and Android. Our services are ideal for casual gaming, educational purposes, </>),
         links: "",
         Img: GameBg1.src
     },
@@ -137,7 +137,7 @@ export const ServicesList = [
     },
     {
         title: "NFT Game Development",
-        txt: (<>We offer<Link href='/nft-game-development-company'>NFT game development</Link>across multiple genres, creating immersive play-and-own experiences. Our skilled developers build in-game economies using digital assets and tokenomics to enhance player engagement and promote true ownership. This approach makes your gaming environment more interactive, rewarding, and aligned with modern digital trends.</>),
+        txt: (<>We offer <Link href='/nft-game-development-company'>NFT game development</Link> across multiple genres, creating immersive play-and-own experiences. Our skilled developers build in-game economies using digital assets and tokenomics to enhance player engagement and promote true ownership. This approach makes your gaming environment more interactive, rewarding, and aligned with modern digital trends.</>),
         links: "",
         Img: GameBg7.src
     },

@@ -228,7 +228,7 @@ export const ProcessTabs = [
         content: {
             heading: "Discovery Session",
             description:
-                <>In our discovery session, we document every detail to gain a better understanding of your  <Link href='/blog/mobile-app-ideas'> mobile app idea. </Link> We examine all data to define the project scope, establish clear milestones, and assess the  <Link href='/blog/mobile-app-development-cost'> development cost. </Link> Our tech experts collaborate to determine the best technologies for your hybrid mobile app development, ensuring a well-architected and efficient solution.</>,
+                <>In our discovery session, we document every detail to gain a better understanding of your  <Link href='/blog/mobile-app-ideas'> mobile app idea</Link>. We examine all data to define the project scope, establish clear milestones, and assess the  <Link href='/blog/mobile-app-development-cost'> development cost</Link>. Our tech experts collaborate to determine the best technologies for your hybrid mobile app development, ensuring a well-architected and efficient solution.</>,
             imgSrc: IMG.src,
         },
     },
@@ -237,7 +237,7 @@ export const ProcessTabs = [
         content: {
             heading: "Design, Wireframes, & Mockups",
             description:
-                <>We create interactive UI designs and <Link href='/blog/guide-to-creating-mobile-app-wireframes'>wireframes for a user-friendly flow. </Link> Our UX design process iterates based on feedback to align with your business goals and enhance user flow. Through detailed mockups, we visualize the final product, guaranteeing a seamless and engaging user experience for your hybrid mobile app.</>,
+                <>We create interactive UI designs and <Link href='/blog/guide-to-creating-mobile-app-wireframes'>wireframes for a user-friendly flow</Link>. Our UX design process iterates based on feedback to align with your business goals and enhance user flow. Through detailed mockups, we visualize the final product, guaranteeing a seamless and engaging user experience for your hybrid mobile app.</>,
             imgSrc: IMG.src,
 
         },

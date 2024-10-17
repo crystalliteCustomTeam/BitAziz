@@ -237,7 +237,7 @@ export const ProcessTabs = [
         content: {
             heading: "Discovery & Blueprinting",
             description:
-                <>We kick off with a deep dive into your business goals and<Link href='/blog/mobile-app-ideas'>mobile app idea</Link>. Using tools like Miro and Balsamiq, we sketch out the project’s blueprint and identify key user personas. Along with this, we evaluate the <Link href='/blog/mobile-app-development-cost'>app development cost</Link>, ensuring a strategic plan that aligns perfectly with your business vision and sets a solid foundation for your Android app.</> ,
+                <>We kick off with a deep dive into your business goals and <Link href='/blog/mobile-app-ideas'>mobile app idea</Link>. Using tools like Miro and Balsamiq, we sketch out the project’s blueprint and identify key user personas. Along with this, we evaluate the <Link href='/blog/mobile-app-development-cost'>app development cost</Link>, ensuring a strategic plan that aligns perfectly with your business vision and sets a solid foundation for your Android app.</> ,
             imgSrc: IMG.src,
         },
     },
