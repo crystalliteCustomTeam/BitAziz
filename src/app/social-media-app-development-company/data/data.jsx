@@ -327,7 +327,7 @@ export const ProcessTabs = [
         title: "Design",
         content: {
             heading: "Design",
-            description: (<>As a top-grade social media app development company, our design phase focuses on<Link href='/blog/guide-to-creating-mobile-app-wireframes'>creating wireframes</Link> to map out an intuitive UI/UX, optimized for multi-platform responsiveness. Prototypes are then developed to showcase features like in-app messaging, customizable user profiles, and content-sharing mechanisms. User testing is conducted to refine the design and enhance engagement.</>),
+            description: (<>As a top-grade social media app development company, our design phase focuses on <Link href='/blog/guide-to-creating-mobile-app-wireframes'>creating wireframes</Link> to map out an intuitive UI/UX, optimized for multi-platform responsiveness. Prototypes are then developed to showcase features like in-app messaging, customizable user profiles, and content-sharing mechanisms. User testing is conducted to refine the design and enhance engagement.</>),
             imgSrc: Process02.src,
         },
     },

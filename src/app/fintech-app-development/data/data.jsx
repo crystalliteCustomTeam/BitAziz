@@ -297,7 +297,7 @@ export const ProcessTabs = [
         title: "Discovery",
         content: {
             heading: "Discovery Phase",
-            description: (<>We kick off by thoroughly understanding your financial goals, <Link href='/blog/mobile-app-ideas'>mobile app idea</Link>, compliance needs, and user base. Our fintech app development team identifies core functionalities, evaluates the <Link href='/blog/mobile-app-development-cost'> app development cost, </Link> considers regulatory frameworks like PCI DSS, and selects the most suitable technologies to build a secure and scalable solution aligned with your business model.</>),
+            description: (<>We kick off by thoroughly understanding your financial goals, <Link href='/blog/mobile-app-ideas'>mobile app idea</Link>, compliance needs, and user base. Our fintech app development team identifies core functionalities, evaluates the <Link href='/blog/mobile-app-development-cost'> app development cost </Link>, considers regulatory frameworks like PCI DSS, and selects the most suitable technologies to build a secure and scalable solution aligned with your business model.</>),
             imgSrc: IMG.src,
         },
     },
