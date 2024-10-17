@@ -315,7 +315,7 @@ export const ProcessTabs = [
         content: {
             heading: "UI/UX Design",
             description:
-                <>While the term 'design' often refers to aesthetics, it also defines how an application will feel for the user. As part of the process, our UI/UX healthcare app design team focuses on<Link href='/blog/guide-to-creating-mobile-app-wireframes'>creating wireframes</Link> that map out the user journey. We work collaboratively with you to craft an intuitive, user-friendly app tailored to the needs of your practice, ensuring the interface is smooth and easy to use for your patients.</>,
+                <>While the term 'design' often refers to aesthetics, it also defines how an application will feel for the user. As part of the process, our UI/UX healthcare app design team focuses on <Link href='/blog/guide-to-creating-mobile-app-wireframes'>creating wireframes</Link> that map out the user journey. We work collaboratively with you to craft an intuitive, user-friendly app tailored to the needs of your practice, ensuring the interface is smooth and easy to use for your patients.</>,
             imgSrc: IMG.src,
         },
     },

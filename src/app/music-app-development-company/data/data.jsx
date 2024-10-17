@@ -287,7 +287,7 @@ export const ProcessTabs = [
         title: "Planning",
         content: {
             heading: "Documenting and Planning",
-            description: (<>We start with a music industry-specific discovery call to understand your  <Link href='/blog/mobile-app-ideas'>mobile app idea</Link>, user demographics, and platform needs. After a thorough analysis, we document your requirements, evaluate the<Link href=''>app development cost</Link>, and create a feature roadmap, including real-time audio streaming, user playlists, and rights management systems. Communication is key throughout, keeping you informed at every stage.</>),
+            description: (<>We start with a music industry-specific discovery call to understand your  <Link href='/blog/mobile-app-ideas'>mobile app idea</Link>, user demographics, and platform needs. After a thorough analysis, we document your requirements, evaluate the <Link href=''>app development cost</Link>, and create a feature roadmap, including real-time audio streaming, user playlists, and rights management systems. Communication is key throughout, keeping you informed at every stage.</>),
             imgSrc: Process01.src,
         },
     },
