@@ -312,7 +312,7 @@ export const ProcessTabs = [
         title: "Planning",
         content: {
             heading: "Project Planning",
-            description: (<>In the project planning stage of our educational app development services, we refine your <Link href='/blog/mobile-app-ideas'>mobile app idea</Link> and define the app’s purpose. This includes identifying the learner demographic, selecting platforms, evaluating the <Link href='/blog/mobile-app-development-cost'> app development cost </Link>, integrating with an LMS, and outlining features that align with your instructional objectives and engagement goals.</>),
+            description: (<>In the project planning stage of our educational app development services, we refine your <Link href='/blog/mobile-app-ideas'>mobile app idea</Link> and define the app’s purpose. This includes identifying the learner demographic, selecting platforms, evaluating the <Link href='/blog/mobile-app-development-cost'> app development cost</Link>, integrating with an LMS, and outlining features that align with your instructional objectives and engagement goals.</>),
             imgSrc: Process01.src,
         },
     },

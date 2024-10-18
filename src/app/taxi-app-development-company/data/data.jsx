@@ -334,7 +334,7 @@ export const ProcessTabs = [
         content: {
             heading: "Project Planning",
             description:
-                <>In the project planning phase of our taxi booking app development services, we refine your <Link href='/blog/mobile-app-ideas'>  mobile app idea </Link>. and set clear objectives. This includes identifying your target market, fleet size, and platforms, evaluating the <Link href='/blog/mobile-app-development-cost'>app development cost</Link>  and outlining features like real-time tracking, driver management, and payment integration to meet your business needs.</>,
+                <>In the project planning phase of our taxi booking app development services, we refine your <Link href='/blog/mobile-app-ideas'>  mobile app idea</Link>. and set clear objectives. This includes identifying your target market, fleet size, and platforms, evaluating the <Link href='/blog/mobile-app-development-cost'>app development cost</Link>  and outlining features like real-time tracking, driver management, and payment integration to meet your business needs.</>,
             imgSrc: IMG.src,
         },
     },

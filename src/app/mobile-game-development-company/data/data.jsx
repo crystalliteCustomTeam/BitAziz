@@ -113,7 +113,7 @@ export const ServicesList = [
     },
     {
         title: "Blockchain Game App Development",
-        txt: (<>Our <Link href='/blockchain-game-development-company'>blockchain game app development services</Link>include using smart contracts to automate transactions and ensure fairness in gameplay, creating and managing NFTs for digital asset ownership, and facilitating item trading. We also build decentralized economies and player-driven markets, providing real-world value to in-game assets through blockchain technology.</>),
+        txt: (<>Our <Link href='/blockchain-game-development-company'>blockchain game app development services</Link> include using smart contracts to automate transactions and ensure fairness in gameplay, creating and managing NFTs for digital asset ownership, and facilitating item trading. We also build decentralized economies and player-driven markets, providing real-world value to in-game assets through blockchain technology.</>),
         links: "",
         Img: GameBg3.src
     },
