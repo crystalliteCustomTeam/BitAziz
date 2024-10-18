@@ -131,7 +131,7 @@ export default async function Post({ params, searchParams }) {
                             <Row>
                                 <Col lg={8}>
                                     <BlogShare />
-                                    <div dangerouslySetInnerHTML={{ __html: postData.content }}></div>
+                                    <div dangerouslySetInnerHTML={{ __html: postData.content }} className={styles.innerHtml}></div>
                                     <BlogFaqs faqData={postData.blogDescription.faq} />
                                 </Col>
                                 <Col lg={4}>

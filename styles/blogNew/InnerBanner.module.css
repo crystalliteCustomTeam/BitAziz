@@ -196,7 +196,7 @@
 }
 
 .articleSec p {
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 30px;
 }
@@ -213,9 +213,8 @@
 }
 
 .articleSec table {
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 .articleSec tbody,
@@ -225,27 +224,39 @@
 .articleSec thead,
 .articleSec tr {
   border: 1px solid #000 !important;
-  padding: 5px 10px;
+  padding: 10px 10px;
 }
 
-.articleSec td p{
+.articleSec td p {
   margin-bottom: 0;
   line-height: 25px;
 }
 
+.articleSec ul {
+  position: relative;
+  padding-left: 30px;
+}
+
 .articleSec ul li {
   position: relative;
+
+}
+
+.articleSec ul li strong {
+  /* font-weight:normal; */
+  font-size: 16px;
 }
 
 .articleSec ul li::before {
   content: "";
   position: absolute;
   left: -25px;
-  top: 13px;
+  top: 9px;
   width: 8px;
   height: 8px;
   background-color: #f32f53;
   border-radius: 50px;
+
 }
 
 .noList li::before,
@@ -280,10 +291,10 @@
 }
 
 .faqs h3 {
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 600;
   color: #000;
-  font-family: "Montserrat", sans-serif;
+  font-family: "SF-Pro-Display", sans-serif;
   text-align: left;
   background: unset;
   display: flex;
@@ -296,7 +307,7 @@
   font-size: 14px;
   font-weight: 400;
   color: #000;
-  font-family: "Montserrat", sans-serif;
+  font-family: "SF-Pro-Display", sans-serif;
   text-align: justify;
 }
 
@@ -316,7 +327,7 @@
   font-size: 14px;
   font-weight: 400;
   color: #000;
-  font-family: "Montserrat", sans-serif;
+  font-family: "SF-Pro-Display", sans-serif;
   text-align: justify;
   margin: 5px 0;
   list-style: none;
@@ -330,12 +341,90 @@
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: "SF-Pro-Display", sans-serif;
 }
 
 .faqs a:hover {
   color: var(--p-color);
 }
+
+.innerHtml p,
+.innerHtml h1,
+.innerHtml h2,
+.innerHtml h3,
+.innerHtml h4,
+.innerHtml h5,
+.innerHtml span,
+.innerHtml pre,
+.innerHtml a,
+.innerHtml button,
+.innerHtml div,
+.innerHtml li,
+.innerHtml table {
+  font-family: "SF-Pro-Display", sans-serif;
+}
+
+.innerHtml ol {
+  padding-left: 15px;
+}
+.innerHtml ol li { 
+  list-style: decimal !important;
+}
+
+.innerHtml ol li strong {
+  padding-left: 5px;
+}
+
+
+.innerHtml p,
+.innerHtml ul li,
+.innerHtml span {
+  font-size: 18px;
+  font-weight: 300 !important;
+  line-height: 28px;
+  color: #585858 !important;
+}
+
+.innerHtml h2 {
+  margin: 20px 0px;
+}
+
+.innerHtml h2,
+.innerHtml h3,
+.innerHtml h4,
+.innerHtml h5,
+.innerHtml h6 {
+  margin-bottom: 10px;
+}
+
+.innerHtml p strong {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+}
+
+.innerHtml ul {
+  margin-bottom: 30px;
+}
+
+.innerHtml ul li strong {
+  color: #000;
+  font-weight: 500;
+}
+
+.blogTopDes h2,
+.blogTopDes h1,
+.blogTopDes div {
+  font-family: "SF-Pro-Display", sans-serif;
+}
+
+.innerBannerSec .content ul,
+.innerBannerSec .content p,
+.innerBannerSec .content span,
+.innerBannerSec .content div {
+  font-family: "SF-Pro-Display", sans-serif;
+}
+
 
 /*============ Media Queries ============*/
 
