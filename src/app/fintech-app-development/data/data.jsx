@@ -26,7 +26,7 @@ import TechIcon08 from "media/services/tech/8.webp"
 import TechImg from "media/industry/fintech/techImg.webp"
 
 //========= Process Images
-import IMG from "media/services/process/tab01.webp"
+import IMG from "media/industry/RealEstate/processImg.webp"
 
 //========= WhyChoose Images
 import { FintechIcon01, FintechIcon02, FintechIcon03, FintechIcon04, } from "@/src/app/app-constants"

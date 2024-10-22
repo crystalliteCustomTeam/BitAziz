@@ -27,13 +27,13 @@ import TechIcon08 from "media/services/tech/8.webp"
 import TechImg from "media/industry/ecommerce/techImg.webp"
 
 //========= Process Images
-import Process01 from "media/industry/process/process01.webp"
-import Process02 from "media/industry/process/process02.webp"
-import Process03 from "media/industry/process/process03.webp"
-import Process04 from "media/industry/process/process04.webp"
-import Process05 from "media/industry/process/process05.webp"
-import Process06 from "media/industry/process/process06.webp"
-import Process07 from "media/industry/process/process07.webp"
+import Process01 from "media/industry/ecommerce/processImg.webp"
+import Process02 from "media/industry/ecommerce/processImg.webp"
+import Process03 from "media/industry/ecommerce/processImg.webp"
+import Process04 from "media/industry/ecommerce/processImg.webp"
+import Process05 from "media/industry/ecommerce/processImg.webp"
+import Process06 from "media/industry/ecommerce/processImg.webp"
+import Process07 from "media/industry/ecommerce/processImg.webp"
 
 //========= WhyChoose Images
 import { EcommerceIcon01, EcommerceIcon02, EcommerceIcon03, EcommerceIcon04 } from "@/src/app/app-constants"

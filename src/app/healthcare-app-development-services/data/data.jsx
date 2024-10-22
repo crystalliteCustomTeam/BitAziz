@@ -23,10 +23,10 @@ import TechIcon05 from "media/services/tech/5.webp"
 import TechIcon06 from "media/services/tech/6.webp"
 import TechIcon07 from "media/services/tech/7.webp"
 import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/industry/health//techImg.webp"
+import TechImg from "media/industry/health/techImg.webp"
 
 //========= Process Images
-import IMG from "media/services/process/tab01.webp"
+import IMG from "media/industry/health/processImg.webp"
 
 //========= WhyChoose Images
 import { HealthCareIcon01, HealthCareIcon02, HealthCareIcon03, HealthCareIcon04, } from "@/src/app/app-constants"

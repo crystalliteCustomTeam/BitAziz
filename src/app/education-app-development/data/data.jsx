@@ -24,13 +24,13 @@ import TechIcon08 from "media/services/tech/8.webp"
 import TechImg from "media/industry/education/techImg.webp"
 
 //========= Process Images
-import Process01 from "media/industry/process/process01.webp"
-import Process02 from "media/industry/process/process02.webp"
-import Process03 from "media/industry/process/process03.webp"
-import Process04 from "media/industry/process/process04.webp"
-import Process05 from "media/industry/process/process05.webp"
-import Process06 from "media/industry/process/process06.webp"
-import Process07 from "media/industry/process/process07.webp"
+import Process01 from "media/industry/education/processImg.webp"
+import Process02 from "media/industry/education/processImg.webp"
+import Process03 from "media/industry/education/processImg.webp"
+import Process04 from "media/industry/education/processImg.webp"
+import Process05 from "media/industry/education/processImg.webp"
+import Process06 from "media/industry/education/processImg.webp"
+import Process07 from "media/industry/education/processImg.webp"
 
 //========= WhyChoose Images
 import { EducationIcon01, EducationIcon02, EducationIcon03, EducationIcon04 } from "@/src/app/app-constants"

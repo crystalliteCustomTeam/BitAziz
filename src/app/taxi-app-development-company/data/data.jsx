@@ -31,7 +31,7 @@ import TechIcon08 from "media/services/tech/8.webp"
 import TechImg from "media/industry/taxi//techImg.webp"
 
 //========= Process Images
-import IMG from "media/services/process/tab01.webp"
+import IMG from "media/industry/taxi/processImg.webp"
 
 //========= WhyChoose Images
 import { TaxiAppIcon01, TaxiAppIcon02, TaxiAppIcon03, TaxiAppIcon04, } from "@/src/app/app-constants"

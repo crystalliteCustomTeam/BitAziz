@@ -26,7 +26,8 @@ import TechIcon08 from "media/services/tech/8.webp"
 import TechImg from "media/industry/logistics/techImg.webp"
 
 //========= Process Images
-import IMG from "media/services/process/tab01.webp"
+import IMG from "media/industry/logistics/processImg.webp"
+
 
 //========= WhyChoose Images
 import { LogisticsIcon01, LogisticsIcon02, LogisticsIcon03, LogisticsIcon04 } from "@/src/app/app-constants"
