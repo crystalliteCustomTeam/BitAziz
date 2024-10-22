@@ -40,7 +40,7 @@ export default function dubaidevelopmentcompany() {
   // Banner Content
   const Banner = {
     title: "Denver Mobile App Development Company",
-    desc: "Our team of app developers in Denver bring a wealth of expertise and experience having successfully delivered 150+ projects. Throughout the development, our app developers Denver collaborate closely with you to ensure that every detail of the app reflects your vision. Opting for BitsWits translates to teaming up with individuals who are dedicated to providing top-notch quality.",
+    desc: "Our team of app developers in Denver brings a wealth of expertise and experience, having successfully delivered over 150 projects. This commitment is what makes us a trusted app development company in Denver, consistently creating apps that align with our clients’ visions and exceed their expectations. Opting for BitsWits means teaming up with professionals dedicated to delivering top-notch quality.",
     bg: HeroBg
   }
   // award Content
@@ -66,7 +66,7 @@ export default function dubaidevelopmentcompany() {
     },
     {
       question: 'Flutter App Development in Denver',
-      answer: "With BitsWits Flutter app development Denver services, you can tap into the power of cross-platform app development. Our app developers Denver are experts in creating apps for iOS and Android with only one codebase. Using this strong architecture, we create beautiful applications that offer a uniform user experience on all devices, saving you money on resources while increasing the visibility and impact of your app.",
+      answer: "With BitsWits Flutter app development services in Denver, you can tap into the power of cross-platform app development. Our app developers Denver are experts in creating apps for iOS and Android with only one codebase. Using this strong architecture, we create beautiful applications that offer a uniform user experience on all devices, saving you money on resources while increasing the visibility and impact of your app.",
       btn: "Let’s Build Your Flutter App!",
       StoryLineImg: StoryLine4
     },
@@ -180,7 +180,7 @@ export default function dubaidevelopmentcompany() {
   ];
   // Global Conten
   const global = {
-    address: " ",
+    address: "1035 Cherokee St, Denver, CO 80204, United States",
     number: "(302) 216-8231",
     href: "tel:+3022168231",
     image: MapImage,
@@ -211,7 +211,7 @@ export default function dubaidevelopmentcompany() {
             },
             {
               title: 'Internet of Things (IoT)',
-              description: "Our Denver app development team creates user-friendly apps that run across several platforms, making it simple for you to monitor and control all of your connected devices. It's similar to having a real-time pulse on your entire company!",
+              description: "Our app development team in Denver creates user-friendly apps that run across several platforms, making it simple for you to monitor and control all of your connected devices. It's similar to having a real-time pulse on your entire company!",
               imageSrc: banImg3,
             },
             {
