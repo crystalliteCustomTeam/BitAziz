@@ -2,11 +2,11 @@
 export const metadata = {
   //===== Meta Tags =====
   title: "Terms & Conditions - BitsWits",
-  description: "BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications.",
+  description: "BitsWits terms and conditions outline the guidelines for executing your mobile app development project efficiently and transparently.",
   //===== OG Tags =====
   openGraph: {
     title: 'Terms & Conditions - BitsWits',
-    description: 'BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications.',
+    description: "BitsWits terms and conditions outline the guidelines for executing your mobile app development project efficiently and transparently.",
     url: '/term-and-condition',
     siteName: 'BitsWits',
     locale: 'en_US',

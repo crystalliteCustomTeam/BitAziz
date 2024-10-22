@@ -2,12 +2,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Portfolio | BitsWits",
-    description: "",
+    title: "BitsWits Portfolio",
+    description: "Discover BitsWits’ portfolio showcasing diverse app development projects that transform ideas into impactful digital solutions, enhancing user experiences.",
     //===== OG Tags =====
     openGraph: {
-        title: "Portfolio | BitsWits",
-        description: "",
+        title: "BitsWits Portfolio",
+        description: "Discover BitsWits’ portfolio showcasing diverse app development projects that transform ideas into impactful digital solutions, enhancing user experiences.",
         url: '/portfolio',
         siteName: 'BitsWits',
         locale: 'en_US',

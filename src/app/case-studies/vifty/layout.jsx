@@ -2,12 +2,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Case Studies | BitsWits",
-    description: "",
+    title: "Vifty Case Study | Multi-Functional App Platform",
+    description: "BitsWits developed Vifty, a dynamic platform for gig listings, online consultations, video calls, and social interaction features, enhancing user engagement.",
     //===== OG Tags =====
     openGraph: {
-        title: "Case Studies | BitsWits",
-        description: "",
+        title: "Vifty Case Study | Multi-Functional App Platform",
+        description: "BitsWits developed Vifty, a dynamic platform for gig listings, online consultations, video calls, and social interaction features, enhancing user engagement.",
         url: '/case-studies/vifty',
         siteName: 'BitsWits',
         locale: 'en_US',

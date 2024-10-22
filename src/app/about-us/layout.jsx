@@ -3,11 +3,11 @@
 export const metadata = {
     //===== Meta Tags =====
     title: "About Us | BitsWits",
-    description: "At BitsWits, history meets future. Our journey: from concept to digital revolution. We stand for creativity, excellence, and transformative technology.",
+    description: "Explore our story, mission, and expert team committed to delivering exceptional digital solutions.",
     //===== OG Tags =====
     openGraph: {
         title: "About Us | BitsWits",
-        description: "At BitsWits, history meets future. Our journey: from concept to digital revolution. We stand for creativity, excellence, and transformative technology.",
+        description: "Explore our story, mission, and expert team committed to delivering exceptional digital solutions.",
         url: '/about-us',
         siteName: 'BitsWits',
         locale: 'en_US',

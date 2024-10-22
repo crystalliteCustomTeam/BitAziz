@@ -2,12 +2,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Case Studies | BitsWits",
-    description: "",
+    title: "NutriSnap Case Study | App Development Success",
+    description: "Discover how BitsWits transformed NutriSnap into a powerful nutrition tracking app, connecting users with nutritionists for personalized guidance.",
     //===== OG Tags =====
     openGraph: {
-        title: "Case Studies | BitsWits",
-        description: "",
+        title: "NutriSnap Case Study | App Development Success",
+        description: "Discover how BitsWits transformed NutriSnap into a powerful nutrition tracking app, connecting users with nutritionists for personalized guidance.",
         url: '/case-studies/nutri-snap',
         siteName: 'BitsWits',
         locale: 'en_US',
