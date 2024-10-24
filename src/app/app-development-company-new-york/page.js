@@ -43,7 +43,8 @@ export default function dubaidevelopmentcompany() {
   const Banner = {
     title: "Top Mobile App Development Company in New York",
     desc: "BitsWits is an industry-leading mobile app development company in New York that helps startups and SMBs create apps that fuel business growth. With a team of top-tier app developers in NYC, we build tailored iOS and Android apps designed to meet specific needs. Recognized for delivering cutting-edge solutions, we make sure your app stands out in the competitive market.",
-    bg: HeroBg
+    bg: HeroBg,
+    alt: "Banner for New York based mobile app development company featuring contact information and tag line"
   }
   // award Content
   const Award = {

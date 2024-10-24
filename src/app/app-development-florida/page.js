@@ -42,7 +42,8 @@ export default function dubaidevelopmentcompany() {
   const Banner = {
     title: "Leading Mobile App Development Company in Florida",
     desc: "BitsWits is a top-tier mobile app development company in Florida, committed to helping startups and entrepreneurs across diverse sectors build high-performance, scalable, and feature-rich mobile applications. We are proud to partner with some of the world's fastest-growing digital startups and have a team of the best app developers, engineers, UX designers, and project managers in Florida.",
-    bg: HeroBg
+    bg: HeroBg,
+    alt:"Banner for Florida based mobile app development company featuring contact information and tag line"
   }
   // award Content
   const Award = {

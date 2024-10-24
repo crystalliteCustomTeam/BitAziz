@@ -44,7 +44,8 @@ export default function dubaidevelopmentcompany() {
   const Banner = {
     title: "Top-Notch Mobile App Development Company in Chicago",
     desc: "Looking for a top mobile app development company in Chicago? Discover BitsWits – your gateway to turning app preferences into tangible results. We specialize in designing mobile application solutions to suit your business goals with an experienced team of professionals ready to tackle projects of any size. From start-ups to corporate restructuring, our commitment to excellence remains unwavering. Let's make your app unforgettable, shall we?",
-    bg: HeroBg
+    bg: HeroBg,
+    alt: "Banner for Chicago based mobile app development company featuring contact information and tag line"
   }
   // award Content
   const Award = {

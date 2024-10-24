@@ -43,7 +43,8 @@ export default function dubaidevelopmentcompany() {
   const Banner = {
     title: "Leading Mobile App Development Company Dubai",
     desc: "BitsWits stands out as a leading mobile app development company in Dubai due to offering state-of-the-art app development services and solutions. We have successfully delivered over 150+ projects across the UAE, specializing in bespoke, data-driven solutions that distinguish us from competitors. Our focus on customization ensures unique outcomes, reflecting diverse business needs and enabling success in dynamic market environments.",
-    bg: HeroBg
+    bg: HeroBg,
+    alt: "Banner for Dubai based mobile app development company featuring contact information and tag line"
   }
   // award Content
   const Award = {

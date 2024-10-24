@@ -42,7 +42,8 @@ export default function dubaidevelopmentcompany() {
   const Banner = {
     title: "Top Mobile App Development Company In Saudi Arabia",
     desc: "BitsWits has emerged as the leading mobile app development company in Saudi Arabia. With a proven track record of transforming our client visions into 150+ data-driven app development realities, BitsWits stands as a top choice for mobile app development across the Middle East. The state-of-the-art expertise of our app developers helps you outstand your industry giants in Saudi delivering seamless navigation and high responsiveness.",
-    bg: HeroBg
+    bg: HeroBg,
+    alt: "Banner for Saudi Arabia based mobile app development company featuring contact information and tag line"
   }
   // award Content
   const Award = {

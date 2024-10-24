@@ -42,7 +42,8 @@ export default function dubaidevelopmentcompany() {
   const Banner = {
     title: "Top-tier Mobile App Development Company in Austin",
     desc: "Develop friendly and scalable mobile applications that help your business escalate to higher levels by partnering with our elite mobile app development company in Austin. Our Austin app developers utilize state-of-the-art, modern tools & technologies that help them develop intuitive products that would generate 2X revenue. We are committed to designing a well-structured digital app that will ensure a high-quality user experience and outstanding app performance.",
-    bg: HeroBg
+    bg: HeroBg,
+    alt: "Banner for Austin based mobile app development company featuring contact information and tag line"
   }
   // award Content
   const Award = {

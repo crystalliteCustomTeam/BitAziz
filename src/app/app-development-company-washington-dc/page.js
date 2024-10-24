@@ -43,7 +43,8 @@ export default function dubaidevelopmentcompany() {
   const Banner = {
     title: "Reputable App Development Company in Washington DC",
     desc: "Build modern, state-of-the-art, user-friendly mobile apps in collaboration with our top-tier app development company in Washington D.C. Our app developers, with 10+ years of experience, utilize trending tools and technologies to create digital products that can bring massive revenue and ROIs. In addition, we ensure that the apps we develop feature high-end UI/UX and deliver a flawless user experience. ",
-    bg: HeroBg
+    bg: HeroBg,
+    alt: "Banner for Washington DC based mobile app development company featuring contact information and tag line"
   }
   // award Content
   const Award = {

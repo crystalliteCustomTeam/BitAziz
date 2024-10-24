@@ -43,7 +43,8 @@ export default function dubaidevelopmentcompany() {
   const Banner = {
     title: "Trusted Mobile App Development Company in Miami",
     desc: "Leveraging modern tools, robust technologies, and state-of-the-art expertise, BitsWits emerges as the leading mobile app development company in Miami. We have successfully delivered 150+ data-driven applications across Miami. A proven track record of transforming client visions into digital reality. As the best mobile app development company in Miami, you can count on us to give you unique solutions and make apps that meet all of your needs.",
-    bg: HeroBg
+    bg: HeroBg,
+    alt: "Banner for Miami based mobile app development company featuring contact information and tag line"
   }
   // award Content
   const Award = {

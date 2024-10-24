@@ -94,7 +94,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image sizes="100vw" loading='lazy' src={Slider2} alt="Bitswits" className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider2} alt="Dot Comm Platinum Award" className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>Dot Comm</h6>
@@ -105,7 +105,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image sizes="100vw" loading='lazy' src={Slider3} alt="Bitswits" className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider3} alt="Inc 5000 Badge" className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>INC. 5000</h6>
@@ -127,7 +127,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image sizes="100vw" loading='lazy' src={Slider5} alt="Bitswits" width={120} height={100} className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider5} alt="Horizon Silver Winner Award" width={120} height={100} className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>Horizon Award</h6>
@@ -139,7 +139,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image sizes="100vw" loading='lazy' src={Slider6} alt="Bitswits" width={123} height={100} className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider6} alt="Clutch Global Award 2022" width={123} height={100} className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>Clutch</h6>
@@ -151,7 +151,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image sizes="100vw" loading='lazy' src={Slider7} alt="Bitswits" width={90} height={100} className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider7} alt="Rightfirms Award 2023" width={90} height={100} className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>Right firms</h6>
@@ -162,7 +162,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image sizes="100vw" loading='lazy' src={Slider12} alt="Bitswits" width={100} height={100} className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider12} alt="Most Reviewed App Development Company Philadelphia Award" width={100} height={100} className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>The Manifest</h6>
@@ -173,7 +173,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image sizes="100vw" loading='lazy' src={Slider13} alt="Bitswits" width={100} height={100} className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider13} alt="Most Reviewed App Development Company Baltimore Award" width={100} height={100} className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>The Manifest</h6>

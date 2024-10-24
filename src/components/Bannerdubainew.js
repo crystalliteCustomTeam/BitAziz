@@ -12,7 +12,7 @@ import Star from "media/newDubaiPagev1/star.png"
 import Clutch from "media/newDubaiPagev1/clutch.png"
 
 const Bannerdubai = ({ content }) => {
-    const { title, desc, bg = " " } = content;
+    const { title, desc, alt, bg = " " } = content;
     const [ip, setIP] = useState('');
     const [pagenewurl, setPagenewurl] = useState('');
     const [isDisabled, setIsDisabled] = useState(false);
@@ -181,7 +181,7 @@ const Bannerdubai = ({ content }) => {
     return (
         <>
             <section className={`${styles.DubaiBanner} bg-black pt-140 pb-3`}>
-                <Image src={bg} fill priority={true} sizes='100vw' className='d-md-block d-none' style={{ zIndex: -1 }} />
+                <Image src={bg} fill priority={true} sizes='100vw' className='d-md-block d-none' style={{ zIndex: -1 }} alt={alt} />
                 <Container className={` ${styles.conform}`}>
                     <Row className={`g-5 ${styles.applost} align-items-center w-100 mx-auto`}>
                         <Col xl={7} className='px-0'>

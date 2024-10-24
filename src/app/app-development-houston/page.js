@@ -44,7 +44,8 @@ export default function dubaidevelopmentcompany() {
   const Banner = {
     title: "Top-tier Mobile App Development Company in Houston",
     desc: "We develop high-performing apps utilizing the latest tech stacks to match your needs. As a bespoke mobile application development company in Houston, our comprehensive services focus on your ROI and long-term success. We outpace other mobile app development companies in Houston by leading the production of groundbreaking Android and iOS apps. Our mobile app developers in Houston have a track record of successfully delivering 150+ projects over the years. Reach us today and transform your dream app into reality.",
-    bg: HeroBg
+    bg: HeroBg,
+    alt: "Banner for Houston based mobile app development company featuring contact information and tag line"
   }
   // award Content
   const Award = {

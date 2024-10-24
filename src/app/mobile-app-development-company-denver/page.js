@@ -41,7 +41,8 @@ export default function dubaidevelopmentcompany() {
   const Banner = {
     title: "Denver Mobile App Development Company",
     desc: "Our team of app developers in Denver brings a wealth of expertise and experience, having successfully delivered over 150 projects. This commitment is what makes us a trusted app development company in Denver, consistently creating apps that align with our clients’ visions and exceed their expectations. Opting for BitsWits means teaming up with professionals dedicated to delivering top-notch quality.",
-    bg: HeroBg
+    bg: HeroBg,
+    alt: "Banner for Denver based mobile app development company featuring contact information and tag line"
   }
   // award Content
   const Award = {

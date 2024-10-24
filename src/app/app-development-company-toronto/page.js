@@ -43,7 +43,8 @@ export default function dubaidevelopmentcompany() {
   const Banner = {
     title: "Leading Mobile App Development Company in Toronto",
     desc: "BitsWits is regarded as the best Toronto app development company and for all the right reasons. Our innovative apps not only enhance user engagement but also drive sales and maximize return on investment for businesses in Toronto. We take great pride in aiding leading brands in Toronto to outperform their competitors and achieve remarkable success!",
-    bg: HeroBg
+    bg: HeroBg,
+    alt: "Banner for Toronto based mobile app development company featuring contact information and tag line"
   }
   // award Content
   const Award = {

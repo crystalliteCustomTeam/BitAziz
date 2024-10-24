@@ -42,7 +42,8 @@ export default function dubaidevelopmentcompany() {
   const Banner = {
     title: "Top-Grade Mobile App Development Company in Dallas",
     desc: "With our proficiency in mobile app development in Dallas, we engineer bespoke Android and iOS applications, using cutting-edge technology for optimal performance. Our end-to-end services, from design to development are geared towards enhancing your ROI by 3X and driving long-term success. Trust us as the leading mobile app development company in Dallas to deliver custom solutions, building apps that perfectly fit your needs!",
-    bg: HeroBg
+    bg: HeroBg,
+    alt: "Banner for Dallas based mobile app development company featuring contact information and tag line"
   }
   // award Content
   const Award = {
