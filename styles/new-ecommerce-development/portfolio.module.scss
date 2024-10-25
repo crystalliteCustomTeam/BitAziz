@@ -1,0 +1,99 @@
+.processSection {
+  .subTitle {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.165px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+
+    &.txtColor {
+      background: linear-gradient(
+        90deg,
+        #f32f56 -78.17%,
+        #f32fae 2%,
+        #4a78ef 19%
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    // &.txtColorCenter {
+    //   background: linear-gradient(
+    //     90deg,
+    //     #f32f56 -40%,
+    //     #f32faf 40%,
+    //     #4a78ef 60%
+    //   );
+    //   background-clip: text;
+    //   -webkit-background-clip: text;
+    //   -webkit-text-fill-color: transparent;
+    // }
+  }
+
+  p {
+    margin-bottom: 40px;
+  }
+  .tabName {
+    margin-bottom: 60px;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      //   margin: 40px 0;
+
+      li {
+        height: 50px;
+        border-radius: 5px;
+        background: #ffffff;
+        border: 1px solid #a9abb1;
+        border-radius: 36px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 70px;
+        color: #a9abb1;
+        cursor: pointer;
+        transition: 0.3s linear;
+
+        &:hover,
+        &.active {
+          background: linear-gradient(
+            91.47deg,
+            #f32f56 -78.17%,
+            #f32faf 18.3%,
+            #4a78ef 110.98%
+          );
+          border: none;
+          color: #ffffff;
+          transition: 0.3s linear;
+        }
+      }
+    }
+  }
+
+  .tabContent {
+    .tabtxtBox {
+      Img {
+        position: relative;
+        margin-bottom: 30px;
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);;
+
+        .ImgOverlay{
+            // position: absolute;
+            // z-index: 3;
+            // background-color: rgb(0, 0, 0, 0.4);
+        }
+      }
+    }
+  }
+}
