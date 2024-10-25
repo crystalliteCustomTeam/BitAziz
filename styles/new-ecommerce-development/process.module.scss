@@ -1,449 +1,138 @@
-.processSec {
-    font-family: "Poppins", sans-serif;
-    .processBox {
-        flex-wrap: wrap;
+.processSection {
+  .subTitle {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.165px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+
+    &.txtColor {
+      background: linear-gradient(
+        90deg,
+        #f32f56 -78.17%,
+        #f32fae 2%,
+        #4a78ef 19%
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    &.txtColorCenter {
+      background: linear-gradient(
+        90deg,
+        #f32f56 -40%,
+        #f32faf 40%,
+        #4a78ef 60%
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  p {
+    margin-bottom: 40px;
+  }
+
+  .servicesBox {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+
+    .servicesItemBox {
+      flex: 0 0 calc(33.33% - 50px);
+      padding: 10px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+      position: relative;
+
+      .numCount {
+        background: transparent;
+        border: 5px solid #f7f8f9;
+        background: #f7f8f9;
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 50%;
+        left: -85px;
+        transform: translate(0px, -50%);
+        color: #000;
+        font-size: 25px;
+        line-height: 35px;
         display: flex;
-        gap: 12px;
-        margin-top: 40px;
+        justify-content: center;
+        align-items: center;
+      }
 
-        .processList {
-            flex: 0 0 calc(25% - 12px);
+      .servicesItem {
+        height: 280px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 15px;
+
+        svg {
+          margin-bottom: 30px;
+          path {
+            fill: #000;
+          }
+        }
+
+        h4 {
+          color: #000;
+          margin-bottom: 10px;
+          font-size: 25px;
+          line-height: 35px;
+        }
+
+        p {
+          color: #9098a1;
+          margin-bottom: 10px;
+        }
+
+        .normalButton {
+          height: 40px;
+          max-width: 130px;
+          padding: 0px 20px;
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50px;
+          background: linear-gradient(
+            91.47deg,
+            #f32f56 -78.17%,
+            #f32faf 18.3%,
+            #4a78ef 110.98%
+          );
+          border-radius: 64px;
+          display: none;
+          cursor: pointer;
+
+          a,
+          div.linksBtn {
+            color: #fff;
+            font-size: 14px;
+            line-height: normal;
+            font-weight: 500;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
             display: flex;
-            align-items: flex-start;
-            justify-content: center;
-            flex-direction: column;
-            height: 430px;
-            border: 1px solid #D3D7E3;
-            border-radius: 20px;
-            padding: 30px;
-            position: relative;
-            overflow: hidden;
-            background: #fff;
-            transition: background-position 0.6s ease-in-out;
-            background: linear-gradient(91deg, #F32F56 -78.17%, #F32FAF 18.3%, #4A78EF 110.98%);
-            background-size: 100% 0%;
-            background-position: bottom;
-
-            .processIcon {
-                margin-bottom: 15px;
-                height: auto;
-                transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
-            }
-
-            .processContent {
-                h5 {
-                    color: #000;
-                    font-size: 24px;
-                    font-style: normal;
-                    font-weight: 600;
-                    line-height: 33px;
-                    letter-spacing: -0.165px;
-                    margin-bottom: 10px;
-
-                }
-
-                p {
-                    margin-bottom: 15px;
-                }
-            }
-
-            .viewLinks {
-                line-height: 60px;
-                letter-spacing: -0.165px;
-                text-align: right;
-                display: block;
-                opacity: 0;
-                transition: opacity 0s ease-in-out, transform 0s ease-in-out;
-                transform: translateY(20px);
-                height: 0px;
-                width: 100%;
-
-                a,
-                div {
-                    color: #fff;
-                    font-size: 18px;
-                    font-weight: 500;
-                    cursor: pointer;
-
-                    .btnBox {
-                        border-radius: 64px;
-                        background: #fff;
-                        height: 45px;
-                        width: 45px;
-                        display: inline-flex;
-                        justify-content: center;
-                        align-items: center;
-                        margin-left: 10px;
-
-                        svg {
-                            width: 18px;
-                            height: 18px;
-
-                            path {
-                                stroke: #4D77EE;
-                            }
-                        }
-                    }
-                }
-            }
-
-            &:hover {
-                background-size: 100% 100%;
-
-                .processIcon {
-                    transform: translateY(-20px);
-                    opacity: 0;
-                    height: 0;
-                    transition: transform 0.4s ease-in-out, opacity 0s ease-in-out;
-                }
-
-                .processContent {
-                    h5 {
-                        color: #fff;
-                    }
-
-                    p {
-                        color: #fff;
-                    }
-                }
-
-                .viewLinks {
-                    height: auto;
-                    opacity: 1;
-                    transform: translateY(0);
-                    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
-                }
-            }
+          }
         }
+      }
     }
-}
-
-@media only screen and (min-width: 1400px) and (max-width: 1600px) {
-    .processSec {
-        .processBox {
-            gap: 12px;
-            margin-top: 40px;
-
-            .processList {
-                flex: 0 0 calc(25% - 12px);
-                height: 400px;
-                padding: 28px;
-
-                .processIcon {
-                    margin-bottom: 12px;
-                }
-
-                .processContent {
-                    h5 {
-                        font-size: 22px;
-                        margin-bottom: 10px;
-
-                    }
-
-                    p {
-                        margin-bottom: 12px;
-                    }
-                }
-
-                .viewLinks {
-                    line-height: 60px;
-
-                    a {
-                        font-size: 17px;
-                        font-weight: 500;
-
-                        .btnBox {
-                            height: 45px;
-                            width: 45px;
-
-                            svg {
-                                width: 16px;
-                                height: 16px;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media only screen and (min-width: 1300px) and (max-width: 1399px) {
-    .processSec {
-        .processBox {
-            gap: 10px;
-            margin-top: 35px;
-
-            .processList {
-                flex: 0 0 calc(25% - 10px);
-                height: 400px;
-                padding: 25px;
-
-                .processIcon {
-                    margin-bottom: 10px;
-
-                    svg {
-                        height: 50px;
-                        width: auto;
-                    }
-                }
-
-                .processContent {
-                    h5 {
-                        font-size: 20px;
-                        margin-bottom: 10px;
-                        line-height: 28px;
-
-                    }
-
-                    p {
-                        margin-bottom: 10px;
-                    }
-                }
-
-                .viewLinks {
-                    line-height: 60px;
-
-                    a {
-                        font-size: 16px;
-                        font-weight: 500;
-
-                        .btnBox {
-                            height: 45px;
-                            width: 45px;
-
-                            svg {
-                                width: 16px;
-                                height: 16px;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media only screen and (min-width: 1100px) and (max-width: 1299px) {
-    .processSec {
-        .processBox {
-            gap: 10px;
-            margin-top: 30px;
-
-            .processList {
-                flex: 0 0 calc(25% - 10px);
-                height: 350px;
-                padding: 25px;
-
-                .processIcon {
-                    margin-bottom: 10px;
-
-                    svg {
-                        height: 50px;
-                        width: auto;
-                    }
-                }
-
-                .processContent {
-                    h5 {
-                        font-size: 18px;
-                        margin-bottom: 10px;
-                        line-height: 26px;
-
-                    }
-
-                    p {
-                        margin-bottom: 10px;
-                    }
-                }
-
-                .viewLinks {
-                    line-height: 60px;
-
-                    a {
-                        font-size: 15px;
-                        font-weight: 500;
-
-                        .btnBox {
-                            height: 40px;
-                            width: 40px;
-
-                            svg {
-                                width: 16px;
-                                height: 16px;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media only screen and (min-width: 900px) and (max-width:1099px) {
-    .processSec {
-        .processBox {
-            gap: 12px;
-            margin-top: 30px;
-            justify-content: center;
-
-            .processList {
-                flex: 0 0 calc(33.33% - 12px);
-                height: 320px;
-                padding: 25px;
-
-                .processIcon {
-                    margin-bottom: 10px;
-
-                    svg {
-                        height: 50px;
-                        width: auto;
-                    }
-                }
-
-                .processContent {
-                    h5 {
-                        font-size: 18px;
-                        margin-bottom: 10px;
-                        line-height: 26px;
-
-                    }
-
-                    p {
-                        margin-bottom: 10px;
-                    }
-                }
-
-                .viewLinks {
-                    line-height: 60px;
-
-                    a {
-                        font-size: 14px;
-
-                        .btnBox {
-                            height: 35px;
-                            width: 35px;
-
-                            svg {
-                                width: 15px;
-                                height: 15px;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media only screen and (min-width: 600px) and (max-width:899px) {
-    .processSec {
-        .processBox {
-            gap: 12px;
-            margin-top: 30px;
-            justify-content: center;
-
-            .processList {
-                flex: 0 0 calc(50% - 12px);
-                height: 280px;
-                padding: 25px;
-
-                .processIcon {
-                    margin-bottom: 10px;
-
-                    svg {
-                        height: 50px;
-                        width: auto;
-                    }
-                }
-
-                .processContent {
-                    h5 {
-                        font-size: 18px;
-                        margin-bottom: 10px;
-                        line-height: 26px;
-
-                    }
-
-                    p {
-                        margin-bottom: 10px;
-                    }
-                }
-
-                .viewLinks {
-                    line-height: 60px;
-
-                    a {
-                        font-size: 14px;
-
-                        .btnBox {
-                            height: 35px;
-                            width: 35px;
-
-                            svg {
-                                width: 15px;
-                                height: 15px;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media only screen and (min-width: 0px) and (max-width: 599px) {
-    .processSec {
-        .processBox {
-            gap: 12px;
-            margin-top: 30px;
-            justify-content: center;
-
-            .processList {
-                flex: 0 0 calc(100% - 12px);
-                height: 280px;
-                padding: 25px;
-
-                .processIcon {
-                    margin-bottom: 10px;
-
-                    svg {
-                        height: 50px;
-                        width: auto;
-                    }
-                }
-
-                .processContent {
-                    h5 {
-                        font-size: 18px;
-                        margin-bottom: 10px;
-                        line-height: 26px;
-
-                    }
-
-                    p {
-                        margin-bottom: 10px;
-                    }
-                }
-
-                .viewLinks {
-                    line-height: 60px;
-
-                    a {
-                        font-size: 14px;
-
-                        .btnBox {
-                            height: 35px;
-                            width: 35px;
-
-                            svg {
-                                width: 15px;
-                                height: 15px;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
+  }
+
+  .btn{
+    display: flex;
+    justify-content: center;
+  }
 }

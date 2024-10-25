@@ -26,13 +26,13 @@ export const DigitalCtaContent = {
     content: (<><span>Go Beyond </span>Digital</>),
 }
 
-export const ProcessContent = {
+export const ExpertiseContent = {
     subtitle: "P.R.O.C.E.S.S.",
     title: "Planning. Research. Outline. Creation. Evaluation. Scalability. Support.",
     content: "Our P.R.O.C.E.S.S. framework guarantees that every stage of development is handled with precision and purpose. We build apps that deliver immediate results and adapt effortlessly as your business scales. ",
 }
 
-export const ProcessList = [
+export const ExpertiseList = [
     {
         title: "Discovery and Analysis",
         txt: "The process starts with detailed requirement gathering using tools like Jira and Confluence to map user stories, functional specifications, and system requirements. This step aligns project goals with the development strategy.",

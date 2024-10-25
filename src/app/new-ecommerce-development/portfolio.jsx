@@ -114,7 +114,7 @@ const Portfolio = () => {
     const [activeTab, setActiveTab] = useState(0); // Default to the first tab
 
     return (
-        <section className={`${styles.processSection} p-50`} id="Process">
+        <section className={`${styles.portfolioSection} p-50`} id="Process">
             <Container>
                 <Row>
                     <Col lg={8} md={12} className="text-center m-auto">

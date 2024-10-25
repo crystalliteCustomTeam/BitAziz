@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/new-ecommerce-development/advantage.module.scss"
 import { useState } from "react"
 import PopUp from "../services/popup"
+import { EcommercePortfolioIcon01, EcommercePortfolioIcon02, EcommercePortfolioIcon03, EcommercePortfolioIcon04 } from "../app-constants"
 
 const data = {
     subtitle: "What Drives Us?",
@@ -11,18 +12,22 @@ const data = {
 
 const list = [
     {
+        icon: <EcommercePortfolioIcon01 />,
         title: (<>Reach More Customers Online</>),
         txt: "For effective operations, our eCommerce website developers create Shopify stores that are optimized and linked with POS, accounting, ERP, and custom apps.",
     },
     {
+        icon: <EcommercePortfolioIcon02 />,
         title: (<>Boost Conversion Rates</>),
         txt: "For effective operations, our eCommerce website developers create Shopify stores that are optimized and linked with POS, accounting, ERP, and custom apps.",
     },
     {
+        icon: <EcommercePortfolioIcon03 />,
         title: (<>Reduced Operating Costs</>),
         txt: "For effective operations, our eCommerce website developers create Shopify stores that are optimized and linked with POS, accounting, ERP, and custom apps.",
     },
     {
+        icon: <EcommercePortfolioIcon04 />,
         title: (<>Obtain a Competitive Edge</>),
         txt: "For effective operations, our eCommerce website developers create Shopify stores that are optimized and linked with POS, accounting, ERP, and custom apps.",
     },
@@ -47,12 +52,15 @@ const Advantage = () => {
                     <Col lg={12} md={12}>
                         <div className={styles.servicesBox}>
                             {list.map((item, index) => (
+                                <div className={styles.servicesItemBox}>
                                 <div className={styles.servicesItem} key={index}>
+                                    {item.icon}
                                     <h4>{item.title}</h4>
                                     <p>{item.txt}</p>
                                     <div className={styles.normalButton} onClick={() => handleClick()}>
                                         <div className={styles.linksBtn}>Let’s Do This!</div>
                                     </div>
+                                </div>
                                 </div>
                             ))}
                         </div>

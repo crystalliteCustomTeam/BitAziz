@@ -1,12 +1,14 @@
 import {
-  BannerData, CompanyInfoContent, ProcessContent, ProcessList,
+  BannerData, CompanyInfoContent, ExpertiseContent, ExpertiseList,
   TestimonialContent, TestimonialSLIDES,  FaqsContent,
   FaqsList, IdeaCtaContent, DigitalCtaContent
 } from "@/src/app/new-ecommerce-development/data/data";
 import dynamic from "next/dynamic";
 import Advantage from "./advantage";
+import Process from "./process";
+import Cta from "./cta";
 
-const Process = dynamic(() => import("@/src/app/new-ecommerce-development/process"));
+const Expertise = dynamic(() => import("@/src/app/new-ecommerce-development/expertise"));
 const Banner = dynamic(() => import("@/src/app/new-ecommerce-development/banner"));
 const CompanyInfo =   dynamic(() => import("@/src/app/new-ecommerce-development/companyinfo"));
 const Portfolio =   dynamic(() => import("@/src/app/new-ecommerce-development/portfolio"));
@@ -23,11 +25,13 @@ export default function Page() {
     <>
       <Banner data={BannerData} />
       <CompanyInfo data={CompanyInfoContent} />
-      <Process data={ProcessContent} list={ProcessList} />
+      <Expertise data={ExpertiseContent} list={ExpertiseList} />
       <Portfolio />
       <DigitalCta data={DigitalCtaContent} />
       <Advantage />
       <Testimonial data={TestimonialContent} list={TestimonialSLIDES} />
+      <Process />
+      <Cta />
       <Faqs data={FaqsContent} list={FaqsList} />
       <IdeaCta data={IdeaCtaContent} />
 
