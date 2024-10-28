@@ -6,6 +6,8 @@ const Header = dynamic(() => import('@/src/app/layout/header'));
 const Footer = dynamic(() => import('@/src/app/layout/footer'));
 import '@/src/app/globals.scss'; // custom global scss
 import '@/styles/globals.css'; // custom global css
+import LpHeader from './website-development-services/layout/header';
+import LpFooter from './website-development-services/layout/footer';
 
 const styleChange = [
     "/",
@@ -78,14 +80,21 @@ const isDarkHeader = [
     "/thank-you",
     "/blog/"
 ]
+
+const lpHeaderFooterPaths = ["/website-development-services"];
+
 const ConditionalLayout = ({ children }) => {
     const pathname = usePathname();
     const [isDark, setIsDark] = useState(true);
     const [isLight, setIsLight] = useState(true);
+    const [isLpHeaderFooter, setIsLpHeaderFooter] = useState(false);
     const [useAltStyle, setUseAltStyle] = useState(false);
+
     useEffect(() => {
         setIsLight(isLightHeader.includes(pathname) || pathname.startsWith('/case-studies/'));
         setIsDark(isDarkHeader.includes(pathname) || pathname.startsWith('/blog/'));
+        setIsLpHeaderFooter(lpHeaderFooterPaths.includes(pathname));
+
         if (typeof window !== 'undefined') {
             const pathname = window.location.pathname;
             document.body.style.fontFamily = '';
@@ -98,9 +107,11 @@ const ConditionalLayout = ({ children }) => {
     }, [pathname]);
     return (
         <>
-            <Header isLightHeader={isDark} isDarkHeader={isLight} />
+            {!isLpHeaderFooter && <Header isLightHeader={isDark} isDarkHeader={isLight} />}
+            {isLpHeaderFooter && <LpHeader />}
             {children}
-            <Footer />
+            {!isLpHeaderFooter && <Footer />}
+            {isLpHeaderFooter && <LpFooter />}
         </>
     )
 }

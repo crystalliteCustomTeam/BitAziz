@@ -43,7 +43,7 @@ export default function dubaidevelopmentcompany() {
   // Banner Content
   const Banner = {
     title: "Top-tier Mobile App Development Company in Houston",
-    desc: "We develop high-performing apps utilizing the latest tech stacks to match your needs. As a bespoke mobile application development company in Houston, our comprehensive services focus on your ROI and long-term success. We outpace other mobile app development companies in Houston by leading the production of groundbreaking Android and iOS apps. Our mobile app developers in Houston have a track record of successfully delivering 150+ projects over the years. Reach us today and transform your dream app into reality.",
+    desc: "BitsWits is a leading mobile app development company in Houston that delivers feature-packed solutions for ambitious entrepreneurs and SMBs. Our expert-vetted app developers in Houston use the latest technologies like Swift, Java, Kotlin, Flutter, and React Native to build strong, platform-agnostic native and cross-platform mobile applications, offering seamless user experiences and robust performance across devices.",
     bg: HeroBg,
     alt: "Banner for Houston based mobile app development company featuring contact information and tag line"
   }
@@ -57,31 +57,31 @@ export default function dubaidevelopmentcompany() {
   const accordionData = [
     {
       question: 'Android App Development in Houston',
-      answer: "For Android app development in Houston, we assist you in developing interactive and data-driven apps based on your target audience’s needs. To date, Android occupies one of the biggest market shares, with over 3.5 million apps available in the app stores. Our Android app developers in Houston use cutting-edge technologies to build applications. The experienced mobile app developers at BitsWits are aware of all the challenges and technicalities that could occur during the development process.",
+      answer: "We provide Android app development in Houston, leveraging technologies like Java and Kotlin to create high-performance apps for smartphones, tablets, and wearable devices. Our Android app developers deliver glitch-free, responsive solutions that help businesses reach their potential with feature-rich applications tailored to their specific needs.",
       btn: "Let’s Build Your Android App!",
       StoryLineImg: StoryLine2
     },
     {
       question: 'iPhone App Development in Houston',
-      answer: "Just like Android, the iOS market is another lucrative market with 2 million apps available on the app store currently. Our iPhone app development in Houston helps businesses capitalize on this highly revenue-generating market. Nothing beats our iOS app developers when it comes to developing appealing and user-friendly iPhone apps. Whether you want a customized app, or you want modifications in an existing one, we are only at the top of our game.",
+      answer: "We create high-quality apps for iPhone, iPad, and Apple Watch, using technologies like Swift and Objective-C. Our iPhone app developers in Houston focus on aesthetic design, business growth, and best practices, providing iOS app development in Houston that achieves outstanding results on the App Store.",
       btn: "Let’s Build Your IOS App!",
       StoryLineImg: StoryLine3
     },
     {
       question: 'Flutter App Development in Houston',
-      answer: "Our Flutter app development services in Houston aid businesses in staying ahead in the digital world. With the Flutter technology, your app can be deployed easily and effortlessly both on iOS and Android platforms. Our Flutter app developers in Houston specialize in developing cross-platform apps that are efficient, delivering uniqueness and seamless user experiences. Additionally, our apps offer a native-like experience for enhanced user satisfaction.",
+      answer: "As a leading Flutter app development company in Houston, we build cross-platform apps for mobile, web, and desktop using Flutter’s robust framework. Our Flutter developers in Houston create near-native, cost-effective solutions with enhanced accessibility, delivering seamless performance and experiences across multiple devices and platforms.",
       btn: "Let’s Build Your Flutter App!",
       StoryLineImg: StoryLine4
     },
     {
       question: 'Game App Development in Houston',
-      answer: "When we talk about game app development in Houston, currently, there are 5 million+ games accessible on app stores. Our game development services in Houston are designed to help you leverage the captivating nature of games, engaging your audience's interests and fulfilling their needs. Whether you seek a simple game or a complex multiplayer experience, our game app developers have the expertise to bring your vision to life.",
+      answer: "We build immersive and addictive games for smartphones, tablets, and consoles using tools like Unity and Unreal Engine for mobile game app development in Houston. Our advanced techniques create captivating experiences, making our game developers in Houston among the top 3% of tech talent across Texas.",
       btn: "Let’s Build Your Game App!",
       StoryLineImg: StoryLine5
     },
     {
       question: 'Blockchain App Development in Houston',
-      answer: "Being the best in the field of blockchain app development in Houston, we have the expertise in making applications that are secure, reliable, and transparent. The Blockchain technology enables our Blockchain app developers to build digital apps that are unique, provide a secure transaction system, and help businesses generate massive revenue. Our custom blockchain app development services are crafted for businesses of all sizes, serving diverse audiences, industries, and sectors.",
+      answer: "Using technologies like Ethereum, Hyperledger, and Solidity, we develop secure blockchain applications for mobile, web, and desktop platforms. As a trusted blockchain app development company in Houston, our team uses tools such as Truffle and MetaMask to manage technical complexities, delivering scalable and efficient blockchain solutions.",
       btn: "Let’s Build Your Blockchain App!",
       StoryLineImg: StoryLine6
     },
@@ -109,7 +109,9 @@ export default function dubaidevelopmentcompany() {
   }
   // delivered content
   const DeliveredContent = {
-    title: <>We Have Successfully Brought 150+ App Ideas to Life!</>,
+    title: <>150+ Apps Built and Yours Could Be Next!
+      Ready to Launch?
+    </>,
     desc: "Ready to See Yours Become a Reality?",
     btntext: "Book Your Free Consultation Now!"
   }
@@ -163,24 +165,23 @@ export default function dubaidevelopmentcompany() {
   }
   // Houston Content
   const menus = [
-    "Do apps make a lot of money?",
-    "Do app owners earn money?",
+    "Why should I choose BitsWits for app development in Houston?",
+    "What platforms and technologies does BitsWits use for app development?",
     "How much is an app with 10 million downloads worth?",
   ];
   const sections = [
     {
       num: "01",
-      title: "Do apps make a lot of money?",
-      content: `<p class='fontsfregular'><b>It depends</b>. Although some free apps generate millions in annual revenue, this is often an exception rather than the rule. Nevertheless, <b>thousands of free apps still earn thousands of dollars in monthly revenue</b>.
+      title: "Why should I choose BitsWits for app development in Houston?",
+      content: `<p class='fontsfregular'>BitsWits stands out as a top app development company in Houston, providing solutions tailored to meet varied industry demands. 
       </p>
-      <p class='fontsfregular'>The revenue potential of apps varies greatly depending on factors such as the <b>app's niche</b>, <b>target audience</b>, <b>monetization strategy</b>, and <b>market competition</b>.</p>
-      <p class='fontsfregular'>While some apps, particularly those offering unique or highly sought-after features, can generate substantial profits, many others struggle to monetize effectively.</p>
-      <p class='fontsfregular'>Additionally, the app market is dynamic and constantly evolving, requiring developers to adapt their strategies to stay competitive.</p>
-      <p class='fontsfregular'>Ultimately, success in the app industry requires a combination of innovation, strategic planning, and a deep understanding of user preferences and market trends.</p>`
+      <p class='fontsfregular'>Our experienced team specializes in a wide range of services, from designing intuitive interfaces to developing scalable apps across platforms like iOS, Android, and web. We follow agile methodologies, which means your app gets regular updates and improvements throughout the development process. </p>
+      <p class='fontsfregular'>Whether you need a robust enterprise solution or an innovative startup app, we deliver high-performance results with a focus on engaging user experiences. Additionally, BitsWits maintains transparent communication, allowing clients to stay updated on project milestones and progress. </p>
+      <p class='fontsfregular'>Our portfolio demonstrates our experience across diverse sectors, while client reviews showcase our commitment to excellence. BitsWits combines technical expertise with a strong focus on user experience, making it an ideal partner for your app development needs in Houston.</p>`
     },
     {
       num: "02",
-      title: "Do app owners earn money?",
+      title: "What platforms and technologies does BitsWits use for app development?",
       content: `<p class='fontsfregular'><b>Yes, app owners can earn money</b>. There are many effective ways to earn money from free apps.</p>
       <p class='fontsfregular'><b>Ads are the easiest and most common ways free apps make money</b>. If you've installed a free app, you've likely come across various advertisements.</p>
       <p class='fontsfregular'>In this app monetization approach, you receive compensation whenever a user interacts with the ad, be it viewing, clicking, or installing a program directly from it.</p>
