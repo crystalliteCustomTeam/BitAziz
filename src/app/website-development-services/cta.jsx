@@ -12,7 +12,7 @@ export const data = {
 
 const Cta = () => {
     return (
-        <section className={styles.Cta} >
+        <section className={`${styles.Cta} p-100`} >
             <Container>
                 <Row>
                     <Col lg={12} md={12}>

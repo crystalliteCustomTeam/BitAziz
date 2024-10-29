@@ -60,7 +60,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 0px 60px;
+        padding: 0px 70px;
         color: #a9abb1;
         cursor: pointer;
         transition: 0.3s linear;
@@ -94,6 +94,30 @@
           // background-color: rgb(0, 0, 0, 0.4);
         }
       }
+
+      .embla {
+        margin-top: 50px;
+        padding-bottom: 100px;
+
+        .embla__viewport {
+          overflow: visible;
+
+          .embla__container {
+            display: flex;
+            touch-action: pan-y pinch-zoom;
+            margin-left: calc(0px * -1);
+            
+            .embla__slide {
+              transform: translate3d(0, 0, 0);
+              flex: 0 0 400px;
+              min-width: 0;
+              margin-right: 20px;
+
+              
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -110,7 +134,7 @@
 
         li {
           font-size: 16px;
-          line-height: 30px;
+          line-height: 26px;
           padding: 0px 60px;
         }
       }
@@ -136,7 +160,7 @@
 
         li {
           font-size: 16px;
-          line-height: 30px;
+          line-height: 26px;
           padding: 0px 55px;
         }
       }
@@ -162,7 +186,7 @@
 
         li {
           font-size: 16px;
-          line-height: 30px;
+          line-height: 26px;
           padding: 0px 50px;
         }
       }
@@ -179,7 +203,7 @@
 @media only screen and (min-width: 900px) and (max-width: 1099px) {
   .portfolioSection {
     p {
-      margin-bottom: 40px;
+      margin-bottom: 10px;
     }
     .tabName {
       ul {
@@ -189,11 +213,12 @@
 
         li {
           font-size: 16px;
-          line-height: 30px;
+          line-height: 16px;
           padding: 0px 40px;
           margin-bottom: 20px;
           margin: 5px;
           min-width: 180px;
+          height: 45px;
         }
       }
 
@@ -209,30 +234,27 @@
 @media only screen and (min-width: 600px) and (max-width: 899px) {
   .portfolioSection {
     p {
-      margin-bottom: 40px;
+      margin-bottom: 0px;
     }
     .tabName {
       ul {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        margin: 30px 0;
 
         li {
           font-size: 16px;
-          line-height: 30px;
+          line-height: 26px;
           padding: 0px 40px;
           margin-bottom: 20px;
           margin: 5px;
           min-width: 170px;
+          height: 45px;
         }
       }
 
-      .tabContent {
-        .tabtxtBox {
-          Img {
-          }
-        }
-      }
+      
     }
   }
 }
@@ -246,20 +268,40 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        margin: 0px 0;
 
         li {
-          font-size: 16px;
-          line-height: 30px;
+          font-size: 14px;
+          line-height: 26px;
           padding: 0px 40px;
           margin-bottom: 20px;
           margin: 5px;
           min-width: 160px;
+          height: 42px;
         }
       }
 
       .tabContent {
         .tabtxtBox {
-          Img {
+          .embla {
+            margin-top: 50px;
+            padding-bottom: 100px;
+    
+            .embla__viewport {
+    
+              .embla__container {
+                margin-left: calc(0px * -1);
+                
+                .embla__slide {
+                  transform: translate3d(0, 0, 0);
+                  flex: 0 0 340px;
+                  min-width: 0;
+                  margin-right: 20px;
+    
+                  
+                }
+              }
+            }
           }
         }
       }

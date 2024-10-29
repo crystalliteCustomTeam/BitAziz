@@ -267,10 +267,50 @@
         }
     }
 }
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .appideaSection {
+        padding-top: 50px;
 
+        .boxItem {
+            padding: 0px 30px 30px;
+            h2 {
+                text-align: center;
+            }
+
+            &::before {
+                display: none;
+            }
+
+            .custumTitle {
+                font-size: 41px;
+                margin-top: 10px;
+                margin: auto;
+
+                span {
+                    padding: 0px 10px;
+
+                    &::before {
+                        border-radius: 100px;
+                    }
+                }
+
+            }
+        }
+
+        .ideaBox {
+            max-width: 450px;
+            padding: 30px;
+            margin: auto;
+
+            h5 {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
 @media only screen and (min-width: 0px) and (max-width: 599px) {
     .appideaSection {
-        padding-top: 0px;
+        padding-top: 50px;
 
         .boxItem {
             padding: 0px 30px 30px;

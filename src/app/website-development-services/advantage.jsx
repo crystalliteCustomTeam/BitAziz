@@ -54,9 +54,11 @@ const Advantage = () => {
                         {list.map((item, index) => (
                             <div className={styles.servicesItemBox}>
                                 <div className={styles.servicesItem} key={index}>
-                                    {item.icon}
-                                    <h4>{item.title}</h4>
-                                    <p>{item.txt}</p>
+                                    <div className={styles.servicesItemContent}>
+                                        {item.icon}
+                                        <h4>{item.title}</h4>
+                                        <p>{item.txt}</p>
+                                    </div>
                                     <div className={styles.normalButton} onClick={() => handleClick()}>
                                         <div className={styles.linksBtn}>Let’s Do This!</div>
                                     </div>

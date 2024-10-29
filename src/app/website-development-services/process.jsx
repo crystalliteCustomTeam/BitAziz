@@ -70,7 +70,7 @@ const Process = () => {
                                 {index + 1}
                             </div>
                             <div className={styles.servicesItem}>
-                                <Image src={item.icon} width={60}  height={60} className="mb-3"/>
+                                <Image src={item.icon} width={60}  height={60} className={styles.servicesItemImg}/>
                                 <h4>{item.title}</h4>
                                 <p>{item.txt}</p>
                             </div>

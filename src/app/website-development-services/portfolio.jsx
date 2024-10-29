@@ -1,6 +1,8 @@
 "use client"
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import useEmblaCarousel from 'embla-carousel-react'
+import AutoScroll from 'embla-carousel-auto-scroll'
 import styles from "@/styles/website-development-services/portfolio.module.scss";
 import Img1 from "media/website-development-services/portfolio/portfolio-img-1.webp";
 import Img2 from "media/website-development-services/portfolio/portfolio-img-2.webp";
@@ -111,7 +113,24 @@ const tabs = [
 ];
 
 const Portfolio = () => {
+    const [isSliderActive, setIsSliderActive] = useState(false);
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth <= 600) {
+                setIsSliderActive(true);
+            } 
+        };
+        handleResize();
+        window.addEventListener("resize", handleResize);
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
     const [activeTab, setActiveTab] = useState(0); // Default to the first tab
+    const options = { loop: false }
+    const [emblaRef] = useEmblaCarousel(options, [
+        AutoScroll({ playOnInit: false, topOnInteraction: false, delay: 2000, })
+    ])
 
     return (
         <section className={`${styles.portfolioSection} p-100`} id="portfolio">
@@ -141,20 +160,47 @@ const Portfolio = () => {
                         <div className={styles.tabContent}>
                             <div className={styles.tabtxtBox}>
                                 <Row>
-                                    {tabs[activeTab].content.images.map((src, index) => (
-                                        <Col xs={12} sm={4} md={3} key={index} >
-                                            <div className={styles.Img}>
-                                                <Image
-                                                    alt={`Image for ${tabs[activeTab].title}`}
 
-                                                    src={src}
-                                                    height={405}
-                                                    width={622}
-                                                />
-                                                <div className={styles.ImgOverlay}></div>
+                                    {isSliderActive ? (
+                                        <Col>
+                                            <div className={styles.embla}>
+                                                <div className={styles.embla__viewport} ref={emblaRef}>
+                                                    <div className={styles.embla__container}>
+                                                        {tabs[activeTab].content.images.map((src, index) => (
+                                                            <div className={styles.embla__slide} key={index}>
+                                                                <div className={styles.Img}>
+                                                                    <Image
+                                                                        alt={`Image for ${tabs[activeTab].title}`}
+
+                                                                        src={src}
+                                                                        height={405}
+                                                                        width={622}
+                                                                    />
+                                                                    <div className={styles.ImgOverlay}></div>
+                                                                </div>
+                                                            </div>
+                                                        ))}
+                                                    </div>
+                                                </div>
                                             </div>
                                         </Col>
-                                    ))}
+                                    ) : <>
+
+                                        {tabs[activeTab].content.images.map((src, index) => (
+                                            <Col xs={12} sm={4} md={3} key={index} >
+                                                <div className={styles.Img}>
+                                                    <Image
+                                                        alt={`Image for ${tabs[activeTab].title}`}
+
+                                                        src={src}
+                                                        height={405}
+                                                        width={622}
+                                                    />
+                                                    <div className={styles.ImgOverlay}></div>
+                                                </div>
+                                            </Col>
+                                        ))}
+                                    </>}
                                 </Row>
                             </div>
                         </div>

@@ -41,7 +41,7 @@ export default function dubaidevelopmentcompany() {
   // Banner Content
   const Banner = {
     title: "Top-Grade Mobile App Development Company in Dallas",
-    desc: "As a leading mobile app developer in Dallas, we create innovative Android and iOS apps using advanced technology and tools. Our focus on high-quality applications, excellent service, and customer satisfaction is what makes us a trusted mobile app development company Dallas. ",
+    desc: "With our proficiency in mobile app development in Dallas, we engineer bespoke Android and iOS applications, using cutting-edge technology for optimal performance. Our end-to-end services, from design to development are geared towards enhancing your ROI by 3X and driving long-term success. Trust us as the leading mobile app development company in Dallas to deliver custom solutions, building apps that perfectly fit your needs!",
     bg: HeroBg,
     alt: "Banner for Dallas based mobile app development company featuring contact information and tag line"
   }
@@ -87,15 +87,15 @@ export default function dubaidevelopmentcompany() {
   const storyLine = {
     subtitle: (<> Google Certified </>),
     title: (<> Mobile App Development Company in Dallas </>),
-    para: <> As a leading mobile app developer in Dallas, we aim to generate innovative apps for Android and iOS platforms using cutting-edge technology and powerful tools! Make us your trusted mobile app development company in Dallas to get the highest-grade mobile applications, optimum service quality, and customer satisfaction.
-      <span className="d-block mt-2">Here are the mobile app development services in Dallas that we offer:</span> </>,
+    para: <>As a leading mobile app developer in Dallas, we create innovative Android and iOS apps using advanced technology and tools. Our focus on high-quality applications, excellent service, and customer satisfaction is what makes us a trusted mobile app development company Dallas. 
+      <span className="d-block mt-2">Here are the services we offer:</span> </>,
     accordionData: accordionData
   };
   // Who We Are Content
   const WhoWeAre = {
     title: "Our Award-Winning Portfolio",
     desc: <>We've been a trusted app development partner in Dallas, offering customized mobile solutions that drive business success.  </>,
-    para: "Here is a showcase of some of our remarkable projects:",
+    para: "Explore our work as a leading app development company Dallas below:",
     subtitleOne: "Soul Scribe",
     subDescOne: "Soul Scribe is a groundbreaking social networking app that functions as a digital diary, and you can enlist your loved ones to be part of your online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories.",
     subtitleTwo: "The Ready App",

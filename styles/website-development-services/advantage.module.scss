@@ -22,30 +22,38 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+        transition: background-position 0.6s ease-in-out;
+        background-size: 100% 0%;
+        background-position: bottom;
+        position: relative;
+        overflow: hidden;
+        background: #fff;
 
-        svg {
-          margin-bottom: 30px;
-        }
+        .servicesItemContent {
+          transition: opacity 0s ease-in-out, transform 0s ease-in-out;
+          transform: translateY(20px);
+          svg {
+            margin-bottom: 30px; // Initial margin
+            transition: margin-bottom 0.4s ease-in-out;
+          }
 
-        h4 {
-          color: #000;
-          margin-bottom: 10px;
-          font-size: 25px;
-          line-height: 35px;
-        }
+          h4 {
+            color: #000;
+            margin-bottom: 10px;
+            font-size: 25px;
+            line-height: 35px;
+          }
 
-        p {
-          color: #9098a1;
-          margin-bottom: 10px;
+          p {
+            color: #9098a1;
+            margin-bottom: 10px;
+          }
         }
 
         .normalButton {
           height: 40px;
           max-width: 130px;
           padding: 0px 20px;
-          display: inline-flex;
-          justify-content: center;
-          align-items: center;
           border-radius: 50px;
           background: linear-gradient(
             91.47deg,
@@ -54,8 +62,10 @@
             #4a78ef 110.98%
           );
           border-radius: 64px;
-          display: none;
-          cursor: pointer;
+          display: block;
+          opacity: 0;
+          transition: opacity 0s ease-in-out, transform 0s ease-in-out;
+          transform: translateY(20px);
 
           a,
           div.linksBtn {
@@ -68,28 +78,34 @@
             justify-content: center;
             align-items: center;
             display: flex;
+            cursor: pointer;
           }
         }
       }
-      // &:hover {
-      //   box-shadow: rgb(100 100 111 / 31%) 0px 7px 29px 0px;
-      //   border: none;
-      //   background: #fff;
+      &:hover {
+        box-shadow: 5px 10px 49px 10px rgba(191, 191, 191, 0.2);
+        border: none;
+        background-size: 100% 100%;
 
-      //   .servicesItem {
-      //     background: #fff;
-      //     svg {
-      //       path {
-      //         fill: #000;
-      //       }
-      //     }
+        .servicesItem {
+          background: #fff;
 
-      //     .normalButton {
-      //       display: flex;
-      //       opacity: 1;
-      //     }
-      //   }
-      // }
+          .servicesItemContent {
+            transform: translateY(0);
+            transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+            svg {
+              margin-bottom: 10px;
+            }
+          }
+
+          .normalButton {
+            height: 40px;
+            opacity: 1;
+            transform: translateY(0);
+            transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+          }
+        }
+      }
     }
   }
 }
@@ -233,7 +249,7 @@
         flex: 0 0 calc(100% - 10px);
         padding: 10px 30px;
         .servicesItem {
-          height: 320px;
+          height: 340px;
 
           svg {
             margin-bottom: 30px;
@@ -266,7 +282,7 @@
         flex: 0 0 calc(100% - 10px);
         padding: 10px 30px;
         .servicesItem {
-          height: 320px;
+          height: 340px;
 
           svg {
             margin-bottom: 30px;
