@@ -167,7 +167,13 @@ export default function dubaidevelopmentcompany() {
   const menus = [
     "Why should I choose BitsWits for app development in Houston?",
     "What platforms and technologies does BitsWits use for app development?",
-    "How much is an app with 10 million downloads worth?",
+    "How much does it cost to develop an app with BitsWits in Houston?",
+    "How does BitsWits handle app maintenance and updates?",
+    "How does BitsWits ensure app security and data protection?",
+    "What industries does BitsWits specialize in for app development?",
+    "How does BitsWits handle UI/UX design in app development?",
+    "What are the different stages of app development at BitsWits?",
+    "How does BitsWits support business growth through app development?",
   ];
   const sections = [
     {
