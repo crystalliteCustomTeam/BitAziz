@@ -6,11 +6,16 @@ import CaseStudy from "@/src/app/home/casestudy"
 import Awards from "@/src/app/about-us/components/awards"
 import { CaseStudyContent } from "../home/data/data"
 import Script from "next/script"
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const Page = () => {
 
     return (
         <>
+            {/* Google tag (gtag.js) */}
+            <Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=AW-11114809734"></Script>
+            {/* ===== */}
+            <GoogleAnalytics gaId="AW-11114809734" />
             {/* Event snippet for Website lead conversion page */}
             <Script
                 id="gtag-conversion"
