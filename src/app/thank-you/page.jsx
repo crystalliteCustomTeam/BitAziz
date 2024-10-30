@@ -5,10 +5,20 @@ import styles from "@/styles/components/thanks.module.scss"
 import CaseStudy from "@/src/app/home/casestudy"
 import Awards from "@/src/app/about-us/components/awards"
 import { CaseStudyContent } from "../home/data/data"
+import Script from "next/script"
 
 const Page = () => {
+
     return (
         <>
+            {/* Event snippet for Website lead conversion page */}
+            <Script
+                id="gtag-conversion"
+                dangerouslySetInnerHTML={{
+                    __html: `gtag('event', 'conversion', {'send_to': 'AW-11114809734/O9snCOO5m5EYEIaT-rMp'});`,
+                }}
+            />
+
             <section className={`${styles.bannerThanks} `}>
                 <Container className="h-100">
                     <Row className="h-100">
