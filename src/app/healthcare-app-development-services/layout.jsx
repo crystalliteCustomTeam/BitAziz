@@ -1,12 +1,12 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "Premier Healthcare App Development Company| BitsWits",
-  description: "Leading healthcare app development company building advanced apps for fitness, telemedicine, patient care, appointment scheduling, insurance, and more!",
+  title: "Top Healthcare App Development Company - BitsWits",
+  description: "BitsWits provides premium healthcare app development services by making healthcare apps for doctors, patients, hospitals, insurance and more. Hire us now!",
   //===== OG Tags =====
   openGraph: {
-    title: "Premier Healthcare App Development Company| BitsWits",
-    description: "Leading healthcare app development company building advanced apps for fitness, telemedicine, patient care, appointment scheduling, insurance, and more!",
+    title: "Top Healthcare App Development Company - BitsWits",
+    description: "BitsWits provides premium healthcare app development services by making healthcare apps for doctors, patients, hospitals, insurance and more. Hire us now!",
     url: '/healthcare-app-development-services',
     siteName: 'BitsWits',
     locale: 'en_US',
@@ -17,7 +17,7 @@ export const metadata = {
   alternates: { canonical: '/healthcare-app-development-services' },
   //===== GEO Tags =====
   other: {
-    "DC.title": "Premier Healthcare App Development Company| BitsWits",
+    "DC.title": "Top Healthcare App Development Company - BitsWits",
     "geo.region": "US",
     "geo.placename": "Houston",
     "geo.position": "29.7372487; -95.4618603",
