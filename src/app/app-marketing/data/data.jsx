@@ -29,7 +29,7 @@ import testiIconActive3 from "media/app-marketing/testimonial/clutch-white.svg"
 
 
 export const BannerData = {
-    title: (<>Manage Your App <br /> Marketing </>),
+    title: (<>Manage Your App Marketing </>),
     content: (<>Our app marketing services have a proven track record of success across 170+ apps, and are designed to drive real growth. Reach millions of users and experience success with our mobile app marketing experts.</>),
 }
 
@@ -44,7 +44,8 @@ export const CompanyInfoContent = {
 
 
 export const DigitalCtaContent = {
-    content: (<><span>Go Beyond </span>Digital</>),
+    title: "Manage Your App Marketing With",
+    content: (<>Streamline your app marketing with BitsWits for impactful results. Our innovative strategies empower you to reach your target audience effectively and maximize your app's growth.</>),
 }
 
 export const IndustriesOptions = { loop: true, align: 'start' }

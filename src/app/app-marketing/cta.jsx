@@ -1,13 +1,13 @@
 import ButtonCommon from "@/src/components/common/button"
 import styles from "@/styles/app-marketing/cta.module.scss"
 import { Col, Container, Row } from 'react-bootstrap'
-import ctaImg from 'media/website-development-services/cta/cta-img.webp'
+import ctaImg from 'media/app-marketing/cta/cta-img.webp'
 import Image from "next/image"
 
 export const data = {
-    subTitle: "A Glimpse Of What's About To Come",
-    title: "At BitsWits!",
-    text: "Let Our eCommerce Website Developers Can Develop Your Online Store From Scratch By Working On These Top Platforms.",
+    subTitle: "From Zero To Millions & Beyond",
+    title: "With Experts!",
+    text: "Our customized app marketing strategies ensure steady growth and help you lead and succeed in the market.",
 }
 
 const Cta = () => {

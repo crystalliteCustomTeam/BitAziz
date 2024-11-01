@@ -14,7 +14,7 @@ const Expertise = ({ data, list }) => {
         setModalShow(true);
     };
     return (
-        <section className={`${styles.expertiseSec} p-50`} id="services">
+        <section className={`${styles.expertiseSec} p-100`} id="services">
             <Container>
                 <Row>
                     <Col lg={7} md={7}>

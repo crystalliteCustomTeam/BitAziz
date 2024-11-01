@@ -29,49 +29,42 @@ const caseStudies = [
         roi: "+1000% Increase in ROI",
         description: "Our mobile campaign generated a 10x ROI, positioning Single’s Up as the leading app in its category and driving exceptional growth.",
         image: "/media/home/casestudy/Vifty.webp",
-        services: ["Media Buying", "Creative Strategy"],
     },
     {
         title: "Vifty",
         roi: "+50% Increase in Vifty's Key KPIs",
         description: "We scaled Vifty’s user acquisition while maintaining low costs, resulting in a 50% growth in key performance indicators across targeted regions.",
         image: "/media/home/casestudy/Vifty.webp",
-        services: ["User Acquisition", "Performance Marketing"],
     },
     {
         title: "HomePro",
         roi: "+75% Increase in Downloads",
         description: "Through targeted ASO and user acquisition strategies, HomePro increased downloads by 75%, significantly expanding its audience and user engagement.",
         image: "/media/home/casestudy/Vifty.webp",
-        services: ["ASO", "User Acquisition"],
     },
     {
         title: "Soul Scribe",
         roi: "Doubles Its User Base by 100%",
         description: "Our optimized marketing efforts doubled Soul Scribe’s active users, improving app performance and increasing overall user satisfaction by 100%.",
         image: "/media/home/casestudy/SoulScribe.webp",
-        services: ["Marketing Optimization", "User Engagement"],
     },
     {
         title: "NutriSnap",
         roi: "Boosts by 200% in Six Months",
         description: "BitsWits scaled NutriSnap from 50,000 to 150,000 users in six months, increasing revenue by 150% and driving significant app growth.",
         image: "/media/home/casestudy/ReadyApp.webp",
-        services: ["User Growth", "Revenue Optimization"],
     },
     {
         title: "Combat",
         roi: "Grows Active User Base by 40%",
         description: "We improved Combat’s user retention strategies, leading to a 40% increase in active users and enhanced overall app performance.",
         image: "/media/home/casestudy/Vifty.webp",
-        services: ["User Retention", "Performance Improvement"],
     },
     {
         title: "Route Rover",
         roi: "Achieves 90% ROI with Targeted Media Campaign",
         description: "Our strategic media campaign delivered a 90% return on investment, driving Route Rover’s user acquisition growth and improving app performance significantly.",
         image: "/media/home/casestudy/Vifty.webp",
-        services: ["Media Campaign", "User Acquisition"],
     },
 ];
 
@@ -116,11 +109,11 @@ const Casestudies = () => {
                                                         <div className={styles.casestudyPara}>
                                                             <p>{study.description}</p>
                                                             <div className={styles.btnSec}>
-                                                                <ul>
+                                                                {/* <ul>
                                                                     {study.services.map((service, idx) => (
                                                                         <li key={idx}>{service}</li>
                                                                     ))}
-                                                                </ul>
+                                                                </ul> */}
                                                                 <ButtonCommon txt="Let's Discuss" color={true} />
                                                             </div>
                                                         </div>

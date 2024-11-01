@@ -31,6 +31,21 @@ export const Awards = [
     {
         AwardsIMG: embla1IMG05.src
     },
+    {
+        AwardsIMG: embla1IMG01.src
+    },
+    {
+        AwardsIMG: embla1IMG02.src
+    },
+    {
+        AwardsIMG: embla1IMG03.src
+    },
+    {
+        AwardsIMG: embla1IMG04.src
+    },
+    {
+        AwardsIMG: embla1IMG05.src
+    },
 ]
 
 
@@ -64,6 +79,18 @@ const Awards2 = [
 
 const CompanyInfo = ({ data }) => {
     const [emblaRef] = useEmblaCarousel(options, [Autoplay()]);
+
+    const [emblaRefFramework] = useEmblaCarousel(
+        { loop: true, direction: 'rtl' },
+        [
+            AutoScroll({
+                delay: 3000,
+                speed: 2,
+                playOnInit: true,
+            })
+        ]
+    );
+
     const [emblaRefClients] = useEmblaCarousel(
         { loop: true },
         [
@@ -85,7 +112,21 @@ const CompanyInfo = ({ data }) => {
 
                 <Row>
                     <Col md={12}>
-                        <section className={styles.embla}>
+                        <div className={styles.embla} dir="rtl">
+                            <div className={styles.embla__viewport} ref={emblaRefFramework}>
+                                <div className={styles.embla__container}>
+                                    {Awards.map((item, index) => (
+                                        <div className={styles.embla__slide} key={`framework-${index}`}>
+                                            <div className={styles.imgBox}>
+                                                {/* <Image src={item.logo} alt={`Framework Logo ${index + 1}`} width={316} height={165} /> */}
+                                                <Image src={item.AwardsIMG} alt="Achieved Logo" width={150} height={60} />
+                                            </div>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
+                        {/* <section className={styles.embla}>
                             <div className={styles.embla__viewport} ref={emblaRef}>
                                 <div className={styles.embla__container}>
                                     {Awards.map((item, index) => (
@@ -97,7 +138,7 @@ const CompanyInfo = ({ data }) => {
                                     ))}
                                 </div>
                             </div>
-                        </section>
+                        </section> */}
                     </Col>
                 </Row>
 
