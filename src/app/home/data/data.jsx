@@ -44,17 +44,17 @@ export const HomeServicesList = [
     },
     {
         title: "Android App Development",
-        txt:(<>We specialize in <Link href='/android-app-development-company'>Android app development</Link> using Java and Kotlin, building high-performance apps optimized for the Google Play Store. Our custom solutions support diverse industries and deliver smooth user experiences across all Android devices.</>),
+        txt: (<>We specialize in <Link href='/android-app-development-company'>Android app development</Link> using Java and Kotlin, building high-performance apps optimized for the Google Play Store. Our custom solutions support diverse industries and deliver smooth user experiences across all Android devices.</>),
         url: "/android-app-development-company"
     },
     {
         title: "iOS App Development",
-        txt:(<>Our <Link href='/ios-app-development-company'>iOS app development</Link> expertise includes Swift and Xcode, creating secure apps for the App Store. We build custom iOS apps that enhance user engagement and performance, providing exceptional UX across iPhones, iPads, and other Apple devices.</>),
+        txt: (<>Our <Link href='/ios-app-development-company'>iOS app development</Link> expertise includes Swift and Xcode, creating secure apps for the App Store. We build custom iOS apps that enhance user engagement and performance, providing exceptional UX across iPhones, iPads, and other Apple devices.</>),
         url: "/ios-app-development-company"
     },
     {
         title: "Cross Platform App Development",
-        txt:(<>We deliver cross-platform apps using <Link href='/flutter-app-development'>Flutter</Link> and <Link href='/react-native-app-development'>React Native</Link>, providing businesses with scalable solutions. Our apps work seamlessly across iOS, Android, and other platforms, reducing development time and costs without compromising quality, positioning us as a leading <Link href='/cross-platform-app-development-services'>cross-platform app development company</Link>.</>),
+        txt: (<>We deliver cross-platform apps using <Link href='/flutter-app-development'>Flutter</Link> and <Link href='/react-native-app-development'>React Native</Link>, providing businesses with scalable solutions. Our apps work seamlessly across iOS, Android, and other platforms, reducing development time and costs without compromising quality, positioning us as a leading <Link href='/cross-platform-app-development-services'>cross-platform app development company</Link>.</>),
         url: "/cross-platform-app-development-services"
     },
     {
@@ -130,7 +130,7 @@ export const ExtendedServicesList = [
         content: {
             icon: <Blockchain />,
             heading: "Blockchain",
-            description: "We integrate blockchain technology to deliver transparent and secure business solutions across finance, healthcare, supply chain, and real estate sectors. This ensures enhanced security, trust, and efficiency in critical business operations.",
+            description: (<>We integrate blockchain technology to deliver transparent and secure business solutions across finance, <Link href='/healthcare-app-development-services'>healthcare</Link>, supply chain, and real estate sectors. This ensures enhanced security, trust, and efficiency in critical business operations.</>),
             listItems: [
                 "Secure Financial Transactions",
                 "Transparent Supply Chain Records",

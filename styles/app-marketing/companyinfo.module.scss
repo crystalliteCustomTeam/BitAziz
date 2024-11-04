@@ -3,9 +3,6 @@
   overflow: hidden;
   font-family: "Poppins", sans-serif;
 
-  p {
-    margin-bottom: 40px;
-  }
 
   .embla {
     margin-top: 60px;
@@ -24,25 +21,10 @@
 
         .embla__slide {
           min-width: 0;
-          flex: 0 0 20%;
-          padding-left: 45px;
+          flex: 0 0 280px;
           display: flex;
           justify-content: center;
           align-items: center;
-
-          .awardsImg {
-            height: auto;
-            width: auto;
-            object-fit: contain;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            mix-blend-mode: luminosity;
-            transition: opacity 0.5s ease-in-out, filter 0.5s ease-in-out;
-            img {
-              margin: 0 auto;
-            }
-          }
         }
       }
     }
@@ -57,16 +39,13 @@
       .embla2__container {
         display: flex;
         touch-action: pan-y pinch-zoom;
-        margin-left: calc(20px * -1);
+        margin-left: calc(15px * -1);
 
         .embla2__slide {
           transform: translate3d(0, 0, 0);
           flex: 0 0 450px;
           min-width: 0;
           padding-left: 15px;
-          height: 90px;
-
-          // border:1px solid red;
 
           .imgBox {
             position: relative;
@@ -74,7 +53,7 @@
             background: #fff;
             border: 1px solid #d9d9d9;
             width: 100%;
-            height: 100%;
+            height: 90px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -82,8 +61,7 @@
 
             img {
               height: 70px;
-              // width: auto;
-              flex: 0 0 60px;
+              flex: 0 0 70px;
               margin: 0;
             }
 
@@ -92,18 +70,14 @@
               font-weight: 700;
               line-height: 52px;
               color: #000;
-              margin: 0px;
-              padding: 0px;
             }
 
-            p {
+            .para {
               color: #9d9d9d;
               font-size: 18px;
               font-style: normal;
               font-weight: 500;
               line-height: 32px;
-              margin: 0px;
-              padding: 0px;
             }
           }
         }
@@ -115,35 +89,50 @@
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   .companyInfoSection {
     .embla {
-      margin-top: 55px;
+      margin-top: 50px;
       margin-bottom: 25px;
 
       .embla__viewport {
         .embla__container {
           .embla__slide {
-            .awardsImg {
-              img {
-              }
-            }
+            flex: 0 0 260px;
           }
         }
       }
     }
 
     .embla2 {
+      margin-top: 40px;
+
       .embla2__viewport {
         .embla2__container {
+          margin-left: calc(15px * -1);
+
           .embla2__slide {
-            height: 85px;
+            flex: 0 0 400px;
+            min-width: 0;
+            padding-left: 15px;
+
             .imgBox {
+              border-radius: 40px;
+              width: 100%;
+              height: 80px;
+              padding: 0 30px 0px 10px;
+
               img {
                 height: 65px;
+                flex: 0 0 65px;
+                margin: 0;
               }
 
               .count {
+                font-size: 35px;
+                line-height: 52px;
               }
 
-              p {
+              .para {
+                font-size: 16px;
+                line-height: 32px;
               }
             }
           }
@@ -156,36 +145,50 @@
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
   .companyInfoSection {
     .embla {
-      margin-top: 55px;
+      margin-top: 50px;
       margin-bottom: 25px;
 
       .embla__viewport {
         .embla__container {
           .embla__slide {
-            .awardsImg {
-              img {
-              }
-            }
+            flex: 0 0 260px;
           }
         }
       }
     }
 
     .embla2 {
+      margin-top: 40px;
+
       .embla2__viewport {
         .embla2__container {
+          margin-left: calc(15px * -1);
+
           .embla2__slide {
-            height: 80px;
+            flex: 0 0 350px;
+            min-width: 0;
+            padding-left: 15px;
+
             .imgBox {
-              padding: 0 60px 0px 10px;
+              border-radius: 40px;
+              width: 100%;
+              height: 70px;
+              padding: 0 30px 0px 10px;
+
               img {
-                height: 65px;
+                height: 60px;
+                flex: 0 0 60px;
+                margin: 0;
               }
 
               .count {
+                font-size: 32px;
+                line-height: 42px;
               }
 
-              p {
+              .para {
+                font-size: 15px;
+                line-height: 25px;
               }
             }
           }
@@ -199,35 +202,49 @@
   .companyInfoSection {
     .embla {
       margin-top: 50px;
-      margin-bottom: 20px;
+      margin-bottom: 25px;
 
       .embla__viewport {
         .embla__container {
           .embla__slide {
-            .awardsImg {
-              img {
-              }
-            }
+            flex: 0 0 240px;
           }
         }
       }
     }
 
     .embla2 {
+      margin-top: 40px;
+
       .embla2__viewport {
         .embla2__container {
+          margin-left: calc(15px * -1);
+
           .embla2__slide {
-            height: 80px;
+            flex: 0 0 350px;
+            min-width: 0;
+            padding-left: 15px;
+
             .imgBox {
-              padding: 0 60px 0px 10px;
+              border-radius: 35px;
+              width: 100%;
+              height: 70px;
+              padding: 0 20px 0px 10px;
+
               img {
-                height: 65px;
+                height: 60px;
+                flex: 0 0 60px;
+                margin: 0;
               }
 
               .count {
+                font-size: 32px;
+                line-height: 42px;
               }
 
-              p {
+              .para {
+                font-size: 15px;
+                line-height: 25px;
               }
             }
           }
@@ -241,41 +258,49 @@
   .companyInfoSection {
     .embla {
       margin-top: 50px;
-      margin-bottom: 15px;
+      margin-bottom: 25px;
 
       .embla__viewport {
         .embla__container {
           .embla__slide {
-            flex: 0 0 25%;
-            .awardsImg {
-              // img {
-              //   height: 100px;
-              // }
-            }
+            flex: 0 0 240px;
           }
         }
       }
     }
 
     .embla2 {
+      margin-top: 40px;
+
       .embla2__viewport {
         .embla2__container {
+          margin-left: calc(15px * -1);
+
           .embla2__slide {
-            height: 80px;
+            flex: 0 0 350px;
+            min-width: 0;
+            padding-left: 15px;
+
             .imgBox {
-              padding: 0 60px 0px 10px;
+              border-radius: 35px;
+              width: 100%;
+              height: 70px;
+              padding: 0 20px 0px 10px;
+
               img {
-                height: 65px;
+                height: 60px;
+                flex: 0 0 60px;
+                margin: 0;
               }
 
               .count {
-                font-size: 35px;
-                line-height: 45px;
+                font-size: 32px;
+                line-height: 42px;
               }
 
-              p {
-                font-size: 16px;
-                line-height: 28px;
+              .para {
+                font-size: 15px;
+                line-height: 25px;
               }
             }
           }
@@ -289,43 +314,49 @@
   .companyInfoSection {
     .embla {
       margin-top: 50px;
-      margin-bottom: 10px;
+      margin-bottom: 25px;
 
       .embla__viewport {
         .embla__container {
           .embla__slide {
-            flex: 0 0 23%;
-            padding-left: 45px;
-            .awardsImg {
-              // img {
-              //   height: 100px;
-              // }
-            }
+            flex: 0 0 240px;
           }
         }
       }
     }
 
     .embla2 {
+      margin-top: 40px;
+
       .embla2__viewport {
         .embla2__container {
+          margin-left: calc(15px * -1);
+
           .embla2__slide {
-            flex: 0 0 400px;
-            height: 70px;
+            flex: 0 0 350px;
+            min-width: 0;
+            padding-left: 15px;
+
             .imgBox {
-              padding: 0 60px 0px 10px;
+              border-radius: 35px;
+              width: 100%;
+              height: 70px;
+              padding: 0 20px 0px 10px;
+
               img {
-                height: 55px;
+                height: 60px;
+                flex: 0 0 60px;
+                margin: 0;
               }
 
               .count {
-                font-size: 30px;
-                line-height: 40px;
+                font-size: 32px;
+                line-height: 42px;
               }
 
-              p {
-                font-size: 16px;
-                line-height: 28px;
+              .para {
+                font-size: 15px;
+                line-height: 25px;
               }
             }
           }
@@ -338,45 +369,50 @@
 @media only screen and (min-width: 0px) and (max-width: 599px) {
   .companyInfoSection {
     .embla {
-      margin-top: 40px;
-      margin-bottom: 5px;
+      margin-top: 50px;
+      margin-bottom: 25px;
 
       .embla__viewport {
         .embla__container {
           .embla__slide {
-            flex: 0 0 33%;
-            padding-left: 45px;
-            .awardsImg {
-              // img {
-              //   height: 100px;
-              // }
-            }
+            flex: 0 0 210px;
           }
         }
       }
     }
 
     .embla2 {
+      margin-top: 40px;
+
       .embla2__viewport {
         .embla2__container {
+          margin-left: calc(10px * -1);
+
           .embla2__slide {
             flex: 0 0 300px;
-            height: 60px;
+            min-width: 0;
+            padding-left: 10px;
+
             .imgBox {
-              padding: 0 10px 0px 10px;
+              border-radius: 35px;
+              width: 100%;
+              height: 70px;
+              padding: 0 20px 0px 10px;
+
               img {
-                height: 45px;
-                flex: 0 0 55px;
+                height: 50px;
+                flex: 0 0 50px;
+                margin: 0;
               }
 
               .count {
-                font-size: 25px;
-                line-height: 35px;
+                font-size: 28px;
+                line-height: 38px;
               }
 
-              p {
+              .para {
                 font-size: 14px;
-                line-height: 26px;
+                line-height: 24px;
               }
             }
           }

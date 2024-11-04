@@ -1,9 +1,8 @@
 import {
-  BannerData, CompanyInfoContent, ExpertiseContent, ExpertiseList, 
+  BannerData, CompanyInfoContent, ExpertiseContent, ExpertiseList,
   DigitalCtaContent, ExtendedServicesContent,
-  ExtendedServicesList,  IndustriesSlides, IndustriesOptions, TestimonialContent, 
-  TestimonialSLIDES, FaqsContent,
-  FaqsList, IdeaCtaContent, 
+  IndustriesSlides, IndustriesOptions, TestimonialSLIDES, FaqsContent,
+  FaqsList, IdeaCtaContent,
 } from "@/src/app/app-marketing/data/data";
 import dynamic from "next/dynamic";
 
@@ -27,20 +26,15 @@ export default function Page() {
   return (
     <>
       <Banner data={BannerData} />
-      <CompanyInfo data={CompanyInfoContent}/>
+      <CompanyInfo data={CompanyInfoContent} />
       <Expertise data={ExpertiseContent} list={ExpertiseList} />
       <Cta />
       <Casestudies />
       <Testimonial data={ExtendedServicesContent} list={TestimonialSLIDES} />
       <DigitalCta data={DigitalCtaContent} />
       <Industries slides={IndustriesSlides} options={IndustriesOptions} />
-      {/*<Portfolio />
-      
-      <Testimonial data={TestimonialContent} list={TestimonialSLIDES} /> 
-       <Process />
       <Faqs data={FaqsContent} list={FaqsList} />
-      <IdeaCta data={IdeaCtaContent} /> */}
-
+      <IdeaCta data={IdeaCtaContent} />
     </>
   );
 }

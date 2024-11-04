@@ -81,7 +81,7 @@ const Casestudies = () => {
         if (embla) embla.scrollNext();
     };
     return (
-        <section className={`${styles.homeCaseStudy} commonSlider pt-100`}>
+        <section className={`${styles.appCaseStudy} commonSlider pt-100`} id="portfolio">
             <Container>
                 <Row>
                     <Col lg={7} md={7}>

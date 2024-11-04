@@ -7,13 +7,13 @@ const DigitalCta = ({ data }) => {
         <section className={`${styles.digitalSection} p-100`}>
             <Container className="h-100">
                 <Row className="h-100">
-                    <Col lg={6} md={3} className="my-auto">
+                    <Col lg={6} md={6} className="my-auto">
                         <div className={styles.bitsWits}>
                             <span className={`${styles.bits}`}>Bits</span>
                             <span className={`${styles.wits}`}>Wits</span>
                         </div>
                     </Col>
-                    <Col lg={6} md={9} className="my-auto">
+                    <Col lg={6} md={6} className="my-auto">
                         <div className={styles.DigitalCtaContent}>
                             <h2>
                                 {data?.title}

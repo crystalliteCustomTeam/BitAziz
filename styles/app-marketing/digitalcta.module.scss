@@ -2,7 +2,7 @@
   position: relative;
   font-family: "Poppins", sans-serif;
   background: #141414;
-  //   padding: 150px 0; // Added padding to the section
+  height: 550px;
 
   .bitsWits {
     display: flex;
@@ -11,7 +11,7 @@
     align-items: center;
     flex: 0 0 100%;
     transition: all 0.5s ease;
-    cursor: pointer; // Change cursor to indicate it's hoverable
+    cursor: pointer;
     height: 250px;
     margin: 50px 0;
 
@@ -28,24 +28,21 @@
 
     .bits {
       color: #f32faf;
-      
+
     }
 
     .wits {
       color: #4a78ef;
-      
+
     }
 
     &:hover {
       .bits {
         transform: translateX(-75px);
       }
+
       .wits {
         transform: translateX(75px);
-        font-style: normal;
-        font-weight: 700;
-        font-size: 200px;
-        line-height: 55px;
       }
     }
   }
@@ -60,191 +57,131 @@
 
     p {
       color: #9d9d9d;
-      font-size: 20px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 32px;
-      letter-spacing: -0.165px;
     }
   }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   .digitalSection {
-    position: relative;
-    height: 770px;
+    .bitsWits {
+      height: 250px;
+      margin: 50px 0;
 
-    .digitalContent {
-      font-size: 160px;
-
-      span {
-        font-size: 55px;
-        line-height: 68px;
-        margin-right: 20px;
+      .bits,
+      .wits {
+        font-size: 180px;
+        line-height: 55px;
       }
     }
-
-    // .digitalAnimatedBox {
-    //     .digitalAnimatedTxt {
-    //         height: 170px;
-    //         flex: 0 0 70%;
-
-    //         span {
-    //             font-size: 150px;
-    //             line-height: 125px;
-    //         }
-    //     }
-    // }
   }
 }
 
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
   .digitalSection {
-    position: relative;
-    height: 650px;
+    height: 500px;
 
-    // .digitalContent {
-    //     font-size: 150px;
+    .bitsWits {
+      height: 210px;
+      margin: 50px 0;
 
-    //     span {
-    //         font-size: 50px;
-    //         line-height: 63px;
-    //         margin-right: 20px;
-    //     }
-    // }
-
-    // .digitalAnimatedBox {
-    //     .digitalAnimatedTxt {
-    //         height: 160px;
-    //         flex: 0 0 70%;
-
-    //         span {
-    //             font-size: 140px;
-    //             line-height: 125px;
-    //         }
-    //     }
-    // }
+      .bits,
+      .wits {
+        font-size: 160px;
+        line-height: 55px;
+      }
+    }
   }
 }
 
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
   .digitalSection {
-    position: relative;
-    height: 600px;
+    height: 450px;
 
-    // .digitalContent {
-    //     font-size: 140px;
+    .bitsWits {
+      height: 210px;
+      margin: 50px 0;
 
-    //     span {
-    //         font-size: 45px;
-    //         line-height: 60px;
-    //         margin-right: 20px;
-    //     }
-    // }
+      .bits,
+      .wits {
+        font-size: 160px;
+        line-height: 55px;
+      }
 
-    // .digitalAnimatedBox {
-    //     .digitalAnimatedTxt {
-    //         height: 150px;
-    //         flex: 0 0 70%;
-
-    //         span {
-    //             font-size: 130px;
-    //             line-height: 120px;
-    //         }
-    //     }
-    // }
+    }
   }
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1099px) {
   .digitalSection {
-    position: relative;
-    height: 550px;
+    height: 420px;
 
-    // .digitalContent {
-    //     font-size: 140px;
+    .bitsWits {
+      height: 190px;
+      margin: 50px 0;
 
-    //     span {
-    //         font-size: 45px;
-    //         line-height: 60px;
-    //         margin-right: 20px;
-    //     }
-    // }
+      .bits,
+      .wits {
+        font-size: 140px;
+        line-height: 55px;
+      }
 
-    // .digitalAnimatedBox {
-    //     .digitalAnimatedTxt {
-    //         height: 150px;
-    //         flex: 0 0 70%;
 
-    //         span {
-    //             font-size: 130px;
-    //             line-height: 120px;
-    //         }
-    //     }
-    // }
+    }
   }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 899px) {
   .digitalSection {
-    height: 450px;
+    height: 350px;
 
-    // .digitalContent {
-    //     font-size: 110px;
+    .bitsWits {
+      height: 160px;
+      margin: 50px 0;
 
-    //     span {
-    //         font-size: 40px;
-    //         line-height: 50px;
-    //         margin-right: 15px;
-    //     }
-    // }
+      .bits,
+      .wits {
+        font-size: 120px;
+        line-height: 55px;
+      }
 
-    // .digitalAnimatedBox {
-    //     .digitalAnimatedTxt {
-    //         height: 120px;
-    //         flex: 0 0 75%;
+      &:hover {
+        .bits {
+          transform: translateX(-70px);
+        }
 
-    //         span {
-    //             font-size: 90px;
-    //             line-height: 80px;
-    //         }
-    //     }
-    // }
+        .wits {
+          transform: translateX(45px);
+        }
+      }
+    }
   }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 599px) {
   .digitalSection {
     height: auto;
+    padding: 50px 0px;
+    text-align: center;
 
-    // .digitalContent {
-    //     font-size: 90px;
-    //     flex-wrap: wrap;
+    .bitsWits {
+      height: 140px;
+      margin: 20px 0 30px;
 
-    //     span {
-    //         font-size: 40px;
-    //         line-height: 50px;
-    //         margin-right: 15px;
+      .bits,
+      .wits {
+        font-size: 100px;
+        line-height: 55px;
+      }
 
-    //         br {
-    //             display: none;
-    //         }
-    //     }
-    // }
+      &:hover {
+        .bits {
+          transform: translateX(-60px);
+        }
 
-    // .digitalAnimatedBox {
-    //     flex-wrap: wrap;
-    //     justify-content: center;
-
-    //     .digitalAnimatedTxt {
-    //         height: 100px;
-    //         flex: 0 0 100%;
-
-    //         span {
-    //             font-size: 70px;
-    //             line-height: 60px;
-    //         }
-    //     }
-    // }
+        .wits {
+          transform: translateX(40px);
+        }
+      }
+    }
   }
 }

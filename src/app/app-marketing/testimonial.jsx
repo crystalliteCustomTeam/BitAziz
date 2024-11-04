@@ -2,22 +2,16 @@
 "use client";
 import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/app-marketing/testimonial.module.scss"
-import { ServiceArrow } from "@/src/app/app-constants"
 import { useState } from "react";
-import PopUp from "@/src/app/services/popup";
 import Image from "next/image";
 
 
 
 const Testimonial = ({ data, list }) => {
     const [activeTab, setActiveTab] = useState(0);
-    const [modalShow, setModalShow] = useState(false);
 
-    const handleClick = () => {
-        setModalShow(true);
-    };
     return (
-        <section className={`${styles.Testimonial} p-100`}>
+        <section className={`${styles.testimonialMarketing} p-100`} id="testimonial">
             <Container>
                 <Row>
                     <Col lg={6} md={6}>
@@ -58,7 +52,6 @@ const Testimonial = ({ data, list }) => {
                                                 <Image src={activeTab === index ? tab.content.iconActive : tab.content.icon} alt="Bitswits Reviews" width={40} height={40} />
                                                 <span>4.9</span>
                                             </div>
-                                            {/* {tab.title} */}
                                         </li>
                                     ))}
                                 </ul>
@@ -74,8 +67,8 @@ const Testimonial = ({ data, list }) => {
                                                     <p>{tab.position}</p>
                                                 </div>
                                                 <div className={styles.icon}>
-                                                <Image src={tab.content.icon} width={40} height={40} />
-                                                <span>4.9</span>
+                                                    <Image src={tab.content.icon} width={40} height={40} />
+                                                    <span>4.9</span>
                                                 </div>
                                             </div>
                                             <p><span>“</span>{tab.content.txt}<span>”</span></p>
@@ -87,7 +80,6 @@ const Testimonial = ({ data, list }) => {
                     </Col>
                 </Row>
             </Container>
-            <PopUp show={modalShow} onHide={() => setModalShow(false)} />
         </section>
     )
 }

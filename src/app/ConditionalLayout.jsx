@@ -81,7 +81,7 @@ const isDarkHeader = [
     "/blog/"
 ]
 
-const lpHeaderFooterPaths = ["/website-development-services"];
+const lpHeaderFooterPaths = ["/website-development-services", "/app-marketing"];
 
 const ConditionalLayout = ({ children }) => {
     const pathname = usePathname();

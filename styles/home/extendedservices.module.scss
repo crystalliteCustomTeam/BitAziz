@@ -70,10 +70,22 @@
                         animation: zoom-in 0.6s forwards;
                         transform-origin: center;
                     }
+
+
                 }
 
                 h2 {
                     margin-bottom: 10px;
+                }
+
+                p {
+                    a {
+                        color: #585858;
+
+                        &:hover {
+                            font-weight: 600;
+                        }
+                    }
                 }
 
                 ul {

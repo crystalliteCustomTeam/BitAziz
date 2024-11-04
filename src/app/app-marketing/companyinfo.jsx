@@ -11,9 +11,8 @@ import embla1IMG04 from "media/app-marketing/customerInfo/embla1-icon/icon-4.web
 import embla1IMG05 from "media/app-marketing/customerInfo/embla1-icon/icon-5.webp"
 import embla2IMG01 from "media/app-marketing/customerInfo/embla2-icon/icon-1.webp"
 import Image from "next/image"
-import { title } from "process"
 
-const options = { align: 'start', loop: "true" }
+const options = { align: 'center', loop: "true" }
 
 export const Awards = [
     {
@@ -78,28 +77,28 @@ const Awards2 = [
 ]
 
 const CompanyInfo = ({ data }) => {
-    const [emblaRef] = useEmblaCarousel(options, [Autoplay()]);
+    const [emblaRef] = useEmblaCarousel(options);
 
     const [emblaRefFramework] = useEmblaCarousel(
         { loop: true, direction: 'rtl' },
-        [
-            AutoScroll({
-                delay: 3000,
-                speed: 2,
-                playOnInit: true,
-            })
-        ]
+        // [
+        //     AutoScroll({
+        //         delay: 3000,
+        //         speed: 2,
+        //         playOnInit: true,
+        //     })
+        // ]
     );
 
     const [emblaRefClients] = useEmblaCarousel(
         { loop: true },
-        [
-            AutoScroll({
-                delay: 3000,
-                speed: 2,
-                playOnInit: true,
-            })
-        ]
+        // [
+        //     AutoScroll({
+        //         delay: 3000,
+        //         speed: 2,
+        //         playOnInit: true,
+        //     })
+        // ]
     );
     return (
         <section className={`${styles.companyInfoSection} p-100`}>
@@ -118,7 +117,6 @@ const CompanyInfo = ({ data }) => {
                                     {Awards.map((item, index) => (
                                         <div className={styles.embla__slide} key={`framework-${index}`}>
                                             <div className={styles.imgBox}>
-                                                {/* <Image src={item.logo} alt={`Framework Logo ${index + 1}`} width={316} height={165} /> */}
                                                 <Image src={item.AwardsIMG} alt="Achieved Logo" width={150} height={60} />
                                             </div>
                                         </div>
@@ -126,19 +124,6 @@ const CompanyInfo = ({ data }) => {
                                 </div>
                             </div>
                         </div>
-                        {/* <section className={styles.embla}>
-                            <div className={styles.embla__viewport} ref={emblaRef}>
-                                <div className={styles.embla__container}>
-                                    {Awards.map((item, index) => (
-                                        <div className={styles.embla__slide} key={index}>
-                                            <div className={styles.awardsImg}>
-                                                <Image src={item.AwardsIMG} alt="Achieved Logo" width={250} height={250} />
-                                            </div>
-                                        </div>
-                                    ))}
-                                </div>
-                            </div>
-                        </section> */}
                     </Col>
                 </Row>
 
@@ -151,8 +136,8 @@ const CompanyInfo = ({ data }) => {
                                         <div className={styles.embla2__slide} key={`client-${index}`}>
                                             <div className={styles.imgBox}>
                                                 <Image src={item.logo} alt={`Client Logo ${index + 1}`} width={316} height={165} />
-                                                <span className={styles.count}>{item.count}</span>
-                                                <p>{item.para}</p>
+                                                <div className={styles.count}>{item.count}</div>
+                                                <div className={styles.para}>{item.para}</div>
                                             </div>
                                         </div>
                                     ))}

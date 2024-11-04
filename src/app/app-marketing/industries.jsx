@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/app-marketing/industries.module.scss"
 import useEmblaCarousel from 'embla-carousel-react'
 import Link from "next/link"
+import Image from "next/image"
 // import { ArrowBtn } from "@/src/app/app-constants"
 
 const data = {
@@ -12,10 +13,10 @@ const data = {
 };
 
 const Industries = ({ slides, options }) => {
-    const [emblaRef, emblaApi] = useEmblaCarousel(options);
+    const [emblaRef] = useEmblaCarousel(options);
 
     return (
-        <section className={`${styles.industriesSection} p-100`}>
+        <section className={`${styles.industriesSection} p-100`} id="process">
             <Container>
                 <Row>
                     <Col lg={8} md={12} className="text-center m-auto ">
@@ -36,6 +37,7 @@ const Industries = ({ slides, options }) => {
                                     </h3>
                                     <p>{item.txt}</p>
                                     {/* <Link href={item.url}><ArrowBtn /></Link> */}
+                                    <Image src={item.Img} alt={item.title} fill />
                                 </div>
                             </div>
                         ))}

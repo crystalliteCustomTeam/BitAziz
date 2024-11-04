@@ -20,12 +20,10 @@
 
     &::before {
       content: "";
-      background: linear-gradient(
-        94.58deg,
-        #f32f56 -50.6%,
-        #f32faf 38.31%,
-        #4a78ef 123.73%
-      );
+      background: linear-gradient(94.58deg,
+          #f32f56 -50.6%,
+          #f32faf 38.31%,
+          #4a78ef 123.73%);
       border-radius: 40px;
 
       width: 100%;
@@ -58,7 +56,7 @@
       flex: 0 0 45%;
 
       img {
-        margin-top:-200px ;
+        margin-top: -200px;
         height: auto;
         width: auto;
       }
@@ -74,6 +72,7 @@
 
       .Content {
         flex: 0 0 45%;
+
         h4 {
           font-weight: 400;
           font-size: 28px;
@@ -84,9 +83,9 @@
       .imgBox {
         text-align: center;
         flex: 0 0 45%;
-  
+
         img {
-          margin-top:-140px ;
+          margin-top: -140px;
           height: auto;
           width: auto;
         }
@@ -103,6 +102,7 @@
 
       .Content {
         flex: 0 0 45%;
+
         h4 {
           font-weight: 400;
           font-size: 22px;
@@ -113,9 +113,9 @@
       .imgBox {
         text-align: center;
         flex: 0 0 45%;
-  
+
         img {
-          margin-top:-100px ;
+          margin-top: -100px;
           height: auto;
           width: auto;
         }
@@ -132,6 +132,7 @@
 
       .Content {
         flex: 0 0 45%;
+
         h4 {
           font-weight: 400;
           font-size: 22px;
@@ -142,9 +143,9 @@
       .imgBox {
         text-align: center;
         flex: 0 0 45%;
-  
+
         img {
-          margin-top:-100px ;
+          margin-top: -100px;
           height: auto;
           width: auto;
         }
@@ -161,6 +162,7 @@
 
       .Content {
         flex: 0 0 45%;
+
         h4 {
           font-weight: 400;
           font-size: 20px;
@@ -171,9 +173,9 @@
       .imgBox {
         text-align: center;
         flex: 0 0 45%;
-  
+
         img {
-          margin-top:0px ;
+          margin-top: 0px;
           height: auto;
           width: auto;
         }
@@ -187,12 +189,14 @@
     .Sec {
       height: 260px;
       padding: 30px 20px 30px 30px;
+
       &::before {
         border-radius: 25px;
       }
 
       .Content {
         flex: 0 0 100%;
+
         h4 {
           font-weight: 400;
           font-size: 24px;
@@ -204,9 +208,9 @@
         display: none;
         text-align: center;
         flex: 0 0 100%;
-  
+
         img {
-          margin-top:-210px ;
+          margin-top: -210px;
           height: auto;
           width: auto;
         }
@@ -217,15 +221,19 @@
 
 @media only screen and (min-width: 0px) and (max-width: 599px) {
   .Cta {
+    padding: 0px;
+
     .Sec {
       height: 300px;
       padding: 30px 20px 30px 30px;
+
       &::before {
         border-radius: 15px;
       }
 
       .Content {
         flex: 0 0 100%;
+
         h4 {
           font-weight: 400;
           font-size: 19px;
@@ -237,9 +245,9 @@
         display: none;
         text-align: center;
         flex: 0 0 45%;
-  
+
         img {
-          margin-top:-210px ;
+          margin-top: -210px;
           height: auto;
           width: auto;
         }
