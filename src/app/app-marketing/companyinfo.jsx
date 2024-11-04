@@ -77,28 +77,28 @@ const Awards2 = [
 ]
 
 const CompanyInfo = ({ data }) => {
-    const [emblaRef] = useEmblaCarousel(options);
+    const [emblaRef] = useEmblaCarousel(options, [Autoplay()]);
 
     const [emblaRefFramework] = useEmblaCarousel(
         { loop: true, direction: 'rtl' },
-        // [
-        //     AutoScroll({
-        //         delay: 3000,
-        //         speed: 2,
-        //         playOnInit: true,
-        //     })
-        // ]
+        [
+            AutoScroll({
+                delay: 3000,
+                speed: 2,
+                playOnInit: true,
+            })
+        ]
     );
 
     const [emblaRefClients] = useEmblaCarousel(
         { loop: true },
-        // [
-        //     AutoScroll({
-        //         delay: 3000,
-        //         speed: 2,
-        //         playOnInit: true,
-        //     })
-        // ]
+        [
+            AutoScroll({
+                delay: 3000,
+                speed: 2,
+                playOnInit: true,
+            })
+        ]
     );
     return (
         <section className={`${styles.companyInfoSection} p-100`}>
