@@ -6,66 +6,30 @@ import Autoplay from 'embla-carousel-autoplay'
 import ButtonCommon from "@/src/components/common/button"
 import Case01 from "media/home/casestudy/Vifty.webp"
 import Case02 from "media/home/casestudy/SoulScribe.webp"
-import Case03 from "media/home/casestudy/ReadyApp.webp"
-import Logo01 from "media/app-marketing/case-studies/icon-1.svg"
-import Logo02 from "media/home/casestudy/SoulScribeLogo.webp"
-import Logo03 from "media/home/casestudy/ReadyAppLogo.webp"
-import Image from "next/image"
-import { ArrowIcon, ServiceArrow } from "@/src/app/app-constants";
-import Link from "next/link";
+import { ServiceArrow } from "@/src/app/app-constants";
 
 const options = { align: 'start', loop: "true" }
 
 const data = {
     subtitle: "Case Studies",
-    title: "Our Results Speak Louder Than Words",
-    content: "Work with one of the leading app marketing companies to take your app to the next level. Our mobile app advertising agency specializes in creating tailored strategies that boost app visibility, attract the right users, and drive long-term engagement. Let us help you grow and succeed in a highly competitive market with proven app marketing solutions."
+    title: "Our App Marketing Success Stories",
+    content: "BitsWits app marketing success stories showcase how our strategies as a leading mobile app advertising agency drive user acquisition, boost engagement, and deliver measurable growth—setting us apart among top app marketing companies."
 }
 
 
 const caseStudies = [
     {
-        title: "Single’s Up",
-        roi: "+1000% Increase in ROI",
-        description: "Our mobile campaign generated a 10x ROI, positioning Single’s Up as the leading app in its category and driving exceptional growth.",
-        image: "/media/home/casestudy/Vifty.webp",
-    },
-    {
         title: "Vifty",
+        roi: "+1000% Increase in ROI",
+        description: "BitsWits developed Vifty, a multi-functional platform allowing users to list gigs, book online consultations, and interact socially. The app includes reels, a booking module, rating and review systems, video calling, and one-to-one chat. Vifty also supports social posts and external sharing for enhanced user engagement.",
+        image: Case01.src,
+    },
+    {
+        title: "SoulScribe",
         roi: "+50% Increase in Vifty's Key KPIs",
-        description: "We scaled Vifty’s user acquisition while maintaining low costs, resulting in a 50% growth in key performance indicators across targeted regions.",
-        image: "/media/home/casestudy/Vifty.webp",
-    },
-    {
-        title: "HomePro",
-        roi: "+75% Increase in Downloads",
-        description: "Through targeted ASO and user acquisition strategies, HomePro increased downloads by 75%, significantly expanding its audience and user engagement.",
-        image: "/media/home/casestudy/Vifty.webp",
-    },
-    {
-        title: "Soul Scribe",
-        roi: "Doubles Its User Base by 100%",
-        description: "Our optimized marketing efforts doubled Soul Scribe’s active users, improving app performance and increasing overall user satisfaction by 100%.",
-        image: "/media/home/casestudy/SoulScribe.webp",
-    },
-    {
-        title: "NutriSnap",
-        roi: "Boosts by 200% in Six Months",
-        description: "BitsWits scaled NutriSnap from 50,000 to 150,000 users in six months, increasing revenue by 150% and driving significant app growth.",
-        image: "/media/home/casestudy/ReadyApp.webp",
-    },
-    {
-        title: "Combat",
-        roi: "Grows Active User Base by 40%",
-        description: "We improved Combat’s user retention strategies, leading to a 40% increase in active users and enhanced overall app performance.",
-        image: "/media/home/casestudy/Vifty.webp",
-    },
-    {
-        title: "Route Rover",
-        roi: "Achieves 90% ROI with Targeted Media Campaign",
-        description: "Our strategic media campaign delivered a 90% return on investment, driving Route Rover’s user acquisition growth and improving app performance significantly.",
-        image: "/media/home/casestudy/Vifty.webp",
-    },
+        description: "SoulScribe is a social media platform where users manage posts, maintain memory journals with beneficiaries, and connect with friends.BitsWits integrated features like search and filter, in-app messaging, group management, and social interactions, making it a comprehensive tool for personal journaling and building meaningful connections.",
+        image: Case02.src,
+    }
 ];
 
 
@@ -99,7 +63,7 @@ const Casestudies = () => {
                                 <div className={styles.embla__container}>
                                     {caseStudies.map((study, index) => (
                                         <div className={styles.embla__slide} key={index}>
-                                            <div className={styles.casestudyBox} style={{ backgroundImage: `url(${Case01.src})` }}>
+                                            <div className={styles.casestudyBox} style={{ backgroundImage: `url(${study.image})` }}>
                                                 <div className={styles.casestudyContent} >
                                                     <div className={styles.casestudyTxt}>
                                                         <div className={styles.logoSec}>
@@ -109,11 +73,6 @@ const Casestudies = () => {
                                                         <div className={styles.casestudyPara}>
                                                             <p>{study.description}</p>
                                                             <div className={styles.btnSec}>
-                                                                {/* <ul>
-                                                                    {study.services.map((service, idx) => (
-                                                                        <li key={idx}>{service}</li>
-                                                                    ))}
-                                                                </ul> */}
                                                                 <ButtonCommon txt="Let's Discuss" color={true} />
                                                             </div>
                                                         </div>

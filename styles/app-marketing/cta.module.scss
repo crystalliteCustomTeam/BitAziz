@@ -9,14 +9,12 @@
     height: 420px;
     border-radius: 20px;
     display: flex;
-    // align-items: center;
     justify-content: space-around;
-    padding: 30px 30px;
+    padding: 50px;
     background-repeat: no-repeat;
     background-position: center right;
     background-size: contain;
     position: relative;
-    padding: 100px 80px;
 
     &::before {
       content: "";
@@ -41,7 +39,12 @@
       h4 {
         font-weight: 400;
         font-size: 32px;
-        line-height: 56px;
+        line-height: 45px;
+
+        span {
+          font-weight: 700;
+          font-size: 40px;
+        }
       }
 
       h4,

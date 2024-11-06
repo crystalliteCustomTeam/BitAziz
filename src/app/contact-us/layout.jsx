@@ -2,11 +2,11 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Contact US | BitsWits",
+    title: "Contact Us | BitsWits",
     description: "Fill out the form if you are interested in app development services. 12 years in app development and 150+ experts on board.",
     //===== OG Tags =====
     openGraph: {
-        title: "Contact US | BitsWits",
+        title: "Contact Us | BitsWits",
         description: "Fill out the form if you are interested in app development services. 12 years in app development and 150+ experts on board.",
         url: '/contact-us',
         siteName: 'BitsWits',

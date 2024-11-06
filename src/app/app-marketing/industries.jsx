@@ -2,18 +2,29 @@
 import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/app-marketing/industries.module.scss"
 import useEmblaCarousel from 'embla-carousel-react'
-import Link from "next/link"
+import AutoScroll from 'embla-carousel-auto-scroll';
 import Image from "next/image"
-// import { ArrowBtn } from "@/src/app/app-constants"
 
 const data = {
-    subTitle: "Our Portfolio",
-    title: "A Showcase of Our Work and Achievements",
-    text: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis nuncRisus interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
+    subTitle: "Industries",
+    title: "Delivering Impact Across Key Sectors",
+    text: "We work across diverse industries, building solutions that increase user engagement, improve performance, and drive growth. Our approach aligns with the specific needs and challenges unique to each sector we serve."
 };
 
-const Industries = ({ slides, options }) => {
-    const [emblaRef] = useEmblaCarousel(options);
+const Industries = ({ slides }) => {
+    const [emblaRef] = useEmblaCarousel(
+        { loop: true, draggable: true },
+        [
+            AutoScroll({
+                delay: 0,
+                speed: 2,
+                playOnInit: true,
+                stopOnMouseEnter: false,
+                stopOnInteraction: false,
+                restartDelay: 0,
+            })
+        ]
+    );
 
     return (
         <section className={`${styles.industriesSection} p-100`} id="process">
@@ -35,8 +46,6 @@ const Industries = ({ slides, options }) => {
                                     <h3>
                                         {item.title}
                                     </h3>
-                                    <p>{item.txt}</p>
-                                    {/* <Link href={item.url}><ArrowBtn /></Link> */}
                                     <Image src={item.Img} alt={item.title} fill />
                                 </div>
                             </div>

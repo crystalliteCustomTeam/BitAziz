@@ -14,9 +14,9 @@ import Img8 from "media/website-development-services/portfolio/portfolio-img-8.w
 import Image from "next/image";
 
 const data = {
-    subTitle: "Our Portfolio",
-    title: "A Showcase of Our Work and Achievements",
-    text: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis nuncRisus interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
+    subTitle: "Industries",
+    title: "Delivering Impact Across Key Sectors",
+    text: "We work across diverse industries, building solutions that increase user engagement, improve performance, and drive growth. Our approach aligns with the specific needs and challenges unique to each sector we serve."
 };
 
 const tabs = [
@@ -118,7 +118,7 @@ const Portfolio = () => {
         const handleResize = () => {
             if (window.innerWidth <= 600) {
                 setIsSliderActive(true);
-            } 
+            }
         };
         handleResize();
         window.addEventListener("resize", handleResize);
