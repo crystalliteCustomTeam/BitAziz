@@ -84,7 +84,7 @@ const Casestudies = () => {
 
                                 </div>
                             </div>
-                            <div className="embla_container">
+                            <div className="embla_container d-lg-none ">
                                 <div className="embla_prev" onClick={prevButtonHandler}>
                                     <ServiceArrow direction="prev" />
                                 </div>
