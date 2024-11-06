@@ -1,5 +1,6 @@
 .processSec {
     font-family: "Poppins", sans-serif;
+
     .processBox {
         flex-wrap: wrap;
         display: flex;
@@ -148,7 +149,8 @@
                 .viewLinks {
                     line-height: 60px;
 
-                    a {
+                    a,
+                    div {
                         font-size: 17px;
                         font-weight: 500;
 
@@ -204,7 +206,8 @@
                 .viewLinks {
                     line-height: 60px;
 
-                    a {
+                    a,
+                    div {
                         font-size: 16px;
                         font-weight: 500;
 
@@ -260,7 +263,8 @@
                 .viewLinks {
                     line-height: 60px;
 
-                    a {
+                    a,
+                    div {
                         font-size: 15px;
                         font-weight: 500;
 
@@ -317,7 +321,8 @@
                 .viewLinks {
                     line-height: 60px;
 
-                    a {
+                    a,
+                    div {
                         font-size: 14px;
 
                         .btnBox {
@@ -373,7 +378,8 @@
                 .viewLinks {
                     line-height: 60px;
 
-                    a {
+                    a,
+                    div {
                         font-size: 14px;
 
                         .btnBox {
@@ -429,7 +435,8 @@
                 .viewLinks {
                     line-height: 60px;
 
-                    a {
+                    a,
+                    div {
                         font-size: 14px;
 
                         .btnBox {

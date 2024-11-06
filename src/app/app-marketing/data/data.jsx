@@ -239,7 +239,7 @@ export const FaqsList = [
         txt: (<p>We work with businesses of all sizes, offering scalable marketing strategies that align with your budget. Our team carefully allocates resources to high-impact areas, making sure your investment translates into growth, whether you’re a startup or a large enterprise.</p>)
     },
     {
-        title: "Can you help improve my app’s visibility on app store if I lack ASO knowledge?",
+        title: "Can you help improve my app’s visibility on app store if i lack ASO knowledge?",
         txt: (<p>Absolutely. With our iOS and Android app marketing services, we handle ASO, from keyword optimization to app descriptions. This improves visibility in stores, helping your app achieve better rankings and reach more users, without any technical input required from you.</p>)
     },
 ]

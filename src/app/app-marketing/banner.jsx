@@ -24,7 +24,7 @@ const Banner = ({ data }) => {
                                 </h1>
 
                                 <p>{data?.content}</p>
-                                <ButtonCommon txt="Call Us Now" />
+                                <ButtonCommon txt="Let’s Discuss!" />
                             </div>
                         </Col>
                         <Col lg={6} md={7} className="m-auto">

@@ -20,7 +20,7 @@ const data = {
 const caseStudies = [
     {
         title: "Vifty",
-        roi: "+1000% Increase in ROI",
+        roi: "+300% Increase in ROI",
         description: "BitsWits developed Vifty, a multi-functional platform allowing users to list gigs, book online consultations, and interact socially. The app includes reels, a booking module, rating and review systems, video calling, and one-to-one chat. Vifty also supports social posts and external sharing for enhanced user engagement.",
         image: Case01.src,
     },
