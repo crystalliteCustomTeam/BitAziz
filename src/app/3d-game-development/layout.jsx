@@ -15,7 +15,11 @@ export const metadata = {
     },
     //===== Canonical =====
     alternates: { canonical: '/3d-game-development-company' },
-
+    //===== No-Index =====
+    robots: {
+        index: false,
+        follow: false,
+    },
 }
 
 
