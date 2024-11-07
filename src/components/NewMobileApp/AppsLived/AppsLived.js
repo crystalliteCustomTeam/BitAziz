@@ -206,7 +206,7 @@ const AppsLived = ({ content, onAnchorClick }) => {
     ]
     return (
         <>
-            <section id='casestudies' ref={sectionRef} className={styles.appStyles}>
+            <section id='portfolio' ref={sectionRef} className={styles.appStyles}>
                 <div className="container">
                     <Row>
                         <Col lg={12}>

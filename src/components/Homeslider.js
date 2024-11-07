@@ -79,7 +79,7 @@ const MySwiperComponent = () => {
   ];
   return (
     <>
-      <section className={`${styles.peace} homvibes newbird`}>
+      <section className={`${styles.peace} homvibes newbird`} id="portfolio">
         <Container>
           <Row>
             <Col xl={12}>

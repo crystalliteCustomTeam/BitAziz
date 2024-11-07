@@ -134,8 +134,8 @@ export const CuttingedgeList = [
         links: "",
     },
     {
-        title: (<>Android App <br />Development </>),
-        txt: "Our experienced Android app developers build fully-functional and high-performance Android apps that deliver an exceptional user experience and provide you with an abundance of resources for customer success.",
+        title: (<>Android Game <br />Development </>),
+        txt: "Our experienced Android game developers build fully-functional and high-performance Android games that keep the users engaged and provide you with an abundance of resources for customer success.",
         links: "",
     },
     {
@@ -237,7 +237,7 @@ export const ProcessTabs = [
         content: {
             heading: "Discovery & Blueprinting",
             description:
-                <>We kick off with a deep dive into your business goals and <Link href='/blog/mobile-app-ideas'>mobile app idea</Link>. Using tools like Miro and Balsamiq, we sketch out the project’s blueprint and identify key user personas. Along with this, we evaluate the <Link href='/blog/mobile-app-development-cost'>app development cost</Link>, ensuring a strategic plan that aligns perfectly with your business vision and sets a solid foundation for your Android app.</> ,
+                <>We kick off with a deep dive into your business goals and <Link href='/blog/mobile-app-ideas'>mobile app idea</Link>. Using tools like Miro and Balsamiq, we sketch out the project’s blueprint and identify key user personas. Along with this, we evaluate the <Link href='/blog/mobile-app-development-cost'>app development cost</Link>, ensuring a strategic plan that aligns perfectly with your business vision and sets a solid foundation for your Android app.</>,
             imgSrc: IMG.src,
         },
     },

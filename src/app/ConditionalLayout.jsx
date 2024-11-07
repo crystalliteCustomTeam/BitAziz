@@ -78,17 +78,18 @@ const isDarkHeader = [
     "/mobile-application-development-services",
     "/lp/mobile-app-development-services",
     "/thank-you",
-    "/blog/"
+    "/blog/",
+    "/lp/mobile-app-development-services"
 ]
 
-const lpHeaderFooterPaths = ["/website-development-services", "/app-marketing"];
+const lpHeaderFooterPaths = ["/website-development-services", "/app-marketing", "/top-mobile-app-developers", "/lp/mobile-app-development-services"];
 
 const ConditionalLayout = ({ children }) => {
     const pathname = usePathname();
     const [isDark, setIsDark] = useState(true);
     const [isLight, setIsLight] = useState(true);
     const [isLpHeaderFooter, setIsLpHeaderFooter] = useState(false);
-    const [useAltStyle, setUseAltStyle] = useState(false);
+
 
     useEffect(() => {
         setIsLight(isLightHeader.includes(pathname) || pathname.startsWith('/case-studies/'));
@@ -107,11 +108,9 @@ const ConditionalLayout = ({ children }) => {
     }, [pathname]);
     return (
         <>
-            {!isLpHeaderFooter && <Header isLightHeader={isDark} isDarkHeader={isLight} />}
-            {isLpHeaderFooter && <LpHeader />}
+            {isLpHeaderFooter ? <LpHeader isLightHeader={isDark} isDarkHeader={isLight} /> : <Header isLightHeader={isDark} isDarkHeader={isLight} />}
             {children}
-            {!isLpHeaderFooter && <Footer />}
-            {isLpHeaderFooter && <LpFooter />}
+            {isLpHeaderFooter ? <LpFooter /> : <Footer />}
         </>
     )
 }

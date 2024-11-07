@@ -47,7 +47,7 @@ const Conviced = ({ content, onAnchorClick }) => {
     };
     return (
         <>
-            <section id='testimonials' className={styles.convicedSec}>
+            <section id='testimonial' className={styles.convicedSec}>
                 <div className="container">
                     <Row>
                         <Col lg={12}>

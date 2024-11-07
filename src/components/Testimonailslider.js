@@ -35,7 +35,7 @@ export default function Testimonailslider() {
 
     return (
         <>
-            <section className={styles.hook} id='testihook'>
+            <section className={styles.hook} id='testimonial'>
                 <div className={styles.first}></div>
                 <Container>
                     <Row className={styles.posting}>

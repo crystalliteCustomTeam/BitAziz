@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
-import { Container, Row, Col } from 'react-bootstrap'; 
+import { Container, Row, Col } from 'react-bootstrap';
 //
 import styles from '@/styles/NewMobileApp/JournyForm.module.css'
 import formImg from 'media/newmobileapp/formImg.png'
@@ -164,7 +164,7 @@ const JournyForm = () => {
 
     return (
         <>
-            <section className={styles.JournyForm}>
+            <section className={styles.JournyForm} id="contact">
                 <Container>
                     <Row>
                         <Col lg={6}>

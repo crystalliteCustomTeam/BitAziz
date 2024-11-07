@@ -22,7 +22,7 @@ const FutureReady = () => {
     };
     return (
         <>
-            <section id='services' className={styles.futureSec}>
+            <section id='services' className={styles.futureSec} >
                 <div className="container">
                     <Row>
                         <Col lg={12}>

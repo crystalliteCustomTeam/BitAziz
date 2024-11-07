@@ -28,7 +28,7 @@ const LpHeader = ({ isDarkHeader, isLightHeader }) => {
                 <Row className="h-100">
                     <Col md={3} xs={6} sm={6} className="m-auto">
                         <div className={styles.headerLogo}>
-                            <Link href="/"  >
+                            <Link href="#">
                                 {!scrolled ? (
                                     isLightHeader ? <MainLogo /> : <WhiteLogo />
                                 ) : (
@@ -37,7 +37,7 @@ const LpHeader = ({ isDarkHeader, isLightHeader }) => {
                             </Link>
                         </div>
                         <div className={styles.headermobileLogo}>
-                            <Link href="/" >
+                            <Link href="#" >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     x="0"

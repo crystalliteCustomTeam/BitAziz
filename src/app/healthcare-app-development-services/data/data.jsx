@@ -438,7 +438,7 @@ export const OffersTabs = [
 
 export const FuelingContent1 = {
     title: "Benefits of Building a Healthcare App",
-     text: "Creating a healthcare app through our development services offers significant advantages, from enhanced patient care to operational efficiencies.",
+    text: "Creating a healthcare app through our development services offers significant advantages, from enhanced patient care to operational efficiencies.",
     FuelingImg1: FuelingImg1.src
 }
 

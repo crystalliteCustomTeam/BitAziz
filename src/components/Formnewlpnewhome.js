@@ -19,7 +19,7 @@ const Formnewlpnewhome = () => {
     const [score, setScore] = useState('Submit');
 
     // Creating function to load IP address from the API
- 
+
     const getIPData = async () => {
         try {
             const response = await fetch('https://ipinfo.io/?token=229b1c3fa2e54c');
@@ -162,7 +162,7 @@ const Formnewlpnewhome = () => {
 
     return (
         <>
-            <section className={styles.team} id='lastform'>
+            <section className={styles.team} id='contact'>
                 <Container>
                     <Row className='align-items-center gy-5'>
                         <Col xl={6}>

@@ -23,7 +23,7 @@ import { usePathname } from "next/navigation"
 
 const Headerlphome = () => {
     const [show, setShow] = useState('tab1');
-    function fun1(tab){
+    function fun1(tab) {
         setShow(tab);
     }
     const [ip, setIP] = useState('');
@@ -32,7 +32,7 @@ const Headerlphome = () => {
     const [score, setScore] = useState('Submit');
 
     // Creating function to load IP address from the API
- 
+
     const getIPData = async () => {
         try {
             const response = await fetch('https://ipinfo.io/?token=229b1c3fa2e54c');

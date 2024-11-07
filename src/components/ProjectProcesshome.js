@@ -10,7 +10,7 @@ const ProjectProcesshome = (props) => {
 
     return (
         <>
-            <section className={styles[props.processclass]}>
+            <section className={styles[props.processclass]} id="process">
                 <Container>
                     <Row>
                         <Col>
