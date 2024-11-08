@@ -241,6 +241,11 @@ const Footer = () => {
                                     </div>
                                 </div>
                                 <div className={styles.footerSocialListing}>
+
+                                    <div className={styles.mailContact}>
+                                        <a href="mailto:info@bitswits.co">info@bitswits.co</a>
+                                        <a href="tel:+1 833 500 6007">+1 833 500 6007</a>
+                                    </div>
                                     <div className={styles.linksItem}>
                                         <ul>
                                             {SocailLinks.map((item, index) => (

@@ -1,5 +1,6 @@
 .footerSection {
     font-family: "Poppins", sans-serif;
+
     .footerMainBox {
         display: flex;
         justify-content: space-between;
@@ -73,7 +74,7 @@
     .footerLocationBox {
         margin-top: 30px;
         display: flex;
-        align-items: center;
+        align-items: flex-end;
 
         h6 {
             font-weight: 600;
@@ -120,9 +121,12 @@
 
         .footerSocialListing {
             flex: 0 0 25%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
 
             .linksItem {
-                height: 90px;
+                height: auto;
 
                 ul {
                     display: flex;
@@ -131,9 +135,10 @@
                     height: 100%;
                     padding: 0px;
                     margin: 0px;
+                    gap: 25px;
 
                     li {
-                        width: 50px;
+                        width: auto;
                         display: flex;
                         justify-content: center;
                         transition: .3s linear;
@@ -143,6 +148,7 @@
 
                             a {
                                 text-transform: capitalize;
+
                                 svg {
                                     path {
                                         fill: #F32FAF;
@@ -153,6 +159,35 @@
                     }
                 }
             }
+
+            .mailContact {
+                display: flex;
+                align-items: flex-end;
+                margin-bottom: 10px;
+
+                a {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 24px;
+                    letter-spacing: -0.165px;
+                    color: rgb(255, 255, 255, 0.6);
+                    transition: .3s linear;
+                    border-right: 1px solid rgba(255, 255, 255, 0.2);
+                    padding: 0px 10px;
+
+                    &:hover {
+                        color: #F32FAF;
+                        transition: .3s linear;
+                    }
+
+                    &:last-child {
+                        border: 0px;
+                        padding-right: 0px;
+                    }
+                }
+
+            }
+
         }
     }
 
@@ -211,12 +246,23 @@
                 flex: 0 0 25%;
 
                 .linksItem {
-                    height: 90px;
 
                     ul {
                         li {
-                            width: 50px;
+                            a {
+                                svg {
+                                    height: 24px;
+                                    width: auto;
+                                }
+                            }
                         }
+                    }
+                }
+
+                .mailContact {
+                    a {
+                        font-size: 14px;
+                        line-height: 24px;
                     }
                 }
             }
@@ -278,12 +324,23 @@
                 flex: 0 0 25%;
 
                 .linksItem {
-                    height: 90px;
 
                     ul {
                         li {
-                            width: 50px;
+                            a {
+                                svg {
+                                    height: 22px;
+                                    width: auto;
+                                }
+                            }
                         }
+                    }
+                }
+
+                .mailContact {
+                    a {
+                        font-size: 14px;
+                        line-height: 24px;
                     }
                 }
             }
@@ -344,12 +401,24 @@
                 flex: 0 0 25%;
 
                 .linksItem {
-                    height: 90px;
 
                     ul {
                         li {
-                            width: 50px;
+                            a {
+                                svg {
+                                    height: 20px;
+                                    width: auto;
+                                }
+                            }
                         }
+                    }
+                }
+
+                .mailContact {
+                    a {
+                        padding: 0px 8px;
+                        font-size: 13px;
+                        line-height: 24px;
                     }
                 }
             }
@@ -410,17 +479,24 @@
                 flex: 0 0 25%;
 
                 .linksItem {
-                    height: 75px;
 
                     ul {
                         li {
-                            width: 40px;
-
-                            svg {
-                                width: auto;
-                                height: 20px;
+                            a {
+                                svg {
+                                    height: 18px;
+                                    width: auto;
+                                }
                             }
                         }
+                    }
+                }
+
+                .mailContact {
+                    a {
+                        padding: 0px 7px;
+                        font-size: 13px;
+                        line-height: 24px;
                     }
                 }
             }
@@ -489,20 +565,32 @@
 
             .footerSocialListing {
                 flex: 0 0 100%;
+                align-items: flex-start;
 
                 .linksItem {
-                    height: 45px;
 
                     ul {
-                        justify-content: flex-start;
-
                         li {
-                            width: 40px;
-
-                            svg {
-                                width: auto;
-                                height: 20px;
+                            a {
+                                svg {
+                                    height: 20px;
+                                    width: auto;
+                                }
                             }
+                        }
+                    }
+                }
+
+                .mailContact {
+                    margin-top: 30px;
+
+                    a {
+                        padding: 0px 10px;
+                        font-size: 13px;
+                        line-height: 24px;
+
+                        &:first-child {
+                            padding-left: 0px;
                         }
                     }
                 }
@@ -575,20 +663,32 @@
 
             .footerSocialListing {
                 flex: 0 0 100%;
+                align-items: flex-start;
 
                 .linksItem {
-                    height: 45px;
 
                     ul {
-                        justify-content: flex-start;
-
                         li {
-                            width: 40px;
-
-                            svg {
-                                width: auto;
-                                height: 20px;
+                            a {
+                                svg {
+                                    height: 20px;
+                                    width: auto;
+                                }
                             }
+                        }
+                    }
+                }
+
+                .mailContact {
+                    margin-top: 20px;
+
+                    a {
+                        padding: 0px 10px;
+                        font-size: 13px;
+                        line-height: 24px;
+
+                        &:first-child {
+                            padding-left: 0px;
                         }
                     }
                 }
