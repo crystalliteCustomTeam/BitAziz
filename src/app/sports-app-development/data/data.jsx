@@ -95,7 +95,6 @@ import Logistics from "media/services/industry/Logistics.webp";
 import BlogsIMG01 from "media/services/blogs/post-1.webp"
 import BlogsIMG02 from "media/services/blogs/post-2.webp"
 import BlogsIMG03 from "media/services/blogs/post-3.webp"
-import Link from "next/link";
 
 
 export const BannerData = {
@@ -112,7 +111,7 @@ export const IndustryServiceContent = {
 export const IndustryServiceList = [
     {
         title: (<>Sports Training <br />App Development</>),
-        txt: "We develop interactive sports training apps for iOS and Android that enhance athlete performance through video analysis, tracking, and personalized programs using cutting-edge sports software development",
+        txt: "We develop best sports training apps for iOS and Android that enhance athlete performance through tracking, and personalized programs using high-end sports software.",
     },
     {
         title: (<>Sports Live Streaming<br />App Development</>),
