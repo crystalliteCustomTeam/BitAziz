@@ -1,16 +1,16 @@
 
 // Bannar Images
 import BannerLogos from "media/mobile-game-development-company/bannerLogo.webp"
-import BannerBg from "media/mobile-game-development-company/bannerIMG.webp"
+import BannerBg from "media/3d-game/bannerIMG.webp"
 
 // services Images
-import GameBg1 from "media/mobile-game-development-company/services/GameBg01.webp"
-import GameBg2 from "media/mobile-game-development-company/services/GameBg02.webp"
-import GameBg3 from "media/mobile-game-development-company/services/GameBg03.webp"
-import GameBg4 from "media/mobile-game-development-company/services/GameBg04.webp"
-import GameBg5 from "media/mobile-game-development-company/services/GameBg05.webp"
-import GameBg6 from "media/mobile-game-development-company/services/GameBg06.webp"
-import GameBg7 from "media/mobile-game-development-company/services/GameBg07.webp"
+import GameBg1 from "media/3d-game/services/GameBg01.webp"
+import GameBg2 from "media/3d-game/services/GameBg02.webp"
+import GameBg3 from "media/3d-game/services/GameBg03.webp"
+import GameBg4 from "media/3d-game/services/GameBg04.webp"
+import GameBg5 from "media/3d-game/services/GameBg05.webp"
+import GameBg6 from "media/3d-game/services/GameBg06.webp"
+
 
 //========= Testimonial Images
 import TestiImg1 from "media/services/reviwes/trustpilot.webp"
@@ -23,14 +23,14 @@ import MauryoJones from "media/services/reviwes/MauryoJones.webp"
 import KateBullock from "media/services/reviwes/KateBullock.webp"
 
 //========= Process Images
-import ProcessIMG from "media/services/process/tab01.webp"
+import ProcessIMG from "media/3d-game/img.webp"
 
 //========= WhyChoose Images
-import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } from "@/src/app/app-constants"
+import { GameIcon01, GameIcon02, GameIcon03, GameIcon04 } from "@/src/app/app-constants"
 
 //========= ContentSec Images
-import ContentSecIMG1 from "media/mobile-game-development-company/imgContent1.webp"
-import ContentSecIMG2 from "media/mobile-game-development-company/imgContent2.webp"
+import ContentSecIMG1 from "media/3d-game/imgContent1.webp"
+import ContentSecIMG2 from "media/3d-game/imgContent2.webp"
 
 //========= TechStack Images
 import TAB1_1 from "media/services/tech/tab1/01.webp";
@@ -86,6 +86,7 @@ export const BannerData = {
     content: "BitsWits is a premium-grade 3D game development company that creates immersive 3D games for PC, consoles, mobile, and VR/AR. Utilizing Unity and Unreal Engine, our results-driven 3D game development services ensure exceptional visuals and implement monetization strategies to boost engagement and drive ROI by 30%.",
     BannerLogos: BannerLogos.src,
     BannerBg: BannerBg.src,
+    ImgBanner: "yes"
 }
 
 export const ProjectdiscussContent = {
@@ -278,12 +279,12 @@ export const WhyChooseContent = {
 
 export const WhyChooseList1 = [
     {
-        Icon: <WhyChooseIcon03 />,
+        Icon: <GameIcon03 />,
         title: (<>On-Time <br />Delivery</>),
         description: "As a leading 3D game development company, we promise timely delivery, ensuring your game hits the market without delays",
     },
     {
-        Icon: <WhyChooseIcon01 />,
+        Icon: <GameIcon01 />,
         title: (<>Expertise of 100+ <br />Professionals</>),
         description: "We have a team of 100+ skilled 3D game developers with expertise in game engines like Unity, Unreal Engine, Phaser, and Maya",
     }
@@ -291,12 +292,12 @@ export const WhyChooseList1 = [
 
 export const WhyChooseList2 = [
     {
-        Icon: <WhyChooseIcon04 />,
+        Icon: <GameIcon04 />,
         title: (<>Client-First<br />Approach</>),
         description: "We follow an agile process with a client-first approach, adapting to your needs and prioritizing your vision.",
     },
     {
-        Icon: <WhyChooseIcon02 />,
+        Icon: <GameIcon02 />,
         title: (<>Consistent<br /> Support</>),
         description: "We offer a holistic approach to 3D game development, providing consistent testing and support for a flawless gaming experience.",
     }

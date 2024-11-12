@@ -1,18 +1,19 @@
 
 
 // Bannar Images
-import BannerBg from "media/industry/health/bgBanner.webp";
+import BannerBg from "media/industry/sports/bgBanner.webp";
 
 // IndustryCta Images
-import IndustryCtaImg from "media/industry/health/ctaImage.webp"
+import IndustryCtaImg from "media/industry/sports/ctaImage.webp"
 
 // Location Images
-import IndustrySliderIMG01 from "media/industry/health/industry/Industry01.webp"
-import IndustrySliderIMG02 from "media/industry/health/industry/Industry02.webp"
-import IndustrySliderIMG03 from "media/industry/health/industry/Industry03.webp"
-import IndustrySliderIMG04 from "media/industry/health/industry/Industry04.webp"
-import IndustrySliderIMG05 from "media/industry/health/industry/Industry05.webp"
-import IndustrySliderIMG06 from "media/industry/health/industry/Industry06.webp"
+import IndustrySliderIMG01 from "media/industry/sports/industry/Industry01.webp"
+import IndustrySliderIMG02 from "media/industry/sports/industry/Industry02.webp"
+import IndustrySliderIMG03 from "media/industry/sports/industry/Industry03.webp"
+import IndustrySliderIMG04 from "media/industry/sports/industry/Industry04.webp"
+import IndustrySliderIMG05 from "media/industry/sports/industry/Industry05.webp"
+import IndustrySliderIMG06 from "media/industry/sports/industry/Industry06.webp"
+import IndustrySliderIMG07 from "media/industry/sports/industry/Industry07.webp"
 
 //========= Technologies Images
 import TechIcon01 from "media/services/tech/1.webp"
@@ -23,13 +24,13 @@ import TechIcon05 from "media/services/tech/5.webp"
 import TechIcon06 from "media/services/tech/6.webp"
 import TechIcon07 from "media/services/tech/7.webp"
 import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/industry/health/techImg.webp"
+import TechImg from "media/industry/sports/techImg.webp"
 
 //========= Process Images
-import IMG from "media/industry/health/processImg.webp"
+import IMG from "media/industry/sports/processImg.webp"
 
 //========= WhyChoose Images
-import { HealthCareIcon01, HealthCareIcon02, HealthCareIcon03, HealthCareIcon04, } from "@/src/app/app-constants"
+import { SportsIcon01, SportsIcon02, SportsIcon03, SportsIcon04, } from "@/src/app/app-constants"
 
 //========= Testimonial Images
 import TestiImg1 from "media/services/reviwes/trustpilot.webp"
@@ -43,7 +44,7 @@ import KateBullock from "media/services/reviwes/KateBullock.webp"
 
 //========= Fueling Images
 import FuelingImg from "media/services/cuttingEdge.webp"
-import FuelingImg1 from "media/industry/health/fuelingImg.webp"
+import FuelingImg1 from "media/industry/sports/fuelingImg.webp"
 
 
 //========= TechStack Images
@@ -179,7 +180,7 @@ export const IndustrySliderList = [
         txt: "Our esports apps provide real-time tournament management, player rankings, and live streaming, enhancing the gaming experience and connecting players with fans through interactive features and community-driven designs."
     },
     {
-        img: IndustrySliderIMG06.src,
+        img: IndustrySliderIMG07.src,
         title: "Athlete Performance Tracking App",
         txt: "Our athlete performance tracking apps provide detailed analytics and personalized training insights, utilizing sports app solutions that support athletes in maximizing their performance and reaching their goals."
     },
@@ -373,12 +374,12 @@ export const WhyChooseContent = {
 
 export const WhyChooseList1 = [
     {
-        Icon: <HealthCareIcon01 />,
+        Icon: <SportsIcon01 />,
         title: (<>Agile Sports <br />Development</>),
         description: "Our agile process ensures quick delivery of sports mobile app development services, adapting to the fast-paced needs of the sports industry.",
     },
     {
-        Icon: <HealthCareIcon02 />,
+        Icon: <SportsIcon02 />,
         title: (<>Skilled Sports <br />App Development</>),
         description: "Our developers specialize in live streaming, performance analytics, and fan engagement tools, using cutting-edge sports technologies and frameworks.",
     },
@@ -386,12 +387,12 @@ export const WhyChooseList1 = [
 
 export const WhyChooseList2 = [
     {
-        Icon: <HealthCareIcon03 />,
+        Icon: <SportsIcon03 />,
         title: (<>Sports Data  <br />Security</>),
         description: "Our sports app development firm builds GDPR-compliant platforms with encrypted communication to protect data for athletes and fans.",
     },
     {
-        Icon: <HealthCareIcon04 />,
+        Icon: <SportsIcon04 />,
         title: (<>Proven Track <br />Record</>),
         description: "We’ve delivered successful apps that help teams and fitness brands grow, increase engagement, and improve athletic performance.",
     }
@@ -867,7 +868,8 @@ export const BlogsList = [
         img: BlogsIMG01.src,
         links: "https://www.bitswits.co/blog/mobile-app-development-cost",
         date: "August 29,2024"
-    }, {
+    },
+    {
         title: "Most Popular Mobile App Development Frameworks",
         txt: "You know how people are glued to their phones these days? Apps are like, everywhere. From booking a cab to buying movie tickets, chatting with friends, and nearly everything else in between, we just can’t do without apps.",
         cat: "Mobile App Development",

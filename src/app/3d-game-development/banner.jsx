@@ -22,10 +22,14 @@ const Banner = ({ data }) => {
                     </Col>
                 </Row>
             </Container>
-            <video autoPlay muted loop preload="auto" aria-label="Background video" className={styles.bannerVideo}>
-                <source src='/videos/gameBannerVideo.mp4' type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
+            {data.ImgBanner ?
+                <Image src={data.BannerBg} alt={data?.title} fill className={styles.bannerVideo} />
+                :
+                <video autoPlay muted loop preload="auto" aria-label="Background video" className={styles.bannerVideo}>
+                    <source src='/videos/gameBannerVideo.mp4' type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            }
         </section>
     )
 }

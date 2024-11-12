@@ -18,7 +18,7 @@ const Fueling = ({ data, list, bgWhite }) => {
                                 <>
                                     <ButtonCommon txt="Free Consultation" />
                                     <div className={styles.fuelingImg}>
-                                        <Image src={data?.FuelingImg1} alt="Bitswits Services" width={1140} height={985} />
+                                        <Image src={data?.FuelingImg1} alt="Bitswits Services" width={610} height={520} />
                                     </div>
                                 </>
                                 :
