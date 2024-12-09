@@ -90,56 +90,56 @@ const IndustriesMenu = [
         url: "/taxi-app-development-company",
     },
 ]
-const LocationsMenu = [
-    {
-        title: "Austin",
-        url: "/app-development-austin",
-    },
-    {
-        title: "Chicago",
-        url: "/app-development-chicago",
-    },
-    {
-        title: "Dallas",
-        url: "/mobile-app-development-company-dallas",
-    },
-    {
-        title: "Denver",
-        url: "/mobile-app-development-company-denver",
-    },
-    {
-        title: "Dubai",
-        url: "/mobile-app-development-company-dubai",
-    },
-    {
-        title: "Florida",
-        url: "/app-development-florida",
-    },
-    {
-        title: "Miami",
-        url: "/mobile-app-development-company-miami",
-    },
-    {
-        title: "New York",
-        url: "/app-development-company-new-york",
-    },
-    {
-        title: "Saudi Arabia",
-        url: "/mobile-app-development-company-saudi-arabia",
-    }, {
-        title: "Toronto",
-        url: "/app-development-company-toronto",
-    },
-    {
-        title: "Washington DC",
-        url: "/app-development-company-washington-dc",
-    },
-    {
-        title: "Houston",
-        url: "/app-development-houston",
-    },
+// const LocationsMenu = [
+//     // {
+//     //     title: "Austin",
+//     //     url: "/app-development-austin",
+//     // },
+//     // {
+//     //     title: "Chicago",
+//     //     url: "/app-development-chicago",
+//     // },
+//     // {
+//     //     title: "Dallas",
+//     //     url: "/mobile-app-development-company-dallas",
+//     // },
+//     // {
+//     //     title: "Denver",
+//     //     url: "/mobile-app-development-company-denver",
+//     // },
+//     {
+//         title: "Dubai",
+//         url: "/mobile-app-development-company-dubai",
+//     },
+//     // {
+//     //     title: "Florida",
+//     //     url: "/app-development-florida",
+//     // },
+//     // {
+//     //     title: "Miami",
+//     //     url: "/mobile-app-development-company-miami",
+//     // },
+//     // {
+//     //     title: "New York",
+//     //     url: "/app-development-company-new-york",
+//     // },
+//     // {
+//     //     title: "Saudi Arabia",
+//     //     url: "/mobile-app-development-company-saudi-arabia",
+//     // }, {
+//     //     title: "Toronto",
+//     //     url: "/app-development-company-toronto",
+//     // },
+//     // {
+//     //     title: "Washington DC",
+//     //     url: "/app-development-company-washington-dc",
+//     // },
+//     {
+//         title: "Houston",
+//         url: "/app-development-houston",
+//     },
 
-]
+// ]
 const MainLinks = [
     {
         title: "Portfolio",
@@ -228,7 +228,7 @@ const Footer = () => {
                                 </div>
                             </div>
                             <div className={styles.footerLocationBox}>
-                                <div className={styles.footerLocListing}>
+                                {/* <div className={styles.footerLocListing}>
                                     <div className={styles.linksItem}>
                                         <h6>Location</h6>
                                         <ul>
@@ -239,7 +239,7 @@ const Footer = () => {
                                             ))}
                                         </ul>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className={styles.footerSocialListing}>
 
                                     <div className={styles.mailContact}>

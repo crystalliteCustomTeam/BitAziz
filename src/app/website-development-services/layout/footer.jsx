@@ -1,5 +1,5 @@
 import CopyRight from "@/src/app/layout/copyright"
-import Location from "@/src/app/services/location";
+import Location from "@/src/app/services/locationServices";
 
 
 const LpFooter = () => {

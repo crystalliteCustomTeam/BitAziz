@@ -83,18 +83,21 @@ const isDarkHeader = [
 ]
 
 const lpHeaderFooterPaths = ["/website-development-services", "/app-marketing", "/top-mobile-app-developers", "/lp/mobile-app-development-services"];
+const locationsFooterPaths = ["/app-development-austin", "/app-development-chicago", "/mobile-app-development-company-dallas", "/mobile-app-development-company-denver","/mobile-app-development-company-dubai","/app-development-florida","/mobile-app-development-company-miami","/app-development-company-new-york","/mobile-app-development-company-saudi-arabia","/app-development-company-toronto","/app-development-company-washington-dc","/app-development-houston"];
 
 const ConditionalLayout = ({ children }) => {
     const pathname = usePathname();
     const [isDark, setIsDark] = useState(true);
     const [isLight, setIsLight] = useState(true);
     const [isLpHeaderFooter, setIsLpHeaderFooter] = useState(false);
+    const [islocationsFooter, setIslocationsFooter] = useState(false);
 
 
     useEffect(() => {
         setIsLight(isLightHeader.includes(pathname) || pathname.startsWith('/case-studies/'));
         setIsDark(isDarkHeader.includes(pathname) || pathname.startsWith('/blog/'));
         setIsLpHeaderFooter(lpHeaderFooterPaths.includes(pathname));
+        setIslocationsFooter(locationsFooterPaths.includes(pathname));
 
         if (typeof window !== 'undefined') {
             const pathname = window.location.pathname;
@@ -110,7 +113,7 @@ const ConditionalLayout = ({ children }) => {
         <>
             {isLpHeaderFooter ? <LpHeader isLightHeader={isDark} isDarkHeader={isLight} /> : <Header isLightHeader={isDark} isDarkHeader={isLight} />}
             {children}
-            {isLpHeaderFooter ? <LpFooter /> : <Footer />}
+            {isLpHeaderFooter || islocationsFooter ? <LpFooter /> : <Footer />}
         </>
     )
 }

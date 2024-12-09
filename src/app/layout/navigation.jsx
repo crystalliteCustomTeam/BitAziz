@@ -128,9 +128,6 @@ const Navigation = ({ isDarkHeader, isLightHeader, scrolled }) => {
                 <li>
                     <Link href="/">Home</Link>
                 </li>
-                <li >
-                    <Link href="/about-us" >About</Link>
-                </li>
                 <li className={styles.subMenu}>
                     <Link href="#">Services</Link>
                     <div className={styles.submenuContainer}>
@@ -163,6 +160,9 @@ const Navigation = ({ isDarkHeader, isLightHeader, scrolled }) => {
                         </Container>
 
                     </div>
+                </li>
+                <li >
+                    <Link href="/about-us" >About</Link>
                 </li>
                 <li>
                     <Link href="/blog">Blog</Link>
