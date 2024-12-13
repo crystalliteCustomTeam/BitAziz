@@ -190,6 +190,125 @@
 
         }
     }
+    .footerLocationBoxNew {
+        margin-top: 30px;
+        display: flex;
+        align-items: flex-end;
+
+        h6 {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 16px;
+            letter-spacing: -0.165px;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+        }
+
+        .footerLocListing {
+            flex: 0 0 75%;
+
+            .linksItem {
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding: 0px;
+                    margin: 0px;
+
+                    li {
+                        flex: 0 0 16.66%;
+                        margin-bottom: 10px;
+
+                        a {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 24px;
+                            letter-spacing: -0.165px;
+                            color: rgb(255, 255, 255, 0.6);
+                            transition: .3s linear;
+                            text-transform: capitalize;
+
+                            &:hover {
+                                color: #F32FAF;
+                                transition: .3s linear;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+
+        .footerSocialListing {
+            flex: 0 0 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+
+            .linksItem {
+                height: auto;
+
+                ul {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: flex-end;
+                    height: 100%;
+                    padding: 0px;
+                    margin: 0px;
+                    gap: 25px;
+
+                    li {
+                        width: auto;
+                        display: flex;
+                        justify-content: center;
+                        transition: .3s linear;
+
+                        &:hover {
+                            transition: .3s linear;
+
+                            a {
+                                text-transform: capitalize;
+
+                                svg {
+                                    path {
+                                        fill: #F32FAF;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .mailContact {
+                display: flex;
+                align-items: flex-end;
+                margin-bottom: 10px;
+
+                a {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 24px;
+                    letter-spacing: -0.165px;
+                    color: rgb(255, 255, 255, 0.6);
+                    transition: .3s linear;
+                    border-right: 1px solid rgba(255, 255, 255, 0.2);
+                    padding: 0px 10px;
+
+                    &:hover {
+                        color: #F32FAF;
+                        transition: .3s linear;
+                    }
+
+                    &:last-child {
+                        border: 0px;
+                        padding-right: 0px;
+                    }
+                }
+
+            }
+
+        }
+    }
 
 }
 
@@ -244,6 +363,57 @@
 
             .footerSocialListing {
                 flex: 0 0 100%;
+
+                .linksItem {
+
+                    ul {
+                        li {
+                            a {
+                                svg {
+                                    height: 24px;
+                                    width: auto;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .mailContact {
+                    a {
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+        .footerLocationBoxNew {
+            margin-top: 30px;
+
+            h6 {
+                font-size: 20px;
+                line-height: 16px;
+                margin-bottom: 20px;
+            }
+
+            .footerLocListing {
+                flex: 0 0 75%;
+
+                .linksItem {
+                    ul {
+                        li {
+                            margin-bottom: 10px;
+
+                            a {
+                                font-size: 14px;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .footerSocialListing {
+                flex: 0 0 20%;
 
                 .linksItem {
 

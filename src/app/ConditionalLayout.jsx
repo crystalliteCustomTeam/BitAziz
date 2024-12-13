@@ -8,6 +8,7 @@ import "@/src/app/globals.scss" // custom global scss
 import "@/styles/globals.css" // custom global css
 import LpHeader from "./website-development-services/layout/header"
 import LpFooter from "./website-development-services/layout/footer"
+import LcFooter from "@/src/components/LocationsFooter"
 
 const styleChange = [
   "/",
@@ -110,6 +111,19 @@ const ConditionalLayout = ({ children }) => {
   const [isLpHeaderFooter, setIsLpHeaderFooter] = useState(false)
   const [islocationsFooter, setIslocationsFooter] = useState(false)
 
+  // Footers Manage For Default , LPs & Locations
+  const footerMapping = {
+    islocationsFooter: <LcFooter />,
+    isLpHeaderFooter: <LpFooter />,
+    default: <Footer />,
+  }
+  // Footers Manage For Default , LPs & Locations
+  const footerComponent = islocationsFooter
+    ? footerMapping.islocationsFooter
+    : isLpHeaderFooter
+    ? footerMapping.isLpHeaderFooter
+    : footerMapping.default
+
   useEffect(() => {
     setIsLight(
       isLightHeader.includes(pathname) || pathname.startsWith("/case-studies/")
@@ -136,7 +150,8 @@ const ConditionalLayout = ({ children }) => {
         <Header isLightHeader={isDark} isDarkHeader={isLight} />
       )}
       {children}
-      {isLpHeaderFooter || islocationsFooter ? <LpFooter /> : <Footer />}
+      
+      {footerComponent}
     </>
   )
 }
