@@ -143,77 +143,6 @@ export default function HybridMobile() {
       ],
     },
   ]
-
-  const faqData = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "What platforms does Flutter support?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Flutter supports multiple platforms, including iOS, Android, web, and desktop (Windows, macOS, and Linux). Flutter app development enables developers to build cross-platform apps using a single codebase, reducing development time and ensuring consistent user experiences across devices.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Can existing apps integrate with Flutter?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: 'Yes, Flutter can be integrated into existing apps using its "Add-to-App" feature. Flutter for mobile app development allows developers to gradually incorporate Flutter modules into native applications, enhancing functionality without needing a complete rewrite.',
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How does Flutter ensure app performance?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Flutter delivers high performance by using a single codebase for all platforms and compiling directly to native code. Its rendering engine, combined with efficient architecture, ensures smooth animations and fast execution.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Is Flutter suitable for enterprise-level apps?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes, Flutter is suitable for enterprise-level apps. It provides robust features, excellent performance, and the ability to create scalable and secure applications, making it a popular choice for businesses of all sizes.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Which company does Flutter belong to?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Flutter is an open-source framework developed and supported by Google.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How much does Flutter app builder cost?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "The cost of building a Flutter app varies widely, typically ranging from $15,000 to $200,000, based on the project’s complexity and requirements. Simple Flutter apps usually cost between $15,000 and $60,000. More complex apps can range from $60,000 to $150,000, while highly advanced Flutter apps can cost anywhere from $150,000 to $300,000. As a leading Flutter application development company, BitsWits offers competitive pricing from $30,000 to $200,000 to build your game-changing app!",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Is Flutter good for app development?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes, Flutter is an excellent choice for app development. It offers numerous advantages, such as cost efficiency, rapid development, and a short time-to-market. Its ease of team organization makes it increasingly popular for new projects. Additionally, Flutter can seamlessly integrate with existing apps written in native languages, making it versatile for both new and ongoing projects.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How long does it take to build a Flutter app?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "The time it takes to build a Flutter app varies based on complexity. A simple Flutter app can typically be completed in about 2 months. Medium-complexity projects usually take around 4 months, while more complex apps may require 4 to 6 months of development. For example, creating a basic messaging app generally takes less time compared to more feature-rich applications.",
-        },
-      },
-    ],
-  }
   return (
     <>
       <ServicesBanner
@@ -915,13 +844,6 @@ export default function HybridMobile() {
            }                                                                             
         `}
       </Script>
-      {/* FAQs Schema  */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqData),
-        }}
-      />
     </>
   )
 }
