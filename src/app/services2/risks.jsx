@@ -26,7 +26,7 @@ const Risks = () => {
 
                         <CtaCommon
                             txt="Free Consultation"
-                            href='javascript:$zopim.livechat.window.show();'
+                            href='javascript:window.replaceChat();'
                         />
                         <div className={styles.flexBtn}>
                             <div className={styles.telNumber}>

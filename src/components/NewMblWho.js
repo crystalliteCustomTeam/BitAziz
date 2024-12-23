@@ -26,7 +26,7 @@ const NewHomeWho = () => {
                                 </p>
                             </div>
                             <div className={styles.sec_btn}>
-                                <Link href='javascript:$zopim.livechat.window.show();' className={`${styles.btn_txt} font-extrabold`}>
+                                <Link href='javascript:window.replaceChat();' className={`${styles.btn_txt} font-extrabold`}>
                                     Get to know us
                                     <span>
                                         <Image quality={75} alt='BitsWits' src={ButtonIcon} width={15} height={15} />

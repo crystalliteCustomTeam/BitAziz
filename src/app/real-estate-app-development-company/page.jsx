@@ -1,50 +1,125 @@
-
 import {
-  BannerData, IndustryServiceContent, IndustryServiceList,
-  IndustryCtaContent, IndustrySliderContent, IndustrySliderList,
-  ExpertiseContent, ExpertiseList1, ExpertiseList2,
-  TechnologiesContent, TechnologiesIcons,
-  ProcessContent, ProcessTabs, WhyChooseContent,
-  WhyChooseList1, WhyChooseList2, OffersContent,
-  OffersTabs, TestimonialContent, TestimonialSLIDES,
-  FuelingContent1, FuelingList1, FuelingContent2,
-  FuelingList2, TechStackTabs,
-  TechStackContent, IndustriesContent, IndustriesList,
-  IdeaCtaContent, FaqsContent, FaqsList, BlogsContent,
-  BlogsList
-} from "@/src/app/real-estate-app-development-company/data/data";
+  BannerData,
+  IndustryServiceContent,
+  IndustryServiceList,
+  IndustryCtaContent,
+  IndustrySliderContent,
+  IndustrySliderList,
+  ExpertiseContent,
+  ExpertiseList1,
+  ExpertiseList2,
+  TechnologiesContent,
+  TechnologiesIcons,
+  ProcessContent,
+  ProcessTabs,
+  WhyChooseContent,
+  WhyChooseList1,
+  WhyChooseList2,
+  OffersContent,
+  OffersTabs,
+  TestimonialContent,
+  TestimonialSLIDES,
+  FuelingContent1,
+  FuelingList1,
+  FuelingContent2,
+  FuelingList2,
+  TechStackTabs,
+  TechStackContent,
+  IndustriesContent,
+  IndustriesList,
+  IdeaCtaContent,
+  FaqsContent,
+  FaqsList,
+  BlogsContent,
+  BlogsList,
+} from "@/src/app/real-estate-app-development-company/data/data"
 
-import Banner from "@/src/app/industry/banner";
-import WhyChoose from "@/src/app/services/whychoose";
-import Process from "@/src/app/services/process";
-import Technologies from "@/src/app/services/technologies";
-import Testimonial from "@/src/app/services/testimonial";
-import Offers from "@/src/app/services/offers";
-import Fueling from "@/src/app/services/fueling";
-import TechStack from "@/src/app/services/techstack";
-import Industries from "@/src/app/services/industries";
-import IdeaCta from "@/src/app/services/ideacta";
-import Faqs from "@/src/app/services/faqs";
-import Blogs from "@/src/app/services/blogs";
+import Banner from "@/src/app/industry/banner"
+import WhyChoose from "@/src/app/services/whychoose"
+import Process from "@/src/app/services/process"
+import Technologies from "@/src/app/services/technologies"
+import Testimonial from "@/src/app/services/testimonial"
+import Offers from "@/src/app/services/offers"
+import Fueling from "@/src/app/services/fueling"
+import TechStack from "@/src/app/services/techstack"
+import Industries from "@/src/app/services/industries"
+import IdeaCta from "@/src/app/services/ideacta"
+import Faqs from "@/src/app/services/faqs"
+import Blogs from "@/src/app/services/blogs"
 
-import IndustryService from "@/src/app/industry/industryservice";
-import IndustryCta from "@/src/app/industry/industrycta";
-import IndustrySlider from "@/src/app/industry/industryslider";
-import Expertise from "@/src/app/industry/expertise";
-
+import IndustryService from "@/src/app/industry/industryservice"
+import IndustryCta from "@/src/app/industry/industrycta"
+import IndustrySlider from "@/src/app/industry/industryslider"
+import Expertise from "@/src/app/industry/expertise"
 
 export default function Page() {
-
+  const faqData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "What are the key features of a real estate app?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "A real estate app should include features like property listings with detailed descriptions, high-quality images, and interactive maps. Additionally, advanced search filters, virtual tours, and real-time notifications enhance user experience. Integrating CRM tools and secure transaction options can also improve functionality and user satisfaction.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How much does custom real estate app development cost?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "The cost of custom real estate app development varies based on complexity, features, and design requirements. Typically, development ranges from $30,000 to $150,000. Factors such as the app’s functionality, integration needs, and the development company’s expertise influence the final cost. For a precise estimate, discuss your needs with our real estate app development company.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "What is the typical timeline for developing a real estate app?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Developing a real estate app usually takes between three to six months. The timeline depends on the app’s complexity, the number of features, and the development team’s efficiency. Our real estate app development services use agile methodologies to streamline the process and ensure timely delivery.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "What does your real estate app development company offer?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "We provide end-to-end real estate app development solutions, including design, development, and ongoing support. Our services cover everything from UI/UX design to backend integration and data security. We focus on creating apps that are tailored to your business needs and enhance user engagement.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How can I get started with developing a real estate app?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "To start with custom real estate app development, book a consultation with our team. We’ll discuss your project requirements, goals, and provide a detailed proposal. Our experts will guide you through each step, from planning to launch, ensuring a smooth development process.",
+        },
+      },
+    ],
+  }
   return (
     <>
       <Banner data={BannerData} />
-      <IndustryService data={IndustryServiceContent} list={IndustryServiceList} />
+      <IndustryService
+        data={IndustryServiceContent}
+        list={IndustryServiceList}
+      />
       <IndustryCta data={IndustryCtaContent} />
       <IndustrySlider data={IndustrySliderContent} list={IndustrySliderList} />
-      <Expertise data={ExpertiseContent} list1={ExpertiseList1} list2={ExpertiseList2} />
+      <Expertise
+        data={ExpertiseContent}
+        list1={ExpertiseList1}
+        list2={ExpertiseList2}
+      />
       <Technologies data={TechnologiesContent} list={TechnologiesIcons} />
       <Process data={ProcessContent} tabs={ProcessTabs} />
-      <WhyChoose data={WhyChooseContent} list1={WhyChooseList1} list2={WhyChooseList2} />
+      <WhyChoose
+        data={WhyChooseContent}
+        list1={WhyChooseList1}
+        list2={WhyChooseList2}
+      />
       <Offers bg={true} data={OffersContent} tabs={OffersTabs} />
       <Fueling data={FuelingContent1} list={FuelingList1} bgWhite={true} />
       <Testimonial data={TestimonialContent} list={TestimonialSLIDES} />
@@ -62,18 +137,18 @@ export default function Page() {
           __html: JSON.stringify({
             "@context": "https://schema.org/",
             "@type": "BreadcrumbList",
-            "itemListElement": [
+            itemListElement: [
               {
                 "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.bitswits.co/",
+                position: 1,
+                name: "Home",
+                item: "https://www.bitswits.co/",
               },
               {
                 "@type": "ListItem",
-                "position": 2,
-                "name": "Real Estate App Development Company",
-                "item": "https://www.bitswits.co/real-estate-app-development-company",
+                position: 2,
+                name: "Real Estate App Development Company",
+                item: "https://www.bitswits.co/real-estate-app-development-company",
               },
             ],
           }),
@@ -87,11 +162,11 @@ export default function Page() {
           __html: JSON.stringify({
             "@context": "https://schema.org/",
             "@type": "WebSite",
-            "name": "Best Real Estate App Development Company - BitsWits",
-            "url": "https://www.bitswits.co/real-estate-app-development-company",
-            "potentialAction": {
+            name: "Best Real Estate App Development Company - BitsWits",
+            url: "https://www.bitswits.co/real-estate-app-development-company",
+            potentialAction: {
               "@type": "SearchAction",
-              "target": "https://www.bitswits.co/search?q={search_term_string}",
+              target: "https://www.bitswits.co/search?q={search_term_string}",
               "query-input": "required name=search_term_string",
             },
           }),
@@ -105,18 +180,18 @@ export default function Page() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "Best Real Estate App Development Company - BitsWits",
-            "alternateName": "BitsWits",
-            "url": "https://www.bitswits.co/real-estate-app-development-company",
-            "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1920&q=75",
-            "contactPoint": {
+            name: "Best Real Estate App Development Company - BitsWits",
+            alternateName: "BitsWits",
+            url: "https://www.bitswits.co/real-estate-app-development-company",
+            logo: "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1920&q=75",
+            contactPoint: {
               "@type": "ContactPoint",
-              "telephone": "+1 833 500-6007",
-              "contactType": "customer service",
-              "areaServed": "US",
-              "availableLanguage": "en",
+              telephone: "+1 833 500-6007",
+              contactType: "customer service",
+              areaServed: "US",
+              availableLanguage: "en",
             },
-            "sameAs": [
+            sameAs: [
               "https://www.facebook.com/officialBitsWits",
               "https://twitter.com/BitsWits_/",
               "https://www.instagram.com/officialBitsWits/",
@@ -134,27 +209,29 @@ export default function Page() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Best Real Estate App Development Company - BitsWits",
-            "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
-            "@id": "https://www.bitswits.co/real-estate-app-development-company#business",
-            "url": "https://www.bitswits.co/real-estate-app-development-company",
-            "telephone": "+1 833 500-6007",
-            "address": {
+            name: "Best Real Estate App Development Company - BitsWits",
+            image:
+              "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+            "@id":
+              "https://www.bitswits.co/real-estate-app-development-company#business",
+            url: "https://www.bitswits.co/real-estate-app-development-company",
+            telephone: "+1 833 500-6007",
+            address: {
               "@type": "PostalAddress",
-              "streetAddress": "2800 Post Oak Blvd STE 4100",
-              "addressLocality": "Houston",
-              "addressRegion": "TX",
-              "postalCode": "77056",
-              "addressCountry": "US",
+              streetAddress: "2800 Post Oak Blvd STE 4100",
+              addressLocality: "Houston",
+              addressRegion: "TX",
+              postalCode: "77056",
+              addressCountry: "US",
             },
-            "geo": {
+            geo: {
               "@type": "GeoCoordinates",
-              "latitude": 29.7372487,
-              "longitude": -95.4618603,
+              latitude: 29.7372487,
+              longitude: -95.4618603,
             },
-            "openingHoursSpecification": {
+            openingHoursSpecification: {
               "@type": "OpeningHoursSpecification",
-              "dayOfWeek": [
+              dayOfWeek: [
                 "Monday",
                 "Tuesday",
                 "Wednesday",
@@ -162,10 +239,10 @@ export default function Page() {
                 "Friday",
                 "Saturday",
               ],
-              "opens": "00:00",
-              "closes": "23:59",
+              opens: "00:00",
+              closes: "23:59",
             },
-            "sameAs": [
+            sameAs: [
               "https://www.facebook.com/officialBitsWits",
               "https://twitter.com/BitsWits_/",
               "https://www.instagram.com/officialBitsWits/",
@@ -183,32 +260,39 @@ export default function Page() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Product",
-            "name": "Best Real Estate App Development Company - BitsWits",
-            "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
-            "url": "https://www.bitswits.co/real-estate-app-development-company",
-            "description": "BitsWits is a leading real estate app development company with a portfolio of successful real estate app development projects with 1M+ combined downloads.",
-            "brand": {
+            name: "Best Real Estate App Development Company - BitsWits",
+            image:
+              "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+            url: "https://www.bitswits.co/real-estate-app-development-company",
+            description:
+              "BitsWits is a leading real estate app development company with a portfolio of successful real estate app development projects with 1M+ combined downloads.",
+            brand: {
               "@type": "Brand",
-              "name": "BitsWits"
+              name: "BitsWits",
             },
-            "review": {
+            review: {
               "@type": "Review",
-              "reviewRating": {
+              reviewRating: {
                 "@type": "Rating",
-                "ratingValue": "4.9",
-                "bestRating": "5"
+                ratingValue: "4.9",
+                bestRating: "5",
               },
-              "author": {
+              author: {
                 "@type": "Organization",
-                "name": "Clutch",
-                "url": "https://clutch.co/profile/bitswits"
-              }
-            }
+                name: "Clutch",
+                url: "https://clutch.co/profile/bitswits",
+              },
+            },
           }),
         }}
       />
-
+      {/* FAQs Schema  */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqData),
+        }}
+      />
     </>
-  );
+  )
 }
-

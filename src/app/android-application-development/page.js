@@ -144,7 +144,6 @@ export default function gamedevelopmentcompany() {
       ],
     },
   ];
-
   return (
     <>
       <ServicesBanner
@@ -267,14 +266,14 @@ export default function gamedevelopmentcompany() {
                   title: "Talk To Our Experts",
                   text: "Contact us without obligation by email or phone and secure your free consultation.",
                   buttonText: "Connect Now!",
-                  link: 'javascript:$zopim.livechat.window.show();',
+                  link: 'javascript:window.replaceChat();',
                 },
                 {
                   number: "02",
                   title: "Get A Quote",
                   text: "Get an exact cost breakdown structure of your app.",
                   buttonText: "Chat Now!",
-                  link: 'javascript:$zopim.livechat.window.show();',
+                  link: 'javascript:window.replaceChat();',
                 },
                 {
                   number: "03",
@@ -517,14 +516,14 @@ export default function gamedevelopmentcompany() {
                   title: "Talk To Our Experts",
                   text: "Contact us without obligation by email or phone and secure your free consultation.",
                   buttonText: "Connect Now!",
-                  link: 'javascript:$zopim.livechat.window.show();',
+                  link: 'javascript:window.replaceChat();',
                 },
                 {
                   number: "02",
                   title: "Get A Quote",
                   text: "Get an exact cost breakdown structure of your app.",
                   buttonText: "Chat Now!",
-                  link: 'javascript:$zopim.livechat.window.show();',
+                  link: 'javascript:window.replaceChat();',
                 },
                 {
                   number: "03",

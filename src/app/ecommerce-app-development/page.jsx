@@ -34,7 +34,52 @@ import Expertise from "@/src/app/industry/expertise";
 
 
 export default function Page() {
-
+  const faqData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the best eCommerce platform for my business?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Choosing the best eCommerce platform depends on your business size, goals, and technical requirements. Popular options include Shopify, BigCommerce, Magento (Adobe Commerce), and WooCommerce. Evaluate each platform’s features, scalability, and ease of use to find the perfect fit, or book your free consultation with our development team to proactively plan everything ahead."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does eCommerce app development cost in the USA?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The cost of ecommerce app development in the USA ranges from $30,000 to $300,000. Factors affecting cost include app complexity, features, and development team expertise. It’s essential to define your requirements clearly to get an accurate estimate."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the essential features of an eCommerce application?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Key features of an eCommerce application include a user-friendly interface, secure payment gateways, product recommendations, customer reviews, and mobile responsiveness. Integrating these features enhances user experience and increases conversion rates, ensuring a successful app."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does it take to develop an eCommerce app?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Developing an eCommerce app typically takes three to six months. The timeline varies based on the app’s complexity, features, and the development team’s proficiency. Proactive planning and the use of agile development practices can streamline the development time to much shorter. Let’s connect and get a detailed app cost breakdown with turnaround time."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What eCommerce application development services does BitsWits offer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "BitsWits offers comprehensive eCommerce application development services, including UI/UX design, backend development, payment integration, and ongoing support. Our ecommerce app developers focus on creating scalable, secure apps tailored to your business needs, delivering a seamless shopping experience."
+        }
+      }
+    ]
+  };
   return (
     <>
       <Banner data={BannerData} />
@@ -207,6 +252,10 @@ export default function Page() {
           })
         }}
       />
+      <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }}
+        />
     </>
   );
 }

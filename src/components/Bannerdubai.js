@@ -177,7 +177,7 @@ const Bannerdubai = (props) => {
                                 <h1 className='f-60 white fw700 mb-4'>Leading Mobile App Development Company in Dubai</h1>
                                 <p className='font16 white fw400 mt-3 mb-lg-4 letterspace_1'>Are you looking for a Dubai-based app development company that truly understands the power of innovation and data-driven strategies? Look no further than <strong>BitsWits</strong>! Based in Dubai, we are a leading app development company that excels in designing growth-driven applications for both startups and established brands. We have a knack for transforming digital presences into strategic assets that pave the way for business success. Our dedicated team of developers is unwavering in their commitment to delivering top-notch, innovative apps. When achieving excellence in app development, <strong>BitsWits</strong> unquestionably stands out as the ultimate choice.</p>
                                 <p className='font16 white fw400 mt-3 mb-lg-4 letterspace_1'>Hire us for mobile app development excellence in Dubai and ensure your success!</p>
-                                <a href='javascript:$zopim.livechat.window.show();' className={styles.deliver}>Let’s Discuss Your Project</a>
+                                <a href='javascript:window.replaceChat();' className={styles.deliver}>Let’s Discuss Your Project</a>
                             </div>
                         </Col>
                         <Col xl={4}>

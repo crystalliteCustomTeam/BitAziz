@@ -25,7 +25,7 @@ export default function StartupsLp6(props) {
                         </Col>
                         <Col lg={12}>
                             <Image src={startups} alt='BitsWits' className='img-fluid pb-1' />
-                            <a className={`${styles.book} mt-4 mt-lg-5 mx-auto`} href='javascript:$zopim.livechat.window.show();'>Transform Your App Idea Into A Success story - Today is the day to start!</a>
+                            <a className={`${styles.book} mt-4 mt-lg-5 mx-auto`} href='javascript:window.replaceChat();'>Transform Your App Idea Into A Success story - Today is the day to start!</a>
                         </Col>
 
                     </Row>

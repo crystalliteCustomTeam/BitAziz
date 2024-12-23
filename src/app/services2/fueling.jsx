@@ -24,7 +24,7 @@ const Fueling = () => {
                             </div>
                             <CtaCommon
                                 txt="Free Consultation"
-                                href='javascript:$zopim.livechat.window.show();'
+                                href='javascript:window.replaceChat();'
                             />
                         </div>
                     </Col>

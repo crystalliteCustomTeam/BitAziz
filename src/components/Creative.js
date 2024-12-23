@@ -25,7 +25,7 @@ const Creative = () => {
                             <h4>START <br></br> A PROJECT?</h4>
                             <a href="tel:8335006007" className={styles.call}>Call Now: (833) 500-6007</a>
                             <div className="pt-3">
-                                <a href='javascript:$zopim.livechat.window.show();' className={styles.chat}>Start Live Chat</a>
+                                <a href='javascript:window.replaceChat();' className={styles.chat}>Start Live Chat</a>
                             </div>
                         </div>
                     </Row>

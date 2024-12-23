@@ -19,7 +19,7 @@ const NewHomeWhat = () => {
                                 <p className={`fontwhite40 font-bold text-white`}>BitsWits transforms businesses <br /> through technology.</p>
                                 <p className={`${styles.width} fonthomereg`}>We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise.</p>
                                 <div className={styles.sec_btn}>
-                                    <a href='javascript:$zopim.livechat.window.show();' className={`${styles.btn_txt} font-extrabold`}>
+                                    <a href='javascript:window.replaceChat();' className={`${styles.btn_txt} font-extrabold`}>
                                         Get To Know Us
                                     </a>
                                 </div>

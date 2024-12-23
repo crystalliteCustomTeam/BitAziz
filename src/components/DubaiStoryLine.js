@@ -79,7 +79,7 @@ const StoryLine = ({ content }) => {
                                             <>
                                                 <p className="fontsfregular">{item.answer}</p>
                                                 <div className={` ${styles.btn}`}>
-                                                    <Link href='javascript:$zopim.livechat.window.show();' className="pink">
+                                                    <Link href='javascript:window.replaceChat();' className="pink">
                                                         {item.btn}
                                                     </Link>
                                                 </div>

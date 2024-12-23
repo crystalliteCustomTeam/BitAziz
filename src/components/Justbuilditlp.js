@@ -41,7 +41,7 @@ const Justbuildit = (props) => {
 
                             <div className={styles.pont}>
                                 <a className={`blueShade ${styles.about1}`} href="tel:8335006007">Book A Call</a>
-                                <a className={`pink ${styles.about}`} href='javascript:$zopim.livechat.window.show();'>Live Chat</a>
+                                <a className={`pink ${styles.about}`} href='javascript:window.replaceChat();'>Live Chat</a>
                             </div>
                         </Col>
                     </Row>

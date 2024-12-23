@@ -44,7 +44,7 @@ const ServicesFaqsdubaimobile = (props) => {
                                     <div className={faqStates[index] ? `d-block ${styles.mostimg}` : "d-none"}>
                                         <div>
                                             <p>{faq.answer}</p>
-                                            <a href='javascript:$zopim.livechat.window.show();'>{faq.btnText}</a>
+                                            <a href='javascript:window.replaceChat();'>{faq.btnText}</a>
                                         </div>
                                         <Image className="img-fluid" src={faq.imggodd} />
                                     </div>

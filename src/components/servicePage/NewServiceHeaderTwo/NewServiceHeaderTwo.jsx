@@ -1045,7 +1045,7 @@ const NewServiceHeaderTwo = () => {
                                         <Col lg={4} className={`${styles.newset}`}>
                                             <div className={styles.lptow}>
                                                 <div className={styles.newbits}>
-                                                    <a href='javascript:$zopim.livechat.window.show();'>
+                                                    <a href='javascript:window.replaceChat();'>
                                                         <Image
                                                             alt="bitswits"
                                                             src={discount}
@@ -1088,7 +1088,7 @@ const NewServiceHeaderTwo = () => {
                                                         </a>
                                                     </p>
                                                     <p className="pb-0 mb-0">
-                                                        <a href='javascript:$zopim.livechat.window.show();'>
+                                                        <a href='javascript:window.replaceChat();'>
                                                             <Image
                                                                 alt="bitswits"
                                                                 className="img-fluid"
@@ -1505,7 +1505,7 @@ const NewServiceHeaderTwo = () => {
                                         <Col lg={4} className={`${styles.newset}`}>
                                             <div className={`${styles.lptow} ${styles.lptow2}`}>
                                                 <div className={styles.newbits}>
-                                                    <a href='javascript:$zopim.livechat.window.show();'>
+                                                    <a href='javascript:window.replaceChat();'>
                                                         <Image
                                                             alt="bitswits"
                                                             src={discount}
@@ -1548,7 +1548,7 @@ const NewServiceHeaderTwo = () => {
                                                         </a>
                                                     </p>
                                                     <p className="pb-0 mb-0">
-                                                        <a href='javascript:$zopim.livechat.window.show();'>
+                                                        <a href='javascript:window.replaceChat();'>
                                                             <Image
                                                                 alt="bitswits"
                                                                 className="img-fluid"

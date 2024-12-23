@@ -191,7 +191,7 @@ const Banner = ({ content }) => {
                                 <p className='font16 text-black fw300 mt-3 mb-lg-4 fontsfregular'>
                                     {desc}
                                 </p>
-                                <a href='javascript:$zopim.livechat.window.show();' className={`${styles.deliver} blackPulse`}>
+                                <a href='javascript:window.replaceChat();' className={`${styles.deliver} blackPulse`}>
                                     Let’s Discuss Your Project
                                 </a>
                             </div>

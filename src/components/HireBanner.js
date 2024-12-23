@@ -17,7 +17,7 @@ const HireBanner = (props) => {
                                 <p>{props.para}</p>
                                 <div className={styles.btns}>
                                     <a className={`${styles.btn} ${styles.btn1}`} href="tel:8335006007">Book A Call</a>
-                                    <a className={`${styles.btn} ${styles.btn2}`} href='javascript:$zopim.livechat.window.show();'>Live Chat</a>
+                                    <a className={`${styles.btn} ${styles.btn2}`} href='javascript:window.replaceChat();'>Live Chat</a>
                                 </div>
                                 <Image quality={90} src={props.banImg} alt="BitsWits" className={`img-fluid`} />
                             </div>

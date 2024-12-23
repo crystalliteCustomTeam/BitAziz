@@ -22,7 +22,7 @@ const EcommerceApp = () => {
                                             <a href="tel:8335006007" className={styles.btn1}>
                                                 Call Now: +1 833 500 6007
                                             </a>
-                                            <a href='javascript:$zopim.livechat.window.show();' className={styles.btn1}>
+                                            <a href='javascript:window.replaceChat();' className={styles.btn1}>
                                                 Start Live Chat
                                             </a>
                                         </div>

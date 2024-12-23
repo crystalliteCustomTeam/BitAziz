@@ -26,7 +26,7 @@ const Bannerlp2 = (props) => {
                                     Mobile App Development  <br></br>
                                     Company</h2>
                                 <p className='font16 white fw500 mt-4 mb-lg-5'>We deliver mobile app experiences that get your mobile app trending on the app stores.We design & build frontend apps for brands who want to break barriers and accelerate growth.</p>
-                                <a href='javascript:$zopim.livechat.window.show();' className={styles.deliver}>Take The First Step - Sign Up Now!</a>
+                                <a href='javascript:window.replaceChat();' className={styles.deliver}>Take The First Step - Sign Up Now!</a>
                             </div>
                             <div className={styles.comple}>
                                 <Image alt='BitsWits' src={banImg1} className='img-fluid w-25' />

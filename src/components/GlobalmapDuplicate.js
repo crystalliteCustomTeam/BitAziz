@@ -14,7 +14,7 @@ const GlobalmapDuplicate = () => {
                                 <h3>Meet Our Experts <br></br>
                                     One-on-One</h3>
                                 <a className={styles.address} href='https://maps.app.goo.gl/ebo8RKEPUPVkDfZu9'>Office #101, 32 Street, Al Mujarrah, Sharjah</a>
-                                <a className={styles.timr} href='javascript:$zopim.livechat.window.show();'>Let's Chat</a>
+                                <a className={styles.timr} href='javascript:window.replaceChat();'>Let's Chat</a>
                                 <p className="black mb-0">Call us at <a className={styles.num} href="tel:+971551659060">+971 551 659060</a> </p>
                             </div>
                         </Col>
