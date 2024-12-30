@@ -58,7 +58,7 @@ const BrandDuplicate = (props) => {
         setScore('Sending Data');
 
         // First API call to your server
-        await fetch('https://brandsapi.cryscampus.com/api/v1/leads', {
+        await fetch('https://brandsapi.pulse-force.com/api/v1/leads', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json, text/plain, */*',
