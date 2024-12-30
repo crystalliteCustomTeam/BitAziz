@@ -39,7 +39,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
 
 export default async function Post({ params, searchParams }) {
     // =============== Post Data ===============
-    let featuredImageUrl = "https://inhouse.cryscampus.com/wordpress/bitswits/wp-admin/uploads/2023/08/moz-brand-authority-768x439-1.png";
+    let featuredImageUrl = "https://inhouse.pulse-force.com/wordpress/bitswits/wp-admin/uploads/2023/08/moz-brand-authority-768x439-1.png";
 
     const postData = await getSinglePost(params.postslug);
     //=============== Render ===============
@@ -79,7 +79,7 @@ export default async function Post({ params, searchParams }) {
                                 <Col lg={6}>
                                     {postData.featuredImage ?
                                         (
-                                            <Image quality={75} src={`https://inhouse.cryscampus.com/wordpress/bitswits/wp-content/uploads/${postData.featuredImage.node.mediaDetails.file}`} alt="BitsWits" width={736} height={450} className="img-fluid" />
+                                            <Image quality={75} src={`https://inhouse.pulse-force.com/wordpress/bitswits/wp-content/uploads/${postData.featuredImage.node.mediaDetails.file}`} alt="BitsWits" width={736} height={450} className="img-fluid" />
                                         )
                                         :
                                         (
