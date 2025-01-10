@@ -72,11 +72,18 @@ const BlogList = () => {
                                 <form>
                                     <select className={styles.search}>
                                         <option defaultValue="All">All</option>
-                                        <option value="Blockchain" className='fontsfregular'>Blockchain</option>
+                                        {/* <option value="Blockchain" className='fontsfregular'>Blockchain</option>
                                         <option value="eCommerce" className='fontsfregular'>eCommerce</option>
                                         <option value="General" className='fontsfregular'>General</option>
                                         <option value="Mobile Application" className='fontsfregular'>Mobile Application</option>
-                                        <option value="News" className='fontsfregular'>News</option>
+                                        <option value="News" className='fontsfregular'>News</option> */}
+                                        <option value="Mobile App Development" className='fontsfregular'>Mobile App Development</option>
+                                        <option value="Flutter App Development" className='fontsfregular'>Flutter App Development</option>
+                                        <option value="Blockchain App Development" className='fontsfregular'>Blockchain App Development</option>
+                                        <option value="React Native App Development" className='fontsfregular'>React Native App Development</option>
+                                        <option value="Cost" className='fontsfregular'>Cost</option>
+                                        <option value="iOS App Development" className='fontsfregular'>iOS App Development</option>
+                                        <option value="Android App Development" className='fontsfregular'>Android App Development</option>
                                     </select>
                                     <input type="text" />
                                     <button type='button' className='fontsfregular'>Search</button>
@@ -92,19 +99,22 @@ const BlogList = () => {
                                         All
                                     </li>
                                     <li className={`${styles.nonActive} fontsfregular`}>
-                                        Blockchain
+                                    Mobile App Development
                                     </li>
                                     <li className={`${styles.nonActive} fontsfregular`}>
-                                        eCommerce
+                                    Flutter App Development
                                     </li>
                                     <li className={`${styles.nonActive} fontsfregular`}>
-                                        General
+                                    React Native App Development
                                     </li>
                                     <li className={`${styles.nonActive} fontsfregular`}>
-                                        Mobile Application
+                                    Cost
                                     </li>
                                     <li className={`${styles.nonActive} fontsfregular`}>
-                                        News
+                                    iOS App Development
+                                    </li>
+                                    <li className={`${styles.nonActive} fontsfregular`}>
+                                    Android App Development
                                     </li>
                                 </ul>
                             </div>
