@@ -421,7 +421,7 @@ export default function dubaidevelopmentcompany() {
             "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
             "contactPoint": {
               "@type": "ContactPoint",
-              "telephone": "+13022168231",
+              "telephone": "+18335006007",
               "contactType": "customer service",
               "areaServed": "US",
               "availableLanguage": "en"
@@ -445,7 +445,7 @@ export default function dubaidevelopmentcompany() {
             "image": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdallas.783ee556.webp&w=1920&q=75 ",
             "@id": "",
             "url": " https://www.bitswits.co/mobile-app-development-company-dallas",
-            "telephone": "+13022168231",
+            "telephone": "+18335006007",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "1341 W Mockingbird Ln",

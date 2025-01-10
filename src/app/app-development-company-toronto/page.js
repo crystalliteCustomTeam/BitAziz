@@ -444,7 +444,7 @@ export default function dubaidevelopmentcompany() {
             "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
             "contactPoint": {
               "@type": "ContactPoint",
-              "telephone": "+13022168231",
+              "telephone": "+18335006007",
               "contactType": "customer service",
               "areaServed": "CA",
               "availableLanguage": "en"
@@ -468,7 +468,7 @@ export default function dubaidevelopmentcompany() {
             "image": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftoronto.568b0dc8.webp&w=1920&q=75",
             "@id": "",
             "url": "https://www.bitswits.co/app-development-company-toronto",
-            "telephone": "+13022168231",
+            "telephone": "+18335006007",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "512 Wellington St W,",

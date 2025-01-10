@@ -674,7 +674,7 @@ export default function dubaidevelopmentcompany() {
             "image": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnewyork.4988cafe.webp&w=1920&q=75 ",
             "@id": "",
             "url": " https://www.bitswits.co/app-development-company-new-york",
-            "telephone": "3022168231",
+            "telephone": "+18335006007,
             "address": {
               "@type": "PostalAddress",
               "streetAddress": " 26 Broadway Suite 934 ",
