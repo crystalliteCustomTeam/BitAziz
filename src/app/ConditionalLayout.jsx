@@ -150,7 +150,7 @@ const ConditionalLayout = ({ children }) => {
         <Header isLightHeader={isDark} isDarkHeader={isLight} />
       )}
       {children}
-      
+
       {footerComponent}
     </>
   )
