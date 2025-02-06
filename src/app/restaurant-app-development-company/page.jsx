@@ -53,76 +53,76 @@ import IndustrySlider from "@/src/app/industry/industryslider"
 import Expertise from "@/src/app/industry/expertise"
 
 export default function Page() {
-  const faqData = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "What is e-learning software development?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "E-learning software development involves designing and building digital platforms for online education and training. These platforms can include interactive courses, virtual classrooms, assessments, and collaboration tools, all tailored to meet a wide variety of educational needs and enhance the learning experience.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How can education software development services improve student engagement?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Education software development services improve student engagement through interactive and personalized learning platforms. Integrating features like gamification, adaptive learning, and real-time feedback tailors educational experiences to individual needs, making learning more engaging and effective.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How do education app developers address data privacy in educational apps?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Education app developers address data privacy by implementing robust security measures, such as encryption and secure user authentication. They comply with regulations like FERPA and GDPR to handle student and teacher information with the highest levels of privacy and security.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Are educational apps profitable?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes, educational apps are profitable. In 2023, they generated $5.93 billion in revenue, driven by increased demand during the pandemic. With the growing emphasis on digital learning, the market for educational apps continues to expand, offering significant opportunities for profitability.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What makes e-learning app development services essential for modern education?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Elearning app development services are essential because they create scalable, accessible, and interactive platforms that cater to diverse learning styles. These services support digital classrooms and help institutions maintain continuous learning during disruptions.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Why choose an e-learning mobile app development firm over a general app development firm?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "An e-learning application development firm specializes in creating educational apps tailored to the specific needs of learners and educators. They have expertise in designing features like interactive content, progress tracking, and real-time collaboration, which effectively support educational goals.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How do education apps support inclusive learning?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Education apps support inclusive learning through features like multi-language support, accessibility options for students with disabilities, and personalized learning paths. These apps cater to diverse needs, giving every student equal access to quality education.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What is the difference between EdTech and eLearning?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "EdTech refers to the broad use of technology in education, including tools like interactive whiteboards and learning management systems that enhance teaching methods. E-Learning, however, specifically focuses on delivering education and training through digital platforms, making learning accessible online.",
-        },
-      },
-    ],
-  }
+  // const faqData = {
+  //   "@context": "https://schema.org",
+  //   "@type": "FAQPage",
+  //   mainEntity: [
+  //     {
+  //       "@type": "Question",
+  //       name: "What is e-learning software development?",
+  //       acceptedAnswer: {
+  //         "@type": "Answer",
+  //         text: "E-learning software development involves designing and building digital platforms for online education and training. These platforms can include interactive courses, virtual classrooms, assessments, and collaboration tools, all tailored to meet a wide variety of educational needs and enhance the learning experience.",
+  //       },
+  //     },
+  //     {
+  //       "@type": "Question",
+  //       name: "How can education software development services improve student engagement?",
+  //       acceptedAnswer: {
+  //         "@type": "Answer",
+  //         text: "Education software development services improve student engagement through interactive and personalized learning platforms. Integrating features like gamification, adaptive learning, and real-time feedback tailors educational experiences to individual needs, making learning more engaging and effective.",
+  //       },
+  //     },
+  //     {
+  //       "@type": "Question",
+  //       name: "How do education app developers address data privacy in educational apps?",
+  //       acceptedAnswer: {
+  //         "@type": "Answer",
+  //         text: "Education app developers address data privacy by implementing robust security measures, such as encryption and secure user authentication. They comply with regulations like FERPA and GDPR to handle student and teacher information with the highest levels of privacy and security.",
+  //       },
+  //     },
+  //     {
+  //       "@type": "Question",
+  //       name: "Are educational apps profitable?",
+  //       acceptedAnswer: {
+  //         "@type": "Answer",
+  //         text: "Yes, educational apps are profitable. In 2023, they generated $5.93 billion in revenue, driven by increased demand during the pandemic. With the growing emphasis on digital learning, the market for educational apps continues to expand, offering significant opportunities for profitability.",
+  //       },
+  //     },
+  //     {
+  //       "@type": "Question",
+  //       name: "What makes e-learning app development services essential for modern education?",
+  //       acceptedAnswer: {
+  //         "@type": "Answer",
+  //         text: "Elearning app development services are essential because they create scalable, accessible, and interactive platforms that cater to diverse learning styles. These services support digital classrooms and help institutions maintain continuous learning during disruptions.",
+  //       },
+  //     },
+  //     {
+  //       "@type": "Question",
+  //       name: "Why choose an e-learning mobile app development firm over a general app development firm?",
+  //       acceptedAnswer: {
+  //         "@type": "Answer",
+  //         text: "An e-learning application development firm specializes in creating educational apps tailored to the specific needs of learners and educators. They have expertise in designing features like interactive content, progress tracking, and real-time collaboration, which effectively support educational goals.",
+  //       },
+  //     },
+  //     {
+  //       "@type": "Question",
+  //       name: "How do education apps support inclusive learning?",
+  //       acceptedAnswer: {
+  //         "@type": "Answer",
+  //         text: "Education apps support inclusive learning through features like multi-language support, accessibility options for students with disabilities, and personalized learning paths. These apps cater to diverse needs, giving every student equal access to quality education.",
+  //       },
+  //     },
+  //     {
+  //       "@type": "Question",
+  //       name: "What is the difference between EdTech and eLearning?",
+  //       acceptedAnswer: {
+  //         "@type": "Answer",
+  //         text: "EdTech refers to the broad use of technology in education, including tools like interactive whiteboards and learning management systems that enhance teaching methods. E-Learning, however, specifically focuses on delivering education and training through digital platforms, making learning accessible online.",
+  //       },
+  //     },
+  //   ],
+  // }
 
   return (
     <>
@@ -171,28 +171,10 @@ export default function Page() {
               {
                 "@type": "ListItem",
                 position: 2,
-                name: "Education App Development",
-                item: "https://www.bitswits.co/education-app-development",
+                name: "Restaurant App Development",
+                item: "https://www.bitswits.co/restaurant-app-development-company",
               },
             ],
-          }),
-        }}
-      />
-
-      {/* Website Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org/",
-            "@type": "WebSite",
-            name: "Education App Development Company - BitsWits",
-            url: "https://www.bitswits.co/education-app-development",
-            potentialAction: {
-              "@type": "SearchAction",
-              target: "{search_term_string}",
-              "query-input": "required name=search_term_string",
-            },
           }),
         }}
       />
@@ -204,14 +186,15 @@ export default function Page() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            name: "Education App Development Company - BitsWits",
+            name: "Restaurant App Development Company - BitsWits",
             alternateName: "BitsWits",
-            url: "https://www.bitswits.co/education-app-development",
+            url: "https://www.bitswits.co/restaurant-app-development-company",
             logo: "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1920&q=75",
             contactPoint: {
               "@type": "ContactPoint",
               telephone: "+1 833 500-6007",
-              contactType: "customer service",
+              contactType: "sales",
+              contactOption: "TollFree",
               areaServed: "US",
               availableLanguage: "en",
             },
@@ -219,8 +202,8 @@ export default function Page() {
               "https://www.facebook.com/officialBitsWits",
               "https://twitter.com/BitsWits_/",
               "https://www.instagram.com/officialBitsWits/",
-              "https://www.youtube.com/@officialBitsWits",
               "https://www.linkedin.com/company/officialBitsWits",
+              "https://www.bitswits.co",
             ],
           }),
         }}
@@ -233,12 +216,13 @@ export default function Page() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            name: "Education App Development Company - BitsWits",
+            name: "Restaurant App Development Company - BitsWits",
             image:
               "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
-            "@id": "",
-            url: "https://www.bitswits.co/education-app-development",
+            "@id": "https://www.bitswits.co/restaurant-app-development-company",
+            url: "https://www.bitswits.co/restaurant-app-development-company",
             telephone: "+1 833 500-6007",
+            priceRange: "12,000",
             address: {
               "@type": "PostalAddress",
               streetAddress: "2800 Post Oak Blvd STE 4100",
@@ -249,8 +233,8 @@ export default function Page() {
             },
             geo: {
               "@type": "GeoCoordinates",
-              latitude: 29.7372487,
-              longitude: -95.4618603,
+              latitude: 29.7373358,
+              longitude: -95.4616468,
             },
             openingHoursSpecification: {
               "@type": "OpeningHoursSpecification",
@@ -261,6 +245,7 @@ export default function Page() {
                 "Thursday",
                 "Friday",
                 "Saturday",
+                "Sunday",
               ],
               opens: "00:00",
               closes: "23:59",
@@ -269,53 +254,20 @@ export default function Page() {
               "https://www.facebook.com/officialBitsWits",
               "https://twitter.com/BitsWits_/",
               "https://www.instagram.com/officialBitsWits/",
-              "https://www.youtube.com/@officialBitsWits",
               "https://www.linkedin.com/company/officialBitsWits",
+              "https://www.bitswits.co",
             ],
           }),
         }}
       />
 
-      {/* Product Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Product",
-            name: "Education App Development Company - BitsWits",
-            image:
-              "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
-            url: "https://www.bitswits.co/education-app-development",
-            description:
-              "BitsWits is a leading education app development company with 50+ impactful EdTech apps, using modern tech to enhance learning on various platforms.",
-            brand: {
-              "@type": "Brand",
-              name: "BitsWits",
-            },
-            review: {
-              "@type": "Review",
-              reviewRating: {
-                "@type": "Rating",
-                ratingValue: "4.9",
-                bestRating: "5",
-              },
-              author: {
-                "@type": "Organization",
-                name: "Clutch",
-                url: "https://clutch.co/profile/bitswits",
-              },
-            },
-          }),
-        }}
-      />
       {/* FAQs Schema  */}
-      <script
+      {/* <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(faqData),
         }}
-      />
+      /> */}
     </>
   )
 }
