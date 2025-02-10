@@ -52,6 +52,10 @@ const ServicesMenu = [
     title: "Hybrid app development",
     url: "/hybrid-app-development-company",
   },
+  {
+    title: "Web3 Game Development",
+    url: "/web3-game-development-company",
+  },
 ]
 const IndustriesMenu = [
   {
@@ -93,6 +97,10 @@ const IndustriesMenu = [
   {
     title: "Taxi App",
     url: "/taxi-app-development-company",
+  },
+  {
+    title: "Restaurant App",
+    url: "/restaurant-app-development-company",
   },
 ]
 const LocationsMenu = [
