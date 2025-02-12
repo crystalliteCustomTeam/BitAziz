@@ -200,8 +200,8 @@ export const IndustrySliderList = [
 
 export const ExpertiseContent = {
     title: "Restaurant App Features Every Food Business Needs",
-    subtitle: "Education Mobile App Features to Build Successful eLearning Platforms",
-    subtext: "As a leading education mobile app development company, we equip your Edtech solutions with the most useful features, creating powerful tools for a successful eLearning platform.",
+    subtitle: "Restaurant App Features Every Food Business Needs",
+    subtext: "As a leading restaurant app development company, we equip your Edtech solutions with the most useful features, creating powerful tools for a successful eLearning platform.",
 }
 
 export const ExpertiseList1 = [
@@ -734,7 +734,7 @@ export const TechStackTabs = [
 
 export const IndustriesContent = {
     title: "Industries We Serve",
-    text: "As a top-grade education app development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
+    text: "As a top-grade restaurant app development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
 }
 
 export const IndustriesList = [
