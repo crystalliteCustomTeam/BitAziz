@@ -548,7 +548,7 @@ export const FuelingList2 = [
 
 export const TechStackContent = {
     title: "Our Restaurant App Development Tech Stack",
-    text: (<>Our tech stack incorporates the <Link href='/blog/mobile-app-development-frameworks'>latest app development frameworks</Link>, ensuring top-quality delivery in educational app development.</>),
+    text: (<>Our tech stack incorporates the <Link href='/blog/mobile-app-development-frameworks'>latest app development frameworks</Link>, ensuring top-quality delivery in restaurant app development.</>),
 }
 
 export const TechStackTabs = [
