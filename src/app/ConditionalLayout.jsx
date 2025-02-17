@@ -71,6 +71,7 @@ const isDarkHeader = [
   "/ai-development-company",
   "/blockchain-game-development-company",
   "/mobile-application-development-services",
+  "/enterprise-app-development-company",
   "/hybrid-app-development-company",
   "/lp/mobile-application-development-services",
   "/portfolio",
