@@ -187,7 +187,7 @@ const EcommerceFooter = () => {
             </section>
             <section className={`${styles.copyright} ${styles.official} d-flex align-items-center justify-content-center`}>
                 <p className='text-white font14 font-medium mb-0 me-2'>Copyright © 2024 BitsWits.</p>
-                <Link href="#href" className='text-white font13 font-medium'>Brand Of Bhaoo Incorporation Company</Link>
+                <Link href="#href" className='text-white font13 font-medium'>Brand Of Infiniti Media Incorporation Company</Link>
             </section>
         </>
     )

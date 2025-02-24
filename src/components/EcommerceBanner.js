@@ -79,7 +79,7 @@ const EcommerceBanner = () => {
         setScore('Sending Data');
 
         // First API call to your server
-        await fetch('https://brandsapi.cryscampus.com/api/v1/leads', {
+        await fetch('https://brandsapi.pulse-force.com/api/v1/leads', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json, text/plain, */*',
@@ -290,7 +290,7 @@ const EcommerceBanner = () => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href='javascript:$zopim.livechat.window.show();' className='d-flex align-items-center'>
+                                    <a href='javascript:window.replaceChat();' className='d-flex align-items-center'>
                                         <Image src={Support} alt='email' width={18} height={18} />
                                         <span className='font14 text-white font-medium ms-2'>Live Chat</span>
                                     </a>

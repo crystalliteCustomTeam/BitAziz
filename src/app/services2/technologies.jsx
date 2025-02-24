@@ -71,7 +71,7 @@ const Technologies = () => {
                         </div>
                         <CtaCommon
                             txt="Free Consultation"
-                            href='javascript:$zopim.livechat.window.show();'
+                            href='javascript:window.replaceChat();'
                         />
                     </Col>
                     <Col lg={4} md={12} className="my-auto offset-lg-1">

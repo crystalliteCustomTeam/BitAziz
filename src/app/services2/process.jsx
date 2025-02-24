@@ -111,7 +111,7 @@ const Process = () => {
                                     <p>{tabs[activeTab].content.description}</p>
                                     <CtaCommon
                                         txt="Free Consultation"
-                                        href='javascript:$zopim.livechat.window.show();'
+                                        href='javascript:window.replaceChat();'
                                     />
                                 </div>
                                 <div className={styles.txtImg}>

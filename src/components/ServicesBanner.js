@@ -29,7 +29,7 @@ const ServiceBanner = (props) => {
                   BOOK A CALL
                 </a>
 
-                <a className={styles.about} href='javascript:$zopim.livechat.window.show();'>
+                <a className={styles.about} href='javascript:window.replaceChat();'>
                   LET'S CONNECT
                 </a>
               </div>

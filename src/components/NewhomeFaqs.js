@@ -169,7 +169,7 @@ const NewhomeFaqs = () => {
 
                     <Row>
                         <Col lg={12}>
-                            <a className={styles.about} href='javascript:$zopim.livechat.window.show();'>LET'S CONNECT</a>
+                            <a className={styles.about} href='javascript:window.replaceChat();'>LET'S CONNECT</a>
                         </Col>
                     </Row>
                 </Container>

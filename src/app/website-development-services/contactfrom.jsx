@@ -75,7 +75,7 @@ const ContactFrom = ({ lpweb, idea, appidea, discussion, popup, contactpage }) =
 
         try {
             // First API call to your server
-            const res = await fetch('https://brandsapi.cryscampus.com/api/v1/leads', {
+            const res = await fetch('https://brandsapi.pulse-force.com/api/v1/leads', {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json, text/plain, */*',

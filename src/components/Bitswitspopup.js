@@ -52,7 +52,7 @@ const Freequote = (props) => {
     setScore('Sending Data');
 
     // First API call to your server
-    await fetch('https://brandsapi.cryscampus.com/api/v1/leads', {
+    await fetch('https://brandsapi.pulse-force.com/api/v1/leads', {
       method: 'POST',
       headers: {
         'Accept': 'application/json, text/plain, */*',
@@ -173,7 +173,7 @@ const Freequote = (props) => {
         {props.show ?
 
           <div className='mt-4'>
-            <a className={styles.freediscuss} href='javascript:$zopim.livechat.window.show();'>LET'S DISCUSS</a>
+            <a className={styles.freediscuss} href='javascript:window.replaceChat();'>LET'S DISCUSS</a>
             <a className={styles.freehomenumer} href="tel:(213) 289 3888">(213) 289 3888</a>
           </div>
 

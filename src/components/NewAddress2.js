@@ -59,7 +59,7 @@ const NewAddress = () => {
         setScore('Sending Data');
 
         // First API call to your server
-        await fetch('https://brandsapi.cryscampus.com/api/v1/leads', {
+        await fetch('https://brandsapi.pulse-force.com/api/v1/leads', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json, text/plain, */*',
@@ -167,7 +167,7 @@ const NewAddress = () => {
                                     <h4 className='font28 grdiant2 font-bold'>Ready For Success?</h4>
                                     <h5 className='font20 font-bold text-white'>Schedule a complimentary strategy session now with our experienced product strategists.</h5>
                                     <div className={styles.menu}>
-                                        <a className={`${styles.book} ${styles.book2}`} href='javascript:$zopim.livechat.window.show();'>
+                                        <a className={`${styles.book} ${styles.book2}`} href='javascript:window.replaceChat();'>
                                             Avail My Free Session.
                                             <Image alt="BitsWits" src={arrow} className='img-fluid ms-2' />
                                         </a>

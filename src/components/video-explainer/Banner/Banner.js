@@ -58,7 +58,7 @@ const Banner = () => {
         setScore('Sending Data');
 
         // First API call to your server
-        await fetch('https://brandsapi.cryscampus.com/api/v1/leads', {
+        await fetch('https://brandsapi.pulse-force.com/api/v1/leads', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json, text/plain, */*',
@@ -188,7 +188,7 @@ const Banner = () => {
                                 <Link href="tel:8335006007" className={styles.btn}>
                                     Get Started
                                 </Link>
-                                <Link href='javascript:$zopim.livechat.window.show();' className='d-flex align align-items-center'>
+                                <Link href='javascript:window.replaceChat();' className='d-flex align align-items-center'>
                                     <Image src={chatIcon} alt='chat-icon' className='me-2' />
                                     <div>
                                         <span className={styles.spanOne}>Talk to our Expert</span>

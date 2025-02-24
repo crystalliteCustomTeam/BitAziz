@@ -235,7 +235,7 @@ export default function Thrthy() {
                         }
 
                         <div className={styles.jis}>
-                            <a href='javascript:$zopim.livechat.window.show();' className="btn discussbtn"> Let's Discuss</a>
+                            <a href='javascript:window.replaceChat();' className="btn discussbtn"> Let's Discuss</a>
                         </div>
                     </div>
                 </div>

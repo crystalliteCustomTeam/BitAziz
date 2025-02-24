@@ -14,7 +14,7 @@ const WhyChoose = () => {
                         <p>BitsWits provides exceptional mobile application development services, combining quality, expertise, and efficiency. As a leading mobile app development agency, we create scalable, user-centric apps designed to drive business growth and deliver successful results. Here’s why you should partner with us.</p>
                         <CtaCommon
                             txt="Free Consultation"
-                            href='javascript:$zopim.livechat.window.show();'
+                            href='javascript:window.replaceChat();'
                         />
                     </Col>
                     <Col lg={3} md={6} className="my-auto offset-lg-1 mt-md-0 mt-4 ">

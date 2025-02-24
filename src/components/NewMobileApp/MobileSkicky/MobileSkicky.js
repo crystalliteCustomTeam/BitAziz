@@ -58,7 +58,7 @@ const MobileSkicky = ({ isHovered, showSticky, loc }) => {
         setScore('Sending Data');
 
         // First API call to your server
-        await fetch('https://brandsapi.cryscampus.com/api/v1/leads', {
+        await fetch('https://brandsapi.pulse-force.com/api/v1/leads', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json, text/plain, */*',
@@ -163,7 +163,7 @@ const MobileSkicky = ({ isHovered, showSticky, loc }) => {
                         <span className="icon">
                             <Image width="30" height="30" alt="bitswits" className="img-fluid" src={tel} loading="lazy" />
                             <div className="txtBody">
-                                <a href='javascript:$zopim.livechat.window.show();'>Chat Now</a>
+                                <a href='javascript:window.replaceChat();'>Chat Now</a>
                             </div>
                         </span>
                     </div>

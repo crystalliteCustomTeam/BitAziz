@@ -106,7 +106,7 @@ const Appmaking = () => {
                                         <li className="white mt-3">Cost-Effective Single Codebase Solution.</li>
                                     </ul>
 
-                                    <a href='javascript:$zopim.livechat.window.show();' className={styles.live}>Start <br /> Live Chat</a>
+                                    <a href='javascript:window.replaceChat();' className={styles.live}>Start <br /> Live Chat</a>
 
                                 </div>
                                 <div className={styles.native2} data-scroll data-scroll-speed="0.4">
@@ -153,7 +153,7 @@ const Appmaking = () => {
                                             <li className="white mt-3">Cost-Effective Single Codebase Solution.</li>
                                         </ul>
 
-                                        <a href='javascript:$zopim.livechat.window.show();' className={styles.live}>Start <br /> Live Chat</a>
+                                        <a href='javascript:window.replaceChat();' className={styles.live}>Start <br /> Live Chat</a>
 
                                     </div>
                                 </Col>

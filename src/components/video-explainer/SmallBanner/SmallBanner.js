@@ -31,7 +31,7 @@ const SmallBanner = () => {
                                     </button>
                                 </div>
                                 <div className='btnTwo'>
-                                    <a href='javascript:$zopim.livechat.window.show();' className={styles.btnTwo}>
+                                    <a href='javascript:window.replaceChat();' className={styles.btnTwo}>
                                         Live Chat
                                     </a>
                                 </div>

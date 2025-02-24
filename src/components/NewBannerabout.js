@@ -17,7 +17,7 @@ const NewBanner = () => {
                                     The top app developers in US provide the best web, mobile, and Web3 design and development solutions for better metrics and ROI.</p>
                                 <p className='white center'>Got an App Idea? Start a Conversation with Our Experts!</p>
                                 <div className={styles.pont}>
-                                    <a className={styles.about} href='javascript:$zopim.livechat.window.show();'>Let's Connect</a>
+                                    <a className={styles.about} href='javascript:window.replaceChat();'>Let's Connect</a>
                                 </div>
                             </div>
                         </Col>

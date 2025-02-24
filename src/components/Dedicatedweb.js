@@ -33,7 +33,7 @@ const Dedicated = () => {
                                     <Image quality={75} alt='BitsWits' src={right2} className="img-fluid" />
                                     <Image quality={75} alt='BitsWits' src={right3} className="img-fluid" />
                                 </div>
-                                <a className={styles.get} href='javascript:$zopim.livechat.window.show();'>LET'S CONNECT</a>
+                                <a className={styles.get} href='javascript:window.replaceChat();'>LET'S CONNECT</a>
                             </div>
                         </Col>
                         <Col lg={6}>
@@ -45,7 +45,7 @@ const Dedicated = () => {
                                     <Image quality={75} alt='BitsWits' src={right5} className="img-fluid" />
                                     <Image quality={75} alt='BitsWits' src={right6} className="img-fluid" />
                                 </div>
-                                <a className={styles.get} href='javascript:$zopim.livechat.window.show();'>LET'S CONNECT</a>
+                                <a className={styles.get} href='javascript:window.replaceChat();'>LET'S CONNECT</a>
                             </div>
                         </Col>
 

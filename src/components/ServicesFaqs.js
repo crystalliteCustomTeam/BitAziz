@@ -48,7 +48,7 @@ const ServicesFaqs = (props) => {
 
                     <Row>
                         <Col lg={12}>
-                            <a className={`${styles.about} ${styles.customClass}`} href='javascript:$zopim.livechat.window.show();'>
+                            <a className={`${styles.about} ${styles.customClass}`} href='javascript:window.replaceChat();'>
                                 LET'S CONNECT
                             </a>
                         </Col>

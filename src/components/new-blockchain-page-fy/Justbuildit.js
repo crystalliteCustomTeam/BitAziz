@@ -49,7 +49,7 @@ const Justbuildit = (props) => {
                 <a className={styles.about1} href="tel:8335006007">
                   CALL NOW
                 </a>
-                <a className={styles.about} href='javascript:$zopim.livechat.window.show();'>
+                <a className={styles.about} href='javascript:window.replaceChat();'>
                   LIVE CHAT
                 </a>
               </div>

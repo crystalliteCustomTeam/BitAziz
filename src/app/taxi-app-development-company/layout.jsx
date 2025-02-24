@@ -1,11 +1,11 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "Taxi Booking App Development Company - BitsWits",
+  title: "Leading Taxi App Development Company in US - BitsWits",
   description: "BitsWits is a leading taxi app development company that builds taxi apps to boost fleet efficiency, reduce idle time, and increase bookings efficiently.",
   //===== OG Tags =====
   openGraph: {
-    title: "Taxi Booking App Development Company - BitsWits",
+    title: "Leading Taxi App Development Company in US - BitsWits",
     description: "BitsWits is a leading taxi app development company that builds taxi apps to boost fleet efficiency, reduce idle time, and increase bookings efficiently.",
     url: '/taxi-app-development-company',
     siteName: 'BitsWits',
@@ -17,7 +17,7 @@ export const metadata = {
   alternates: { canonical: '/taxi-app-development-company' },
   //===== GEO Tags =====
   other: {
-    "DC.title": "Taxi Booking App Development Company - BitsWits",
+    "DC.title": "Leading Taxi App Development Company in US - BitsWits",
     "geo.region": "US",
     "geo.placename": "Houston",
     "geo.position": "29.7372487; -95.4618603",

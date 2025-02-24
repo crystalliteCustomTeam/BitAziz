@@ -58,7 +58,7 @@ const ServiceGenre = (props) => {
                                             <Image quality={75} alt='BitsWits' src={section.gameicon} className='img-fluid' />
                                             <h3>{section.title}</h3>
                                             <p>{section.text}</p>
-                                            <a href='javascript:$zopim.livechat.window.show();'>LET's CONNECT</a>
+                                            <a href='javascript:window.replaceChat();'>LET's CONNECT</a>
                                         </div>
                                     </div>
                                 ))}
@@ -72,7 +72,7 @@ const ServiceGenre = (props) => {
                                         <Image quality={75} alt='BitsWits' src={section.gameicon} className='img-fluid' />
                                         <h2 className='text-white text-center font-bold'>{section.title}</h2>
                                         <p>{section.text}</p>
-                                        <a href='javascript:$zopim.livechat.window.show();'>LET's CONNECT</a>
+                                        <a href='javascript:window.replaceChat();'>LET's CONNECT</a>
                                     </div>
                                 </Col>
                             ))}

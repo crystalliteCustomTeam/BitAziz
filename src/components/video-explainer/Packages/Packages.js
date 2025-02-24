@@ -60,7 +60,7 @@ const Packages = () => {
                                             speak with us
                                             <span>833 500 6007</span>
                                         </a>
-                                        <a href='javascript:$zopim.livechat.window.show();'>
+                                        <a href='javascript:window.replaceChat();'>
                                             Want to Discuss
                                             <span>Live Chat Now</span>
                                         </a>
@@ -69,7 +69,7 @@ const Packages = () => {
                                         <button onClick={() => handleClick()} className={`d-block ${styles.getStarted}`}>
                                             Get Started
                                         </button>
-                                        <a href='javascript:$zopim.livechat.window.show();' className={styles.liveChart}>
+                                        <a href='javascript:window.replaceChat();' className={styles.liveChart}>
                                             Live Chat
                                         </a>
                                     </div>
@@ -112,7 +112,7 @@ const Packages = () => {
                                             speak with us
                                             <span>833 500 6007</span>
                                         </a>
-                                        <a href='javascript:$zopim.livechat.window.show();'>
+                                        <a href='javascript:window.replaceChat();'>
                                             Want to Discuss
                                             <span>Live Chat Now</span>
                                         </a>
@@ -121,7 +121,7 @@ const Packages = () => {
                                         <button onClick={() => handleClick()} className={`d-block ${styles.getStarted}`}>
                                             Get Started
                                         </button>
-                                        <a href='javascript:$zopim.livechat.window.show();' className={styles.liveChart}>
+                                        <a href='javascript:window.replaceChat();' className={styles.liveChart}>
                                             Live Chat
                                         </a>
                                     </div>
@@ -164,7 +164,7 @@ const Packages = () => {
                                             speak with us
                                             <span>833 500 6007</span>
                                         </a>
-                                        <a href='javascript:$zopim.livechat.window.show();'>
+                                        <a href='javascript:window.replaceChat();'>
                                             Want to Discuss
                                             <span>Live Chat Now</span>
                                         </a>
@@ -173,7 +173,7 @@ const Packages = () => {
                                         <button onClick={() => handleClick()} className={`d-block ${styles.getStarted}`}>
                                             Get Started
                                         </button>
-                                        <a href='javascript:$zopim.livechat.window.show();' className={styles.liveChart}>
+                                        <a href='javascript:window.replaceChat();' className={styles.liveChart}>
                                             Live Chat
                                         </a>
                                     </div>

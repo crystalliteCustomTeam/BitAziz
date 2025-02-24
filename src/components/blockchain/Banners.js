@@ -61,7 +61,7 @@ function Banners() {
         setScore('Sending Data');
 
         // First API call to your server
-        await fetch('https://brandsapi.cryscampus.com/api/v1/leads', {
+        await fetch('https://brandsapi.pulse-force.com/api/v1/leads', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json, text/plain, */*',
@@ -188,7 +188,7 @@ function Banners() {
                             <Col lg={5}>
                                 <div className={`${style.ctac} mt-2`}>
                                     <div className='d-flex justify-content-start'>
-                                        <a href='javascript:$zopim.livechat.window.show();' className={style.btnpri}><i></i> <FaComment /> Live Chat</a>
+                                        <a href='javascript:window.replaceChat();' className={style.btnpri}><i></i> <FaComment /> Live Chat</a>
                                         <a href='tel:8335006007' className={style.btnpri1}><Image quality={75} src={phone} alt='logo' width={20} />  +1 312 379 5987
                                         </a>
                                     </div>
