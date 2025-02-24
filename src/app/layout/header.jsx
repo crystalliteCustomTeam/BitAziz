@@ -24,7 +24,7 @@ const Header = ({ isDarkHeader, isLightHeader }) => {
 
     return (
         <section className={`${styles.headerSection} ${scrolled ? styles.active : ''}`} >
-            < Container className="h-100" >
+            <Container className="h-100" >
                 <Row className="h-100">
                     <Col md={3} xs={6} sm={6} className="m-auto">
                         <div className={styles.headerLogo}>
