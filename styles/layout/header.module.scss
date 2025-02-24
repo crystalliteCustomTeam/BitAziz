@@ -31,6 +31,7 @@
         visibility: hidden;
     }
 
+
 }
 
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
@@ -39,28 +40,28 @@
 
         .headerLogo {
             svg {
-                height: 65px;
+                height: 60px;
                 width: auto;
             }
         }
     }
 }
 
-@media only screen and (min-width: 900px) and (max-width:1099px) {
+@media only screen and (min-width: 1000px) and (max-width:1099px) {
     .headerSection {
         height: 60px;
         top: 10px;
 
         .headerLogo {
             svg {
-                height: 65px;
+                height: 55px;
                 width: auto;
             }
         }
     }
 }
 
-@media only screen and (min-width: 600px) and (max-width:899px) {
+@media only screen and (min-width: 600px) and (max-width:999px) {
     .headerSection {
         height: 50px;
         top: 0px;

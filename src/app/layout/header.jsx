@@ -24,7 +24,7 @@ const Header = ({ isDarkHeader, isLightHeader }) => {
     <section className={`${styles.headerSection} ${scrolled ? styles.active : ''}`} >
       <Container className="h-100" >
         <Row className="h-100">
-          <Col md={3} xs={6} sm={6} className="m-auto">
+          <Col md={2} lg={2} xl={3} xs={6} sm={6} className="m-auto">
             <div className={styles.headerLogo}>
               <Link href="/"  >
                 {!scrolled ? (
@@ -68,12 +68,13 @@ const Header = ({ isDarkHeader, isLightHeader }) => {
               </Link>
             </div>
           </Col>
-          <Col md={9} xs={6} sm={6} className="m-auto">
+          <Col md={10} lg={10} xl={9} xs={6} sm={6} className="m-auto">
             <Navigation scrolled={scrolled} isLightHeader={isLightHeader} isDarkHeader={isDarkHeader} />
           </Col>
         </Row>
-      </Container >
-    </section >
+      </Container>
+
+    </section>
   )
 }
 

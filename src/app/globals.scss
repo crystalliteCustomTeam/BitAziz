@@ -26,7 +26,7 @@ body {
             position: fixed;
             top: 50px;
             left: 0px;
-            z-index: 2;
+            z-index: 9;
         }
     }
 }
@@ -1122,7 +1122,7 @@ li {
     }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 900px) {
+@media only screen and (min-width: 600px) and (max-width: 999px) {
     .navIcon {
         display: flex;
         justify-content: flex-end;
@@ -1134,7 +1134,7 @@ li {
 
     body {
         .container {
-            max-width: 700px;
+            max-width: 96%;
         }
     }
 
