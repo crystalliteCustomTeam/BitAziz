@@ -187,11 +187,13 @@ const Navigation = ({ isDarkHeader, isLightHeader, scrolled }) => {
         <li className={styles.btnHeader} onClick={() => handlePopUp()}>
           <Link href="">Connect Now</Link>
         </li>
+        <li className={styles.btnHeader}>
+          <a href="tel:+18335006007">+1 833 500 6007</a>
+        </li>
       </ul>
       <div
-        className={`${styles.mainMobileNavigation}  ${
-          isActive ? `${styles.active}` : ""
-        }`}
+        className={`${styles.mainMobileNavigation}  ${isActive ? `${styles.active}` : ""
+          }`}
       >
         <ul className={styles.mobileNavigation}>
           <li>
@@ -246,6 +248,9 @@ const Navigation = ({ isDarkHeader, isLightHeader, scrolled }) => {
             <Link href="/contact-us" onClick={() => handlePopUp()}>
               Connect Now
             </Link>
+          </li>
+          <li >
+            <a href="tel:+18335006007">+1 833 500 6007</a>
           </li>
         </ul>
       </div>

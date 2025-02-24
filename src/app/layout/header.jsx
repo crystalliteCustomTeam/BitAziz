@@ -19,28 +19,23 @@ const Header = ({ isDarkHeader, isLightHeader }) => {
     }
   }, [])
 
+
   return (
-    <section
-      className={`${styles.headerSection} ${scrolled ? styles.active : ""}`}
-    >
-      <Container className="h-100">
+    <section className={`${styles.headerSection} ${scrolled ? styles.active : ''}`} >
+      <Container className="h-100" >
         <Row className="h-100">
-          <Col md={3} xs={6} sm={6} className="m-auto">
+          <Col md={2} lg={2} xl={3} xs={6} sm={6} className="m-auto">
             <div className={styles.headerLogo}>
-              <Link href="/">
+              <Link href="/"  >
                 {!scrolled ? (
-                  isLightHeader ? (
-                    <MainLogo />
-                  ) : (
-                    <WhiteLogo />
-                  )
+                  isLightHeader ? <MainLogo /> : <WhiteLogo />
                 ) : (
                   <MainLogo />
                 )}
               </Link>
             </div>
             <div className={styles.headermobileLogo}>
-              <Link href="/">
+              <Link href="/" >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0"
@@ -73,15 +68,12 @@ const Header = ({ isDarkHeader, isLightHeader }) => {
               </Link>
             </div>
           </Col>
-          <Col md={9} xs={6} sm={6} className="m-auto">
-            <Navigation
-              scrolled={scrolled}
-              isLightHeader={isLightHeader}
-              isDarkHeader={isDarkHeader}
-            />
+          <Col md={10} lg={10} xl={9} xs={6} sm={6} className="m-auto">
+            <Navigation scrolled={scrolled} isLightHeader={isLightHeader} isDarkHeader={isDarkHeader} />
           </Col>
         </Row>
       </Container>
+
     </section>
   )
 }

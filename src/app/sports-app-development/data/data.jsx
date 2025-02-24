@@ -47,39 +47,40 @@ import FuelingImg from "media/services/cuttingEdge.webp"
 import FuelingImg1 from "media/industry/sports/fuelingImg.webp"
 
 
-//========= TechStack Images
-import TAB1_1 from "media/industry/techstack/Reactjs.svg";
-import TAB1_2 from "media/industry/techstack/Angular.svg";
-import TAB1_3 from "media/industry/techstack/Vuejs.svg";
-import TAB1_4 from "media/industry/techstack/HTML5.svg";
-import TAB1_5 from "media/industry/techstack/CSS3.svg";
-import TAB1_6 from "media/services/tech/tab1/03.webp";
-import TAB2_1 from "media/industry/techstack/Nodejs.svg";
-import TAB2_2 from "media/industry/techstack/Python.svg";
-import TAB2_3 from "media/industry/techstack/RubyOnRails.svg";
-import TAB2_4 from "media/industry/techstack/Java.svg";
-import TAB2_5 from "media/industry/techstack/DotNET.svg";
-import TAB2_6 from "media/industry/techstack/PHP.svg";
-import TAB3_1 from "media/industry/techstack/Swift.svg";
-import TAB3_2 from "media/industry/techstack/Kotlin.svg";
-import TAB3_3 from "media/industry/techstack/ReactNative.svg";
-import TAB3_4 from "media/industry/techstack/Flutter.svg";
-import TAB3_5 from "media/industry/techstack/Xamarin.svg";
-import TAB4_1 from "media/industry/techstack/MySQL.svg";
-import TAB4_2 from "media/industry/techstack/PostgreSQL.svg";
-import TAB4_3 from "media/industry/techstack/MongoDB.svg";
-import TAB4_4 from "media/industry/techstack/SQLite.svg";
-import TAB4_5 from "media/industry/techstack/Redis.svg";
-import TAB5_1 from "media/industry/techstack/AWS.svg";
-import TAB5_2 from "media/industry/techstack/GoogleCloudPlatform.svg";
-import TAB5_3 from "media/industry/techstack/MicrosoftAzure.svg";
-import TAB5_4 from "media/industry/techstack/Firebase.svg";
-import TAB6_1 from "media/industry/techstack/OAuth.svg";
-import TAB6_2 from "media/industry/techstack/JWT.svg";
-import TAB6_3 from "media/industry/techstack/HIPAAComplianceTools.svg";
-import TAB7_1 from "media/industry/techstack/HL7.svg";
-import TAB7_2 from "media/industry/techstack/FHIR.svg";
-import TAB7_3 from "media/industry/techstack/DICOM.svg";
+
+//========= Frontend TechStack
+import TAB1_1 from "media/industry/techstack/frontend/ReactNative.svg";
+import TAB1_2 from "media/industry/techstack/frontend/Flutter.svg";
+import TAB1_3 from "media/industry/techstack/frontend/Swift.svg";
+import TAB1_4 from "media/industry/techstack/frontend/Kotlin.svg";
+import TAB1_5 from "media/industry/techstack/frontend/Ionic.svg";
+import TAB1_6 from "media/industry/techstack/frontend/Xamarin.svg";
+//========= Backend TechStack
+import TAB2_1 from "media/industry/techstack/backend/Nodejs.svg";
+import TAB2_2 from "media/industry/techstack/backend/Django.svg";
+import TAB2_3 from "media/industry/techstack/backend/RubyOnRails.svg";
+import TAB2_4 from "media/industry/techstack/backend/Java.svg";
+import TAB2_5 from "media/industry/techstack/backend/PHP.svg";
+import TAB2_6 from "media/industry/techstack/backend/Laravel.svg";
+import TAB2_7 from "media/industry/techstack/backend/Python.svg";
+//========= Database TechStack
+import TAB3_1 from "media/industry/techstack/database/SQLite.svg";
+import TAB3_2 from "media/industry/techstack/database/Firebase.svg";
+import TAB3_3 from "media/industry/techstack/database/MongoDB.svg";
+import TAB3_4 from "media/industry/techstack/database/PostgreSQL.svg";
+import TAB3_5 from "media/industry/techstack/database/Redis.svg";
+//========= Cloud TechStack
+import TAB4_1 from "media/industry/techstack/cloud/AWS.svg";
+import TAB4_2 from "media/industry/techstack/cloud/MicrosoftAzure.svg";
+import TAB4_3 from "media/industry/techstack/cloud/GoogleCloudPlatform.svg";
+import TAB4_4 from "media/industry/techstack/cloud/IBMCloud.svg";
+//========= Payment TechStack
+import TAB5_1 from "media/industry/techstack/payment/Stripe.svg";
+import TAB5_2 from "media/industry/techstack/payment/PayPal.svg";
+import TAB5_3 from "media/industry/techstack/payment/Square.svg";
+import TAB5_4 from "media/industry/techstack/payment/ApplePay.svg";
+import TAB5_5 from "media/industry/techstack/payment/GooglePay.svg";
+import TAB5_6 from "media/industry/techstack/payment/Braintree.svg";
 
 //========= Industries Images
 import { LogisticsSVG, MusicSVG, EcommerceSVG, AutomotiveSVG, EducationSVG, FintechSVG, RealEstateSVG, SocialSVG, } from "@/src/app/app-constants";
@@ -562,27 +563,27 @@ export const TechStackTabs = [
         title: "Frontend",
         content: [
             {
-                heading: "React.js",
+                heading: "React Native",
                 img: TAB1_1.src,
             },
             {
-                heading: "Angular",
+                heading: "Flutter",
                 img: TAB1_2.src,
             },
             {
-                heading: "Vue.js",
+                heading: "Swift UI",
                 img: TAB1_3.src,
             },
             {
-                heading: "HTML5",
+                heading: "Kotlin",
                 img: TAB1_4.src,
             },
             {
-                heading: "CSS3",
+                heading: "Ionic ",
                 img: TAB1_5.src,
             },
             {
-                heading: "JavaScript",
+                heading: "Xamarin",
                 img: TAB1_6.src,
             }
         ],
@@ -595,7 +596,7 @@ export const TechStackTabs = [
                 img: TAB2_1.src,
             },
             {
-                heading: "Python",
+                heading: "Django",
                 img: TAB2_2.src,
             },
             {
@@ -607,37 +608,16 @@ export const TechStackTabs = [
                 img: TAB2_4.src,
             },
             {
-                heading: ".NET Core",
+                heading: "PHP",
                 img: TAB2_5.src,
             },
             {
-                heading: "PHP",
+                heading: "Laravel",
                 img: TAB2_6.src,
-            }
-        ],
-    },
-    {
-        title: "Mobile Development",
-        content: [
-            {
-                heading: "Swift",
-                img: TAB3_1.src,
             },
             {
-                heading: "Kotlin",
-                img: TAB3_2.src,
-            },
-            {
-                heading: "React Native",
-                img: TAB3_3.src,
-            },
-            {
-                heading: "Flutter",
-                img: TAB3_4.src,
-            },
-            {
-                heading: "Xamarin",
-                img: TAB3_5.src,
+                heading: "Python",
+                img: TAB2_7.src,
             }
         ],
     },
@@ -645,24 +625,24 @@ export const TechStackTabs = [
         title: "Database",
         content: [
             {
-                heading: "MySQL",
-                img: TAB4_1.src,
+                heading: "SQLite",
+                img: TAB3_1.src,
             },
             {
-                heading: "PostgreSQL",
-                img: TAB4_2.src,
+                heading: "Firebase",
+                img: TAB3_2.src,
             },
             {
                 heading: "MongoDB",
-                img: TAB4_3.src,
+                img: TAB3_3.src,
             },
             {
-                heading: "SQLite",
-                img: TAB4_4.src,
+                heading: "PostgreSQL",
+                img: TAB3_4.src,
             },
             {
                 heading: "Redis",
-                img: TAB4_5.src,
+                img: TAB3_5.src,
             }
         ],
     },
@@ -671,56 +651,53 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "AWS",
-                img: TAB5_1.src,
-            },
-            {
-                heading: "Google Cloud Platform",
-                img: TAB5_2.src,
+                img: TAB4_1.src,
             },
             {
                 heading: "Microsoft Azure",
+                img: TAB4_2.src,
+            },
+            {
+                heading: "Google Cloud",
+                img: TAB4_3.src,
+            },
+            {
+                heading: "IBM Cloud",
+                img: TAB4_4.src,
+            }
+        ],
+    },
+    {
+        title: "Payment",
+        content: [
+            {
+                heading: "Stripe",
+                img: TAB5_1.src,
+            },
+            {
+                heading: "Paypal",
+                img: TAB5_2.src,
+            },
+            {
+                heading: "Square",
                 img: TAB5_3.src,
             },
             {
-                heading: "Firebase",
+                heading: "Apple Pay",
                 img: TAB5_4.src,
             }
-        ],
-    },
-    {
-        title: "Integration",
-        content: [
+            ,
             {
-                heading: "OAuth 2.0",
-                img: TAB6_1.src,
-            },
+                heading: "Google Pay",
+                img: TAB5_5.src,
+            }
+            ,
             {
-                heading: "JWT",
-                img: TAB6_2.src,
-            },
-            {
-                heading: "HIPAA Compliance Tools",
-                img: TAB6_3.src,
+                heading: "Braintree",
+                img: TAB5_6.src,
             }
         ],
     },
-    {
-        title: "Healthcare-Specific Integrations",
-        content: [
-            {
-                heading: "HL7",
-                img: TAB7_1.src,
-            },
-            {
-                heading: "FHIR",
-                img: TAB7_2.src,
-            },
-            {
-                heading: "DICOM",
-                img: TAB7_3.src,
-            }
-        ],
-    }
 ];
 
 export const IndustriesContent = {
