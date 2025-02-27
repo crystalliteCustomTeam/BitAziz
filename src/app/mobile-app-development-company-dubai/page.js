@@ -39,25 +39,26 @@ import MapImage from "media/newdubai/map1.png"
 import Link from "next/link"
 
 export default function dubaidevelopmentcompany() {
-  const [shouldRender, setShouldRender] = useState(window.innerWidth >= 768)
+  const [shouldRender, setShouldRender] = useState(false)
 
   useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth >= 768) {
-        setShouldRender(true)
-      } else {
-        setShouldRender(false)
-      }
-    }
+    if (typeof window !== "undefined") {
+      const handleResize = () => {
+        if (window.innerWidth >= 768) {
+          setShouldRender(true);
+        } else {
+          setShouldRender(false);
+        }
+      };
+      handleResize();
 
-    // Add event listener for window resize
-    window.addEventListener("resize", handleResize)
+      window.addEventListener('resize', handleResize);
 
-    // Cleanup the event listener on component unmount
-    return () => {
-      window.removeEventListener("resize", handleResize)
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
     }
-  }, [])
+  }, []);
 
   // Banner Content
   const Banner = {
