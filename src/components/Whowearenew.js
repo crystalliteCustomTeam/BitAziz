@@ -74,7 +74,7 @@ const Whowearenew = ({ content }) => {
                                 <div>
                                     <div className={`d-flex align-items-center justify-content-between mb-2 ${styles.txt}`}>
                                         <h3>{subtitleOne}</h3>
-                                        <Link href="/social-app-development-case-study">
+                                        <Link rel="preload" href="/social-app-development-case-study">
                                             <Image src={ArrowImage} alt='Arrow Icon' className={`${styles.arrowImage} img-fluid`} />
                                         </Link>
                                     </div>
@@ -108,7 +108,7 @@ const Whowearenew = ({ content }) => {
                                 <div>
                                     <div className={`d-flex align-items-center justify-content-between mb-2 ${styles.txt}`}>
                                         <h3>{subtitleTwo}</h3>
-                                        <Link href="/hiring-app-development-case-study">
+                                        <Link rel="preload" href="/hiring-app-development-case-study">
                                             <Image src={ArrowImage} alt='Arrow Icon' className={`${styles.arrowImage} img-fluid`} />
                                         </Link>
                                     </div>
@@ -142,7 +142,7 @@ const Whowearenew = ({ content }) => {
                                 <div>
                                     <div className={`d-flex align-items-center justify-content-between mb-2 ${styles.txt}`}>
                                         <h3>{subtitleThree}</h3>
-                                        <Link href="/automobile-repair-app-development-case-study">
+                                        <Link rel="preload" href="/automobile-repair-app-development-case-study">
                                             <Image src={ArrowImage} alt='Arrow Icon' className={`${styles.arrowImage} img-fluid`} />
                                         </Link>
                                     </div>

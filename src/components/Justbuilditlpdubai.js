@@ -49,10 +49,10 @@ const Justbuilditlpdubai = (props) => {
                             <h2 className={styles.title}><span>{props.title1}</span> {props.title}</h2>
                             <p className={styles.para}>{props.para}</p>
                             <div className={styles.pont}>
-                                <Link href="tel:8335006007" className={`blueShade ${styles.about1}`}>
+                                <Link rel="preload" href="tel:8335006007" className={`blueShade ${styles.about1}`}>
                                     Call Now
                                 </Link>
-                                <Link href='javascript:window.replaceChat();' className={`pink ${styles.about}`}>
+                                <Link rel="preload" href='javascript:window.replaceChat();' className={`pink ${styles.about}`}>
                                     Live Chat
                                 </Link>
                             </div>

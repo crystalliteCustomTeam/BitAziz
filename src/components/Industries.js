@@ -147,7 +147,7 @@ const Industries = () => {
                                         <div className={`card ${styles.card}`}>
                                             <h3>{content.title}</h3>
                                             <p>{content.desc}</p>
-                                            <Link href={content.href} className={styles.btn}>
+                                            <Link rel="preload" href={content.href} className={styles.btn}>
                                                 Learn More
                                                 <span>
                                                     <Image src={SliderArrow} alt='Bitswits' loading='lazy' sizes="100vw" width={17} height={11} />
