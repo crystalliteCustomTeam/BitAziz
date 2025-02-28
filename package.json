@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@fancyapps/ui": "^5.0.36",
-    "@next/third-parties": "^15.0.2",
+    "@next/third-parties": "^15.2.0",
     "@vercel/analytics": "^1.2.2",
     "analytics": "^0.8.11",
     "axios": "^1.6.8",
