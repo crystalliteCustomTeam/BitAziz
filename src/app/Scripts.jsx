@@ -37,38 +37,6 @@ const Scripts = () => {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      //======== Live Chat ========//
-      //   window.__lc = window.__lc || {}
-      //   window.__lc.license = 18644241
-      //   window.__lc.integration_name = "manual_onboarding"
-      //   window.__lc.product_name = "livechat"
-      //   const livechat = document.createElement("script")
-      //   livechat.async = true
-      //   livechat.src = "https://cdn.livechatinc.com/tracking.js"
-
-      //   // Listen for when the script has loaded
-      //   livechat.onload = () => {
-      //     console.log("LiveChat script loaded")
-
-      //     // Check if LC_API is available and then call open_chat_window
-      //     if (
-      //       parent.LC_API &&
-      //       typeof parent.LC_API.open_chat_window === "function"
-      //     ) {
-      //       parent.LC_API.open_chat_window()
-      //     } else {
-      //       console.error("LC_API.open_chat_window is not available")
-      //     }
-      //   }
-
-      //   document.body.appendChild(livechat)
-      //======== zenDesk ========//
-      // const zenDesk = document.createElement("script");
-      // zenDesk.id = "ze-snippet";
-      // zenDesk.src = "https://static.zdassets.com/ekr/snippet.js?key=325da280-f4f0-4c80-997f-ea4de45eb2f1";
-      // zenDesk.async = true;
-      // zenDesk.defer = true;
-      // document.body.appendChild(zenDesk);
       //======== GTM Code ========//
       const googleTagManager = document.createElement("script")
       googleTagManager.strategy = "lazyOnload"
@@ -119,28 +87,10 @@ const Scripts = () => {
                 gtag('config', 'G-T8JYHWL639');
             `
       document.head.appendChild(analyticConfigScript)
-    }, 5000)
+    }, 10000)
     return () => clearTimeout(timer)
   }, [])
 
-  //   useEffect(() => {
-  //     const handleClick = (event) => {
-  //       const target = event.target
-  //       if (target.href === "javascript:window.replaceChat();") {
-  //         event.preventDefault() // Default action se roknay kay liye
-  //         // Yahan aap apni live chat kholne wali function call kar sakte hain
-  //         parent.LC_API.open_chat_window()
-  //         return false
-  //       }
-  //     }
-  //     // Event listener add karen
-  //     document.addEventListener("click", handleClick)
-  //     // Cleanup function
-  //     return () => {
-  //       document.removeEventListener("click", handleClick)
-  //     }
-  //   }, [])
-  // =======================================
   return (
     <>
       <Head>
@@ -153,6 +103,7 @@ const Scripts = () => {
           ></iframe>
         </noscript>
         <script
+          defer
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(indexingapi) }}
         />

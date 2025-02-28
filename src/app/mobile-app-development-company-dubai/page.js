@@ -40,25 +40,41 @@ import Link from "next/link"
 
 export default function dubaidevelopmentcompany() {
   const [shouldRender, setShouldRender] = useState(false)
+  const [isMouseMoved, setIsMouseMoved] = useState(false)
 
   useEffect(() => {
     if (typeof window !== "undefined") {
       const handleResize = () => {
         if (window.innerWidth >= 768) {
-          setShouldRender(true);
+          setShouldRender(true)
         } else {
-          setShouldRender(false);
+          setShouldRender(false)
         }
-      };
-      handleResize();
+      }
 
-      window.addEventListener('resize', handleResize);
+      handleResize()
+
+      window.addEventListener("resize", handleResize)
 
       return () => {
-        window.removeEventListener('resize', handleResize);
-      };
+        window.removeEventListener("resize", handleResize)
+      }
     }
-  }, []);
+  }, [])
+
+  useEffect(() => {
+    if (shouldRender) {
+      const handleMouseMove = () => {
+        setIsMouseMoved(true)
+      }
+
+      window.addEventListener("mousemove", handleMouseMove)
+
+      return () => {
+        window.removeEventListener("mousemove", handleMouseMove)
+      }
+    }
+  }, [shouldRender])
 
   // Banner Content
   const Banner = {
@@ -443,7 +459,7 @@ export default function dubaidevelopmentcompany() {
   }
   return (
     <>
-      {shouldRender ? (
+      {isMouseMoved && shouldRender ? (
         <>
           <Bannerdubai content={Banner} />
           <NewDubaiAwards content={Award} />

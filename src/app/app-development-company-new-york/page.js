@@ -1,160 +1,306 @@
 "use client"
-import React from "react";
-import Script from "next/script";
+import React, { useEffect, useState } from "react"
+import Script from "next/script"
 // componets
-import Bannerdubai from "../../components/Bannerdubainew";
-import NewDubaiAwards from "@/src/components/NewDubaiAwards";
-import FutureReady from "@/src/components/FuturereadyDubai";
-import Whowearenew from "../../components/Whowearenew";
-import DubaiDelivered from "@/src/components/DubaiDelivered";
-import DubaiTimeline from "@/src/components/DubaiTimeline";
-import DubaiClients from "@/src/components/DubaiClients";
-import Delivered from "@/src/components/Delivered";
-import Industries from "@/src/components/Industries";
-import Houtondubai from "../../components/Houtondubai";
-import DubaiBrandTrust from "@/src/components/DubaiBrandTrust";
-import Expertappdubaiadvanced from "../../components/Expertappdubaiadvanced";
-import Justbuilditlpdubai from "../../components/Justbuilditlpdubai";
-import Brand from "../../components/Brand";
-import Faqdubai from "../../components/Faqdubai";
-import Latestblog from "../../components/Latestblog";
-import Globalmap from "../../components/Globalmap";
-//Images 
-import StoryLine2 from "/public/newDubaiPagev1/storyLine2.png";
-import StoryLine3 from "/public/newDubaiPagev1/storyLine3.png";
-import StoryLine4 from "/public/newDubaiPagev1/storyLine4.png";
-import StoryLine5 from "/public/newDubaiPagev1/storyLine5.png";
-import StoryLine6 from "/public/newDubaiPagev1/storyLine6.png";
-import banImg1 from '@/public/dubailp/services/1.png'
-import banImg2 from '@/public/dubailp/services/2.png'
-import banImg3 from '@/public/dubailp/services/3.png'
-import banImg4 from '@/public/dubailp/services/4.png'
-import banImg5 from '@/public/dubailp/services/5.png'
-import banImg6 from '@/public/dubailp/services/6.png'
-import blog1 from "/public/newdubai/blog1.png";
-import blog2 from "/public/newdubai/blog2.png";
-import blog3 from "/public/newdubai/blog3.png";
-import HeroBg from "/public/newhouston/newyork.webp";
+import Bannerdubai from "../../components/Bannerdubainew"
+import NewDubaiAwards from "@/src/components/NewDubaiAwards"
+import FutureReady from "@/src/components/FuturereadyDubai"
+import Whowearenew from "../../components/Whowearenew"
+import DubaiDelivered from "@/src/components/DubaiDelivered"
+import DubaiTimeline from "@/src/components/DubaiTimeline"
+import DubaiClients from "@/src/components/DubaiClients"
+import Delivered from "@/src/components/Delivered"
+import Industries from "@/src/components/Industries"
+import Houtondubai from "../../components/Houtondubai"
+import DubaiBrandTrust from "@/src/components/DubaiBrandTrust"
+import Expertappdubaiadvanced from "../../components/Expertappdubaiadvanced"
+import Justbuilditlpdubai from "../../components/Justbuilditlpdubai"
+import Brand from "../../components/Brand"
+import Faqdubai from "../../components/Faqdubai"
+import Latestblog from "../../components/Latestblog"
+import Globalmap from "../../components/Globalmap"
+//Images
+import StoryLine2 from "/public/newDubaiPagev1/storyLine2.png"
+import StoryLine3 from "/public/newDubaiPagev1/storyLine3.png"
+import StoryLine4 from "/public/newDubaiPagev1/storyLine4.png"
+import StoryLine5 from "/public/newDubaiPagev1/storyLine5.png"
+import StoryLine6 from "/public/newDubaiPagev1/storyLine6.png"
+import banImg1 from "@/public/dubailp/services/1.png"
+import banImg2 from "@/public/dubailp/services/2.png"
+import banImg3 from "@/public/dubailp/services/3.png"
+import banImg4 from "@/public/dubailp/services/4.png"
+import banImg5 from "@/public/dubailp/services/5.png"
+import banImg6 from "@/public/dubailp/services/6.png"
+import blog1 from "/public/newdubai/blog1.png"
+import blog2 from "/public/newdubai/blog2.png"
+import blog3 from "/public/newdubai/blog3.png"
+import HeroBg from "/public/newhouston/newyork.webp"
 import MapImage from "media/newdubai/newYorkMap.png"
-import Link from "next/link";
+import Link from "next/link"
 
 export default function dubaidevelopmentcompany() {
+  const [shouldRender, setShouldRender] = useState(false)
+  const [isMouseMoved, setIsMouseMoved] = useState(false)
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const handleResize = () => {
+        if (window.innerWidth >= 768) {
+          setShouldRender(true)
+        } else {
+          setShouldRender(false)
+        }
+      }
+
+      handleResize()
+
+      window.addEventListener("resize", handleResize)
+
+      return () => {
+        window.removeEventListener("resize", handleResize)
+      }
+    }
+  }, [])
+
+  useEffect(() => {
+    if (shouldRender) {
+      const handleMouseMove = () => {
+        setIsMouseMoved(true)
+      }
+
+      window.addEventListener("mousemove", handleMouseMove)
+
+      return () => {
+        window.removeEventListener("mousemove", handleMouseMove)
+      }
+    }
+  }, [shouldRender])
+
   // Banner Content
   const Banner = {
     title: "Top Mobile App Development Company in New York",
     desc: "BitsWits is an industry-leading mobile app development company in New York that helps startups and SMBs create apps that fuel business growth. With a team of top-tier app developers in NYC, we build tailored iOS and Android apps designed to meet specific needs. Recognized for delivering cutting-edge solutions, we make sure your app stands out in the competitive market.",
     bg: HeroBg,
-    alt: "Banner for New York based mobile app development company featuring contact information and tag line"
+    alt: "Banner for New York based mobile app development company featuring contact information and tag line",
   }
   // award Content
   const Award = {
     title: "Awards & Recognitions",
-    desc: <>Consistently delivering value and results<br className="d-xl-block d-none" /> to our partners and clients throughout the globe. </>,
-
+    desc: (
+      <>
+        Consistently delivering value and results
+        <br className="d-xl-block d-none" /> to our partners and clients
+        throughout the globe.{" "}
+      </>
+    ),
   }
   //=====StoryLine Fold=====//
   const accordionData = [
     {
-      question: 'Android App Development in New York',
-      answer: "We offer top-tier Android app development services to entrepreneurs looking to build high-performance native Android apps. Our tech stack for Android app development in New York includes programming languages like Kotlin, Java, and PHP, with Android Studio as the IDE, MongoDB or MySQL for databases, and Android Jetpack for UI components, ensuring seamless performance.",
+      question: "Android App Development in New York",
+      answer:
+        "We offer top-tier Android app development services to entrepreneurs looking to build high-performance native Android apps. Our tech stack for Android app development in New York includes programming languages like Kotlin, Java, and PHP, with Android Studio as the IDE, MongoDB or MySQL for databases, and Android Jetpack for UI components, ensuring seamless performance.",
       btn: "Let’s Build My Android App",
-      StoryLineImg: StoryLine2
+      StoryLineImg: StoryLine2,
     },
     {
-      question: 'iOS App Development in New York',
-      answer: "Building top-tier iOS apps requires a solid tech stack, and our iOS app developers in New York are experienced with the essential tools and languages for success. Our team uses Swift and Objective-C, along with tools like Xcode and SwiftUI, to develop native apps that leverage GPS, cameras, and high-performance processors, ensuring seamless performance across all iOS devices.",
+      question: "iOS App Development in New York",
+      answer:
+        "Building top-tier iOS apps requires a solid tech stack, and our iOS app developers in New York are experienced with the essential tools and languages for success. Our team uses Swift and Objective-C, along with tools like Xcode and SwiftUI, to develop native apps that leverage GPS, cameras, and high-performance processors, ensuring seamless performance across all iOS devices.",
       btn: "Let’s Build My iOS App!",
-      StoryLineImg: StoryLine3
+      StoryLineImg: StoryLine3,
     },
     {
-      question: 'Cross-Platform App Development in New York',
-      answer: "Using top frameworks like React Native and Flutter, we specialize in delivering seamless cross-platform apps for both Android and iOS. As a leading cross-platform app development company in NYC, we create apps with a single codebase that maintains native-like performance and user experience, all while offering a cost-effective solution for businesses aiming for consistency across platforms.",
+      question: "Cross-Platform App Development in New York",
+      answer:
+        "Using top frameworks like React Native and Flutter, we specialize in delivering seamless cross-platform apps for both Android and iOS. As a leading cross-platform app development company in NYC, we create apps with a single codebase that maintains native-like performance and user experience, all while offering a cost-effective solution for businesses aiming for consistency across platforms.",
       btn: "Let’s Build My Cross-Platform App!",
-      StoryLineImg: StoryLine4
+      StoryLineImg: StoryLine4,
     },
     {
-      question: 'Progressive Web App Development in New York',
-      answer: "We specialize in progressive web app development using modern web technologies to create fast, reliable, and user-friendly PWAs across devices like smartphones, desktops, and tablets. As experienced progressive web app developers in NYC, we utilize popular frameworks such as Angular, React, and Vue.js to deliver seamless performance and an engaging user experience.",
+      question: "Progressive Web App Development in New York",
+      answer:
+        "We specialize in progressive web app development using modern web technologies to create fast, reliable, and user-friendly PWAs across devices like smartphones, desktops, and tablets. As experienced progressive web app developers in NYC, we utilize popular frameworks such as Angular, React, and Vue.js to deliver seamless performance and an engaging user experience.",
       btn: "Let’s Build My PWA!",
-      StoryLineImg: StoryLine5
+      StoryLineImg: StoryLine5,
     },
     {
-      question: 'Game Development in New York',
-      answer: "Our expert game development team builds binge-worthy, adrenaline-pumping games using cutting-edge tools and technologies. With a team of dedicated mobile game app developers in New York City, we excel with engines like Unity or Unreal Engine, programming languages such as C# and C++, and 3D modeling software like Blender or Maya, creating immersive games that keep players coming back.",
+      question: "Game Development in New York",
+      answer:
+        "Our expert game development team builds binge-worthy, adrenaline-pumping games using cutting-edge tools and technologies. With a team of dedicated mobile game app developers in New York City, we excel with engines like Unity or Unreal Engine, programming languages such as C# and C++, and 3D modeling software like Blender or Maya, creating immersive games that keep players coming back.",
       btn: "Let’s Build My Game App!",
-      StoryLineImg: StoryLine6
+      StoryLineImg: StoryLine6,
     },
-  ];
+  ]
   const storyLine = {
-    subtitle: (<>Top-Rated</>),
-    title: (<> Mobile App Development Company in New York </>),
+    subtitle: <>Top-Rated</>,
+    title: <> Mobile App Development Company in New York </>,
     para: "BitsWits has been consistently ranked as the leading mobile app development company in New York on top review platforms like Clutch, GoodFirms, etc. Our full-stack development expertise is the reason why we are ranked among the finest NYC app developers.",
-    subPara: <>Here’s the suite of <Link href="/mobile-application-development-services" className="fw600 text-black">app development services </Link>we offer:</>,
-    accordionData: accordionData
-  };
+    subPara: (
+      <>
+        Here’s the suite of{" "}
+        <Link
+          rel="preload"
+          href="/mobile-application-development-services"
+          className="fw600 text-black"
+        >
+          app development services{" "}
+        </Link>
+        we offer:
+      </>
+    ),
+    accordionData: accordionData,
+  }
   // Who We Are Content
   const WhoWeAre = {
     title: "A Portfolio that Shouts Success!",
-    desc: <>We are among the fastest-growing app development companies in New York with a portfolio of 150+ successfully <br className="d-xl-block d-none" /> built and launched mobile applications across 10+ industries, with over 1 million downloads combined. </>,
+    desc: (
+      <>
+        We are among the fastest-growing app development companies in New York
+        with a portfolio of 150+ successfully{" "}
+        <br className="d-xl-block d-none" /> built and launched mobile
+        applications across 10+ industries, with over 1 million downloads
+        combined.{" "}
+      </>
+    ),
     para: "Here’s a glimpse at our resounding app development portfolio.",
-    subtitleOne: <>Soul <br className="d-none d-md-block d-lg-none" /> Scribe</>,
-    subDescOne: "Soul Scribe is a groundbreaking social networking app that functions as a digital diary, and you can enlist your loved ones to be part of your online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories.",
-    subtitleTwo: <>The <br className="d-none d-md-block d-lg-none" /> Ready App</>,
-    subDescTwo: "The Ready App is a revolutionary platform invented to revolutionize the hiring process for the transportation industry. It fills the communication gap between drivers and recruiters by having a user-friendly interface along with features like secure messaging, personal meetings, and real-time updates.",
-    subtitleThree: <>Grease <br className="d-none d-md-block d-lg-none" /> Monkey</>,
-    subDescThree: "Grease Monkey is a comprehensive automotive innovation system that provides everything ranging from car repairs to oil checkups. Serving as an independent app, Grease Monkey presents users with important factors to consider such as prices and locations, and also client ratings for your vehicles."
+    subtitleOne: (
+      <>
+        Soul <br className="d-none d-md-block d-lg-none" /> Scribe
+      </>
+    ),
+    subDescOne:
+      "Soul Scribe is a groundbreaking social networking app that functions as a digital diary, and you can enlist your loved ones to be part of your online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories.",
+    subtitleTwo: (
+      <>
+        The <br className="d-none d-md-block d-lg-none" /> Ready App
+      </>
+    ),
+    subDescTwo:
+      "The Ready App is a revolutionary platform invented to revolutionize the hiring process for the transportation industry. It fills the communication gap between drivers and recruiters by having a user-friendly interface along with features like secure messaging, personal meetings, and real-time updates.",
+    subtitleThree: (
+      <>
+        Grease <br className="d-none d-md-block d-lg-none" /> Monkey
+      </>
+    ),
+    subDescThree:
+      "Grease Monkey is a comprehensive automotive innovation system that provides everything ranging from car repairs to oil checkups. Serving as an independent app, Grease Monkey presents users with important factors to consider such as prices and locations, and also client ratings for your vehicles.",
   }
   // delivered content
   const DeliveredContent = {
-    title: <>Mobile Apps Built by BitsWits Have 1 Million+ Downloads Combined!</>,
+    title: (
+      <>Mobile Apps Built by BitsWits Have 1 Million+ Downloads Combined!</>
+    ),
     desc: "Wanna Take Your App Idea to Market Fast?",
-    btntext: "Book Your Free Discovery Call!"
+    btntext: "Book Your Free Discovery Call!",
   }
   // timeline Content
   const timeline = {
     classSec: "newyork",
     subtitle: "Our Process",
-    title: <> Pioneering Mobile App  <br />  Development in New York </>,
-    desc: <>
-      <span className="d-block">At BitsWits, we don't just develop mobile apps; we create captivating, revenue-generating applications that keep you ahead in the digital world. </span>
-      <br />
-      <span className="d-block">We leverage advanced technologies and creative designs to produce apps that connect with users and drive business success. Our structured approach starts with defining the core problem statement and aligning it with your goals, ensuring a digital strategy that leads to continued success post-launch.</span>
-      <br />
-      <span className="mb-5 mb-sm-0 d-block">Whether it's full-scale app development, design revamps, feature integrations, or routine bug fixes, we're committed to turning every client's app into a global sensation.</span>
-    </>,
+    title: (
+      <>
+        {" "}
+        Pioneering Mobile App <br /> Development in New York{" "}
+      </>
+    ),
+    desc: (
+      <>
+        <span className="d-block">
+          At BitsWits, we don't just develop mobile apps; we create captivating,
+          revenue-generating applications that keep you ahead in the digital
+          world.{" "}
+        </span>
+        <br />
+        <span className="d-block">
+          We leverage advanced technologies and creative designs to produce apps
+          that connect with users and drive business success. Our structured
+          approach starts with defining the core problem statement and aligning
+          it with your goals, ensuring a digital strategy that leads to
+          continued success post-launch.
+        </span>
+        <br />
+        <span className="mb-5 mb-sm-0 d-block">
+          Whether it's full-scale app development, design revamps, feature
+          integrations, or routine bug fixes, we're committed to turning every
+          client's app into a global sensation.
+        </span>
+      </>
+    ),
     isSubtitle: true,
     heading1: "Strategy & Development Roadmap",
-    para1: "After discovery calls and consultation sessions, we create a tailored strategy and app development roadmap for your project. To ensure smooth execution, we divide your project into multiple phases and set up a dedicated team of app developers in New York, along with front-end designers, DevOps engineers, project managers, and quality assurance engineers, to deliver on our promise and your expectations.",
+    para1:
+      "After discovery calls and consultation sessions, we create a tailored strategy and app development roadmap for your project. To ensure smooth execution, we divide your project into multiple phases and set up a dedicated team of app developers in New York, along with front-end designers, DevOps engineers, project managers, and quality assurance engineers, to deliver on our promise and your expectations.",
     heading2: "Back-end Development & Integration",
-    para2: "Our battle-hardened NYC app developers work tirelessly to create a powerful and reliable infrastructure that supports your app's functionality and performance. From setting up servers and databases to building APIs and integrating third-party services, we handle every aspect of back-end development with precision and care. Development can be time-consuming, typically taking 3-6 months, depending on the intricacies and complexities of your app.",
+    para2:
+      "Our battle-hardened NYC app developers work tirelessly to create a powerful and reliable infrastructure that supports your app's functionality and performance. From setting up servers and databases to building APIs and integrating third-party services, we handle every aspect of back-end development with precision and care. Development can be time-consuming, typically taking 3-6 months, depending on the intricacies and complexities of your app.",
     heading3: "User Interface & Experience",
-    para3: "The front-end development team closely follows the project roadmap to lay down the foundation and the architecture in terms of wireframes and prototypes. We conduct biweekly stakeholder meetings to make sure we are on the same page and keep them updated on Slack regarding the progress. Once the design is finalized, we convert it into a functional, investor-ready prototype for fundraising opportunities.",
+    para3:
+      "The front-end development team closely follows the project roadmap to lay down the foundation and the architecture in terms of wireframes and prototypes. We conduct biweekly stakeholder meetings to make sure we are on the same page and keep them updated on Slack regarding the progress. Once the design is finalized, we convert it into a functional, investor-ready prototype for fundraising opportunities.",
     heading4: "Post-launch Support & Maintenance",
-    para4: "Launching your app is just the beginning of our journey together. We're in it for the long haul, providing ongoing support and maintenance to keep it running smoothly. Whether it's fixing bugs, adding new features, or just keeping things ticking along nicely, we've got your back. We'll keep a close eye on your app, making sure it stays secure, stable, and competitive in the competitive app market.",
+    para4:
+      "Launching your app is just the beginning of our journey together. We're in it for the long haul, providing ongoing support and maintenance to keep it running smoothly. Whether it's fixing bugs, adding new features, or just keeping things ticking along nicely, we've got your back. We'll keep a close eye on your app, making sure it stays secure, stable, and competitive in the competitive app market.",
     heading5: "Testing & Deployment",
-    para5: "Before your app goes live, we put it through rigorous testing across various devices and platforms. If we find any issues or bugs, we squash them, no questions asked. Once your app is bulletproof, we handle the deployment process and get it on both the App Store and the Play Store, so you can hit the ground running.",
+    para5:
+      "Before your app goes live, we put it through rigorous testing across various devices and platforms. If we find any issues or bugs, we squash them, no questions asked. Once your app is bulletproof, we handle the deployment process and get it on both the App Store and the Play Store, so you can hit the ground running.",
   }
   // ClientContent
   const ClientContent = {
-    title: <> Why Choose BitsWits for <span>Mobile App <br className="d-xl-block d-none" /> Development</span> in NYC?</>,
-    desc: <> BitsWits has an unmatched track record when it comes to client satisfaction, project success ratio, faster time-to-market, transparent pricing, <br className="d-xl-block d-none" /> and positive reviews on platforms like Clutch and Trustpilot. Book your free discovery call now!</>
+    title: (
+      <>
+        {" "}
+        Why Choose BitsWits for{" "}
+        <span>
+          Mobile App <br className="d-xl-block d-none" /> Development
+        </span>{" "}
+        in NYC?
+      </>
+    ),
+    desc: (
+      <>
+        {" "}
+        BitsWits has an unmatched track record when it comes to client
+        satisfaction, project success ratio, faster time-to-market, transparent
+        pricing, <br className="d-xl-block d-none" /> and positive reviews on
+        platforms like Clutch and Trustpilot. Book your free discovery call now!
+      </>
+    ),
   }
   // Delivered
   const desc = [
     {
-      para: <>App development cost in New York ranges anywhere between <span>$20,000 </span>to <span>$100,000+</span><br className="d-xl-block d-none" /> for a minimum viable product (MVP) and could go higher in the long run.</>
+      para: (
+        <>
+          App development cost in New York ranges anywhere between{" "}
+          <span>$20,000 </span>to <span>$100,000+</span>
+          <br className="d-xl-block d-none" /> for a minimum viable product
+          (MVP) and could go higher in the long run.
+        </>
+      ),
     },
     {
-      para: <>As a premier app development company in New York, our starting price for building an app is <span>$20,000</span> for an MVP. The overall cost depends on factors like cross-platform compatibility, GPS features, payment gateways, and more. </>
+      para: (
+        <>
+          As a premier app development company in New York, our starting price
+          for building an app is <span>$20,000</span> for an MVP. The overall
+          cost depends on factors like cross-platform compatibility, GPS
+          features, payment gateways, and more.{" "}
+        </>
+      ),
     },
     {
-      para: <>Curious about app development cost in New York? Try our free app cost calculator to get a tailored estimate based on your app’s LOE. </>
-    }
+      para: (
+        <>
+          Curious about app development cost in New York? Try our free app cost
+          calculator to get a tailored estimate based on your app’s LOE.{" "}
+        </>
+      ),
+    },
   ]
   const delivered = {
     title: "How Much Does it Cost to Make an App in New York?",
     desc: desc,
-    cta: "Try the Free App Cost Calculator!"
+    cta: "Try the Free App Cost Calculator!",
   }
   // Houston Content
   const menus = [
@@ -165,7 +311,7 @@ export default function dubaidevelopmentcompany() {
     "What does app development cost breakdown look like?",
     "How to Get the First 1000 Downloads for Your App?",
     "How to Build a Bulletproof App Startup?",
-  ];
+  ]
   const sections = [
     {
       num: "01",
@@ -296,7 +442,7 @@ export default function dubaidevelopmentcompany() {
             <p class='fontsfregular'>
               <b>DevOps Tools: </b>Unity Cloud Build, Unreal Engine Build Server
             </p> 
-            `
+            `,
     },
     {
       num: "02",
@@ -322,7 +468,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>License your app to other businesses or organizations to use as their own branded app. You can charge a one-time fee or a recurring licensing fee for the use of your app.</p>
       <h5>Licensing or Selling Your App</h5>
       <p class='fontsfregular'>Sell or license your app to other businesses or organizations who want to use it for their own purposes. You can negotiate a one-time payment or ongoing royalties for the use of your app.</p>
-      `
+      `,
     },
     {
       num: "03",
@@ -351,11 +497,12 @@ export default function dubaidevelopmentcompany() {
       <h5>Enterprise Mobility</h5>
       <p class='fontsfregular'>Employee productivity tools, collaboration apps, and business intelligence dashboards empower businesses to operate more efficiently and profitably with enterprise mobility solutions.
       </p>
-      `
+      `,
     },
     {
       num: "04",
-      title: "What Things You Should Look for Before Hiring an App Development Company in New York City?",
+      title:
+        "What Things You Should Look for Before Hiring an App Development Company in New York City?",
       content: `<p class='fontsfregular'>Before you hire a mobile app development company in New York, there are certain qualities and traits that you should look for to avoid any escalations and stay on the same page throughout the development and deployment process.</p>  
         <h5>Time Zone Difference</h5>
         <p class='fontsfregular'>The app development company you hire should be located in a similar time zone to New York to facilitate real-time communication and quick issue resolution, minimizing delays and misunderstandings during the development process.</p> 
@@ -368,7 +515,7 @@ export default function dubaidevelopmentcompany() {
         <h5>Technical Proficiency</h5>
         <p class='fontsfregular'>Cross-check if the company has a skilled and experienced team of app developers in NYC proficient in the latest technologies and programming languages, capable of delivering a high-quality, bug-free app that meets your requirements and exceeds your expectations.</p> 
         <h5>Customer Success Ratio</h5>
-        <p class='fontsfregular'>Check the company's customer success ratio and client testimonials to gauge their reputation and reliability. Make sure they have a proven track record of delivering successful app development projects on time and within budget.</p>  `
+        <p class='fontsfregular'>Check the company's customer success ratio and client testimonials to gauge their reputation and reliability. Make sure they have a proven track record of delivering successful app development projects on time and within budget.</p>  `,
     },
     {
       num: "05",
@@ -399,7 +546,7 @@ export default function dubaidevelopmentcompany() {
       <p><b>Bug Fixes & Updates:</b> Addressing any bugs, errors, or issues that arise after the app is launched.</p>
       <p><b>Adding New Features: </b> Introducing new features or functionalities to improve the app's performance and user experience.</p> 
       <p><b>Server Maintenance: </b> Regularly maintaining and updating server infrastructure to ensure optimal performance and security.</p> 
-      `
+      `,
     },
     {
       num: "06",
@@ -428,7 +575,7 @@ export default function dubaidevelopmentcompany() {
         <p class='fontsfregular'>
         Implement referral programs that reward users for referring their friends to download your app, and offer limited-time promotions or discounts to incentivize downloads.
         </p>
-        `
+        `,
     },
     {
       num: "07",
@@ -445,9 +592,9 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>Listen to user feedback and use it to drive improvements. Continuously iterate and enhance your app to meet evolving user needs and expectations.</p>
       <h5>6. Leverage App Marketing Strategies</h5>
       <p class='fontsfregular'>Invest in targeted app marketing strategies to increase visibility and drive downloads. Utilize a combination of organic and paid marketing channels, including social media, content marketing, app store optimization (ASO), and targeted advertising.</p>
-      `
+      `,
     },
-  ];
+  ]
   const HoustonContent = {
     menus: menus,
     sections: sections,
@@ -456,190 +603,531 @@ export default function dubaidevelopmentcompany() {
   const blogBox = [
     {
       img: blog1,
-      title: 'Leading Grocery Delivery Apps Making Waves In Saudi Arabia',
-      content: 'Remember Carrying Heavy Bags Of Groceries Under The Sizzling Saudi Sun? Those Days Are Fast Disappearing Into A Memory As The Expedient Rise Of...'
+      title: "Leading Grocery Delivery Apps Making Waves In Saudi Arabia",
+      content:
+        "Remember Carrying Heavy Bags Of Groceries Under The Sizzling Saudi Sun? Those Days Are Fast Disappearing Into A Memory As The Expedient Rise Of...",
     },
     {
       img: blog2,
-      title: 'Detail Overview For Online Shopping App In Saudi Arabia',
-      content: 'Online Shopping Apps Have Become A Keystone Of Today’s Retail Business, Transforming The Shopping Experience With Unprecedented Ease And A Wide...'
+      title: "Detail Overview For Online Shopping App In Saudi Arabia",
+      content:
+        "Online Shopping Apps Have Become A Keystone Of Today’s Retail Business, Transforming The Shopping Experience With Unprecedented Ease And A Wide...",
     },
     {
       img: blog3,
-      title: 'How To Develop An Android App: A Complete Guide',
-      content: 'There Are Around 2.69 Million Apps For Android Smartphones. Almost Everyone Understands Android Apps, And Many Are Ready To Launch Their Own. But...'
+      title: "How To Develop An Android App: A Complete Guide",
+      content:
+        "There Are Around 2.69 Million Apps For Android Smartphones. Almost Everyone Understands Android Apps, And Many Are Ready To Launch Their Own. But...",
     },
-  ];
+  ]
   // Global Content
   const global = {
     address: "26 Broadway Suite 934, New York, NY 10004",
     number: "(302) 216-8231",
     href: "tel:+3022168231",
     image: MapImage,
-    link: "https://maps.app.goo.gl/1Q2vCzWWkYDE4Ctq6"
+    link: "https://maps.app.goo.gl/1Q2vCzWWkYDE4Ctq6",
   }
   return (
     <>
       <Bannerdubai content={Banner} />
-      <NewDubaiAwards content={Award} />
-      <FutureReady content={storyLine} />
-      <Whowearenew content={WhoWeAre} />
-      <DubaiDelivered content={DeliveredContent} />
-      <DubaiTimeline content={timeline} />
-      <DubaiClients content={ClientContent} />
-      <Delivered content={delivered} />
-      <Industries />
-      <Houtondubai content={HoustonContent} />
-      <DubaiBrandTrust />
-      <Expertappdubaiadvanced expertapp="expertapp"
-        title="Future-Proof Your Startup with Cutting-Edge Technology Integration"
-        appData={
-          [
-            {
-              title: 'Big Data',
-              description: "Got a growing app with loads of user data? Let's make the most of it! With BitsWits' big data solutions, we'll help you analyze all that data to understand user behavior, market trends, and new business opportunities.",
-              imageSrc: banImg2,
-            },
-            {
-              title: 'IoT',
-              description: "IoT technology enables data collection, access automation, and helps reveal and solve other basic problems in real time. Our app development company in New york uses this technology to ensure smooth communication, boost operational efficiency, and provide innovative solutions.",
-              imageSrc: banImg3,
-            },
-            {
-              title: 'Blockchain',
-              description: "Want to make your app's transactions more secure and transparent? With BitsWits' blockchain solutions, we will help you build decentralized apps, streamline supply chains, and create new business models. Let's build something awesome, something safer together!",
-              imageSrc: banImg1,
-            },
-            {
-              title: 'AR/VR',
-              description: "Want to create immersive, real-like unreal experiences for your app users? BitsWits' AR/VR app development services, we will help you develop mind-boggling apps and experiences that keep the end users crave for more. Let's create something amazing together!",
-              imageSrc: banImg6,
-            },
-            {
-              title: 'AI/ML',
-              description: "Want to integrate self-learning capabilities and make your app respond to user queries real-time with AI-powered chatbots? BitsWits’ AI/ML solutions can help you integrate self-learning components and smart chatbots to deliver real user experience for your audience.",
-              imageSrc: banImg4,
-            },
-            {
-              title: 'Cloud Computing',
-              description: "Looking for scalable cloud solutions without breaking the bank? BitsWits' cloud computing services offer flexibility in terms of pricing, scalability to grow as needed, and impregnable security so you can focus on growing your business.",
-              imageSrc: banImg5,
-            },
-          ]
-        }
-      />
-      <Justbuilditlpdubai
-        title1="Just"
-        title="Build It."
-        para="Design, Develop, and Grow with BitsWits."
-        slide="slide1lp"
-        href="tel:+971 55 503 1266"
-      />
-      <Brand />
-      <Faqdubai
-        faqsData={[
-          {
-            question: "How much does mobile app development cost in New York?",
-            answer: (
-              <p>Building a software or mobile application is both complicated and expensive. App developers in New York City  usually charge an average of $45 per hour. Similarly, front-end developers, designers, project managers, etc. charge more or less the same hourly rate. Assuming you’re building native apps for both iOS and Android, and your LOE is somewhere around 1200 - 1500 for a single version, the cost of app development could easily go above $100,000. And that’s where BitsWits come to help!
-                <br />
-                BitsWits has offices in around 7 countries with production houses across Pakistan, UAE, and the USA. The hourly rates are cheaper here with slightly better development quality. Thus, if you work with us, you can easily get the same app within $25k to $40k.
-              </p>
-            ),
-          },
-          {
-            question:
-              "Do I need to build separate Android and iOS versions of my app?",
-            answer: (
-              <p>
-                Building separate Android and iOS versions of your app depends on your target audience and business goals. While native apps offer better performance and user experience, they require separate development for each platform. Alternatively, you can opt for cross-platform app development to save time and resources while reaching a wider audience.
-              </p>
-            ),
-          },
-          {
-            question:
-              "Are there any drawbacks of cross-platform app development?",
-            answer: (
-              <p>
-                While cross-platform app development offers benefits like reduced development time and cost, there are some drawbacks to consider. Cross-platform apps may not offer the same level of performance or user experience as native apps. They may also have limitations in accessing platform-specific features and capabilities.
-              </p>
-            ),
-          },
-          {
-            question:
-              "Do I have to pay at once for mobile app development?",
-            answer: (
-              <>
-                <p>No, you don't have to pay all at once for mobile app development. Most app development companies offer flexible payment options, including milestone-based payments.</p>
-                <p>For instance, BitsWits offers you the flexibility to divide your project into several stages and get started with the alpha development fee.</p>
-                <p>You can book a free consultation call with our team to discuss the pricing plans and flexibility we offer for app development cost.
-                </p>
-              </>
-            ),
-          },
-          {
-            question:
-              "What’s better between hiring freelance app developers in NYC vs working with an app development company?",
-            answer: (
-              <p>
-                You can hire a freelance app developer in NYC if you already have an existing in-house team and need to augment it for better results. Besides that, hiring a freelance app developer is not the right approach. While it might seem a little cost effective and monitorable, the overall cost and results are not guaranteed and the only person who's accountable for any mishap is you. At the same time, hiring an app development company in NYC like BitsWits gives you freedom to be as flexible and customizable as you want. Plus, you can check the portfolio of an app development company and see if they’re capable of building something similar to what you are looking for.
-              </p>
-            ),
-          },
-          {
-            question:
-              "How to find the right app development company in New York?",
-            answer: (
-              <>
-                <p>The most important factor when hiring an app development company is the pricing. For top-end brands with unlimited means of funding and resources, hiring an app development company is a no-brainer as they can afford to work with app development companies like Accenture where pricing starts from $1 Million. </p>
-                <p>
-                  However, for mid-level and low-end brands who’re bootstrapping their startups, pricing and time to market are two of the most important factors. The best way to find an app development company in New York City that resonates with your values and beliefs is to search on top review platforms like Clutch, shortlist a few app development companies, and interview their teams to see if they are a fit or not.
-                </p>
-                <p>
-                  You can book your free consultation with our app development and project management teams here to get a better understanding of the technology stack we use and the values we have at our company.
-                </p>
-              </>
-            ),
-          },
-          {
-            question:
-              "Why Choose BitsWits for mobile app development in New York City?",
-            answer: (
-              <>
-                <p>BitsWits is consistently ranked among the top app development companies in New York on the top review platforms like Clutch, Goodfirms, The Manifest, etc. We have a 100+ app strong portfolio with over 1 Million+ combined downloads on the App Store and the Play Store. Besides that, we are able to offer top-tier app development services for far better rates and short turnaround time due to our presence in 7 countries across the globe. You won’t find a better app development company in NYC that offers extremely competitive pricing, timezone compatibility, and fast turnaround times.
-                </p>
-              </>
-            ),
-          },
-          {
-            question:
-              "What app development services does BitsWits offer?",
-            answer: (
-              <>
-                <p>BitsWits offers a wide range of app development services, including native Android and iOS app development, cross-platform app development, progressive web app development, game development, and enterprise mobility solutions. We also work with cutting-edge technologies like Blockchain, IoT, Big Data, Cloud integration, Artificial Intelligence and Machine Learning, and other technologies of the future.
-                </p>
-              </>
-            ),
-          },
-          {
-            question:
-              "What industries does BitsWits offer app development services for?",
-            answer: (
-              <>
-                <p>BitsWits provides app development services for various industries, including ecommerce, healthcare, automotive, logistics, manufacturing, food & beverage, e-learning, agriculture, real estate, sports, and enterprise mobility.
-                  We boast of having a strong portfolio of mobile apps across industries, with over 1 Million downloads combined.
-                </p>
-              </>
-            ),
-          },
-        ]}
-      />
-      <Latestblog blogBox={blogBox} />
-      <Globalmap
-        content={global}
-      />
+      {isMouseMoved && shouldRender ? (
+        <>
+          <NewDubaiAwards content={Award} />
+          <FutureReady content={storyLine} />
+          <Whowearenew content={WhoWeAre} />
+          <DubaiDelivered content={DeliveredContent} />
+          <DubaiTimeline content={timeline} />
+          <DubaiClients content={ClientContent} />
+          <Delivered content={delivered} />
+          <Industries />
+          <Houtondubai content={HoustonContent} />
+          <DubaiBrandTrust />
+          <Expertappdubaiadvanced
+            expertapp="expertapp"
+            title="Future-Proof Your Startup with Cutting-Edge Technology Integration"
+            appData={[
+              {
+                title: "Big Data",
+                description:
+                  "Got a growing app with loads of user data? Let's make the most of it! With BitsWits' big data solutions, we'll help you analyze all that data to understand user behavior, market trends, and new business opportunities.",
+                imageSrc: banImg2,
+              },
+              {
+                title: "IoT",
+                description:
+                  "IoT technology enables data collection, access automation, and helps reveal and solve other basic problems in real time. Our app development company in New york uses this technology to ensure smooth communication, boost operational efficiency, and provide innovative solutions.",
+                imageSrc: banImg3,
+              },
+              {
+                title: "Blockchain",
+                description:
+                  "Want to make your app's transactions more secure and transparent? With BitsWits' blockchain solutions, we will help you build decentralized apps, streamline supply chains, and create new business models. Let's build something awesome, something safer together!",
+                imageSrc: banImg1,
+              },
+              {
+                title: "AR/VR",
+                description:
+                  "Want to create immersive, real-like unreal experiences for your app users? BitsWits' AR/VR app development services, we will help you develop mind-boggling apps and experiences that keep the end users crave for more. Let's create something amazing together!",
+                imageSrc: banImg6,
+              },
+              {
+                title: "AI/ML",
+                description:
+                  "Want to integrate self-learning capabilities and make your app respond to user queries real-time with AI-powered chatbots? BitsWits’ AI/ML solutions can help you integrate self-learning components and smart chatbots to deliver real user experience for your audience.",
+                imageSrc: banImg4,
+              },
+              {
+                title: "Cloud Computing",
+                description:
+                  "Looking for scalable cloud solutions without breaking the bank? BitsWits' cloud computing services offer flexibility in terms of pricing, scalability to grow as needed, and impregnable security so you can focus on growing your business.",
+                imageSrc: banImg5,
+              },
+            ]}
+          />
+          <Justbuilditlpdubai
+            title1="Just"
+            title="Build It."
+            para="Design, Develop, and Grow with BitsWits."
+            slide="slide1lp"
+            href="tel:+971 55 503 1266"
+          />
+          <Brand />
+          <Faqdubai
+            faqsData={[
+              {
+                question:
+                  "How much does mobile app development cost in New York?",
+                answer: (
+                  <p>
+                    Building a software or mobile application is both
+                    complicated and expensive. App developers in New York City
+                    usually charge an average of $45 per hour. Similarly,
+                    front-end developers, designers, project managers, etc.
+                    charge more or less the same hourly rate. Assuming you’re
+                    building native apps for both iOS and Android, and your LOE
+                    is somewhere around 1200 - 1500 for a single version, the
+                    cost of app development could easily go above $100,000. And
+                    that’s where BitsWits come to help!
+                    <br />
+                    BitsWits has offices in around 7 countries with production
+                    houses across Pakistan, UAE, and the USA. The hourly rates
+                    are cheaper here with slightly better development quality.
+                    Thus, if you work with us, you can easily get the same app
+                    within $25k to $40k.
+                  </p>
+                ),
+              },
+              {
+                question:
+                  "Do I need to build separate Android and iOS versions of my app?",
+                answer: (
+                  <p>
+                    Building separate Android and iOS versions of your app
+                    depends on your target audience and business goals. While
+                    native apps offer better performance and user experience,
+                    they require separate development for each platform.
+                    Alternatively, you can opt for cross-platform app
+                    development to save time and resources while reaching a
+                    wider audience.
+                  </p>
+                ),
+              },
+              {
+                question:
+                  "Are there any drawbacks of cross-platform app development?",
+                answer: (
+                  <p>
+                    While cross-platform app development offers benefits like
+                    reduced development time and cost, there are some drawbacks
+                    to consider. Cross-platform apps may not offer the same
+                    level of performance or user experience as native apps. They
+                    may also have limitations in accessing platform-specific
+                    features and capabilities.
+                  </p>
+                ),
+              },
+              {
+                question:
+                  "Do I have to pay at once for mobile app development?",
+                answer: (
+                  <>
+                    <p>
+                      No, you don't have to pay all at once for mobile app
+                      development. Most app development companies offer flexible
+                      payment options, including milestone-based payments.
+                    </p>
+                    <p>
+                      For instance, BitsWits offers you the flexibility to
+                      divide your project into several stages and get started
+                      with the alpha development fee.
+                    </p>
+                    <p>
+                      You can book a free consultation call with our team to
+                      discuss the pricing plans and flexibility we offer for app
+                      development cost.
+                    </p>
+                  </>
+                ),
+              },
+              {
+                question:
+                  "What’s better between hiring freelance app developers in NYC vs working with an app development company?",
+                answer: (
+                  <p>
+                    You can hire a freelance app developer in NYC if you already
+                    have an existing in-house team and need to augment it for
+                    better results. Besides that, hiring a freelance app
+                    developer is not the right approach. While it might seem a
+                    little cost effective and monitorable, the overall cost and
+                    results are not guaranteed and the only person who's
+                    accountable for any mishap is you. At the same time, hiring
+                    an app development company in NYC like BitsWits gives you
+                    freedom to be as flexible and customizable as you want.
+                    Plus, you can check the portfolio of an app development
+                    company and see if they’re capable of building something
+                    similar to what you are looking for.
+                  </p>
+                ),
+              },
+              {
+                question:
+                  "How to find the right app development company in New York?",
+                answer: (
+                  <>
+                    <p>
+                      The most important factor when hiring an app development
+                      company is the pricing. For top-end brands with unlimited
+                      means of funding and resources, hiring an app development
+                      company is a no-brainer as they can afford to work with
+                      app development companies like Accenture where pricing
+                      starts from $1 Million.{" "}
+                    </p>
+                    <p>
+                      However, for mid-level and low-end brands who’re
+                      bootstrapping their startups, pricing and time to market
+                      are two of the most important factors. The best way to
+                      find an app development company in New York City that
+                      resonates with your values and beliefs is to search on top
+                      review platforms like Clutch, shortlist a few app
+                      development companies, and interview their teams to see if
+                      they are a fit or not.
+                    </p>
+                    <p>
+                      You can book your free consultation with our app
+                      development and project management teams here to get a
+                      better understanding of the technology stack we use and
+                      the values we have at our company.
+                    </p>
+                  </>
+                ),
+              },
+              {
+                question:
+                  "Why Choose BitsWits for mobile app development in New York City?",
+                answer: (
+                  <>
+                    <p>
+                      BitsWits is consistently ranked among the top app
+                      development companies in New York on the top review
+                      platforms like Clutch, Goodfirms, The Manifest, etc. We
+                      have a 100+ app strong portfolio with over 1 Million+
+                      combined downloads on the App Store and the Play Store.
+                      Besides that, we are able to offer top-tier app
+                      development services for far better rates and short
+                      turnaround time due to our presence in 7 countries across
+                      the globe. You won’t find a better app development company
+                      in NYC that offers extremely competitive pricing, timezone
+                      compatibility, and fast turnaround times.
+                    </p>
+                  </>
+                ),
+              },
+              {
+                question: "What app development services does BitsWits offer?",
+                answer: (
+                  <>
+                    <p>
+                      BitsWits offers a wide range of app development services,
+                      including native Android and iOS app development,
+                      cross-platform app development, progressive web app
+                      development, game development, and enterprise mobility
+                      solutions. We also work with cutting-edge technologies
+                      like Blockchain, IoT, Big Data, Cloud integration,
+                      Artificial Intelligence and Machine Learning, and other
+                      technologies of the future.
+                    </p>
+                  </>
+                ),
+              },
+              {
+                question:
+                  "What industries does BitsWits offer app development services for?",
+                answer: (
+                  <>
+                    <p>
+                      BitsWits provides app development services for various
+                      industries, including ecommerce, healthcare, automotive,
+                      logistics, manufacturing, food & beverage, e-learning,
+                      agriculture, real estate, sports, and enterprise mobility.
+                      We boast of having a strong portfolio of mobile apps
+                      across industries, with over 1 Million downloads combined.
+                    </p>
+                  </>
+                ),
+              },
+            ]}
+          />
+          <Latestblog blogBox={blogBox} />
+          <Globalmap content={global} />
+        </>
+      ) : (
+        <>
+          <Whowearenew content={WhoWeAre} />
+          <DubaiClients content={ClientContent} />
+          <Delivered content={delivered} />
+          <Industries />
+          <DubaiBrandTrust />
+          <Expertappdubaiadvanced
+            expertapp="expertapp"
+            title="Future-Proof Your Startup with Cutting-Edge Technology Integration"
+            appData={[
+              {
+                title: "Big Data",
+                description:
+                  "Got a growing app with loads of user data? Let's make the most of it! With BitsWits' big data solutions, we'll help you analyze all that data to understand user behavior, market trends, and new business opportunities.",
+                imageSrc: banImg2,
+              },
+              {
+                title: "IoT",
+                description:
+                  "IoT technology enables data collection, access automation, and helps reveal and solve other basic problems in real time. Our app development company in New york uses this technology to ensure smooth communication, boost operational efficiency, and provide innovative solutions.",
+                imageSrc: banImg3,
+              },
+              {
+                title: "Blockchain",
+                description:
+                  "Want to make your app's transactions more secure and transparent? With BitsWits' blockchain solutions, we will help you build decentralized apps, streamline supply chains, and create new business models. Let's build something awesome, something safer together!",
+                imageSrc: banImg1,
+              },
+              {
+                title: "AR/VR",
+                description:
+                  "Want to create immersive, real-like unreal experiences for your app users? BitsWits' AR/VR app development services, we will help you develop mind-boggling apps and experiences that keep the end users crave for more. Let's create something amazing together!",
+                imageSrc: banImg6,
+              },
+              {
+                title: "AI/ML",
+                description:
+                  "Want to integrate self-learning capabilities and make your app respond to user queries real-time with AI-powered chatbots? BitsWits’ AI/ML solutions can help you integrate self-learning components and smart chatbots to deliver real user experience for your audience.",
+                imageSrc: banImg4,
+              },
+              {
+                title: "Cloud Computing",
+                description:
+                  "Looking for scalable cloud solutions without breaking the bank? BitsWits' cloud computing services offer flexibility in terms of pricing, scalability to grow as needed, and impregnable security so you can focus on growing your business.",
+                imageSrc: banImg5,
+              },
+            ]}
+          />
+          <Justbuilditlpdubai
+            title1="Just"
+            title="Build It."
+            para="Design, Develop, and Grow with BitsWits."
+            slide="slide1lp"
+            href="tel:+971 55 503 1266"
+          />
+          <Brand />
+          <Faqdubai
+            faqsData={[
+              {
+                question:
+                  "How much does mobile app development cost in New York?",
+                answer: (
+                  <p>
+                    Building a software or mobile application is both
+                    complicated and expensive. App developers in New York City
+                    usually charge an average of $45 per hour. Similarly,
+                    front-end developers, designers, project managers, etc.
+                    charge more or less the same hourly rate. Assuming you’re
+                    building native apps for both iOS and Android, and your LOE
+                    is somewhere around 1200 - 1500 for a single version, the
+                    cost of app development could easily go above $100,000. And
+                    that’s where BitsWits come to help!
+                    <br />
+                    BitsWits has offices in around 7 countries with production
+                    houses across Pakistan, UAE, and the USA. The hourly rates
+                    are cheaper here with slightly better development quality.
+                    Thus, if you work with us, you can easily get the same app
+                    within $25k to $40k.
+                  </p>
+                ),
+              },
+              {
+                question:
+                  "Do I need to build separate Android and iOS versions of my app?",
+                answer: (
+                  <p>
+                    Building separate Android and iOS versions of your app
+                    depends on your target audience and business goals. While
+                    native apps offer better performance and user experience,
+                    they require separate development for each platform.
+                    Alternatively, you can opt for cross-platform app
+                    development to save time and resources while reaching a
+                    wider audience.
+                  </p>
+                ),
+              },
+              {
+                question:
+                  "Are there any drawbacks of cross-platform app development?",
+                answer: (
+                  <p>
+                    While cross-platform app development offers benefits like
+                    reduced development time and cost, there are some drawbacks
+                    to consider. Cross-platform apps may not offer the same
+                    level of performance or user experience as native apps. They
+                    may also have limitations in accessing platform-specific
+                    features and capabilities.
+                  </p>
+                ),
+              },
+              {
+                question:
+                  "Do I have to pay at once for mobile app development?",
+                answer: (
+                  <>
+                    <p>
+                      No, you don't have to pay all at once for mobile app
+                      development. Most app development companies offer flexible
+                      payment options, including milestone-based payments.
+                    </p>
+                    <p>
+                      For instance, BitsWits offers you the flexibility to
+                      divide your project into several stages and get started
+                      with the alpha development fee.
+                    </p>
+                    <p>
+                      You can book a free consultation call with our team to
+                      discuss the pricing plans and flexibility we offer for app
+                      development cost.
+                    </p>
+                  </>
+                ),
+              },
+              {
+                question:
+                  "What’s better between hiring freelance app developers in NYC vs working with an app development company?",
+                answer: (
+                  <p>
+                    You can hire a freelance app developer in NYC if you already
+                    have an existing in-house team and need to augment it for
+                    better results. Besides that, hiring a freelance app
+                    developer is not the right approach. While it might seem a
+                    little cost effective and monitorable, the overall cost and
+                    results are not guaranteed and the only person who's
+                    accountable for any mishap is you. At the same time, hiring
+                    an app development company in NYC like BitsWits gives you
+                    freedom to be as flexible and customizable as you want.
+                    Plus, you can check the portfolio of an app development
+                    company and see if they’re capable of building something
+                    similar to what you are looking for.
+                  </p>
+                ),
+              },
+              {
+                question:
+                  "How to find the right app development company in New York?",
+                answer: (
+                  <>
+                    <p>
+                      The most important factor when hiring an app development
+                      company is the pricing. For top-end brands with unlimited
+                      means of funding and resources, hiring an app development
+                      company is a no-brainer as they can afford to work with
+                      app development companies like Accenture where pricing
+                      starts from $1 Million.{" "}
+                    </p>
+                    <p>
+                      However, for mid-level and low-end brands who’re
+                      bootstrapping their startups, pricing and time to market
+                      are two of the most important factors. The best way to
+                      find an app development company in New York City that
+                      resonates with your values and beliefs is to search on top
+                      review platforms like Clutch, shortlist a few app
+                      development companies, and interview their teams to see if
+                      they are a fit or not.
+                    </p>
+                    <p>
+                      You can book your free consultation with our app
+                      development and project management teams here to get a
+                      better understanding of the technology stack we use and
+                      the values we have at our company.
+                    </p>
+                  </>
+                ),
+              },
+              {
+                question:
+                  "Why Choose BitsWits for mobile app development in New York City?",
+                answer: (
+                  <>
+                    <p>
+                      BitsWits is consistently ranked among the top app
+                      development companies in New York on the top review
+                      platforms like Clutch, Goodfirms, The Manifest, etc. We
+                      have a 100+ app strong portfolio with over 1 Million+
+                      combined downloads on the App Store and the Play Store.
+                      Besides that, we are able to offer top-tier app
+                      development services for far better rates and short
+                      turnaround time due to our presence in 7 countries across
+                      the globe. You won’t find a better app development company
+                      in NYC that offers extremely competitive pricing, timezone
+                      compatibility, and fast turnaround times.
+                    </p>
+                  </>
+                ),
+              },
+              {
+                question: "What app development services does BitsWits offer?",
+                answer: (
+                  <>
+                    <p>
+                      BitsWits offers a wide range of app development services,
+                      including native Android and iOS app development,
+                      cross-platform app development, progressive web app
+                      development, game development, and enterprise mobility
+                      solutions. We also work with cutting-edge technologies
+                      like Blockchain, IoT, Big Data, Cloud integration,
+                      Artificial Intelligence and Machine Learning, and other
+                      technologies of the future.
+                    </p>
+                  </>
+                ),
+              },
+              {
+                question:
+                  "What industries does BitsWits offer app development services for?",
+                answer: (
+                  <>
+                    <p>
+                      BitsWits provides app development services for various
+                      industries, including ecommerce, healthcare, automotive,
+                      logistics, manufacturing, food & beverage, e-learning,
+                      agriculture, real estate, sports, and enterprise mobility.
+                      We boast of having a strong portfolio of mobile apps
+                      across industries, with over 1 Million downloads combined.
+                    </p>
+                  </>
+                ),
+              },
+            ]}
+          />
+          <Latestblog blogBox={blogBox} />
+        </>
+      )}
 
-      <Script id="websiteSchema" type="application/ld+json">
+      <Script defer id="websiteSchema" type="application/ld+json">
         {`
           {
             "@context": "https://schema.org/",
@@ -654,7 +1142,7 @@ export default function dubaidevelopmentcompany() {
           }
         `}
       </Script>
-      <Script id="corporationSchema" type="application/ld+json">
+      <Script defer id="corporationSchema" type="application/ld+json">
         {`
           {
             "@context": "https://schema.org",
@@ -665,7 +1153,7 @@ export default function dubaidevelopmentcompany() {
           }
         `}
       </Script>
-      <Script id="localBusinessSchema" type="application/ld+json">
+      <Script defer id="localBusinessSchema" type="application/ld+json">
         {`
           {
             "@context": "https://schema.org",
@@ -711,7 +1199,7 @@ export default function dubaidevelopmentcompany() {
           }
         `}
       </Script>
-      <Script id="productSchema" type="application/ld+json">
+      <Script defer id="productSchema" type="application/ld+json">
         {`
           {
             "@context": "https://schema.org/", 
@@ -732,5 +1220,5 @@ export default function dubaidevelopmentcompany() {
         `}
       </Script>
     </>
-  );
-} 
+  )
+}
