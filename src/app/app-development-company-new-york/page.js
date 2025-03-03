@@ -1127,7 +1127,7 @@ export default function dubaidevelopmentcompany() {
         </>
       )}
 
-      <Script defer id="websiteSchema" type="application/ld+json">
+      <Script strategy="lazyOnload" id="websiteSchema" type="application/ld+json">
         {`
           {
             "@context": "https://schema.org/",
@@ -1142,7 +1142,7 @@ export default function dubaidevelopmentcompany() {
           }
         `}
       </Script>
-      <Script defer id="corporationSchema" type="application/ld+json">
+      <Script strategy="lazyOnload" id="corporationSchema" type="application/ld+json">
         {`
           {
             "@context": "https://schema.org",
@@ -1153,7 +1153,7 @@ export default function dubaidevelopmentcompany() {
           }
         `}
       </Script>
-      <Script defer id="localBusinessSchema" type="application/ld+json">
+      <Script strategy="lazyOnload" id="localBusinessSchema" type="application/ld+json">
         {`
           {
             "@context": "https://schema.org",
@@ -1199,7 +1199,7 @@ export default function dubaidevelopmentcompany() {
           }
         `}
       </Script>
-      <Script defer id="productSchema" type="application/ld+json">
+      <Script strategy="lazyOnload" id="productSchema" type="application/ld+json">
         {`
           {
             "@context": "https://schema.org/", 
