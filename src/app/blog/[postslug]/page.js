@@ -14,9 +14,25 @@ import BlogArticle from '@/src/components/BlogArticle'
 import Client from "media/newblogs/innerclient.png"
 import verified from "media/newblogs/blog-verify.png"
 import experience from "media/newblogs/experience.png"
+import { notFound } from "next/navigation";
 
+const blockedSlugs = [
+    'mobile-app-development-cost',
+    'flutter-app-development-cost',
+    'taxi-app-development-cost',
+    'app-development-cost-in-dubai',
+    'logistics-app-development-costlog/',
+    'how-much-does-it-costs-to-maintain-an-app',
+    'hybrid-app-development-cost',
+    'ecommerce-mobile-app-development-cost',
+    'fintech-app-development-costs',
+    'how-much-does-it-cost-hire-app-developer'
+  ];
 
 export async function generateMetadata({ params, searchParams }, parent) {
+    if (blockedSlugs.includes(params.postslug)) {
+        return { notFound: true };
+    }
     // read route params
     const postData = await getSinglePost(params.postslug);
     return {
@@ -38,11 +54,17 @@ export async function generateMetadata({ params, searchParams }, parent) {
 }
 
 export default async function Post({ params, searchParams }) {
+    if (blockedSlugs.includes(params.postslug)) {
+        notFound();
+    }
     // =============== Post Data ===============
     let featuredImageUrl = "https://inhouse.pulse-force.com/wordpress/bitswits/wp-admin/uploads/2023/08/moz-brand-authority-768x439-1.png";
 
     const postData = await getSinglePost(params.postslug);
     //=============== Render ===============
+    if (!postData) {
+        notFound();
+    }
     return (
         <>
             {postData && (

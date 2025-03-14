@@ -100,6 +100,10 @@ const IndustriesMenu = [
     title: "Restaurant App",
     url: "/restaurant-app-development-company",
   },
+  {
+    title: "Enterprise App",
+    url: "/enterprise-app-development-company",
+  },
 ]
 
 const Navigation = ({ isDarkHeader, isLightHeader, scrolled }) => {

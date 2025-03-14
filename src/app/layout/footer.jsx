@@ -102,119 +102,123 @@ const IndustriesMenu = [
     title: "Restaurant App",
     url: "/restaurant-app-development-company",
   },
+  {
+    title: "Enterprise App",
+    url: "/enterprise-app-development-company",
+  },
 ]
-// const LocationsMenu = [
-//   {
-//     title: "Austin",
-//     url: "/app-development-austin",
-//   },
-//   {
-//     title: "Chicago",
-//     url: "/app-development-chicago",
-//   },
-//   {
-//     title: "Dallas",
-//     url: "/mobile-app-development-company-dallas",
-//   },
-//   {
-//     title: "Denver",
-//     url: "/mobile-app-development-company-denver",
-//   },
-//   {
-//     title: "Dubai",
-//     url: "/mobile-app-development-company-dubai",
-//   },
-//   {
-//     title: "Florida",
-//     url: "/app-development-florida",
-//   },
-//   {
-//     title: "Miami",
-//     url: "/mobile-app-development-company-miami",
-//   },
-//   {
-//     title: "New York",
-//     url: "/app-development-company-new-york",
-//   },
-//   {
-//     title: "Saudi Arabia",
-//     url: "/mobile-app-development-company-saudi-arabia",
-//   },
-//   {
-//     title: "Toronto",
-//     url: "/app-development-company-toronto",
-//   },
-//   {
-//     title: "Washington DC",
-//     url: "/app-development-company-washington-dc",
-//   },
-//   {
-//     title: "Houston",
-//     url: "/app-development-houston",
-//   },
-// ]
-// const LocationsMap = [
-//   {
-//     title: "HOU",
-//     url: "https://maps.app.goo.gl/onTtH6csSWJu2gAb7",
-//   },
-//   {
-//     title: "NYC",
-//     url: "https://maps.app.goo.gl/CPdXRcRzGxGRAuNU8",
-//   },
-//   {
-//     title: "LA",
-//     url: "https://maps.app.goo.gl/ot7knKM1rXFFjpKMA",
-//   },
-//   {
-//     title: "SF",
-//     url: "https://maps.app.goo.gl/SzwvHzAKoLgiwWPm7",
-//   },
-//   {
-//     title: "MIA",
-//     url: "https://maps.app.goo.gl/sZDSxoSewEBHY1z27",
-//   },
-//   {
-//     title: "CHI",
-//     url: "https://maps.app.goo.gl/VH6Dkp1J2wtNvLBC6",
-//   },
-//   {
-//     title: "DTX",
-//     url: "https://maps.app.goo.gl/i76RsaokYHwn47vU9",
-//   },
-//   {
-//     title: "DNV",
-//     url: "https://maps.app.goo.gl/sYmX44iWw2fmkVD1A",
-//   },
-//   {
-//     title: "AXT",
-//     url: "https://maps.app.goo.gl/Q7FrDSAEYmENiHRF7",
-//   },
-//   {
-//     title: "PIE",
-//     url: "https://maps.app.goo.gl/YEEuBJKd9GvXuMk18",
-//   },
-//   {
-//     title: "TRO",
-//     url: "https://maps.app.goo.gl/dhULjcCFCiZ9fNyQ7",
-//   },
-//   {
-//     title: "DXB",
-//     url: "https://maps.app.goo.gl/NzJaVuqgdpLYyaT28",
-//   },
-//   {
-//     title: "QA",
-//     url: "https://maps.app.goo.gl/qimC1ofuhhu3z512A",
-//   },
-//   {
-//     title: "SRJ",
-//     url: "https://maps.app.goo.gl/nbce4oEJoivkzVnt5",
-//   },
-//   {
-//     title: "BH",
-//     url: "https://maps.app.goo.gl/N52TCmfz7GQbH35m8",
-//   },
-// ]
+const LocationsMenu = [
+  {
+    title: "Austin",
+    url: "/app-development-austin",
+  },
+  {
+    title: "Chicago",
+    url: "/app-development-chicago",
+  },
+  {
+    title: "Dallas",
+    url: "/mobile-app-development-company-dallas",
+  },
+  {
+    title: "Denver",
+    url: "/mobile-app-development-company-denver",
+  },
+  {
+    title: "Dubai",
+    url: "/mobile-app-development-company-dubai",
+  },
+  {
+    title: "Florida",
+    url: "/app-development-florida",
+  },
+  {
+    title: "Miami",
+    url: "/mobile-app-development-company-miami",
+  },
+  {
+    title: "New York",
+    url: "/app-development-company-new-york",
+  },
+  {
+    title: "Saudi Arabia",
+    url: "/mobile-app-development-company-saudi-arabia",
+  },
+  {
+    title: "Toronto",
+    url: "/app-development-company-toronto",
+  },
+  {
+    title: "Washington DC",
+    url: "/app-development-company-washington-dc",
+  },
+  {
+    title: "Houston",
+    url: "/app-development-houston",
+  },
+]
+const LocationsMap = [
+  {
+    title: "HOU",
+    url: "https://maps.app.goo.gl/onTtH6csSWJu2gAb7",
+  },
+  {
+    title: "NYC",
+    url: "https://maps.app.goo.gl/CPdXRcRzGxGRAuNU8",
+  },
+  {
+    title: "LA",
+    url: "https://maps.app.goo.gl/ot7knKM1rXFFjpKMA",
+  },
+  {
+    title: "SF",
+    url: "https://maps.app.goo.gl/SzwvHzAKoLgiwWPm7",
+  },
+  {
+    title: "MIA",
+    url: "https://maps.app.goo.gl/sZDSxoSewEBHY1z27",
+  },
+  {
+    title: "CHI",
+    url: "https://maps.app.goo.gl/VH6Dkp1J2wtNvLBC6",
+  },
+  {
+    title: "DTX",
+    url: "https://maps.app.goo.gl/i76RsaokYHwn47vU9",
+  },
+  {
+    title: "DNV",
+    url: "https://maps.app.goo.gl/sYmX44iWw2fmkVD1A",
+  },
+  {
+    title: "AXT",
+    url: "https://maps.app.goo.gl/Q7FrDSAEYmENiHRF7",
+  },
+  {
+    title: "PIE",
+    url: "https://maps.app.goo.gl/YEEuBJKd9GvXuMk18",
+  },
+  {
+    title: "TRO",
+    url: "https://maps.app.goo.gl/dhULjcCFCiZ9fNyQ7",
+  },
+  {
+    title: "DXB",
+    url: "https://maps.app.goo.gl/NzJaVuqgdpLYyaT28",
+  },
+  {
+    title: "QA",
+    url: "https://maps.app.goo.gl/qimC1ofuhhu3z512A",
+  },
+  {
+    title: "SRJ",
+    url: "https://maps.app.goo.gl/nbce4oEJoivkzVnt5",
+  },
+  {
+    title: "BH",
+    url: "https://maps.app.goo.gl/N52TCmfz7GQbH35m8",
+  },
+]
 const MainLinks = [
   {
     title: "Portfolio",
@@ -308,7 +312,7 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-              {/* <div className={styles.footerLocListing}>
+              <div className={`${styles.footerLocListing} d-none`}>
                   <div className={styles.linksItem}>
                     <h6>Locations</h6>
                     <ul>
@@ -328,7 +332,7 @@ const Footer = () => {
                       </li>
                     ))}
                   </ul>
-                </div> */}
+                </div>
               <div
                 className={`${styles.footerSocialListing} d-flex gap-4 align-items-center flex-wrap justify-content-between mt-5`}
               >
