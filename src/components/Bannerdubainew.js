@@ -7,9 +7,9 @@ import styles from "@/styles/bannerdubainew.module.css";
 import Bitswitspopup from "../components/Bitswitspopup";
 import { RxCross2 } from "react-icons/rx";
 // images 
-import badgeClient from "media/newdubai/badgesClient.png"
-import Star from "media/newDubaiPagev1/star.png"
-import Clutch from "media/newDubaiPagev1/clutch.png"
+import badgeClient from "media/newdubai/badgesClient.webp"
+import Star from "media/newDubaiPagev1/star.webp"
+import Clutch from "media/newDubaiPagev1/clutch.webp"
 
 const Bannerdubai = ({ content }) => {
     const { title, desc, alt, bg = " " } = content;
