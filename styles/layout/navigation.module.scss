@@ -36,11 +36,6 @@
       line-height: normal;
       transition: 0.3s linear;
       padding: 0px 20px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100%;
-      width: 100%;
     }
 
     &.btnHeader {
@@ -61,6 +56,11 @@
 
         a {
           color: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+          width: 100%;
 
           &:hover {
             color: #fff;
@@ -319,7 +319,6 @@
     }
   }
 }
-
 .mainMobileNavigation {
   display: none;
 }
