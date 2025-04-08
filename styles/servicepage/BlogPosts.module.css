@@ -58,7 +58,7 @@
 .readSec .cardBottom {
     padding: 25px 25px 20px;
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     gap: 10px;
 }
 
