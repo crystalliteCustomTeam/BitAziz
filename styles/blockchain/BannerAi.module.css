@@ -229,7 +229,7 @@
 .HomeBanner {
   position: relative;
   height: 100vh;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .Banners {
   position: relative;
@@ -259,7 +259,7 @@
   z-index: 0;
 }
 .banner2 {
-  justify-content: end;
+  justify-content: flex-end;
   align-items: end;
 }
 @media (max-width: 768px) {

@@ -948,7 +948,7 @@
 
   .clientRviews {
     width: 100%;
-    justify-content: start;
+    justify-content: flex-start;
     gap: 180px;
   }
 

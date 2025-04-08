@@ -7,9 +7,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 import { register } from "swiper/element/bundle";
-import SwiperCore, { Navigation, Autoplay } from 'swiper/core';
+import SwiperCore, { Navigation, Autoplay } from 'swiper/modules';
 
-SwiperCore.use([Navigation, Autoplay]);
+//SwiperCore.use([Navigation, Autoplay]);
 
 
 const MySwiperComponent = () => {

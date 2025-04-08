@@ -415,7 +415,7 @@ p {
   margin-left: 7px;
 }
 .navbar-dark .basic-navbar-nav {
-  justify-content: end;
+  justify-content: flex-end;
   align-items: end;
 }
 .dropdown .dropdown-menu {
@@ -485,7 +485,7 @@ p {
   }
   .navbar-nav {
     display: block;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: flex-start;
   }
 
@@ -515,7 +515,7 @@ p {
     margin-left: 7px;
   }
   .navbar-dark .basic-navbar-nav {
-    justify-content: end;
+    justify-content: flex-end;
     align-items: end;
   }
   .dropdown .dropdown-menu {

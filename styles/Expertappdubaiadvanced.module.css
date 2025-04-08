@@ -50,7 +50,7 @@
   gap: 10px;
   transition: all 1s ease-out;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
