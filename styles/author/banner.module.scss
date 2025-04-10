@@ -1,0 +1,24 @@
+.bannerAuthorSec {
+  height: 600px;
+  background: #000;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .authorName {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+  }
+  .authorInfo {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+  }
+ }

@@ -233,8 +233,10 @@ const BlogList = () => {
                         </div>
                         <div className={styles.cardbottomContent}>
                           <div className="d-flex align-items-center gap-2 pb-1">
-                            <h3 className="fontsfregular text-black">
+                            <h3 className="fontsfregular text-black">                       
+                              <Link href={`/${post.author.node.name.toLowerCase().replace(/\s+/g, "-")}`} className="text-black">
                               {post.author.node.name}
+                              </Link>
                             </h3>
                             <Image
                               src={verifies}
