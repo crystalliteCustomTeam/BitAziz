@@ -3,19 +3,24 @@
 export const metadata = {
     //===== Meta Tags =====
     title: "Author Page | BitsWits",
-    description: "Fill out the form if you are interested in app development services. 12 years in app development and 150+ experts on board.",
+    description: "",
     //===== OG Tags =====
     openGraph: {
-        title: "Contact Us | BitsWits",
-        description: "Fill out the form if you are interested in app development services. 12 years in app development and 150+ experts on board.",
-        url: '/contact-us',
+        title: "Author Page | BitsWits",
+        description: "",
+        url: '/isabella-harris',
         siteName: 'BitsWits',
         locale: 'en_US',
         type: 'website',
         images: "/public/images/icons/footerlogo.png",
     },
     //===== Canonical =====
-    alternates: { canonical: '/contact-us' },
+    alternates: { canonical: '/isabella-harris' },
+      //===== No-Index =====
+  robots: {
+    index: false,
+    follow: false,
+}
 }
 
 
