@@ -1,4 +1,4 @@
-import AuthorListing from '@/src/app/[authorpost]/AuthorListing'
+import AuthorListing from '@/src/app/[authorpost]/authorlisting'
 import Banner from '@/src/app/[authorpost]/banenr'
 
 const Page = ({ params }) => {
