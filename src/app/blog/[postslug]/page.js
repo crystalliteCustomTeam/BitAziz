@@ -1,19 +1,19 @@
-import Head from "next/head"
-import Image from "next/image"
-import { Container, Row, Col } from "react-bootstrap"
+import Head from "next/head";
+import Image from "next/image";
+import { Container, Row, Col } from "react-bootstrap";
 // ===== CSS
-import styles from "@/styles/blogNew/InnerBanner.module.css"
+import styles from "@/styles/blogNew/InnerBanner.module.css";
 // ===== Components
-import { getSinglePost } from "@/lib/posts"
-import BlogShare from "@/src/components/BlogShare"
-import BlogFaqs from "@/src/components/BlogFaqs"
-import BlogNavigation from "@/src/components/BlogNavigation"
-import BlogsRelevant from "@/src/components/BlogsRelevant"
-import BlogArticle from "@/src/components/BlogArticle"
+import { getSinglePost } from "@/lib/posts";
+import BlogShare from "@/src/components/BlogShare";
+import BlogFaqs from "@/src/components/BlogFaqs";
+import BlogNavigation from "@/src/components/BlogNavigation";
+import BlogsRelevant from "@/src/components/BlogsRelevant";
+import BlogArticle from "@/src/components/BlogArticle";
 // ===== Images
-import Client from "media/newblogs/innerclient.png"
-import verified from "media/newblogs/blog-verify.png"
-import experience from "media/newblogs/experience.png"
+import Client from "media/newblogs/innerclient.png";
+import verified from "media/newblogs/blog-verify.png";
+import experience from "media/newblogs/experience.png";
 // import { notFound } from "next/navigation";
 
 // const blockedSlugs = [
@@ -34,7 +34,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
   //     return { notFound: true };
   // }
   // read route params
-  const postData = await getSinglePost(params.postslug)
+  const postData = await getSinglePost(params.postslug);
   return {
     title: postData.seo.title,
     description: postData.seo.metaDesc,
@@ -50,7 +50,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
     },
     //===== Canonical =====
     alternates: { canonical: postData.seo.canonical },
-  }
+  };
 }
 
 export default async function Post({ params, searchParams }) {
@@ -59,9 +59,9 @@ export default async function Post({ params, searchParams }) {
   // }
   // =============== Post Data ===============
   let featuredImageUrl =
-    "https://inhouse.pulse-force.com/wordpress/bitswits/wp-admin/uploads/2023/08/moz-brand-authority-768x439-1.png"
+    "https://inhouse.pulse-force.com/wordpress/bitswits/wp-admin/uploads/2023/08/moz-brand-authority-768x439-1.png";
 
-  const postData = await getSinglePost(params.postslug)
+  const postData = await getSinglePost(params.postslug);
   //=============== Render ===============
   // if (!postData) {
   //     notFound();
@@ -240,5 +240,5 @@ export default async function Post({ params, searchParams }) {
         </>
       )}
     </>
-  )
+  );
 }
