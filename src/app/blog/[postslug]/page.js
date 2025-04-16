@@ -66,6 +66,7 @@ export default async function Post({ params, searchParams }) {
   // if (!postData) {
   //     notFound();
   // }
+
   return (
     <>
       {postData && (
@@ -142,11 +143,21 @@ export default async function Post({ params, searchParams }) {
                 <Col lg={12}>
                   <Row className={styles.blogdesc}>
                     <Col lg={2} className={styles.clientImage}>
-                      <Image
-                        src={Client}
-                        alt="Bitswits"
-                        className="img-fluid"
-                      />
+                      {postData.author.node.avatar.url ? (
+                        <Image
+                          src={postData.author.node.avatar.url.replace('-150x150', '')}
+                          alt="Bitswits"
+                          className="img-fluid"
+                          width={300}
+                          height={300}  
+                        />
+                      ) : (
+                        <Image
+                          src={Client}
+                          alt="Bitswits"
+                          className="img-fluid"
+                        />
+                      )}
                     </Col>
                     <Col lg={10} className={styles.content}>
                       <ul className="p-0">

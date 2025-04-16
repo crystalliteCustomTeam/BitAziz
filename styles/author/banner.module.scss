@@ -1,9 +1,21 @@
 .bannerAuthorSec {
-  height: 600px;
+  height: 700px;
   background: #000;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  .authorImage{
+    height: 220px;
+  width: 220px;
+  margin: auto;   
+  img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #f32faf;
+  }
+  }
   .authorName {
     font-size: 30px;
     color: #fff;

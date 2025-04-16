@@ -1,23 +1,23 @@
-"use client"
-import React, { useState, useEffect } from "react"
-import Link from "next/link"
-import Image from "next/image"
-import { Col, Container, Row } from "react-bootstrap"
-import styles from "@/styles/blogNew/BlogContent.module.css"
+"use client";
+import React, { useState, useEffect } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { Col, Container, Row } from "react-bootstrap";
+import styles from "@/styles/blogNew/BlogContent.module.css";
 //===== Components
-import { getPostList } from "@/lib/posts"
-import FeaturedImage from "@/src/components/FeaturedImage"
+import { getPostList } from "@/lib/posts";
+import FeaturedImage from "@/src/components/FeaturedImage";
 //===== Images
-import Arrow from "media/newblogs/blogArrow.png"
-import verifies from "media/newblogs/blog-verify.png"
-import profile from "media/newblogs/blog-client.png"
+import Arrow from "media/newblogs/blogArrow.png";
+import verifies from "media/newblogs/blog-verify.png";
+import profile from "media/newblogs/blog-client.png";
 
 const BlogList = () => {
-  const [posts, setPosts] = useState({ nodes: [], pageInfo: {} })
-  const [buttonText, setButtonText] = useState("Load More")
-  const [buttonDisabled, setButtonDisabled] = useState(false)
-  const [loading, setLoading] = useState(false)
-  const [selectedCategory, setSelectedCategory] = useState("All")
+  const [posts, setPosts] = useState({ nodes: [], pageInfo: {} });
+  const [buttonText, setButtonText] = useState("Load More");
+  const [buttonDisabled, setButtonDisabled] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [selectedCategory, setSelectedCategory] = useState("All");
 
   const predefinedCategories = [
     "Mobile App Development",
@@ -27,7 +27,7 @@ const BlogList = () => {
     "iOS App Development",
     "Android App Development",
     "Blockchain Development",
-  ]
+  ];
 
   const categoryKeywords = {
     "Mobile App Development": ["mobile app", "mobile"],
@@ -37,66 +37,66 @@ const BlogList = () => {
     "iOS App Development": ["ios app", "ios"],
     "Android App Development": ["android app", "android"],
     "Blockchain Development": ["blockchain app", "blockchain"],
-  }
+  };
 
   const fetchPosts = async (endCursor = null) => {
     try {
-      setLoading(true)
-      const newPosts = await getPostList(endCursor)
-      return newPosts
+      setLoading(true);
+      const newPosts = await getPostList(endCursor);
+      return newPosts;
     } catch (error) {
-      console.error("Error fetching posts:", error)
-      return { nodes: [], pageInfo: {} }
+      console.error("Error fetching posts:", error);
+      return { nodes: [], pageInfo: {} };
     } finally {
-      setLoading(false)
+      setLoading(false);
     }
-  }
+  };
 
   useEffect(() => {
-    ;(async () => {
-      const initialPosts = await fetchPosts()
-      setPosts(initialPosts)
-    })()
-  }, [])
+    (async () => {
+      const initialPosts = await fetchPosts();
+      setPosts(initialPosts);
+    })();
+  }, []);
 
   const handleLoadMore = async () => {
-    setButtonText("Loading...")
-    setButtonDisabled(true)
+    setButtonText("Loading...");
+    setButtonDisabled(true);
 
-    const morePosts = await fetchPosts(posts.pageInfo?.endCursor)
+    const morePosts = await fetchPosts(posts.pageInfo?.endCursor);
 
     setPosts((prevPosts) => ({
       pageInfo: morePosts.pageInfo,
       nodes: [...prevPosts.nodes, ...morePosts.nodes],
-    }))
+    }));
 
     if (morePosts.pageInfo?.hasNextPage) {
-      setButtonText("Load More")
-      setButtonDisabled(false)
+      setButtonText("Load More");
+      setButtonDisabled(false);
     } else {
-      setButtonText("No more posts to load")
-      setButtonDisabled(true)
+      setButtonText("No more posts to load");
+      setButtonDisabled(true);
     }
-  }
+  };
 
   const filterPosts = (category) => {
-    if (category === "All") return posts.nodes
+    if (category === "All") return posts.nodes;
 
-    const normalizedCategory = category.toLowerCase()
+    const normalizedCategory = category.toLowerCase();
 
     return posts.nodes.filter((post) =>
       post.categories.nodes.some((cat) => {
-        const normalizedCategoryName = cat.name.toLowerCase()
+        const normalizedCategoryName = cat.name.toLowerCase();
         return categoryKeywords[category].some((keyword) =>
           normalizedCategoryName.includes(keyword)
-        )
+        );
       })
-    )
-  }
+    );
+  };
 
   const handleCategoryChange = (event) => {
-    setSelectedCategory(event.target.value)
-  }
+    setSelectedCategory(event.target.value);
+  };
 
   return (
     <section className={styles.blogcontent}>
@@ -223,19 +223,37 @@ const BlogList = () => {
                       </div>
                       <div className={styles.cardBottom}>
                         <div className={styles.cardBottomImg}>
-                          <Image
-                            src={profile}
-                            width={50}
-                            height={50}
-                            alt="Bitswits"
-                            className="img-fluid"
-                          />
+                          {post.author.node.avatar.url ? (
+                            <Image
+                              src={post.author.node.avatar.url.replace(
+                                "-150x150",
+                                ""
+                              )}
+                              alt="Bitswits"
+                              className="rounded-circle"
+                              width={60}
+                              height={60}
+                            />
+                          ) : (
+                            <Image
+                              src={profile}
+                              width={60}
+                              height={60}
+                              alt="Bitswits"
+                              className="rounded-circle"
+                            />
+                          )}
                         </div>
                         <div className={styles.cardbottomContent}>
                           <div className="d-flex align-items-center gap-2 pb-1">
-                            <h3 className="fontsfregular text-black">                       
-                              <Link href={`/${post.author.node.name.toLowerCase().replace(/\s+/g, "-")}`} className="text-black">
-                              {post.author.node.name}
+                            <h3 className="fontsfregular text-black">
+                              <Link
+                                href={`/${post.author.node.name
+                                  .toLowerCase()
+                                  .replace(/\s+/g, "-")}`}
+                                className="text-black"
+                              >
+                                {post.author.node.name}
                               </Link>
                             </h3>
                             <Image
@@ -271,7 +289,7 @@ const BlogList = () => {
         </Row>
       </Container>
     </section>
-  )
-}
+  );
+};
 
-export default BlogList
+export default BlogList;

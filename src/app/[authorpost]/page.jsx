@@ -8,6 +8,8 @@ export async function generateMetadata({ params }) {
   // Use AuthorData directly instead of AuthorListing
   const blog = AuthorData.find((post) => post.slug === authorpost);
 
+
+
   if (!blog) {
     return {
       title: "Post Not Found",
@@ -34,11 +36,10 @@ export async function generateMetadata({ params }) {
 const Page = async ({ params }) => {
 
   const { authorpost } = params;
-
   return (
     <>
       <Banner slug={authorpost} data={AuthorData} />
-      <AuthorListing slug={authorpost} data={AuthorData} />
+      <AuthorListing slug={authorpost}  />
     </>
   );
 };

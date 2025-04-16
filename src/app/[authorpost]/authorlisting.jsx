@@ -9,7 +9,7 @@ import { getPostList } from "@/lib/posts";
 import FeaturedImage from "@/src/components/FeaturedImage";
 //===== Images
 import Arrow from "media/newblogs/blogArrow.png";
-
+import BannerBg from "media/newblogs/blogs-banner.webp";
 
 const AuthorListing = ({ slug }) => {
   const [posts, setPosts] = useState({ nodes: [], pageInfo: {} });
@@ -65,10 +65,10 @@ const AuthorListing = ({ slug }) => {
       )
     : [];
 
-
   return (
     <>
-     <section className={styles.blogcontent}>
+    
+      <section className={styles.blogcontent}>
         <Container>
           <Row>
             <Col lg={12} className="mt-md-4">
