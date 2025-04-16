@@ -2,7 +2,6 @@ import styles from "@/styles/author/banner.module.scss";
 import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
 import { FacebookIcon, LinkedinIcon, TwitterIcon } from "react-share";
-
 import BannerBg from "media/newblogs/blogs-banner.webp";
 
 const Banner = ({ slug, data }) => {
@@ -23,7 +22,7 @@ const Banner = ({ slug, data }) => {
     >
       <Container className="h-100">
         <Row className="h-100">
-          <Col md={12} lg={8} className="m-auto text-center">
+          <Col md={12} lg={10} xl={9} xxl={8} className="m-auto text-center">
             <div className={styles.authorBox}>
               <div className={styles.authorImage}>
                 <Image

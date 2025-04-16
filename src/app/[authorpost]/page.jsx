@@ -19,10 +19,10 @@ export async function generateMetadata({ params }) {
 
   return {
     title: blog.tit,
-    description: blog.description,
+    description: blog.desc,
     openGraph: {
       title: blog.tit,
-      description: blog.description,
+      description: blog.desc,
       url: blog.slug,
       siteName: "Inifniti Digital",
       locale: "en_US",
