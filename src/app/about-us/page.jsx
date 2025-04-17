@@ -16,6 +16,7 @@ export default function Page() {
 
     return (
         <>
+        
             <Banner />
             <KeyPoints />
             <Awards />
