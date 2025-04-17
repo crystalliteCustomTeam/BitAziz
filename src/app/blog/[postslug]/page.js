@@ -54,18 +54,18 @@ export async function generateMetadata({ params, searchParams }, parent) {
 }
 
 export default async function Post({ params, searchParams }) {
-  if (blockedSlugs.includes(params.postslug)) {
-      notFound();
-  }
+  // if (blockedSlugs.includes(params.postslug)) {
+  //     notFound();
+  // }
   // =============== Post Data ===============
   let featuredImageUrl =
     "https://inhouse.pulse-force.com/wordpress/bitswits/wp-admin/uploads/2023/08/moz-brand-authority-768x439-1.png";
 
   const postData = await getSinglePost(params.postslug);
   //=============== Render ===============
-  if (!postData) {
-      notFound();
-  }
+  // if (!postData) {
+  //     notFound();
+  // }
 
   return (
     <>

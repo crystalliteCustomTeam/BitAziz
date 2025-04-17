@@ -9,7 +9,10 @@ import close from '/public/newHomePageImages/close.png';
 
 const BlogFaqs = ({ faqData }) => {
 
-    const [faqStates, setFaqStates] = useState(Array(faqData.length).fill(false));
+    //const [faqStates, setFaqStates] = useState(Array(faqData.length).fill(false));
+    const [faqStates, setFaqStates] = useState(() =>
+        Array(faqData?.length || 0).fill(false)
+    );
     const [isClassAdded, setClassAdded] = useState(false);
     const toggleFaq = (index) => {
         const newFaqStates = faqStates.map((state, i) => (i === index ? !state : false));
@@ -19,7 +22,7 @@ const BlogFaqs = ({ faqData }) => {
 
     return (
         <>
-            {faqData.map(({ questions, answers }, index) => (
+             {faqData?.map(({ questions, answers }, index) => (
                 <div key={index} className={styles.faqs}>
                     <div className={`${faqStates[index] ? 'touchFaq' : ''}`}>
                         <div onClick={() => toggleFaq(index)} className={styles.heading}>
