@@ -17,6 +17,11 @@ const nextConfig = {
                 destination: '/top-mobile-app-development-company',
                 permanent: true,
             },
+            {
+                source: '/blog/the-best-flutter-app-development-trends-for-2024',
+                destination: '/blog/the-best-flutter-app-development-trends',
+                permanent: true,
+            },
         ]
     },
 }
