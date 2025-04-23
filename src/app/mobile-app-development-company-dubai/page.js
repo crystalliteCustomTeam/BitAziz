@@ -1,80 +1,80 @@
-"use client"
-import React, { useEffect, useState } from "react"
-import Script from "next/script"
+"use client";
+import React, { useEffect, useState } from "react";
+import Script from "next/script";
 // componets
-import Bannerdubai from "../../components/Bannerdubainew"
-import NewDubaiAwards from "@/src/components/NewDubaiAwards"
-import FutureReady from "@/src/components/FuturereadyDubai"
-import Whowearenew from "../../components/Whowearenew"
-import DubaiDelivered from "@/src/components/DubaiDelivered"
-import DubaiTimeline from "@/src/components/DubaiTimeline"
-import DubaiClients from "@/src/components/DubaiClients"
-import Delivered from "@/src/components/Delivered"
-import Industries from "@/src/components/Industries"
-import Houtondubai from "../../components/Houtondubai"
-import DubaiBrandTrust from "@/src/components/DubaiBrandTrust"
-import Expertappdubaiadvanced from "../../components/Expertappdubaiadvanced"
-import Justbuilditlpdubai from "../../components/Justbuilditlpdubai"
-import Brand from "../../components/Brand"
-import Faqdubai from "../../components/Faqdubai"
-import Latestblog from "../../components/Latestblog"
-import Globalmap from "../../components/Globalmap"
+import Bannerdubai from "../../components/Bannerdubainew";
+import NewDubaiAwards from "@/src/components/NewDubaiAwards";
+import FutureReady from "@/src/components/FuturereadyDubai";
+import Whowearenew from "../../components/Whowearenew";
+import DubaiDelivered from "@/src/components/DubaiDelivered";
+import DubaiTimeline from "@/src/components/DubaiTimeline";
+import DubaiClients from "@/src/components/DubaiClients";
+import Delivered from "@/src/components/Delivered";
+import Industries from "@/src/components/Industries";
+import Houtondubai from "../../components/Houtondubai";
+import DubaiBrandTrust from "@/src/components/DubaiBrandTrust";
+import Expertappdubaiadvanced from "../../components/Expertappdubaiadvanced";
+import Justbuilditlpdubai from "../../components/Justbuilditlpdubai";
+import Brand from "../../components/Brand";
+import Faqdubai from "../../components/Faqdubai";
+import Latestblog from "../../components/Latestblog";
+import Globalmap from "../../components/Globalmap";
 //Images
-import StoryLine2 from "/public/newDubaiPagev1/storyLine2.png"
-import StoryLine3 from "/public/newDubaiPagev1/storyLine3.png"
-import StoryLine4 from "/public/newDubaiPagev1/storyLine4.png"
-import StoryLine5 from "/public/newDubaiPagev1/storyLine5.png"
-import StoryLine6 from "/public/newDubaiPagev1/storyLine6.png"
-import banImg1 from "@/public/dubailp/services/1.png"
-import banImg2 from "@/public/dubailp/services/2.png"
-import banImg3 from "@/public/dubailp/services/3.png"
-import banImg4 from "@/public/dubailp/services/4.png"
-import banImg5 from "@/public/dubailp/services/5.png"
-import banImg6 from "@/public/dubailp/services/6.png"
-import blog1 from "/public/newdubai/blog1.png"
-import blog2 from "/public/newdubai/blog2.png"
-import blog3 from "/public/newdubai/blog3.png"
-import HeroBg from "/public/newhouston/dubai.webp"
-import MapImage from "media/newdubai/map1.png"
-import Link from "next/link"
+import StoryLine2 from "/public/newDubaiPagev1/storyLine2.png";
+import StoryLine3 from "/public/newDubaiPagev1/storyLine3.png";
+import StoryLine4 from "/public/newDubaiPagev1/storyLine4.png";
+import StoryLine5 from "/public/newDubaiPagev1/storyLine5.png";
+import StoryLine6 from "/public/newDubaiPagev1/storyLine6.png";
+import banImg1 from "@/public/dubailp/services/1.png";
+import banImg2 from "@/public/dubailp/services/2.png";
+import banImg3 from "@/public/dubailp/services/3.png";
+import banImg4 from "@/public/dubailp/services/4.png";
+import banImg5 from "@/public/dubailp/services/5.png";
+import banImg6 from "@/public/dubailp/services/6.png";
+import blog1 from "/public/newdubai/blog1.png";
+import blog2 from "/public/newdubai/blog2.png";
+import blog3 from "/public/newdubai/blog3.png";
+import HeroBg from "/public/newhouston/dubai.webp";
+import MapImage from "media/newdubai/map1.png";
+import Link from "next/link";
 
 export default function dubaidevelopmentcompany() {
-  const [shouldRender, setShouldRender] = useState(false)
-  const [isMouseMoved, setIsMouseMoved] = useState(false)
+  const [shouldRender, setShouldRender] = useState(false);
+  const [isMouseMoved, setIsMouseMoved] = useState(false);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
       const handleResize = () => {
         if (window.innerWidth >= 768) {
-          setShouldRender(true)
+          setShouldRender(true);
         } else {
-          setShouldRender(false)
+          setShouldRender(false);
         }
-      }
+      };
 
-      handleResize()
+      handleResize();
 
-      window.addEventListener("resize", handleResize)
+      window.addEventListener("resize", handleResize);
 
       return () => {
-        window.removeEventListener("resize", handleResize)
-      }
+        window.removeEventListener("resize", handleResize);
+      };
     }
-  }, [])
+  }, []);
 
   useEffect(() => {
     if (shouldRender) {
       const handleMouseMove = () => {
-        setIsMouseMoved(true)
-      }
+        setIsMouseMoved(true);
+      };
 
-      window.addEventListener("mousemove", handleMouseMove)
+      window.addEventListener("mousemove", handleMouseMove);
 
       return () => {
-        window.removeEventListener("mousemove", handleMouseMove)
-      }
+        window.removeEventListener("mousemove", handleMouseMove);
+      };
     }
-  }, [shouldRender])
+  }, [shouldRender]);
 
   // Banner Content
   const Banner = {
@@ -82,7 +82,7 @@ export default function dubaidevelopmentcompany() {
     desc: "BitsWits stands out as a leading mobile app development company in Dubai due to offering state-of-the-art app development services and solutions. We have successfully delivered over 150+ projects across the UAE, specializing in bespoke, data-driven solutions that distinguish us from competitors. Our focus on customization ensures unique outcomes, reflecting diverse business needs and enabling success in dynamic market environments.",
     bg: HeroBg,
     alt: "Banner for Dubai based mobile app development company featuring contact information and tag line",
-  }
+  };
   // award Content
   const Award = {
     title: "Awards & Recognitions",
@@ -93,7 +93,7 @@ export default function dubaidevelopmentcompany() {
         different platforms.
       </>
     ),
-  }
+  };
   //=====StoryLine Fold=====//
   const accordionData = [
     {
@@ -131,7 +131,7 @@ export default function dubaidevelopmentcompany() {
       btn: "Let’s Build Your Blockchain App!",
       StoryLineImg: StoryLine6,
     },
-  ]
+  ];
   const storyLine = {
     subtitle: <> Google Certified </>,
     title: <> Mobile App Development Company in UAE </>,
@@ -139,7 +139,7 @@ export default function dubaidevelopmentcompany() {
     subPara:
       "Here are the mobile app development services in Dubai that we offer:",
     accordionData: accordionData,
-  }
+  };
   // Who We Are Content
   const WhoWeAre = {
     title: "Our Award-Winning Portfolio",
@@ -173,13 +173,13 @@ export default function dubaidevelopmentcompany() {
     ),
     subDescThree:
       "Grease Monkey is a comprehensive automotive innovation system that provides everything ranging from car repairs to oil checkups. Serving as an independent app, Grease Monkey presents users with important factors to consider such as prices and locations, and also client ratings for your vehicles.",
-  }
+  };
   // delivered content
   const DeliveredContent = {
     title: <>We Have Successfully Brought 150+ App Ideas to Life!</>,
     desc: "Ready to See Yours Become a Reality?",
     btntext: "Book Your Free Consultation Now!",
-  }
+  };
   // timeline Content
   const timeline = {
     classSec: "dubai",
@@ -241,7 +241,7 @@ export default function dubaidevelopmentcompany() {
     heading5: "Deployment",
     para5:
       "In the deployment phase, our team focuses on launching the app successfully to the market. We run thorough compatibility tests on several different devices and platforms to guarantee a smooth and error-free user experience for all users. Additionally, we provide support during the initial rollout phase to address any issues and ensure a seamless transition for users.",
-  }
+  };
   // ClientContent
   const ClientContent = {
     title: (
@@ -266,7 +266,7 @@ export default function dubaidevelopmentcompany() {
         staying within budgets, and exceeding quality expectations.{" "}
       </>
     ),
-  }
+  };
   // Delivered
   const desc = [
     {
@@ -310,12 +310,12 @@ export default function dubaidevelopmentcompany() {
         </>
       ),
     },
-  ]
+  ];
   const delivered = {
     title: "How Much Does it Cost to Make an App in Dubai",
     desc: desc,
     cta: "Book A Consultation Now!",
-  }
+  };
   // Houston Content
   const menus = [
     "How much does Playstore pay for 1000 downloads?",
@@ -325,7 +325,7 @@ export default function dubaidevelopmentcompany() {
     "Cutting-Edge Mobile App Development Frameworks Utilized by BitsWits",
     "What methodologies and processes does your mobile app development company in Dubai employ?",
     "How does BitsWits stay updated with the latest trends and advancements in mobile app development?",
-  ]
+  ];
   const sections = [
     {
       num: "01",
@@ -422,11 +422,11 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>Moreover, our commitment to continuous learning is reflected in our internal training programs, where team members are encouraged to enhance their skills and expertise in relevant areas of mobile app development.</p>
       <p class='fontsfregular'>Through these efforts, we guarantee our clients receive solutions that are not only current but also innovative and forward-thinking, positioning them for success.</p>`,
     },
-  ]
+  ];
   const HoustonContent = {
     menus: menus,
     sections: sections,
-  }
+  };
   // Blogs Content
   const blogBox = [
     {
@@ -447,7 +447,7 @@ export default function dubaidevelopmentcompany() {
       content:
         "There Are Around 2.69 Million Apps For Android Smartphones. Almost Everyone Understands Android Apps, And Many Are Ready To Launch Their Own. But...",
     },
-  ]
+  ];
   // Global Conten
   const global = {
     address:
@@ -456,7 +456,7 @@ export default function dubaidevelopmentcompany() {
     href: "tel:+971555031266",
     image: MapImage,
     link: "https://maps.app.goo.gl/x56GvefpZPJFMbK7A",
-  }
+  };
   return (
     <>
       {isMouseMoved && shouldRender ? (
@@ -748,112 +748,124 @@ export default function dubaidevelopmentcompany() {
           <Latestblog blogBox={blogBox} />
         </>
       )}
-      <Script strategy="lazyOnload" id="websiteSchema" type="application/ld+json">
-        {`
-          {
+      <Script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org/",
             "@type": "WebSite",
-            "name": " Mobile App Development Company in Dubai - BitsWits ",
-            "url": " https://www.bitswits.co/mobile-app-development-company-dubai ",
-            "potentialAction": {
+            name: "Mobile App Development Company in Dubai - BitsWits",
+            url: "https://www.bitswits.co/mobile-app-development-company-dubai",
+            potentialAction: {
               "@type": "SearchAction",
-              "target": "{search_term_string}",
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}
-      </Script>
-      <Script strategy="lazyOnload" id="organizationSchema" type="application/ld+json">
-        {`
-          {
+              target: "{search_term_string}",
+              "query-input": "required name=search_term_string",
+            },
+          }),
+        }}
+      />
+
+      <Script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": " Mobile App Development Company in Dubai - BitsWits ",
-            "alternateName": "BitsWits",
-            "url": " https://www.bitswits.co/mobile-app-development-company-dubai ",
-            "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
-            "contactPoint": {
+            name: "Mobile App Development Company in Dubai - BitsWits",
+            alternateName: "BitsWits",
+            url: "https://www.bitswits.co/mobile-app-development-company-dubai",
+            logo: "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+            contactPoint: {
               "@type": "ContactPoint",
-              "telephone": "+971555031266",
-              "contactType": "customer service",
-              "areaServed": "AE",
-              "availableLanguage": "en"
+              telephone: "+971555031266",
+              contactType: "customer service",
+              areaServed: "AE",
+              availableLanguage: "en",
             },
-            "sameAs": [
+            sameAs: [
               "https://www.facebook.com/officialBitsWits",
               "https://twitter.com/BitsWits_/",
               "https://www.instagram.com/officialBitsWits/",
               "https://www.youtube.com/@officialBitsWits",
-              "https://www.linkedin.com/company/officialBitsWits"
-            ]
-          }
-        `}
-      </Script>
-      <Script strategy="lazyOnload" id="localBusinessSchema" type="application/ld+json">
-        {`
-          {
+              "https://www.linkedin.com/company/officialBitsWits",
+            ],
+          }),
+        }}
+      />
+
+      <Script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Mobile App Development Company in Dubai - BitsWits",
-            "image": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdubai.07d013c3.webp&w=1920&q=75",
+            name: "Mobile App Development Company in Dubai - BitsWits",
+            image:
+              "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdubai.07d013c3.webp&w=1920&q=75",
             "@id": "",
-            "url": "https://www.bitswits.co/mobile-app-development-company-dubai",
-            "telephone": "+971555031266",
-            "address": {
+            url: "https://www.bitswits.co/mobile-app-development-company-dubai",
+            telephone: "+971555031266",
+            priceRange: "$10000",
+            address: {
               "@type": "PostalAddress",
-              "streetAddress": "Office 1402, Jumeirah Business Center 3 - Cluster Y - Jumeirah Lake Towers",
-              "addressLocality": "Dubai",
-              "addressRegion": "DU",
-              "addressCountry": "United Arab Emirates"
+              streetAddress:
+                "Office 1402, Jumeirah Business Center 3 - Cluster Y - Jumeirah Lake Towers",
+              addressLocality: "Dubai",
+              addressRegion: "DU",
+              addressCountry: "United Arab Emirates",
             },
-            "geo": {
+            geo: {
               "@type": "GeoCoordinates",
-              "latitude": 25.0782658,
-              "longitude": -55.1537371
+              latitude: 25.0782658,
+              longitude: -55.1537371,
             },
-            "openingHoursSpecification": {
+            openingHoursSpecification: {
               "@type": "OpeningHoursSpecification",
-              "dayOfWeek": [
+              dayOfWeek: [
                 "Monday",
                 "Tuesday",
                 "Wednesday",
                 "Thursday",
                 "Friday",
-                "Saturday"
+                "Saturday",
               ],
-              "opens": "00:00",
-              "closes": "23:59"
+              opens: "00:00",
+              closes: "23:59",
             },
-            "sameAs": [
+            sameAs: [
               "https://www.facebook.com/officialBitsWits",
               "https://twitter.com/BitsWits_/",
               "https://www.instagram.com/officialBitsWits/",
               "https://www.youtube.com/@officialBitsWits",
-              "https://www.linkedin.com/company/officialBitsWits"
-            ] 
-          }
-        `}
-      </Script>
-      <Script strategy="lazyOnload" id="productSchema" type="application/ld+json">
-        {`
-          {
-            "@context": "https://schema.org/", 
-            "@type": "Product", 
-            "name": " Mobile App Development Company in Dubai - BitsWits ",
-            "image": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdubai.07d013c3.webp&w=1920&q=75",
-            "description": "Partner with BitsWits, your reliable mobile app development company in Dubai, for exceptional app development services perfectly suited to your needs. ",
-            "brand": {
+              "https://www.linkedin.com/company/officialBitsWits",
+            ],
+          }),
+        }}
+      />
+
+      <Script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            name: "Mobile App Development Company in Dubai - BitsWits",
+            image:
+              "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdubai.07d013c3.webp&w=1920&q=75",
+            description:
+              "Partner with BitsWits, your reliable mobile app development company in Dubai, for exceptional app development services perfectly suited to your needs.",
+            brand: {
               "@type": "Brand",
-              "name": "BitsWits"
+              name: "BitsWits",
             },
-            "aggregateRating": {
+            aggregateRating: {
               "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "ratingCount": "974"
-            }
-          }
-        `}
-      </Script>
+              ratingValue: "4.9",
+              ratingCount: "974",
+            },
+          }),
+        }}
+      />
     </>
-  )
+  );
 }

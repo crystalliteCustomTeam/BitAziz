@@ -1168,6 +1168,7 @@ export default function dubaidevelopmentcompany() {
             "@id": "",
             url: "https://www.bitswits.co/app-development-company-new-york",
             telephone: "+18335006007",
+            priceRange: "$10000",
             address: {
               "@type": "PostalAddress",
               streetAddress: "26 Broadway Suite 934",

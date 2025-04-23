@@ -1,40 +1,40 @@
-"use client"
-import React from "react"
-import Script from "next/script"
+"use client";
+import React from "react";
+import Script from "next/script";
 // componets
-import Bannerdubai from "../../components/Bannerdubainew"
-import NewDubaiAwards from "@/src/components/NewDubaiAwards"
-import FutureReady from "@/src/components/FuturereadyDubai"
-import Whowearenew from "../../components/Whowearenew"
-import DubaiDelivered from "@/src/components/DubaiDelivered"
-import DubaiTimeline from "@/src/components/DubaiTimeline"
-import DubaiClients from "@/src/components/DubaiClients"
-import Delivered from "@/src/components/Delivered"
-import Industries from "@/src/components/Industries"
-import DubaiBrandTrust from "@/src/components/DubaiBrandTrust"
-import Expertappdubaiadvanced from "../../components/Expertappdubaiadvanced"
-import Justbuilditlpdubai from "../../components/Justbuilditlpdubai"
-import Brand from "../../components/Brand"
-import Faqdubai from "../../components/Faqdubai"
-import Latestblog from "../../components/Latestblog"
-import Globalmap from "../../components/Globalmap"
-import MapImage from "media/newdubai/denverMap.png"
+import Bannerdubai from "../../components/Bannerdubainew";
+import NewDubaiAwards from "@/src/components/NewDubaiAwards";
+import FutureReady from "@/src/components/FuturereadyDubai";
+import Whowearenew from "../../components/Whowearenew";
+import DubaiDelivered from "@/src/components/DubaiDelivered";
+import DubaiTimeline from "@/src/components/DubaiTimeline";
+import DubaiClients from "@/src/components/DubaiClients";
+import Delivered from "@/src/components/Delivered";
+import Industries from "@/src/components/Industries";
+import DubaiBrandTrust from "@/src/components/DubaiBrandTrust";
+import Expertappdubaiadvanced from "../../components/Expertappdubaiadvanced";
+import Justbuilditlpdubai from "../../components/Justbuilditlpdubai";
+import Brand from "../../components/Brand";
+import Faqdubai from "../../components/Faqdubai";
+import Latestblog from "../../components/Latestblog";
+import Globalmap from "../../components/Globalmap";
+import MapImage from "media/newdubai/denverMap.png";
 //Images
-import StoryLine2 from "/public/newDubaiPagev1/storyLine2.png"
-import StoryLine3 from "/public/newDubaiPagev1/storyLine3.png"
-import StoryLine4 from "/public/newDubaiPagev1/storyLine4.png"
-import StoryLine6 from "/public/newDubaiPagev1/storyLine6.png"
-import banImg1 from "@/public/dubailp/services/1.png"
-import banImg2 from "@/public/dubailp/services/2.png"
-import banImg3 from "@/public/dubailp/services/3.png"
-import banImg4 from "@/public/dubailp/services/4.png"
-import banImg5 from "@/public/dubailp/services/5.png"
-import banImg6 from "@/public/dubailp/services/6.png"
-import blog1 from "/public/newdubai/blog1.png"
-import blog2 from "/public/newdubai/blog2.png"
-import blog3 from "/public/newdubai/blog3.png"
-import HeroBg from "/public/newhouston/denver.webp"
-import Link from "next/link"
+import StoryLine2 from "/public/newDubaiPagev1/storyLine2.png";
+import StoryLine3 from "/public/newDubaiPagev1/storyLine3.png";
+import StoryLine4 from "/public/newDubaiPagev1/storyLine4.png";
+import StoryLine6 from "/public/newDubaiPagev1/storyLine6.png";
+import banImg1 from "@/public/dubailp/services/1.png";
+import banImg2 from "@/public/dubailp/services/2.png";
+import banImg3 from "@/public/dubailp/services/3.png";
+import banImg4 from "@/public/dubailp/services/4.png";
+import banImg5 from "@/public/dubailp/services/5.png";
+import banImg6 from "@/public/dubailp/services/6.png";
+import blog1 from "/public/newdubai/blog1.png";
+import blog2 from "/public/newdubai/blog2.png";
+import blog3 from "/public/newdubai/blog3.png";
+import HeroBg from "/public/newhouston/denver.webp";
+import Link from "next/link";
 
 export default function dubaidevelopmentcompany() {
   // Banner Content
@@ -43,7 +43,7 @@ export default function dubaidevelopmentcompany() {
     desc: "Our team of app developers in Denver brings a wealth of expertise and experience, having successfully delivered over 150 projects. This commitment is what makes us a trusted app development company in Denver, consistently creating apps that align with our clients’ visions and exceed their expectations. Opting for BitsWits means teaming up with professionals dedicated to delivering top-notch quality.",
     bg: HeroBg,
     alt: "Banner for Denver based mobile app development company featuring contact information and tag line",
-  }
+  };
   // award Content
   const Award = {
     title: "Awards & Recognitions",
@@ -54,7 +54,7 @@ export default function dubaidevelopmentcompany() {
         results to our partners and clients globally.{" "}
       </>
     ),
-  }
+  };
   //=====StoryLine Fold=====//
   const accordionData = [
     {
@@ -92,14 +92,14 @@ export default function dubaidevelopmentcompany() {
       btn: "Let’s Build Your React Native App!",
       StoryLineImg: StoryLine6,
     },
-  ]
+  ];
   const storyLine = {
     subtitle: <>Google Certified</>,
     title: <>Mobile App Development Company in Denver</>,
     para: "As one of Denver's best mobile app development companies, we have extensive knowledge of the US tech industry and can provide your business with useful solutions. We develop innovative digital products that can fortify your brand.",
     subPara: "Let's work together to achieve something genuinely incredible.",
     accordionData: accordionData,
-  }
+  };
   // Who We Are Content
   const WhoWeAre = {
     title: "Our Award-Winning Portfolio",
@@ -140,7 +140,7 @@ export default function dubaidevelopmentcompany() {
     ),
     subDescThree:
       "Grease Monkey is a comprehensive automotive innovation system that provides everything ranging from car repairs to oil checkups. Serving as an independent app, Grease Monkey presents users with important factors to consider such as prices and locations, and also client ratings for your vehicles.",
-  }
+  };
   // delivered content
   const DeliveredContent = {
     title: (
@@ -151,7 +151,7 @@ export default function dubaidevelopmentcompany() {
     ),
     desc: "Develop Your Business App with the Expert team of app developers in Denver!",
     btntext: "Book Your Free Consultation Now!",
-  }
+  };
   // timeline Content
   const timeline = {
     classSec: "denver",
@@ -200,7 +200,7 @@ export default function dubaidevelopmentcompany() {
     heading5: "Deployment",
     para5:
       "In the deployment phase, our Google-certified app developers focus on launching the app successfully to the market. We run thorough compatibility tests on several different devices to guarantee a smooth and error-free user experience for all users. Additionally, we provide support during the initial rollout phase to address any issues and ensure a seamless transition for users. Furthermore, we offer comprehensive training sessions for client teams post-launch.",
-  }
+  };
   // ClientContent
   const ClientContent = {
     title: (
@@ -218,7 +218,7 @@ export default function dubaidevelopmentcompany() {
         accessible to organizations of all sizes.
       </>
     ),
-  }
+  };
   // Delivered
   const desc = [
     {
@@ -261,12 +261,12 @@ export default function dubaidevelopmentcompany() {
         <>For an accurate quotation, use our app development cost calculator.</>
       ),
     },
-  ]
+  ];
   const delivered = {
     title: "How Much Does It Cost to Build a Mobile App in Denver",
     desc: desc,
     cta: "Calculate Your App Development Cost Now!",
-  }
+  };
   // Blogs Content
   const blogBox = [
     {
@@ -287,7 +287,7 @@ export default function dubaidevelopmentcompany() {
       content:
         "There Are Around 2.69 Million Apps For Android Smartphones. Almost Everyone Understands Android Apps, And Many Are Ready To Launch Their Own. But...",
     },
-  ]
+  ];
   // Global Conten
   const global = {
     address: "1035 Cherokee St, Denver, CO 80204, United States",
@@ -295,7 +295,7 @@ export default function dubaidevelopmentcompany() {
     href: "tel:+3022168231",
     image: MapImage,
     link: "https://maps.app.goo.gl/1vs3Y5N9dVNXfbVS6",
-  }
+  };
   return (
     <>
       <Bannerdubai content={Banner} />
@@ -480,115 +480,126 @@ export default function dubaidevelopmentcompany() {
       <Latestblog blogBox={blogBox} />
       <Globalmap content={global} />
 
-      <Script id="websiteSchema" type="application/ld+json">
-        {`
-          {
+      <Script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org/",
             "@type": "WebSite",
-            "name": " Mobile App Development Company in Denver – BitsWits ",
-            "url": " https://www.bitswits.co/mobile-app-development-company-denver",
-            "potentialAction": {
+            name: "Mobile App Development Company in Denver – BitsWits",
+            url: "https://www.bitswits.co/mobile-app-development-company-denver",
+            potentialAction: {
               "@type": "SearchAction",
-              "target": "{search_term_string}",
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}
-      </Script>
-      <Script id="organizationSchema" type="application/ld+json">
-        {`
-          {
+              target: "{search_term_string}",
+              "query-input": "required name=search_term_string",
+            },
+          }),
+        }}
+      />
+
+      <Script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": " Mobile App Development Company in Denver – BitsWits ",
-            "alternateName": "BitsWits",
-            "url": " https://www.bitswits.co/mobile-app-development-company-denver ",
-            "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
-            "contactPoint": {
+            name: "Mobile App Development Company in Denver – BitsWits",
+            alternateName: "BitsWits",
+            url: "https://www.bitswits.co/mobile-app-development-company-denver",
+            logo: "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+            contactPoint: {
               "@type": "ContactPoint",
-              "telephone": "+3022168231",
-              "contactType": "customer service",
-              "areaServed": "US",
-              "availableLanguage": "en"
+              telephone: "+3022168231",
+              contactType: "customer service",
+              areaServed: "US",
+              availableLanguage: "en",
             },
-            "sameAs": [
+            sameAs: [
               "https://www.facebook.com/officialBitsWits",
               "https://twitter.com/BitsWits_/",
               "https://www.instagram.com/officialBitsWits/",
               "https://www.youtube.com/@officialBitsWits",
-              "https://www.linkedin.com/company/officialBitsWits"
-            ]
-          }
-        `}
-      </Script>
-      <Script id="localBusinessSchema" type="application/ld+json">
-        {`
-          {
+              "https://www.linkedin.com/company/officialBitsWits",
+            ],
+          }),
+        }}
+      />
+
+      <Script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Mobile App Development Company in Denver - BitsWits",
-            "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdallas.783ee556.webp&w=1920&q=75",
-            "@id": "https://www.bitswits.co/mobile-app-development-company-denver",
-            "url": "https://www.bitswits.co/mobile-app-development-company-denver",
-            "telephone": "+18335006007",
-            "priceRange": "$12,000",
-            "address": {
+            name: "Mobile App Development Company in Denver - BitsWits",
+            image:
+              "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdallas.783ee556.webp&w=1920&q=75",
+            "@id":
+              "https://www.bitswits.co/mobile-app-development-company-denver",
+            url: "https://www.bitswits.co/mobile-app-development-company-denver",
+            telephone: "+18335006007",
+            priceRange: "$12,000",
+            address: {
               "@type": "PostalAddress",
-              "streetAddress": "1035 Cherokee St",
-              "addressLocality": "Denver",
-              "addressRegion": "CO",
-              "postalCode": "80204",
-              "addressCountry": "US"
+              streetAddress: "1035 Cherokee St",
+              addressLocality: "Denver",
+              addressRegion: "CO",
+              postalCode: "80204",
+              addressCountry: "US",
             },
-            "geo": {
+            geo: {
               "@type": "GeoCoordinates",
-              "latitude": 39.7327176,
-              "longitude": -104.9917589
+              latitude: 39.7327176,
+              longitude: -104.9917589,
             },
-            "openingHoursSpecification": {
+            openingHoursSpecification: {
               "@type": "OpeningHoursSpecification",
-              "dayOfWeek": [
+              dayOfWeek: [
                 "Monday",
                 "Tuesday",
                 "Wednesday",
                 "Thursday",
                 "Friday",
                 "Saturday",
-                "Sunday"
+                "Sunday",
               ],
-              "opens": "00:00",
-              "closes": "23:59"
+              opens: "00:00",
+              closes: "23:59",
             },
-            "sameAs": [
+            sameAs: [
               "https://www.facebook.com/officialBitsWits",
               "https://twitter.com/BitsWits_/",
               "https://www.instagram.com/officialBitsWits/",
               "https://www.linkedin.com/company/officialBitsWits",
-              "https://www.bitswits.co/"
-            ] 
-          }
-        `}
-      </Script>
-      <Script id="productSchema" type="application/ld+json">
-        {`
-          {
-            "@context": "https://schema.org/", 
-            "@type": "Product", 
-            "name": " Mobile App Development Company in Denver – BitsWits ",
-            "image": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdenver.d84bc1fd.webp&w=1920&q=75",
-            "description": " BitsWits is a leading mobile app development company in Denver offering innovative solutions customized to your business needs for unparalleled success! ",
-            "brand": {
+              "https://www.bitswits.co/",
+            ],
+          }),
+        }}
+      />
+
+      <Script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            name: "Mobile App Development Company in Denver – BitsWits",
+            image:
+              "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdenver.d84bc1fd.webp&w=1920&q=75",
+            description:
+              "BitsWits is a leading mobile app development company in Denver offering innovative solutions customized to your business needs for unparalleled success!",
+            brand: {
               "@type": "Brand",
-              "name": "BitsWits"
+              name: "BitsWits",
             },
-            "aggregateRating": {
+            aggregateRating: {
               "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "ratingCount": "974"
-            }
-          }
-        `}
-      </Script>
+              ratingValue: "4.9",
+              ratingCount: "974",
+            },
+          }),
+        }}
+      />
     </>
-  )
+  );
 }

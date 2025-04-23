@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import Script from "next/script";
 // componets
@@ -19,19 +19,19 @@ import Brand from "../../components/Brand";
 import Faqdubai from "../../components/Faqdubai";
 import Latestblog from "../../components/Latestblog";
 import Globalmap from "../../components/Globalmap";
-import MapImage from "media/newdubai/dallasMap.png"
-//Images 
+import MapImage from "media/newdubai/dallasMap.png";
+//Images
 import StoryLine2 from "/public/newDubaiPagev1/storyLine2.png";
 import StoryLine3 from "/public/newDubaiPagev1/storyLine3.png";
 import StoryLine4 from "/public/newDubaiPagev1/storyLine4.png";
 import StoryLine5 from "/public/newDubaiPagev1/storyLine5.png";
 import StoryLine6 from "/public/newDubaiPagev1/storyLine6.png";
-import banImg1 from '@/public/dubailp/services/1.png'
-import banImg2 from '@/public/dubailp/services/2.png'
-import banImg3 from '@/public/dubailp/services/3.png'
-import banImg4 from '@/public/dubailp/services/4.png'
-import banImg5 from '@/public/dubailp/services/5.png'
-import banImg6 from '@/public/dubailp/services/6.png'
+import banImg1 from "@/public/dubailp/services/1.png";
+import banImg2 from "@/public/dubailp/services/2.png";
+import banImg3 from "@/public/dubailp/services/3.png";
+import banImg4 from "@/public/dubailp/services/4.png";
+import banImg5 from "@/public/dubailp/services/5.png";
+import banImg6 from "@/public/dubailp/services/6.png";
 import blog1 from "/public/newdubai/blog1.png";
 import blog2 from "/public/newdubai/blog2.png";
 import blog3 from "/public/newdubai/blog3.png";
@@ -43,116 +43,202 @@ export default function dubaidevelopmentcompany() {
     title: "Top-Grade Mobile App Development Company in Dallas",
     desc: "With our proficiency in mobile app development in Dallas, we engineer bespoke Android and iOS applications, using cutting-edge technology for optimal performance. Our end-to-end services, from design to development are geared towards enhancing your ROI by 3X and driving long-term success. Trust us as the leading mobile app development company in Dallas to deliver custom solutions, building apps that perfectly fit your needs!",
     bg: HeroBg,
-    alt: "Banner for Dallas based mobile app development company featuring contact information and tag line"
-  }
+    alt: "Banner for Dallas based mobile app development company featuring contact information and tag line",
+  };
   // award Content
   const Award = {
     title: "Awards & Recognitions",
-    desc: <>Our dedication and hardwork has consistently <br className="d-xl-block d-none" /> garnered acknowledgment by different platforms.</>,
-
-  }
+    desc: (
+      <>
+        Our dedication and hardwork has consistently{" "}
+        <br className="d-xl-block d-none" /> garnered acknowledgment by
+        different platforms.
+      </>
+    ),
+  };
   //=====StoryLine Fold=====//
   const accordionData = [
     {
-      question: 'Android App Development in Dallas',
-      answer: "For Android app development services Dallas, our team specializes in creating high-performing, user-friendly apps. We utilize tools like Java and Kotlin to build scalable architectures that meet your needs. We ensure data security and quality with tech stacks like Mocha and Gatling, providing periodic review reports for verification.",
+      question: "Android App Development in Dallas",
+      answer:
+        "For Android app development services Dallas, our team specializes in creating high-performing, user-friendly apps. We utilize tools like Java and Kotlin to build scalable architectures that meet your needs. We ensure data security and quality with tech stacks like Mocha and Gatling, providing periodic review reports for verification.",
       btn: "Let’s Build Your Android App!",
-      StoryLineImg: StoryLine2
+      StoryLineImg: StoryLine2,
     },
     {
-      question: 'IPhone App Development in Dallas',
-      answer: "Our team focuses on transforming ideas into fully functional digital products. With expertise in programming and advanced software development, we design prototypes, refine layouts, and ensure seamless functionality. Benefit from our iOS app development services Dallas including graphic design, app security, IoT wearables, and augmented reality features.",
+      question: "IPhone App Development in Dallas",
+      answer:
+        "Our team focuses on transforming ideas into fully functional digital products. With expertise in programming and advanced software development, we design prototypes, refine layouts, and ensure seamless functionality. Benefit from our iOS app development services Dallas including graphic design, app security, IoT wearables, and augmented reality features.",
       btn: "Let’s Build Your iOS App!",
-      StoryLineImg: StoryLine3
+      StoryLineImg: StoryLine3,
     },
     {
-      question: 'Flutter App Development in Dallas',
-      answer: "We develop Flutter apps with high responsiveness and full functionality. With Flutter's capabilities, we optimize native performance and deliver a superior cross-platform experience. As a top-tier mobile app design company Dallas, our expertise lies in creating efficient, feature-rich apps that meet your specific requirements. Connect with us today to discover how our Flutter app development services can drive success for your business.",
+      question: "Flutter App Development in Dallas",
+      answer:
+        "We develop Flutter apps with high responsiveness and full functionality. With Flutter's capabilities, we optimize native performance and deliver a superior cross-platform experience. As a top-tier mobile app design company Dallas, our expertise lies in creating efficient, feature-rich apps that meet your specific requirements. Connect with us today to discover how our Flutter app development services can drive success for your business.",
       btn: "Let’s Build Your Flutter App!",
-      StoryLineImg: StoryLine4
+      StoryLineImg: StoryLine4,
     },
     {
-      question: 'Game App Development in Dallas',
-      answer: "Our game app developers use the latest tech stacks to create captivating experiences that continuously engage users, enticing them to return for more. Experienced in Unity, Unreal Engine, and Cocos2d-x, we craft games using 2D/3D graphics, physics engines, and artificial intelligence. Targeting user retention, performance optimization, and consistent gameplay, our game app development services guarantee that your game stands out in the competitive market.",
+      question: "Game App Development in Dallas",
+      answer:
+        "Our game app developers use the latest tech stacks to create captivating experiences that continuously engage users, enticing them to return for more. Experienced in Unity, Unreal Engine, and Cocos2d-x, we craft games using 2D/3D graphics, physics engines, and artificial intelligence. Targeting user retention, performance optimization, and consistent gameplay, our game app development services guarantee that your game stands out in the competitive market.",
       btn: "Let’s Build Your Game App!",
-      StoryLineImg: StoryLine5
+      StoryLineImg: StoryLine5,
     },
     {
-      question: 'Blockchain App Development in Dallas',
-      answer: "From consulting, and smart contracts development to auditing in our blockchain app development services, we offer a range of solutions including public and private blockchain applications, cryptocurrency and wallet development, cryptocurrency exchange development, and NFT development. Enjoy the comfort of streamlined operations, advanced security, and productive revenues which are all included in our inclusive services.",
+      question: "Blockchain App Development in Dallas",
+      answer:
+        "From consulting, and smart contracts development to auditing in our blockchain app development services, we offer a range of solutions including public and private blockchain applications, cryptocurrency and wallet development, cryptocurrency exchange development, and NFT development. Enjoy the comfort of streamlined operations, advanced security, and productive revenues which are all included in our inclusive services.",
       btn: "Let’s Build Your Blockchain App!",
-      StoryLineImg: StoryLine6
+      StoryLineImg: StoryLine6,
     },
   ];
   const storyLine = {
-    subtitle: (<> Google Certified </>),
-    title: (<> Mobile App Development Company in Dallas </>),
-    para: <>As a leading mobile app developer in Dallas, we create innovative Android and iOS apps using advanced technology and tools. Our focus on high-quality applications, excellent service, and customer satisfaction is what makes us a trusted mobile app development company Dallas. 
-      <span className="d-block mt-2">Here are the services we offer:</span> </>,
-    accordionData: accordionData
+    subtitle: <> Google Certified </>,
+    title: <> Mobile App Development Company in Dallas </>,
+    para: (
+      <>
+        As a leading mobile app developer in Dallas, we create innovative
+        Android and iOS apps using advanced technology and tools. Our focus on
+        high-quality applications, excellent service, and customer satisfaction
+        is what makes us a trusted mobile app development company Dallas.
+        <span className="d-block mt-2">
+          Here are the services we offer:
+        </span>{" "}
+      </>
+    ),
+    accordionData: accordionData,
   };
   // Who We Are Content
   const WhoWeAre = {
     title: "Our Award-Winning Portfolio",
-    desc: <>We've been a trusted app development partner in Dallas, offering customized mobile solutions that drive business success.  </>,
+    desc: (
+      <>
+        We've been a trusted app development partner in Dallas, offering
+        customized mobile solutions that drive business success.{" "}
+      </>
+    ),
     para: "Explore our work as a leading app development company Dallas below:",
     subtitleOne: "Soul Scribe",
-    subDescOne: "Soul Scribe is a groundbreaking social networking app that functions as a digital diary, and you can enlist your loved ones to be part of your online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories.",
+    subDescOne:
+      "Soul Scribe is a groundbreaking social networking app that functions as a digital diary, and you can enlist your loved ones to be part of your online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories.",
     subtitleTwo: "The Ready App",
-    subDescTwo: "The Ready App is a revolutionary platform invented to revolutionize the hiring process for the transportation industry. It fills the communication gap between drivers and recruiters by having a user-friendly interface along with features like secure messaging, personal meetings, and real-time updates.",
+    subDescTwo:
+      "The Ready App is a revolutionary platform invented to revolutionize the hiring process for the transportation industry. It fills the communication gap between drivers and recruiters by having a user-friendly interface along with features like secure messaging, personal meetings, and real-time updates.",
     subtitleThree: "Grease Monkey",
-    subDescThree: "Grease Monkey is a comprehensive automotive innovation system that provides everything ranging from car repairs to oil checkups. Serving as an independent app, Grease Monkey presents users with important factors to consider such as prices and locations, and also client ratings for your vehicles."
-  }
+    subDescThree:
+      "Grease Monkey is a comprehensive automotive innovation system that provides everything ranging from car repairs to oil checkups. Serving as an independent app, Grease Monkey presents users with important factors to consider such as prices and locations, and also client ratings for your vehicles.",
+  };
   // delivered content
   const DeliveredContent = {
     title: <>We Have Successfully Brought 150+ App Ideas to Life!</>,
     desc: "Ready to See Yours Become a Reality?",
-    btntext: "Book Your Free Consultation Now!"
-  }
+    btntext: "Book Your Free Consultation Now!",
+  };
   // timeline Content
   const timeline = {
     classSec: "dallas",
-    title: <> Our Agile Process for <br /> Mobile App Development <br /> in Dallas </>,
-    desc: <>
-      <span className="d-block">Our agile process for mobile app development is straightforward and effective. We start with intensive research and strategy to define the core problem statement and align it with client goals. This guides our digital strategy, ensuring continued success post-launch.</span>
-      <br />
-      <span className="d-block">We utilize advanced technologies and creative designs to produce apps that effectively connect with users and boost business success.Through iterative development, rigorous testing, and client feedback loops, we refine concepts into polished mobile solutions. Our transparent approach fosters collaboration, guaranteeing satisfaction and exceeding expectations at every milestone.</span>
-      <br />
-      <span className="mb-5 mb-sm-0 d-block">Here’s how we make it happen:</span>
-    </>,
+    title: (
+      <>
+        {" "}
+        Our Agile Process for <br /> Mobile App Development <br /> in Dallas{" "}
+      </>
+    ),
+    desc: (
+      <>
+        <span className="d-block">
+          Our agile process for mobile app development is straightforward and
+          effective. We start with intensive research and strategy to define the
+          core problem statement and align it with client goals. This guides our
+          digital strategy, ensuring continued success post-launch.
+        </span>
+        <br />
+        <span className="d-block">
+          We utilize advanced technologies and creative designs to produce apps
+          that effectively connect with users and boost business success.Through
+          iterative development, rigorous testing, and client feedback loops, we
+          refine concepts into polished mobile solutions. Our transparent
+          approach fosters collaboration, guaranteeing satisfaction and
+          exceeding expectations at every milestone.
+        </span>
+        <br />
+        <span className="mb-5 mb-sm-0 d-block">
+          Here’s how we make it happen:
+        </span>
+      </>
+    ),
     heading1: "Research and Strategy",
-    para1: "In the research and strategy phase for mobile app development in Dallas, we conduct intensive user interviews, ethnographic research, and competitive analysis. This informs our conception, prototyping, and user testing process. Guided by strategy workshops with the client, we then develop hypotheses for MVPs and prototypes to align with client goals, ensuring effective product development and seamless user experiences.",
+    para1:
+      "In the research and strategy phase for mobile app development in Dallas, we conduct intensive user interviews, ethnographic research, and competitive analysis. This informs our conception, prototyping, and user testing process. Guided by strategy workshops with the client, we then develop hypotheses for MVPs and prototypes to align with client goals, ensuring effective product development and seamless user experiences.",
     heading2: "Development",
-    para2: "In the development phase, our Dallas app developers follow agile methodologies with 2-week sprints for iterative development and testing of user stories and features. We conduct comprehensive usability testing and optimize app store metadata. Our process includes sprintly regression tests and end-to-end scenario tests to ensure a smooth mobile app launch and submission process. Moreover, we then integrate feedback loops for continuous improvement throughout development cycles.",
+    para2:
+      "In the development phase, our Dallas app developers follow agile methodologies with 2-week sprints for iterative development and testing of user stories and features. We conduct comprehensive usability testing and optimize app store metadata. Our process includes sprintly regression tests and end-to-end scenario tests to ensure a smooth mobile app launch and submission process. Moreover, we then integrate feedback loops for continuous improvement throughout development cycles.",
     heading3: "UI and UX",
-    para3: "In the design phase, our expert designers collaborate closely with clients to create powerful, visually appealing, and intuitive interfaces. Through wireframing and design prototyping, we ensure users can navigate the mobile app effortlessly, fostering a highly engaging user experience and satisfaction. This collaborative process guarantees seamless interaction, enhancing app usability, and ultimately delivering a compelling user experience. Additionally, we prioritize accessibility and responsiveness across various devices and platforms.",
+    para3:
+      "In the design phase, our expert designers collaborate closely with clients to create powerful, visually appealing, and intuitive interfaces. Through wireframing and design prototyping, we ensure users can navigate the mobile app effortlessly, fostering a highly engaging user experience and satisfaction. This collaborative process guarantees seamless interaction, enhancing app usability, and ultimately delivering a compelling user experience. Additionally, we prioritize accessibility and responsiveness across various devices and platforms.",
     heading4: "Scale",
-    para4: "In the scale phase, we prioritize achieving the client's goals by focusing on mobile app success and growth. We conduct iterative management and execution of analytics, experiments, and A/B tests. As a bespoke Dallas mobile app development company, our approach includes automated messaging campaigns and attribution optimization to attract new users, boost retention, and maximize revenue. In addition, we emphasize continuous refinement to ensure sustained user engagement and long-term success.",
+    para4:
+      "In the scale phase, we prioritize achieving the client's goals by focusing on mobile app success and growth. We conduct iterative management and execution of analytics, experiments, and A/B tests. As a bespoke Dallas mobile app development company, our approach includes automated messaging campaigns and attribution optimization to attract new users, boost retention, and maximize revenue. In addition, we emphasize continuous refinement to ensure sustained user engagement and long-term success.",
     heading5: "Deployment",
-    para5: "In the deployment phase, our Google-certified app developers focus on launching the app successfully to the market. We run thorough compatibility tests on several different devices to guarantee a smooth and error-free user experience for all users. Additionally, we provide support during the initial rollout phase to address any issues and ensure a seamless transition for users. Furthermore, we offer comprehensive training sessions for client teams post-launch.",
-  }
+    para5:
+      "In the deployment phase, our Google-certified app developers focus on launching the app successfully to the market. We run thorough compatibility tests on several different devices to guarantee a smooth and error-free user experience for all users. Additionally, we provide support during the initial rollout phase to address any issues and ensure a seamless transition for users. Furthermore, we offer comprehensive training sessions for client teams post-launch.",
+  };
   // ClientContent
   const ClientContent = {
-    title: <>Why Choose BitsWits as Your <span>Trusted</span> Mobile App <br /> Development Company in Dallas </>,
-    desc: <>BitsWits is fully devoted to the development of top-quality mobile applications and solutions in Dallas. The results of <br className="d-xl-block d-none" /> our efforts are impressive, delivering 95% on time, within budget, and exceeding quality. </>
-  }
+    title: (
+      <>
+        Why Choose BitsWits as Your <span>Trusted</span> Mobile App <br />{" "}
+        Development Company in Dallas{" "}
+      </>
+    ),
+    desc: (
+      <>
+        BitsWits is fully devoted to the development of top-quality mobile
+        applications and solutions in Dallas. The results of{" "}
+        <br className="d-xl-block d-none" /> our efforts are impressive,
+        delivering 95% on time, within budget, and exceeding quality.{" "}
+      </>
+    ),
+  };
   // Delivered
   const desc = [
     {
-      para: <>The cost to develop an app is determined by a range of factors such as app complexity, the platforms it will run on, and the features it will have.</>
+      para: (
+        <>
+          The cost to develop an app is determined by a range of factors such as
+          app complexity, the platforms it will run on, and the features it will
+          have.
+        </>
+      ),
     },
     {
-      para: <><span>Simple apps</span> like a flashlight or a calculator with minimal features can cost you around <span>$20,000 to $60,000</span>. <span>Complex apps</span> like e-commerce or social media apps fall in the range of <span>$60,000 to $150,000 </span>or more  . <span>High-end apps</span> like healthcare or banking apps that have enterprise-level features and complex functionalities can cost you around <span>$300,000+ </span>or more.</>,
+      para: (
+        <>
+          <span>Simple apps</span> like a flashlight or a calculator with
+          minimal features can cost you around <span>$20,000 to $60,000</span>.{" "}
+          <span>Complex apps</span> like e-commerce or social media apps fall in
+          the range of <span>$60,000 to $150,000 </span>or more .{" "}
+          <span>High-end apps</span> like healthcare or banking apps that have
+          enterprise-level features and complex functionalities can cost you
+          around <span>$300,000+ </span>or more.
+        </>
+      ),
     },
     {
-      para: <>BitsWits, as a premier app development company in Dallas offers custom solutions for every budget. </>,
+      para: (
+        <>
+          BitsWits, as a premier app development company in Dallas offers custom
+          solutions for every budget.{" "}
+        </>
+      ),
     },
-  ]
+  ];
   const delivered = {
     title: "How Much Does It Cost to Develop a Mobile Phone App in Dallas?",
     desc: desc,
-    cta: "Calculate Your App Cost!"
-  }
+    cta: "Calculate Your App Cost!",
+  };
   // Houston content
   const menus = [
     "How much does it cost to hire someone to build a mobile app?",
@@ -172,7 +258,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>The total amount spent will however, very much depend on some other factors like whether you want a single feature app or a complex one, the platforms on which you want the app to run (iOS, Android, or both), where exactly the development team is located, and if you have to add additional costs for like services such as design, testing, and maintenance.</p>
       <p class='fontsfregular'>Apart from that, custom app development will have higher costs compared to the use of pre-built templates or platforms.</p>
       <p class='fontsfregular'>Therefore, it is so important to discuss the details of your requirements with potential app development companies to get an estimate of the exact cost that corresponds to all the features you have in your project.</p>
-      `
+      `,
     },
     {
       num: "02",
@@ -182,7 +268,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>Furthermore, working with a highly recognized company provides access to a wide range of skill sets including design, development, testing, and management of the project.</p> 
       <p class='fontsfregular'>The comprehensive approach narrows the chance of errors and makes it certain that the final product obtains industry standards as well as the expected level of user satisfaction thus increasing app success in the market.</p>
       <p class='fontsfregular'>By collaborating with expert-vetted mobile app developers in Dallas, you gain access to a diverse skill set, ensuring industry-standard quality and user satisfaction, ultimately enhancing your app's success in the market.</p>
-      `
+      `,
     },
     {
       num: "03",
@@ -193,7 +279,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>Additionally, effective marketing strategies and monetization methods are essential for generating revenue.</p>
       <p class='fontsfregular'>Despite challenges, successful apps continue to generate significant profits through in-app purchases, subscriptions, advertising, and other revenue streams.</p>
       <p class='fontsfregular'>With the right approach, mobile apps can indeed be highly profitable ventures.</p>
-      `
+      `,
     },
     {
       num: "04",
@@ -210,7 +296,7 @@ export default function dubaidevelopmentcompany() {
         <p class='fontsfregular'>Gaming and gambling apps generate revenue through in-app purchases, ads, and in-game purchases.</p>
         <p class='fontsfregular'>Music and entertainment apps often offer subscription-based services or ad-supported models.</p>
         <p class='fontsfregular'>Social media apps monetize through advertising and in-app purchases for virtual goods or premium features.</p>
-      `
+      `,
     },
     {
       num: "05",
@@ -221,7 +307,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>We prioritize innovation and originality in-app concepts, carefully selecting platforms for maximum reach.</p>
       <p class='fontsfregular'>With thorough testing and a well-executed launch strategy, we prepare your app for success, reducing the risk of failure in the competitive market.</p>
       <p class='fontsfregular'>By partnering with BitsWits, you gain access to our expertise in market research, innovation, platform selection, testing, and launch strategies.</p>
-      <p class='fontsfregular'>With our comprehensive approach, we mitigate the risk of app failure and set your project on the path to success in the competitive mobile app market.</p>`
+      <p class='fontsfregular'>With our comprehensive approach, we mitigate the risk of app failure and set your project on the path to success in the competitive mobile app market.</p>`,
     },
     {
       num: "06",
@@ -247,7 +333,7 @@ export default function dubaidevelopmentcompany() {
           </tr>
         </table>
         <p class='fontsfregular'>Factors like project scope changes, third-party integrations, and resource availability can impact timelines. </p>
-        <p class='fontsfregular'>Effective communication and collaboration between clients and development teams are crucial for meeting milestones and ensuring timely delivery during the development process.</p>`
+        <p class='fontsfregular'>Effective communication and collaboration between clients and development teams are crucial for meeting milestones and ensuring timely delivery during the development process.</p>`,
     },
     {
       num: "07",
@@ -256,11 +342,12 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>However, with the assistance of BitsWits, you can improve your app's visibility and increase its chances of success.</p>
       <p class='fontsfregular'>While exceeding 1000 downloads on the Google Play Store is a common benchmark for app success, true success extends beyond download numbers.</p>
       <p class='fontsfregular'>Factors such as user engagement, retention, and monetization are equally important indicators of app success.</p>
-      <p class='fontsfregular'>With BitsWits' expertise in app development and marketing, we can enhance your app's visibility, attract more users, and optimize user experience, increasing its chances of long-term success in the competitive app market.</p>`
+      <p class='fontsfregular'>With BitsWits' expertise in app development and marketing, we can enhance your app's visibility, attract more users, and optimize user experience, increasing its chances of long-term success in the competitive app market.</p>`,
     },
     {
       num: "08",
-      title: "Essential Certifications and Skills Required for App Developers in Dallas",
+      title:
+        "Essential Certifications and Skills Required for App Developers in Dallas",
       content: `<p class='fontsfregular'>As a mobile app developer in Dallas, continuous acquisition of professional certifications and skills is essential to stay ahead in the competitive landscape. Below are key certifications and skills to prioritize.</p>
       <h5>Certified Mobile Application Development (CMAD)</h5>
       <p class='fontsfregular'>The CMAD certification, offered by the Object Management Group (OMG), demonstrates proficiency in constructing mobile applications across various technologies. Attainable through completion of the certification course accessible online and on the official OMG website.</p>
@@ -272,29 +359,32 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>This certification provides insights into designing and developing cloud services using Microsoft Azure technologies, widely used in the industry. To enroll in this course, visit the official Microsoft website.</p>
       <p class='fontsfregular'>Such certifications and skills are available on platforms like Udemy, Coursera, or edX. These platforms offer courses on mobile application development and certification programs.</p>
       <p class='fontsfregular'>Additionally, you can enhance your mobile app development skills by mastering various coding languages and staying updated on technology trends. Online tutorials, boot camps, and small projects are valuable resources for learning and refining programming skills.</p>
-      <p class='fontsfregular'>At BitsWits, our skilled team of app developers in Dallas ensure you stay competitive in the industry.</p>`
+      <p class='fontsfregular'>At BitsWits, our skilled team of app developers in Dallas ensure you stay competitive in the industry.</p>`,
     },
   ];
   const HoustonContent = {
     menus: menus,
     sections: sections,
-  }
+  };
   // Blogs Content
   const blogBox = [
     {
       img: blog1,
-      title: 'Leading Grocery Delivery Apps Making Waves In Saudi Arabia',
-      content: 'Remember Carrying Heavy Bags Of Groceries Under The Sizzling Saudi Sun? Those Days Are Fast Disappearing Into A Memory As The Expedient Rise Of...'
+      title: "Leading Grocery Delivery Apps Making Waves In Saudi Arabia",
+      content:
+        "Remember Carrying Heavy Bags Of Groceries Under The Sizzling Saudi Sun? Those Days Are Fast Disappearing Into A Memory As The Expedient Rise Of...",
     },
     {
       img: blog2,
-      title: 'Detail Overview For Online Shopping App In Saudi Arabia',
-      content: 'Online Shopping Apps Have Become A Keystone Of Today’s Retail Business, Transforming The Shopping Experience With Unprecedented Ease And A Wide...'
+      title: "Detail Overview For Online Shopping App In Saudi Arabia",
+      content:
+        "Online Shopping Apps Have Become A Keystone Of Today’s Retail Business, Transforming The Shopping Experience With Unprecedented Ease And A Wide...",
     },
     {
       img: blog3,
-      title: 'How To Develop An Android App: A Complete Guide',
-      content: 'There Are Around 2.69 Million Apps For Android Smartphones. Almost Everyone Understands Android Apps, And Many Are Ready To Launch Their Own. But...'
+      title: "How To Develop An Android App: A Complete Guide",
+      content:
+        "There Are Around 2.69 Million Apps For Android Smartphones. Almost Everyone Understands Android Apps, And Many Are Ready To Launch Their Own. But...",
     },
   ];
   // Global Conten
@@ -303,8 +393,8 @@ export default function dubaidevelopmentcompany() {
     number: "(302) 216-8231",
     href: "tel:+3022168231",
     image: MapImage,
-    link: "https://maps.app.goo.gl/Koam3m3q4DXPCDg49"
-  }
+    link: "https://maps.app.goo.gl/Koam3m3q4DXPCDg49",
+  };
   return (
     <>
       <Bannerdubai content={Banner} />
@@ -318,42 +408,68 @@ export default function dubaidevelopmentcompany() {
       <Industries />
       <Houtondubai content={HoustonContent} />
       <DubaiBrandTrust />
-      <Expertappdubaiadvanced expertapp="expertapp"
+      <Expertappdubaiadvanced
+        expertapp="expertapp"
         title="Advanced Technology Solutions for Large-Scale Businesses & Enterprises"
-        appData={
-          [
-            {
-              title: 'Big Data',
-              description: 'Big data plays a crucial role in app development by providing developers with access to a wealth of information and insights. At BitsWits, we specialize in integrating big data analytics to extract invaluable insights, ensuring informed decision-making for business growth and app success.',
-              imageSrc: banImg2,
-            },
-            {
-              title: 'Internet of Things (IoT)',
-              description: 'Integrate IoT technology into your app development process to streamline operations across devices. BitsWits offers customized solutions for real-time data collection and analysis, boosting efficiency and productivity.',
-              imageSrc: banImg3,
-            },
-            {
-              title: 'Blockchain',
-              description: (<> Transform your application with secure and transparent blockchain solutions. BitsWits provides expertise-driven development to ensure trust and integrity in decentralized networks, empowering your app's functionality and security. </>),
-              imageSrc: banImg1,
-            },
-            {
-              title: 'AR/VR',
-              description: 'Partner up with BitsWits to enhance user experiences with immersive AR/VR solutions customized for app development. We offer captivating interactions and simulations to engage users and enhance the success of your app in the market.',
-              imageSrc: banImg6,
-            },
-            {
-              title: 'AI/ML',
-              description: (<> Optimize app performance with AI and machine learning solutions. BitsWits maximizes algorithm potential for process automation, personalized experiences, and trend prediction, driving innovation in your app development projects. </>),
-              imageSrc: banImg4,
-            },
-            {
-              title: 'Cloud Computing',
-              description: (<> Enhance your app development infrastructure with scalable cloud solutions. BitsWits offers expert guidance and support to optimize data storage, access, and collaboration, empowering your app development process with flexibility and growth. </>),
-              imageSrc: banImg5,
-            },
-          ]
-        }
+        appData={[
+          {
+            title: "Big Data",
+            description:
+              "Big data plays a crucial role in app development by providing developers with access to a wealth of information and insights. At BitsWits, we specialize in integrating big data analytics to extract invaluable insights, ensuring informed decision-making for business growth and app success.",
+            imageSrc: banImg2,
+          },
+          {
+            title: "Internet of Things (IoT)",
+            description:
+              "Integrate IoT technology into your app development process to streamline operations across devices. BitsWits offers customized solutions for real-time data collection and analysis, boosting efficiency and productivity.",
+            imageSrc: banImg3,
+          },
+          {
+            title: "Blockchain",
+            description: (
+              <>
+                {" "}
+                Transform your application with secure and transparent
+                blockchain solutions. BitsWits provides expertise-driven
+                development to ensure trust and integrity in decentralized
+                networks, empowering your app's functionality and security.{" "}
+              </>
+            ),
+            imageSrc: banImg1,
+          },
+          {
+            title: "AR/VR",
+            description:
+              "Partner up with BitsWits to enhance user experiences with immersive AR/VR solutions customized for app development. We offer captivating interactions and simulations to engage users and enhance the success of your app in the market.",
+            imageSrc: banImg6,
+          },
+          {
+            title: "AI/ML",
+            description: (
+              <>
+                {" "}
+                Optimize app performance with AI and machine learning solutions.
+                BitsWits maximizes algorithm potential for process automation,
+                personalized experiences, and trend prediction, driving
+                innovation in your app development projects.{" "}
+              </>
+            ),
+            imageSrc: banImg4,
+          },
+          {
+            title: "Cloud Computing",
+            description: (
+              <>
+                {" "}
+                Enhance your app development infrastructure with scalable cloud
+                solutions. BitsWits offers expert guidance and support to
+                optimize data storage, access, and collaboration, empowering
+                your app development process with flexibility and growth.{" "}
+              </>
+            ),
+            imageSrc: banImg5,
+          },
+        ]}
       />
       <Justbuilditlpdubai
         title1="Just"
@@ -366,142 +482,190 @@ export default function dubaidevelopmentcompany() {
       <Faqdubai
         faqsData={[
           {
-            question: "What platforms do you specialize in for app development?",
-            answer: (<p>
-              We focus on app development for diverse platforms that include <b>iOS</b> (iPhone and iPad), <b>Android</b>, <b>web apps</b> (mobile and desktop), and <b>cross-platform apps</b> using <b>Flutter</b> and <b>React Native</b> frameworks.
-            </p>)
+            question:
+              "What platforms do you specialize in for app development?",
+            answer: (
+              <p>
+                We focus on app development for diverse platforms that include{" "}
+                <b>iOS</b> (iPhone and iPad), <b>Android</b>, <b>web apps</b>{" "}
+                (mobile and desktop), and <b>cross-platform apps</b> using{" "}
+                <b>Flutter</b> and <b>React Native</b> frameworks.
+              </p>
+            ),
           },
           {
             question: "How do you ensure the security of mobile applications?",
-            answer: (<p>
-              We ensure mobile app security through <b>encryption</b>, <b>secure authentication</b>, <b>regular updates</b>, <b>thorough testing</b>, <b>adherence to secure coding practices</b>, and <b>staying informed about security threats</b>. </p>)
+            answer: (
+              <p>
+                We ensure mobile app security through <b>encryption</b>,{" "}
+                <b>secure authentication</b>, <b>regular updates</b>,{" "}
+                <b>thorough testing</b>,{" "}
+                <b>adherence to secure coding practices</b>, and{" "}
+                <b>staying informed about security threats</b>.{" "}
+              </p>
+            ),
           },
           {
-            question: "Do you offer ongoing support and maintenance after the app launch?",
-            answer: (<p> <b>Yes</b>, we offer ongoing support and maintenance services after the app launch to ensure its smooth operation, address any issues, and implement updates as needed. </p>)
+            question:
+              "Do you offer ongoing support and maintenance after the app launch?",
+            answer: (
+              <p>
+                {" "}
+                <b>Yes</b>, we offer ongoing support and maintenance services
+                after the app launch to ensure its smooth operation, address any
+                issues, and implement updates as needed.{" "}
+              </p>
+            ),
           },
           {
-            question: "What is your approach to user experience design in app development?",
-            answer: (<p> As a top-grade mobile app design company in Dallas, our approach to user experience design focuses on <b>understanding user needs</b>, <b>conducting research</b>, <b>creating intuitive interfaces</b>, and <b>iterative testing</b> for optimal usability and satisfaction. </p>)
+            question:
+              "What is your approach to user experience design in app development?",
+            answer: (
+              <p>
+                {" "}
+                As a top-grade mobile app design company in Dallas, our approach
+                to user experience design focuses on{" "}
+                <b>understanding user needs</b>, <b>conducting research</b>,{" "}
+                <b>creating intuitive interfaces</b>, and{" "}
+                <b>iterative testing</b> for optimal usability and satisfaction.{" "}
+              </p>
+            ),
           },
           {
-            question: "Can you integrate third-party services or APIs into the app?",
-            answer: (<p> <b>Yes</b>, we can integrate third-party services or APIs into the app to extend its functionality and provide additional features as per your requirements and preferences. </p>)
+            question:
+              "Can you integrate third-party services or APIs into the app?",
+            answer: (
+              <p>
+                {" "}
+                <b>Yes</b>, we can integrate third-party services or APIs into
+                the app to extend its functionality and provide additional
+                features as per your requirements and preferences.{" "}
+              </p>
+            ),
           },
         ]}
       />
       <Latestblog blogBox={blogBox} />
-      <Globalmap
-        content={global}
-      />
+      <Globalmap content={global} />
 
-      <Script id="websiteSchema" type="application/ld+json">
-        {`
-          {
+      <Script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org/",
             "@type": "WebSite",
-            "name": " Mobile App Development Company in Dallas - BitsWits ",
-            "url": " https://www.bitswits.co/mobile-app-development-company-dallas ",
-            "potentialAction": {
+            name: "Mobile App Development Company in Dallas - BitsWits",
+            url: "https://www.bitswits.co/mobile-app-development-company-dallas",
+            potentialAction: {
               "@type": "SearchAction",
-              "target": "{search_term_string}",
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}
-      </Script>
-      <Script id="organizationSchema" type="application/ld+json">
-        {`
-          {
+              target: "{search_term_string}",
+              "query-input": "required name=search_term_string",
+            },
+          }),
+        }}
+      />
+
+      <Script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "Mobile App Development Company in Dallas - BitsWits ",
-            "alternateName": "BitsWits",
-            "url": " https://www.bitswits.co/mobile-app-development-company-dallas ",
-            "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
-            "contactPoint": {
+            name: "Mobile App Development Company in Dallas - BitsWits",
+            alternateName: "BitsWits",
+            url: "https://www.bitswits.co/mobile-app-development-company-dallas",
+            logo: "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+            contactPoint: {
               "@type": "ContactPoint",
-              "telephone": "+18335006007",
-              "contactType": "customer service",
-              "areaServed": "US",
-              "availableLanguage": "en"
+              telephone: "+18335006007",
+              contactType: "customer service",
+              areaServed: "US",
+              availableLanguage: "en",
             },
-            "sameAs": [
+            sameAs: [
               "https://www.facebook.com/officialBitsWits",
               "https://twitter.com/BitsWits_/",
               "https://www.instagram.com/officialBitsWits/",
               "https://www.youtube.com/@officialBitsWits",
-              "https://www.linkedin.com/company/officialBitsWits"
-            ]
-          }
-        `}
-      </Script>
-      <Script id="localBusinessSchema" type="application/ld+json">
-        {`
-          {
+              "https://www.linkedin.com/company/officialBitsWits",
+            ],
+          }),
+        }}
+      />
+
+      <Script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Mobile App Development Company in Dallas - BitsWits",
-            "image": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdallas.783ee556.webp&w=1920&q=75 ",
+            name: "Mobile App Development Company in Dallas - BitsWits",
+            image:
+              "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdallas.783ee556.webp&w=1920&q=75",
             "@id": "",
-            "url": " https://www.bitswits.co/mobile-app-development-company-dallas",
-            "telephone": "+18335006007",
-            "address": {
+            url: "https://www.bitswits.co/mobile-app-development-company-dallas",
+            telephone: "+18335006007",
+            priceRange: "$10000",
+            address: {
               "@type": "PostalAddress",
-              "streetAddress": "1341 W Mockingbird Ln",
-              "addressLocality": "Dallas",
-              "addressRegion": "TX",
-              "postalCode": "75247",
-              "addressCountry": "US"
+              streetAddress: "1341 W Mockingbird Ln",
+              addressLocality: "Dallas",
+              addressRegion: "TX",
+              postalCode: "75247",
+              addressCountry: "US",
             },
-            "geo": {
+            geo: {
               "@type": "GeoCoordinates",
-              "latitude": 32.8219006,
-              "longitude": -96.8662865
+              latitude: 32.8219006,
+              longitude: -96.8662865,
             },
-            "openingHoursSpecification": {
+            openingHoursSpecification: {
               "@type": "OpeningHoursSpecification",
-              "dayOfWeek": [
+              dayOfWeek: [
                 "Monday",
                 "Tuesday",
                 "Wednesday",
                 "Thursday",
                 "Friday",
-                "Saturday"
+                "Saturday",
               ],
-              "opens": "00:00",
-              "closes": "23:59"
+              opens: "00:00",
+              closes: "23:59",
             },
-            "sameAs": [
+            sameAs: [
               "https://www.facebook.com/officialBitsWits",
               "https://twitter.com/BitsWits_/",
               "https://www.instagram.com/officialBitsWits/",
               "https://www.youtube.com/@officialBitsWits",
-              "https://www.linkedin.com/company/officialBitsWits"
-            ] 
-          }
-        `}
-      </Script>
-      <Script id="productSchema" type="application/ld+json">
-        {`
-          {
-            "@context": "https://schema.org/", 
-            "@type": "Product", 
-            "name": "Mobile App Development Company in Dallas - BitsWits",
-            "image": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdallas.783ee556.webp&w=1920&q=75 ",
-            "description": " Trust our leading mobile app development company in Dallas to deliver expert solutions meeting your business needs with top-notch app development services ",
-            "brand": {
+              "https://www.linkedin.com/company/officialBitsWits",
+            ],
+          }),
+        }}
+      />
+
+      <Script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            name: "Mobile App Development Company in Dallas - BitsWits",
+            image:
+              "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdallas.783ee556.webp&w=1920&q=75",
+            description:
+              "Trust our leading mobile app development company in Dallas to deliver expert solutions meeting your business needs with top-notch app development services",
+            brand: {
               "@type": "Brand",
-              "name": "BitsWits"
+              name: "BitsWits",
             },
-            "aggregateRating": {
+            aggregateRating: {
               "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "ratingCount": "974"
-            }
-          }
-        `}
-      </Script>
+              ratingValue: "4.9",
+              ratingCount: "974",
+            },
+          }),
+        }}
+      />
     </>
   );
-} 
+}

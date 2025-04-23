@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import Script from "next/script";
 // componets
@@ -19,23 +19,23 @@ import Brand from "../../components/Brand";
 import Faqdubai from "../../components/Faqdubai";
 import Latestblog from "../../components/Latestblog";
 import Globalmap from "../../components/Globalmap";
-//Images 
+//Images
 import StoryLine2 from "/public/newDubaiPagev1/storyLine2.png";
 import StoryLine3 from "/public/newDubaiPagev1/storyLine3.png";
 import StoryLine4 from "/public/newDubaiPagev1/storyLine4.png";
 import StoryLine5 from "/public/newDubaiPagev1/storyLine5.png";
 import StoryLine6 from "/public/newDubaiPagev1/storyLine6.png";
-import banImg1 from '@/public/dubailp/services/1.png'
-import banImg2 from '@/public/dubailp/services/2.png'
-import banImg3 from '@/public/dubailp/services/3.png'
-import banImg4 from '@/public/dubailp/services/4.png'
-import banImg5 from '@/public/dubailp/services/5.png'
-import banImg6 from '@/public/dubailp/services/6.png'
+import banImg1 from "@/public/dubailp/services/1.png";
+import banImg2 from "@/public/dubailp/services/2.png";
+import banImg3 from "@/public/dubailp/services/3.png";
+import banImg4 from "@/public/dubailp/services/4.png";
+import banImg5 from "@/public/dubailp/services/5.png";
+import banImg6 from "@/public/dubailp/services/6.png";
 import blog1 from "/public/newdubai/blog1.png";
 import blog2 from "/public/newdubai/blog2.png";
 import blog3 from "/public/newdubai/blog3.png";
 import HeroBg from "/public/newhouston/washington.webp";
-import MapImage from "media/newdubai/washingtonDCMap.png"
+import MapImage from "media/newdubai/washingtonDCMap.png";
 import Link from "next/link";
 
 export default function dubaidevelopmentcompany() {
@@ -44,118 +44,218 @@ export default function dubaidevelopmentcompany() {
     title: "Reputable App Development Company in Washington DC",
     desc: "Build modern, state-of-the-art, user-friendly mobile apps in collaboration with our top-tier app development company in Washington D.C. Our app developers, with 10+ years of experience, utilize trending tools and technologies to create digital products that can bring massive revenue and ROIs. In addition, we ensure that the apps we develop feature high-end UI/UX and deliver a flawless user experience. ",
     bg: HeroBg,
-    alt: "Banner for Washington DC based mobile app development company featuring contact information and tag line"
-  }
+    alt: "Banner for Washington DC based mobile app development company featuring contact information and tag line",
+  };
   // award Content
   const Award = {
     title: "Awards & Recognitions",
-    desc: <>Our dedication and hardwork has consistently <br className="d-xl-block d-none" /> garnered acknowledgment by different platforms.</>,
-
-  }
+    desc: (
+      <>
+        Our dedication and hardwork has consistently{" "}
+        <br className="d-xl-block d-none" /> garnered acknowledgment by
+        different platforms.
+      </>
+    ),
+  };
   //=====StoryLine Fold=====//
   const accordionData = [
     {
-      question: 'Android App Development in Washington DC.',
-      answer: "Android is one of the largest yet highly-generating revenue markets, nowadays, with having approx. 3 million+ applications accessible on app stores. Our Android app development services focus on building apps that are not just feature-rich and dynamic but also scalable and data-driven. The apps we bestow are crafted with extra attention to detail so that they can easily perform on distinct platforms without making any challenging efforts. ",
+      question: "Android App Development in Washington DC.",
+      answer:
+        "Android is one of the largest yet highly-generating revenue markets, nowadays, with having approx. 3 million+ applications accessible on app stores. Our Android app development services focus on building apps that are not just feature-rich and dynamic but also scalable and data-driven. The apps we bestow are crafted with extra attention to detail so that they can easily perform on distinct platforms without making any challenging efforts. ",
       btn: "Let’s Build Your Android App!",
-      StoryLineImg: StoryLine2
+      StoryLineImg: StoryLine2,
     },
     {
-      question: 'iPhone App Development in Washington DC',
-      answer: "iOS is another very strong competition market with 2 million+ applications. Our iPhone app development services in DC will give you a chance to expand your business reach, enhance customer engagement and credibility, and, therefore, gain new users. We are dedicated to building visually appealing and user-friendly apps that are compatible with iOS devices and also function smoothly. ",
+      question: "iPhone App Development in Washington DC",
+      answer:
+        "iOS is another very strong competition market with 2 million+ applications. Our iPhone app development services in DC will give you a chance to expand your business reach, enhance customer engagement and credibility, and, therefore, gain new users. We are dedicated to building visually appealing and user-friendly apps that are compatible with iOS devices and also function smoothly. ",
       btn: "Let’s Build Your iOS App!",
-      StoryLineImg: StoryLine3
+      StoryLineImg: StoryLine3,
     },
     {
-      question: 'Flutter App Development in Washington DC',
-      answer: "Flutter, the popular platform developed by Google, is gaining huge popularity due to its ability to develop native-like applications that can operate efficiently across various platforms. The following technology works by utilizing a single code base. Also, the apps built on this technology have approximately 50% fewer codebase issues, thus ensuring faster time to market products. ",
+      question: "Flutter App Development in Washington DC",
+      answer:
+        "Flutter, the popular platform developed by Google, is gaining huge popularity due to its ability to develop native-like applications that can operate efficiently across various platforms. The following technology works by utilizing a single code base. Also, the apps built on this technology have approximately 50% fewer codebase issues, thus ensuring faster time to market products. ",
       btn: "Let’s Build Your Flutter App!",
-      StoryLineImg: StoryLine4
+      StoryLineImg: StoryLine4,
     },
     {
-      question: 'Game App Development in Washington, DC',
-      answer: "Mobile gaming revenue is expected to get to $173 billion by the end of 2024. This competitive industry has huge potential in the upcoming years. Our game app development services are designed to enhance user experience; boost sales & generate huge revenue. Reach our app development company in DC today and transform your vision into reality. ",
+      question: "Game App Development in Washington, DC",
+      answer:
+        "Mobile gaming revenue is expected to get to $173 billion by the end of 2024. This competitive industry has huge potential in the upcoming years. Our game app development services are designed to enhance user experience; boost sales & generate huge revenue. Reach our app development company in DC today and transform your vision into reality. ",
       btn: "Let’s Build Your Game App!",
-      StoryLineImg: StoryLine5
+      StoryLineImg: StoryLine5,
     },
     {
-      question: 'Blockchain Development in Washington, DC',
-      answer: "Being a leading blockchain app development company in DC, we are skilled in creating decentralized applications that offer transparency, reliability, and security. Blockchain technology gives us the ability to create innovative products, ensure secure transactions, and provide a level of confidence that is superior to that of traditional apps. Our blockchain app development services guarantee a seamless user experience for your users.",
+      question: "Blockchain Development in Washington, DC",
+      answer:
+        "Being a leading blockchain app development company in DC, we are skilled in creating decentralized applications that offer transparency, reliability, and security. Blockchain technology gives us the ability to create innovative products, ensure secure transactions, and provide a level of confidence that is superior to that of traditional apps. Our blockchain app development services guarantee a seamless user experience for your users.",
       btn: "Let’s Build Your Blockchain App!",
-      StoryLineImg: StoryLine6
+      StoryLineImg: StoryLine6,
     },
   ];
   const storyLine = {
-    subtitle: (<> Google Certified Developers </>),
-    title: (<> Mobile App Development Company in Washington DC </>),
+    subtitle: <> Google Certified Developers </>,
+    title: <> Mobile App Development Company in Washington DC </>,
     para: "Our app developers in DC ensure that your app meets all the top-notch standards of quality & best fulfills your target audience's demands. Our experienced app developers & designers have 10+ years of experience, and they stand with you throughout the entire app journey. The product they deliver speaks volumes.",
     subPara: "",
-    accordionData: accordionData
+    accordionData: accordionData,
   };
   // Who We Are Content
   const WhoWeAre = {
     title: "Our Rewarding Portfolio",
-    desc: <>Our app development company in DC has successfully delivered a wide range of bespoke digital products across  <br className="d-xl-block d-none" /> various sectors and industries, each tailored to distinct niches and categories.</>,
+    desc: (
+      <>
+        Our app development company in DC has successfully delivered a wide
+        range of bespoke digital products across{" "}
+        <br className="d-xl-block d-none" /> various sectors and industries,
+        each tailored to distinct niches and categories.
+      </>
+    ),
     para: "",
-    subtitleOne: <>Soul <br className="d-none d-md-block d-lg-none" /> Scribe</>,
-    subDescOne: "Soul Scribe is a groundbreaking social networking app that functions as a digital diary, and you can enlist your loved ones to be part of your online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories.",
-    subtitleTwo: <>The <br className="d-none d-md-block d-lg-none" /> Ready App</>,
-    subDescTwo: "The Ready App is a revolutionary platform invented to revolutionize the hiring process for the transportation industry. It fills the communication gap between drivers and recruiters by having a user-friendly interface along with features like secure messaging, personal meetings, and real-time updates.",
-    subtitleThree: <>Grease <br className="d-none d-md-block d-lg-none" /> Monkey</>,
-    subDescThree: "Grease Monkey is a comprehensive automotive innovation system that provides everything ranging from car repairs to oil checkups. Serving as an independent app, Grease Monkey presents users with important factors to consider such as prices and locations, and also client ratings for your vehicles."
-  }
+    subtitleOne: (
+      <>
+        Soul <br className="d-none d-md-block d-lg-none" /> Scribe
+      </>
+    ),
+    subDescOne:
+      "Soul Scribe is a groundbreaking social networking app that functions as a digital diary, and you can enlist your loved ones to be part of your online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories.",
+    subtitleTwo: (
+      <>
+        The <br className="d-none d-md-block d-lg-none" /> Ready App
+      </>
+    ),
+    subDescTwo:
+      "The Ready App is a revolutionary platform invented to revolutionize the hiring process for the transportation industry. It fills the communication gap between drivers and recruiters by having a user-friendly interface along with features like secure messaging, personal meetings, and real-time updates.",
+    subtitleThree: (
+      <>
+        Grease <br className="d-none d-md-block d-lg-none" /> Monkey
+      </>
+    ),
+    subDescThree:
+      "Grease Monkey is a comprehensive automotive innovation system that provides everything ranging from car repairs to oil checkups. Serving as an independent app, Grease Monkey presents users with important factors to consider such as prices and locations, and also client ratings for your vehicles.",
+  };
   // delivered content
   const DeliveredContent = {
     title: <>2X Your Business Revenue with our Cutting-Edge Mobile Apps!</>,
     desc: "Ready to Dominate the App Market? Let's Create Your Digital Product!",
-    btntext: "Schedule a Free Consultation Today!"
-  }
+    btntext: "Schedule a Free Consultation Today!",
+  };
   // timeline Content
   const timeline = {
     classSec: "washington",
     subtitle: "Process We Utilize",
-    title: <> Leading App  Development <br />  Firm Washington DC </>,
-    desc: <>
-      <span className="d-block">As an elite app development company in Washington, DC, we are well aware of all the complexities and nuances related to app development, unlike other firms that offer average products at high prices. </span>
-      <br />
-      <span className="d-block">From the beginning of the process to the product finally hitting the market, we are always engaged with you, where you are kept in the loop and well-informed. We thoroughly test your app to ensure it works phenomenally without any serious threats or bugs</span>
-      <br />
-      <span className="mb-5 mb-sm-0 d-block">Here is the process we utilize to develop products that boost exceptional performance.</span>
-    </>,
+    title: (
+      <>
+        {" "}
+        Leading App Development <br /> Firm Washington DC{" "}
+      </>
+    ),
+    desc: (
+      <>
+        <span className="d-block">
+          As an elite app development company in Washington, DC, we are well
+          aware of all the complexities and nuances related to app development,
+          unlike other firms that offer average products at high prices.{" "}
+        </span>
+        <br />
+        <span className="d-block">
+          From the beginning of the process to the product finally hitting the
+          market, we are always engaged with you, where you are kept in the loop
+          and well-informed. We thoroughly test your app to ensure it works
+          phenomenally without any serious threats or bugs
+        </span>
+        <br />
+        <span className="mb-5 mb-sm-0 d-block">
+          Here is the process we utilize to develop products that boost
+          exceptional performance.
+        </span>
+      </>
+    ),
     isSubtitle: true,
     heading1: "Research & Strategy ",
-    para1: "We begin with an in-depth analysis of app ideas, its goals, and an overall assessment of its feasibility. We perform comprehensive research to determine your target audience and whether the idea you want to launch has the potential or not. Besides, we conduct brainstorming sessions that enable us to come up with a strategic plan. ",
+    para1:
+      "We begin with an in-depth analysis of app ideas, its goals, and an overall assessment of its feasibility. We perform comprehensive research to determine your target audience and whether the idea you want to launch has the potential or not. Besides, we conduct brainstorming sessions that enable us to come up with a strategic plan. ",
     heading2: "Development",
-    para2: "In the development phase, our DC app developers follow agile methodologies with 2-week sprints for iterative development and testing of user stories and features. We conduct comprehensive usability testing and optimize app store metadata. Our process includes sprint regression tests and end-to-end scenario tests to ensure a smooth mobile app launch and submission process. ",
+    para2:
+      "In the development phase, our DC app developers follow agile methodologies with 2-week sprints for iterative development and testing of user stories and features. We conduct comprehensive usability testing and optimize app store metadata. Our process includes sprint regression tests and end-to-end scenario tests to ensure a smooth mobile app launch and submission process. ",
     heading3: "UI/UX ",
-    para3: "We pay great attention to the creation of an interface that is simple and convenient to use as well as delivers a user-friendly interface. We have created designs that not only accomplish your brand’s identity but also fulfill your targeted audience's needs & demands. By employing users' persona, we create intuitive, functional, and aesthetically appealing app designs..",
+    para3:
+      "We pay great attention to the creation of an interface that is simple and convenient to use as well as delivers a user-friendly interface. We have created designs that not only accomplish your brand’s identity but also fulfill your targeted audience's needs & demands. By employing users' persona, we create intuitive, functional, and aesthetically appealing app designs..",
     heading4: "Scale",
-    para4: "In the scale phase, we prioritize achieving the client's goals by focusing on mobile app success and growth. We conduct iterative management and execution of analytics, experiments, and A/B tests. As a bespoke DC mobile app development company, our approach includes automated messaging campaigns and attribution optimization to attract new users, boost retention, and maximize revenue. ",
+    para4:
+      "In the scale phase, we prioritize achieving the client's goals by focusing on mobile app success and growth. We conduct iterative management and execution of analytics, experiments, and A/B tests. As a bespoke DC mobile app development company, our approach includes automated messaging campaigns and attribution optimization to attract new users, boost retention, and maximize revenue. ",
     heading5: "Deployment",
-    para5: "In the deployment phase, our Google-certified app developers focus on launching the app successfully to the market. We run thorough compatibility tests on several different devices to guarantee a smooth and error-free user experience for all users. Additionally, we provide support during the initial rollout phase to address any issues and ensure a seamless transition for users.",
-  }
+    para5:
+      "In the deployment phase, our Google-certified app developers focus on launching the app successfully to the market. We run thorough compatibility tests on several different devices to guarantee a smooth and error-free user experience for all users. Additionally, we provide support during the initial rollout phase to address any issues and ensure a seamless transition for users.",
+  };
   // ClientContent
   const ClientContent = {
-    title: <> Why Our Customers <span>Choose Us</span> <br className="d-xl-block d-none" />for App Development in Washington DC</>,
-    desc: <> At BitsWits, we strive to continually improve our <Link href="/mobile-application-development-services" className="fw600 text-black">mobile app development services</Link> to meet the competitiveness of the<br className="d-xl-block d-none" /> mainstream markets. We have a 95% track record of delivering projects on time and at cost-effective rates.  </>
-  }
+    title: (
+      <>
+        {" "}
+        Why Our Customers <span>Choose Us</span>{" "}
+        <br className="d-xl-block d-none" />
+        for App Development in Washington DC
+      </>
+    ),
+    desc: (
+      <>
+        {" "}
+        At BitsWits, we strive to continually improve our{" "}
+        <Link
+          href="/mobile-application-development-services"
+          className="fw600 text-black"
+        >
+          mobile app development services
+        </Link>{" "}
+        to meet the competitiveness of the
+        <br className="d-xl-block d-none" /> mainstream markets. We have a 95%
+        track record of delivering projects on time and at cost-effective rates.{" "}
+      </>
+    ),
+  };
   // Delivered
   const desc = [
     {
-      para: <>There is no exact cost mentioned anywhere when it comes to determining the mobile app development cost in   <span>Washington, DC. </span><br className="d-xl-block d-none" /> Various parameters are involved during the creation of a mobile app.</>
+      para: (
+        <>
+          There is no exact cost mentioned anywhere when it comes to determining
+          the mobile app development cost in <span>Washington, DC. </span>
+          <br className="d-xl-block d-none" /> Various parameters are involved
+          during the creation of a mobile app.
+        </>
+      ),
     },
     {
-      para: <>At BitsWits, a basic project begins with just <span>$20,000</span> with limited features & functionalities. However, if your app needs to revolve around complex technicalities,<br className="d-xl-block d-none" /> you can expect the price to be between <span>$20,000</span> to <span>$100,000+</span>.  Our tailor-made solutions are created to accommodate every business needs regardless<br className="d-xl-block d-none" /> of their size & niche. </>
+      para: (
+        <>
+          At BitsWits, a basic project begins with just <span>$20,000</span>{" "}
+          with limited features & functionalities. However, if your app needs to
+          revolve around complex technicalities,
+          <br className="d-xl-block d-none" /> you can expect the price to be
+          between <span>$20,000</span> to <span>$100,000+</span>. Our
+          tailor-made solutions are created to accommodate every business needs
+          regardless
+          <br className="d-xl-block d-none" /> of their size & niche.{" "}
+        </>
+      ),
     },
     {
-      para: <>Want to know the exact estimated cost for your app? Use our dedicated app development cost calculator below!</>
-    }
-  ]
+      para: (
+        <>
+          Want to know the exact estimated cost for your app? Use our dedicated
+          app development cost calculator below!
+        </>
+      ),
+    },
+  ];
   const delivered = {
     title: "How Much Does Mobile App Development Cost in Washington DC?",
     desc: desc,
-    cta: "Calculate Your App Cost!"
-  }
+    cta: "Calculate Your App Cost!",
+  };
   // Houston Content
   const menus = [
     "How to Choose a Trustworthy Mobile App Development Company in Washington DC - Do's and Don'ts",
@@ -169,7 +269,8 @@ export default function dubaidevelopmentcompany() {
   const sections = [
     {
       num: "01",
-      title: "How to Choose a Trustworthy Mobile App Development Company in Washington DC Do's and Don'ts",
+      title:
+        "How to Choose a Trustworthy Mobile App Development Company in Washington DC Do's and Don'ts",
       content: `<p class='fontsfregular'>When you are trying to find the best mobile app development company in Washington DC, you should consider several essential features to make sure that your project won't fail.
       </p>
       <h5>Vast Experience & Expertise</h5>
@@ -188,11 +289,12 @@ export default function dubaidevelopmentcompany() {
             <p class='fontsfregular'>Nevertheless, exceptional professionals ought to be good listeners take your ideas into account, and make changes based on the feedback. </p>
             <h5>Customer-Centric Approach</h5>
             <p class='fontsfregular'>Customer satisfaction is the number one criterion for the success of leading businesses. This will entail implementing particular plans that have been approved and providing services such as routine maintenance if needed. Besides that, hire a mobile app development company from DC that will use a customer-oriented approach. </p>
-            <p class='fontsfregular'>Hence, when seeking a credible app development company, it is important to ensure that they have all the given traits. This will eventually affect the overall performance of your app.</p>`
+            <p class='fontsfregular'>Hence, when seeking a credible app development company, it is important to ensure that they have all the given traits. This will eventually affect the overall performance of your app.</p>`,
     },
     {
       num: "02",
-      title: "What are the Mobile App Development Trends to Watch Out for in 2024?",
+      title:
+        "What are the Mobile App Development Trends to Watch Out for in 2024?",
       content: `<p class='fontsfregular'>The significant shift in the mobile application development sector has brought unimaginable transitions in the past few years. Washington, DC, being the epicenter of innovations and technology, is no different.</p>
       <p class='fontsfregular'>As we approach 2024, some key trends are shaping the DC landscape.</p>
       <p class='fontsfregular'>Let's explore these trends one by one and see how they affect app design and development. </p>
@@ -214,11 +316,12 @@ export default function dubaidevelopmentcompany() {
       <h5>The Rise of the 5G Era</h5>
       <p class='fontsfregular'>With 5G networks being deployed all around Washington, DC, we should expect many apps that promote the power of these next-generation technologies and span a broad range of niches.</p>
       <p class='fontsfregular'>5G provides much faster speeds and lower latency which allows for the creation of new applications such as immersive AR/VR experiences, real-time data streaming for better decision making, and even remote healthcare applications which require high bandwidth and low latency rates.</p>
-      `
+      `,
     },
     {
       num: "03",
-      title: "What are the Most Common Mobile App Development Frameworks Utilized by App Developers DC?",
+      title:
+        "What are the Most Common Mobile App Development Frameworks Utilized by App Developers DC?",
       content: `<p class='fontsfregular'>Here is a quick lowdown on the top frameworks that our expert team of app developers DC at BitsWits mostly utilizes for app development.</p>
       <h5>React Native</h5>
       <p class='fontsfregular'>One of React Native's major strengths is its ability to develop apps that run on both platforms—iOS and Android—without the need for extra implementation. This ensures fast development cycles and cost-efficient solutions.</p>
@@ -236,7 +339,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>Ionic is mostly known for its flexibility and user-friendly interface, which make it a favorite among mobile app developers in DC.</p>
       <h5>PhoneGap</h5>
       <p class='fontsfregular'>One of the most common frameworks for creating hybrid mobile apps is PhoneGap because it makes it easier to develop apps for various platforms, such as iOS, Android, and the Web.</p>
-      `
+      `,
     },
     {
       num: "04",
@@ -255,7 +358,7 @@ export default function dubaidevelopmentcompany() {
         <p class='fontsfregular'>Working with other tech companies and startups can open doors to resources and experts that you may not possess in your own organization. This can enhance the development process and thus speed up your app's entry into the market.</p>
         <h5>Focus on Innovation</h5>
         <p class='fontsfregular'>Washington, D.C., is famous for its emphasis on creativity and the latest technology. DC app developers are always looking for new ways to make the impossible possible, and as a result, they create the most innovative and groundbreaking apps. Employing developers from DC may be the key to making your app a winner in the market.</p>
-        <p class='fontsfregular'>DC developers are the first to use technology, and they are always searching for new and creative ways to solve problems. Through DC hiring, you can harness this creativity and innovate the development of your app.</p> `
+        <p class='fontsfregular'>DC developers are the first to use technology, and they are always searching for new and creative ways to solve problems. Through DC hiring, you can harness this creativity and innovate the development of your app.</p> `,
     },
     {
       num: "05",
@@ -263,7 +366,7 @@ export default function dubaidevelopmentcompany() {
       content: `<p class='fontsfregular'>Although there are many great app developers in Washington DC, choosing from BitsWits has several distinct advantages.</p>
       <p class='fontsfregular'>Firstly, they possess a solid reputation for delivering high-quality apps. Besides, you can take advantage of their knowledge, experience, and dedication to success, which will make your app unique in the market.</p>
       <p class='fontsfregular'>Moreover, their close relationship with government and industry experts, access to the best people, understanding of the local market trends, the ability to collaborate, and innovation make them a great option for creating your next mobile app. </p>
-      <p class='fontsfregular'>Furthermore, when you choose developers from BitsWits, you can be sure that your app will be in the best hands, with a team that is passionate about delivering great results.</p>`
+      <p class='fontsfregular'>Furthermore, when you choose developers from BitsWits, you can be sure that your app will be in the best hands, with a team that is passionate about delivering great results.</p>`,
     },
     {
       num: "06",
@@ -306,7 +409,7 @@ export default function dubaidevelopmentcompany() {
         <p class='fontsfregular'>
         To sum up, mobile app development in Washington, DC, is going to be a great success. DC app developers concentrate on new technologies, which makes them the best to be at the forefront of mobile app creation. With the technology infrastructure in DC continuously expanding, the chances for developers to go beyond the limits of what is possible in mobile app development will also increase.
         </p> 
-        `
+        `,
     },
     {
       num: "07",
@@ -325,29 +428,32 @@ export default function dubaidevelopmentcompany() {
       <h5>Maintenance and Updates</h5>
       <p class='fontsfregular'>If your app development is reliant on constant support and maintenance, you will be able to foresee a bigger overall app development cost. Implementation of post-launch maintenance and support services is another leading factor that determines the price of the app.</p>
       <p class='fontsfregular'>In summary, at BitsWits, we understand all the nuances associated with mobile app development. Our veteran team of app developers in Washington DC has the required technical abilities and skills to transform your vague idea into a spectacular reality.</p>
-      `
+      `,
     },
   ];
   const HoustonContent = {
     menus: menus,
     sections: sections,
-  }
+  };
   // Blogs Content
   const blogBox = [
     {
       img: blog1,
-      title: 'Leading Grocery Delivery Apps Making Waves In Saudi Arabia',
-      content: 'Remember Carrying Heavy Bags Of Groceries Under The Sizzling Saudi Sun? Those Days Are Fast Disappearing Into A Memory As The Expedient Rise Of...'
+      title: "Leading Grocery Delivery Apps Making Waves In Saudi Arabia",
+      content:
+        "Remember Carrying Heavy Bags Of Groceries Under The Sizzling Saudi Sun? Those Days Are Fast Disappearing Into A Memory As The Expedient Rise Of...",
     },
     {
       img: blog2,
-      title: 'Detail Overview For Online Shopping App In Saudi Arabia',
-      content: 'Online Shopping Apps Have Become A Keystone Of Today’s Retail Business, Transforming The Shopping Experience With Unprecedented Ease And A Wide...'
+      title: "Detail Overview For Online Shopping App In Saudi Arabia",
+      content:
+        "Online Shopping Apps Have Become A Keystone Of Today’s Retail Business, Transforming The Shopping Experience With Unprecedented Ease And A Wide...",
     },
     {
       img: blog3,
-      title: 'How To Develop An Android App: A Complete Guide',
-      content: 'There Are Around 2.69 Million Apps For Android Smartphones. Almost Everyone Understands Android Apps, And Many Are Ready To Launch Their Own. But...'
+      title: "How To Develop An Android App: A Complete Guide",
+      content:
+        "There Are Around 2.69 Million Apps For Android Smartphones. Almost Everyone Understands Android Apps, And Many Are Ready To Launch Their Own. But...",
     },
   ];
   // Global Content
@@ -356,8 +462,8 @@ export default function dubaidevelopmentcompany() {
     number: "(833) 500-6007",
     href: "tel:+8335006007",
     image: MapImage,
-    link: ""
-  }
+    link: "",
+  };
 
   return (
     <>
@@ -372,42 +478,47 @@ export default function dubaidevelopmentcompany() {
       <Industries />
       <Houtondubai content={HoustonContent} />
       <DubaiBrandTrust />
-      <Expertappdubaiadvanced expertapp="expertapp"
+      <Expertappdubaiadvanced
+        expertapp="expertapp"
         title="Data-Driven Tech Solutions for Entrepreneurs & Large-Scale Businesses "
-        appData={
-          [
-            {
-              title: 'Big Data',
-              description: 'Big Data technology helps in the acquisition and management of large data samples. Our adept app developers in DC use the most modern technologies for developing mobile apps that are able to surpass competitors and facilitate progress globally.',
-              imageSrc: banImg2,
-            },
-            {
-              title: 'Internet of Things (IoT)',
-              description: 'IoT technology enables data collection, access automation, and helps reveal and solve other basic problems in real time. Our app development company in DC uses this technology to ensure smooth communication, boost operational efficiency, and provide innovative solutions.',
-              imageSrc: banImg3,
-            },
-            {
-              title: 'Blockchain',
-              description: 'Blockchain offers a secure and transparent networking platform for transactions. Our mobile app development company in Washington DC makes use of this technology to encompass the accurate information and security of your app.',
-              imageSrc: banImg1,
-            },
-            {
-              title: 'AR/VR',
-              description: 'Our qualified mobile app developers DC are experts in integrating cutting-edge technologies to create apps with AR/VR that are unlike others and built to possess advanced capabilities. Our professionals will be glad to give you all the solutions.',
-              imageSrc: banImg6,
-            },
-            {
-              title: 'AI/ML',
-              description: "We endeavor to smoothly integrate intelligent functionalities such as personalized suggestions and adaptive layering designs into our apps. This means that every time you use our app, it adapts to your preferences and updates the recommendations correspondingly.",
-              imageSrc: banImg4,
-            },
-            {
-              title: 'Cloud Computing',
-              description: "By making it easy to manage, analyze, and secure the data in your app, we offer the best available cloud services. We are known for and proud of our record of quality, on-time delivery, increasing customers' satisfaction levels, and inducing brand loyalty.",
-              imageSrc: banImg5,
-            },
-          ]
-        }
+        appData={[
+          {
+            title: "Big Data",
+            description:
+              "Big Data technology helps in the acquisition and management of large data samples. Our adept app developers in DC use the most modern technologies for developing mobile apps that are able to surpass competitors and facilitate progress globally.",
+            imageSrc: banImg2,
+          },
+          {
+            title: "Internet of Things (IoT)",
+            description:
+              "IoT technology enables data collection, access automation, and helps reveal and solve other basic problems in real time. Our app development company in DC uses this technology to ensure smooth communication, boost operational efficiency, and provide innovative solutions.",
+            imageSrc: banImg3,
+          },
+          {
+            title: "Blockchain",
+            description:
+              "Blockchain offers a secure and transparent networking platform for transactions. Our mobile app development company in Washington DC makes use of this technology to encompass the accurate information and security of your app.",
+            imageSrc: banImg1,
+          },
+          {
+            title: "AR/VR",
+            description:
+              "Our qualified mobile app developers DC are experts in integrating cutting-edge technologies to create apps with AR/VR that are unlike others and built to possess advanced capabilities. Our professionals will be glad to give you all the solutions.",
+            imageSrc: banImg6,
+          },
+          {
+            title: "AI/ML",
+            description:
+              "We endeavor to smoothly integrate intelligent functionalities such as personalized suggestions and adaptive layering designs into our apps. This means that every time you use our app, it adapts to your preferences and updates the recommendations correspondingly.",
+            imageSrc: banImg4,
+          },
+          {
+            title: "Cloud Computing",
+            description:
+              "By making it easy to manage, analyze, and secure the data in your app, we offer the best available cloud services. We are known for and proud of our record of quality, on-time delivery, increasing customers' satisfaction levels, and inducing brand loyalty.",
+            imageSrc: banImg5,
+          },
+        ]}
       />
       <Justbuilditlpdubai
         title1="Just"
@@ -420,10 +531,17 @@ export default function dubaidevelopmentcompany() {
       <Faqdubai
         faqsData={[
           {
-            question: "How can I discover the best app development company in Washington DC for my business?",
+            question:
+              "How can I discover the best app development company in Washington DC for my business?",
             answer: (
               <p>
-                In order to find the most reliable app development company in DC, you have to conduct a comprehensive market analysis and then make a list of such companies that might be the best match for your project. Have a look at their experience, portfolio, client testimonials, and pricing. Besides you may also ask friends, their peers, and also other professionals in the field if they have any valuable information.
+                In order to find the most reliable app development company in
+                DC, you have to conduct a comprehensive market analysis and then
+                make a list of such companies that might be the best match for
+                your project. Have a look at their experience, portfolio, client
+                testimonials, and pricing. Besides you may also ask friends,
+                their peers, and also other professionals in the field if they
+                have any valuable information.
               </p>
             ),
           },
@@ -432,7 +550,11 @@ export default function dubaidevelopmentcompany() {
               "How long does it take to develop a mobile app in Washington DC?",
             answer: (
               <p>
-                The timeline for mobile application development in DC could be different depending on a wide range of factors. Basic apps, with few features and functionalities, take between 2 and 4 months. On the contrary, complex apps may vary from 3 to 6 months or even more, depending on your app goals and other business needs.
+                The timeline for mobile application development in DC could be
+                different depending on a wide range of factors. Basic apps, with
+                few features and functionalities, take between 2 and 4 months.
+                On the contrary, complex apps may vary from 3 to 6 months or
+                even more, depending on your app goals and other business needs.
               </p>
             ),
           },
@@ -441,16 +563,25 @@ export default function dubaidevelopmentcompany() {
               "What challenges do app developers in DC commonly face during app development?",
             answer: (
               <p>
-                App development requires crucial planning, analysis, and proper implementation. When we discuss the challenges app developers in DC face, we mention fierce competition, continual technological development and advancement, and other legalities. Therefore, it is always advisable to hire qualified people who are certified and licensed and can guarantee timely delivery at cost-effective rates.
+                App development requires crucial planning, analysis, and proper
+                implementation. When we discuss the challenges app developers in
+                DC face, we mention fierce competition, continual technological
+                development and advancement, and other legalities. Therefore, it
+                is always advisable to hire qualified people who are certified
+                and licensed and can guarantee timely delivery at cost-effective
+                rates.
               </p>
             ),
           },
           {
-            question:
-              "How much does it cost to build a mobile app in DC?",
+            question: "How much does it cost to build a mobile app in DC?",
             answer: (
               <>
-                <p>When it comes to determining the mobile app development cost in DC, there is no precise cost anywhere. Based on the factors listed below, it normally lies between $5,000 and $50,000+.</p>
+                <p>
+                  When it comes to determining the mobile app development cost
+                  in DC, there is no precise cost anywhere. Based on the factors
+                  listed below, it normally lies between $5,000 and $50,000+.
+                </p>
                 <ul className="pt-2">
                   <li>
                     <p>App’s complexity</p>
@@ -474,7 +605,12 @@ export default function dubaidevelopmentcompany() {
                     <p>Support and maintenance services</p>
                   </li>
                 </ul>
-                <p>Besides, the factors mentioned above, the cost to build a mobile app in DC depends on the company’s technical abilities & skillset you recruit. At BitsWits, we provide you with world-class mobile app development services at affordable rates.
+                <p>
+                  Besides, the factors mentioned above, the cost to build a
+                  mobile app in DC depends on the company’s technical abilities
+                  & skillset you recruit. At BitsWits, we provide you with
+                  world-class mobile app development services at affordable
+                  rates.
                 </p>
               </>
             ),
@@ -484,78 +620,89 @@ export default function dubaidevelopmentcompany() {
               "Does BitsWits provide ongoing app maintenance and support services?",
             answer: (
               <p>
-                Yes, at BitsWits, we provide not only app creation and development services but also maintenance and support services for your app. Our app development company in DC helps clients with their queries. Afterward, they provide information and make changes in the app, if necessary, according to the feedback gathered as per the client's needs to ensure the app's optimal performance.
+                Yes, at BitsWits, we provide not only app creation and
+                development services but also maintenance and support services
+                for your app. Our app development company in DC helps clients
+                with their queries. Afterward, they provide information and make
+                changes in the app, if necessary, according to the feedback
+                gathered as per the client's needs to ensure the app's optimal
+                performance.
               </p>
             ),
           },
         ]}
       />
       <Latestblog blogBox={blogBox} />
-      <Globalmap
-        content={global}
-      />
+      <Globalmap content={global} />
 
-      <Script id="websiteSchema" type="application/ld+json">
-        {`
-          {
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org/",
             "@type": "WebSite",
-            "name": " App Development Company Washington DC| BitsWits ",
-            "url": " https://www.bitswits.co/app-development-company-washington-dc",
-            "potentialAction": {
+            name: "App Development Company Washington DC| BitsWits",
+            url: "https://www.bitswits.co/app-development-company-washington-dc",
+            potentialAction: {
               "@type": "SearchAction",
-              "target": "{search_term_string}",
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}
-      </Script>
-      <Script id="organizationSchema" type="application/ld+json">
-        {`
-          {
+              target: "{search_term_string}",
+              "query-input": "required name=search_term_string",
+            },
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": " App Development Company Washington DC| BitsWits ",
-            "alternateName": "BitsWits",
-            "url": " https://www.bitswits.co/app-development-company-washington-dc ",
-            "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
-            "contactPoint": {
+            name: "App Development Company Washington DC| BitsWits",
+            alternateName: "BitsWits",
+            url: "https://www.bitswits.co/app-development-company-washington-dc",
+            logo: "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+            contactPoint: {
               "@type": "ContactPoint",
-              "telephone": "+3022168231",
-              "contactType": "customer service",
-              "areaServed": "US",
-              "availableLanguage": "en"
+              telephone: "+3022168231",
+              contactType: "customer service",
+              areaServed: "US",
+              availableLanguage: "en",
             },
-            "sameAs": [
+            sameAs: [
               "https://www.facebook.com/officialBitsWits",
               "https://twitter.com/BitsWits_/",
               "https://www.instagram.com/officialBitsWits/",
               "https://www.youtube.com/@officialBitsWits",
-              "https://www.linkedin.com/company/officialBitsWits"
-            ]
-          }
-        `}
-      </Script>
-      <Script id="productSchema" type="application/ld+json">
-        {`
-          {
-            "@context": "https://schema.org/", 
-            "@type": "Product", 
-            "name": " App Development Company Washington DC| BitsWits ",
-            "image": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwashington.85ad1652.webp&w=1920&q=75 ",
-            "description": " Create custom mobile apps with the top mobile app development company in DC. BitsWits offers professional app development services that boost your business ",
-            "brand": {
+              "https://www.linkedin.com/company/officialBitsWits",
+            ],
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            name: "App Development Company Washington DC| BitsWits",
+            image:
+              "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwashington.85ad1652.webp&w=1920&q=75",
+            description:
+              "Create custom mobile apps with the top mobile app development company in DC. BitsWits offers professional app development services that boost your business",
+            brand: {
               "@type": "Brand",
-              "name": "BitsWits"
+              name: "BitsWits",
             },
-            "aggregateRating": {
+            aggregateRating: {
               "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "ratingCount": "974"
-            }
-          }
-        `}
-      </Script>
+              ratingValue: "4.9",
+              ratingCount: "974",
+            },
+          }),
+        }}
+      />
     </>
   );
-} 
+}

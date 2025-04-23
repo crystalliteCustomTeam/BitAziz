@@ -1,80 +1,80 @@
-"use client"
-import React, { useEffect, useState } from "react"
-import Script from "next/script"
+"use client";
+import React, { useEffect, useState } from "react";
+import Script from "next/script";
 // componets
-import Bannerdubai from "../../components/Bannerdubainew"
-import NewDubaiAwards from "@/src/components/NewDubaiAwards"
-import FutureReady from "@/src/components/FuturereadyDubai"
-import Whowearenew from "../../components/Whowearenew"
-import DubaiDelivered from "@/src/components/DubaiDelivered"
-import DubaiTimeline from "@/src/components/DubaiTimeline"
-import DubaiClients from "@/src/components/DubaiClients"
-import Delivered from "@/src/components/Delivered"
-import Industries from "@/src/components/Industries"
-import Houtondubai from "../../components/Houtondubai"
-import DubaiBrandTrust from "@/src/components/DubaiBrandTrust"
-import Expertappdubaiadvanced from "../../components/Expertappdubaiadvanced"
-import Justbuilditlpdubai from "../../components/Justbuilditlpdubai"
-import Brand from "../../components/Brand"
-import Faqdubai from "../../components/Faqdubai"
-import Latestblog from "../../components/Latestblog"
-import Globalmap from "../../components/Globalmap"
+import Bannerdubai from "../../components/Bannerdubainew";
+import NewDubaiAwards from "@/src/components/NewDubaiAwards";
+import FutureReady from "@/src/components/FuturereadyDubai";
+import Whowearenew from "../../components/Whowearenew";
+import DubaiDelivered from "@/src/components/DubaiDelivered";
+import DubaiTimeline from "@/src/components/DubaiTimeline";
+import DubaiClients from "@/src/components/DubaiClients";
+import Delivered from "@/src/components/Delivered";
+import Industries from "@/src/components/Industries";
+import Houtondubai from "../../components/Houtondubai";
+import DubaiBrandTrust from "@/src/components/DubaiBrandTrust";
+import Expertappdubaiadvanced from "../../components/Expertappdubaiadvanced";
+import Justbuilditlpdubai from "../../components/Justbuilditlpdubai";
+import Brand from "../../components/Brand";
+import Faqdubai from "../../components/Faqdubai";
+import Latestblog from "../../components/Latestblog";
+import Globalmap from "../../components/Globalmap";
 //Images
-import MapImage from "media/newdubai/torontoMap.png"
-import StoryLine2 from "/public/newDubaiPagev1/storyLine2.png"
-import StoryLine3 from "/public/newDubaiPagev1/storyLine3.png"
-import StoryLine4 from "/public/newDubaiPagev1/storyLine4.png"
-import StoryLine5 from "/public/newDubaiPagev1/storyLine5.png"
-import StoryLine6 from "/public/newDubaiPagev1/storyLine6.png"
-import banImg1 from "@/public/dubailp/services/1.png"
-import banImg2 from "@/public/dubailp/services/2.png"
-import banImg3 from "@/public/dubailp/services/3.png"
-import banImg4 from "@/public/dubailp/services/4.png"
-import banImg5 from "@/public/dubailp/services/5.png"
-import banImg6 from "@/public/dubailp/services/6.png"
-import blog1 from "/public/newdubai/blog1.png"
-import blog2 from "/public/newdubai/blog2.png"
-import blog3 from "/public/newdubai/blog3.png"
-import HeroBg from "/public/newhouston/toronto.webp"
-import Link from "next/link"
+import MapImage from "media/newdubai/torontoMap.png";
+import StoryLine2 from "/public/newDubaiPagev1/storyLine2.png";
+import StoryLine3 from "/public/newDubaiPagev1/storyLine3.png";
+import StoryLine4 from "/public/newDubaiPagev1/storyLine4.png";
+import StoryLine5 from "/public/newDubaiPagev1/storyLine5.png";
+import StoryLine6 from "/public/newDubaiPagev1/storyLine6.png";
+import banImg1 from "@/public/dubailp/services/1.png";
+import banImg2 from "@/public/dubailp/services/2.png";
+import banImg3 from "@/public/dubailp/services/3.png";
+import banImg4 from "@/public/dubailp/services/4.png";
+import banImg5 from "@/public/dubailp/services/5.png";
+import banImg6 from "@/public/dubailp/services/6.png";
+import blog1 from "/public/newdubai/blog1.png";
+import blog2 from "/public/newdubai/blog2.png";
+import blog3 from "/public/newdubai/blog3.png";
+import HeroBg from "/public/newhouston/toronto.webp";
+import Link from "next/link";
 
 export default function dubaidevelopmentcompany() {
-  const [shouldRender, setShouldRender] = useState(false)
-  const [isMouseMoved, setIsMouseMoved] = useState(false)
+  const [shouldRender, setShouldRender] = useState(false);
+  const [isMouseMoved, setIsMouseMoved] = useState(false);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
       const handleResize = () => {
         if (window.innerWidth >= 768) {
-          setShouldRender(true)
+          setShouldRender(true);
         } else {
-          setShouldRender(false)
+          setShouldRender(false);
         }
-      }
+      };
 
-      handleResize()
+      handleResize();
 
-      window.addEventListener("resize", handleResize)
+      window.addEventListener("resize", handleResize);
 
       return () => {
-        window.removeEventListener("resize", handleResize)
-      }
+        window.removeEventListener("resize", handleResize);
+      };
     }
-  }, [])
+  }, []);
 
   useEffect(() => {
     if (shouldRender) {
       const handleMouseMove = () => {
-        setIsMouseMoved(true)
-      }
+        setIsMouseMoved(true);
+      };
 
-      window.addEventListener("mousemove", handleMouseMove)
+      window.addEventListener("mousemove", handleMouseMove);
 
       return () => {
-        window.removeEventListener("mousemove", handleMouseMove)
-      }
+        window.removeEventListener("mousemove", handleMouseMove);
+      };
     }
-  }, [shouldRender])
+  }, [shouldRender]);
 
   // Banner Content
   const Banner = {
@@ -82,7 +82,7 @@ export default function dubaidevelopmentcompany() {
     desc: "BitsWits is regarded as the best Toronto app development company and for all the right reasons. Our innovative apps not only enhance user engagement but also drive sales and maximize return on investment for businesses in Toronto. We take great pride in aiding leading brands in Toronto to outperform their competitors and achieve remarkable success!",
     bg: HeroBg,
     alt: "Banner for Toronto based mobile app development company featuring contact information and tag line",
-  }
+  };
   // award Content
   const Award = {
     title: "Awards & Recognitions",
@@ -93,7 +93,7 @@ export default function dubaidevelopmentcompany() {
         garnered acknowledgment by different platforms.{" "}
       </>
     ),
-  }
+  };
   //=====StoryLine Fold=====//
   const accordionData = [
     {
@@ -131,7 +131,7 @@ export default function dubaidevelopmentcompany() {
       btn: "Let’s Build Your Blockchain App!",
       StoryLineImg: StoryLine6,
     },
-  ]
+  ];
   const storyLine = {
     subtitle: <>Top-Rated </>,
     title: <>Mobile App Development Company in Toronto </>,
@@ -139,7 +139,8 @@ export default function dubaidevelopmentcompany() {
     subPara: (
       <>
         Below are some of our leading{" "}
-        <Link rel="preload" 
+        <Link
+          rel="preload"
           href="/mobile-application-development-services"
           className="fw600 text-black"
         >
@@ -148,7 +149,7 @@ export default function dubaidevelopmentcompany() {
       </>
     ),
     accordionData: accordionData,
-  }
+  };
   // Who We Are Content
   const WhoWeAre = {
     title: "Our Award-Winning Portfolio",
@@ -182,7 +183,7 @@ export default function dubaidevelopmentcompany() {
     ),
     subDescThree:
       "Grease Monkey is a comprehensive automotive innovation system that provides everything ranging from car repairs to oil checkups. Serving as an independent app, Grease Monkey presents users with important factors to consider such as prices and locations, and also client ratings for your vehicles.",
-  }
+  };
   // delivered content
   const DeliveredContent = {
     title: (
@@ -190,7 +191,7 @@ export default function dubaidevelopmentcompany() {
     ),
     desc: "Ready to Take Your App Idea to Market Quickly?",
     btntext: "Book Your Free Discovery Call!",
-  }
+  };
   // timeline Content
   const timeline = {
     classSec: "toronto",
@@ -239,7 +240,7 @@ export default function dubaidevelopmentcompany() {
     heading5: "Deployment",
     para5:
       "In the deployment phase, our Google-certified app developers focus on launching the app successfully to the market. We run thorough compatibility tests on several different devices to guarantee a smooth and error-free user experience for all users. Additionally, we provide support during the initial rollout phase to address any issues and ensure a seamless transition for users. Furthermore, we offer comprehensive training sessions for client teams post-launch.",
-  }
+  };
   // ClientContent
   const ClientContent = {
     title: (
@@ -266,7 +267,7 @@ export default function dubaidevelopmentcompany() {
         </span>
       </>
     ),
-  }
+  };
   // Delivered
   const desc = [
     {
@@ -307,12 +308,12 @@ export default function dubaidevelopmentcompany() {
     {
       para: <>Check out our app development cost calculator to learn more. </>,
     },
-  ]
+  ];
   const delivered = {
     title: "How Much Does It Cost to Develop a Mobile App in Toronto?",
     desc: desc,
     cta: "Try Our Free App Cost Calculator!",
-  }
+  };
   // Houston Content
   const menus = [
     "How to Get Your App Listed on App Store and Play Store?",
@@ -321,7 +322,7 @@ export default function dubaidevelopmentcompany() {
     "Which Type of Apps Can Give Maximum ROI in Toronto?",
     "Which Technology is Best for Making Mobile Apps?",
     "How Much Time Does It Take to Develop a Mobile App in Toronto?",
-  ]
+  ];
   const sections = [
     {
       num: "01",
@@ -392,11 +393,11 @@ export default function dubaidevelopmentcompany() {
       </p>  
         `,
     },
-  ]
+  ];
   const HoustonContent = {
     menus: menus,
     sections: sections,
-  }
+  };
   // Blogs Content
   const blogBox = [
     {
@@ -417,7 +418,7 @@ export default function dubaidevelopmentcompany() {
       content:
         "There Are Around 2.69 Million Apps For Android Smartphones. Almost Everyone Understands Android Apps, And Many Are Ready To Launch Their Own. But...",
     },
-  ]
+  ];
   // Global Conten
   const global = {
     address: "512 Wellington St W, Toronto, ON M5V 1E3, Canada",
@@ -425,7 +426,7 @@ export default function dubaidevelopmentcompany() {
     href: "tel:+8335006007",
     image: MapImage,
     link: "https://maps.app.goo.gl/dhULjcCFCiZ9fNyQ7",
-  }
+  };
 
   return (
     <>
@@ -776,113 +777,124 @@ export default function dubaidevelopmentcompany() {
         </>
       )}
 
-      <Script strategy="lazyOnload" id="websiteSchema" type="application/ld+json">
-        {`
-          {
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org/",
             "@type": "WebSite",
-            "name": "Leading Mobile App Development Company in Toronto",
-            "url": "https://www.bitswits.co/app-development-company-toronto",
-            "potentialAction": {
+            name: "Leading Mobile App Development Company in Toronto",
+            url: "https://www.bitswits.co/app-development-company-toronto",
+            potentialAction: {
               "@type": "SearchAction",
-              "target": "{search_term_string}",
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}
-      </Script>
-      <Script strategy="lazyOnload" id="organizationSchema" type="application/ld+json">
-        {`
-          {
+              target: "{search_term_string}",
+              "query-input": "required name=search_term_string",
+            },
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "Leading Mobile App Development Company in Toronto",
-            "alternateName": "BitsWits",
-            "url": "https://www.bitswits.co/app-development-company-toronto",
-            "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
-            "contactPoint": {
+            name: "Leading Mobile App Development Company in Toronto",
+            alternateName: "BitsWits",
+            url: "https://www.bitswits.co/app-development-company-toronto",
+            logo: "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+            contactPoint: {
               "@type": "ContactPoint",
-              "telephone": "+18335006007",
-              "contactType": "customer service",
-              "areaServed": "CA",
-              "availableLanguage": "en"
+              telephone: "+18335006007",
+              contactType: "customer service",
+              areaServed: "CA",
+              availableLanguage: "en",
             },
-            "sameAs": [
+            sameAs: [
               "https://www.facebook.com/officialBitsWits",
               "https://twitter.com/BitsWits_/",
               "https://www.instagram.com/officialBitsWits/",
               "https://www.youtube.com/@officialBitsWits",
-              "https://www.linkedin.com/company/officialBitsWits"
-            ]
-          }
-        `}
-      </Script>
-      <Script strategy="lazyOnload" id="localBusinessSchema" type="application/ld+json">
-        {`
-          {
+              "https://www.linkedin.com/company/officialBitsWits",
+            ],
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Leading Mobile App Development Company in Toronto",
-            "image": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftoronto.568b0dc8.webp&w=1920&q=75",
+            name: "Leading Mobile App Development Company in Toronto",
+            image:
+              " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftoronto.568b0dc8.webp&w=1920&q=75",
             "@id": "",
-            "url": "https://www.bitswits.co/app-development-company-toronto",
-            "telephone": "+18335006007",
-            "address": {
+            url: "https://www.bitswits.co/app-development-company-toronto",
+            telephone: "+18335006007",
+            priceRange: "$10000",
+            address: {
               "@type": "PostalAddress",
-              "streetAddress": "512 Wellington St W,",
-              "addressLocality": "Toronto",
-              "addressRegion": "Ontario",
-              "postalCode": "M5V1E3",
-              "addressCountry": "Canada"
+              streetAddress: "512 Wellington St W,",
+              addressLocality: "Toronto",
+              addressRegion: "Ontario",
+              postalCode: "M5V1E3",
+              addressCountry: "Canada",
             },
-            "geo": {
+            geo: {
               "@type": "GeoCoordinates",
-              "latitude":43.643198,
-              "longitude": -79.399139
+              latitude: 43.643198,
+              longitude: -79.399139,
             },
-            "openingHoursSpecification": {
+            openingHoursSpecification: {
               "@type": "OpeningHoursSpecification",
-              "dayOfWeek": [
+              dayOfWeek: [
                 "Monday",
                 "Tuesday",
                 "Wednesday",
                 "Thursday",
                 "Friday",
-                "Saturday"
+                "Saturday",
               ],
-              "opens": "00:00",
-              "closes": "23:59"
+              opens: "00:00",
+              closes: "23:59",
             },
-            "sameAs": [
+            sameAs: [
               "https://www.facebook.com/officialBitsWits",
               "https://twitter.com/BitsWits_/",
               "https://www.instagram.com/officialBitsWits/",
               "https://www.youtube.com/@officialBitsWits",
-              "https://www.linkedin.com/company/officialBitsWits"
-            ] 
-          }
-        `}
-      </Script>
-      <Script strategy="lazyOnload" id="productSchema" type="application/ld+json">
-        {`
-          {
-            "@context": "https://schema.org/", 
-            "@type": "Product", 
-            "name": "Leading Mobile App Development Company in Toronto",
-            "image": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftoronto.568b0dc8.webp&w=1920&q=75",
-            "description": "BitsWits is a top-grade mobile app development company in Toronto that specializes in creating UX-driven mobile apps for startups and Fortune 500 companies.",
-            "brand": {
+              "https://www.linkedin.com/company/officialBitsWits",
+            ],
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            name: "Leading Mobile App Development Company in Toronto",
+            image:
+              " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftoronto.568b0dc8.webp&w=1920&q=75",
+            description:
+              "BitsWits is a top-grade mobile app development company in Toronto that specializes in creating UX-driven mobile apps for startups and Fortune 500 companies.",
+            brand: {
               "@type": "Brand",
-              "name": "BitsWits"
+              name: "BitsWits",
             },
-            "aggregateRating": {
+            aggregateRating: {
               "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "ratingCount": "974"
-            }
-          }
-        `}
-      </Script>
+              ratingValue: "4.9",
+              ratingCount: "974",
+            },
+          }),
+        }}
+      />
     </>
-  )
+  );
 }
