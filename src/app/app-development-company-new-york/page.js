@@ -1,80 +1,80 @@
-"use client"
-import React, { useEffect, useState } from "react"
-import Script from "next/script"
+"use client";
+import React, { useEffect, useState } from "react";
+import Script from "next/script";
 // componets
-import Bannerdubai from "@/src/components/Bannerdubainew"
-import NewDubaiAwards from "@/src/components/NewDubaiAwards"
-import FutureReady from "@/src/components/FuturereadyDubai"
-import Whowearenew from "@/src/components/Whowearenew"
-import DubaiDelivered from "@/src/components/DubaiDelivered"
-import DubaiTimeline from "@/src/components/DubaiTimeline"
-import DubaiClients from "@/src/components/DubaiClients"
-import Delivered from "@/src/components/Delivered"
-import Industries from "@/src/components/Industries"
-import Houtondubai from "@/src/components/Houtondubai"
-import DubaiBrandTrust from "@/src/components/DubaiBrandTrust"
-import Expertappdubaiadvanced from "@/src/components/Expertappdubaiadvanced"
-import Justbuilditlpdubai from "@/src/components/Justbuilditlpdubai"
-import Brand from "@/src/components/Brand"
-import Faqdubai from "@/src/components/Faqdubai"
-import Latestblog from "@/src/components/Latestblog"
-import Globalmap from "@/src/components/Globalmap"
+import Bannerdubai from "@/src/components/Bannerdubainew";
+import NewDubaiAwards from "@/src/components/NewDubaiAwards";
+import FutureReady from "@/src/components/FuturereadyDubai";
+import Whowearenew from "@/src/components/Whowearenew";
+import DubaiDelivered from "@/src/components/DubaiDelivered";
+import DubaiTimeline from "@/src/components/DubaiTimeline";
+import DubaiClients from "@/src/components/DubaiClients";
+import Delivered from "@/src/components/Delivered";
+import Industries from "@/src/components/Industries";
+import Houtondubai from "@/src/components/Houtondubai";
+import DubaiBrandTrust from "@/src/components/DubaiBrandTrust";
+import Expertappdubaiadvanced from "@/src/components/Expertappdubaiadvanced";
+import Justbuilditlpdubai from "@/src/components/Justbuilditlpdubai";
+import Brand from "@/src/components/Brand";
+import Faqdubai from "@/src/components/Faqdubai";
+import Latestblog from "@/src/components/Latestblog";
+import Globalmap from "@/src/components/Globalmap";
 //Images
-import StoryLine2 from "/public/newDubaiPagev1/storyLine2.png"
-import StoryLine3 from "/public/newDubaiPagev1/storyLine3.png"
-import StoryLine4 from "/public/newDubaiPagev1/storyLine4.png"
-import StoryLine5 from "/public/newDubaiPagev1/storyLine5.png"
-import StoryLine6 from "/public/newDubaiPagev1/storyLine6.png"
-import banImg1 from "@/public/dubailp/services/1.png"
-import banImg2 from "@/public/dubailp/services/2.png"
-import banImg3 from "@/public/dubailp/services/3.png"
-import banImg4 from "@/public/dubailp/services/4.png"
-import banImg5 from "@/public/dubailp/services/5.png"
-import banImg6 from "@/public/dubailp/services/6.png"
-import blog1 from "/public/newdubai/blog1.png"
-import blog2 from "/public/newdubai/blog2.png"
-import blog3 from "/public/newdubai/blog3.png"
-import HeroBg from "/public/newhouston/newyork.webp"
-import MapImage from "media/newdubai/newYorkMap.png"
-import Link from "next/link"
+import StoryLine2 from "/public/newDubaiPagev1/storyLine2.png";
+import StoryLine3 from "/public/newDubaiPagev1/storyLine3.png";
+import StoryLine4 from "/public/newDubaiPagev1/storyLine4.png";
+import StoryLine5 from "/public/newDubaiPagev1/storyLine5.png";
+import StoryLine6 from "/public/newDubaiPagev1/storyLine6.png";
+import banImg1 from "@/public/dubailp/services/1.png";
+import banImg2 from "@/public/dubailp/services/2.png";
+import banImg3 from "@/public/dubailp/services/3.png";
+import banImg4 from "@/public/dubailp/services/4.png";
+import banImg5 from "@/public/dubailp/services/5.png";
+import banImg6 from "@/public/dubailp/services/6.png";
+import blog1 from "/public/newdubai/blog1.png";
+import blog2 from "/public/newdubai/blog2.png";
+import blog3 from "/public/newdubai/blog3.png";
+import HeroBg from "/public/newhouston/newyork.webp";
+import MapImage from "media/newdubai/newYorkMap.png";
+import Link from "next/link";
 
 export default function dubaidevelopmentcompany() {
-  const [shouldRender, setShouldRender] = useState(false)
-  const [isMouseMoved, setIsMouseMoved] = useState(false)
+  const [shouldRender, setShouldRender] = useState(false);
+  const [isMouseMoved, setIsMouseMoved] = useState(false);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
       const handleResize = () => {
         if (window.innerWidth >= 768) {
-          setShouldRender(true)
+          setShouldRender(true);
         } else {
-          setShouldRender(false)
+          setShouldRender(false);
         }
-      }
+      };
 
-      handleResize()
+      handleResize();
 
-      window.addEventListener("resize", handleResize)
+      window.addEventListener("resize", handleResize);
 
       return () => {
-        window.removeEventListener("resize", handleResize)
-      }
+        window.removeEventListener("resize", handleResize);
+      };
     }
-  }, [])
+  }, []);
 
   useEffect(() => {
     if (shouldRender) {
       const handleMouseMove = () => {
-        setIsMouseMoved(true)
-      }
+        setIsMouseMoved(true);
+      };
 
-      window.addEventListener("mousemove", handleMouseMove)
+      window.addEventListener("mousemove", handleMouseMove);
 
       return () => {
-        window.removeEventListener("mousemove", handleMouseMove)
-      }
+        window.removeEventListener("mousemove", handleMouseMove);
+      };
     }
-  }, [shouldRender])
+  }, [shouldRender]);
 
   // Banner Content
   const Banner = {
@@ -82,7 +82,7 @@ export default function dubaidevelopmentcompany() {
     desc: "BitsWits is an industry-leading mobile app development company in New York that helps startups and SMBs create apps that fuel business growth. With a team of top-tier app developers in NYC, we build tailored iOS and Android apps designed to meet specific needs. Recognized for delivering cutting-edge solutions, we make sure your app stands out in the competitive market.",
     bg: HeroBg,
     alt: "Banner for New York based mobile app development company featuring contact information and tag line",
-  }
+  };
   // award Content
   const Award = {
     title: "Awards & Recognitions",
@@ -93,7 +93,7 @@ export default function dubaidevelopmentcompany() {
         throughout the globe.{" "}
       </>
     ),
-  }
+  };
   //=====StoryLine Fold=====//
   const accordionData = [
     {
@@ -131,7 +131,7 @@ export default function dubaidevelopmentcompany() {
       btn: "Let’s Build My Game App!",
       StoryLineImg: StoryLine6,
     },
-  ]
+  ];
   const storyLine = {
     subtitle: <>Top-Rated</>,
     title: <> Mobile App Development Company in New York </>,
@@ -150,7 +150,7 @@ export default function dubaidevelopmentcompany() {
       </>
     ),
     accordionData: accordionData,
-  }
+  };
   // Who We Are Content
   const WhoWeAre = {
     title: "A Portfolio that Shouts Success!",
@@ -185,7 +185,7 @@ export default function dubaidevelopmentcompany() {
     ),
     subDescThree:
       "Grease Monkey is a comprehensive automotive innovation system that provides everything ranging from car repairs to oil checkups. Serving as an independent app, Grease Monkey presents users with important factors to consider such as prices and locations, and also client ratings for your vehicles.",
-  }
+  };
   // delivered content
   const DeliveredContent = {
     title: (
@@ -193,7 +193,7 @@ export default function dubaidevelopmentcompany() {
     ),
     desc: "Wanna Take Your App Idea to Market Fast?",
     btntext: "Book Your Free Discovery Call!",
-  }
+  };
   // timeline Content
   const timeline = {
     classSec: "newyork",
@@ -243,7 +243,7 @@ export default function dubaidevelopmentcompany() {
     heading5: "Testing & Deployment",
     para5:
       "Before your app goes live, we put it through rigorous testing across various devices and platforms. If we find any issues or bugs, we squash them, no questions asked. Once your app is bulletproof, we handle the deployment process and get it on both the App Store and the Play Store, so you can hit the ground running.",
-  }
+  };
   // ClientContent
   const ClientContent = {
     title: (
@@ -265,7 +265,7 @@ export default function dubaidevelopmentcompany() {
         platforms like Clutch and Trustpilot. Book your free discovery call now!
       </>
     ),
-  }
+  };
   // Delivered
   const desc = [
     {
@@ -296,12 +296,12 @@ export default function dubaidevelopmentcompany() {
         </>
       ),
     },
-  ]
+  ];
   const delivered = {
     title: "How Much Does it Cost to Make an App in New York?",
     desc: desc,
     cta: "Try the Free App Cost Calculator!",
-  }
+  };
   // Houston Content
   const menus = [
     "What is the Best Technology Stack for Mobile App Development?",
@@ -311,7 +311,7 @@ export default function dubaidevelopmentcompany() {
     "What does app development cost breakdown look like?",
     "How to Get the First 1000 Downloads for Your App?",
     "How to Build a Bulletproof App Startup?",
-  ]
+  ];
   const sections = [
     {
       num: "01",
@@ -594,11 +594,11 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>Invest in targeted app marketing strategies to increase visibility and drive downloads. Utilize a combination of organic and paid marketing channels, including social media, content marketing, app store optimization (ASO), and targeted advertising.</p>
       `,
     },
-  ]
+  ];
   const HoustonContent = {
     menus: menus,
     sections: sections,
-  }
+  };
   // Blogs Content
   const blogBox = [
     {
@@ -619,7 +619,7 @@ export default function dubaidevelopmentcompany() {
       content:
         "There Are Around 2.69 Million Apps For Android Smartphones. Almost Everyone Understands Android Apps, And Many Are Ready To Launch Their Own. But...",
     },
-  ]
+  ];
   // Global Content
   const global = {
     address: "26 Broadway Suite 934, New York, NY 10004",
@@ -627,7 +627,7 @@ export default function dubaidevelopmentcompany() {
     href: "tel:+3022168231",
     image: MapImage,
     link: "https://maps.app.goo.gl/1Q2vCzWWkYDE4Ctq6",
-  }
+  };
   return (
     <>
       <Bannerdubai content={Banner} />
@@ -1126,99 +1126,108 @@ export default function dubaidevelopmentcompany() {
           <Latestblog blogBox={blogBox} />
         </>
       )}
-
-      <Script strategy="lazyOnload" id="websiteSchema" type="application/ld+json">
-        {`
-          {
-            "@context": "https://schema.org/",
+     <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "Website",
-            "name": " Mobile App Development Company in New York - BitsWits ",
-            "url": " https://www.bitswits.co/app-development-company-new-york",
-            "potentialAction": {
+            name: "Mobile App Development Company in New York - BitsWits",
+            url: "https://www.bitswits.co/app-development-company-new-york",
+            potentialAction: {
               "@type": "SearchAction",
-              "target": "{search_term_string}",
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}
-      </Script>
-      <Script strategy="lazyOnload" id="corporationSchema" type="application/ld+json">
-        {`
-          {
+              target: "{search_term_string}",
+              "query-input": "required name=search_term_string",
+            },
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Corporation",
-            "name": " Mobile App Development Company in New York - BitsWits ",
-            "url": " https://www.bitswits.co/app-development-company-new-york",
-            "logo": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1920&q=75"
-          }
-        `}
-      </Script>
-      <Script strategy="lazyOnload" id="localBusinessSchema" type="application/ld+json">
-        {`
-          {
+            name: "Mobile App Development Company in New York - BitsWits",
+            url: "https://www.bitswits.co/app-development-company-new-york",
+            logo: "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1920&q=75",
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": " https://www.bitswits.co/app-development-company-new-york",
-            "image": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnewyork.4988cafe.webp&w=1920&q=75 ",
+            name: "BitsWits",
+            image:
+              "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnewyork.4988cafe.webp&w=1920&q=75",
             "@id": "",
-            "url": " https://www.bitswits.co/app-development-company-new-york",
-            "telephone": "+18335006007",
-            "address": {
+            url: "https://www.bitswits.co/app-development-company-new-york",
+            telephone: "+18335006007",
+            address: {
               "@type": "PostalAddress",
-              "streetAddress": " 26 Broadway Suite 934 ",
-              "addressLocality": " New York ",
-              "addressRegion": "NY",
-              "postalCode": " 10004 ",
-              "addressCountry": "US"
+              streetAddress: "26 Broadway Suite 934",
+              addressLocality: "New York",
+              addressRegion: "NY",
+              postalCode: "10004",
+              addressCountry: "US",
             },
-            "geo": {
+            geo: {
               "@type": "GeoCoordinates",
-              "latitude": 40.7054441,
-              "longitude": -74.01309
+              latitude: 40.7054441,
+              longitude: -74.01309,
             },
-            "openingHoursSpecification": {
+            openingHoursSpecification: {
               "@type": "OpeningHoursSpecification",
-              "dayOfWeek": [
+              dayOfWeek: [
                 "Monday",
                 "Tuesday",
                 "Wednesday",
                 "Thursday",
                 "Friday",
-                "Saturday"	
+                "Saturday",
               ],
-              "opens": "00:00",
-              "closes": "23:59"
+              opens: "00:00",
+              closes: "23:59",
             },
-            "sameAs": [
+            sameAs: [
               "https://www.facebook.com/officialBitsWits",
               "https://twitter.com/BitsWits_/",
               "https://www.instagram.com/officialBitsWits/",
               "https://www.youtube.com/@officialBitsWits",
-              "https://www.linkedin.com/company/officialBitsWits"
-            ] 
-          }
-        `}
-      </Script>
-      <Script strategy="lazyOnload" id="productSchema" type="application/ld+json">
-        {`
-          {
-            "@context": "https://schema.org/", 
-            "@type": "Product", 
-            "name": " Mobile App Development Company in New York - BitsWits ",
-            "image": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnewyork.4988cafe.webp&w=1920&q=75",
-            "description": " BitsWits is a top-tier app development company in NYC helping startups and entrepreneurs across 10+ industries build scalable, and feature-rich mobile apps.",
-            "brand": {
+              "https://www.linkedin.com/company/officialBitsWits",
+            ],
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            name: "Mobile App Development Company in New York - BitsWits",
+            image:
+              "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnewyork.4988cafe.webp&w=1920&q=75",
+            description:
+              "BitsWits is a top-tier app development company in NYC helping startups and entrepreneurs across 10+ industries build scalable, and feature-rich mobile apps.",
+            brand: {
               "@type": "Brand",
-              "name": "BitsWits"
+              name: "BitsWits",
             },
-            "aggregateRating": {
+            aggregateRating: {
               "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "ratingCount": "974"
-            }
-          }
-        `}
-      </Script>
+              ratingValue: "4.9",
+              ratingCount: "974",
+            },
+          }),
+        }}
+      />
     </>
-  )
+  );
 }
