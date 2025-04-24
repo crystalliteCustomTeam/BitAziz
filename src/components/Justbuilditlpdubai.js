@@ -42,7 +42,6 @@ const Justbuilditlpdubai = (props) => {
 
   useEffect(() => {
     window.replaceChat = function () {
-     console.log("Chat triggered!");
       if (window.Tawk_API && window.Tawk_API.maximize) {
         window.Tawk_API.maximize();
       }
