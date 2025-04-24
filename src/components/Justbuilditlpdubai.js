@@ -74,7 +74,7 @@ const Justbuilditlpdubai = (props) => {
                   }}
                   className={`pink ${styles.about}`}
                 >
-                  Live Chat123
+                  Live Chat
                 </Link>
               </div>
             </Col>
