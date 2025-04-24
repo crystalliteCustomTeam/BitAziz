@@ -291,8 +291,8 @@ export default function dubaidevelopmentcompany() {
   // Global Conten
   const global = {
     address: "1035 Cherokee St, Denver, CO 80204, United States",
-    number: "(302) 216-8231",
-    href: "tel:+3022168231",
+    number: "(833) 500 6007",
+    href: "tel:+8335006007",
     image: MapImage,
     link: "https://maps.app.goo.gl/1vs3Y5N9dVNXfbVS6",
   };

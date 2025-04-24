@@ -39,7 +39,6 @@ const Justbuilditlpdubai = (props) => {
   function closemodal() {
     setShow(false);
   }
-
   useEffect(() => {
     window.replaceChat = function () {
       if (window.Tawk_API && window.Tawk_API.maximize) {
@@ -70,7 +69,7 @@ const Justbuilditlpdubai = (props) => {
                   href="#"
                   onClick={(e) => {
                     e.preventDefault();
-                    window.replaceChat(); 
+                    window.replaceChat();
                   }}
                   className={`pink ${styles.about}`}
                 >

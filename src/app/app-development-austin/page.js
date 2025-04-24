@@ -397,8 +397,8 @@ export default function dubaidevelopmentcompany() {
   // Global Conten
   const global = {
     address: "",
-    number: "(302) 216-8231",
-    href: "tel:+3022168231",
+    number: "(833) 500 6007",
+    href: "tel:+8335006007",
     image: MapImage,
     link: "",
   };

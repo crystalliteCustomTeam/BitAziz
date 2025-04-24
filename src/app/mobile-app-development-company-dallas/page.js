@@ -390,8 +390,8 @@ export default function dubaidevelopmentcompany() {
   // Global Conten
   const global = {
     address: "1341 W Mockingbird Ln, Dallas, TX 75247",
-    number: "(302) 216-8231",
-    href: "tel:+3022168231",
+    number: "(833) 500 6007",
+    href: "tel:+8335006007",
     image: MapImage,
     link: "https://maps.app.goo.gl/Koam3m3q4DXPCDg49",
   };

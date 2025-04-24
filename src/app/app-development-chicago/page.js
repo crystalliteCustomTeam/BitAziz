@@ -364,8 +364,8 @@ export default function dubaidevelopmentcompany() {
   // Global Conten
   const global = {
     address: "141 W Jackson Blvd STE 300 A, Chicago, IL 60604",
-    number: "(302) 216-8231",
-    href: "tel:+3022168231",
+    number: "(833) 500 6007",
+    href: "tel:+8335006007",
     image: MapImage,
     link: "https://maps.app.goo.gl/feu6gtSx2PXwBqdB8",
   };
