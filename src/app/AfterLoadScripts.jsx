@@ -30,7 +30,7 @@ export default function AfterLoadScripts() {
         setTimeout(() => {
           console.log("5 seconds passed, rendering scripts...")
           setIsReady(true)
-        }, 5000)
+        }, 1000)
       }
     }
 
@@ -47,7 +47,7 @@ export default function AfterLoadScripts() {
   if (!isReady) return null
   return (
     <> 
-    
+
       <GoogleTagManager gtmId="GTM-TFH5JWNF" />
       <GoogleAnalytics gaId="AW-11114809734" />
       <GoogleAnalytics gaId="G-T8JYHWL639" />
