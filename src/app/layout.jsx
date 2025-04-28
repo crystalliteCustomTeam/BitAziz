@@ -1,20 +1,19 @@
-import dynamic from "next/dynamic";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import ConditionalLayout from "@/src/app/ConditionalLayout"
-// const Scripts = dynamic(() => import("@/src/app/Scripts"))
 import ConditionalHeader from "./ConditionalHeader";
 import ConditionalFooter from "./ConditionalFooter";
 import AfterLoadScripts from "./AfterLoadScripts";
-import Script from "next/script";
+import { GoogleTagManager } from "@next/third-parties/google";
 
-//===== Meta Data =====
+// ===== Meta Data =====
 export const metadata = {
   metadataBase: new URL("https://www.bitswits.co/"),
-  //===== Meta Tags =====
+  // ===== Meta Tags =====
   title: "Expert Mobile App Development Company | BitsWits",
   description:
     "BitsWits empowers SMBs and entrepreneurs with mobile app development, delivering solutions across 10+ industries to drive business success and growth.",
-  //===== OG Tags =====
+
+  // ===== OG Tags =====
   openGraph: {
     title: "Expert Mobile App Development Company | BitsWits",
     description:
@@ -25,11 +24,11 @@ export const metadata = {
     type: "website",
     images: "/public/images/icons/footerlogo.png",
   },
-  //===== Canonical =====
-  alternates: { canonical: "/" },
-  //===== GEO Tags =====
 
-  //===== Google Varification =====
+  // ===== Canonical =====
+  alternates: { canonical: "/" },
+
+  // ===== Google Verification =====
   verification: {
     other: {
       "google-site-verification": [
@@ -39,7 +38,8 @@ export const metadata = {
       "msvalidate.01": ["A21040CE08685574268E4A1F724E0FFD"],
     },
   },
-  //===== No-Index =====
+
+  // ===== Robots (SEO) Tags =====
   robots: {
     index: true,
     follow: true,
@@ -53,6 +53,7 @@ export const metadata = {
     },
   },
 };
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -63,37 +64,16 @@ export default function RootLayout({ children }) {
           sizes="48x48"
           type="image/x-icon"
         />
-
-        {/* GTM Script in Head */}
-        <Script
-          id="gtm-script"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','GTM-TFH5JWNF');
-            `,
-          }}
-        />
       </head>
 
       <body>
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-TFH5JWNF"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          ></iframe>
-        </noscript>
-
         <ConditionalHeader />
         {children}
         <ConditionalFooter />
         <AfterLoadScripts />
+
+        {/* Google Tag Manager */}
+        <GoogleTagManager gtmId="GTM-TFH5JWNF" />
       </body>
     </html>
   );
