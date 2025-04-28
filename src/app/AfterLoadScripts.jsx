@@ -46,7 +46,8 @@ export default function AfterLoadScripts() {
 
   if (!isReady) return null
   return (
-    <>
+    <> 
+    
       <GoogleTagManager gtmId="GTM-TFH5JWNF" />
       <GoogleAnalytics gaId="AW-11114809734" />
       <GoogleAnalytics gaId="G-T8JYHWL639" />
