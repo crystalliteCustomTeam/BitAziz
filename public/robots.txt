@@ -1,14 +1,6 @@
 User-agent: *
-Disallow: 
-Disallow: /_next/
-Disallow: /*.webp$
-Disallow: /*.js$
-Disallow: /*.css$
-Disallow: /*.ico$
-Disallow: /*.png$
-Disallow: /*.jpeg$
-Disallow: /*.jpg$
-Disallow: /*.woff2$
+Allow: /
+
 
 
 Sitemap: https://www.bitswits.co/sitemap.xml
