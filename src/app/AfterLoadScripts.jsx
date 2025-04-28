@@ -25,30 +25,25 @@ export default function AfterLoadScripts() {
 
   useEffect(() => {
     const handleLoad = () => {
-      console.log("Page loaded, waiting for 5 seconds...")
       if (document.readyState === "complete") {
         setTimeout(() => {
-          console.log("5 seconds passed, rendering scripts...")
           setIsReady(true)
-        }, 1000)
+        }, 5000)
       }
     }
 
     window.addEventListener("load", handleLoad)
-
     if (document.readyState === "complete") {
       handleLoad()
     }
-    return () => {
-      window.removeEventListener("load", handleLoad)
-    }
+    return () => window.removeEventListener("load", handleLoad)
   }, [])
 
   if (!isReady) return null
-  return (
-    <> 
 
-      <GoogleTagManager gtmId="GTM-TFH5JWNF" />
+  return (
+    <>
+      {/* Safe to delay after 5s */}
       <GoogleAnalytics gaId="AW-11114809734" />
       <GoogleAnalytics gaId="G-T8JYHWL639" />
       <Script
