@@ -1,12 +1,11 @@
-import dynamic from "next/dynamic"
-import "bootstrap/dist/css/bootstrap.min.css"
+import dynamic from "next/dynamic";
+import "bootstrap/dist/css/bootstrap.min.css";
 // import ConditionalLayout from "@/src/app/ConditionalLayout"
 // const Scripts = dynamic(() => import("@/src/app/Scripts"))
-import ConditionalHeader from "./ConditionalHeader"
-import ConditionalFooter from "./ConditionalFooter"
-import AfterLoadScripts from "./AfterLoadScripts"
-import Script from "next/script"
-
+import ConditionalHeader from "./ConditionalHeader";
+import ConditionalFooter from "./ConditionalFooter";
+import AfterLoadScripts from "./AfterLoadScripts";
+import Script from "next/script";
 
 //===== Meta Data =====
 export const metadata = {
@@ -53,23 +52,28 @@ export const metadata = {
       "max-image-preview": "large",
     },
   },
-}
+};
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-       <link rel="icon" href="/favicon.ico" sizes="48x48" type="image/x-icon" />
+        <link
+          rel="icon"
+          href="/favicon.ico"
+          sizes="48x48"
+          type="image/x-icon"
+        />
 
-       <Script
+        <Script
           id="gtm-script"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
               (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','GTM-TFH5JWNF');
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TFH5JWNF');
             `,
           }}
         />
@@ -81,7 +85,7 @@ export default function RootLayout({ children }) {
             src="https://www.googletagmanager.com/ns.html?id=GTM-TFH5JWNF"
             height="0"
             width="0"
-            style={{ display: 'none', visibility: 'hidden' }}
+            style="display:none;visibility:hidden"
           ></iframe>
         </noscript>
 
@@ -91,5 +95,5 @@ export default function RootLayout({ children }) {
         <AfterLoadScripts />
       </body>
     </html>
-  )
+  );
 }
