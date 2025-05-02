@@ -83,86 +83,86 @@ const LocationList = [
         img: Karachi.src,
         pin: "https://maps.app.goo.gl/NzJaVuqgdpLYyaT28"
     },
-    // {
-    //     state: "Los Angeles",
-    //     add: "1425 Flower St, Los Angeles, CA 90015, United States",
-    //     phone: "+1 833 500 6007",
-    //     email: "info@bitswits.co",
-    //     img: LosAngeles.src,
-    //     pin: "https://maps.app.goo.gl/ot7knKM1rXFFjpKMA"
-    // },
-    // {
-    //     state: "Miami",
-    //     add: "601 Brickell Key Dr #700, Miami, FL 33131, United States",
-    //     phone: "+1 833 500 6007",
-    //     email: "info@bitswits.co",
-    //     img: Miami.src,
-    //     pin: "https://maps.app.goo.gl/sZDSxoSewEBHY1z27"
-    // },
-    // {
-    //     state: "New York",
-    //     add: "26 Broadway Suite 934, New York, NY 10004, United States",
-    //     phone: "+1 833 500 6007",
-    //     email: "info@bitswits.co",
-    //     img: NewYork.src,
-    //     pin: "https://maps.app.goo.gl/CPdXRcRzGxGRAuNU8"
-    // },
-    // {
-    //     state: "San Francisco",
-    //     add: "488 Folsom St, San Francisco, CA 94105, United States",
-    //     phone: "+1 833 500 6007",
-    //     email: "info@bitswits.co",
-    //     img: SanFrancisco.src,
-    //     pin: "https://maps.app.goo.gl/SzwvHzAKoLgiwWPm7"
-    // },
-    // {
-    //     state: "Toronto",
-    //     add: "512 Wellington St W, Toronto, ON M5V 1E3, Canada",
-    //     phone: "+1 833 500 6007",
-    //     email: "info@bitswits.co",
-    //     img: Toronto.src,
-    //     pin: "https://maps.app.goo.gl/dhULjcCFCiZ9fNyQ7"
-    // },
-    // {
-    //     state: "Dallas",
-    //     add: "1341 W Mockingbird Ln, Dallas, TX 75247, United States",
-    //     phone: "+1 833 500 6007",
-    //     email: "info@bitswits.co",
-    //     img: Dallas.src,
-    //     pin: "https://maps.app.goo.gl/i76RsaokYHwn47vU9"
-    // },
-    // {
-    //     state: "Qatar",
-    //     add: "51 Al Miqdad St, Doha, Qatar",
-    //     phone: "+971 55 503 1266",
-    //     email: "info@bitswits.co",
-    //     img: Qatar.src,
-    //     pin: "https://maps.app.goo.gl/qimC1ofuhhu3z512A"
-    // },
-    // {
-    //     state: "Bahrain",
-    //     add: "2139 Hoora Ave, Manama 973, Bahrain",
-    //     phone: "+971 55 503 1266",
-    //     email: "info@bitswits.co",
-    //     img: Bahrain.src,
-    //     pin: "https://maps.app.goo.gl/N52TCmfz7GQbH35m8"
-    // },
-    // {
-    //     state: "Pierre",
-    //     add: "124 W Dakota Ave, Pierre, SD 57501, United States",
-    //     phone: "+1 833 500 6007",
-    //     email: "info@bitswits.co",
-    //     img: Pierre.src,
-    //     pin: "https://maps.app.goo.gl/YEEuBJKd9GvXuMk18"
-    // },
-    // {
-    //     state: "Sharjah",
-    //     add: "office #101 32 St Al Majarra Mughaidir Suburb Sharjah UAE",
-    //     phone: "+971 55 503 1266",
-    //     email: "info@bitswits.co",
-    //     img: Sharjah.src,
-    //     pin: "https://maps.app.goo.gl/nbce4oEJoivkzVnt5"
-    // },
+    {
+        state: "Los Angeles",
+        add: "1425 Flower St, Los Angeles, CA 90015, United States",
+        phone: "+1 833 500 6007",
+        email: "info@bitswits.co",
+        img: LosAngeles.src,
+        pin: "https://maps.app.goo.gl/ot7knKM1rXFFjpKMA"
+    },
+    {
+        state: "Miami",
+        add: "601 Brickell Key Dr #700, Miami, FL 33131, United States",
+        phone: "+1 833 500 6007",
+        email: "info@bitswits.co",
+        img: Miami.src,
+        pin: "https://maps.app.goo.gl/sZDSxoSewEBHY1z27"
+    },
+    {
+        state: "New York",
+        add: "26 Broadway Suite 934, New York, NY 10004, United States",
+        phone: "+1 833 500 6007",
+        email: "info@bitswits.co",
+        img: NewYork.src,
+        pin: "https://maps.app.goo.gl/CPdXRcRzGxGRAuNU8"
+    },
+    {
+        state: "San Francisco",
+        add: "488 Folsom St, San Francisco, CA 94105, United States",
+        phone: "+1 833 500 6007",
+        email: "info@bitswits.co",
+        img: SanFrancisco.src,
+        pin: "https://maps.app.goo.gl/SzwvHzAKoLgiwWPm7"
+    },
+    {
+        state: "Toronto",
+        add: "512 Wellington St W, Toronto, ON M5V 1E3, Canada",
+        phone: "+1 833 500 6007",
+        email: "info@bitswits.co",
+        img: Toronto.src,
+        pin: "https://maps.app.goo.gl/dhULjcCFCiZ9fNyQ7"
+    },
+    {
+        state: "Dallas",
+        add: "1341 W Mockingbird Ln, Dallas, TX 75247, United States",
+        phone: "+1 833 500 6007",
+        email: "info@bitswits.co",
+        img: Dallas.src,
+        pin: "https://maps.app.goo.gl/i76RsaokYHwn47vU9"
+    },
+    {
+        state: "Qatar",
+        add: "51 Al Miqdad St, Doha, Qatar",
+        phone: "+971 55 503 1266",
+        email: "info@bitswits.co",
+        img: Qatar.src,
+        pin: "https://maps.app.goo.gl/qimC1ofuhhu3z512A"
+    },
+    {
+        state: "Bahrain",
+        add: "2139 Hoora Ave, Manama 973, Bahrain",
+        phone: "+971 55 503 1266",
+        email: "info@bitswits.co",
+        img: Bahrain.src,
+        pin: "https://maps.app.goo.gl/N52TCmfz7GQbH35m8"
+    },
+    {
+        state: "Pierre",
+        add: "124 W Dakota Ave, Pierre, SD 57501, United States",
+        phone: "+1 833 500 6007",
+        email: "info@bitswits.co",
+        img: Pierre.src,
+        pin: "https://maps.app.goo.gl/YEEuBJKd9GvXuMk18"
+    },
+    {
+        state: "Sharjah",
+        add: "office #101 32 St Al Majarra Mughaidir Suburb Sharjah UAE",
+        phone: "+971 55 503 1266",
+        email: "info@bitswits.co",
+        img: Sharjah.src,
+        pin: "https://maps.app.goo.gl/nbce4oEJoivkzVnt5"
+    },
 ]
 
 const Location = () => {
