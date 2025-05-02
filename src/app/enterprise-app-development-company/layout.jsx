@@ -19,11 +19,6 @@ export const metadata = {
   alternates: { canonical: "/enterprise-app-development-company" },
   //===== GEO Tags =====
   other: {},
-  //===== No-Index =====
-  robots: {
-    index: true,
-    follow: true,
-  },
 }
 
 export default function RootLayout({ children }) {

@@ -13,7 +13,7 @@ const IndustryCta = ({ data }) => {
                             <div className={styles.industryContent}>
                                 <h2>{data?.title}</h2>
                                 <p>{data?.text}</p>
-                                <ButtonCommon txt="Taste the Future of Dining!" color={true} />
+                                <ButtonCommon txt="Free Consultation" color={true} />
                             </div>
                         </div>
                     </Col>

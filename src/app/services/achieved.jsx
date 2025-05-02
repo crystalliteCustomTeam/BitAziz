@@ -72,7 +72,7 @@ const Achieved = () => {
         <Row>
           <Col lg={6} md={12}>
             {router.startsWith("/enterprise-app-development-company") ? (
-              <p>Awards That Validate Our Impactful App Solutions</p>
+              <h2>Awards That Validate Our Impactful App Solutions</h2>
             ) : (
               <h2>Awards That Validate Our Impactful App Solutions</h2>
             )}

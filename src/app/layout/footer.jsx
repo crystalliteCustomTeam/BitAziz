@@ -7,6 +7,10 @@ import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "@/src/app/app-c
 
 const ServicesMenu = [
     {
+        title: "Mobile Game Development",
+        url: "/mobile-game-development-company",
+    },
+    {
         title: "Flutter app development",
         url: "/flutter-app-development",
     },
@@ -37,8 +41,7 @@ const ServicesMenu = [
     {
         title: "Blockchain game development",
         url: "/blockchain-game-development-company",
-    }
-    ,
+    },
     {
         title: "Mobile Game Development",
         url: "/mobile-game-development-company",
@@ -46,6 +49,10 @@ const ServicesMenu = [
     {
         title: "Hybrid app development",
         url: "/hybrid-app-development-company",
+    },
+    {
+        title: "Web3 Game Development",
+        url: "/web3-game-development-company",
     }
 ]
 const IndustriesMenu = [
@@ -84,6 +91,18 @@ const IndustriesMenu = [
     {
         title: "Fintech",
         url: "/fintech-app-development",
+    },
+    {
+        title: "Taxi App",
+        url: "/taxi-app-development-company",
+    },
+    {
+        title: "Restaurant App",
+        url: "/restaurant-app-development-company",
+    },
+    {
+        title: "Enterprise App",
+        url: "/enterprise-app-development-company",
     },
 ]
 const LocationsMenu = [
