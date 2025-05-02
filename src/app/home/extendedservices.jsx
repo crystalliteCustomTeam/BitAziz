@@ -57,8 +57,8 @@ const ExtendedServices = ({ data, list }) => {
                                                     <li key={idx}>{item}</li>
                                                 ))}
                                             </ul>
-                                            <div className={styles.btnSmall}>
-                                                <div onClick={() => handleClick()}>
+                                            <div className={styles.btnSmall} onClick={() => handleClick()}>
+                                                <div>
                                                     <ServiceArrow />
                                                 </div>
                                             </div>
