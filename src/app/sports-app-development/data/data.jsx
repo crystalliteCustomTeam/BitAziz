@@ -724,7 +724,7 @@ export const IndustriesList = [
         icon: <LogisticsSVG />,
         title: "Logistics",
         txt: "Our apps optimize fleet and shipment tracking. Integrated eCommerce lets businesses offer logistics to clients, boosting efficiency and operations.",
-        url: "/healthcare-app-development-services",
+        url: "/logistics-software-development",
         img: Logistics.src,
     },
     {

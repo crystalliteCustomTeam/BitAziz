@@ -992,7 +992,7 @@ export const IndustriesList = [
     icon: <LogisticsSVG />,
     title: "Logistics",
     txt: "We develop logistics apps for fleet and shipment optimization, with built-in eCommerce features to assist businesses in running operations and even selling logistics services directly to the client for effective, streamlined delivery.",
-    url: "/healthcare-app-development-services",
+    url: "/logistics-software-development",
     img: Logistics.src,
   },
 ]
