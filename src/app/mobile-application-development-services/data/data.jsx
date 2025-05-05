@@ -870,8 +870,7 @@ export const BlogsList = [
         img: BlogsIMG02.src,
         links: "https://www.bitswits.co/blog/mobile-app-development-frameworks",
         date: "August 13,2024"
-    }
-    , {
+    }, {
         title: "Everything You Need to Know About Application Development Life Cycle",
         txt: "Frustration with clunky interfaces is a thing of the past. The seamless apps that you are using today for food delivery, banking, or even socializing are created after a well-worked-up development process.",
         cat: "Mobile App Development",

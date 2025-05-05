@@ -810,11 +810,11 @@ export const FaqsList = [
         title: "What advantages do hospital and private healthcare practices gain with a dedicated app? ",
         txt: (<>
             <p>Hospitals and large practices have a lot to gain from purpose-built healthcare apps, including:</p>
-            <ul>
+            <ol>
                 <li>Improved patient management with tools for EHR and scheduling.</li>
                 <li>Operational efficiency through automation of administrative tasks.</li>
                 <li>Enhanced data integration for seamless communication between departments.</li>
-            </ul>
+            </ol>
             <p>If you are a healthcare practitioner or owns a large healthcare facility that could benefit from a dedicated healthcare app, we would love to talk to you. Book free consultation today. </p>
         </>)
     },
