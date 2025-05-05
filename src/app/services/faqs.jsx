@@ -7,7 +7,7 @@ import { FaqsArrows } from '../app-constants';
 
 
 
-const Faqs = ({data, list}) => {
+const Faqs = ({ data, list }) => {
     const [openIndex, setOpenIndex] = useState(0);
 
     const handleToggle = (index) => {

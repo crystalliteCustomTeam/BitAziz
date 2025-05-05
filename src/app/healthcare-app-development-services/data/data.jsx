@@ -786,11 +786,11 @@ export const FaqsContent = {
 export const FaqsList = [
     {
         title: "How much does healthcare app development cost?",
-        txt: "The cost of healthcare app development generally ranges from $40,000 to $500,000. This depends on factors such as app complexity, required features, and integration needs. For a more precise estimate, it’s essential to outline your project’s scope and objectives. Our team of healthcare app developers can provide a detailed cost breakdown after a thorough consultation."
+        txt: (<p>The cost of healthcare app development generally ranges from $40,000 to $500,000. This depends on factors such as app complexity, required features, and integration needs. For a more precise estimate, it’s essential to outline your project’s scope and objectives. Our team of healthcare app developers can provide a detailed cost breakdown after a thorough consultation.</p>),
     },
     {
         title: "How do healthcare app development services ensure that apps are easy to use for both healthcare providers and patients?",
-        txt: "Healthcare app development services ensure ease of use by closely studying the workflows of healthcare providers and the needs of patients. They incorporate user-centered design principles, ensuring that both parties can navigate the app effortlessly. Features like clear layouts, minimal steps for key actions, and accessible interfaces are prioritized. For healthcare providers, apps are designed to streamline tasks like scheduling and data access, while patients benefit from simple appointment booking, secure communication, and easy access to health information—all with a focus on improving the overall experience."
+        txt: (<p>Healthcare app development services ensure ease of use by closely studying the workflows of healthcare providers and the needs of patients. They incorporate user-centered design principles, ensuring that both parties can navigate the app effortlessly. Features like clear layouts, minimal steps for key actions, and accessible interfaces are prioritized. For healthcare providers, apps are designed to streamline tasks like scheduling and data access, while patients benefit from simple appointment booking, secure communication, and easy access to health information—all with a focus on improving the overall experience.</p>)
     },
     {
         title: "What types of healthcare apps BitsWits build?",
@@ -803,18 +803,18 @@ export const FaqsList = [
                 <li>Patient portal apps for easy access to medical records and test results.</li>
                 <li>And a lot more. </li>
             </ol>
-            <p>Even if you want custom features within your app, we can help. Let’s connect and discuss you healthcare app in detail.</p>
+            <p>Even if you want custom features within your app, we can help. Let’s connect and discuss your healthcare app in detail.</p>
         </>)
     },
     {
         title: "What advantages do hospital and private healthcare practices gain with a dedicated app? ",
         txt: (<>
             <p>Hospitals and large practices have a lot to gain from purpose-built healthcare apps, including:</p>
-            <ol>
+            <ul>
                 <li>Improved patient management with tools for EHR and scheduling.</li>
                 <li>Operational efficiency through automation of administrative tasks.</li>
                 <li>Enhanced data integration for seamless communication between departments.</li>
-            </ol>
+            </ul>
             <p>If you are a healthcare practitioner or owns a large healthcare facility that could benefit from a dedicated healthcare app, we would love to talk to you. Book free consultation today. </p>
         </>)
     },
