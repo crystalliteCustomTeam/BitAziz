@@ -209,6 +209,58 @@ export default function Home() {
           }),
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What type of enterprise apps do you develop?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We will work on developing custom mobile and web applications and UI/UX design, integrating them into the cloud, testing software, and maintaining them. All these services are usually designed to address any problem your business is facing and enhance the efficiency of operations."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do you ensure data security in enterprise apps?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We follow industry standards for security by encrypting your data and implementing multi-factor authentication. We also secure API integrations and multi-factor authentications. Besides, we observe data privacy regulations, such as GDPR, to ensure the protection of your enterprise data at each stage of development."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What industries do you serve?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We work with the healthcare, finance, logistics, retail, education, e-commerce and manufacturing industries. Our team understands each industry's specific problems and develops customized apps to streamline operations and improve the user experience across all devices."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is your development process for enterprise apps?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our procedures include requirement gathering, prototyping, development, testing, and deployment. We work seamlessly, ensuring flexibility, collaboration, and speed in delivery while involving clients in the development stages for feedback and improvement."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do you ensure the scalability of enterprise app development?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We design enterprise apps with scalability in mind, using cloud-native architecture and modular development techniques. This ensures the app can grow well as the number of users increases, adapting to future business growth."
+                }
+              }
+            ]
+          })
+        }}
+      />
+
     </>
   );
 }

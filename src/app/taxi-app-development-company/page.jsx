@@ -205,6 +205,99 @@ export default function Page() {
         }}
       />
 
+      {/* FAQPage Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is the typical cost of developing a custom taxi app?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The cost of custom taxi app development varies depending on factors like features, platform (iOS, Android, or both), and app complexity. A basic app might cost less, while advanced features like real-time tracking and payment gateways can increase the cost. Contact us for an accurate estimate."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long does it take to develop a taxi app?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Development time depends on the complexity of the app, including features like driver management, payment integrations, and real-time tracking. On average, a taxi app can take anywhere from 3 to 6 months to develop, including design, testing, and deployment."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you offer ongoing support after the app is launched?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, we provide ongoing support and maintenance after the app launch. This includes bug fixes, performance enhancements, and feature updates to ensure your app remains up-to-date with industry standards and user expectations."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you sign an NDA before starting the project?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Absolutely, we sign a Non-Disclosure Agreement (NDA) to protect your app idea and business information. This ensures that your project details remain confidential throughout the development process, giving you peace of mind."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can you develop both Android and iOS taxi apps?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, as an experienced iOS and Android taxi app development company, we specialize in building apps for both platforms. We ensure your taxi app provides a seamless experience on all devices, maximizing your business reach."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I scale the app as my business grows?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, our taxi application development services are designed to scale as your business grows. We build the app with future scalability in mind, allowing you to add features or expand to new markets without needing to rebuild the app."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What makes BitsWits a reliable taxi app development company?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "BitsWits stands out as a leading Android and iOS taxi app development company due to our expertise in building secure, scalable, and user-friendly taxi apps. Our team delivers high-quality solutions tailored to meet your business needs, ensuring long-term success."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do you ensure the security of the app?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We implement advanced security protocols, including data encryption, secure payment gateways, and authentication systems, to protect user data and financial transactions. Our taxi app development solutions are built to meet industry standards for data privacy and security."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I get a cost estimate for my taxi app project?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "To get an accurate cost estimate, we recommend contacting our team directly. We assess your specific requirements, such as features, platforms, and integrations, to provide a detailed estimate based on your needs."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can you integrate the app with other third-party services?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, as a flexible taxi booking development company, we can integrate your app with third-party services such as payment gateways, mapping services, and analytics tools. This helps enhance the functionality of your taxi app and improve user experience."
+                }
+              }
+            ]
+          })
+        }}
+      />
+
     </>
   );
 }

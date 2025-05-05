@@ -195,7 +195,82 @@ export default function Page() {
           }),
         }}
       />
-
+      {/* FAQPage Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is the cost of developing a fintech app?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The cost of developing a fintech app generally ranges from $50,000 to $400,000. This range depends on various factors, such as the complexity of the app, the features required, and the integrations needed. For a more accurate estimate, it’s crucial to outline your project’s specific needs. Our fintech app development team can provide a detailed quote after discussing your requirements."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long does it take to develop a fintech app?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Development timelines for fintech apps vary based on their complexity. On average, creating a fintech app takes between 4 to 8 months. This timeframe includes phases such as planning, design, development, testing, and deployment. We will provide a more precise timeline after reviewing your project’s scope and specific requirements."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What technologies are used in fintech app development?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Fintech app development involves several key technologies. We utilize programming languages like Java, Swift, and Kotlin for building robust applications. Frameworks such as React Native enable us to create cross-platform apps that work on various devices. For infrastructure, we rely on cloud solutions like AWS or Azure to ensure scalability and security. APIs are also integrated to facilitate smooth interactions with financial systems and services."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do you handle scalability in a fintech app?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Scalability is managed through several strategies. We use cloud-based infrastructure, which allows the app to expand resources as needed to accommodate high traffic. A modular architecture enables us to add or update features without disrupting existing functionalities. Load balancing distributes user traffic to maintain performance and prevent overloads. These approaches ensure the app can adapt to increasing demands efficiently."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What should I look for in a fintech app development company?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "When choosing a fintech app development company, focus on several key factors. Look for expertise in fintech to ensure they understand industry regulations and standards. A proven track record with similar projects and successful launches is essential. Technical skills should align with the latest technologies and platforms. Additionally, consider the company's ability to provide ongoing support and maintenance after the app is launched."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I choose the right fintech app developers?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Selecting the right fintech app developers involves several considerations. Check their industry experience to ensure they have specific expertise in fintech. Evaluate their technical competence to confirm they are skilled in current technologies. Review their portfolio and references for past projects and client feedback. Finally, assess their communication and support structure to ensure responsiveness and effective problem resolution."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How can I secure my fintech app?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Securing your fintech app involves several essential practices. We implement encryption to safeguard data and maintain confidentiality. Multi-factor authentication is used to add an extra layer of security for user verification. Regular security audits help identify and address potential vulnerabilities. Our fintech app development company incorporates these measures throughout the development process to protect financial data and build user trust."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What should I consider when planning the architecture of a fintech app?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "When planning the architecture for a fintech app, scalability, security, and performance should be your top priorities. Design the architecture in mind capable of efficiently managing high transaction volumes and adapt to growing user numbers.\n\nMoreover, you should implement robust security measures to protect sensitive financial data. Choose a technology stack that supports easy updates and integrations. A well-thought-out architecture is the foundation for a reliable and adaptable application over time."
+                }
+              }
+            ]
+          })
+        }}
+      />
 
     </>
   );

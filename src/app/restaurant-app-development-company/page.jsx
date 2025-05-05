@@ -53,76 +53,7 @@ import IndustrySlider from "@/src/app/industry/industryslider"
 import Expertise from "@/src/app/industry/expertise"
 
 export default function Page() {
-  // const faqData = {
-  //   "@context": "https://schema.org",
-  //   "@type": "FAQPage",
-  //   mainEntity: [
-  //     {
-  //       "@type": "Question",
-  //       name: "What is e-learning software development?",
-  //       acceptedAnswer: {
-  //         "@type": "Answer",
-  //         text: "E-learning software development involves designing and building digital platforms for online education and training. These platforms can include interactive courses, virtual classrooms, assessments, and collaboration tools, all tailored to meet a wide variety of educational needs and enhance the learning experience.",
-  //       },
-  //     },
-  //     {
-  //       "@type": "Question",
-  //       name: "How can education software development services improve student engagement?",
-  //       acceptedAnswer: {
-  //         "@type": "Answer",
-  //         text: "Education software development services improve student engagement through interactive and personalized learning platforms. Integrating features like gamification, adaptive learning, and real-time feedback tailors educational experiences to individual needs, making learning more engaging and effective.",
-  //       },
-  //     },
-  //     {
-  //       "@type": "Question",
-  //       name: "How do education app developers address data privacy in educational apps?",
-  //       acceptedAnswer: {
-  //         "@type": "Answer",
-  //         text: "Education app developers address data privacy by implementing robust security measures, such as encryption and secure user authentication. They comply with regulations like FERPA and GDPR to handle student and teacher information with the highest levels of privacy and security.",
-  //       },
-  //     },
-  //     {
-  //       "@type": "Question",
-  //       name: "Are educational apps profitable?",
-  //       acceptedAnswer: {
-  //         "@type": "Answer",
-  //         text: "Yes, educational apps are profitable. In 2023, they generated $5.93 billion in revenue, driven by increased demand during the pandemic. With the growing emphasis on digital learning, the market for educational apps continues to expand, offering significant opportunities for profitability.",
-  //       },
-  //     },
-  //     {
-  //       "@type": "Question",
-  //       name: "What makes e-learning app development services essential for modern education?",
-  //       acceptedAnswer: {
-  //         "@type": "Answer",
-  //         text: "Elearning app development services are essential because they create scalable, accessible, and interactive platforms that cater to diverse learning styles. These services support digital classrooms and help institutions maintain continuous learning during disruptions.",
-  //       },
-  //     },
-  //     {
-  //       "@type": "Question",
-  //       name: "Why choose an e-learning mobile app development firm over a general app development firm?",
-  //       acceptedAnswer: {
-  //         "@type": "Answer",
-  //         text: "An e-learning application development firm specializes in creating educational apps tailored to the specific needs of learners and educators. They have expertise in designing features like interactive content, progress tracking, and real-time collaboration, which effectively support educational goals.",
-  //       },
-  //     },
-  //     {
-  //       "@type": "Question",
-  //       name: "How do education apps support inclusive learning?",
-  //       acceptedAnswer: {
-  //         "@type": "Answer",
-  //         text: "Education apps support inclusive learning through features like multi-language support, accessibility options for students with disabilities, and personalized learning paths. These apps cater to diverse needs, giving every student equal access to quality education.",
-  //       },
-  //     },
-  //     {
-  //       "@type": "Question",
-  //       name: "What is the difference between EdTech and eLearning?",
-  //       acceptedAnswer: {
-  //         "@type": "Answer",
-  //         text: "EdTech refers to the broad use of technology in education, including tools like interactive whiteboards and learning management systems that enhance teaching methods. E-Learning, however, specifically focuses on delivering education and training through digital platforms, making learning accessible online.",
-  //       },
-  //     },
-  //   ],
-  // }
+
 
   return (
     <>
@@ -261,13 +192,91 @@ export default function Page() {
         }}
       />
 
-      {/* FAQs Schema  */}
-      {/* <script
+      {/* Product Schema */}
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqData),
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": "Restaurant App Development Services",
+            "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+            "description": "BitsWits is a leading restaurant app development company that specializes in creating savory solutions with freshly cooked codes tailored to the unique needs of your dining business.",
+            "brand": {
+              "@type": "Brand",
+              "name": "BitsWits"
+            },
+            "offers": {
+              "@type": "AggregateOffer",
+              "url": "https://www.bitswits.co/restaurant-app-development-company",
+              "priceCurrency": "USD",
+              "lowPrice": "10000",
+              "highPrice": "30000",
+              "offerCount": "1000"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "4.7",
+              "ratingCount": "279"
+            }
+          })
         }}
-      /> */}
+      />
+
+      {/* FAQPage Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What features should a restaurant app include?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A great restaurant app should include features such as online ordering, table reservations, menu browsing, push notifications for offers, loyalty programs, real-time order tracking, and payment gateway integration for a seamless customer experience."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How much does it cost to develop a restaurant app?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The cost of developing a restaurant app depends on factors like app complexity, features, design requirements, and platform (iOS, Android, or both). On average, the cost can range from $10,000 to $50,000 or more."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long does it take to build a restaurant app?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The development timeline for a restaurant app typically ranges from 3 to 6 months, depending on the app’s features, design, and complexity. Custom features may extend this timeframe."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can you integrate the app with third-party delivery services like Uber Eats or DoorDash?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, we can integrate third-party delivery services and APIs into your restaurant app, allowing customers to choose their preferred delivery partner seamlessly."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you offer post-launch support and maintenance for the app?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Absolutely! We provide post-launch support, regular updates, bug fixes, and maintenance services to ensure your app runs smoothly and stays up-to-date with the latest trends and technologies."
+                }
+              }
+            ]
+          })
+        }}
+      />
     </>
   )
 }

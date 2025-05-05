@@ -206,7 +206,114 @@ export default function Page() {
           }),
         }}
       />
-
+      {/* FAQPage Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Do you sign an NDA before starting a project?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, we sign a Non-Disclosure Agreement (NDA) to ensure your sensitive information and project details remain confidential. We take client privacy very seriously and make sure all data shared during the automotive app development process is fully protected and secure."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long does it take to develop automotive software?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The development time varies based on the complexity and scope of the project. On average, custom automotive software development can take anywhere from 3 to 9 months. We follow an agile process to ensure timely delivery while accommodating any necessary revisions."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is the cost of developing automotive software?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The cost depends on the software’s features, complexity, and integration requirements. A basic solution may start around $20,000, while more complex systems involving advanced diagnostics, telematics, or AI-driven features may cost significantly more. We offer detailed cost breakdowns during the consultation."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can you integrate third-party APIs into automotive software?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Absolutely! We have extensive experience integrating third-party APIs, including telematics, mapping, and diagnostic tools, to enhance the functionality of your automotive software. We ensure all integrations work seamlessly with your existing systems and meet your business needs."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you develop both iOS and Android automotive apps?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, we develop automotive apps for both iOS and Android platforms. Our team specializes in creating cross-platform solutions that deliver consistent performance across different devices, ensuring a seamless user experience for drivers and fleet managers alike."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do you ensure the software meets automotive industry standards?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We adhere to automotive industry standards such as ISO 26262, AUTOSAR, and OBD-II protocols. Our team works closely with clients to ensure compliance with these standards, ensuring safety, reliability, and compatibility with various vehicle systems."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can your software integrate with existing vehicle systems?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, we specialize in developing automotive software that integrates seamlessly with existing vehicle systems such as ECUs, infotainment systems, and diagnostic tools. We ensure that our solutions enhance the vehicle’s overall functionality without disrupting existing operations."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you offer scalability in your automotive software solutions?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, our software development for automotive is designed with scalability in mind. Whether you need to expand your fleet, add new vehicles, or implement additional features, we build flexible systems that can grow with your business and adapt to future needs."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What types of vehicles can your software support?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our automotive software solutions are designed for a wide range of vehicles, including electric vehicles (EVs), hybrid cars, trucks, and even autonomous vehicles. We customize software based on specific vehicle requirements and system architecture."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you provide software testing for vehicle compliance?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, we conduct comprehensive testing to ensure the software complies with automotive industry standards like ISO 26262 and meets regulatory requirements. Our testing processes include stress tests, real-world simulations, and integration tests with in-vehicle systems."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What level of control will I have over the software development process?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We offer full transparency throughout the software development lifecycle. You'll be involved in key decision-making processes, receive regular updates, and have the opportunity to provide feedback during each phase of the project."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do you handle data privacy and user security in automotive software?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We implement stringent data privacy protocols, using encrypted communications, secure authentication, and role-based access control to protect sensitive vehicle and user data. Compliance with industry security standards ensures that your software remains safe from cyber threats."
+                }
+              }
+            ]
+          })
+        }}
+      />
 
     </>
   );

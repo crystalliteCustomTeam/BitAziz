@@ -206,6 +206,53 @@ export default function Page() {
           })
         }}
       />
+      {/* FAQPage Schema */}
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How much time does it take to develop a music streaming app?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Clients who have acquired our music streaming app development services were able to launch final app within 4 to 12 weeks. Moreover, depending upon your needs for custom music app development, this time band will certainly increase."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How will you ensure the security of my music app?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "At BitsWits we build solid music app development solutions using robust security mechanisms. We use HTTPS for secure and safe data transmission, conduct regular code and security audits for sensitive data, and performance. Plus, we’re continuously testing layers of security for user authentication, storage and data transmission."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How can I track the progress of my music streaming app development project?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We as your music streaming app development company ensure to maintain transparency in all our interactions. You are kept at the center of all dealings, and are updated on the progress of your music app project through periodic meetings with project managers. You can also reach out to the project team voluntarily to get status updates"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why should I choose BitsWits for my music streaming app project?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "BitsWits is a renowned music mobile app development company. Having completed 100+ projects in the app development domain, we’ve secured 4.5+ ratings across platforms like Clutch, Trust Pilot and others. This is what makes us a top choice among brands in the music industry."
+                }
+              }
+            ]
+          })
+        }}
+      />
+
+
     </>
   );
 }

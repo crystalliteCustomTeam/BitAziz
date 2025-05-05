@@ -207,6 +207,58 @@ export default function Page() {
           })
         }}
       />
+      {/* FAQPage Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How much does healthcare app development cost?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The cost of healthcare app development generally ranges from $40,000 to $500,000. This depends on factors such as app complexity, required features, and integration needs. For a more precise estimate, it’s essential to outline your project’s scope and objectives. Our team of healthcare app developers can provide a detailed cost breakdown after a thorough consultation."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do healthcare app development services ensure that apps are easy to use for both healthcare providers and patients?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Healthcare app development services ensure ease of use by closely studying the workflows of healthcare providers and the needs of patients. They incorporate user-centered design principles, ensuring that both parties can navigate the app effortlessly. Features like clear layouts, minimal steps for key actions, and accessible interfaces are prioritized. For healthcare providers, apps are designed to streamline tasks like scheduling and data access, while patients benefit from simple appointment booking, secure communication, and easy access to health information—all with a focus on improving the overall experience."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What types of healthcare apps BitsWits build?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our healthcare app developers at BitsWits specialize in building user-centric healthcare applications, including:\n\nTelemedicine apps for remote consultations and virtual care.\nMedication management apps to track prescriptions and medication schedules.\nWearable integration apps for real-time health monitoring.\nPatient portal apps for easy access to medical records and test results.\nAnd a lot more.\nEven if you want custom features within your app, we can help. Let’s connect and discuss your healthcare app in detail."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What advantages do hospital and private healthcare practices gain with a dedicated app?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Hospitals and large practices have a lot to gain from purpose-built healthcare apps, including:\n\nImproved patient management with tools for EHR and scheduling.\nOperational efficiency through automation of administrative tasks.\nEnhanced data integration for seamless communication between departments.\nIf you are a healthcare practitioner or own a large healthcare facility that could benefit from a dedicated healthcare app, we would love to talk to you. Book a free consultation today."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What should I look for in a healthcare app development company?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "When choosing a healthcare and hospital app development company, make sure they offer:\n\nExpertise in healthcare app development and understanding of compliance requirements.\nProven experience with similar projects and timelines.\nTechnical proficiency in relevant technologies and platforms.\nOngoing support and maintenance post-launch.\nA healthcare app development company with a strong track record and battle-hardened healthcare app developers will better meet your specific needs and deliver top-tier results within the deadline."
+                }
+              }
+            ]
+          })
+        }}
+      />
 
     </>
   );
