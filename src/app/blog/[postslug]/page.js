@@ -124,7 +124,7 @@ export default async function Post({ params, searchParams }) {
                     <Image
                       quality={75}
                       src={`https://inhouse.pulse-force.com/wordpress/bitswits/wp-content/uploads/${postData.featuredImage.node.mediaDetails.file}`}
-                      alt="BitsWits"
+                      alt={postData.title}
                       width={736}
                       height={450}
                       className="img-fluid"
@@ -133,7 +133,7 @@ export default async function Post({ params, searchParams }) {
                     <Image
                       quality={75}
                       src={featuredImageUrl}
-                      alt="BitsWits"
+                      alt={postData.title}
                       width={736}
                       height={450}
                       className="img-fluid"
@@ -145,16 +145,19 @@ export default async function Post({ params, searchParams }) {
                     <Col lg={2} className={styles.clientImage}>
                       {postData.author.node.avatar.url ? (
                         <Image
-                          src={postData.author.node.avatar.url.replace('-150x150', '')}
-                          alt="Bitswits"
+                          src={postData.author.node.avatar.url.replace(
+                            "-150x150",
+                            ""
+                          )}
+                          alt={postData.author.node.name}
                           className="img-fluid"
                           width={300}
-                          height={300}  
+                          height={300}
                         />
                       ) : (
                         <Image
                           src={Client}
-                          alt="Bitswits"
+                          alt={postData.author.node.name}
                           className="img-fluid"
                         />
                       )}

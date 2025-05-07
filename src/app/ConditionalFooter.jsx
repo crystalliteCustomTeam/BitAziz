@@ -33,7 +33,7 @@ const ConditionalFooter = () => {
   const isLocationsFooter = locationsFooterPaths.includes(pathname)
 
   if (isLocationsFooter) {
-    return <LcFooter />
+    return <Footer />
   } else if (isLpFooter) {
     return <LpFooter />
   } else {

@@ -33,39 +33,17 @@ const LocationList = [
         phone: "+1 833 500 6007",
         email: "info@bitswits.co",
         img: Houston.src,
-        pin: "https://maps.app.goo.gl/onTtH6csSWJu2gAb7"
-    },
-    // {
-    //     state: "Chicago",
-    //     add: "141 W Jackson Blvd STE 300 A, Chicago, IL 60604, United States",
-    //     phone: "+1 833 500 6007",
-    //     email: "info@bitswits.co",
-    //     img: Chicago.src,
-    //     pin: "https://maps.app.goo.gl/VH6Dkp1J2wtNvLBC6"
-    // },
-    {
-        state: "Dubai",
-        add: "Office 1402, JBC 3 Cluster Y, Jumeirah Lake Towers Dubai UAE",
-        phone: "+971 55 503 1266",
-        email: "info@bitswits.co",
-        img: Dubai.src,
-        pin: "https://maps.app.goo.gl/NzJaVuqgdpLYyaT28"
+        pin: "https://maps.app.goo.gl/onTtH6csSWJu2gAb7",
+        alt: "BitsWits mobile app development company Houston"
     },
     {
-        state: "Karachi",
-        add: "12 Floor، Caeser's tower, Shahrah-e-Faisal Rd, Karachi , Pakistan",
-        phone: "+92 346 8280101",
-        email: "info@bitswits.co",
-        img: Karachi.src,
-        pin: "https://maps.app.goo.gl/NzJaVuqgdpLYyaT28"
-    },
-    {
-        state: "Houston",
-        add: "2800 Post Oak Blvd STE 4100, Houston, TX 77056, United States",
+        state: "Chicago",
+        add: "141 W Jackson Blvd STE 300 A, Chicago, IL 60604, United States",
         phone: "+1 833 500 6007",
         email: "info@bitswits.co",
-        img: Houston.src,
-        pin: "https://maps.app.goo.gl/onTtH6csSWJu2gAb7"
+        img: Chicago.src,
+        pin: "https://maps.app.goo.gl/VH6Dkp1J2wtNvLBC6",
+        alt: "BitsWits mobile app development company Chicago"
     },
     {
         state: "Dubai",
@@ -73,7 +51,8 @@ const LocationList = [
         phone: "+971 55 503 1266",
         email: "info@bitswits.co",
         img: Dubai.src,
-        pin: "https://maps.app.goo.gl/NzJaVuqgdpLYyaT28"
+        pin: "https://maps.app.goo.gl/NzJaVuqgdpLYyaT28",
+        alt: "BitsWits mobile app development company Dubai"
     },
     {
         state: "Karachi",
@@ -81,7 +60,8 @@ const LocationList = [
         phone: "+92 346 8280101",
         email: "info@bitswits.co",
         img: Karachi.src,
-        pin: "https://maps.app.goo.gl/NzJaVuqgdpLYyaT28"
+        pin: "https://maps.app.goo.gl/NzJaVuqgdpLYyaT28",
+        alt: "BitsWits mobile app development company Karachi"
     },
     {
         state: "Los Angeles",
@@ -89,7 +69,8 @@ const LocationList = [
         phone: "+1 833 500 6007",
         email: "info@bitswits.co",
         img: LosAngeles.src,
-        pin: "https://maps.app.goo.gl/ot7knKM1rXFFjpKMA"
+        pin: "https://maps.app.goo.gl/ot7knKM1rXFFjpKMA",
+        alt: "BitsWits mobile app development company Los Angeles"
     },
     {
         state: "Miami",
@@ -97,7 +78,8 @@ const LocationList = [
         phone: "+1 833 500 6007",
         email: "info@bitswits.co",
         img: Miami.src,
-        pin: "https://maps.app.goo.gl/sZDSxoSewEBHY1z27"
+        pin: "https://maps.app.goo.gl/sZDSxoSewEBHY1z27",
+        alt: "BitsWits mobile app development company Miami"
     },
     {
         state: "New York",
@@ -105,7 +87,8 @@ const LocationList = [
         phone: "+1 833 500 6007",
         email: "info@bitswits.co",
         img: NewYork.src,
-        pin: "https://maps.app.goo.gl/CPdXRcRzGxGRAuNU8"
+        pin: "https://maps.app.goo.gl/CPdXRcRzGxGRAuNU8",
+        alt: "BitsWits mobile app development company New York"
     },
     {
         state: "San Francisco",
@@ -113,7 +96,8 @@ const LocationList = [
         phone: "+1 833 500 6007",
         email: "info@bitswits.co",
         img: SanFrancisco.src,
-        pin: "https://maps.app.goo.gl/SzwvHzAKoLgiwWPm7"
+        pin: "https://maps.app.goo.gl/SzwvHzAKoLgiwWPm7",
+        alt: "BitsWits mobile app development company San Francisco"
     },
     {
         state: "Toronto",
@@ -121,7 +105,8 @@ const LocationList = [
         phone: "+1 833 500 6007",
         email: "info@bitswits.co",
         img: Toronto.src,
-        pin: "https://maps.app.goo.gl/dhULjcCFCiZ9fNyQ7"
+        pin: "https://maps.app.goo.gl/dhULjcCFCiZ9fNyQ7",
+        alt: "BitsWits mobile app development company Toronto"
     },
     {
         state: "Dallas",
@@ -129,7 +114,8 @@ const LocationList = [
         phone: "+1 833 500 6007",
         email: "info@bitswits.co",
         img: Dallas.src,
-        pin: "https://maps.app.goo.gl/i76RsaokYHwn47vU9"
+        pin: "https://maps.app.goo.gl/i76RsaokYHwn47vU9",
+        alt: "BitsWits mobile app development company Dallas"
     },
     {
         state: "Qatar",
@@ -137,7 +123,8 @@ const LocationList = [
         phone: "+971 55 503 1266",
         email: "info@bitswits.co",
         img: Qatar.src,
-        pin: "https://maps.app.goo.gl/qimC1ofuhhu3z512A"
+        pin: "https://maps.app.goo.gl/qimC1ofuhhu3z512A",
+        alt: "BitsWits mobile app development company Qatar"
     },
     {
         state: "Bahrain",
@@ -145,7 +132,8 @@ const LocationList = [
         phone: "+971 55 503 1266",
         email: "info@bitswits.co",
         img: Bahrain.src,
-        pin: "https://maps.app.goo.gl/N52TCmfz7GQbH35m8"
+        pin: "https://maps.app.goo.gl/N52TCmfz7GQbH35m8",
+        alt: "BitsWits mobile app development company Bahrain"
     },
     {
         state: "Pierre",
@@ -153,7 +141,8 @@ const LocationList = [
         phone: "+1 833 500 6007",
         email: "info@bitswits.co",
         img: Pierre.src,
-        pin: "https://maps.app.goo.gl/YEEuBJKd9GvXuMk18"
+        pin: "https://maps.app.goo.gl/YEEuBJKd9GvXuMk18",
+        alt: "BitsWits mobile app development company Pierre"
     },
     {
         state: "Sharjah",
@@ -161,7 +150,8 @@ const LocationList = [
         phone: "+971 55 503 1266",
         email: "info@bitswits.co",
         img: Sharjah.src,
-        pin: "https://maps.app.goo.gl/nbce4oEJoivkzVnt5"
+        pin: "https://maps.app.goo.gl/nbce4oEJoivkzVnt5",
+        alt: "BitsWits mobile app development company Sharjah"
     },
 ]
 
@@ -187,7 +177,7 @@ const Location = () => {
                                         <div className={styles.embla__slide} key={index}>
                                             <div className={styles.locationBox}>
                                                 <div className={styles.imgBox}>
-                                                    <Image src={item.img} alt="Houston" fill />
+                                                    <Image src={item.img} alt={item.alt} fill />
                                                     <div className={styles.locationTitle}>
                                                         {item.state}
                                                     </div>
