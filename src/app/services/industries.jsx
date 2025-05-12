@@ -20,7 +20,7 @@ const Industries = ({ data, list }) => {
                 </Row>
                 <Row>
                     {list.map((item, index) => (
-                        <Col lg={3} md={6} key={index} className="mb-2 mb-md-3 mb-lg-3 mb-xl-4">
+                        <Col xl={3} lg={4} md={6} key={index} className="mb-2 mb-md-3 mb-lg-3 mb-xl-4">
                             <div
                                 className={styles.industryBox}
                                 style={{ backgroundImage: `url(${item.img})` }}>
