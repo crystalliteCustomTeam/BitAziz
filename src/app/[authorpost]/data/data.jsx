@@ -35,18 +35,18 @@ export const AuthorData = [
     slug: "ralph-dmello",
   },
   {
-    tit: "Ashir Matthew, Mobile App Developer At BitsWits",
+    tit: "Matthew, Mobile App Developer At BitsWits",
     desc: "As a Senior Mobile App Developer at BitsWits, he is all about developing innovative mobile applications and sharing actionable insights on developing mobile apps.",
-    name: "Ashir Matthew",
+    name: "Matthew",
     description:
-      "Ashir is a Software Engineer who specializes in Mobile Application Development, focused on delivering high-performance, scalable, and user-centric mobile solutions. As a Senior Mobile Application Developer, he brings deep expertise in designing and implementing complex system architectures, with a strategic approach similar to a Solution Architect. Passionate about clean architecture, seamless user experiences, and cross-platform excellence, he aims to build innovative and reliable mobile applications.",
+      "Matthew is a Software Engineer who specializes in Mobile Application Development, focused on delivering high-performance, scalable, and user-centric mobile solutions. As a Senior Mobile Application Developer, he brings deep expertise in designing and implementing complex system architectures, with a strategic approach similar to a Solution Architect. Passionate about clean architecture, seamless user experiences, and cross-platform excellence, he aims to build innovative and reliable mobile applications.",
     image: AshirMatthew.src,
     socialLinks: {
       facebook: "https://www.facebook.com/officialbitswits/",
       twitter: "https://twitter.com/BitsWits_/",
       linkedin: "https://www.linkedin.com/company/officialbitswits",
     },
-    slug: "ashir-matthew",
+    slug: "matthew",
   },
   {
     tit: "Nissa Rain, Python Backend Engineer At BitsWits",

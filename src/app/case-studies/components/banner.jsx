@@ -10,7 +10,7 @@ const Banner = ({ data }) => {
                     <Col xxl={6} lg={6} md={7} className="m-auto text-center">
                         <div className={styles.smallTxt}>{data?.subtitle}</div>
                         <h1>{data?.title}</h1>
-                        <ButtonCommon txt="Book a Call" />
+                        <ButtonCommon txt="Get A Quote" />
                     </Col>
                 </Row>
             </Container>
