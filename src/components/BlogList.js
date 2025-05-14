@@ -20,23 +20,19 @@ const BlogList = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
 
   const predefinedCategories = [
-    "Mobile App Development",
-    "Flutter App Development",
-    "React Native App Development",
-    "Cost",
-    "iOS App Development",
-    "Android App Development",
+    "App Development",
+    "Game Development",
+    "AI and ML",
     "Blockchain Development",
+    "Tech Stacks",
   ];
 
   const categoryKeywords = {
-    "Mobile App Development": ["mobile app", "mobile"],
-    "Flutter App Development": ["flutter app", "flutter"],
-    "React Native App Development": ["react native", "react", "native"],
-    Cost: ["cost", "pricing", "price"],
-    "iOS App Development": ["ios app", "ios"],
-    "Android App Development": ["android app", "android"],
-    "Blockchain Development": ["blockchain app", "blockchain"],
+    "App Development": ["app development", "App"],
+    "Game Development": ["game development", "Game"],
+    "AI and ML": ["ai and ml", "AI"],
+    "Blockchain Development": ["blockchain development", "Blockchain"],
+    "Tech Stacks": ["tech stacks", "Tech Stacks"],
   };
 
   const fetchPosts = async (endCursor = null) => {
