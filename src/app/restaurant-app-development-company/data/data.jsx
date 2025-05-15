@@ -1,16 +1,18 @@
 
 // Bannar Images
-import BannerBg from "media/industry/education/bgBanner.webp";
+import BannerBg from "media/industry/restaurant/bgBanner.webp";
 
 // IndustryCta Images
-import IndustryCtaImg from "media/industry/education/ctaImage.webp"
+import IndustryCtaImg from "media/industry/restaurant/ctaImage.webp"
 
 // Location Images
-import IndustrySliderIMG01 from "media/industry/education/industry/Industry01.webp"
-import IndustrySliderIMG02 from "media/industry/education/industry/Industry02.webp"
-import IndustrySliderIMG03 from "media/industry/education/industry/Industry03.webp"
-import IndustrySliderIMG04 from "media/industry/education/industry/Industry04.webp"
-import IndustrySliderIMG05 from "media/industry/education/industry/Industry05.webp"
+import IndustrySliderIMG01 from "media/industry/restaurant/industry/Industry01.webp"
+import IndustrySliderIMG06 from "media/industry/restaurant/industry/Industry06.webp"
+import IndustrySliderIMG02 from "media/industry/restaurant/industry/Industry02.webp"
+import IndustrySliderIMG07 from "media/industry/restaurant/industry/Industry07.webp"
+import IndustrySliderIMG03 from "media/industry/restaurant/industry/Industry03.webp"
+import IndustrySliderIMG04 from "media/industry/restaurant/industry/Industry04.webp"
+import IndustrySliderIMG05 from "media/industry/restaurant/industry/Industry05.webp"
 
 //========= Technologies Images
 import TechIcon01 from "media/services/tech/1.webp"
@@ -21,16 +23,16 @@ import TechIcon05 from "media/services/tech/5.webp"
 import TechIcon06 from "media/services/tech/6.webp"
 import TechIcon07 from "media/services/tech/7.webp"
 import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/industry/education/techImg.webp"
+import TechImg from "media/industry/restaurant/techImg.webp"
 
 //========= Process Images
-import Process01 from "media/industry/education/processImg.webp"
-import Process02 from "media/industry/education/processImg.webp"
-import Process03 from "media/industry/education/processImg.webp"
-import Process04 from "media/industry/education/processImg.webp"
-import Process05 from "media/industry/education/processImg.webp"
-import Process06 from "media/industry/education/processImg.webp"
-import Process07 from "media/industry/education/processImg.webp"
+import Process01 from "media/industry/restaurant/processImg.webp"
+import Process02 from "media/industry/restaurant/processImg.webp"
+import Process03 from "media/industry/restaurant/processImg.webp"
+import Process04 from "media/industry/restaurant/processImg.webp"
+import Process05 from "media/industry/restaurant/processImg.webp"
+import Process06 from "media/industry/restaurant/processImg.webp"
+import Process07 from "media/industry/restaurant/processImg.webp"
 
 //========= WhyChoose Images
 import { EducationIcon01, EducationIcon02, EducationIcon03, EducationIcon04 } from "@/src/app/app-constants"
@@ -136,7 +138,7 @@ export const IndustryServiceList = [
         txt: "Our restaurant discounts app provides a platform for restaurants to offer discounts, deals, and promotions, to customers.",
     },
     {
-        title: (<>Restaurant Inventory Management App <br />  Development</>),
+        title: (<> Inventory Management App <br />  Development</>),
         txt: "Our restaurant software development includes an inventory management app that helps restaurants to efficiently manage their inventory and reduce food waste.",
     },
     {
@@ -162,7 +164,7 @@ export const IndustrySliderContent = {
 
 export const IndustrySliderList = [
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG06.src,
         title: "Hospitality App",
         txt: "We provide hospitality app development for restaurants that cater to the diverse needs of hotels, resorts, and other accommodation providers. These apps offer features like online booking, room service, and mobile check-in / check-outs.",
     },
@@ -192,7 +194,7 @@ export const IndustrySliderList = [
         txt: "We also cater to retail and e-commerce app development that allows restaurants to sell merchandise and gift cards. Our app also enables more advanced features like product catalogs, personalized recommendations, and payment gateways.",
     },
     {
-        img: IndustrySliderIMG02.src,
+        img: IndustrySliderIMG07.src,
         title: "Subscription-Based Meal Service App",
         txt: "Our subscription-based meal service apps provide convenience and healthy meal options. This app also allows users to choose from a variety of meal plans, customize their preferences, and schedule deliveries.",
     },

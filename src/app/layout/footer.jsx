@@ -245,7 +245,7 @@ const Footer = () => {
                             <div className={styles.footerLocationBox}>
                                 <div className={styles.footerLocListing}>
                                     <div className={styles.linksItem}>
-                                        <h6>Location</h6>
+                                        <h6>Locations</h6>
                                         <ul>
                                             {LocationsMenu.map((item, index) => (
                                                 <li key={index}>
