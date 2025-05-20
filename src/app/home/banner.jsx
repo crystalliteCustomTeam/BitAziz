@@ -7,6 +7,7 @@ import BannerPoster from "media/home/bannerPoster.webp";
 import Head from "next/head";
 import Image from "next/image";
 
+
 const Banner = ({ data }) => {
   const [showVideo, setShowVideo] = useState(false);
 
@@ -26,6 +27,7 @@ const Banner = ({ data }) => {
           type="video/mp4"
         />
       </Head>
+
       <section className={styles.bannerSection}>
         <Container className="h-100">
           <Row className="h-100">
@@ -40,28 +42,28 @@ const Banner = ({ data }) => {
         </Container>
 
         {!showVideo ? (
-        <Image
-          src={BannerPoster.src}
-          alt="Banner background"
-          className={styles.bannerVideo}
-          decoding="async"
-          loading="lazy"
-          fill
-        />
-      ) : (
-        <video
-          autoPlay
-          muted
-          loop
-          preload="none"
-          aria-label="Background video"
-          className={styles.bannerVideo}
-          playsInline
-          poster={BannerPoster.src}
-        >
-          <source src="/videos/bannerVideo.mp4" type="video/mp4" />
-        </video>
-      )}
+          <Image
+            src={BannerPoster.src}
+            alt="Banner background"
+            className={styles.bannerVideo}
+            decoding="async"
+            loading="lazy"
+            fill
+          />
+        ) : (
+          <video
+            autoPlay
+            muted
+            loop
+            preload="none"
+            aria-label="Background video"
+            className={styles.bannerVideo}
+            playsInline
+            poster={BannerPoster.src}
+          >
+            <source src="/videos/bannerVideo.mp4" type="video/mp4" />
+          </video>
+        )}
 
       </section>
     </>

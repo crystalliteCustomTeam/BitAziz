@@ -8,7 +8,6 @@ import {
   FaqsList, IdeaCtaContent, DigitalCtaContent
 } from "@/src/app/home/data/data";
 import dynamic from "next/dynamic";
-
 const Process = dynamic(() => import("@/src/app/home/process"));
 const Banner = dynamic(() => import("@/src/app/home/banner"));
 const CaseStudy = dynamic(() => import("@/src/app/home/casestudy"));
@@ -22,13 +21,14 @@ const Engagement = dynamic(() => import("@/src/app/home/engagement"));
 const Faqs = dynamic(() => import("@/src/app/home/faqs"));
 const IdeaCta = dynamic(() => import("@/src/app/services/ideacta"));
 const Industries = dynamic(() => import("@/src/app/home/industries"));
-
+const Popup = dynamic(() => import("@/src/app/home/components/popup"));
 
 const OPTIONS = { loop: true, align: 'center' }
 
 export default function Page() {
   return (
     <>
+      <Popup />
       <Banner data={BannerData} />
       <CompanyInfo data={CompanyInfoContent} />
       <HomeServices data={HomeServicesContent} list={HomeServicesList} />

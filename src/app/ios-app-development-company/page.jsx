@@ -40,6 +40,7 @@ export default function Page() {
 
   return (
     <>
+
       <Banner data={BannerData} />
       <Achieved />
       <Cuttingedge data={CuttingedgeContent} list={CuttingedgeList} />

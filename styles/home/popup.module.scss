@@ -1,0 +1,1134 @@
+.popupSection {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  border-radius: 50px;
+  background: #000;
+
+  .bgIMG {
+    flex: 0 0 35%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px 0px 0px 50px;
+    position: relative;
+    &::after {
+      content: "";
+      background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.35),
+        rgba(0, 0, 0, 0.35)
+      );
+      border-radius: 50px 0px 0px 50px;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: 1;
+    }
+  }
+  .fromTxt {
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    z-index: 9;
+    .logoSec {
+      svg {
+        height: 50px;
+        width: auto;
+        margin-bottom: 20px;
+      }
+      h3 {
+        font-weight: 700;
+        color: #fff;
+        font-size: 40px;
+        text-transform: capitalize;
+      }
+      p {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 31px;
+        letter-spacing: -0.165px;
+        color: #ffffff;
+        &::after {
+          content: "";
+          background: linear-gradient(
+            91.47deg,
+            #f32f56 -78.17%,
+            #f32faf 18.3%,
+            #4a78ef 110.98%
+          );
+          border-radius: 64px;
+          height: 5px;
+          width: 120px;
+          display: block;
+          margin-top: 15px;
+        }
+      }
+    }
+
+    ul {
+      li {
+        color: #ffffff;
+        font-size: 17px;
+        line-height: normal;
+        margin-bottom: 20px;
+        svg {
+          margin-right: 10px;
+          width: 20px;
+          height: auto;
+          path {
+            fill: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .closedBtn {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    z-index: 9;
+
+    svg {
+      width: 40px;
+      height: 40px;
+      circle {
+        fill: #f32f56;
+      }
+
+      path {
+        fill: #fff;
+      }
+    }
+  }
+  .fromPopup {
+    padding: 50px;
+    flex: 0 0 65%;
+    .MainFrom {
+      padding: 0px;
+      .inputBox {
+        margin-bottom: 20px;
+        input {
+          width: 100%;
+          height: 60px;
+          background: rgb(102, 102, 102, 0.2);
+          border-radius: 15px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 22px;
+          color: #ffffff;
+          border: 0px;
+          padding: 0px 0px 0px 20px;
+          &::placeholder {
+            color: #ffffff;
+            font-style: italic;
+            font-size: 14px;
+          }
+        }
+      }
+      .inputText {
+        margin-bottom: 20px;
+        textarea {
+          width: 100%;
+          height: 140px;
+          background: rgb(102, 102, 102, 0.2);
+          border-radius: 15px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 22px;
+          color: #ffffff;
+          border: 0px;
+          padding: 20px 0px 0px 20px;
+          &::placeholder {
+            color: #ffffff;
+            font-style: italic;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .inputSubmit {
+      button {
+        background: linear-gradient(
+          91.47deg,
+          #f32f56 -78.17%,
+          #f32faf 18.3%,
+          #4a78ef 110.98%
+        );
+        border-radius: 64px;
+        height: 50px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        color: #ffffff;
+        min-width: 150px;
+        width: auto;
+        padding: 0px 20px;
+        border: 0px;
+        text-transform: uppercase;
+        svg {
+          width: auto;
+          height: 12px;
+          margin-left: 10px;
+          path {
+            fill: #fff;
+          }
+        }
+      }
+    }
+    .inputRange {
+      background: rgb(102, 102, 102, 0.2);
+      border-radius: 15px;
+      padding: 15px 20px;
+      width: 100%;
+      margin-bottom: 20px;
+      label {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: #fff;
+        margin-bottom: 20px;
+      }
+      .priceRange {
+        position: relative;
+        width: 100%;
+        margin: 0px auto;
+        input[type="range"] {
+          width: 100%;
+          height: 15px;
+          -webkit-appearance: none;
+          border-radius: 100px;
+          outline: none;
+          background: #d9d9d9;
+
+          &::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            height: 30px;
+            width: 30px;
+            background: linear-gradient(
+              91.47deg,
+              #f32f56 -78.17%,
+              #f32faf 18.3%,
+              #4a78ef 110.98%
+            );
+            border-radius: 50%;
+            margin-top: 0px;
+            cursor: pointer;
+          }
+        }
+      }
+      .progressItem {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+        margin-top: 20px;
+        div {
+          flex: 0 0 calc(100% / 3);
+          &:nth-child(2) {
+            color: #f32f56;
+            font-weight: 600;
+            text-align: center;
+          }
+          &:last-child {
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .popupSection {
+    border-radius: 45px;
+    .bgIMG {
+      flex: 0 0 35%;
+      border-radius: 45px 0px 0px 45px;
+      &::after {
+        border-radius: 45px 0px 0px 45px;
+      }
+    }
+    .fromTxt {
+      padding: 25px;
+      .logoSec {
+        svg {
+          height: 45px;
+          margin-bottom: 20px;
+        }
+        h3 {
+          font-size: 35px;
+        }
+        p {
+          font-size: 18px;
+          line-height: 26px;
+          &::after {
+            border-radius: 60px;
+            height: 4px;
+            width: 120px;
+            margin-top: 15px;
+          }
+        }
+      }
+
+      ul {
+        li {
+          font-size: 16px;
+          margin-bottom: 18px;
+          svg {
+            margin-right: 10px;
+            width: 19px;
+          }
+        }
+      }
+    }
+
+    .closedBtn {
+      top: -10px;
+      right: -10px;
+      width: 30px;
+      height: 30px;
+
+      svg {
+        width: 30px;
+        height: 30px;
+      }
+    }
+    .fromPopup {
+      padding: 25px;
+      flex: 0 0 65%;
+      .MainFrom {
+        .inputBox {
+          margin-bottom: 15px;
+          input {
+            height: 55px;
+            border-radius: 15px;
+            font-size: 15px;
+            line-height: 22px;
+            padding: 0px 0px 0px 20px;
+          }
+        }
+        .inputText {
+          margin-bottom: 15px;
+          textarea {
+            height: 130px;
+            border-radius: 15px;
+            font-size: 15px;
+            line-height: 22px;
+            padding: 20px 0px 0px 20px;
+          }
+        }
+      }
+      .inputSubmit {
+        button {
+          border-radius: 64px;
+          height: 50px;
+          font-size: 16px;
+          line-height: 16px;
+          svg {
+            height: 12px;
+            margin-left: 10px;
+          }
+        }
+      }
+      .inputRange {
+        border-radius: 15px;
+        padding: 15px 20px;
+        margin-bottom: 20px;
+        label {
+          font-size: 17px;
+          line-height: 22px;
+          margin-bottom: 20px;
+        }
+        .priceRange {
+          margin: 0px auto;
+          input[type="range"] {
+            height: 12px;
+            &::-webkit-slider-thumb {
+              height: 26px;
+              width: 26px;
+            }
+          }
+        }
+        .progressItem {
+          font-size: 16px;
+          line-height: 24px;
+          margin-top: 15px;
+          div {
+            flex: 0 0 calc(100% / 3);
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .popupSection {
+    border-radius: 35px;
+    .bgIMG {
+      flex: 0 0 35%;
+      border-radius: 35px 0px 0px 35px;
+      &::after {
+        border-radius: 35px 0px 0px 35px;
+      }
+    }
+    .fromTxt {
+      padding: 25px;
+      .logoSec {
+        svg {
+          height: 40px;
+          margin-bottom: 20px;
+        }
+        h3 {
+          font-size: 30px;
+        }
+        p {
+          font-size: 17px;
+          line-height: 24px;
+          &::after {
+            border-radius: 60px;
+            height: 4px;
+            width: 110px;
+            margin-top: 15px;
+          }
+        }
+      }
+
+      ul {
+        li {
+          font-size: 16px;
+          margin-bottom: 15px;
+          svg {
+            margin-right: 10px;
+            width: 18px;
+          }
+        }
+      }
+    }
+
+    .closedBtn {
+      top: -10px;
+      right: -10px;
+      width: 30px;
+      height: 30px;
+
+      svg {
+        width: 30px;
+        height: 30px;
+      }
+    }
+    .fromPopup {
+      padding: 30px;
+      flex: 0 0 65%;
+      .MainFrom {
+        .inputBox {
+          margin-bottom: 15px;
+          input {
+            height: 55px;
+            border-radius: 15px;
+            font-size: 15px;
+            line-height: 22px;
+            padding: 0px 0px 0px 20px;
+          }
+        }
+        .inputText {
+          margin-bottom: 15px;
+          textarea {
+            height: 130px;
+            border-radius: 15px;
+            font-size: 15px;
+            line-height: 22px;
+            padding: 20px 0px 0px 20px;
+          }
+        }
+      }
+      .inputSubmit {
+        button {
+          border-radius: 64px;
+          height: 50px;
+          font-size: 16px;
+          line-height: 16px;
+          svg {
+            height: 12px;
+            margin-left: 10px;
+          }
+        }
+      }
+      .inputRange {
+        border-radius: 15px;
+        padding: 15px 20px;
+        margin-bottom: 15px;
+        label {
+          font-size: 17px;
+          line-height: 22px;
+          margin-bottom: 20px;
+        }
+        .priceRange {
+          margin: 0px auto;
+          input[type="range"] {
+            height: 12px;
+            &::-webkit-slider-thumb {
+              height: 26px;
+              width: 26px;
+            }
+          }
+        }
+        .progressItem {
+          font-size: 16px;
+          line-height: 24px;
+          margin-top: 15px;
+          div {
+            flex: 0 0 calc(100% / 3);
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .popupSection {
+    border-radius: 30px;
+    .bgIMG {
+      flex: 0 0 35%;
+      border-radius: 30px 0px 0px 30px;
+      &::after {
+        border-radius: 30px 0px 0px 30px;
+      }
+    }
+    .fromTxt {
+      padding: 25px;
+      .logoSec {
+        svg {
+          height: 40px;
+          margin-bottom: 15px;
+        }
+        h3 {
+          font-size: 30px;
+        }
+        p {
+          font-size: 15px;
+          line-height: 22px;
+          &::after {
+            border-radius: 60px;
+            height: 4px;
+            width: 80px;
+            margin-top: 10px;
+          }
+        }
+      }
+
+      ul {
+        li {
+          font-size: 16px;
+          margin-bottom: 15px;
+          svg {
+            margin-right: 10px;
+            width: 17px;
+          }
+        }
+      }
+    }
+
+    .closedBtn {
+      top: -10px;
+      right: -10px;
+      width: 25px;
+      height: 25px;
+
+      svg {
+        width: 25px;
+        height: 25px;
+      }
+    }
+    .fromPopup {
+      padding: 25px;
+      flex: 0 0 65%;
+      .MainFrom {
+        .inputBox {
+          margin-bottom: 15px;
+          input {
+            height: 50px;
+            border-radius: 12px;
+            font-size: 15px;
+            line-height: 22px;
+            padding: 0px 0px 0px 20px;
+          }
+        }
+        .inputText {
+          margin-bottom: 15px;
+          textarea {
+            height: 120px;
+            border-radius: 12px;
+            font-size: 15px;
+            line-height: 22px;
+            padding: 20px 0px 0px 20px;
+          }
+        }
+      }
+      .inputSubmit {
+        button {
+          border-radius: 64px;
+          height: 50px;
+          font-size: 15px;
+          line-height: 15px;
+          svg {
+            height: 11px;
+            margin-left: 8px;
+          }
+        }
+      }
+      .inputRange {
+        border-radius: 12px;
+        padding: 15px 20px;
+        margin-bottom: 15px;
+        label {
+          font-size: 16px;
+          line-height: 20px;
+          margin-bottom: 20px;
+        }
+        .priceRange {
+          margin: 0px auto;
+          input[type="range"] {
+            height: 12px;
+            &::-webkit-slider-thumb {
+              height: 26px;
+              width: 26px;
+            }
+          }
+        }
+        .progressItem {
+          font-size: 15px;
+          line-height: 22px;
+          margin-top: 15px;
+          div {
+            flex: 0 0 calc(100% / 3);
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .popupSection {
+    border-radius: 30px;
+    .bgIMG {
+      flex: 0 0 35%;
+      border-radius: 30px 0px 0px 30px;
+      &::after {
+        border-radius: 30px 0px 0px 30px;
+      }
+    }
+    .fromTxt {
+      padding: 20px;
+      .logoSec {
+        svg {
+          height: 35px;
+          margin-bottom: 15px;
+        }
+        h3 {
+          font-size: 26px;
+        }
+        p {
+          font-size: 15px;
+          line-height: 22px;
+          &::after {
+            border-radius: 60px;
+            height: 4px;
+            width: 80px;
+            margin-top: 10px;
+          }
+        }
+      }
+
+      ul {
+        li {
+          font-size: 15px;
+          margin-bottom: 12px;
+          svg {
+            margin-right: 10px;
+            width: 17px;
+          }
+        }
+      }
+    }
+
+    .closedBtn {
+      top: -10px;
+      right: -10px;
+      width: 25px;
+      height: 25px;
+
+      svg {
+        width: 25px;
+        height: 25px;
+      }
+    }
+    .fromPopup {
+      padding: 25px;
+      flex: 0 0 65%;
+      .MainFrom {
+        .inputBox {
+          margin-bottom: 15px;
+          input {
+            height: 45px;
+            border-radius: 12px;
+            font-size: 15px;
+            line-height: 22px;
+            padding: 0px 0px 0px 20px;
+          }
+        }
+        .inputText {
+          margin-bottom: 15px;
+          textarea {
+            height: 110px;
+            border-radius: 12px;
+            font-size: 15px;
+            line-height: 22px;
+            padding: 20px 0px 0px 20px;
+          }
+        }
+      }
+      .inputSubmit {
+        button {
+          border-radius: 64px;
+          height: 45px;
+          font-size: 15px;
+          line-height: 15px;
+          svg {
+            height: 11px;
+            margin-left: 8px;
+          }
+        }
+      }
+      .inputRange {
+        border-radius: 12px;
+        padding: 15px 20px;
+        margin-bottom: 15px;
+        label {
+          font-size: 15px;
+          line-height: 20px;
+          margin-bottom: 20px;
+        }
+        .priceRange {
+          margin: 0px auto;
+          input[type="range"] {
+            height: 10px;
+            &::-webkit-slider-thumb {
+              height: 20px;
+              width: 20px;
+            }
+          }
+        }
+        .progressItem {
+          font-size: 14px;
+          line-height: 22px;
+          margin-top: 12px;
+          div {
+            flex: 0 0 calc(100% / 3);
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .popupSection {
+    border-radius: 20px;
+    .bgIMG {
+      flex: 0 0 40%;
+      border-radius: 20px 0px 0px 20px;
+      &::after {
+        border-radius: 20px 0px 0px 20px;
+      }
+    }
+    .fromTxt {
+      padding: 15px;
+      .logoSec {
+        svg {
+          height: 35px;
+          margin-bottom: 15px;
+        }
+        h3 {
+          font-size: 22px;
+        }
+        p {
+          font-size: 14px;
+          line-height: 22px;
+          &::after {
+            border-radius: 60px;
+            height: 4px;
+            width: 70px;
+            margin-top: 10px;
+          }
+        }
+      }
+
+      ul {
+        li {
+          font-size: 14px;
+          margin-bottom: 10px;
+          svg {
+            margin-right: 5px;
+            width: 14px;
+          }
+        }
+      }
+    }
+
+    .closedBtn {
+      top: -10px;
+      right: -10px;
+      width: 20px;
+      height: 20px;
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+    .fromPopup {
+      padding: 20px;
+      flex: 0 0 60%;
+      .MainFrom {
+        .inputBox {
+          margin-bottom: 10px;
+          input {
+            height: 40px;
+            border-radius: 10px;
+            font-size: 14px;
+            line-height: 22px;
+            padding: 0px 0px 0px 10px;
+          }
+        }
+        .inputText {
+          margin-bottom: 10px;
+          textarea {
+            height: 90px;
+            border-radius: 10px;
+            font-size: 14px;
+            line-height: 22px;
+            padding: 10px 0px 0px 10px;
+          }
+        }
+      }
+      .inputSubmit {
+        button {
+          border-radius: 64px;
+          height: 40px;
+          font-size: 14px;
+          line-height: 14px;
+          svg {
+            height: 10px;
+            margin-left: 5px;
+          }
+        }
+      }
+      .inputRange {
+        border-radius: 12px;
+        padding: 15px 15px;
+        margin-bottom: 15px;
+        label {
+          font-size: 14px;
+          line-height: 20px;
+          margin-bottom: 15px;
+        }
+        .priceRange {
+          margin: 0px auto;
+          input[type="range"] {
+            height: 10px;
+            &::-webkit-slider-thumb {
+              height: 20px;
+              width: 20px;
+            }
+          }
+        }
+        .progressItem {
+          font-size: 14px;
+          line-height: 22px;
+          margin-top: 12px;
+          div {
+            flex: 0 0 calc(100% / 3);
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .popupSection {
+    border-radius: 20px;
+    .bgIMG {
+      flex: 0 0 50%;
+      border-radius: 20px 0px 0px 20px;
+      &::after {
+        border-radius: 20px 0px 0px 20px;
+      }
+    }
+    .fromTxt {
+      padding: 15px;
+      .logoSec {
+        svg {
+          height: 35px;
+          margin-bottom: 15px;
+        }
+        h3 {
+          font-size: 22px;
+        }
+        p {
+          font-size: 14px;
+          line-height: 22px;
+          &::after {
+            border-radius: 60px;
+            height: 4px;
+            width: 70px;
+            margin-top: 10px;
+          }
+        }
+      }
+
+      ul {
+        li {
+          font-size: 14px;
+          margin-bottom: 10px;
+          svg {
+            margin-right: 5px;
+            width: 14px;
+          }
+        }
+      }
+    }
+
+    .closedBtn {
+      top: -10px;
+      right: -10px;
+      width: 20px;
+      height: 20px;
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+    .fromPopup {
+      padding: 20px;
+      flex: 0 0 50%;
+      .MainFrom {
+        .inputBox {
+          margin-bottom: 10px;
+          input {
+            height: 40px;
+            border-radius: 10px;
+            font-size: 14px;
+            line-height: 22px;
+            padding: 0px 0px 0px 10px;
+          }
+        }
+        .inputText {
+          margin-bottom: 10px;
+          textarea {
+            height: 90px;
+            border-radius: 10px;
+            font-size: 14px;
+            line-height: 22px;
+            padding: 10px 0px 0px 10px;
+          }
+        }
+      }
+      .inputSubmit {
+        button {
+          border-radius: 64px;
+          height: 40px;
+          font-size: 14px;
+          line-height: 14px;
+          svg {
+            height: 10px;
+            margin-left: 5px;
+          }
+        }
+      }
+      .inputRange {
+        border-radius: 12px;
+        padding: 15px 15px;
+        margin-bottom: 10px;
+        label {
+          font-size: 14px;
+          line-height: 20px;
+          margin-bottom: 15px;
+        }
+        .priceRange {
+          margin: 0px auto;
+          input[type="range"] {
+            height: 10px;
+            &::-webkit-slider-thumb {
+              height: 20px;
+              width: 20px;
+            }
+          }
+        }
+        .progressItem {
+          font-size: 14px;
+          line-height: 22px;
+          margin-top: 12px;
+          div {
+            flex: 0 0 calc(100% / 3);
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .popupSection {
+    border-radius: 20px;
+    flex-wrap: wrap;
+    .bgIMG {
+      flex: 0 0 100%;
+      border-radius: 20px;
+      background-image: none !important;
+      &::after {
+        border-radius: 20px;
+      }
+    }
+    .fromTxt {
+      padding: 15px 15px 0px;
+      .logoSec {
+        svg {
+          height: 35px;
+          margin-bottom: 15px;
+        }
+        h3 {
+          font-size: 22px;
+        }
+        p {
+          font-size: 14px;
+          line-height: 22px;
+          &::after {
+            border-radius: 60px;
+            height: 4px;
+            width: 70px;
+            margin-top: 10px;
+          }
+        }
+      }
+
+      ul {
+        li {
+          font-size: 14px;
+          margin-bottom: 10px;
+          svg {
+            margin-right: 5px;
+            width: 14px;
+          }
+        }
+      }
+    }
+
+    .closedBtn {
+      top: -5px;
+      right: 0px;
+      width: 20px;
+      height: 20px;
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+    .fromPopup {
+      padding: 20px;
+      flex: 0 0 100%;
+
+      .MainFrom {
+        .inputBox {
+          margin-bottom: 5px;
+          input {
+            height: 40px;
+            border-radius: 10px;
+            font-size: 13px;
+            line-height: 22px;
+            padding: 0px 0px 0px 10px;
+            &::placeholder {
+              font-size: 13px;
+            }
+          }
+        }
+        .inputText {
+          margin-bottom: 5px;
+          textarea {
+            height: 80px;
+            border-radius: 10px;
+            font-size: 13px;
+            line-height: 22px;
+            padding: 10px 0px 0px 10px;
+            &::placeholder {
+              font-size: 13px;
+            }
+          }
+        }
+      }
+      .inputSubmit {
+        button {
+          border-radius: 64px;
+          height: 40px;
+          font-size: 14px;
+          line-height: 14px;
+          min-width: 100px;
+          svg {
+            height: 10px;
+            margin-left: 5px;
+          }
+        }
+      }
+      .inputRange {
+        border-radius: 12px;
+        padding: 15px 15px;
+        margin-bottom: 5px;
+        label {
+          font-size: 14px;
+          line-height: 20px;
+          margin-bottom: 15px;
+        }
+        .priceRange {
+          margin: 0px auto;
+          input[type="range"] {
+            height: 8px;
+            &::-webkit-slider-thumb {
+              height: 18px;
+              width: 18px;
+            }
+          }
+        }
+        .progressItem {
+          font-size: 13px;
+          line-height: 20px;
+          margin-top: 10px;
+          div {
+            flex: 0 0 calc(100% / 3);
+          }
+        }
+      }
+    }
+  }
+}

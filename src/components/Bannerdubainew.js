@@ -10,7 +10,7 @@ import { RxCross2 } from "react-icons/rx";
 import badgeClient from "media/newdubai/badgesClient.webp";
 import Star from "media/newDubaiPagev1/star.webp";
 import Clutch from "media/newDubaiPagev1/clutch.webp";
-
+import Popup from "@/src/app/home/components/popup";
 const Bannerdubai = ({ content }) => {
   const [showBg, setShowBg] = useState(false);
 
@@ -193,6 +193,7 @@ const Bannerdubai = ({ content }) => {
   }, []);
   return (
     <>
+      <Popup />
       <section className={`${styles.DubaiBanner} bg-black pt-140 pb-3`}>
         {/* <Image src={bg} fill priority={true} sizes='100vw' className='d-md-block d-none' style={{ zIndex: -1 }} alt={alt} /> */}
         {showBg && (

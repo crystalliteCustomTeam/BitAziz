@@ -79,7 +79,7 @@ const ContactFrom = ({ idea, appidea, discussion, popup, contactpage }) => {
         checkboxesdata: checkboxes.join(),
       },
     }
-    console.log(data)
+
 
     const JSONdata = JSON.stringify(data)
 
@@ -175,11 +175,9 @@ const ContactFrom = ({ idea, appidea, discussion, popup, contactpage }) => {
   return (
     <form onSubmit={handleSubmit}>
       <div
-        className={`${styles.commonFrom} ${idea ? styles.ideaFrom : ""} ${
-          appidea ? styles.appideaFrom : ""
-        } ${discussion ? styles.discussionFrom : ""} ${
-          popup ? styles.popupFrom : ""
-        }  ${contactpage ? styles.contactPage : ""}`}
+        className={`${styles.commonFrom} ${idea ? styles.ideaFrom : ""} ${appidea ? styles.appideaFrom : ""
+          } ${discussion ? styles.discussionFrom : ""} ${popup ? styles.popupFrom : ""
+          }  ${contactpage ? styles.contactPage : ""}`}
       >
         <div className={styles.fieldBox}>
           <input type="text" name="name" placeholder="Your Name" required />

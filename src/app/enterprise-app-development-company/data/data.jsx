@@ -1006,8 +1006,7 @@ export const IdeaCtaContent = {
   ),
   text: (
     <>
-      {" "}
-      Enterprise App <span>Together!</span>
+      App <span>Idea!</span>
     </>
   ),
   formtitle: "Get Free Consultation",

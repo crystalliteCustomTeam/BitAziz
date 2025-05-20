@@ -50,6 +50,8 @@ import IdeaCta from "@/src/app/services/ideacta"
 import Faqs from "@/src/app/services/faqs"
 import Blogs from "@/src/app/services/blogs"
 
+
+
 export default function Page() {
   const faqData = {
     "@context": "https://schema.org",

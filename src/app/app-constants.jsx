@@ -3817,7 +3817,43 @@ export function CheckList() {
             ></path>
         </svg>)
 }
-
+export function CheckListIcon() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="21"
+            fill="none"
+            viewBox="0 0 20 21"
+        >
+            <rect
+                width="20"
+                height="20"
+                y="0.746"
+                fill="url(#paint0_linear_165_4094)"
+                rx="5"
+            ></rect>
+            <path
+                fill="#fff"
+                d="M14.742 8.322a.954.954 0 0 0 0-1.306.855.855 0 0 0-1.248 0l-5.259 5.501-1.729-1.808a.855.855 0 0 0-1.248 0 .953.953 0 0 0 0 1.305l2.353 2.462c.345.36.904.36 1.248 0z"
+            ></path>
+            <defs>
+                <linearGradient
+                    id="paint0_linear_165_4094"
+                    x1="-16.21"
+                    x2="22.566"
+                    y1="7.532"
+                    y2="8.527"
+                    gradientUnits="userSpaceOnUse"
+                >
+                    <stop stopColor="#F32F56"></stop>
+                    <stop offset="0.51" stopColor="#F32FAF"></stop>
+                    <stop offset="1" stopColor="#4A78EF"></stop>
+                </linearGradient>
+            </defs>
+        </svg>
+    )
+}
 // Ecommerce Page
 
 export function EcommerceIcon01() {
