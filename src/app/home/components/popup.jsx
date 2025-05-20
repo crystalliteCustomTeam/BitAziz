@@ -250,8 +250,8 @@ const Popup = ({ txt }) => {
                                         name="price"
                                     />
                                     <div className={styles.progressItem}>
-                                        <div>$2000</div>
-                                        <div>${currentValue}</div>
+                                        <div>$2,000</div>
+                                        <div>${currentValue.toLocaleString()}</div>
                                         <div>$150,000</div>
                                     </div>
                                 </div>
