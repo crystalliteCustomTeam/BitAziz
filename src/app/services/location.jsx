@@ -21,7 +21,9 @@ import Qatar from "media/locations/Qatar.webp"
 import Bahrain from "media/locations/Bahrain.webp"
 import Pierre from "media/locations/Pierre.webp"
 import Sharjah from "media/locations/Sharjah.webp"
-import Karachi from "media/locations/karachi.jpg"
+import Karachi from "media/locations/karachi.webp"
+import Denver from "media/locations/Denver.webp"
+import Austin from "media/locations/Austin.webp"
 
 
 const OPTIONS = { align: 'start', loop: "true" }
@@ -152,6 +154,24 @@ const LocationList = [
         img: Sharjah.src,
         pin: "https://maps.app.goo.gl/nbce4oEJoivkzVnt5",
         alt: "BitsWits mobile app development company Sharjah"
+    },
+    {
+        state: "Denver",
+        add: "1035 Cherokee St, Denver, CO 80204, United States",
+        phone: "+1 833 500 6007",
+        email: "info@bitswits.co",
+        img: Denver.src,
+        pin: "https://maps.app.goo.gl/sYmX44iWw2fmkVD1A",
+        alt: "BitsWits mobile app development company Denver GMB"
+    },
+    {
+        state: "Austin",
+        add: "500 W 2nd St Suite 133, Austin, TX 78701, United States",
+        phone: "+1 833 500 6007",
+        email: "info@bitswits.co",
+        img: Austin.src,
+        pin: "https://maps.app.goo.gl/WPQzX6HGBgE6h4mZA",
+        alt: "BitsWits mobile app development company Denver GMB"
     },
 ]
 
