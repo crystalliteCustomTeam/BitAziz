@@ -25,7 +25,8 @@
   padding-left: 20px;
 }
 
-.level input[type="tel"] {
+.level input[type="tel"],
+.level input[type="number"] {
   height: 52px;
   width: 50%;
   background-color: #f3f3f3;
@@ -67,6 +68,12 @@
 }
 
 .level input[type="text"]::placeholder {
+  color: #000000;
+  font-size: 14px;
+  font-family: "SF-Pro-Display";
+}
+
+.level input[type="number"]::placeholder {
   color: #000000;
   font-size: 14px;
   font-family: "SF-Pro-Display";

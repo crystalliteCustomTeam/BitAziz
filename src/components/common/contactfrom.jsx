@@ -59,6 +59,7 @@ const ContactFrom = ({ idea, appidea, discussion, popup, contactpage }) => {
     const email = e.target.email.value.trim()
     const phone = e.target.phone.value.trim()
     const message = e.target.comment.value.trim()
+    const price = e.target.price.value.trim()
 
     if (!name || !email || !phone) {
       setError("Please fill in all required fields.")
@@ -132,6 +133,7 @@ const ContactFrom = ({ idea, appidea, discussion, popup, contactpage }) => {
           { objectTypeId: "0-1", name: "name", value: name },
           { objectTypeId: "0-1", name: "phone", value: phone },
           { objectTypeId: "0-1", name: "message", value: message },
+          { objectTypeId: "0-1", name: "price", value: price },
         ],
         context: {
           ipAddress: ip.IPv4,
@@ -193,7 +195,14 @@ const ContactFrom = ({ idea, appidea, discussion, popup, contactpage }) => {
             required
           />
         </div>
-
+        <div className={styles.fieldBox}>
+          <input
+            type="number"
+            name="price"
+            placeholder="Project Budget"
+            required
+          />
+        </div>
         {discussion ? (
           <textarea
             name="comment"

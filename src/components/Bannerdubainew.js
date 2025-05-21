@@ -66,6 +66,7 @@ const Bannerdubai = ({ content }) => {
         email: e.target.email.value,
         phone: e.target.phone.value,
         message: e.target.comment.value,
+        price: e.target.price.value,
         checkboxesdata: checkboxes.join(),
       },
     };
@@ -132,6 +133,11 @@ const Bannerdubai = ({ content }) => {
           objectTypeId: "0-1",
           name: "message",
           value: e.target.comment.value,
+        },
+        {
+          objectTypeId: "0-1",
+          name: "price",
+          value: e.target.price.value,
         },
       ],
       context: {
@@ -323,6 +329,13 @@ const Bannerdubai = ({ content }) => {
                   required
                   className="form-control mt-3"
                   placeholder="Email Address"
+                ></input>
+                <input
+                  type="number"
+                  name="price"
+                  required
+                  className="form-control mt-3"
+                  placeholder="Project Budget"
                 ></input>
                 <textarea
                   placeholder="Description"
