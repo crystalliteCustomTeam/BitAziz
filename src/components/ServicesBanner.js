@@ -3,11 +3,12 @@ import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "@/styles/ServicesBanner.module.css";
 
-
 const ServiceBanner = (props) => {
   return (
     <>
-      <section className={`${styles.newHomeBg} ${styles[props.assignClass]} pt-140`}>
+      <section
+        className={`${styles.newHomeBg} ${styles[props.assignClass]} pt-140`}
+      >
         <Container>
           <Row>
             <Col xl={12}>
@@ -29,7 +30,16 @@ const ServiceBanner = (props) => {
                   BOOK A CALL
                 </a>
 
-                <a className={styles.about} href='javascript:window.replaceChat();'>
+                <a
+                  className={styles.about}
+                  onClick={() => {
+                    if (window.Tawk_API?.maximize) {
+                      window.Tawk_API.maximize();
+                    } else {
+                      console.error("Tawk_API is not loaded.");
+                    }
+                  }}
+                >
                   LET'S CONNECT
                 </a>
               </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation"
+import { usePathname } from "next/navigation";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "@/styles/Justbuildit.module.css";
 //images
@@ -13,8 +13,7 @@ import banImg5 from "/public/images/banner/bannerImg1.png";
 import Slider from "react-slick";
 
 const Justbuildit = (props) => {
-
- const router = usePathname();
+  const router = usePathname();
 
   var bannerslider = {
     dots: false,
@@ -31,9 +30,11 @@ const Justbuildit = (props) => {
 
   return (
     <>
-      <section className={`${router == "/mobile-application-duplicate"
-        ? styles.slide1
-        : styles.slide
+      <section
+        className={`${
+          router == "/mobile-application-duplicate"
+            ? styles.slide1
+            : styles.slide
         }  ${props.paddingBottom} ${styles[props.assignClass]}`}
       >
         <Container>
@@ -45,7 +46,16 @@ const Justbuildit = (props) => {
               </h3>
 
               <div className={`${styles.pont} mb-4 mb-md-0`}>
-                <a className={styles.about} href="tel:8335006007">
+                <a
+                  className={styles.about}
+                  onClick={() => {
+                    if (window.Tawk_API?.maximize) {
+                      window.Tawk_API.maximize();
+                    } else {
+                      console.error("Tawk_API is not loaded.");
+                    }
+                  }}
+                >
                   LET'S CONNECT
                 </a>
               </div>

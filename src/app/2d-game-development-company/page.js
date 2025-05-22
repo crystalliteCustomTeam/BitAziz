@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState, useEffect } from "react";
 import Script from "next/script";
 //components
@@ -54,6 +54,7 @@ import techIcon9 from "/public/gametech/2d/icon9.png";
 import techIcon10 from "/public/gametech/2d/icon10.png";
 import techIcon11 from "/public/gametech/2d/icon11.png";
 import techIcon12 from "/public/gametech/2d/icon12.png";
+import Popup from "@/src/app/home/components/popup";
 
 export default function gamedevelopmentcompany() {
   const [isSliderActive, setIsSliderActive] = useState(true);
@@ -195,24 +196,30 @@ export default function gamedevelopmentcompany() {
           subtitle="Our Services Are Where Innovation Meets Play"
           title0={
             <>
-
               What You May Expect When <br /> Committing To Us?
             </>
           }
           appContent={[]}
           appContent1={[
             {
-              title: <> 2D Concept <br /> Art and Design </>,
+              title: (
+                <>
+                  {" "}
+                  2D Concept <br /> Art and Design{" "}
+                </>
+              ),
               text: "2D Concept Art and Design is an art form that combines creative design with technical know-how. Our team of experienced artists is well-versed in various techniques, including digital painting, 3D modeling, and animation. From character concept artwork to product designs, environments, and storyboards, we provide complete professional service for our clients.",
               appclass: "app",
             },
             {
               title: (
-                <> Single Player <br /> Games </>
+                <>
+                  {" "}
+                  Single Player <br /> Games{" "}
+                </>
               ),
               text: (
                 <>
-
                   Our team is well versed in various technologies such as C++,
                   Unity, Unreal Engine, HTML5, and more to provide a seamless
                   single-player gaming experience across different platforms.
@@ -227,11 +234,13 @@ export default function gamedevelopmentcompany() {
             },
             {
               title: (
-                <> Game App <br /> Integration </>
+                <>
+                  {" "}
+                  Game App <br /> Integration{" "}
+                </>
               ),
               text: (
                 <>
-
                   Our integration services offer a range of features across
                   platforms, including multiplayer mode, leaderboard
                   integration, in-app purchases, analytics, and more. Our
@@ -285,17 +294,32 @@ export default function gamedevelopmentcompany() {
         title="What Genre Of Games Do We Create?"
         sections={[
           {
-            title: <> iOS 2D <br /> Game Development </>,
+            title: (
+              <>
+                {" "}
+                iOS 2D <br /> Game Development{" "}
+              </>
+            ),
             text: "We offer top-notch iOS 2D game development services that combine top-of-the-line technology and creative designs. BitsWits is a master at creating visually compelling games with captivating storylines, vibrant characters, and intense levels. From conceptualization to design and launch, our team ensures you get a complete gaming experience that stands out from the crowd.",
             gameicon: gameicon1,
           },
           {
-            title: <> Android 2D <br /> Game Development </>,
+            title: (
+              <>
+                {" "}
+                Android 2D <br /> Game Development{" "}
+              </>
+            ),
             text: "BitsWits is the go-to destination for all your Android 2D game development needs. From creating solid and user-friendly architecture to stunning visuals and fast loading times, we ensure the outcome is exceptional. With our expertise in Java language and open-source platforms like Unity 2D & Unreal Engine, we provide high-end services for game development, design & testing.",
             gameicon: gameicon2,
           },
           {
-            title: <> 2D Games <br /> For Consoles And PCs </>,
+            title: (
+              <>
+                {" "}
+                2D Games <br /> For Consoles And PCs{" "}
+              </>
+            ),
             text: "BitsWits provides the best 2D games for PCs and consoles. With our expansive library of titles, you can get your hands on classic console and arcade games and explore new worlds full of adventure, excitement, and challenge. We create intricate storylines with captivating characters that draw players in from start to finish. We also work closely with our partners to develop world-class titles for platforms such as Xbox, PlayStation, Nintendo Switch, and Windows PC.",
             gameicon: gameicon3,
           },
@@ -329,14 +353,12 @@ export default function gamedevelopmentcompany() {
             title: "Talk To Our Experts",
             text: "Contact us without obligation by email or phone and secure your free consultation.",
             buttonText: "Connect Now!",
-            link: 'javascript:window.replaceChat();',
           },
           {
             number: "02",
             title: "Get A Quote",
             text: "Get an exact cost breakdown structure of your app.",
             buttonText: "Chat Now!",
-            link: 'javascript:window.replaceChat();',
           },
           {
             number: "03",
@@ -348,20 +370,20 @@ export default function gamedevelopmentcompany() {
         ]}
       />
       <TechnologiesGames
-        title={<>  2D Game Development </>}
+        title={<> 2D Game Development </>}
         platforms={[
-          { icon: techIcon1, label: 'HTML 5' },
-          { icon: techIcon2, label: 'Unity 2D' },
-          { icon: techIcon3, label: 'Unreal Engine' },
-          { icon: techIcon4, label: 'Android SDK' },
-          { icon: techIcon5, label: 'CryEngine' },
-          { icon: techIcon6, label: 'Game Maker Studio 2' },
-          { icon: techIcon7, label: 'Corona SDK' },
-          { icon: techIcon8, label: 'AppGameKit' },
-          { icon: techIcon9, label: 'SpriteKit' },
-          { icon: techIcon10, label: 'Godot Engine' },
-          { icon: techIcon11, label: 'Cocos 2D' },
-          { icon: techIcon12, label: 'Amazon Lumberyard' }
+          { icon: techIcon1, label: "HTML 5" },
+          { icon: techIcon2, label: "Unity 2D" },
+          { icon: techIcon3, label: "Unreal Engine" },
+          { icon: techIcon4, label: "Android SDK" },
+          { icon: techIcon5, label: "CryEngine" },
+          { icon: techIcon6, label: "Game Maker Studio 2" },
+          { icon: techIcon7, label: "Corona SDK" },
+          { icon: techIcon8, label: "AppGameKit" },
+          { icon: techIcon9, label: "SpriteKit" },
+          { icon: techIcon10, label: "Godot Engine" },
+          { icon: techIcon11, label: "Cocos 2D" },
+          { icon: techIcon12, label: "Amazon Lumberyard" },
         ]}
       />
       <Justbuildit />
@@ -369,50 +391,116 @@ export default function gamedevelopmentcompany() {
       <Partnerships />
       <Formnewlp />
       <ServicesFaqs
-        faqsData={
-          [
-            {
-              question: "What is 2D game development?",
-              answer:
-                (<> 2D game development involves creating interactive games that exist within a two-dimensional space, with gameplay occurring on a flat plane without depth. This type of game typically uses 2D graphics and animations. </>),
-            },
-            {
-              question: "What programming languages are commonly used for 2D game development?",
-              answer:
-                (<> Commonly used programming languages for 2D game development include C#, C++, Java, and Python. Game engines like Unity, Godot, and Phaser provide support for these languages and simplify the development process. </>),
-            },
-            {
-              question: "What are some popular tools and engines for 2D game development?",
-              answer:
-                (<> Popular tools and engines for 2D game development include:Unity (supports both 2D and 3D game development)<br /><br />
-                  Godot<br /><br />
-                  Unreal Engine (can be used for 2D as well as 3D games)<br /><br />
-                  Cocos2d-x<br /><br />
-                  Phaser<br /><br />
-                  Love2D<br /><br />
-                  Pico-8 </>),
-            },
-            {
-              question: "What is the difference between a sprite and a texture in 2D game development?",
-              answer:
-                (<> In 2D game development, a sprite is a 2D image or animation that represents an object or character in the game. A texture, on the other hand, is a 2D image used to apply visual details to objects, backgrounds, or surfaces in the game. </>),
-            },
-            {
-              question: "How can I handle collision detection in 2D games?",
-              answer:
-                (<> Collision detection in 2D games involves identifying when two or more objects in the game world come into contact. This can be achieved through various techniques, such as bounding box collision, pixel-perfect collision, or using physics engines provided by game development frameworks. </>),
-            },
-            {
-              question: "What are some common design considerations for 2D game development?",
-              answer:
-                (<> Design considerations for 2D games include:Game mechanics: Define how the game will be played and what actions are available to the player.<br /><br />
-                  Art and animation: Create or acquire 2D sprites, backgrounds, and animations that fit the game's style and theme.<br /><br />
-                  Level design: Plan and design the layout and challenges of game levels.<br /><br />
-                  User interface (UI) design: Create menus, HUD elements, and other interface components.<br /><br />
-                  Sound and music: Incorporate audio elements to enhance the gaming experience. </>),
-            },
-          ]
-        }
+        faqsData={[
+          {
+            question: "What is 2D game development?",
+            answer: (
+              <>
+                {" "}
+                2D game development involves creating interactive games that
+                exist within a two-dimensional space, with gameplay occurring on
+                a flat plane without depth. This type of game typically uses 2D
+                graphics and animations.{" "}
+              </>
+            ),
+          },
+          {
+            question:
+              "What programming languages are commonly used for 2D game development?",
+            answer: (
+              <>
+                {" "}
+                Commonly used programming languages for 2D game development
+                include C#, C++, Java, and Python. Game engines like Unity,
+                Godot, and Phaser provide support for these languages and
+                simplify the development process.{" "}
+              </>
+            ),
+          },
+          {
+            question:
+              "What are some popular tools and engines for 2D game development?",
+            answer: (
+              <>
+                {" "}
+                Popular tools and engines for 2D game development include:Unity
+                (supports both 2D and 3D game development)
+                <br />
+                <br />
+                Godot
+                <br />
+                <br />
+                Unreal Engine (can be used for 2D as well as 3D games)
+                <br />
+                <br />
+                Cocos2d-x
+                <br />
+                <br />
+                Phaser
+                <br />
+                <br />
+                Love2D
+                <br />
+                <br />
+                Pico-8{" "}
+              </>
+            ),
+          },
+          {
+            question:
+              "What is the difference between a sprite and a texture in 2D game development?",
+            answer: (
+              <>
+                {" "}
+                In 2D game development, a sprite is a 2D image or animation that
+                represents an object or character in the game. A texture, on the
+                other hand, is a 2D image used to apply visual details to
+                objects, backgrounds, or surfaces in the game.{" "}
+              </>
+            ),
+          },
+          {
+            question: "How can I handle collision detection in 2D games?",
+            answer: (
+              <>
+                {" "}
+                Collision detection in 2D games involves identifying when two or
+                more objects in the game world come into contact. This can be
+                achieved through various techniques, such as bounding box
+                collision, pixel-perfect collision, or using physics engines
+                provided by game development frameworks.{" "}
+              </>
+            ),
+          },
+          {
+            question:
+              "What are some common design considerations for 2D game development?",
+            answer: (
+              <>
+                {" "}
+                Design considerations for 2D games include:Game mechanics:
+                Define how the game will be played and what actions are
+                available to the player.
+                <br />
+                <br />
+                Art and animation: Create or acquire 2D sprites, backgrounds,
+                and animations that fit the game's style and theme.
+                <br />
+                <br />
+                Level design: Plan and design the layout and challenges of game
+                levels.
+                <br />
+                <br />
+                User interface (UI) design: Create menus, HUD elements, and
+                other interface components.
+                <br />
+                <br />
+                Sound and music: Incorporate audio elements to enhance the
+                gaming experience.{" "}
+              </>
+            ),
+          },
+        ]}
       />
       <HomeLocation />
       <Script id="websiteSchema" type="application/ld+json">

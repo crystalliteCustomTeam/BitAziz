@@ -17,7 +17,6 @@ import { register } from "swiper/element/bundle";
 import "swiper/css/effect-coverflow";
 
 export default function Nothing(props) {
-
   const swiperRef = useRef(null);
   useEffect(() => {
     register();
@@ -347,7 +346,16 @@ export default function Nothing(props) {
                   </swiper-slide>
                 </swiper-container>
                 <div className="mt-4 mt-md-5">
-                  <a href='javascript:window.replaceChat();' className={styles.btnpost}>
+                  <a
+                    onClick={() => {
+                      if (window.Tawk_API?.maximize) {
+                        window.Tawk_API.maximize();
+                      } else {
+                        console.error("Tawk_API is not loaded.");
+                      }
+                    }}
+                    className={styles.btnpost}
+                  >
                     Begin Your Success Story : Connect Now
                   </a>
                 </div>

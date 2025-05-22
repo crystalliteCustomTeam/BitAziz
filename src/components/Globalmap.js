@@ -12,18 +12,38 @@ const Globalmap = ({ content }) => {
           <Row className="align-items-center">
             <Col lg={6} className="p-0">
               <div className={styles.newtimg}>
-                <h2>Meet Our Experts <br></br>
-                  One-on-One</h2>
-                <a className={styles.address} target="_blank" href={link}>{address}</a>
-                <a className={`pink ${styles.timr}`} href='javascript:window.replaceChat();'>
-                  Let's Chat
+                <h2>
+                  Meet Our Experts <br></br>
+                  One-on-One
+                </h2>
+                <a className={styles.address} target="_blank" href={link}>
+                  {address}
                 </a>
-                <p className="black mb-0">Call us at <a className={styles.num} href={href}>{number}</a> </p>
+                <a
+                  className={`pink ${styles.timr}`}
+                  href="javascript:window.replaceChat();"
+                >
+                  Let's Chat1
+                </a>
+                <p className="black mb-0">
+                  Call us at{" "}
+                  <a className={styles.num} href={href}>
+                    {number}
+                  </a>{" "}
+                </p>
               </div>
             </Col>
             <Col lg={6} className="p-0">
               <a href={link} target="_blank">
-                <Image src={image} alt="Bitswits" loading="lazy" sizes="100vw" width={700} height={453} className="w-100" />
+                <Image
+                  src={image}
+                  alt="Bitswits"
+                  loading="lazy"
+                  sizes="100vw"
+                  width={700}
+                  height={453}
+                  className="w-100"
+                />
               </a>
             </Col>
           </Row>

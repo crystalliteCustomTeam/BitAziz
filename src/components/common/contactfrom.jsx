@@ -77,6 +77,7 @@ const ContactFrom = ({ idea, appidea, discussion, popup, contactpage }) => {
         email,
         phone,
         message,
+        price,
         checkboxesdata: checkboxes.join(),
       },
     }
