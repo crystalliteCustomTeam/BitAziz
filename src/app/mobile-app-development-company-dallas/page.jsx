@@ -1,24 +1,23 @@
 "use client";
 import React from "react";
-import Script from "next/script";
 // componets
-import Bannerdubai from "../../components/Bannerdubainew";
+import Bannerdubai from "@/src/components/Bannerdubainew";
 import NewDubaiAwards from "@/src/components/NewDubaiAwards";
 import FutureReady from "@/src/components/FuturereadyDubai";
-import Whowearenew from "../../components/Whowearenew";
+import Whowearenew from "@/src/components/Whowearenew";
 import DubaiDelivered from "@/src/components/DubaiDelivered";
 import DubaiTimeline from "@/src/components/DubaiTimeline";
 import DubaiClients from "@/src/components/DubaiClients";
 import Delivered from "@/src/components/Delivered";
 import Industries from "@/src/components/Industries";
-import Houtondubai from "../../components/Houtondubai";
+import Houtondubai from "@/src/components/Houtondubai";
 import DubaiBrandTrust from "@/src/components/DubaiBrandTrust";
-import Expertappdubaiadvanced from "../../components/Expertappdubaiadvanced";
-import Justbuilditlpdubai from "../../components/Justbuilditlpdubai";
-import Brand from "../../components/Brand";
-import Faqdubai from "../../components/Faqdubai";
-import Latestblog from "../../components/Latestblog";
-import Globalmap from "../../components/Globalmap";
+import Expertappdubaiadvanced from "@/src/components/Expertappdubaiadvanced";
+import Justbuilditlpdubai from "@/src/components/Justbuilditlpdubai";
+import Brand from "@/src/components/Brand";
+import Faqdubai from "@/src/components/Faqdubai";
+import Latestblog from "@/src/components/Latestblog";
+import Globalmap from "@/src/components/Globalmap";
 import MapImage from "media/newdubai/dallasMap.png";
 
 //Images
@@ -549,7 +548,7 @@ export default function dubaidevelopmentcompany() {
       <Latestblog blogBox={blogBox} />
       <Globalmap content={global} />
 
-      <Script
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -566,7 +565,7 @@ export default function dubaidevelopmentcompany() {
         }}
       />
 
-      <Script
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -594,7 +593,7 @@ export default function dubaidevelopmentcompany() {
         }}
       />
 
-      <Script
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -644,7 +643,7 @@ export default function dubaidevelopmentcompany() {
         }}
       />
 
-      <Script
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({

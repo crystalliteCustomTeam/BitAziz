@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import Axios from "axios";
 import { usePathname } from "next/navigation";
 import { Container, Row, Col, Modal } from "react-bootstrap";
 import styles from "@/styles/bannerdubainew.module.css";

@@ -30,14 +30,14 @@ export const metadata = {
   robots: {
     index: true,
     follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      noimageindex: true,
-      "max-snippet": -1,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-    },
+    // googleBot: {
+    //   index: true,
+    //   follow: true,
+    //   noimageindex: true,
+    //   "max-snippet": -1,
+    //   "max-video-preview": -1,
+    //   "max-image-preview": "large",
+    // },
   },
 };
 
@@ -51,7 +51,7 @@ export default function RootLayout({ children }) {
           sizes="48x48"
           type="image/x-icon"
         />
-        
+
         {/* Google Tag Manager Script */}
         <script dangerouslySetInnerHTML={{
           __html: `

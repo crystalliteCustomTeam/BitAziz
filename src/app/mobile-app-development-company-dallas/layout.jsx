@@ -17,33 +17,9 @@ export const metadata = {
   //===== GEO Tags =====
   other: {
     "DC.title": "Mobile App Development Company in Dallas - BitsWits",
-    "geo.region": "US",
-    "geo.position": "32.8219006, -96.8662865",
-    "ICBM": " 32.8219006, -96.8662865",
-    //==========
-    "DC.title": "Mobile App Development Company in Dallas - BitsWits",
     "geo.region": "US-TX",
     "geo.position": "32.8219006, -96.8662865",
-    "ICBM": "32.8219006, -96.8662865",
-    //==========
-    "DC.title": "Mobile App Development Company in Dallas - BitsWits",
-    "geo.region": "US-TX",
-    "geo.placename": "Dallas",
-    "geo.position": "32.8219006, -96.8662865",
-    "ICBM": "32.8219006, -96.8662865",
-  },
-  //===== No-Index =====
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      noimageindex: true,
-      'max-snippet': -1,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-    },
+    ICBM: "32.8219006, -96.8662865",
   },
 }
 
