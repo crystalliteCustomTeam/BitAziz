@@ -111,8 +111,15 @@ ul {
 img {
   max-width: 100%;
   height: auto;
+  pointer-events: none;
+  user-drag: none;
+  -webkit-user-drag: none;
 }
-
+video {
+  pointer-events: none;
+  user-drag: none;
+  -webkit-user-drag: none;
+}
 h1 {
   font-size: 50px;
   font-weight: 700;
