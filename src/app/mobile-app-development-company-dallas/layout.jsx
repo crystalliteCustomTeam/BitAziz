@@ -18,8 +18,10 @@ export const metadata = {
   other: {
     "DC.title": "Mobile App Development Company in Dallas - BitsWits",
     "geo.region": "US-TX",
+    "geo.placename": "Dallas",
     "geo.position": "32.8219006, -96.8662865",
     ICBM: "32.8219006, -96.8662865",
+
   },
 }
 
