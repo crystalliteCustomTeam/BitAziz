@@ -602,7 +602,6 @@ export default function dubaidevelopmentcompany() {
             name: "Mobile App Development Company in Dallas - BitsWits",
             image:
               "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdallas.783ee556.webp&w=1920&q=75",
-            description: "Trust our leading mobile app development company in Dallas to deliver expert solutions meeting your business needs with top-notch app development services.",
             url: "https://www.bitswits.co/mobile-app-development-company-dallas",
             telephone: "+18335006007",
             priceRange: "$10000",
