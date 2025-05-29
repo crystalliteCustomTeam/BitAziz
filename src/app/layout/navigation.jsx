@@ -244,6 +244,9 @@ const Navigation = ({ isDarkHeader, isLightHeader, scrolled }) => {
             </Link>
           </li>
           <li>
+            <Link href="/blog" onClick={handleClick}>Blog</Link>
+          </li>
+          <li>
             <Link href="/contact-us" onClick={handleClick}>
               Contact
             </Link>
