@@ -539,6 +539,7 @@ export default function gamedevelopmentcompany() {
               "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbann.35180669.png&w=1920&q=75",
               "url": "https://www.bitswits.co/2d-game-development-company",
               "telephone": "+1 713 565 7656",
+              "priceRange": "$10000",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100",
