@@ -151,7 +151,7 @@ const DubaiDelivered = ({ content }) => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5 }}
               >
-                <h2>{title}123</h2>
+                <h2>{title}</h2>
                 <p className="fontsfregular">{desc}</p>
                 <div className={styles.btn}>
                   <button onClick={modal} className="pink">
