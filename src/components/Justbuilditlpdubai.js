@@ -41,8 +41,10 @@ const Justbuilditlpdubai = (props) => {
   }
   useEffect(() => {
     window.replaceChat = function () {
-      if (window.Tawk_API && window.Tawk_API.maximize) {
-        window.Tawk_API.maximize();
+      if (window.LiveChatWidget?.call) {
+        window.LiveChatWidget.call("maximize");
+      } else {
+        console.warn("LiveChat is not loaded yet.");
       }
     };
   }, []);

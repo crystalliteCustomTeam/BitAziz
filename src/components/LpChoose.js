@@ -153,14 +153,14 @@ const LpChoose = (props) => {
                 <span>IT'S NOT JUST GOOD, BUT GREAT</span>.
               </p>
               <a
+                className={`pink ${styles.dus}`}
                 onClick={() => {
-                  if (window.Tawk_API?.maximize) {
-                    window.Tawk_API.maximize();
+                  if (window.LiveChatWidget?.call) {
+                    window.LiveChatWidget.call("maximize");
                   } else {
-                    console.error("Tawk_API is not loaded.");
+                    console.error("LiveChatWidget not loaded yet.");
                   }
                 }}
-                className={`pink ${styles.dus}`}
               >
                 Choose Expertise, Choose Bitswits – Let's Get Started
               </a>

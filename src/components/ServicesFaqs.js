@@ -74,10 +74,10 @@ const ServicesFaqs = (props) => {
               <a
                 className={`${styles.about} ${styles.customClass}`}
                 onClick={() => {
-                  if (window.Tawk_API?.maximize) {
-                    window.Tawk_API.maximize();
+                  if (window.LiveChatWidget?.call) {
+                    window.LiveChatWidget.call("maximize");
                   } else {
-                    console.error("Tawk_API is not loaded.");
+                    console.error("LiveChatWidget not loaded yet.");
                   }
                 }}
               >
