@@ -26,8 +26,8 @@ export default function AfterLoadScripts() {
       <GoogleTagManager gtmId="GTM-TFH5JWNF" />
 
       {/* ✅ Google Analytics */}
-      <GoogleAnalytics gaId="AW-11114809734" />
       <GoogleAnalytics gaId="G-T8JYHWL639" />
+      <GoogleAnalytics gaId="AW-11114809734" />
 
       {/* ✅ LiveChat */}
       <Script id="livechat-script" strategy="afterInteractive">
