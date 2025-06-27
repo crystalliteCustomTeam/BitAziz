@@ -1,17 +1,21 @@
 import { NextResponse } from "next/server";
 
-// Middleware is executed on the Edge
 export function middleware(request) {
-  // List of blocked country codes
-  const blockedCountries = ["PK", "IN", "BD", "IL"]; // IL = Israel
+  // Countries you want to block
+  const blockedCountries = ["PK", "IN", "BD", "IL"];
 
-  // Geo data is only available if Vercel/AWS provides it; fallback to 'US'
-  const country = request.geo?.country || "US";
+  // Next.js tries to get country from the hosting provider
+  // geo information is only available if your platform forwards it
+  const country = request.geo?.country || "US"; // fallback US if unknown
 
   if (blockedCountries.includes(country)) {
     return new Response("Access Denied", { status: 403 });
   }
 
-  // Allow all other traffic
   return NextResponse.next();
 }
+
+// You can adjust matcher to match everything except static files
+export const config = {
+  matcher: ["/((?!_next/static|_next/image|favicon.ico|robots.txt|api).*)"],
+};
