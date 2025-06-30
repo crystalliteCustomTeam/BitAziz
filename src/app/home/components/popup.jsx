@@ -25,7 +25,7 @@ const Popup = ({ txt }) => {
 )`;
 
     useEffect(() => {
-        const timer = setTimeout(() => setModalShow(true), 10000); // 10s
+        const timer = setTimeout(() => setModalShow(true), 15000); // 20s
         return () => clearTimeout(timer);
     }, []);
 
