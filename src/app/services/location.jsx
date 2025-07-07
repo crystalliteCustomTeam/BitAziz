@@ -24,6 +24,7 @@ import Sharjah from "media/locations/Sharjah.webp"
 import Karachi from "media/locations/karachi.webp"
 import Denver from "media/locations/Denver.webp"
 import Austin from "media/locations/Austin.webp"
+import Washington from "media/locations/WashingtonDC.webp"
 
 
 const OPTIONS = { align: 'start', loop: "true" }
@@ -118,6 +119,15 @@ const LocationList = [
         img: Dallas.src,
         pin: "https://maps.app.goo.gl/i76RsaokYHwn47vU9",
         alt: "BitsWits mobile app development company Dallas"
+    },
+    {
+        state: "Washington",
+        add: "1826 Park Rd NW, Washington, DC 20010, United States",
+        phone: "+1 833 500 6007",
+        email: "info@bitswits.co",
+        img: Washington.src,
+        pin: "https://g.page/r/CYImmDo1OETvEBM",
+        alt: "BitsWits mobile app development company Washington DC"
     },
     {
         state: "Qatar",
