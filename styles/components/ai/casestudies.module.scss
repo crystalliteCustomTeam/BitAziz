@@ -1,0 +1,178 @@
+.caseStudies {
+  background: #000;
+  h2 {
+    color: #fff;
+  }
+  .caseStudiesFullContainer {
+    border-top: 1px solid #fff;
+    transition: background 0.5s ease;
+    position: relative;
+    .caseStudiesContainer {
+      border-left: 1px solid #fff;
+
+      .caseStudiesContent {
+        padding: 50px 50px;
+        .subtitle {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 59px;
+          letter-spacing: -0.241964px;
+          text-transform: capitalize;
+          color: #ffffff;
+        }
+        h3 {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 30px;
+          line-height: 59px;
+          letter-spacing: -0.241964px;
+          text-transform: capitalize;
+          color: #ffffff;
+          transition: color 0.4s ease, margin-bottom 0.4s ease;
+        }
+        .txt {
+          height: 300px;
+          overflow: auto;
+          p {
+            color: #fff;
+            transition: color 0.4s ease;
+          }
+        }
+
+        .btnContainer {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          a {
+            border: 1px solid #fff;
+            height: 55px;
+            flex: 0 0 190px;
+            border-radius: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 58px;
+            letter-spacing: -0.167059px;
+            color: #ffffff;
+            transition: all 0.4s ease;
+          }
+        }
+      }
+      .caseStudiesImage {
+        position: relative;
+        height: 100%;
+        width: 1190px;
+        border-left: 1px solid #fff;
+        transition: all 0.5s ease;
+        img {
+          object-fit: cover;
+          object-position: center;
+          padding: 50px 0px 50px 50px;
+          transition: padding 0.5s ease;
+        }
+      }
+      .viewServices {
+        position: absolute;
+        color: #fff;
+        right: 100px;
+        bottom: 50px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: -0.167059px;
+        color: #ffffff;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(40px);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .arrowIcon {
+          background: linear-gradient(
+            91.47deg,
+            #f32f56 -78.17%,
+            #f32faf 18.3%,
+            #4a78ef 110.98%
+          );
+          width: 65px;
+          height: 65px;
+          border-radius: 65px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 10px;
+          transition: background 0.4s ease, transform 0.4s ease;
+          svg {
+            transform: rotate(-35deg);
+            transition: transform 0.4s ease;
+          }
+        }
+      }
+    }
+    &:last-child {
+      border-bottom: 1px solid #fff;
+    }
+    &:hover {
+      .caseStudiesContainer {
+        background: #fff;
+        .caseStudiesContent {
+          .subtitle {
+            color: #000;
+          }
+          h3 {
+            color: #000;
+            margin-bottom: 20px;
+          }
+          .txt {
+            p {
+              color: #000;
+            }
+          }
+        }
+        .btnContainer {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+
+          a {
+            border: 1px solid #000;
+            background: #000;
+            &:first-child {
+              background: linear-gradient(
+                91.47deg,
+                #f32f56 -78.17%,
+                #f32faf 18.3%,
+                #4a78ef 110.98%
+              );
+              border: 0px;
+            }
+          }
+        }
+        .caseStudiesImage {
+          width: auto;
+          border-left: 1px solid #000;
+          transition: all 0.5s ease;
+          img {
+            padding: 50px 50px 50px 50px;
+            transition: padding 0.5s ease;
+          }
+        }
+        .viewServices {
+          opacity: 1;
+          visibility: visible;
+          transform: translateY(0);
+          transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
+        }
+      }
+    }
+  }
+}

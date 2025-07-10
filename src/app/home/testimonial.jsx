@@ -6,13 +6,13 @@ import { FiveStarIcon, ClutchLogo, GoogleLogo, TrustpilotLogo } from "@/src/app/
 import useEmblaCarousel from 'embla-carousel-react'
 import AutoScroll from 'embla-carousel-auto-scroll'
 
-const Testimonial = ({ data, list }) => {
+const Testimonial = ({ data, list, bg }) => {
     const options = { loop: false }
     const [emblaRef] = useEmblaCarousel(options, [
         AutoScroll({ playOnInit: false, topOnInteraction: false, delay: 2000, })
     ])
     return (
-        <section className={`${styles.testimonialSection} pt-100`}>
+        <section className={`${styles.testimonialSection} pt-100 ${bg ? styles.BlackBg : ''}`}>
             <Container>
                 <Row>
                     <Col lg={7} md={7}>
@@ -48,21 +48,21 @@ const Testimonial = ({ data, list }) => {
                                             </div>
                                         </div>
                                     </div>
-                                    {list.map((tab, index) => ( 
+                                    {list.map((tab, index) => (
                                         <div className={styles.embla__slide} key={index}>
-                                        <div className={styles.testimonialItems}>
-                                            <div className={styles.testimonialImage}>
-                                                {tab?.logo}
-                                            </div>
-                                            <div className={styles.testimonialTxt}>
-                                                <p><span>“</span>{tab?.text}<span>”</span></p>
-                                            </div>
-                                            <div className={styles.testimonialInfo}>
-                                                <div className={styles.nameInfo}>{tab?.name}</div>
-                                                <div className={styles.designationInfo}>{tab?.designation}</div>
+                                            <div className={styles.testimonialItems}>
+                                                <div className={styles.testimonialImage}>
+                                                    {tab?.logo}
+                                                </div>
+                                                <div className={styles.testimonialTxt}>
+                                                    <p><span>“</span>{tab?.text}<span>”</span></p>
+                                                </div>
+                                                <div className={styles.testimonialInfo}>
+                                                    <div className={styles.nameInfo}>{tab?.name}</div>
+                                                    <div className={styles.designationInfo}>{tab?.designation}</div>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
                                     ))}
                                 </div>
                             </div>

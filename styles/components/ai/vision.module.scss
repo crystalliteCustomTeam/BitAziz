@@ -1,0 +1,92 @@
+.visionSection {
+  background: #000;
+  .VisionContainer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  h2 {
+    color: #fff;
+  }
+  P {
+    color: #fff;
+  }
+  .bannerBtn {
+    background: linear-gradient(
+      91.47deg,
+      #f32f56 -78.17%,
+      #f32faf 18.3%,
+      #4a78ef 110.98%
+    );
+    border-radius: 55px;
+    min-width: 220px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: -0.14px;
+    color: #ffffff;
+    border: 0px;
+
+    a {
+      color: #ffffff;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .Visionwrap {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .visionCounter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #252525;
+    border-bottom: 1px solid #252525;
+    padding-top: 50px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    .visionCounterItem {
+      flex: 0 0 calc(25% - 20px);
+      background: #0a0a0a;
+      border-radius: 10px;
+      height: 180px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border: 1px solid #252525;
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        color: #afafaf;
+        margin-bottom: 0px;
+      }
+      h4 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: -0.165px;
+        color: #ffffff;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

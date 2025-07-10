@@ -1,0 +1,111 @@
+.bannerSection {
+  background: #000;
+  height: 100vh;
+  .bannerTxt {
+    position: relative;
+    z-index: 999;
+    h1 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 60px;
+      line-height: 70px;
+      text-transform: capitalize;
+      color: #ffffff;
+    }
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 26px;
+      letter-spacing: -0.143848px;
+      color: #ffffff;
+      margin-bottom: 20px;
+    }
+    .bannerBtn {
+      background: linear-gradient(
+        91.47deg,
+        #f32f56 -78.17%,
+        #f32faf 18.3%,
+        #4a78ef 110.98%
+      );
+      border-radius: 55px;
+      min-width: 220px;
+      height: 50px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 14px;
+      text-align: center;
+      letter-spacing: -0.14px;
+      color: #ffffff;
+      border: 0px;
+
+      a {
+        color: #ffffff;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .rating {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18.7432px;
+      line-height: 23px;
+      display: flex;
+      align-items: center;
+      text-transform: capitalize;
+      color: #ffffff;
+      gap: 5px;
+      margin-bottom: 20px;
+      svg {
+        width: auto;
+        height: 16px;
+      }
+    }
+  }
+  .bannerCounter {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    .counterItem {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 37px;
+      letter-spacing: -0.0610296px;
+      color: #ffffff;
+      border-right: 1px solid #d9d9d9;
+      width: 160px;
+      &:last-child {
+        border-right: none;
+      }
+      .value {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 37px;
+        color: #ffffff;
+        letter-spacing: 1px;
+      }
+    }
+  }
+  //   .bannerImg {
+  //     position: absolute;
+  //     right: 20px;
+  //     top: 50%;
+  //     transform: translate(0px, -50%);
+  //     z-index: -1;
+  //   }
+  //   .bannerVideo {
+  //     position: absolute;
+  //     right: -200px;
+  //     top: 50%;
+  //     transform: translate(0px, -50%);
+  //     z-index: -1;
+  //   }
+}

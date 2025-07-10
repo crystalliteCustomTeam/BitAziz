@@ -1,0 +1,51 @@
+.whyChooseSection {
+  background: #000;
+
+  .whyChooseContainer {
+    background: #fff;
+    padding: 100px 50px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 40px;
+    .whyChooseWraper {
+      display: flex;
+      margin-top: 50px;
+      .whyChooseItem {
+        flex: 0 0 33.33%;
+        padding: 50px;
+        text-align: center;
+        border-right: 1px solid #000;
+        &:last-child {
+          border-right: none;
+        }
+        .number {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 26px;
+          line-height: 26px;
+          letter-spacing: -0.165px;
+          background: linear-gradient(
+            90deg,
+            #f32f56 -40%,
+            #f32faf 40%,
+            #4a78ef 60%
+          );
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          margin-bottom: 20px;
+        }
+        h5 {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 35px;
+          line-height: 45px;
+          letter-spacing: -0.117052px;
+          color: #000000;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}

@@ -6,7 +6,7 @@ import { PlusFaqIcon, MinusFaqIcon } from "@/src/app/app-constants";
 
 
 
-const Faqs = ({ data, list }) => {
+const Faqs = ({ data, list, bg }) => {
     const [activeIndex, setActiveIndex] = useState(0);
 
     const toggleFaq = (index) => {
@@ -14,22 +14,22 @@ const Faqs = ({ data, list }) => {
     };
 
     return (
-        <section className={`${styles.faqsSection} p-100`}>
+        <section className={`${styles.faqsSection} p-100 ${bg ? styles.BlackBg : ''}`}>
             <Container>
                 <Row>
-                    <Col xl={5} lg={5} md={5}>
-                    <div className="subTitle txtColor">{data?.subtitle}</div>
+                    <Col xl={bg ? 10 : 5} lg={bg ? 10 : 5} md={bg ? 10 : 5} className={bg ? "m-auto text-center" : ""}>
+                        <div className="subTitle txtColor">{data?.subtitle}</div>
                         <h2>{data?.title}</h2>
                         <p>{data?.content}</p>
                     </Col>
-                    <Col xl={6} lg={7} md={7} className="offset-xl-1">
+                    <Col xl={bg ? 10 : 6} lg={bg ? 10 : 7} md={bg ? 10 : 7} className={bg ? "m-auto" : "offset-xl-1"}>
                         {list.map((items, index) => (
                             <div className={`${styles.faqsBox} ${activeIndex === index ? styles.active : ""}`} key={index}>
                                 <div
                                     className={`${styles.faqsTitle} ${activeIndex === index ? styles.active : ""}`}
                                     onClick={() => toggleFaq(index)}
                                 >
-                                    {items.title} {activeIndex === index ? <MinusFaqIcon /> : <PlusFaqIcon />}
+                                    {bg ? <span>0{index + 1}</span> : ""} {items.title} {activeIndex === index ? <MinusFaqIcon /> : <PlusFaqIcon />}
                                 </div>
                                 <div className={`${styles.faqscontent} ${activeIndex === index ? styles.active : ""}`}>
                                     {items.txt}

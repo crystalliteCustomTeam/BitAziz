@@ -587,6 +587,126 @@ export default function gamedevelopmentcompany() {
         }}
       />
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is 2D game development?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "2D game development involves creating interactive games that exist within a two-dimensional space, with gameplay occurring on a flat plane without depth. This type of game typically uses 2D graphics and animations."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What programming languages are commonly used for 2D game development?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Commonly used programming languages for 2D game development include C#, C++, Java, and Python. Game engines like Unity, Godot, and Phaser provide support for these languages and simplify the development process."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What are some popular tools and engines for 2D game development?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Popular tools and engines for 2D game development include: Unity (supports both 2D and 3D game development), Godot, Unreal Engine (can be used for 2D as well as 3D games), Cocos2d-x, Phaser, Love2D, and Pico-8."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is the difference between a sprite and a texture in 2D game development?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "In 2D game development, a sprite is a 2D image or animation that represents an object or character in the game. A texture, on the other hand, is a 2D image used to apply visual details to objects, backgrounds, or surfaces in the game."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How can I handle collision detection in 2D games?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Collision detection in 2D games involves identifying when two or more objects in the game world come into contact. This can be achieved through various techniques, such as bounding box collision, pixel-perfect collision, or using physics engines provided by game development frameworks."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What are some common design considerations for 2D game development?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Design considerations for 2D games include: Game mechanics, art and animation, level design, user interface design, and sound/music integration."
+                }
+              }
+            ]
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is 3D game development?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "3D game development involves creating interactive games that exist within a three-dimensional space, allowing for depth and perspective in gameplay. It uses 3D models, textures, and animations to create realistic environments and characters."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What programming languages are commonly used for 3D game development?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Commonly used programming languages for 3D game development include C++, C#, Python, and Java. Game engines like Unity and Unreal Engine provide support for these languages and streamline the development process."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What are some popular tools and engines for 3D game development?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Popular tools and engines for 3D game development include: Unity, Unreal Engine, Blender, Autodesk Maya, 3ds Max, and ZBrush."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I handle 3D modeling and animation in game development?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "3D modeling involves creating the objects, characters, and environments in the game, while animation involves giving movement and behavior to those models. This is typically done using specialized software tools like Blender, Maya, or 3ds Max."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is the process for implementing physics in a 3D game?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Physics in 3D games involves simulating real-world physical interactions, such as gravity, collisions, and forces. Game engines like Unity and Unreal Engine provide built-in physics engines that handle these interactions, allowing developers to define properties and behaviors for game objects."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What are some important considerations for optimizing performance in 3D games?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Optimizing performance in 3D games is crucial for smooth gameplay. Considerations include using Level of Detail (LOD), occlusion culling, texture compression, and efficient rendering techniques like frustum culling."
+                }
+              }
+            ]
+          })
+        }}
+      />
+
     </>
   );
 }
