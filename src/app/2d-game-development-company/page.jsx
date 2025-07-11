@@ -647,65 +647,7 @@ export default function gamedevelopmentcompany() {
         }}
       />
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "What is 3D game development?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "3D game development involves creating interactive games that exist within a three-dimensional space, allowing for depth and perspective in gameplay. It uses 3D models, textures, and animations to create realistic environments and characters."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What programming languages are commonly used for 3D game development?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Commonly used programming languages for 3D game development include C++, C#, Python, and Java. Game engines like Unity and Unreal Engine provide support for these languages and streamline the development process."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What are some popular tools and engines for 3D game development?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Popular tools and engines for 3D game development include: Unity, Unreal Engine, Blender, Autodesk Maya, 3ds Max, and ZBrush."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How do I handle 3D modeling and animation in game development?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "3D modeling involves creating the objects, characters, and environments in the game, while animation involves giving movement and behavior to those models. This is typically done using specialized software tools like Blender, Maya, or 3ds Max."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What is the process for implementing physics in a 3D game?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Physics in 3D games involves simulating real-world physical interactions, such as gravity, collisions, and forces. Game engines like Unity and Unreal Engine provide built-in physics engines that handle these interactions, allowing developers to define properties and behaviors for game objects."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What are some important considerations for optimizing performance in 3D games?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Optimizing performance in 3D games is crucial for smooth gameplay. Considerations include using Level of Detail (LOD), occlusion culling, texture compression, and efficient rendering techniques like frustum culling."
-                }
-              }
-            ]
-          })
-        }}
-      />
+
 
     </>
   );

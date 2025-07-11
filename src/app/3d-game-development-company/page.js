@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState, useEffect } from "react";
 import Script from "next/script";
 //components
@@ -46,9 +46,7 @@ import hybridiphone from "/public/3dapp/supportandmaintenance.png";
 import techIcon1 from "/public/gametech/2d/icon1.png";
 import techIcon2 from "/public/gametech/2d/icon2.png";
 
-
 const mobileApplication = () => {
-
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -76,26 +74,24 @@ const mobileApplication = () => {
         subtitle: "The Work We Undertake",
         title1: "The Genres Of Games We Develop",
         text: `We are famous for creating immersive game experiences with engaging storylines, stunning visuals, and innovative gameplay mechanics.
-        Here's an exciting rundown of what we bring to the table.`
-
+        Here's an exciting rundown of what we bring to the table.`,
       },
       serdata: [
-
         {
-          title: (<>3D Game Concept Art </>),
+          title: <>3D Game Concept Art </>,
           text: "Our design and 3D game development team have extensive experience crafting vibrant and immersive artwork for various gaming applications. From characters and environmental designs to UI/UX, we can help define the visual identity of any game.",
           appclass: "app",
           appclass: "app1",
           imgservice: customios,
         },
         {
-          title: (<> 3D Web and App Development </>),
-          text: 'BitsWits offers world-class solutions for both web and mobile platforms. We specialized in creating stunning 3D apps with modern technologies such as Augmented Reality, Virtual Reality, 3D Modeling and Animation, WebGL, HTML5/CSS3, etc.',
+          title: <> 3D Web and App Development </>,
+          text: "BitsWits offers world-class solutions for both web and mobile platforms. We specialized in creating stunning 3D apps with modern technologies such as Augmented Reality, Virtual Reality, 3D Modeling and Animation, WebGL, HTML5/CSS3, etc.",
           appclass: "app2",
           imgservice: iphoneapp,
         },
         {
-          title: 'Advanced 3D Videos',
+          title: "Advanced 3D Videos",
           text: "With our state-of-the-art technology, we can turn your ideas into fully rendered 3D game videos with stunning visuals. Our services range from custom-created 3D game videos to motion capture animation.",
           appclass: "app3",
           imgservice: applewatch,
@@ -198,15 +194,14 @@ const mobileApplication = () => {
           subtitle="The Work We Undertake"
           title0={
             <>
-
               The Genres Of <span>Games</span> We Develop
             </>
           }
           text={
             <>
-
-              We are famous for creating immersive game experiences with engaging
-              storylines, stunning visuals, and innovative gameplay mechanics.
+              We are famous for creating immersive game experiences with
+              engaging storylines, stunning visuals, and innovative gameplay
+              mechanics.
               <br />
               Here's an exciting rundown of what we bring to the table.
             </>
@@ -216,7 +211,6 @@ const mobileApplication = () => {
             {
               title: (
                 <>
-
                   3D Game <br /> Concept Art
                 </>
               ),
@@ -226,7 +220,6 @@ const mobileApplication = () => {
             {
               title: (
                 <>
-
                   3D Web and App <br /> Development
                 </>
               ),
@@ -236,7 +229,6 @@ const mobileApplication = () => {
             {
               title: (
                 <>
-
                   Advanced <br /> 3D Videos
                 </>
               ),
@@ -330,14 +322,14 @@ const mobileApplication = () => {
             title: "Talk To Our Experts",
             text: "Contact us without obligation by email or phone and secure your free consultation.",
             buttonText: "Connect Now!",
-            link: 'javascript:window.replaceChat();',
+            link: "javascript:window.replaceChat();",
           },
           {
             number: "02",
             title: "Get A Quote",
             text: "Get an exact cost breakdown structure of your app.",
             buttonText: "Chat Now!",
-            link: 'javascript:window.replaceChat();',
+            link: "javascript:window.replaceChat();",
           },
           {
             number: "03",
@@ -349,10 +341,10 @@ const mobileApplication = () => {
         ]}
       />
       <TechnologiesGames
-        title={<>  3D Game Development </>}
+        title={<> 3D Game Development </>}
         platforms={[
-          { icon: techIcon1, label: 'python' },
-          { icon: techIcon2, label: 'Unity' }
+          { icon: techIcon1, label: "python" },
+          { icon: techIcon2, label: "Unity" },
         ]}
       />
       <Justbuildit />
@@ -360,48 +352,106 @@ const mobileApplication = () => {
       <Partnerships />
       <Formnewlp />
       <ServicesFaqs
-        faqsData={
-          [
-            {
-              question: "What is 3D game development?",
-              answer:
-                (<> 3D game development involves creating interactive games that exist within a three-dimensional space, allowing for depth and perspective in gameplay. It uses 3D models, textures, and animations to create realistic environments and characters. </>),
-            },
-            {
-              question: "What programming languages are commonly used for 3D game development?",
-              answer:
-                (<> Commonly used programming languages for 3D game development include C++, C#, Python, and Java. Game engines like Unity and Unreal Engine provide support for these languages and streamline the development process. </>),
-            },
-            {
-              question: "What are some popular tools and engines for 3D game development?",
-              answer:
-                (<> 1. Popular tools and engines for 3D game development include:Unity <br /><br />
-                  2. Unreal Engine <br /><br />
-                  3. Blender (for 3D modeling and animation) <br /><br />
-                  4. Autodesk Maya (for 3D modeling and animation) <br /><br />
-                  5. 3ds Max (for 3D modeling and animation) <br /><br />
-                  ZBrush (for sculpting and texturing) </>),
-            },
-            {
-              question: "How do I handle 3D modeling and animation in game development?",
-              answer:
-                (<> 3D modeling involves creating the objects, characters, and environments in the game, while animation involves giving movement and behavior to those models. This is typically done using specialized software tools like Blender, Maya, or 3ds Max. </>),
-            },
-            {
-              question: "What is the process for implementing physics in a 3D game?",
-              answer:
-                (<> Physics in 3D games involves simulating real-world physical interactions, such as gravity, collisions, and forces. Game engines like Unity and Unreal Engine provide built-in physics engines that handle these interactions, allowing developers to define properties and behaviors for game objects. </>),
-            },
-            {
-              question: "What are some important considerations for optimizing performance in 3D games?",
-              answer:
-                (<> 1. Optimizing performance in 3D games is crucial for smooth gameplay. Considerations include:Level of Detail (LOD): Use lower-polygon models for objects that are farther away from the camera.<br /><br />
-                  2. Occlusion Culling: Hide objects that are not currently visible to the camera.<br /><br />
-                  3. Texture Compression: Use compressed textures to save memory and improve loading times.<br /><br />
-                  Efficient Rendering: Utilize techniques like frustum culling to only render objects within the camera's view. </>),
-            },
-          ]
-        }
+        faqsData={[
+          {
+            question: "What is 3D game development?",
+            answer: (
+              <>
+                {" "}
+                3D game development involves creating interactive games that
+                exist within a three-dimensional space, allowing for depth and
+                perspective in gameplay. It uses 3D models, textures, and
+                animations to create realistic environments and characters.{" "}
+              </>
+            ),
+          },
+          {
+            question:
+              "What programming languages are commonly used for 3D game development?",
+            answer: (
+              <>
+                {" "}
+                Commonly used programming languages for 3D game development
+                include C++, C#, Python, and Java. Game engines like Unity and
+                Unreal Engine provide support for these languages and streamline
+                the development process.{" "}
+              </>
+            ),
+          },
+          {
+            question:
+              "What are some popular tools and engines for 3D game development?",
+            answer: (
+              <>
+                {" "}
+                1. Popular tools and engines for 3D game development
+                include:Unity <br />
+                <br />
+                2. Unreal Engine <br />
+                <br />
+                3. Blender (for 3D modeling and animation) <br />
+                <br />
+                4. Autodesk Maya (for 3D modeling and animation) <br />
+                <br />
+                5. 3ds Max (for 3D modeling and animation) <br />
+                <br />
+                ZBrush (for sculpting and texturing){" "}
+              </>
+            ),
+          },
+          {
+            question:
+              "How do I handle 3D modeling and animation in game development?",
+            answer: (
+              <>
+                {" "}
+                3D modeling involves creating the objects, characters, and
+                environments in the game, while animation involves giving
+                movement and behavior to those models. This is typically done
+                using specialized software tools like Blender, Maya, or 3ds Max.{" "}
+              </>
+            ),
+          },
+          {
+            question:
+              "What is the process for implementing physics in a 3D game?",
+            answer: (
+              <>
+                {" "}
+                Physics in 3D games involves simulating real-world physical
+                interactions, such as gravity, collisions, and forces. Game
+                engines like Unity and Unreal Engine provide built-in physics
+                engines that handle these interactions, allowing developers to
+                define properties and behaviors for game objects.{" "}
+              </>
+            ),
+          },
+          {
+            question:
+              "What are some important considerations for optimizing performance in 3D games?",
+            answer: (
+              <>
+                {" "}
+                1. Optimizing performance in 3D games is crucial for smooth
+                gameplay. Considerations include:Level of Detail (LOD): Use
+                lower-polygon models for objects that are farther away from the
+                camera.
+                <br />
+                <br />
+                2. Occlusion Culling: Hide objects that are not currently
+                visible to the camera.
+                <br />
+                <br />
+                3. Texture Compression: Use compressed textures to save memory
+                and improve loading times.
+                <br />
+                <br />
+                Efficient Rendering: Utilize techniques like frustum culling to
+                only render objects within the camera's view.{" "}
+              </>
+            ),
+          },
+        ]}
       />
       <HomeLocation />
 
@@ -502,6 +552,65 @@ const mobileApplication = () => {
           }             
         `}
       </Script>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What is 3D game development?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "3D game development involves creating interactive games that exist within a three-dimensional space, allowing for depth and perspective in gameplay. It uses 3D models, textures, and animations to create realistic environments and characters.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What programming languages are commonly used for 3D game development?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Commonly used programming languages for 3D game development include C++, C#, Python, and Java. Game engines like Unity and Unreal Engine provide support for these languages and streamline the development process.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What are some popular tools and engines for 3D game development?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Popular tools and engines for 3D game development include: Unity, Unreal Engine, Blender, Autodesk Maya, 3ds Max, and ZBrush.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How do I handle 3D modeling and animation in game development?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "3D modeling involves creating the objects, characters, and environments in the game, while animation involves giving movement and behavior to those models. This is typically done using specialized software tools like Blender, Maya, or 3ds Max.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What is the process for implementing physics in a 3D game?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Physics in 3D games involves simulating real-world physical interactions, such as gravity, collisions, and forces. Game engines like Unity and Unreal Engine provide built-in physics engines that handle these interactions, allowing developers to define properties and behaviors for game objects.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What are some important considerations for optimizing performance in 3D games?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Optimizing performance in 3D games is crucial for smooth gameplay. Considerations include using Level of Detail (LOD), occlusion culling, texture compression, and efficient rendering techniques like frustum culling.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </>
   );
 };
