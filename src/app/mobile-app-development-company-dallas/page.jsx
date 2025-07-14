@@ -36,6 +36,7 @@ import blog1 from "/public/newdubai/blog1.png";
 import blog2 from "/public/newdubai/blog2.png";
 import blog3 from "/public/newdubai/blog3.png";
 import HeroBg from "/public/newhouston/dallas.webp";
+import Link from "next/link";
 
 export default function dubaidevelopmentcompany() {
   // Banner Content
@@ -102,7 +103,7 @@ export default function dubaidevelopmentcompany() {
         As a leading mobile app developer in Dallas, we create innovative
         Android and iOS apps using advanced technology and tools. Our focus on
         high-quality applications, excellent service, and customer satisfaction
-        is what makes us a trusted mobile app development company Dallas.
+        is what makes us a trusted <Link href="https://maps.app.goo.gl/i76RsaokYHwn47vU9" target="_blank" className="whiteBgColor">mobile app development company Dallas</Link>.
         <span className="d-block mt-2">
           Here are the services we offer:
         </span>{" "}

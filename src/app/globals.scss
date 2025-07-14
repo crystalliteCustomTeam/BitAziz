@@ -6,6 +6,18 @@ a {
   color: #ffffff;
 }
 
+.whiteBgColor {
+  &:hover {
+    color: #f32f56;
+  }
+}
+
+.ColorBalckBG {
+  color: #000;
+  &:hover {
+    color: #ffffff;
+  }
+}
 body {
   max-width: 1920px;
   overflow-x: hidden;

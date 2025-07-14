@@ -36,6 +36,7 @@ import blog2 from "/public/newdubai/blog2.png";
 import blog3 from "/public/newdubai/blog3.png";
 import HeroBg from "/public/newhouston/austin.webp";
 import MapImage from "media/newdubai/austinMap.png";
+import Link from "next/link";
 
 export default function dubaidevelopmentcompany() {
   // Banner Content
@@ -194,9 +195,16 @@ export default function dubaidevelopmentcompany() {
       <>
         {" "}
         <span className="text-black d-block">
-          As an exclusive mobile app development company in Austin, our core aim
-          is to satisfy our customers’ needs & provide them with indigenous
-          digital apps.
+          As an exclusive{" "}
+          <Link
+            href="https://maps.app.goo.gl/WPQzX6HGBgE6h4mZA"
+            target="_blank"
+            className="whiteBgColor"
+          >
+            mobile app development company in Austin
+          </Link>
+          , our core aim is to satisfy our customers’ needs & provide them with
+          indigenous digital apps.
         </span>
         <span className="text-black d-block">
           Our unwavering commitment to excellence, delivering efficient yet
@@ -396,11 +404,11 @@ export default function dubaidevelopmentcompany() {
   ];
   // Global Conten
   const global = {
-    address: "",
+    address: "500 W 2nd St Suite 133, Austin, TX 78701, United States",
     number: "(833) 500 6007",
     href: "tel:+8335006007",
     image: MapImage,
-    link: "",
+    link: "https://maps.app.goo.gl/WPQzX6HGBgE6h4mZA",
   };
   return (
     <>

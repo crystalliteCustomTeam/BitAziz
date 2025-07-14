@@ -432,8 +432,21 @@ export default function dubaidevelopmentcompany() {
           },
           {
             title: "Blockchain",
-            description:
-              "Blockchain technology offers a secure and transparent framework for transactions. Our mobile app development company Houston uses Blockchain technology to ensure data integrity as well as the stability of your apps.",
+            description: (
+              <>
+                Blockchain technology offers a secure and transparent framework
+                for transactions. Our{" "}
+                <Link
+                  href="https://www.bitswits.co/app-development-houston"
+                  target="_blank"
+                  className="ColorBalckBG"
+                >
+                  mobile app development company Houston
+                </Link>{" "}
+                uses Blockchain technology to ensure data integrity as well as
+                the stability of your apps.
+              </>
+            ),
             imageSrc: banImg1,
           },
           {

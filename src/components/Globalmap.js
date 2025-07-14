@@ -23,7 +23,7 @@ const Globalmap = ({ content }) => {
                   className={`pink ${styles.timr}`}
                   href="javascript:window.replaceChat();"
                 >
-                  Let's Chat1
+                  Let's Chat
                 </a>
                 <p className="black mb-0">
                   Call us at{" "}
