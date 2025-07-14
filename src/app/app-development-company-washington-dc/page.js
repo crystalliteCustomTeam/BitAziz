@@ -458,11 +458,11 @@ export default function dubaidevelopmentcompany() {
   ];
   // Global Content
   const global = {
-    address: "",
+    address: "1826 Park Rd NW, Washington, DC 20010",
     number: "(833) 500-6007",
     href: "tel:+8335006007",
     image: MapImage,
-    link: "",
+    link: "https://g.page/r/CYImmDo1OETvEBM",
   };
 
   return (

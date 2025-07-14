@@ -11,48 +11,56 @@ const ServicesMenu = [
     url: "/mobile-application-development-services",
   },
   {
-    title: "Flutter app development",
-    url: "/flutter-app-development",
+    title: "AI Development Company",
+    url: "/ai-development-company",
   },
   {
     title: "Android app development",
     url: "/android-app-development-company",
   },
   {
-    title: "React Native app development",
-    url: "/react-native-app-development",
+    title: "Mobile Game Development",
+    url: "/mobile-game-development-company",
   },
   {
     title: "iOS app development",
     url: "/ios-app-development-company",
   },
   {
-    title: "Cross Platform app development",
-    url: "/cross-platform-app-development-services",
-  },
-  {
-    title: "NFT game development",
-    url: "/nft-game-development-company",
-  },
-  {
-    title: "AI Development Company",
+    title: "2d Game Development",
     url: "/ai-development-company",
-  },
-  {
-    title: "Blockchain game development",
-    url: "/blockchain-game-development-company",
-  },
-  {
-    title: "Mobile Game Development",
-    url: "/mobile-game-development-company",
   },
   {
     title: "Hybrid app development",
     url: "/hybrid-app-development-company",
   },
   {
+    title: "3d Game Development",
+    url: "/ai-development-company",
+  },
+  {
+    title: "React Native app development",
+    url: "/react-native-app-development",
+  },
+  {
     title: "Web3 Game Development",
     url: "/web3-game-development-company",
+  },
+  {
+    title: "Cross Platform app development",
+    url: "/cross-platform-app-development-services",
+  },
+  {
+    title: "Blockchain game development",
+    url: "/blockchain-game-development-company",
+  },
+  {
+    title: "Flutter app development",
+    url: "/flutter-app-development",
+  },
+  {
+    title: "NFT game development",
+    url: "/nft-game-development-company",
   },
 ]
 const IndustriesMenu = [
