@@ -34,7 +34,20 @@
 .innerBannerSec p a {
   color: #000;
 }
-
+.call-to-action h2,
+.call-to-action h2 {
+  color: #fff;
+}
+.call-to-action a {
+  background: linear-gradient(
+    91.47deg,
+    #f32faf -78.17%,
+    #f32faf 18.3%,
+    #4a78ef 110.98%
+  );
+  border: 0px;
+  color: #fff;
+}
 .blogdesc {
   background: #f3f3f3;
   border-radius: 16px;
@@ -539,6 +552,5 @@
   }
   .sidebar {
     width: 100%;
-
   }
 }
