@@ -28,7 +28,7 @@ const ServicesMenu = [
   },
   {
     title: "2d Game Development",
-    url: "/ai-development-company",
+    url: "/2d-game-development-company",
   },
   {
     title: "Hybrid app development",
@@ -36,7 +36,7 @@ const ServicesMenu = [
   },
   {
     title: "3d Game Development",
-    url: "/ai-development-company",
+    url: "/3d-game-development-company",
   },
   {
     title: "React Native app development",
