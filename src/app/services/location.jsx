@@ -51,7 +51,7 @@ const LocationList = [
     {
         state: "Dubai",
         add: "Office 1402, JBC 3 Cluster Y, Jumeirah Lake Towers Dubai UAE",
-        phone: "+971 55 503 1266",
+        phone: "+1 833 500 6007",
         email: "info@bitswits.co",
         img: Dubai.src,
         pin: "https://maps.app.goo.gl/NzJaVuqgdpLYyaT28",
@@ -60,7 +60,7 @@ const LocationList = [
     {
         state: "Karachi",
         add: "12 Floor، Caeser's tower, Shahrah-e-Faisal Rd, Karachi , Pakistan",
-        phone: "+92 346 8280101",
+        phone: "+1 833 500 6007",
         email: "info@bitswits.co",
         img: Karachi.src,
         pin: "https://maps.app.goo.gl/NzJaVuqgdpLYyaT28",
@@ -132,7 +132,7 @@ const LocationList = [
     {
         state: "Qatar",
         add: "51 Al Miqdad St, Doha, Qatar",
-        phone: "+971 55 503 1266",
+        phone: "+1 833 500 6007",
         email: "info@bitswits.co",
         img: Qatar.src,
         pin: "https://maps.app.goo.gl/qimC1ofuhhu3z512A",
@@ -141,7 +141,7 @@ const LocationList = [
     {
         state: "Bahrain",
         add: "2139 Hoora Ave, Manama 973, Bahrain",
-        phone: "+971 55 503 1266",
+        phone: "+1 833 500 6007",
         email: "info@bitswits.co",
         img: Bahrain.src,
         pin: "https://maps.app.goo.gl/N52TCmfz7GQbH35m8",
@@ -159,7 +159,7 @@ const LocationList = [
     {
         state: "Sharjah",
         add: "office #101 32 St Al Majarra Mughaidir Suburb Sharjah UAE",
-        phone: "+971 55 503 1266",
+        phone: "+1 833 500 6007",
         email: "info@bitswits.co",
         img: Sharjah.src,
         pin: "https://maps.app.goo.gl/nbce4oEJoivkzVnt5",
