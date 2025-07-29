@@ -8,8 +8,8 @@ const CtaSection = () => {
             <Container className="h-100">
                 <Row className="h-100">
                     <Col md={5} className="my-auto">
-                        <div className="subTitle txtColor">We're excited to hear from you!</div>
-                        <h2>Please fill out the form below, and we’ll respond as soon as possible.</h2>
+                        <div className="subTitle txtColor">Let’s Build Your Custom AI Agent</div>
+                        <h2>Send Us Your Requirements, We’ll Reach Out to Discuss</h2>
                         <ul>
                             <li>Scalable and Secure Apps</li>
                             <li>User-Centric Design</li>

@@ -427,32 +427,28 @@ export const FaqsContent = {
 
 export const FaqsList = [
     {
-        title: "What is the typical app development timeline?",
-        txt: (<p>Our app development timelines vary depending on complexity. Small apps typically take 4-6 weeks, while larger, more complex apps can take 3 to 6 months. We provide detailed timelines during the initial consultation based on your unique app requirements.</p>)
+        title: "What is an AI agent, and how can BitsWits help build one for my business?",
+        txt: (<p>An AI agent is a software-powered assistant capable of understanding tasks, making decisions, and automating processes intelligently. At BitsWits, we develop custom AI agents tailored to your business needs, whether it's customer support, data processing, or end-to-end task automation.</p>)
     },
     {
-        title: "How do you handle confidentiality and NDAs?",
-        txt: (<p>We take confidentiality seriously and offer NDAs to protect your sensitive information. All our team members are required to sign NDAs, ensuring that your project details remain secure throughout the development process.</p>)
+        title: "What industries do you specialize in for AI agent development?",
+        txt: (<p>We’ve built AI agents for industries like healthcare, finance, retail, e-commerce, manufacturing, logistics, and more. Each solution is customized to fit the unique workflows and compliance standards of the specific sector.</p>)
     },
     {
-        title: "What is the cost of your app development services?",
-        txt: (<p>The cost depends on the scope and complexity of your app. We offer various engagement models, including fixed-price, hourly, and dedicated team options. Detailed cost estimates are provided after we assess your app requirements during the consultation phase.</p>)
+        title: "What technologies do you use in AI agent development?",
+        txt: (<p>BitsWits uses cutting-edge tools, including natural language processing, machine learning, multimodal AI, vector databases, large language models, LLMs, and real-time data APIs to create intelligent, scalable agents.</p>)
     },
     {
-        title: "Why work with BitsWits?",
-        txt: (<p>Our company stands out due to our decade-long expertise, commitment to quality, and personalized approach. We deliver innovative solutions tailored to your business needs and ensure timely project delivery with a focus on achieving your goals.</p>)
+        title: "Can you integrate AI agents with our existing systems or tools?",
+        txt: (<p>Absolutely. We ensure seamless integration with your current tech stack, whether it’s CRMs, ERPs, internal tools, or third-party APIs, to maximize efficiency and ensure smooth automation.</p>)
     },
     {
-        title: "Do you offer post-launch support?",
-        txt: (<p>Yes, we provide comprehensive post-launch support to address any issues or updates needed after your project goes live. Our support services include bug fixes, performance monitoring, and ongoing maintenance to ensure smooth operation.</p>)
+        title: "Do you offer post-deployment support and maintenance?",
+        txt: (<p>Yes, we offer ongoing support, performance monitoring, and iterative updates to ensure your AI agent remains effective, secure, and aligned with evolving business needs.</p>)
     },
     {
-        title: "Can I customize my project requirements?",
-        txt: (<p>Absolutely. We offer flexible solutions and work closely with you to tailor the project according to your specific requirements. Our goal is to create a product that meets your exact needs and aligns with your business objectives.</p>)
-    },
-    {
-        title: "How do you manage project changes?",
-        txt: (<p>We handle project changes through a structured change management process. Any requested modifications are assessed for impact on the project scope, timeline, and cost. We then provide updated estimates and timelines before implementing the changes.</p>)
+        title: "What’s the cost of developing an AI agent with BitsWits?",
+        txt: (<p>Costs vary based on complexity, features, and integration needs, but we provide transparent pricing after the discovery phase. Our goal is to deliver high ROI through efficient, scalable automation.</p>)
     },
 ]
 

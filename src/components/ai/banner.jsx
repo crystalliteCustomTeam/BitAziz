@@ -42,8 +42,14 @@ const Banner = () => {
                                     ))}
                                     4.9/5 Rating
                                 </div>
-                                <h1>Intelligent Automation for Modern Businesses.</h1>
-                                <p>Maximize your ROI with targeted campaigns across top platforms like Google, Facebook, Instagram, and more.</p>
+                                <h1>AI Agent Development Company</h1>
+                                <p>We design and deploy next-gen AI agents that automate complex tasks, custom-built to fit your business goals. From autonomous workflows to smart integrations, our AI agent development services help you increase productivity at scale.</p>
+                                <ul>
+                                    <li>Custom AI Solutions</li>
+                                    <li>Multi-Agent Architectures</li>
+                                    <li>LLM-Powered Task Automation</li>
+                                </ul>
+                                <p>Let’s build your first AI agent today.</p>
                                 <button className={styles.bannerBtn}>
                                     <Link href="#">Book a Free Consultation</Link>
                                 </button>

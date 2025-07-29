@@ -26,9 +26,8 @@ const Vision = () => {
                         </div>
                     </Col>
                     <Col md={5} className="my-auto offset-md-1">
-                        <h2>Let’s Help You Turn Your<br />
-                            Vision into Reality.</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h2>Why Choose Our AI Agent Development Services?</h2>
+                        <p>At the intersection of artificial intelligence and automation, our AI agent development services help businesses move from static automation to dynamic, self-improving systems. Whether it’s customer support, task execution, data analysis, or autonomous decision-making, our AI agents are designed to deliver results with minimal human input.</p>
                         <button className={styles.bannerBtn}>
                             <Link href="#">Book a Free Consultation</Link>
                         </button>

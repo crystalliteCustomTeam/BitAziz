@@ -21,6 +21,34 @@
       color: #ffffff;
       margin-bottom: 20px;
     }
+    ul {
+      margin-bottom: 20px;
+      li {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: -0.165px;
+        color: #fff;
+        flex: 0 0 50%;
+        margin-bottom: 10px;
+        position: relative;
+        padding-left: 30px;
+
+        &::before {
+          content: "";
+          background: #ffffff;
+          border: 5px solid #4d77ee;
+          border-radius: 50%;
+          width: 18px;
+          height: 18px;
+          position: absolute;
+          top: 50%;
+          left: 0px;
+          transform: translate(0px, -50%);
+        }
+      }
+    }
     .bannerBtn {
       background: linear-gradient(
         91.47deg,

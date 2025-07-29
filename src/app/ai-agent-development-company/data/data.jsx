@@ -43,39 +43,39 @@ export const ClientImages = [
 
 export const HomeServicesContent = {
     subtitle: "Industries",
-    title: "We transform innovative ideas into powerful digital experiences.",
-    content: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.",
+    title: "Custom AI Agents for Every Industry",
+    content: "From healthcare and finance to e-commerce and logistics, our AI agent development services are designed to adapt to your industry’s unique workflows. Whether you're looking to automate customer service, data analysis, lead generation, or internal operations, we build n8n ai agents that automate the workflow.",
 }
 
 export const HomeServicesList = [
     {
         title: "Healthcare",
-        txt: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.",
+        txt: "We develop AI agents that streamline healthcare operations by automating appointment scheduling, patient communication, and medical record handling. Designed with privacy and compliance in mind, our solutions help providers enhance care delivery while reducing administrative load.",
         url: "#"
     },
     {
         title: "Finance",
-        txt: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.",
+        txt: "Our AI agent development services for the finance sector focus on automating data-heavy tasks like transaction analysis, fraud detection, and compliance reporting. We build intelligent agents that operate securely, reduce risk, and support faster, data-driven decision-making.",
         url: "#"
     },
     {
         title: "Retail & E-commerce",
-        txt: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.",
+        txt: "For retail and e-commerce brands, we create AI agents that manage customer interactions, product recommendations, order tracking, and inventory updates. Our agents deliver seamless, personalized shopping experiences while improving backend efficiency.",
         url: "#"
     },
     {
         title: "Manufacturing",
-        txt: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.",
+        txt: "We build custom AI agents for manufacturers to automate real-time monitoring, predictive maintenance, and production analytics. Integrated with your existing systems, our agents optimize processes, reduce downtime, and increase operational agility.",
         url: "#"
     },
     {
         title: "Customer Service",
-        txt: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.",
+        txt: "Our AI agents transform customer support by automating routine inquiries, resolving tickets, and intelligently routing complex issues. Built for omnichannel environments, they deliver consistent, 24/7 service with human-like context awareness.",
         url: "#"
     },
     {
-        title: "Logistics",
-        txt: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.",
+        title: "Transportation & Logistics",
+        txt: "We develop AI agents that optimize logistics through dynamic scheduling, route planning, and shipment tracking. Designed to adapt in real-time, our solutions increase transparency, reduce delays, and ensure efficient supply chain operations.",
         url: "#"
     }
 ]
