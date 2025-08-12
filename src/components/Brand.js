@@ -40,14 +40,15 @@ const Brand = (props) => {
     e.preventDefault();
     setIsDisabled(true);
     const currentdate = new Date().toLocaleString();
-    const firstNameValue = e.target.first.value;
-    const lastNameValue = e.target.last.value;
-    const fullName = firstNameValue + " " + lastNameValue;
+    // const firstNameValue = e.target.first.value;
+    // const lastNameValue = e.target.last.value;
+    // const fullName = firstNameValue + " " + lastNameValue;
+
     const data = {
       page_url: pagenewurl,
       user_ip: `${ip.ip}`,
       lead_data: {
-        name: fullName,
+        name: e.target.name.value,
         email: e.target.email.value,
         phone: e.target.phone.value,
         message: e.target.comment.value,
@@ -106,7 +107,7 @@ const Brand = (props) => {
         {
           objectTypeId: "0-1",
           name: "name",
-          value: fullName,
+          value: e.target.name.value,
         },
         {
           objectTypeId: "0-1",
@@ -174,10 +175,10 @@ const Brand = (props) => {
                   src={free}
                   width={436}
                   height={618}
-                  alt="Bitswits"
-                  loading="lazy"
-                  sizes="100vw"
-                  className="img-fluid"
+                  alt='Bitswits'
+                  loading='lazy'
+                  sizes='100vw'
+                  className='img-fluid'
                 />
               </div>
             </Col>
@@ -192,51 +193,51 @@ const Brand = (props) => {
                   <div>
                     <div className={styles.chill}>
                       <input
-                        type="text"
-                        placeholder="First Name"
-                        name="first"
+                        type='text'
+                        placeholder='Full Name'
+                        name='name'
                         required
                       />
 
                       <input
-                        type="tel"
-                        placeholder="Phone"
-                        minLength="10"
-                        maxLength="13"
-                        pattern="[0-9]*"
-                        name="phone"
+                        type='tel'
+                        placeholder='Phone'
+                        minLength='10'
+                        maxLength='13'
+                        pattern='[0-9]*'
+                        name='phone'
                         required
                       />
                     </div>
 
                     <div className={styles.chill}>
                       <input
-                        type="email"
-                        placeholder="Email"
-                        name="email"
+                        type='email'
+                        placeholder='Email'
+                        name='email'
                         required
                       />
                       <input
-                        type="number"
-                        placeholder="Project Budget"
-                        name="price"
+                        type='number'
+                        placeholder='Project Budget'
+                        name='price'
                         required
                       />
                     </div>
                     <div className={styles.chill}></div>
                     <div className={styles.chill}>
                       <textarea
-                        placeholder="Write message here..."
+                        placeholder='Write message here...'
                         className={styles.message}
-                        name="comment"
-                        rows="4"
-                        cols="50"
+                        name='comment'
+                        rows='4'
+                        cols='50'
                       />
                     </div>
                     <div className={styles.chill}>
                       <button
-                        type="submit"
-                        className="pink bitsForm"
+                        type='submit'
+                        className='pink bitsForm'
                         disabled={isDisabled}
                       >
                         {score}
