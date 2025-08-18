@@ -7,7 +7,7 @@ const CtaSection = () => {
         <section className={`p-100 ${styles.ctaSection}`}>
             <Container className="h-100">
                 <Row className="h-100">
-                    <Col md={5} className="my-auto">
+                    <Col md={12} lg={5}>
                         <div className="subTitle txtColor">Let’s Build Your Custom AI Agent</div>
                         <h2>Send Us Your Requirements, We’ll Reach Out to Discuss</h2>
                         <ul>
@@ -19,7 +19,7 @@ const CtaSection = () => {
                             <li>Support and Maintenance</li>
                         </ul>
                     </Col>
-                    <Col md={7} className="my-auto">
+                    <Col md={12} lg={7}>
                         <div className={styles.fromCotnact}>
                             <form>
                                 <div className={styles.formGroup}>

@@ -6,7 +6,7 @@ import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
 const options = { loop: true }
 
-const Clients = ({ data }) => {
+const Clients = ({ data, ai }) => {
     const [emblaRef] = useEmblaCarousel(options,
         [
             AutoScroll({
@@ -22,11 +22,11 @@ const Clients = ({ data }) => {
 
     return (
         <>
-            <section>
+            <section >
                 <Container fluid>
                     <Row>
                         <Col md={12} >
-                            <section className={styles.clientSlider}>
+                            <section className={`${styles.clientSlider} ${ai ? styles.aiPage : ""}`}>
                                 <div className={styles.embla}>
                                     <div className={styles.embla__viewport} ref={emblaRef}>
                                         <div className={styles.embla__container}>
@@ -44,7 +44,7 @@ const Clients = ({ data }) => {
                         </Col>
                     </Row>
                 </Container>
-            </section>
+            </section >
 
         </>
     );

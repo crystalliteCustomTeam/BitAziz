@@ -34,7 +34,7 @@ const Banner = () => {
             <section className={styles.bannerSection}>
                 <Container className="h-100">
                     <Row className="h-100">
-                        <Col md={6} className="my-auto">
+                        <Col md={9} lg={7} xl={6} className="my-auto">
                             <div className={styles.bannerTxt}>
                                 <div className={styles.rating}>
                                     {[...Array(5)].map((_, i) => (
@@ -95,7 +95,7 @@ const Banner = () => {
                     </Row>
                 </Container>
             </section>
-            <Clients data={ClientImages} />
+            <Clients data={ClientImages} ai={true} />
         </>
     )
 }

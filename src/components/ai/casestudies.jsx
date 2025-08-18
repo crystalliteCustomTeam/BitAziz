@@ -21,7 +21,7 @@ const CaseStudies = () => {
             <Container fluid className={styles.caseStudiesFullContainer}>
                 <Container className={styles.caseStudiesContainer}>
                     <Row>
-                        <Col lg={4} md={6}>
+                        <Col lg={4} md={12}>
                             <div className={styles.caseStudiesContent}>
                                 <div className={styles.subtitle}>Service</div>
                                 <h3>Healthcare</h3>
@@ -34,7 +34,7 @@ const CaseStudies = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={8} md={6}>
+                        <Col lg={8} md={12}>
                             <div className={styles.caseStudiesImage}>
                                 <Image src={Case01.src} alt="Healthcare Case Study" fill />
                             </div>
@@ -50,7 +50,7 @@ const CaseStudies = () => {
             <Container fluid className={styles.caseStudiesFullContainer}>
                 <Container className={styles.caseStudiesContainer}>
                     <Row>
-                        <Col lg={4} md={6}>
+                        <Col lg={4} md={12}>
                             <div className={styles.caseStudiesContent}>
                                 <div className={styles.subtitle}>Service</div>
                                 <h3>Finance</h3>
@@ -63,7 +63,7 @@ const CaseStudies = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={8} md={6}>
+                        <Col lg={8} md={12}>
                             <div className={styles.caseStudiesImage}>
                                 <Image src={Case02.src} alt="Healthcare Case Study" fill />
                             </div>
@@ -79,7 +79,7 @@ const CaseStudies = () => {
             <Container fluid className={styles.caseStudiesFullContainer}>
                 <Container className={styles.caseStudiesContainer}>
                     <Row>
-                        <Col lg={4} md={6}>
+                        <Col lg={4} md={12}>
                             <div className={styles.caseStudiesContent}>
                                 <div className={styles.subtitle}>Service</div>
                                 <h3>Retail & E-commerce</h3>
@@ -92,7 +92,7 @@ const CaseStudies = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={8} md={6}>
+                        <Col lg={8} md={12}>
                             <div className={styles.caseStudiesImage}>
                                 <Image src={Case03.src} alt="Healthcare Case Study" fill />
                             </div>
@@ -108,7 +108,7 @@ const CaseStudies = () => {
             <Container fluid className={styles.caseStudiesFullContainer}>
                 <Container className={styles.caseStudiesContainer}>
                     <Row>
-                        <Col lg={4} md={6}>
+                        <Col lg={4} md={12}>
                             <div className={styles.caseStudiesContent}>
                                 <div className={styles.subtitle}>Service</div>
                                 <h3>Customer Service</h3>
@@ -121,7 +121,7 @@ const CaseStudies = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={8} md={6}>
+                        <Col lg={8} md={12}>
                             <div className={styles.caseStudiesImage}>
                                 <Image src={Case04.src} alt="Healthcare Case Study" fill />
                             </div>

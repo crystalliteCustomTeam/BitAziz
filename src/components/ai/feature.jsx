@@ -15,7 +15,7 @@ const Feature = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={4}>
+                    <Col md={6} lg={4}>
                         <div className={styles.featureItem}>
                             <div
                                 className={styles.featureIcon}
@@ -27,7 +27,7 @@ const Feature = () => {
                             <p>The AI agent understands everyday language, so you can give it tasks just by typing or speaking. No technical commands needed, it gets what you mean.</p>
                         </div>
                     </Col>
-                    <Col md={4}>
+                    <Col md={6} lg={4}>
                         <div className={styles.featureItem}>
                             <div
                                 className={styles.featureIcon}
@@ -39,7 +39,7 @@ const Feature = () => {
                             <p>The agent remembers past conversations, tasks, and preferences. That way, it gets smarter and more helpful over time.</p>
                         </div>
                     </Col>
-                    <Col md={4}>
+                    <Col md={6} lg={4}>
                         <div className={styles.featureItem}>
                             <div
                                 className={styles.featureIcon}
@@ -51,7 +51,7 @@ const Feature = () => {
                             <p>The agent can read and react to, and analyze live data instantly. It keeps things moving without waiting on manual updates.</p>
                         </div>
                     </Col>
-                    <Col md={4}>
+                    <Col md={6} lg={4}>
                         <div className={styles.featureItem}>
                             <div
                                 className={styles.featureIcon}
@@ -64,7 +64,7 @@ const Feature = () => {
                         </div>
                     </Col>
 
-                    <Col md={4}>
+                    <Col md={6} lg={4}>
                         <div className={styles.featureItem}>
                             <div
                                 className={styles.featureIcon}
@@ -76,7 +76,7 @@ const Feature = () => {
                             <p>Set it once, and the agent takes care of the task on schedule. No reminders or follow-ups, it just gets done.</p>
                         </div>
                     </Col>
-                    <Col md={4}>
+                    <Col md={6} lg={4}>
                         <div className={styles.featureItem}>
                             <div
                                 className={styles.featureIcon}
