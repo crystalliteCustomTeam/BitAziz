@@ -401,7 +401,7 @@ export default function dubaidevelopmentcompany() {
       <Bannerdubai content={Banner} />
       <NewDubaiAwards content={Award} />
       <FutureReady content={storyLine} />
-      <Whowearenew content={WhoWeAre} />
+      {/* <Whowearenew content={WhoWeAre} /> */}
       <DubaiDelivered content={DeliveredContent} />
       <DubaiTimeline content={timeline} />
       <DubaiClients content={ClientContent} />

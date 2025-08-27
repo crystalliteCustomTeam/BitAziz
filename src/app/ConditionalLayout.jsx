@@ -122,8 +122,8 @@ const ConditionalLayout = ({ children }) => {
   const footerComponent = islocationsFooter
     ? footerMapping.islocationsFooter
     : isLpHeaderFooter
-    ? footerMapping.isLpHeaderFooter
-    : footerMapping.default
+      ? footerMapping.isLpHeaderFooter
+      : footerMapping.default
 
   useEffect(() => {
     setIsLight(

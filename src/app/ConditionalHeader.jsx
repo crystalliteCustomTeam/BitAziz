@@ -62,6 +62,7 @@ const isLightHeader = [
 ]
 const isDarkHeader = [
   "/about-us",
+  "/why-choose",
   "/flutter-app-development",
   "/android-app-development-company",
   "/react-native-app-development",
@@ -122,8 +123,8 @@ const ConditionalHeader = () => {
   const footerComponent = islocationsFooter
     ? footerMapping.islocationsFooter
     : isLpHeaderFooter
-    ? footerMapping.isLpHeaderFooter
-    : footerMapping.default
+      ? footerMapping.isLpHeaderFooter
+      : footerMapping.default
 
   useEffect(() => {
     setIsLight(
