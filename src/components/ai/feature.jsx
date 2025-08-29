@@ -1,3 +1,4 @@
+"use client"
 import styles from "@/styles/components/ai/feature.module.scss";
 import { Container, Row, Col } from "react-bootstrap";
 import BGIMG from "media/videos/BgImage.webp";
@@ -5,6 +6,14 @@ import BGFeature from "media/videos/bgFeature.webp";
 import { Feature01 } from "@/src/app/app-constants";
 
 const Feature = () => {
+    const handleChatOpen = (e) => {
+        e.preventDefault();
+        if (typeof window !== "undefined" && window.LiveChatWidget) {
+            window.LiveChatWidget.call("maximize"); // opens the chat
+        } else {
+            console.warn("LiveChat widget not loaded yet");
+        }
+    };
     return (
         <section className={`${styles.featureSection} p-100`} style={{ backgroundImage: `url(${BGFeature.src})` }}>
             <Container>
@@ -93,8 +102,10 @@ const Feature = () => {
                 <Row>
                     <Col>
                         <div className={styles.flexBtn}>
-                            <a href="#" >Chat Now</a>
-                            <a href="#" className={styles.btnColor}>Call Us+1447-4621- 3698</a>
+                            <a href="#" onClick={handleChatOpen}>
+                                Chat Now
+                            </a>
+                            <a href="tel:+18335006007" className={styles.btnColor}>Call Us +1 833 500 6007</a>
                         </div>
                     </Col>
                 </Row>

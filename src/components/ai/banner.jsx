@@ -7,6 +7,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import Head from "next/head";
 // import Image from "next/image";
 // import BannerPoster from "media/videos/AiServicesImg.webp";
+import ButtonCommon from "@/src/components/common/button"
+
 
 import { ClientImages } from '@/src/app/ai-agent-development-company/data/data';
 import Clients from '@/src/components/ai/clients'
@@ -16,7 +18,7 @@ const Banner = () => {
 
     useEffect(() => {
         const timeout = setTimeout(() => {
-            setShowVideo(true); // load video after 1.5s
+            setShowVideo(true);
         }, 1500);
         return () => clearTimeout(timeout);
     }, []);
@@ -50,9 +52,9 @@ const Banner = () => {
                                     <li>LLM-Powered Task Automation</li>
                                 </ul>
                                 <p>Let’s build your first AI agent today.</p>
-                                <button className={styles.bannerBtn}>
-                                    <Link href="#">Book a Free Consultation</Link>
-                                </button>
+                                <div className={styles.btnFlex}>
+                                    <ButtonCommon txt="Free Consultation" />
+                                </div>
                                 <div className={styles.bannerCounter}>
                                     <div className={styles.counterItem}>
                                         10+ <div className={styles.value}>Years of Experience</div>

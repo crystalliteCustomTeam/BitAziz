@@ -1,9 +1,8 @@
 import styles from "@/styles/components/ai/vision.module.scss";
-import Link from "next/link";
 import { Col, Container, Row } from "react-bootstrap";
 import BannerPoster from "media/videos/AiServices/VisionVideo.webp";
 import Visionbg from "media/videos/AiServices/Visionbg.webp";
-
+import ButtonCommon from "@/src/components/common/button"
 const Vision = () => {
     return (
         <section className={`${styles.visionSection} `}>
@@ -28,9 +27,9 @@ const Vision = () => {
                     <Col md={5} className="my-auto offset-md-1">
                         <h2>Why Choose Our AI Agent Development Services?</h2>
                         <p>At the intersection of artificial intelligence and automation, our AI agent development services help businesses move from static automation to dynamic, self-improving systems. Whether it’s customer support, task execution, data analysis, or autonomous decision-making, our AI agents are designed to deliver results with minimal human input.</p>
-                        <button className={styles.bannerBtn}>
-                            <Link href="#">Book a Free Consultation</Link>
-                        </button>
+                        <div className={styles.btnFlex}>
+                            <ButtonCommon txt="Free Consultation" />
+                        </div>
                     </Col>
                 </Row>
             </Container>
