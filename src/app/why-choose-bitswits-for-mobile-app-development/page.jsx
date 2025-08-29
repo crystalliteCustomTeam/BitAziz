@@ -1,12 +1,12 @@
-import Banner from "@/src/app/why-choose/banner";
+import Banner from "@/src/app/why-choose-bitswits-for-mobile-app-development/banner";
 import DubaiBrandTrust from "@/src/components/DubaiBrandTrust";
-import AbtCta from "@/src/app/why-choose/abtcta";
+import AbtCta from "@/src/app/why-choose-bitswits-for-mobile-app-development/abtcta";
 import Faqs from "@/src/app/home/faqs";
 import IdeaCta from "@/src/app/services/ideacta";
-import Awards from "@/src/app/why-choose/awards";
+import Awards from "@/src/app/why-choose-bitswits-for-mobile-app-development/awards";
 import ExtendedServices from "@/src/app/home/extendedservices";
 import Testimonial from "@/src/app/home/testimonial";
-import { ExtendedServicesContent, ExtendedServicesList, TestimonialContent, TestimonialSLIDES, FaqsContent, FaqsList, IdeaCtaContent } from "@/src/app/why-choose/data/data";
+import { ExtendedServicesContent, ExtendedServicesList, TestimonialContent, TestimonialSLIDES, FaqsContent, FaqsList, IdeaCtaContent } from "@/src/app/why-choose-bitswits-for-mobile-app-development/data/data";
 
 
 

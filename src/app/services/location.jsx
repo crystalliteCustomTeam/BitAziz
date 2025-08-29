@@ -57,15 +57,15 @@ const LocationList = [
         pin: "https://maps.app.goo.gl/NzJaVuqgdpLYyaT28",
         alt: "BitsWits mobile app development company Dubai"
     },
-    {
-        state: "Karachi",
-        add: "12 Floor، Caeser's tower, Shahrah-e-Faisal Rd, Karachi , Pakistan",
-        phone: "+1 833 500 6007",
-        email: "info@bitswits.co",
-        img: Karachi.src,
-        pin: "https://maps.app.goo.gl/NzJaVuqgdpLYyaT28",
-        alt: "BitsWits mobile app development company Karachi"
-    },
+    // {
+    //     state: "Karachi",
+    //     add: "12 Floor، Caeser's tower, Shahrah-e-Faisal Rd, Karachi , Pakistan",
+    //     phone: "+1 833 500 6007",
+    //     email: "info@bitswits.co",
+    //     img: Karachi.src,
+    //     pin: "https://maps.app.goo.gl/NzJaVuqgdpLYyaT28",
+    //     alt: "BitsWits mobile app development company Karachi"
+    // },
     {
         state: "Los Angeles",
         add: "1425 Flower St, Los Angeles, CA 90015, United States",
