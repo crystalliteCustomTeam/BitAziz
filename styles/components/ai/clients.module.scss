@@ -44,7 +44,7 @@
   .clientSlider {
     height: 90px;
     &.aiPage {
-      bottom: -60px;
+      bottom: 75px;
     }
 
     .embla {
@@ -71,7 +71,7 @@
   .clientSlider {
     height: 90px;
     &.aiPage {
-      bottom: -60px;
+      bottom: -55px;
     }
     .embla {
       .embla__viewport {
@@ -95,15 +95,15 @@
 
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
   .clientSlider {
-    height: 80px;
+    height: 90px;
     &.aiPage {
-      bottom: -60px;
+      bottom: -55px;
     }
     .embla {
       .embla__viewport {
         .embla__container {
           .embla__slide {
-            flex: 0 0 calc(100% / 5);
+            flex: 0 0 calc(100% / 6);
 
             .imgBox {
               height: 30px;
@@ -123,13 +123,13 @@
   .clientSlider {
     height: 80px;
     &.aiPage {
-      bottom: -60px;
+      bottom: 0xpx;
     }
     .embla {
       .embla__viewport {
         .embla__container {
           .embla__slide {
-            flex: 0 0 calc(100% / 5);
+            flex: 0 0 calc(100% / 6);
 
             .imgBox {
               height: 30px;
