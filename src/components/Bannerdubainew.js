@@ -309,7 +309,9 @@ const Bannerdubai = ({ content, rtl }) => {
             </Col>
             <Col xl={5} className='px-0'>
               <form className={styles.your} onSubmit={handleSubmit}>
-                <h3 className='mb-4 white fw500'>Book a Free Consultation</h3>
+                <h3 className='mb-4 white fw500'>
+                  {rtl ? "احجز استشارة مجانية" : "Book a Free Consultation"}
+                </h3>
                 <input
                   type='text'
                   minLength='4'

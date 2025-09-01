@@ -47,12 +47,11 @@ export default function dubaidevelopmentcompany() {
   };
   // award Content
   const Award = {
-    title: "Awards & Recognitions",
+    title: "جوائزنا وتقديراتنا",
     desc: (
       <>
-        Delivering consistent value and exceptional{" "}
-        <br className='d-xl-block d-none' />
-        results to our partners and clients globally.{" "}
+        تُعَدّ شركة BitsWits من بين أفضل الشركات في تطوير التطبيقات على مستوى
+        العالم.
       </>
     ),
   };
