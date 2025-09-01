@@ -206,8 +206,8 @@ const Bannerdubai = ({ content }) => {
             src={bg}
             fill
             priority={true}
-            sizes="100vw"
-            className="d-md-block d-none"
+            sizes='100vw'
+            className='d-md-block d-none'
             style={{ zIndex: -1 }}
             alt={alt}
           />
@@ -216,10 +216,10 @@ const Bannerdubai = ({ content }) => {
           <Row
             className={`g-5 ${styles.applost} align-items-center w-100 mx-auto`}
           >
-            <Col xl={7} className="px-0">
+            <Col xl={7} className='px-0'>
               <div className={styles.oppp}>
-                <h1 className="white fw500 mb-4">{title}</h1>
-                <p className="font16 white fw300 mt-3 mb-lg-4 fontsfregular">
+                <h1 className='white fw500 mb-4'>{title}</h1>
+                <p className='font16 white fw300 mt-3 mb-lg-4 fontsfregular'>
                   {desc}
                 </p>
                 <button onClick={modal} className={`${styles.deliver} pink`}>
@@ -233,9 +233,9 @@ const Bannerdubai = ({ content }) => {
                   <div>
                     <Image
                       priority={true}
-                      sizes="100vw"
+                      sizes='100vw'
                       src={badgeClient}
-                      alt="Bitswits"
+                      alt='Bitswits'
                       width={183}
                       height={80}
                     />
@@ -244,46 +244,46 @@ const Bannerdubai = ({ content }) => {
                     <div className={styles.reviews}>
                       <Image
                         priority={true}
-                        sizes="100vw"
+                        sizes='100vw'
                         src={Star}
-                        alt="Bitswits"
+                        alt='Bitswits'
                         width={25}
                         height={22}
                       />
                       <Image
                         priority={true}
-                        sizes="100vw"
+                        sizes='100vw'
                         src={Star}
-                        alt="Bitswits"
+                        alt='Bitswits'
                         width={25}
                         height={22}
                       />
                       <Image
                         priority={true}
-                        sizes="100vw"
+                        sizes='100vw'
                         src={Star}
-                        alt="Bitswits"
+                        alt='Bitswits'
                         width={25}
                         height={22}
                       />
                       <Image
                         priority={true}
-                        sizes="100vw"
+                        sizes='100vw'
                         src={Star}
-                        alt="Bitswits"
+                        alt='Bitswits'
                         width={25}
                         height={22}
                       />
                       <Image
                         priority={true}
-                        sizes="100vw"
+                        sizes='100vw'
                         src={Star}
-                        alt="Bitswits"
+                        alt='Bitswits'
                         width={25}
                         height={22}
                       />
                     </div>
-                    <p className="mb-0">
+                    <p className='mb-0'>
                       <strong>4.8 out of 5</strong> (review rating) Over 1,200+
                       reviews
                     </p>
@@ -292,72 +292,72 @@ const Bannerdubai = ({ content }) => {
                 <div>
                   <Image
                     priority={true}
-                    sizes="100vw"
+                    sizes='100vw'
                     src={Clutch}
-                    alt="Clutch Badge"
+                    alt='Clutch Badge'
                     width={129}
                     height={60}
                   />
                 </div>
               </div>
             </Col>
-            <Col xl={5} className="px-0">
+            <Col xl={5} className='px-0'>
               <form className={styles.your} onSubmit={handleSubmit}>
-                <h3 className="mb-4 white fw500">Book a Free Consultation</h3>
+                <h3 className='mb-4 white fw500'>Book a Free Consultation</h3>
                 <input
-                  type="text"
-                  minLength="4"
-                  name="name"
+                  type='text'
+                  minLength='4'
+                  name='name'
                   required
-                  className="form-control"
-                  placeholder="Full Name"
+                  className='form-control'
+                  placeholder='Full Name'
                 ></input>
                 <input
-                  type="tel"
-                  minLength="10"
-                  maxLength="13"
-                  pattern="[0-9]*"
-                  name="phone"
+                  type='tel'
+                  minLength='10'
+                  maxLength='13'
+                  pattern='[0-9]*'
+                  name='phone'
                   required
-                  className="form-control mt-3"
-                  placeholder="Phone Number"
+                  className='form-control mt-3'
+                  placeholder='Phone Number'
                 ></input>
                 <input
-                  type="email"
-                  name="email"
+                  type='email'
+                  name='email'
                   required
-                  className="form-control mt-3"
-                  placeholder="Email Address"
+                  className='form-control mt-3'
+                  placeholder='Email Address'
                 ></input>
                 <input
-                  type="number"
-                  name="price"
+                  type='number'
+                  name='price'
                   required
-                  className="form-control mt-3"
-                  placeholder="Project Budget"
+                  className='form-control mt-3'
+                  placeholder='Project Budget'
                 ></input>
                 <textarea
-                  placeholder="Description"
-                  name="comment"
-                  className="form-control mt-3"
+                  placeholder='Description'
+                  name='comment'
+                  className='form-control mt-3'
                 ></textarea>
                 <input
                   className={styles.vehicle1}
-                  type="checkbox"
-                  name="vehicle1"
+                  type='checkbox'
+                  name='vehicle1'
                   checked={checkboxes.includes(
                     "Share Non Disclosure Agreement"
                   )}
                   onChange={handleOptionChange3}
-                  value="Share Non Disclosure Agreement"
+                  value='Share Non Disclosure Agreement'
                 />
-                <label className="form-check-label" htmlFor="flexCheckDefault">
+                <label className='form-check-label' htmlFor='flexCheckDefault'>
                   {" "}
                   Share Non Disclosure Agreement
                 </label>
                 <button
                   className={`pink ${styles.value} bitsForm`}
-                  type="submit"
+                  type='submit'
                   disabled={isDisabled}
                 >
                   {score}
@@ -370,7 +370,7 @@ const Bannerdubai = ({ content }) => {
       {/* Modal Start*/}
       <Modal show={show} onHide={closemodal} className={styles.modalnew}>
         <Modal.Body>
-          <Bitswitspopup formsaspire="popquote" />
+          <Bitswitspopup formsaspire='popquote' />
           <span onClick={closemodal} className={styles.cross}>
             <RxCross2 />
           </span>

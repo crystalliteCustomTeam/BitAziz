@@ -90,6 +90,7 @@ const lpHeaderFooterPaths = [
   "/app-marketing",
   "/top-mobile-app-developers",
   "/lp/mobile-app-development-services",
+
 ]
 const locationsFooterPaths = [
   "/app-development-austin",

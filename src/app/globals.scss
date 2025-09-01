@@ -22,7 +22,9 @@ body {
   max-width: 1920px;
   overflow-x: hidden;
   margin: auto;
-
+  .rtlText {
+    direction: rtl;
+  }
   .container {
     max-width: 1440px;
   }

@@ -72,23 +72,23 @@ export default async function Post({ params, searchParams }) {
       {postData && (
         <>
           <Head>
-            <title key="title">{postData.title}</title>
+            <title key='title'>{postData.title}</title>
             <meta
-              name="description"
+              name='description'
               content={postData.metaDesc}
-              key="metadesc"
+              key='metadesc'
             />
-            <meta property="og:title" content={postData.opengraphTitle} />
+            <meta property='og:title' content={postData.opengraphTitle} />
             <meta
-              key="og-description"
-              property="og:description"
+              key='og-description'
+              property='og:description'
               content={postData.metaDesc}
             />
-            <meta property="og:url" content={postData.opengraphUrl} />
-            <meta property="og:type" content={postData.opengraphType} />
-            <meta property="og:locale" content="en_IN" />
+            <meta property='og:url' content={postData.opengraphUrl} />
+            <meta property='og:type' content={postData.opengraphType} />
+            <meta property='og:locale' content='en_IN' />
             <meta
-              property="og:site_name"
+              property='og:site_name'
               content={postData.opengraphSiteName}
             />
           </Head>
@@ -103,11 +103,11 @@ export default async function Post({ params, searchParams }) {
           )}
           <section className={styles.innerBannerSec}>
             <Container>
-              <Row className="align-items-center">
+              <Row className='align-items-center'>
                 <Col lg={6}>
                   <div className={styles.blogTopDes}>
                     <h4>{postData.categories.nodes[0].name}</h4>
-                    <h1 className="fontsfregular">{postData.title}</h1>
+                    <h1 className='fontsfregular'>{postData.title}</h1>
                     {postData.blogDescription.topDescription && (
                       <>
                         <div
@@ -127,7 +127,7 @@ export default async function Post({ params, searchParams }) {
                       alt={postData.title}
                       width={736}
                       height={450}
-                      className="img-fluid"
+                      className='img-fluid'
                     />
                   ) : (
                     <Image
@@ -136,7 +136,7 @@ export default async function Post({ params, searchParams }) {
                       alt={postData.title}
                       width={736}
                       height={450}
-                      className="img-fluid"
+                      className='img-fluid'
                     />
                   )}
                 </Col>
@@ -150,7 +150,7 @@ export default async function Post({ params, searchParams }) {
                             ""
                           )}
                           alt={postData.author.node.name}
-                          className="img-fluid"
+                          className='img-fluid'
                           width={300}
                           height={300}
                         />
@@ -158,29 +158,29 @@ export default async function Post({ params, searchParams }) {
                         <Image
                           src={Client}
                           alt={postData.author.node.name}
-                          className="img-fluid"
+                          className='img-fluid'
                         />
                       )}
                     </Col>
                     <Col lg={10} className={styles.content}>
-                      <ul className="p-0">
+                      <ul className='p-0'>
                         <li className={styles.name}>
-                          <p className="fontsfregular mb-0">
+                          <p className='fontsfregular mb-0'>
                             By <span>{postData.author.node.name}</span>
                           </p>
                         </li>
                         <li
                           className={`${styles.verified} d-flex align-items-center`}
                         >
-                          <p className="fontsfregular mb-0">
+                          <p className='fontsfregular mb-0'>
                             {" "}
                             Verified Expert In Development
                             <Image
                               src={verified}
-                              alt="Bitswits"
+                              alt='Bitswits'
                               width={16}
                               height={16}
-                              className="ms-3"
+                              className='ms-3'
                             />
                           </p>
                         </li>
@@ -189,12 +189,12 @@ export default async function Post({ params, searchParams }) {
                         >
                           <Image
                             src={experience}
-                            alt="Bitswits"
+                            alt='Bitswits'
                             width={16}
                             height={16}
-                            className="me-3"
+                            className='me-3'
                           />
-                          <p className="fontsfregular mb-0">
+                          <p className='fontsfregular mb-0'>
                             {" "}
                             3 Years Of Experience
                           </p>
@@ -202,7 +202,7 @@ export default async function Post({ params, searchParams }) {
                       </ul>
 
                       <div className={styles.desc}>
-                        <p className="fontsfregular">
+                        <p className='fontsfregular'>
                           {postData.author.node.description}
                         </p>
                       </div>
@@ -230,7 +230,7 @@ export default async function Post({ params, searchParams }) {
               </Row>
             </Container>
           </section>
-          <section className={styles.articleSec} id="leftcontent">
+          <section className={styles.articleSec} id='leftcontent'>
             <Container>
               <Row>
                 <Col lg={8}>

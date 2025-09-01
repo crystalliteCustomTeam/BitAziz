@@ -14,7 +14,7 @@ import IMG08 from "media/home/awards/award08.webp";
 import Image from "next/image";
 import BannerPoster from "media/home/companyVideoPoster.webp";
 
-const options = { align: "start", loop: "true" };
+const options = { align: "start", loop: true };
 
 export const Awards = [
   {
@@ -100,14 +100,14 @@ const CompanyInfo = ({ data }) => {
         </Row>
       </Container>
       <video
-         autoPlay
-         muted
-         loop
-         preload="auto"
-         aria-label="Background video"
-         loading="eager"
-         poster={BannerPoster.src}
-         playsInline
+        autoPlay
+        muted
+        loop
+        preload="auto"
+        aria-label="Background video"
+        loading="eager"
+        poster={BannerPoster.src}
+        playsInline
         className={styles.companyVideo}
       >
         <source src="/videos/companyVideo.mp4" type="video/mp4" />

@@ -1,0 +1,50 @@
+.embla {
+  margin-top: 80px;
+  max-width: 100%;
+  position: relative;
+  background: #f6f6f6;
+  box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.05);
+  height: 120px;
+
+  .embla__viewport {
+    overflow: hidden;
+    padding: 0px 0px;
+    height: 100%;
+
+    .embla__container {
+      backface-visibility: hidden;
+      display: flex;
+      touch-action: pan-y pinch-zoom;
+      margin-left: calc(0px * -1);
+      justify-content: space-around;
+      align-items: center;
+      height: 100%;
+      .embla__slide {
+        min-width: 0;
+        flex: 0 0 calc(100% / 8);
+        padding-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+        .awardsImg {
+          height: 100px;
+          width: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          mix-blend-mode: luminosity;
+          opacity: 0.4;
+          filter: grayscale(1);
+          transition: opacity 0.5s ease-in-out, filter 0.5s ease-in-out;
+
+          &:hover {
+            opacity: 1;
+            filter: grayscale(0);
+          }
+        }
+      }
+    }
+  }
+}

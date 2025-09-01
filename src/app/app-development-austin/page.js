@@ -52,7 +52,7 @@ export default function dubaidevelopmentcompany() {
     desc: (
       <>
         Our dedication and hardwork has consistently{" "}
-        <br className="d-xl-block d-none" /> garnered acknowledgment by
+        <br className='d-xl-block d-none' /> garnered acknowledgment by
         different platforms.
       </>
     ),
@@ -144,7 +144,7 @@ export default function dubaidevelopmentcompany() {
     ),
     desc: (
       <>
-        <span className="d-block">
+        <span className='d-block'>
           As an esteemed mobile app development company in Austin, we are aware
           of all the complexities and challenges that could arise during mobile
           app development. We are not a traditional app development company in
@@ -152,7 +152,7 @@ export default function dubaidevelopmentcompany() {
           Instead, our customized apps speak volumes.
         </span>
         <br />
-        <span className="d-block">
+        <span className='d-block'>
           From the initial concept to the final launch, we collaborate with you
           and keep you in the loop throughout the app development journey. We
           closely pay attention to every minute detail of your app, so that the
@@ -160,7 +160,7 @@ export default function dubaidevelopmentcompany() {
           outperforms.
         </span>
         <br />
-        <span className="mb-5 mb-sm-0 d-block">
+        <span className='mb-5 mb-sm-0 d-block'>
           Here is the process we follow for developing mobile apps for our
           clients.
         </span>
@@ -194,19 +194,19 @@ export default function dubaidevelopmentcompany() {
     desc: (
       <>
         {" "}
-        <span className="text-black d-block">
+        <span className='text-black d-block'>
           As an exclusive{" "}
           <Link
-            href="https://maps.app.goo.gl/WPQzX6HGBgE6h4mZA"
-            target="_blank"
-            className="whiteBgColor"
+            href='https://maps.app.goo.gl/WPQzX6HGBgE6h4mZA'
+            target='_blank'
+            className='whiteBgColor'
           >
             mobile app development company in Austin
           </Link>
           , our core aim is to satisfy our customers’ needs & provide them with
           indigenous digital apps.
         </span>
-        <span className="text-black d-block">
+        <span className='text-black d-block'>
           Our unwavering commitment to excellence, delivering efficient yet
           cost-effective digital solutions, & timely delivery makes us
           trustworthy among our clients.
@@ -424,8 +424,8 @@ export default function dubaidevelopmentcompany() {
       <Houtondubai content={HoustonContent} />
       <DubaiBrandTrust />
       <Expertappdubaiadvanced
-        expertapp="expertapp"
-        title="Advanced Technology Solutions for Large-Scale Businesses & Enterprises"
+        expertapp='expertapp'
+        title='Advanced Technology Solutions for Large-Scale Businesses & Enterprises'
         appData={[
           {
             title: "Big Data",
@@ -466,11 +466,11 @@ export default function dubaidevelopmentcompany() {
         ]}
       />
       <Justbuilditlpdubai
-        title1="Just"
-        title="Build It."
-        para="Design, Develop, and Grow with BitsWits."
-        slide="slide1lp"
-        href="tel:+971 55 503 1266"
+        title1='Just'
+        title='Build It.'
+        para='Design, Develop, and Grow with BitsWits.'
+        slide='slide1lp'
+        href='tel:+971 55 503 1266'
       />
       <Brand />
       <Faqdubai
@@ -484,16 +484,16 @@ export default function dubaidevelopmentcompany() {
                   There is a wide range of benefits that differentiate our app
                   development company in Austin from others.
                 </p>
-                <ul className="mt-3">
-                  <li className="text-black">
+                <ul className='mt-3'>
+                  <li className='text-black'>
                     Firstly, we offer applications that are built using modern
                     technologies, creativity, & innovative approaches.
                   </li>
-                  <li className="text-black">
+                  <li className='text-black'>
                     Secondly, our app developers have extensive experience in
                     developing mobile apps that generate massive revenue.
                   </li>
-                  <li className="text-black">
+                  <li className='text-black'>
                     Finally, and most significantly, you’ll get superior mobile
                     app development services at affordable prices when you
                     collaborate with us.
@@ -511,17 +511,17 @@ export default function dubaidevelopmentcompany() {
                   At BitsWits, we specialize in mobile app development for a
                   wide range of industries, including but not limited to:
                 </p>
-                <ul className="mt-3">
-                  <li className="text-black">Healthcare</li>
-                  <li className="text-black">Finance and Fintech</li>
-                  <li className="text-black">Retail and E-commerce</li>
-                  <li className="text-black">Education</li>
-                  <li className="text-black">Travel and Hospitality</li>
-                  <li className="text-black">Real Estate</li>
-                  <li className="text-black">Entertainment and Media</li>
-                  <li className="text-black">Logistics and Transportation</li>
-                  <li className="text-black">Food and Beverage</li>
-                  <li className="text-black">Automotive</li>
+                <ul className='mt-3'>
+                  <li className='text-black'>Healthcare</li>
+                  <li className='text-black'>Finance and Fintech</li>
+                  <li className='text-black'>Retail and E-commerce</li>
+                  <li className='text-black'>Education</li>
+                  <li className='text-black'>Travel and Hospitality</li>
+                  <li className='text-black'>Real Estate</li>
+                  <li className='text-black'>Entertainment and Media</li>
+                  <li className='text-black'>Logistics and Transportation</li>
+                  <li className='text-black'>Food and Beverage</li>
+                  <li className='text-black'>Automotive</li>
                 </ul>
                 <p>
                   Our team has extensive experience catering to the unique needs
@@ -593,29 +593,29 @@ export default function dubaidevelopmentcompany() {
                   ensure that your mobile app continues to perform optimally
                   after deployment. We offer:
                 </p>
-                <ul className="mt-3">
-                  <li className="text-black">
+                <ul className='mt-3'>
+                  <li className='text-black'>
                     <b>Bug Fixes</b>: Prompt resolution of any technical issues
                     or bugs that may arise post-launch.
                   </li>
-                  <li className="text-black">
+                  <li className='text-black'>
                     <b>Performance Optimization</b>: Continuous monitoring and
                     optimization to enhance app performance and responsiveness.
                   </li>
-                  <li className="text-black">
+                  <li className='text-black'>
                     <b>Security Updates</b>: Regular security patches and
                     updates to address new threats and vulnerabilities.
                   </li>
-                  <li className="text-black">
+                  <li className='text-black'>
                     <b>Feature Enhancements</b>: Adding new features or
                     functionalities to keep your app competitive and aligned
                     with evolving user needs.
                   </li>
-                  <li className="text-black">
+                  <li className='text-black'>
                     <b>Compatibility Updates</b>: Ensuring compatibility with
                     new operating system versions and device updates.
                   </li>
-                  <li className="text-black">
+                  <li className='text-black'>
                     <b>User Support</b>: Providing ongoing user support to
                     address queries, feedback, and feature requests.
                   </li>
@@ -628,7 +628,7 @@ export default function dubaidevelopmentcompany() {
       <Latestblog blogBox={blogBox} />
       <Globalmap content={global} />
       <script
-        type="application/ld+json"
+        type='application/ld+json'
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org/",
@@ -645,7 +645,7 @@ export default function dubaidevelopmentcompany() {
       />
 
       <script
-        type="application/ld+json"
+        type='application/ld+json'
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
@@ -673,7 +673,7 @@ export default function dubaidevelopmentcompany() {
       />
 
       <script
-        type="application/ld+json"
+        type='application/ld+json'
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org/",

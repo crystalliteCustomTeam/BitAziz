@@ -5,8 +5,8 @@ import styles from "@/styles/components/ai/banner.module.scss";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 import Head from "next/head";
-// import Image from "next/image";
-// import BannerPoster from "media/videos/AiServicesImg.webp";
+import Image from "next/image";
+import BannerPoster from "media/videos/AiServices/AiServicesImg.webp";
 import ButtonCommon from "@/src/components/common/button"
 
 
@@ -27,7 +27,7 @@ const Banner = () => {
             <Head>
                 <link
                     rel="preload"
-                    href="/videos/AiServicesVideo.mp4"
+                    href="/videos/AiServices/AiServicesVideo.mp4"
                     as="video"
                     type="video/mp4"
                 />
@@ -69,7 +69,7 @@ const Banner = () => {
                             </div>
                         </Col>
                         <Col md={6} className="my-auto">
-                            {/* {!showVideo ? (
+                            {!showVideo ? (
                                 <Image
                                     src={BannerPoster.src}
                                     alt="Banner background"
@@ -90,9 +90,9 @@ const Banner = () => {
                                     playsInline
                                     poster={BannerPoster.src}
                                 >
-                                    <source src="/videos/AiServicesVideo.mp4" type="video/mp4" />
+                                    <source src="/videos/AiServices/AiServicesVideo.mp4" type="video/mp4" />
                                 </video>
-                            )} */}
+                            )}
                         </Col>
                     </Row>
                 </Container>

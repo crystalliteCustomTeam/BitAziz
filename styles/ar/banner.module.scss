@@ -1,0 +1,52 @@
+.banenrSec {
+  height: 800px;
+  padding-top: 200px;
+  .contentSec {
+    h1 {
+      font-size: 60px;
+      line-height: 70px;
+    }
+    p {
+      font-size: 30px;
+      line-height: 40px;
+      font-weight: 100;
+    }
+    .flexBtn {
+      display: flex;
+      .btnPop {
+        height: 50px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        transition: 0.3s linear;
+        border-radius: 50px;
+        background: transparent;
+        font-size: 15px;
+        border: 2px solid #f32faf;
+        margin-left: 15px;
+        width: 220px;
+        font-size: 20px;
+        font-weight: 500;
+        color: #f32faf;
+        line-height: normal;
+        transition: 0.3s linear;
+        padding: 0px 20px;
+        cursor: pointer;
+        &:hover {
+          transition: 0.3s linear;
+          background: #f32faf;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .imageSec {
+    position: relative;
+    height: 550px;
+    img {
+      object-fit: cover;
+      border-radius: 25px;
+    }
+  }
+}
