@@ -60,72 +60,72 @@ const Justbuilditlpdubai = (props) => {
               <p className={styles.para}>{props.para}</p>
               <div className={styles.pont}>
                 <Link
-                  rel="preload"
-                  href="tel:8335006007"
+                  rel='preload'
+                  href='tel:8335006007'
                   className={`blueShade ${styles.about1}`}
                 >
-                  Call Now
+                  {props?.rtl ? "اتصل الآن" : "Call Now"}
                 </Link>
                 <Link
-                  rel="preload"
-                  href="#"
+                  rel='preload'
+                  href='#'
                   onClick={(e) => {
                     e.preventDefault();
                     window.replaceChat();
                   }}
                   className={`pink ${styles.about}`}
                 >
-                  Live Chat
+                  {props?.rtl ? "تحدث معنا" : "Live Chat"}
                 </Link>
               </div>
             </Col>
           </Row>
         </Container>
 
-        <Slider {...bannerslider} className="mt-5 d-sm-block d-none">
+        <Slider {...bannerslider} className='mt-5 d-sm-block d-none'>
           <div className={styles.strpImg}>
             <Image
-              alt="This image showcases the different arrays of Apps we have created"
-              sizes="100vw"
-              loading="lazy"
+              alt='This image showcases the different arrays of Apps we have created'
+              sizes='100vw'
+              loading='lazy'
               src={banImg1}
-              className="img-fluid"
+              className='img-fluid'
             />
           </div>
           <div className={styles.strpImg}>
             <Image
-              alt="This image showcases the different arrays of Apps we have created"
-              sizes="100vw"
-              loading="lazy"
+              alt='This image showcases the different arrays of Apps we have created'
+              sizes='100vw'
+              loading='lazy'
               src={banImg2}
-              className="img-fluid"
+              className='img-fluid'
             />
           </div>
           <div className={styles.strpImg}>
             <Image
-              alt="This image showcases the different arrays of Apps we have created"
-              sizes="100vw"
-              loading="lazy"
+              alt='This image showcases the different arrays of Apps we have created'
+              sizes='100vw'
+              loading='lazy'
               src={banImg3}
-              className="img-fluid"
+              className='img-fluid'
             />
           </div>
           <div className={styles.strpImg}>
             <Image
-              alt="This image showcases the different arrays of Apps we have created"
-              sizes="100vw"
-              loading="lazy"
+              alt='This image showcases the different arrays of Apps we have created'
+              sizes='100vw'
+              loading='lazy'
               src={banImg4}
-              className="img-fluid"
+              className='img-fluid'
             />
           </div>
           <div className={styles.strpImg}>
             <Image
-              alt="This image showcases the different arrays of Apps we have created"
-              sizes="100vw"
-              loading="lazy"
+              alt='This image showcases the different arrays of Apps we have created'
+              sizes='100vw'
+              loading='lazy'
               src={banImg5}
-              className="img-fluid"
+              className='img-fluid'
             />
           </div>
         </Slider>
@@ -133,7 +133,7 @@ const Justbuilditlpdubai = (props) => {
       {/* Modal Start*/}
       <Modal show={show} onHide={closemodal} className={styles.modalnew}>
         <Modal.Body>
-          <Bitswitspopup formsaspire="popquote" />
+          <Bitswitspopup formsaspire='popquote' />
           <span onClick={closemodal} className={styles.cross}>
             <RxCross2 />
           </span>

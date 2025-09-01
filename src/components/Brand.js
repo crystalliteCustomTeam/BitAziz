@@ -7,11 +7,11 @@ import styles from "@/styles/Brand.module.css";
 //images
 import free from "@/public/newdubai/free.png";
 
-const Brand = (props) => {
+const Brand = ({ rtl }) => {
   const [ip, setIP] = useState("");
   const [pagenewurl, setPagenewurl] = useState("");
   const [isDisabled, setIsDisabled] = useState(false);
-  const [score, setScore] = useState("Submit");
+  const [score, setScore] = useState(rtl ? "إرسال الاستفسار" : "Submit");
 
   // Creating function to load IP address from the API
 
@@ -166,7 +166,7 @@ const Brand = (props) => {
 
   return (
     <>
-      <section className={styles.trandubai}>
+      <section className={`${styles.trandubai} ${rtl ? "rtlText" : ""}`}>
         <Container>
           <Row className={`${styles.newtsl} gy-3 gx-0`}>
             <Col lg={4}>
@@ -183,25 +183,31 @@ const Brand = (props) => {
               </div>
             </Col>
             <Col lg={8}>
-              <div className={styles.level}>
+              <div className={`${styles.level} ${rtl ? styles.rtlInput : ""}`}>
                 <h2>
-                  {" "}
-                  <span>Let’s Level Up</span> Your <br></br>
-                  Brand, Together
+                  {rtl ? (
+                    <>
+                      <span>هيا نبني</span> تطبيقك
+                    </>
+                  ) : (
+                    <>
+                      <span>Let’s Level Up</span> Your <br /> Brand, Together
+                    </>
+                  )}
                 </h2>
                 <form className={styles.your} onSubmit={handleSubmit}>
                   <div>
                     <div className={styles.chill}>
                       <input
                         type='text'
-                        placeholder='Full Name'
+                        placeholder={rtl ? "الاسم الكامل" : "Full Name"}
                         name='name'
                         required
                       />
 
                       <input
                         type='tel'
-                        placeholder='Phone'
+                        placeholder={rtl ? "رقم الهاتف" : "Phone Number"}
                         minLength='10'
                         maxLength='13'
                         pattern='[0-9]*'
@@ -213,13 +219,13 @@ const Brand = (props) => {
                     <div className={styles.chill}>
                       <input
                         type='email'
-                        placeholder='Email'
+                        placeholder={rtl ? "البريد الإلكتروني" : "Your Email"}
                         name='email'
                         required
                       />
                       <input
                         type='number'
-                        placeholder='Project Budget'
+                        placeholder={rtl ? "ميزانية المشروع" : "Project Budget"}
                         name='price'
                         required
                       />
@@ -227,7 +233,11 @@ const Brand = (props) => {
                     <div className={styles.chill}></div>
                     <div className={styles.chill}>
                       <textarea
-                        placeholder='Write message here...'
+                        placeholder={
+                          rtl
+                            ? "الرسالة"
+                            : "Describe your project requirements."
+                        }
                         className={styles.message}
                         name='comment'
                         rows='4'

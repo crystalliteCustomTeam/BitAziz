@@ -7,7 +7,7 @@ import "swiper/css";
 import BrandOne from "media/newdubai/single-brands.png";
 import BrandTwo from "media/newdubai/single-brands1.png";
 
-const DubaiBrandTrust = ({ padding }) => {
+const DubaiBrandTrust = ({ padding, rtl }) => {
   return (
     <>
       <section
@@ -19,8 +19,12 @@ const DubaiBrandTrust = ({ padding }) => {
           <Row>
             <Col lg={12}>
               <div className={styles.txt}>
-                <p>World-Renowned</p>
-                <h2>Brands Trust Us</h2>
+                <p>{rtl ? "مشهور عالميًا" : "World-Renowned"}</p>
+                <h2>
+                  {rtl
+                    ? "تثق بنا العلامات التجارية العالمية"
+                    : "Brands Trust Us"}
+                </h2>
               </div>
               <div className={styles.brands}>
                 <div>

@@ -10,14 +10,14 @@ import badgeClient from "media/newdubai/badgesClient.webp";
 import Star from "media/newDubaiPagev1/star.webp";
 import Clutch from "media/newDubaiPagev1/clutch.webp";
 import Popup from "@/src/app/home/components/popup";
-const Bannerdubai = ({ content }) => {
+const Bannerdubai = ({ content, rtl }) => {
   const [showBg, setShowBg] = useState(false);
 
-  const { title, desc, alt, bg = " " } = content;
+  const { title, desc, alt, btn, bg = " " } = content;
   const [ip, setIP] = useState("");
   const [pagenewurl, setPagenewurl] = useState("");
   const [isDisabled, setIsDisabled] = useState(false);
-  const [score, setScore] = useState("Submit");
+  const [score, setScore] = useState(rtl ? "إرسال الاستفسار" : "Submit");
   const [checkboxes, setCheckboxes] = useState([]);
 
   // Creating function to load IP address from the API
@@ -199,7 +199,11 @@ const Bannerdubai = ({ content }) => {
   return (
     <>
       <Popup />
-      <section className={`${styles.DubaiBanner} bg-black pt-140 pb-3`}>
+      <section
+        className={`${styles.DubaiBanner} ${
+          rtl ? "rtlText" : ""
+        } bg-black pt-140 pb-3`}
+      >
         {/* <Image src={bg} fill priority={true} sizes='100vw' className='d-md-block d-none' style={{ zIndex: -1 }} alt={alt} /> */}
         {showBg && (
           <Image
@@ -214,16 +218,18 @@ const Bannerdubai = ({ content }) => {
         )}
         <Container className={` ${styles.conform}`}>
           <Row
-            className={`g-5 ${styles.applost} align-items-center w-100 mx-auto`}
+            className={`g-5 ${styles.applost} ${
+              rtl ? styles.arbic : ""
+            } align-items-center w-100 mx-auto`}
           >
             <Col xl={7} className='px-0'>
-              <div className={styles.oppp}>
+              <div className={`${styles.oppp}`}>
                 <h1 className='white fw500 mb-4'>{title}</h1>
                 <p className='font16 white fw300 mt-3 mb-lg-4 fontsfregular'>
                   {desc}
                 </p>
                 <button onClick={modal} className={`${styles.deliver} pink`}>
-                  Let’s Build Your Dream App!
+                  {btn ? "هيا نصنع تطبيقك" : " Let’s Build Your Dream App!"}
                 </button>
               </div>
               <div className={styles.badge}>
@@ -310,7 +316,7 @@ const Bannerdubai = ({ content }) => {
                   name='name'
                   required
                   className='form-control'
-                  placeholder='Full Name'
+                  placeholder={rtl ? "الاسم الكامل" : "Full Name"}
                 ></input>
                 <input
                   type='tel'
@@ -320,24 +326,26 @@ const Bannerdubai = ({ content }) => {
                   name='phone'
                   required
                   className='form-control mt-3'
-                  placeholder='Phone Number'
+                  placeholder={rtl ? "رقم الهاتف" : "Phone Number"}
                 ></input>
                 <input
                   type='email'
                   name='email'
                   required
                   className='form-control mt-3'
-                  placeholder='Email Address'
+                  placeholder={rtl ? "البريد الإلكتروني" : "Your Email"}
                 ></input>
                 <input
                   type='number'
                   name='price'
                   required
                   className='form-control mt-3'
-                  placeholder='Project Budget'
+                  placeholder={rtl ? "ميزانية المشروع" : "Project Budget"}
                 ></input>
                 <textarea
-                  placeholder='Description'
+                  placeholder={
+                    rtl ? "الرسالة" : "Describe your project requirements."
+                  }
                   name='comment'
                   className='form-control mt-3'
                 ></textarea>
