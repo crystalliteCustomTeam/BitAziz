@@ -26,27 +26,27 @@ const Industries = ({ rtl }) => {
     {
       title: "Real Estate",
       desc: "We ensure property listings, virtual tours, and essential features for real estate.",
-      href: "#",
+      href: "/real-estate-app-development-company",
     },
     {
       title: "Sports",
       desc: "Our sports solutions meet evolving needs with fan engagement, performance tracking, and management systems.",
-      href: "#",
+      href: "/sports-app-development",
     },
     {
       title: "E-commerce",
       desc: "We optimize e-commerce for better UX, streamlined workflow, and increased revenue.",
-      href: "#",
+      href: "/ecommerce-app-development",
     },
     {
       title: "Healthcare & Medical",
       desc: "We enhance patient care, expedite procedural work, and adhere to regulatory standards.",
-      href: "#",
+      href: "/healthcare-app-development-services",
     },
     {
       title: "Automotive",
       desc: "We create automotive apps enhancing UX, efficiency, and driving business growth.",
-      href: "#",
+      href: "/automotive-software-development",
     },
     {
       title: "Manufacture",
@@ -56,17 +56,17 @@ const Industries = ({ rtl }) => {
     {
       title: "Logistics",
       desc: "Our logistics solutions precisely suit your needs, optimizing efficiency and customer service.",
-      href: "#",
+      href: "/logistics-software-development",
     },
     {
       title: "Food & Beverage",
       desc: "We innovate food delivery, restaurant management, keeping businesses competitive and thriving",
-      href: "#",
+      href: "/restaurant-app-development-company",
     },
     {
       title: "E-learning",
       desc: "Our e-learning solutions replace traditional education, delivering robustness and stimulating growth.",
-      href: "#",
+      href: "/education-app-development",
     },
     {
       title: "Agriculture",

@@ -61,36 +61,102 @@ export default function dubaidevelopmentcompany() {
   const accordionData = [
     {
       question: "Android App Development in Austin",
-      answer:
-        "Android is one of the most vibrant app development markets with 3 million applications on the Google Play Store. Our Android app development services in Austin concentrate on creating user-oriented dynamic apps with top functionality. We guarantee that the apps we create are not only integrated with the newest tools and technologies but they’re also compatible with every Android device through an efficient operating procedure.",
+      answer: (
+        <>
+          Android is one of the most vibrant app development markets with 3
+          million applications on the Google Play Store. Our{" "}
+          <Link href='/android-app-development-company' className='whiteColor'>
+            Android app development services
+          </Link>{" "}
+          concentrate on creating user-oriented dynamic apps with top
+          functionality. We guarantee that the apps we create are not only
+          integrated with the newest tools and technologies but they’re also
+          compatible with every Android device through an efficient operating
+          procedure.
+        </>
+      ),
       btn: "Let’s Build Your Android App!",
       StoryLineImg: StoryLine2,
     },
     {
       question: "iPhone App Development in Austin",
-      answer:
-        "iOS is another highly captivating market with 2 million+ mobile apps. With our iPhone app development services in Austin, you can expand your business reach, improve customer engagement & build credibility, as well as attain new users. We are committed to offering apps with excellent design and interface that work smoothly on iOS devices. We make sure that your app fully complies with Apple's strict guidelines, thus guaranteeing a smooth app store approval process.",
+      answer: (
+        <>
+          iOS is another highly captivating market with 2 million+ mobile apps.
+          With our{" "}
+          <Link href='/ios-app-development-company' className='whiteColor'>
+            iPhone app development services
+          </Link>{" "}
+          in Austin, you can expand your business reach, improve customer
+          engagement & build credibility, as well as attain new users. We are
+          committed to offering apps with excellent design and interface that
+          work smoothly on iOS devices. We make sure that your app fully
+          complies with Apple's strict guidelines, thus guaranteeing a smooth
+          app store approval process.
+        </>
+      ),
       btn: "Let’s Build Your iOS App!",
       StoryLineImg: StoryLine3,
     },
     {
       question: "Flutter App Development in Austin",
-      answer:
-        "Flutter – a leading platform developed by Google has attained immense popularity due to offering the ability to create native-like applications with a single codebase. Apps built on Flutter can run across multiple platforms – Android, iOS, & Web. The apps developed on this technology have 50% fewer codebase issues, resulting in faster development and timely app launch. Our Flutter app development services in Austin leverage this innovative framework to build splendid apps.",
+      answer: (
+        <>
+          Flutter – a leading platform developed by Google has attained immense
+          popularity due to offering the ability to create native-like
+          applications with a single codebase. Apps built on Flutter can run
+          across multiple platforms – Android, iOS, & Web. The apps developed on
+          this technology have 50% fewer codebase issues, resulting in faster
+          development and timely app launch. Our{" "}
+          <Link href='/flutter-app-development' className='whiteColor'>
+            Flutter app development services
+          </Link>{" "}
+          in Austin leverage this innovative framework to build splendid apps.
+        </>
+      ),
       btn: "Let’s Build Your Flutter App!",
       StoryLineImg: StoryLine4,
     },
     {
       question: "Game App Development in Austin",
-      answer:
-        "Mobile gaming revenue is projected to reach $173.4 billion by the end of 2027. This showcases the importance of this highly competitive market. Our game app development services in Austin are designed to create highly interactive and compelling gaming experiences in which the players are glued to your app. Whether you desire to create a mobile game for profit or entertainment purposes, our team of creators at BitsWits have the know-how and experience to deliver top-notch results.",
+      answer: (
+        <>
+          Mobile gaming revenue is projected to reach $173.4 billion by the end
+          of 2027. This showcases the importance of this highly competitive
+          market. Our{" "}
+          <Link href='/mobile-game-development-company' className='whiteColor'>
+            game app development services
+          </Link>{" "}
+          in Austin are designed to create highly interactive and compelling
+          gaming experiences in which the players are glued to your app. Whether
+          you desire to create a mobile game for profit or entertainment
+          purposes, our team of creators at BitsWits have the know-how and
+          experience to deliver top-notch results.
+        </>
+      ),
       btn: "Let’s Build Your Game App!",
       StoryLineImg: StoryLine5,
     },
     {
       question: "Blockchain App Development in Austin",
-      answer:
-        "The global market for blockchain app development is projected to grow to $67.4 billion by 2026. As a top-grade app development company in Austin, we utilize advanced technology tools like Hyperledger Fabric, Ethereum, and Corda to develop solutions for finance, healthcare, and supply chain industries. Our blockchain app development services offer public and private blockchain applications, cryptocurrency and wallet development, cryptocurrency exchange development, NFT development, and more.",
+      answer: (
+        <>
+          The global market for{" "}
+          <Link
+            href='/blockchain-game-development-company'
+            className='whiteColor'
+          >
+            blockchain app development
+          </Link>{" "}
+          is projected to grow to $67.4 billion by 2026. As a top-grade app
+          development company in Austin, we utilize advanced technology tools
+          like Hyperledger Fabric, Ethereum, and Corda to develop solutions for
+          finance, healthcare, and supply chain industries. Our blockchain app
+          development services offer public and private blockchain applications,
+          cryptocurrency and wallet development, cryptocurrency exchange
+          development, NFT development, and more.
+        </>
+      ),
       btn: "Let’s Build Your Blockchain App!",
       StoryLineImg: StoryLine6,
     },
@@ -138,7 +204,6 @@ export default function dubaidevelopmentcompany() {
     classSec: "austin",
     title: (
       <>
-        {" "}
         Our Agile Process for <br /> Mobile App Development <br /> in Austin{" "}
       </>
     ),
@@ -512,16 +577,83 @@ export default function dubaidevelopmentcompany() {
                   wide range of industries, including but not limited to:
                 </p>
                 <ul className='mt-3'>
-                  <li className='text-black'>Healthcare</li>
-                  <li className='text-black'>Finance and Fintech</li>
-                  <li className='text-black'>Retail and E-commerce</li>
-                  <li className='text-black'>Education</li>
-                  <li className='text-black'>Travel and Hospitality</li>
-                  <li className='text-black'>Real Estate</li>
-                  <li className='text-black'>Entertainment and Media</li>
-                  <li className='text-black'>Logistics and Transportation</li>
-                  <li className='text-black'>Food and Beverage</li>
-                  <li className='text-black'>Automotive</li>
+                  <li className='text-black'>
+                    <Link
+                      className='text-black'
+                      href='/healthcare-app-development-services'
+                    >
+                      Healthcare
+                    </Link>
+                  </li>
+                  <li className='text-black'>
+                    <Link
+                      className='text-black'
+                      href='/fintech-app-development'
+                    >
+                      Finance and Fintech
+                    </Link>
+                  </li>
+                  <li className='text-black'>
+                    <Link
+                      className='text-black'
+                      href='/ecommerce-app-development'
+                    >
+                      Retail and E-commerce
+                    </Link>
+                  </li>
+                  <li className='text-black'>
+                    <Link
+                      className='text-black'
+                      href='/education-app-development'
+                    >
+                      Education
+                    </Link>
+                  </li>
+                  <li className='text-black'>
+                    <Link className='text-black' href=''>
+                      Travel and Hospitality
+                    </Link>
+                  </li>
+                  <li className='text-black'>
+                    <Link
+                      className='text-black'
+                      href='/real-estate-app-development-company'
+                    >
+                      Real Estate
+                    </Link>
+                  </li>
+                  <li className='text-black'>
+                    <Link
+                      className='text-black'
+                      href='/social-media-app-development-company'
+                    >
+                      Entertainment and Media
+                    </Link>
+                  </li>
+                  <li className='text-black'>
+                    <Link
+                      className='text-black'
+                      href='/logistics-software-development'
+                    >
+                      Logistics and Transportation
+                    </Link>
+                  </li>
+                  <li className='text-black'>
+                    <Link
+                      className='text-black'
+                      href='/restaurant-app-development-company'
+                    >
+                      Food and Beverage
+                    </Link>
+                  </li>
+                  <li className='text-black'>
+                    <Link
+                      className='text-black'
+                      href='/automotive-software-development'
+                    >
+                      Automotive
+                    </Link>
+                  </li>
                 </ul>
                 <p>
                   Our team has extensive experience catering to the unique needs

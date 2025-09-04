@@ -74,6 +74,17 @@
           }
         }
       }
+      p {
+        a {
+          color: #585858;
+          transition: 0.3s linear;
+          font-weight: 500;
+          &:hover {
+            transition: 0.3s linear;
+            color: #f32faf;
+          }
+        }
+      }
     }
 
     &.active {

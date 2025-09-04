@@ -111,6 +111,7 @@ import Music from "media/services/industry/music.webp";
 import BlogsIMG01 from "media/services/blogs/post-1.webp"
 import BlogsIMG02 from "media/services/blogs/post-2.webp"
 import BlogsIMG03 from "media/services/blogs/post-3.webp"
+import Link from "next/link";
 
 
 export const BannerData = {
@@ -733,7 +734,7 @@ export const IndustriesContent = {
 }
 
 export const IndustriesList = [
-    
+
     {
         icon: <FintechSVG />,
         title: "Fintech",
@@ -814,15 +815,20 @@ export const FaqsList = [
     },
     {
         title: "What are the essential features of an eCommerce application?",
-        txt: "Key features of an eCommerce application include a user-friendly interface, secure payment gateways, product recommendations, customer reviews, and mobile responsiveness. Integrating these features enhances user experience and increases conversion rates, ensuring a successful app.",
+        txt: (<>
+            <p>Key features of an eCommerce application include a user-friendly interface, secure payment gateways, product recommendations, customer reviews, and mobile responsiveness. Integrating these features enhances user experience and increases conversion rates, ensuring a successful <Link href="/app-development-florida">eCommerce app in Florida.</Link></p>
+        </>),
     },
     {
         title: "How long does it take to develop an eCommerce app?",
-        txt: "Developing an eCommerce app typically takes three to six months. The timeline varies based on the app’s complexity, features, and the development team’s proficiency. Proactive planning and the use of agile development practices can streamline the development time to much shorter. Let’s connect and get a detailed app cost breakdown with turnaround time.",
+        txt: (<>
+            <p>Developing an <Link href="/app-development-houston">eCommerce app in Houston</Link> typically takes three to six months. The timeline varies based on the app’s complexity, features, and the development team’s proficiency. Proactive planning and the use of agile development practices can streamline the development time to much shorter. Let’s connect and get a detailed app cost breakdown with turnaround time.</p></>),
     },
     {
         title: "What eCommerce application development services does BitsWits offer?",
-        txt: "BitsWits offers comprehensive eCommerce application development services, including UI/UX design, backend development, payment integration, and ongoing support. Our ecommerce app developers focus on creating scalable, secure apps tailored to your business needs, delivering a seamless shopping experience.",
+        txt: (<>
+            <p>BitsWits offers comprehensive <Link href="/mobile-app-development-company-dallas">eCommerce application development services in Dallas</Link>, including UI/UX design, backend development, payment integration, and ongoing support. Our ecommerce app developers focus on creating scalable, secure apps tailored to your business needs, delivering a seamless shopping experience.</p>
+        </>),
     }
 ];
 

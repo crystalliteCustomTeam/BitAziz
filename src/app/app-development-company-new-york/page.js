@@ -89,7 +89,7 @@ export default function dubaidevelopmentcompany() {
     desc: (
       <>
         Consistently delivering value and results
-        <br className="d-xl-block d-none" /> to our partners and clients
+        <br className='d-xl-block d-none' /> to our partners and clients
         throughout the globe.{" "}
       </>
     ),
@@ -98,22 +98,59 @@ export default function dubaidevelopmentcompany() {
   const accordionData = [
     {
       question: "Android App Development in New York",
-      answer:
-        "We offer top-tier Android app development services to entrepreneurs looking to build high-performance native Android apps. Our tech stack for Android app development in New York includes programming languages like Kotlin, Java, and PHP, with Android Studio as the IDE, MongoDB or MySQL for databases, and Android Jetpack for UI components, ensuring seamless performance.",
+      answer: (
+        <>
+          We offer top-tier{" "}
+          <Link href='/android-app-development-company' className='whiteColor'>
+            Android app development services
+          </Link>{" "}
+          to entrepreneurs looking to build high-performance native Android
+          apps. Our tech stack for Android app development in New York includes
+          programming languages like Kotlin, Java, and PHP, with Android Studio
+          as the IDE, MongoDB or MySQL for databases, and Android Jetpack for UI
+          components, ensuring seamless performance.
+        </>
+      ),
       btn: "Let’s Build My Android App",
       StoryLineImg: StoryLine2,
     },
     {
       question: "iOS App Development in New York",
-      answer:
-        "Building top-tier iOS apps requires a solid tech stack, and our iOS app developers in New York are experienced with the essential tools and languages for success. Our team uses Swift and Objective-C, along with tools like Xcode and SwiftUI, to develop native apps that leverage GPS, cameras, and high-performance processors, ensuring seamless performance across all iOS devices.",
+      answer: (
+        <>
+          Building top-tier iOS apps requires a solid tech stack, and our{" "}
+          <Link href='/ios-app-development-company' className='whiteColor'>
+            iOS app developers
+          </Link>{" "}
+          in New York are experienced with the essential tools and languages for
+          success. Our team uses Swift and Objective-C, along with tools like
+          Xcode and SwiftUI, to develop native apps that leverage GPS, cameras,
+          and high-performance processors, ensuring seamless performance across
+          all iOS devices.
+        </>
+      ),
       btn: "Let’s Build My iOS App!",
       StoryLineImg: StoryLine3,
     },
     {
       question: "Cross-Platform App Development in New York",
-      answer:
-        "Using top frameworks like React Native and Flutter, we specialize in delivering seamless cross-platform apps for both Android and iOS. As a leading cross-platform app development company in NYC, we create apps with a single codebase that maintains native-like performance and user experience, all while offering a cost-effective solution for businesses aiming for consistency across platforms.",
+      answer: (
+        <>
+          Using top frameworks like React Native and Flutter, we specialize in
+          delivering seamless cross-platform apps for both Android and iOS. As a
+          leading{" "}
+          <Link
+            href='/cross-platform-app-development-services'
+            className='whiteColor'
+          >
+            cross-platform app development company
+          </Link>{" "}
+          in NYC, we create apps with a single codebase that maintains
+          native-like performance and user experience, all while offering a
+          cost-effective solution for businesses aiming for consistency across
+          platforms.
+        </>
+      ),
       btn: "Let’s Build My Cross-Platform App!",
       StoryLineImg: StoryLine4,
     },
@@ -126,8 +163,20 @@ export default function dubaidevelopmentcompany() {
     },
     {
       question: "Game Development in New York",
-      answer:
-        "Our expert game development team builds binge-worthy, adrenaline-pumping games using cutting-edge tools and technologies. With a team of dedicated mobile game app developers in New York City, we excel with engines like Unity or Unreal Engine, programming languages such as C# and C++, and 3D modeling software like Blender or Maya, creating immersive games that keep players coming back.",
+      answer: (
+        <>
+          Our expert game development team builds binge-worthy,
+          adrenaline-pumping games using cutting-edge tools and technologies.
+          With a team of dedicated{" "}
+          <Link href='/mobile-game-development-company' className='whiteColor'>
+            mobile game app developers
+          </Link>{" "}
+          in New York City, we excel with engines like Unity or Unreal Engine,
+          programming languages such as C# and C++, and 3D modeling software
+          like Blender or Maya, creating immersive games that keep players
+          coming back.
+        </>
+      ),
       btn: "Let’s Build My Game App!",
       StoryLineImg: StoryLine6,
     },
@@ -140,9 +189,9 @@ export default function dubaidevelopmentcompany() {
       <>
         Here’s the suite of{" "}
         <Link
-          rel="preload"
-          href="/mobile-application-development-services"
-          className="fw600 text-black"
+          rel='preload'
+          href='/mobile-application-development-services'
+          className='fw600 text-black'
         >
           app development services{" "}
         </Link>
@@ -158,7 +207,7 @@ export default function dubaidevelopmentcompany() {
       <>
         We are among the fastest-growing app development companies in New York
         with a portfolio of 150+ successfully{" "}
-        <br className="d-xl-block d-none" /> built and launched mobile
+        <br className='d-xl-block d-none' /> built and launched mobile
         applications across 10+ industries, with over 1 million downloads
         combined.{" "}
       </>
@@ -166,21 +215,21 @@ export default function dubaidevelopmentcompany() {
     para: "Here’s a glimpse at our resounding app development portfolio.",
     subtitleOne: (
       <>
-        Soul <br className="d-none d-md-block d-lg-none" /> Scribe
+        Soul <br className='d-none d-md-block d-lg-none' /> Scribe
       </>
     ),
     subDescOne:
       "Soul Scribe is a groundbreaking social networking app that functions as a digital diary, and you can enlist your loved ones to be part of your online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories.",
     subtitleTwo: (
       <>
-        The <br className="d-none d-md-block d-lg-none" /> Ready App
+        The <br className='d-none d-md-block d-lg-none' /> Ready App
       </>
     ),
     subDescTwo:
       "The Ready App is a revolutionary platform invented to revolutionize the hiring process for the transportation industry. It fills the communication gap between drivers and recruiters by having a user-friendly interface along with features like secure messaging, personal meetings, and real-time updates.",
     subtitleThree: (
       <>
-        Grease <br className="d-none d-md-block d-lg-none" /> Monkey
+        Grease <br className='d-none d-md-block d-lg-none' /> Monkey
       </>
     ),
     subDescThree:
@@ -206,13 +255,13 @@ export default function dubaidevelopmentcompany() {
     ),
     desc: (
       <>
-        <span className="d-block">
+        <span className='d-block'>
           At BitsWits, we don't just develop mobile apps; we create captivating,
           revenue-generating applications that keep you ahead in the digital
           world.{" "}
         </span>
         <br />
-        <span className="d-block">
+        <span className='d-block'>
           We leverage advanced technologies and creative designs to produce apps
           that connect with users and drive business success. Our structured
           approach starts with defining the core problem statement and aligning
@@ -220,7 +269,7 @@ export default function dubaidevelopmentcompany() {
           continued success post-launch.
         </span>
         <br />
-        <span className="mb-5 mb-sm-0 d-block">
+        <span className='mb-5 mb-sm-0 d-block'>
           Whether it's full-scale app development, design revamps, feature
           integrations, or routine bug fixes, we're committed to turning every
           client's app into a global sensation.
@@ -251,7 +300,7 @@ export default function dubaidevelopmentcompany() {
         {" "}
         Why Choose BitsWits for{" "}
         <span>
-          Mobile App <br className="d-xl-block d-none" /> Development
+          Mobile App <br className='d-xl-block d-none' /> Development
         </span>{" "}
         in NYC?
       </>
@@ -261,7 +310,7 @@ export default function dubaidevelopmentcompany() {
         {" "}
         BitsWits has an unmatched track record when it comes to client
         satisfaction, project success ratio, faster time-to-market, transparent
-        pricing, <br className="d-xl-block d-none" /> and positive reviews on
+        pricing, <br className='d-xl-block d-none' /> and positive reviews on
         platforms like Clutch and Trustpilot. Book your free discovery call now!
       </>
     ),
@@ -273,7 +322,7 @@ export default function dubaidevelopmentcompany() {
         <>
           App development cost in New York ranges anywhere between{" "}
           <span>$20,000 </span>to <span>$100,000+</span>
-          <br className="d-xl-block d-none" /> for a minimum viable product
+          <br className='d-xl-block d-none' /> for a minimum viable product
           (MVP) and could go higher in the long run.
         </>
       ),
@@ -644,8 +693,8 @@ export default function dubaidevelopmentcompany() {
           <Houtondubai content={HoustonContent} />
           <DubaiBrandTrust />
           <Expertappdubaiadvanced
-            expertapp="expertapp"
-            title="Future-Proof Your Startup with Cutting-Edge Technology Integration"
+            expertapp='expertapp'
+            title='Future-Proof Your Startup with Cutting-Edge Technology Integration'
             appData={[
               {
                 title: "Big Data",
@@ -686,11 +735,11 @@ export default function dubaidevelopmentcompany() {
             ]}
           />
           <Justbuilditlpdubai
-            title1="Just"
-            title="Build It."
-            para="Design, Develop, and Grow with BitsWits."
-            slide="slide1lp"
-            href="tel:+971 55 503 1266"
+            title1='Just'
+            title='Build It.'
+            para='Design, Develop, and Grow with BitsWits.'
+            slide='slide1lp'
+            href='tel:+971 55 503 1266'
           />
           <Brand />
           <Faqdubai
@@ -867,11 +916,73 @@ export default function dubaidevelopmentcompany() {
                   <>
                     <p>
                       BitsWits provides app development services for various
-                      industries, including ecommerce, healthcare, automotive,
-                      logistics, manufacturing, food & beverage, e-learning,
-                      agriculture, real estate, sports, and enterprise mobility.
-                      We boast of having a strong portfolio of mobile apps
-                      across industries, with over 1 Million downloads combined.
+                      industries, including{" "}
+                      <Link
+                        className='text-black'
+                        href='/healthcare-app-development-services'
+                      >
+                        Healthcare
+                      </Link>
+                      <Link
+                        className='text-black'
+                        href='/fintech-app-development'
+                      >
+                        Finance and Fintech
+                      </Link>
+                      <Link
+                        className='text-black'
+                        href='/ecommerce-app-development'
+                      >
+                        Retail and E-commerce
+                      </Link>
+                      <Link
+                        className='text-black'
+                        href='/education-app-development'
+                      >
+                        Education,
+                      </Link>
+                      <Link className='text-black' href=''>
+                        Travel and Hospitality
+                      </Link>
+                      <Link
+                        className='text-black'
+                        href='/real-estate-app-development-company'
+                      >
+                        Real Estate
+                      </Link>
+                      <Link
+                        className='text-black'
+                        href='/social-media-app-development-company'
+                      >
+                        Entertainment and Media
+                      </Link>
+                      <Link
+                        className='text-black'
+                        href='/logistics-software-development'
+                      >
+                        Logistics and Transportation
+                      </Link>
+                      <Link
+                        className='text-black'
+                        href='/enterprise-app-development-company'
+                      >
+                        Enterprise
+                      </Link>
+                      <Link
+                        className='text-black'
+                        href='/restaurant-app-development-company'
+                      >
+                        Food and Beverage
+                      </Link>
+                      <Link
+                        className='text-black'
+                        href='/automotive-software-development'
+                      >
+                        Automotive
+                      </Link>{" "}
+                      mobility. We boast of having a strong portfolio of mobile
+                      apps across industries, with over 1 Million downloads
+                      combined.
                     </p>
                   </>
                 ),
@@ -889,8 +1000,8 @@ export default function dubaidevelopmentcompany() {
           <Industries />
           <DubaiBrandTrust />
           <Expertappdubaiadvanced
-            expertapp="expertapp"
-            title="Future-Proof Your Startup with Cutting-Edge Technology Integration"
+            expertapp='expertapp'
+            title='Future-Proof Your Startup with Cutting-Edge Technology Integration'
             appData={[
               {
                 title: "Big Data",
@@ -931,11 +1042,11 @@ export default function dubaidevelopmentcompany() {
             ]}
           />
           <Justbuilditlpdubai
-            title1="Just"
-            title="Build It."
-            para="Design, Develop, and Grow with BitsWits."
-            slide="slide1lp"
-            href="tel:+971 55 503 1266"
+            title1='Just'
+            title='Build It.'
+            para='Design, Develop, and Grow with BitsWits.'
+            slide='slide1lp'
+            href='tel:+971 55 503 1266'
           />
           <Brand />
           <Faqdubai
@@ -1126,8 +1237,8 @@ export default function dubaidevelopmentcompany() {
           <Latestblog blogBox={blogBox} />
         </>
       )}
-     <script
-        type="application/ld+json"
+      <script
+        type='application/ld+json'
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
@@ -1144,7 +1255,7 @@ export default function dubaidevelopmentcompany() {
       />
 
       <script
-        type="application/ld+json"
+        type='application/ld+json'
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
@@ -1157,7 +1268,7 @@ export default function dubaidevelopmentcompany() {
       />
 
       <script
-        type="application/ld+json"
+        type='application/ld+json'
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
@@ -1207,7 +1318,7 @@ export default function dubaidevelopmentcompany() {
       />
 
       <script
-        type="application/ld+json"
+        type='application/ld+json'
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",

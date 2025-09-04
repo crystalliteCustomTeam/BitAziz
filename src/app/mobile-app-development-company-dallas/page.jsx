@@ -61,36 +61,47 @@ export default function dubaidevelopmentcompany() {
   const accordionData = [
     {
       question: "Android App Development in Dallas",
-      answer:
-        "For Android app development services Dallas, our team specializes in creating high-performing, user-friendly apps. We utilize tools like Java and Kotlin to build scalable architectures that meet your needs. We ensure data security and quality with tech stacks like Mocha and Gatling, providing periodic review reports for verification.",
+      answer: (<>
+        For <Link href='/android-app-development-company' className='whiteColor'>
+          Android app development services
+        </Link>{" "} Dallas, our team specializes in creating high-performing, user-friendly apps. We utilize tools like Java and Kotlin to build scalable architectures that meet your needs. We ensure data security and quality with tech stacks like Mocha and Gatling, providing periodic review reports for verification.</>),
       btn: "Let’s Build Your Android App!",
       StoryLineImg: StoryLine2,
     },
     {
       question: "IPhone App Development in Dallas",
-      answer:
-        "Our team focuses on transforming ideas into fully functional digital products. With expertise in programming and advanced software development, we design prototypes, refine layouts, and ensure seamless functionality. Benefit from our iOS app development services Dallas including graphic design, app security, IoT wearables, and augmented reality features.",
+      answer: (<>
+        Our team focuses on transforming ideas into fully functional digital products. With expertise in programming and advanced software development, we design prototypes, refine layouts, and ensure seamless functionality. Benefit from our
+        <Link href='/ios-app-development-company' className='whiteColor'>
+          iOS app development services
+        </Link>{" "} Dallas including graphic design, app security, IoT wearables, and augmented reality features.</>),
       btn: "Let’s Build Your iOS App!",
       StoryLineImg: StoryLine3,
     },
     {
       question: "Flutter App Development in Dallas",
-      answer:
-        "We develop Flutter apps with high responsiveness and full functionality. With Flutter's capabilities, we optimize native performance and deliver a superior cross-platform experience. As a top-tier mobile app design company Dallas, our expertise lies in creating efficient, feature-rich apps that meet your specific requirements. Connect with us today to discover how our Flutter app development services can drive success for your business.",
+      answer: (<>
+        We develop Flutter apps with high responsiveness and full functionality. With Flutter's capabilities, we optimize native performance and deliver a superior cross-platform experience. As a top-tier mobile app design company Dallas, our expertise lies in creating efficient, feature-rich apps that meet your specific requirements. Connect with us today to discover how our <Link href='/flutter-app-development' className='whiteColor'>
+          Flutter app development
+        </Link>{" "} services can drive success for your business.</>),
       btn: "Let’s Build Your Flutter App!",
       StoryLineImg: StoryLine4,
     },
     {
       question: "Game App Development in Dallas",
-      answer:
-        "Our game app developers use the latest tech stacks to create captivating experiences that continuously engage users, enticing them to return for more. Experienced in Unity, Unreal Engine, and Cocos2d-x, we craft games using 2D/3D graphics, physics engines, and artificial intelligence. Targeting user retention, performance optimization, and consistent gameplay, our game app development services guarantee that your game stands out in the competitive market.",
+      answer: (<>
+        Our game app developers use the latest tech stacks to create captivating experiences that continuously engage users, enticing them to return for more. Experienced in Unity, Unreal Engine, and Cocos2d-x, we craft games using 2D/3D graphics, physics engines, and artificial intelligence. Targeting user retention, performance optimization, and consistent gameplay, our <Link href='/mobile-game-development-company' className='whiteColor'>
+          game app development services
+        </Link>{" "} guarantee that your game stands out in the competitive market.</>),
       btn: "Let’s Build Your Game App!",
       StoryLineImg: StoryLine5,
     },
     {
       question: "Blockchain App Development in Dallas",
-      answer:
-        "From consulting, and smart contracts development to auditing in our blockchain app development services, we offer a range of solutions including public and private blockchain applications, cryptocurrency and wallet development, cryptocurrency exchange development, and NFT development. Enjoy the comfort of streamlined operations, advanced security, and productive revenues which are all included in our inclusive services.",
+      answer: (<>
+        From consulting, and smart contracts development to auditing in our <Link href='/blockchain-game-development-company' className='whiteColor'>
+          blockchain app development services
+        </Link>{" "}, we offer a range of solutions including public and private blockchain applications, cryptocurrency and wallet development, cryptocurrency exchange development, and NFT development. Enjoy the comfort of streamlined operations, advanced security, and productive revenues which are all included in our inclusive services.</>),
       btn: "Let’s Build Your Blockchain App!",
       StoryLineImg: StoryLine6,
     },
@@ -541,6 +552,78 @@ export default function dubaidevelopmentcompany() {
                 <b>Yes</b>, we can integrate third-party services or APIs into
                 the app to extend its functionality and provide additional
                 features as per your requirements and preferences.{" "}
+              </p>
+            ),
+          },
+          {
+            question:
+              "Which industries does BitsWits serve in Dallas?",
+            answer: (
+              <p>
+                BitsWits caters to a wide range of industries from {" "}
+                <Link
+                  className='text-black'
+                  href='/healthcare-app-development-services'
+                >
+                  Healthcare
+                </Link>
+                <Link
+                  className='text-black'
+                  href='/fintech-app-development'
+                >
+                  Finance and Fintech
+                </Link>
+                <Link
+                  className='text-black'
+                  href='/ecommerce-app-development'
+                >
+                  Retail and E-commerce
+                </Link>
+                <Link
+                  className='text-black'
+                  href='/education-app-development'
+                >
+                  Education
+                </Link>
+                <Link className='text-black' href=''>
+                  Travel and Hospitality
+                </Link>
+                <Link
+                  className='text-black'
+                  href='/real-estate-app-development-company'
+                >
+                  Real Estate,
+                </Link>
+                <Link
+                  className='text-black'
+                  href='/social-media-app-development-company'
+                >
+                  Entertainment and Media
+                </Link>
+                <Link
+                  className='text-black'
+                  href='/logistics-software-development'
+                >
+                  Logistics and Transportation
+                </Link>
+                <Link
+                  className='text-black'
+                  href='/enterprise-app-development-company'
+                >
+                  Enterprise
+                </Link>
+                <Link
+                  className='text-black'
+                  href='/restaurant-app-development-company'
+                >
+                  Food and Beverage
+                </Link>
+                <Link
+                  className='text-black'
+                  href='/automotive-software-development'
+                >
+                  Automotive
+                </Link>{" "} Our track record features apps that have collectively surpassed 1 million downloads.
               </p>
             ),
           },

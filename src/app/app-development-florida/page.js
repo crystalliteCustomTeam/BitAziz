@@ -36,6 +36,7 @@ import blog2 from "/public/newdubai/blog2.png";
 import blog3 from "/public/newdubai/blog3.png";
 import HeroBg from "/public/newhouston/florida.webp";
 import MapImage from "media/newdubai/floridaMap.png";
+import Link from "next/link";
 
 export default function dubaidevelopmentcompany() {
   // Banner Content
@@ -51,7 +52,7 @@ export default function dubaidevelopmentcompany() {
     desc: (
       <>
         Delivering consistent value and exceptional{" "}
-        <br className="d-xl-block d-none" />
+        <br className='d-xl-block d-none' />
         results to our partners and clients globally.{" "}
       </>
     ),
@@ -60,43 +61,117 @@ export default function dubaidevelopmentcompany() {
   const accordionData = [
     {
       question: "Android App Development in Florida",
-      answer:
-        "We offer top-notch Android app development services to entrepreneurs aiming to build separate native mobile apps for both Android and iOS platforms. Our tech stack for Android app development includes rich programming languages like Dart, Kotlin, Java, PHP, and SDKs and tools like Android Studio, MongoDB, MySQL, and Android Jetpack.",
+      answer: (
+        <>
+          We offer top-notch{" "}
+          <Link href='/android-app-development-company' className='whiteColor'>
+            Android app development services
+          </Link>{" "}
+          to entrepreneurs aiming to build separate native mobile apps for both
+          Android and iOS platforms. Our tech stack for Android app development
+          includes rich programming languages like Dart, Kotlin, Java, PHP, and
+          SDKs and tools like Android Studio, MongoDB, MySQL, and Android
+          Jetpack.
+        </>
+      ),
       btn: "Let’s Build Your Android App",
       StoryLineImg: StoryLine2,
     },
     {
       question: "iOS App Development in Florida",
-      answer:
-        "Developing high-quality iOS apps requires a solid tech stack. Our Florida app developers are proficient in programming languages, frameworks, and SDKs for iOS. We use Swift and Objective-C, along with tools like Xcode and SwiftUI. Native iOS app development is ideal for mobile applications needing advanced features like GPS integration, camera, and high-performance processing.",
+      answer: (
+        <>
+          Developing high-quality iOS apps requires a solid tech stack. Our
+          Florida app developers are proficient in programming languages,
+          frameworks, and SDKs for iOS. We use Swift and Objective-C, along with
+          tools like Xcode and SwiftUI. Native{" "}
+          <Link href='/ios-app-development-company' className='whiteColor'>
+            iOS app development
+          </Link>{" "}
+          is ideal for mobile applications needing advanced features like GPS
+          integration, camera, and high-performance processing.
+        </>
+      ),
       btn: "Let’s Build Your iOS App!",
       StoryLineImg: StoryLine3,
     },
     {
       question: "Cross-Platform App Development in Florida",
-      answer:
-        "At BitsWits, we use leading cross-platform app development frameworks like React Native and Flutter to create apps for both Android and iOS. With a single codebase, we deliver consistent performance and user experience across platforms while keeping costs down. If you’re tight on budget but can’t compromise on the quality, cross-platform app development is for you.",
+      answer: (
+        <>
+          At BitsWits, we use leading{" "}
+          <Link
+            href='/cross-platform-app-development-services'
+            className='whiteColor'
+          >
+            cross-platform app development
+          </Link>{" "}
+          frameworks like{" "}
+          <Link href='/react-native-app-development' className='whiteColor'>
+            React Native
+          </Link>{" "}
+          and{" "}
+          <Link href='/flutter-app-development' className='whiteColor'>
+            Flutter
+          </Link>{" "}
+          to create apps for both Android and iOS. With a single codebase, we
+          deliver consistent performance and user experience across platforms
+          while keeping costs down. If you’re tight on budget but can’t
+          compromise on the quality, cross-platform app development is for you.
+        </>
+      ),
       btn: "Let’s Build Your Cross-Platform App!",
       StoryLineImg: StoryLine4,
     },
     {
       question: "PWA Development in Florida",
-      answer:
-        "Progressive web app development is a specialty at BitsWits. We use modern web technologies like HTML5, CSS3, and JavaScript to build fast, reliable, and user-friendly PWAs compatible with various devices, including smartphones, desktops, and tablets. Our tech stack includes frameworks like Angular, React, and Vue.js.",
+      answer: (
+        <>
+          Progressive web app development is a specialty at BitsWits. We use
+          modern web technologies like HTML5, CSS3, and JavaScript to build
+          fast, reliable, and user-friendly PWAs compatible with various
+          devices, including smartphones, desktops, and tablets. Our tech stack
+          includes frameworks like Angular, React, and Vue.js.
+        </>
+      ),
       btn: "Let’s Build Your PWA!",
       StoryLineImg: StoryLine5,
     },
     {
       question: "Game Development in Florida",
-      answer:
-        "Turn your gaming ideas into reality with our expert game development services. Our Florida game developers use cutting-edge tools and technologies to build engaging, high-quality games. Our tech stack includes engines like Unity and Unreal Engine, programming languages like C# and C++, and 3D modeling software such as Blender and Maya.",
+      answer: (
+        <>
+          Turn your gaming ideas into reality with our expert{" "}
+          <Link href='/mobile-game-development-company' className='whiteColor'>
+            game development services
+          </Link>{" "}
+          . Our Florida game developers use cutting-edge tools and technologies
+          to build engaging, high-quality games. Our tech stack includes engines
+          like Unity and Unreal Engine, programming languages like C# and C++,
+          and 3D modeling software such as Blender and Maya.
+        </>
+      ),
       btn: "Let’s Build Your Game App!",
       StoryLineImg: StoryLine6,
     },
     {
       question: "Blockchain App Development in Florida",
-      answer:
-        "Leveraging leading blockchain platforms like Ethereum and Hyperledger, our expert developers create tailored solutions for various industries, including finance, healthcare, and supply chain. Whether you're looking to implement smart contracts, develop cryptocurrency wallets, or build decentralized applications (dApps), our team ensures the highest standards of quality and innovation in blockchain development.",
+      answer: (
+        <>
+          Leveraging leading blockchain platforms like Ethereum and Hyperledger,
+          our expert developers create tailored solutions for various
+          industries, including finance, healthcare, and supply chain. Whether
+          you're looking to implement smart contracts, develop cryptocurrency
+          wallets, or build decentralized applications (dApps), our team ensures
+          the highest standards of quality and innovation in{" "}
+          <Link
+            href='/blockchain-game-development-company'
+            className='whiteColor'
+          >
+            blockchain development.
+          </Link>{" "}
+        </>
+      ),
       btn: "Let’s Build Your Blockchain App!",
       StoryLineImg: StoryLine6,
     },
@@ -109,8 +184,8 @@ export default function dubaidevelopmentcompany() {
       <>
         Our{" "}
         <a
-          href="/mobile-application-development-services"
-          class="fw600 text-black"
+          href='/mobile-application-development-services'
+          class='fw600 text-black'
         >
           app development services
         </a>{" "}
@@ -126,28 +201,28 @@ export default function dubaidevelopmentcompany() {
       <>
         We are one of the fastest-growing app development companies in Florida,
         with a portfolio of over 150+ successfully built and launched mobile{" "}
-        <br className="d-xl-block d-none" /> applications across various
+        <br className='d-xl-block d-none' /> applications across various
         industries, achieving over 1 million combined downloads.
       </>
     ),
     para: "Here’s a glimpse of our successful app development portfolio.",
     subtitleOne: (
       <>
-        Soul <br className="d-none d-md-block d-lg-none" /> Scribe
+        Soul <br className='d-none d-md-block d-lg-none' /> Scribe
       </>
     ),
     subDescOne:
       "Soul Scribe is a groundbreaking social networking app that functions as a digital diary, and you can enlist your loved ones to be part of your online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories.",
     subtitleTwo: (
       <>
-        The <br className="d-none d-md-block d-lg-none" /> Ready App
+        The <br className='d-none d-md-block d-lg-none' /> Ready App
       </>
     ),
     subDescTwo:
       "The Ready App is a revolutionary platform invented to revolutionize the hiring process for the transportation industry. It fills the communication gap between drivers and recruiters by having a user-friendly interface along with features like secure messaging, personal meetings, and real-time updates.",
     subtitleThree: (
       <>
-        Grease <br className="d-none d-md-block d-lg-none" /> Monkey
+        Grease <br className='d-none d-md-block d-lg-none' /> Monkey
       </>
     ),
     subDescThree:
@@ -173,12 +248,12 @@ export default function dubaidevelopmentcompany() {
     ),
     desc: (
       <>
-        <span className="d-block">
+        <span className='d-block'>
           BitsWits is where groundbreaking ideas get the technological support
           they deserve through cutting-edge software and mobile app development.
         </span>
         <br />
-        <span className="d-block">
+        <span className='d-block'>
           We pride ourselves on being among the top app developers in Florida
           and celebrate our partnerships with the leading entrepreneurs and
           enterprises from diverse sectors. At BitsWits, we keep a strong focus
@@ -186,7 +261,7 @@ export default function dubaidevelopmentcompany() {
           profitability and scalability for the stakeholders.{" "}
         </span>
         <br />
-        <span className="mb-5 mb-sm-0 d-block">
+        <span className='mb-5 mb-sm-0 d-block'>
           Whether you need a full-fledged mobile app, just a simple design
           revamp for better UX, integrations of cutting-edge features, or
           routine bug fixes, we’re here to help!
@@ -216,7 +291,7 @@ export default function dubaidevelopmentcompany() {
       <>
         {" "}
         Why Choose BitsWits for <span>Mobile App </span>{" "}
-        <br className="d-xl-block d-none" /> Development in Florida?
+        <br className='d-xl-block d-none' /> Development in Florida?
       </>
     ),
     desc: (
@@ -655,8 +730,8 @@ export default function dubaidevelopmentcompany() {
       <Houtondubai content={HoustonContent} />
       <DubaiBrandTrust />
       <Expertappdubaiadvanced
-        expertapp="expertapp"
-        title="Integrate Advanced Technologies to Future-Proof Your App"
+        expertapp='expertapp'
+        title='Integrate Advanced Technologies to Future-Proof Your App'
         appData={[
           {
             title: "Big Data",
@@ -697,11 +772,11 @@ export default function dubaidevelopmentcompany() {
         ]}
       />
       <Justbuilditlpdubai
-        title1="Just"
-        title="Build It."
-        para="Design, Develop, and Grow with BitsWits."
-        slide="slide1lp"
-        href="tel:+971 55 503 1266"
+        title1='Just'
+        title='Build It.'
+        para='Design, Develop, and Grow with BitsWits.'
+        slide='slide1lp'
+        href='tel:+971 55 503 1266'
       />
       <Brand />
       <Faqdubai
@@ -822,11 +897,69 @@ export default function dubaidevelopmentcompany() {
             answer: (
               <>
                 <p>
-                  BitsWits serves diverse industries, including e-commerce,
-                  healthcare, automotive, logistics, manufacturing, food &
-                  beverage, e-learning, agriculture, real estate, sports, and
-                  enterprise mobility. Our portfolio boasts apps with over 1
-                  million combined downloads.
+                  BitsWits serves diverse industries, including{" "}
+                  <Link
+                    className='text-black'
+                    href='/healthcare-app-development-services'
+                  >
+                    Healthcare,
+                  </Link>
+                  <Link className='text-black' href='/fintech-app-development'>
+                    Finance and Fintech,
+                  </Link>
+                  <Link
+                    className='text-black'
+                    href='/ecommerce-app-development'
+                  >
+                    Retail and E-commerce,
+                  </Link>
+                  <Link
+                    className='text-black'
+                    href='/education-app-development'
+                  >
+                    Education,
+                  </Link>
+                  <Link className='text-black' href=''>
+                    Travel and Hospitality,
+                  </Link>
+                  <Link
+                    className='text-black'
+                    href='/real-estate-app-development-company'
+                  >
+                    Real Estate,
+                  </Link>
+                  <Link
+                    className='text-black'
+                    href='/social-media-app-development-company'
+                  >
+                    Entertainment and Media,
+                  </Link>
+                  <Link
+                    className='text-black'
+                    href='/logistics-software-development'
+                  >
+                    Logistics and Transportation,
+                  </Link>
+                  <Link
+                    className='text-black'
+                    href='/enterprise-app-development-company'
+                  >
+                    Enterprise
+                  </Link>
+                  <Link
+                    className='text-black'
+                    href='/restaurant-app-development-company'
+                  >
+                    Food and Beverage,
+                  </Link>
+                  <Link
+                    className='text-black'
+                    href='/automotive-software-development'
+                  >
+                    Automotive.
+                  </Link>{" "}
+                  Our portfolio boasts apps with over 1 million combined
+                  downloads.
                 </p>
               </>
             ),
@@ -891,7 +1024,7 @@ export default function dubaidevelopmentcompany() {
       <Latestblog blogBox={blogBox} />
       <Globalmap content={global} />
       <script
-        type="application/ld+json"
+        type='application/ld+json'
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org/",
@@ -908,7 +1041,7 @@ export default function dubaidevelopmentcompany() {
       />
 
       <script
-        type="application/ld+json"
+        type='application/ld+json'
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
@@ -936,7 +1069,7 @@ export default function dubaidevelopmentcompany() {
       />
 
       <script
-        type="application/ld+json"
+        type='application/ld+json'
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org/",

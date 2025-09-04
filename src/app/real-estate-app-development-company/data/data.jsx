@@ -109,6 +109,7 @@ import Logistics from "media/services/industry/Logistics.webp";
 import BlogsIMG01 from "media/services/blogs/post-1.webp"
 import BlogsIMG02 from "media/services/blogs/post-2.webp"
 import BlogsIMG03 from "media/services/blogs/post-3.webp"
+import Link from "next/link";
 
 
 export const BannerData = {
@@ -817,11 +818,15 @@ export const FaqsList = [
     },
     {
         title: "What is the typical timeline for developing a real estate app?",
-        txt: "Developing a real estate app usually takes between three to six months. The timeline depends on the app’s complexity, the number of features, and the development team’s efficiency. Our real estate app development services use agile methodologies to streamline the process and ensure timely delivery."
+        txt: (<>
+            <p>Developing a <Link href="/app-development-houston">real estate in Houston</Link> app usually takes between three to six months. The timeline depends on the app’s complexity, the number of features, and the development team’s efficiency. Our real estate app development services use agile methodologies to streamline the process and ensure timely delivery.</p>
+        </>)
     },
     {
         title: "What does your real estate app development company offer?",
-        txt: "We provide end-to-end real estate app development solutions, including design, development, and ongoing support. Our services cover everything from UI/UX design to backend integration and data security. We focus on creating apps that are tailored to your business needs and enhance user engagement."
+        txt: (<>
+            <p>We provide end-to-end <Link href="/app-development-florida">real estate app development solutions in Florida</Link>, including design, development, and ongoing support. Our services cover everything from UI/UX design to backend integration and data security. We focus on creating apps that are tailored to your business needs and enhance user engagement.</p>
+        </>)
     },
     {
         title: "How can I get started with developing a real estate app?",

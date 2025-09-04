@@ -53,7 +53,7 @@ export default function dubaidevelopmentcompany() {
     desc: (
       <>
         Our dedication and hardwork has consistently{" "}
-        <br className="d-xl-block d-none" /> garnered acknowledgment by
+        <br className='d-xl-block d-none' /> garnered acknowledgment by
         different platforms.
       </>
     ),
@@ -101,11 +101,11 @@ export default function dubaidevelopmentcompany() {
     title: <> Mobile App Development Company in Houston </>,
     para: (
       <>
-        <span className="d-block">
+        <span className='d-block'>
           Our mobile app developers in Houston specialize in the development of
           world-class mobile applications that are unique and user-oriented.{" "}
         </span>
-        <span className="d-block mt-2">
+        <span className='d-block mt-2'>
           When it comes to mobile app development in Houston, our goal is to go
           above and beyond and deliver a superior quality digital product that
           is always on par with the expectations of our clients.
@@ -116,8 +116,8 @@ export default function dubaidevelopmentcompany() {
       <>
         Here are the{" "}
         <Link
-          href="/mobile-application-development-services"
-          className="fw600 text-black"
+          href='/mobile-application-development-services'
+          className='fw600 text-black'
         >
           mobile app development services
         </Link>{" "}
@@ -164,13 +164,13 @@ export default function dubaidevelopmentcompany() {
     ),
     desc: (
       <>
-        <span className="d-block">
+        <span className='d-block'>
           At BitsWits, we don't create typical apps. Instead, our aim is to
           build astonishing mobile apps that generate massive streams of income
           and assist you in staying ahead of the competition.
         </span>
         <br />
-        <span className="d-block">
+        <span className='d-block'>
           We utilize advanced technologies and creative designs to produce apps
           that effectively connect with users and boost business success. From
           inception to launch, we efficiently pay attention to all the details
@@ -178,7 +178,7 @@ export default function dubaidevelopmentcompany() {
           aesthetically pleasing.
         </span>
         <br />
-        <span className="mb-5 mb-sm-0 d-block">
+        <span className='mb-5 mb-sm-0 d-block'>
           Here is our agile process for mobile app development in Houston:
         </span>
       </>
@@ -211,13 +211,13 @@ export default function dubaidevelopmentcompany() {
     desc: (
       <>
         {" "}
-        <span className="text-black d-block">
+        <span className='text-black d-block'>
           Whether you are a new startup or an established brand seeking
           mobile-friendly solutions that drive growth and generate immense
           revenue, <br /> you can consider our elite app development company
           Houston.
         </span>
-        <span className="text-black d-block mt-2">
+        <span className='text-black d-block mt-2'>
           BitsWits is entirely committed to producing high-caliber mobile
           applications. Our commitment yields impressive results, with a 95%{" "}
           <br /> success rate in delivering on time, within budget and
@@ -415,8 +415,8 @@ export default function dubaidevelopmentcompany() {
       <Houtondubai content={HoustonContent} />
       <DubaiBrandTrust />
       <Expertappdubaiadvanced
-        expertapp="expertapp"
-        title="Advanced Technology Solutions for Large-Scale Businesses & Enterprises"
+        expertapp='expertapp'
+        title='Advanced Technology Solutions for Large-Scale Businesses & Enterprises'
         appData={[
           {
             title: "Big Data",
@@ -437,9 +437,9 @@ export default function dubaidevelopmentcompany() {
                 Blockchain technology offers a secure and transparent framework
                 for transactions. Our{" "}
                 <Link
-                  href="https://www.bitswits.co/app-development-houston"
-                  target="_blank"
-                  className="ColorBalckBG"
+                  href='https://www.bitswits.co/app-development-houston'
+                  target='_blank'
+                  className='ColorBalckBG'
                 >
                   mobile app development company Houston
                 </Link>{" "}
@@ -470,11 +470,11 @@ export default function dubaidevelopmentcompany() {
         ]}
       />
       <Justbuilditlpdubai
-        title1="Just"
-        title="Build It."
-        para="Design, Develop, and Grow with BitsWits."
-        slide="slide1lp"
-        href="tel:+971 55 503 1266"
+        title1='Just'
+        title='Build It.'
+        para='Design, Develop, and Grow with BitsWits.'
+        slide='slide1lp'
+        href='tel:+971 55 503 1266'
       />
       <Brand />
       <Faqdubai
@@ -568,7 +568,7 @@ export default function dubaidevelopmentcompany() {
       <Globalmap content={global} />
 
       <script
-        type="application/ld+json"
+        type='application/ld+json'
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org/",
@@ -585,7 +585,7 @@ export default function dubaidevelopmentcompany() {
       ></script>
 
       <script
-        type="application/ld+json"
+        type='application/ld+json'
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
@@ -613,7 +613,7 @@ export default function dubaidevelopmentcompany() {
       ></script>
 
       <script
-        type="application/ld+json"
+        type='application/ld+json'
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
@@ -663,7 +663,7 @@ export default function dubaidevelopmentcompany() {
       ></script>
 
       <script
-        type="application/ld+json"
+        type='application/ld+json'
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org/",
