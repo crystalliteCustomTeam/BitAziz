@@ -1,23 +1,23 @@
 "use client";
 import React from "react";
 // componets
-import Bannerdubai from "../../components/Bannerdubainew";
+import Bannerdubai from "@/src/components/Bannerdubainew";
 import NewDubaiAwards from "@/src/components/NewDubaiAwards";
 import FutureReady from "@/src/components/FuturereadyDubai";
-import Whowearenew from "../../components/Whowearenew";
+import Whowearenew from "@/src/components/Whowearenew";
 import DubaiDelivered from "@/src/components/DubaiDelivered";
 import DubaiTimeline from "@/src/components/DubaiTimeline";
 import DubaiClientArbic from "@/src/components/DubaiClientsarbic";
 import Delivered from "@/src/components/Delivered";
 import Industries from "@/src/components/Industries";
-import Houtondubai from "../../components/Houtondubai";
+import Houtondubai from "@/src/components/Houtondubai";
 import DubaiBrandTrust from "@/src/components/DubaiBrandTrust";
-import Expertappdubaiadvanced from "../../components/Expertappdubaiadvanced";
-import Justbuilditlpdubai from "../../components/Justbuilditlpdubai";
-import Brand from "../../components/Brand";
-import Faqdubai from "../../components/Faqdubai";
-import Latestblog from "../../components/Latestblog";
-import Globalmap from "../../components/Globalmap";
+import Expertappdubaiadvanced from "@/src/components/Expertappdubaiadvanced";
+import Justbuilditlpdubai from "@/src/components/Justbuilditlpdubai";
+import Brand from "@/src/components/Brand";
+import Faqdubai from "@/src/components/Faqdubai";
+import Latestblog from "@/src/components/Latestblog";
+import Globalmap from "@/src/components/Globalmap";
 import MapImage from "media/newdubai/saudiaArabiaMap.png";
 
 //Images
@@ -513,75 +513,6 @@ export default function dubaidevelopmentcompany() {
       />
       <Latestblog blogBox={blogBox} />
       <Globalmap content={global} />
-
-      <script
-        type='application/ld+json'
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org/",
-            "@type": "WebSite",
-            name: "Top Mobile App Development Company in Saudi Arabia - Bitswits",
-            url: "https://www.bitswits.co/mobile-app-development-company-saudi-arabia",
-            potentialAction: {
-              "@type": "SearchAction",
-              target: "{search_term_string}",
-              "query-input": "required name=search_term_string",
-            },
-          }),
-        }}
-      ></script>
-
-      <script
-        type='application/ld+json'
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            name: "Top Mobile App Development Company in Saudi Arabia - Bitswits",
-            alternateName: "BitsWits",
-            url: "https://www.bitswits.co/mobile-app-development-company-saudi-arabia",
-            logo: "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
-            contactPoint: {
-              "@type": "ContactPoint",
-              telephone: "+971555031266",
-              contactType: "customer service",
-              areaServed: "KSA",
-              availableLanguage: "en",
-            },
-            sameAs: [
-              "https://www.facebook.com/officialBitsWits",
-              "https://twitter.com/BitsWits_/",
-              "https://www.instagram.com/officialBitsWits/",
-              "https://www.youtube.com/@officialBitsWits",
-              "https://www.linkedin.com/company/officialBitsWits",
-            ],
-          }),
-        }}
-      ></script>
-
-      <script
-        type='application/ld+json'
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org/",
-            "@type": "Product",
-            name: "Top Mobile App Development Company in Saudi Arabia - Bitswits",
-            image:
-              "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsaudi.ea88a14f.webp&w=1920&q=75",
-            description:
-              "BitsWits is a leading app development company in Saudi Arabia empowering businesses across 10+ industries with scalable, and feature-rich mobile apps.",
-            brand: {
-              "@type": "Brand",
-              name: "BitsWits",
-            },
-            aggregateRating: {
-              "@type": "AggregateRating",
-              ratingValue: "4.9",
-              ratingCount: "974",
-            },
-          }),
-        }}
-      ></script>
     </>
   );
 }
