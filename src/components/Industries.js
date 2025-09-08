@@ -77,52 +77,27 @@ const Industries = ({ rtl }) => {
   const sliderContentArbic = [
     {
       title: "صناعة العقارات",
-      desc: "We ensure property listings, virtual tours, and essential features for real estate.",
+      desc: "نحن نطوّر تطبيقات جوّال مخصّصة شركات العقارات",
       href: "#",
     },
     {
       title: "صناعة الرياضة",
-      desc: "Our sports solutions meet evolving needs with fan engagement, performance tracking, and management systems.",
+      desc: "نحن نطوّر تطبيقات جوّال مخصّصة لقطاع اللياقة البدنية",
       href: "#",
     },
     {
       title: "صناعة التجارة الإلكترونية",
-      desc: "We optimize e-commerce for better UX, streamlined workflow, and increased revenue.",
+      desc: "نحن نطوّر تطبيقات جوّال مخصّصة لشركات التجارة الإلكترونية",
       href: "#",
     },
     {
       title: "صناعة الرعاية الصحية والطبية",
-      desc: "We enhance patient care, expedite procedural work, and adhere to regulatory standards.",
-      href: "#",
-    },
-    {
-      title: "Automotive",
-      desc: "We create automotive apps enhancing UX, efficiency, and driving business growth.",
-      href: "#",
-    },
-    {
-      title: "Manufacture",
-      desc: "We offer adaptive solutions, enhancing productivity and efficiency through process automation.",
+      desc: "نحن نطوّر تطبيقات جوّال مخصّصة لقطاع الرعاية الصحية",
       href: "#",
     },
     {
       title: "صناعة اللوجستيات",
-      desc: "Our logistics solutions precisely suit your needs, optimizing efficiency and customer service.",
-      href: "#",
-    },
-    {
-      title: "Food & Beverage",
-      desc: "We innovate food delivery, restaurant management, keeping businesses competitive and thriving",
-      href: "#",
-    },
-    {
-      title: "E-learning",
-      desc: "Our e-learning solutions replace traditional education, delivering robustness and stimulating growth.",
-      href: "#",
-    },
-    {
-      title: "Agriculture",
-      desc: "In agriculture, we deploy cutting-edge tech to enhance farm operations, monitoring, and yield optimization.",
+      desc: "نحن نطوّر تطبيقات جوّال مخصّصة لقطاع الخدمات اللوجستية",
       href: "#",
     },
   ];
@@ -228,7 +203,7 @@ const Industries = ({ rtl }) => {
                           href={content.href}
                           className={styles.btn}
                         >
-                          Learn More
+                          {rtl ? "يتعلم أكثر" : "Learn More"}
                           <span>
                             <Image
                               src={SliderArrow}
