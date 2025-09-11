@@ -1,27 +1,29 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "Top Mobile App Development Company in Saudi Arabia",
+  title:
+    " بيتس ويتس - شركة تطوير تطبيقات الهواتف المحمولة في المملكة العربية السعودية ",
   description:
-    "BitsWits is a leading app development company in Saudi Arabia empowering businesses across 10+ industries with scalable, and feature-rich mobile apps.",
+    "هل تبحث عن شركة رائدة في تطوير تطبيقات الجوال في المملكة العربية السعودية ؟ تقدم بيتس ويتس أفضل الخدمات بخبرة واسعة في تطوير تطبيقات الجوال.",
   //===== OG Tags =====
   openGraph: {
-    title: "Top Mobile App Development Company in Saudi Arabia",
+    title:
+      " بيتس ويتس - شركة تطوير تطبيقات الهواتف المحمولة في المملكة العربية السعودية ",
     description:
-      "BitsWits is a leading app development company in Saudi Arabia empowering businesses across 10+ industries with scalable, and feature-rich mobile apps.",
-    url: "/mobile-app-development-company-saudi-arabia",
+      "هل تبحث عن شركة رائدة في تطوير تطبيقات الجوال في المملكة العربية السعودية ؟ تقدم بيتس ويتس أفضل الخدمات بخبرة واسعة في تطوير تطبيقات الجوال.",
+    url: "/sa/تصميم-تطبيقات-الجوال-في-السعودية",
     siteName: "BitsWits",
     locale: "en_US",
     type: "website",
   },
   //===== Canonical =====
-  alternates: { canonical: "/mobile-app-development-company-saudi-arabia" },
+  alternates: { canonical: "/sa/تصميم-تطبيقات-الجوال-في-السعودية" },
   //===== GEO Tags =====
 
   //===== No-Index =====
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
 };
 
