@@ -11,16 +11,16 @@ export const metadata = {
       " بيتس ويتس - شركة تطوير تطبيقات الهواتف المحمولة في المملكة العربية السعودية ",
     description:
       "هل تبحث عن شركة رائدة في تطوير تطبيقات الجوال في المملكة العربية السعودية ؟ تقدم بيتس ويتس أفضل الخدمات بخبرة واسعة في تطوير تطبيقات الجوال.",
-    url: "/sa/تصميم-تطبيقات-الجوال-في-السعودية",
+    url: "https://www.bitswits.co/sa/تصميم-تطبيقات-الجوال-في-السعودية",
     siteName: "BitsWits",
     locale: "en_US",
     type: "website",
   },
   //===== Canonical =====
-  alternates: { canonical: "/sa/تصميم-تطبيقات-الجوال-في-السعودية" },
-  //===== GEO Tags =====
-
-  //===== No-Index =====
+  alternates: {
+    canonical: "https://www.bitswits.co/sa/تصميم-تطبيقات-الجوال-في-السعودية",
+  },
+  //===== Robots =====
   robots: {
     index: true,
     follow: true,
