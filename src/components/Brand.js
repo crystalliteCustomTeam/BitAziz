@@ -206,7 +206,7 @@ const Brand = ({ rtl }) => {
                       />
 
                       <input
-                        type='tel'
+                        type={rtl ? "number" : "tel"}
                         placeholder={rtl ? "رقم الهاتف" : "Phone Number"}
                         minLength='10'
                         maxLength='13'

@@ -321,7 +321,7 @@ const Bannerdubai = ({ content, rtl }) => {
                   placeholder={rtl ? "الاسم الكامل" : "Full Name"}
                 ></input>
                 <input
-                  type='tel'
+                  type={rtl ? "number" : "tel"}
                   minLength='10'
                   maxLength='13'
                   pattern='[0-9]*'

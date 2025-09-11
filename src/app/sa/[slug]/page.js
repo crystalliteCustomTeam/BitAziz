@@ -480,11 +480,9 @@ export default function dubaidevelopmentcompany() {
             question: "كم من الوقت يستغرق تطوير تطبيق جوال؟",
             answer: (
               <p>
-                The development timeline for a mobile app varies depending on
-                the complexity and specific requirements of your project.
-                Typically, it can range from a few weeks to several months. We
-                provide a detailed project timeline during the initial
-                consultation.
+                يختلف جدول تطوير تطبيق الجوال حسب مدى التعقيد والمتطلبات الخاصة
+                بمشروعك. عادةً، يمكن أن يستغرق من عدة أسابيع إلى عدة أشهر. نحن
+                نقدم جدولًا زمنيًا مفصلًا للمشروع أثناء الاستشارة الأولية.
               </p>
             ),
           },
