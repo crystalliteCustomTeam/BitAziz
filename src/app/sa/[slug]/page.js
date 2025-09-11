@@ -375,8 +375,8 @@ export default function dubaidevelopmentcompany() {
   // Global Conten
   const global = {
     address: "",
-    number: "(971) 55 503 1266",
-    href: "tel:+971555031266",
+    number: "+1 833 500 6007",
+    href: "tel:+18335006007",
     image: MapImage,
     link: "",
   };
@@ -510,7 +510,7 @@ export default function dubaidevelopmentcompany() {
         ]}
       />
       <Latestblog blogBox={blogBox} />
-      <Globalmap content={global} />
+      <Globalmap content={global} rlt={true} />
     </>
   );
 }

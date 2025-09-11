@@ -14,7 +14,7 @@ const Globalmap = ({ content }) => {
               <div className={styles.newtimg}>
                 <h2>
                   Meet Our Experts <br></br>
-                  One-on-One
+                  One-on-Oness
                 </h2>
                 <a className={styles.address} target='_blank' href={link}>
                   {address}
