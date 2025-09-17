@@ -1,5 +1,5 @@
 import Banner from "@/src/app/ai-agent-development-company/components/banner"
-import Awards from "@/src/app/about-us/components/awards";
+import Awards from "@/src/app/ai-agent-development-company/components/awards";
 import Services from "@/src/app/ai-agent-development-company/components/services"
 import Insdustry from "@/src/app/ai-agent-development-company/components/insdustry";
 import CuttingEdge from "@/src/app/ai-agent-development-company/components/cuttingedge";

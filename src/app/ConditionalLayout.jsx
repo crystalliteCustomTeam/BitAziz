@@ -39,8 +39,6 @@ const styleChange = [
   "/case-studies/nutri-snap",
   "/case-studies/home-pro-connect",
   "/contact-us",
-  "/ai-agent-development-company",
-  "/test",
 ]
 const isLightHeader = [
   "/",
@@ -83,8 +81,6 @@ const isDarkHeader = [
   "/thank-you",
   "/blog/",
   "/lp/mobile-app-development-services",
-  "/ai-agent-development-company",
-  "/test",
 ]
 
 const lpHeaderFooterPaths = [

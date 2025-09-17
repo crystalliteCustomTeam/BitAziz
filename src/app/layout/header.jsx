@@ -27,6 +27,7 @@ const Header = ({ isDarkHeader, isLightHeader }) => {
           <Col md={2} lg={2} xl={3} xs={6} sm={6} className="m-auto">
             <div className={styles.headerLogo}>
               <Link href="/"  >
+                {isDarkHeader ? "isDarkHeader" : "isLightHeader"}
                 {!scrolled ? (
                   isLightHeader ? <MainLogo /> : <WhiteLogo />
                 ) : (
