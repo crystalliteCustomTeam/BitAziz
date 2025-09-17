@@ -40,6 +40,7 @@ const styleChange = [
   "/case-studies/home-pro-connect",
   "/contact-us",
   "/ai-agent-development-company",
+  "/test",
 ]
 const isLightHeader = [
   "/",
@@ -83,6 +84,7 @@ const isDarkHeader = [
   "/blog/",
   "/lp/mobile-app-development-services",
   "/ai-agent-development-company",
+  "/test",
 ]
 
 const lpHeaderFooterPaths = [
