@@ -63,20 +63,7 @@ const Services = () => {
                                 <div className={styles.Title}>Personalization</div>
                                 <div className={styles.txt}>Learns user behavior to tailor tone, style, and suggestions. Customizable for industries like healthcare, finance, or customer support.</div>
                             </div>
-                            <div className={styles.servicesItem}>
-                                <div className={styles.num}>
-                                    07
-                                </div>
-                                <div className={styles.Title}>Multi-Tasking<br /> & Automation</div>
-                                <div className={styles.txt}>Executes tasks like bookings, reminders, or smart device control. Integrates with workflows and apps for greater efficiency.</div>
-                            </div>
-                            <div className={styles.servicesItem}>
-                                <div className={styles.num}>
-                                    08
-                                </div>
-                                <div className={styles.Title}>Safety<br /> & Compliance</div>
-                                <div className={styles.txt}>Filters inappropriate content and safeguards user data. Ensures privacy and meets regulations like GDPR or HIPAA.</div>
-                            </div>
+
                         </div>
                         <div className={styles.flexBtn}>
                             <a href="#" onClick={handleChatOpen}>

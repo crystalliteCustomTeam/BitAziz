@@ -146,7 +146,7 @@ const Navigation = ({ isDarkHeader, isLightHeader, scrolled }) => {
         className={`${styles.mainNavigation} ${HeaderLight}  ${HeaderDark} ${HeaderScroll}`}
       >
         <li>
-          <Link href="/">Home</Link>
+          <Link href="/">Home </Link>
         </li>
         <li className={styles.subMenu}>
           <Link href="#">Services</Link>

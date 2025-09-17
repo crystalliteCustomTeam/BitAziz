@@ -1,16 +1,13 @@
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "@/styles/about/abtawards.module.scss";
-import Award1 from "@/public/about/awards/award1.png"
-import Award2 from "@/public/about/awards/award2.png"
-import Award3 from "@/public/about/awards/award3.png"
-import Award4 from "@/public/about/awards/award4.png"
-import Award5 from "@/public/about/awards/award5.png"
-import Award6 from "@/public/about/awards/award6.png"
-import Award7 from "@/public/about/awards/award7.png"
-import Award8 from "@/public/about/awards/award8.png"
-import Award9 from "@/public/about/awards/award9.png"
-import Award10 from "@/public/about/awards/award10.png"
-import Award11 from "@/public/about/awards/award11.png"
+import Award1 from "@/public/ai-agent/logo/Logo01.webp"
+import Award2 from "@/public/ai-agent/logo/Logo02.webp"
+import Award3 from "@/public/ai-agent/logo/Logo03.webp"
+import Award4 from "@/public/ai-agent/logo/Logo04.webp"
+import Award5 from "@/public/ai-agent/logo/Logo05.webp"
+import Award6 from "@/public/ai-agent/logo/Logo06.webp"
+import Award7 from "@/public/ai-agent/logo/Logo07.webp"
+
 import Image from "next/image";
 
 export const data = [
@@ -35,18 +32,7 @@ export const data = [
     {
         AwardsIMG: Award7.src
     },
-    {
-        AwardsIMG: Award8.src
-    },
-    {
-        AwardsIMG: Award9.src
-    },
-    {
-        AwardsIMG: Award10.src
-    },
-    {
-        AwardsIMG: Award11.src
-    },
+
 ]
 
 

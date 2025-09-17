@@ -81,6 +81,7 @@ const isDarkHeader = [
   "/thank-you",
   "/blog/",
   "/lp/mobile-app-development-services",
+  "/ai-agent-development-company",
 ]
 
 const lpHeaderFooterPaths = [

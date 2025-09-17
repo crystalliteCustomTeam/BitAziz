@@ -6,6 +6,7 @@ import Navigation from "@/src/app/layout/navigation"
 import styles from "@/styles/layout/header.module.scss"
 import { useState, useEffect } from "react"
 
+
 const Header = ({ isDarkHeader, isLightHeader }) => {
   const [scrolled, setScrolled] = useState(false)
   useEffect(() => {
@@ -27,7 +28,6 @@ const Header = ({ isDarkHeader, isLightHeader }) => {
           <Col md={2} lg={2} xl={3} xs={6} sm={6} className="m-auto">
             <div className={styles.headerLogo}>
               <Link href="/"  >
-
                 {!scrolled ? (
                   isLightHeader ? <MainLogo /> : <WhiteLogo />
                 ) : (
