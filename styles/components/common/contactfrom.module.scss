@@ -1,5 +1,4 @@
 .commonFrom {
-  font-family: "Poppins", sans-serif;
   .fieldBox {
     margin-bottom: 15px;
 
@@ -260,6 +259,52 @@
           #f32faf 18.3%,
           #4a78ef 110.98%
         );
+      }
+    }
+  }
+  &.aiPage {
+    input {
+      border: 1px solid rgba(217, 217, 217, 0.8);
+      border-radius: 10px;
+      font-weight: 100;
+      color: #73858f;
+      font-size: 14px;
+      &::placeholder {
+        color: #73858f;
+      }
+    }
+    textarea {
+      border: 1px solid rgba(217, 217, 217, 0.8);
+      border-radius: 10px;
+      font-weight: 100;
+      font-size: 14px;
+      color: #73858f;
+      &::placeholder {
+        color: #73858f;
+      }
+    }
+    .buttonBox {
+      button {
+        height: 50px;
+        min-width: 150px;
+        padding: 0px 30px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s linear;
+        border-radius: 50px;
+        background: #000;
+        font-size: 16px;
+        border: 0px;
+        color: #fff;
+        font-weight: 700;
+        background: linear-gradient(
+          91.47deg,
+          #f32f56 -78.17%,
+          #f32faf 18.3%,
+          #4a78ef 110.98%
+        );
+        border-radius: 55.1079px;
       }
     }
   }

@@ -1,30 +1,33 @@
-import Banner from '@/src/components/ai/banner'
-import Talk from '@/src/components/ai/talk'
-import HomeServices from '@/src/app/home/homeservices'
-import { HomeServicesContent, HomeServicesList } from '@/src/app/ai-agent-development-company/data/data'
-import Feature from '@/src/components/ai/feature'
-import CaseStudies from '@/src/components/ai/casestudies'
-import Vision from '@/src/components/ai/vision'
-import Testimonial from '../home/testimonial'
-import { TestimonialContent, TestimonialSLIDES, FaqsContent, FaqsList } from '@/src/app/home/data/data'
-import Choose from '@/src/components/ai/choose'
-import CtaSection from '@/src/components/ai/ctasection'
-import Faqs from '../home/faqs'
+import Banner from "@/src/app/ai-agent-development-company/components/banner"
+import Awards from "@/src/app/about-us/components/awards";
+import Services from "@/src/app/ai-agent-development-company/components/services"
+import Insdustry from "@/src/app/ai-agent-development-company/components/insdustry";
+import CuttingEdge from "@/src/app/ai-agent-development-company/components/cuttingedge";
+import WhyChoose from "@/src/app/ai-agent-development-company/components/WhyChoose";
+import CaseStudySection from "@/src/app/ai-agent-development-company/components/casestudy";
+import Testimonial from "@/src/app/home/testimonial";
+import Faqs from "@/src/app/home/faqs";
+import IdeaCta from "@/src/app/services/ideacta";
+import {
 
+  TestimonialContent, TestimonialSLIDES, IdeaCtaContent
+} from "@/src/app/home/data/data";
+import { AwardData, FaqsContent, FaqsList } from "@/src/app/ai-agent-development-company/data/data";
 
 const Page = () => {
   return (
     <>
       <Banner />
-      <Talk />
-      <HomeServices data={HomeServicesContent} list={HomeServicesList} />
-      <Feature />
-      <CaseStudies />
-      <Vision />
-      <Choose />
-      <Testimonial data={TestimonialContent} list={TestimonialSLIDES} bg={true} />
-      <CtaSection />
-      <Faqs data={FaqsContent} list={FaqsList} bg={true} />
+      <Awards aiPage={true} data={AwardData} />
+      <Services />
+      <Insdustry />
+      <CuttingEdge />
+      <WhyChoose />
+      <CaseStudySection />
+      <Testimonial data={TestimonialContent} list={TestimonialSLIDES} />
+      <Faqs data={FaqsContent} list={FaqsList} />
+      <IdeaCta data={IdeaCtaContent} />
+
     </>
   )
 }

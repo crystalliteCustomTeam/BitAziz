@@ -39,6 +39,7 @@ const styleChange = [
   "/case-studies/nutri-snap",
   "/case-studies/home-pro-connect",
   "/contact-us",
+  "/ai-agent-development-company",
 ]
 const isLightHeader = [
   "/",
@@ -77,11 +78,11 @@ const isDarkHeader = [
   "/portfolio",
   "/contact-us",
   "/bitswits-services-page-1",
-  "/mobile-application-development-services",
   "/lp/mobile-app-development-services",
   "/thank-you",
   "/blog/",
   "/lp/mobile-app-development-services",
+  "/ai-agent-development-company",
 ]
 
 const lpHeaderFooterPaths = [

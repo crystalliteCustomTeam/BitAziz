@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react"
 import { usePathname } from "next/navigation"
 import Link from "next/link"
 
-const ContactFrom = ({ idea, appidea, discussion, popup, contactpage }) => {
+const ContactFrom = ({ idea, appidea, discussion, popup, contactpage, aiPage }) => {
   const [checkboxes, setCheckboxes] = useState([])
   const [ip, setIP] = useState("")
   const [pagenewurl, setPagenewurl] = useState("")
@@ -180,7 +180,7 @@ const ContactFrom = ({ idea, appidea, discussion, popup, contactpage }) => {
       <div
         className={`${styles.commonFrom} ${idea ? styles.ideaFrom : ""} ${appidea ? styles.appideaFrom : ""
           } ${discussion ? styles.discussionFrom : ""} ${popup ? styles.popupFrom : ""
-          }  ${contactpage ? styles.contactPage : ""}`}
+          }  ${contactpage ? styles.contactPage : ""} ${aiPage ? styles.aiPage : ""}`}
       >
         <div className={styles.fieldBox}>
           <input type="text" name="name" placeholder="Your Name" required />
@@ -219,7 +219,7 @@ const ContactFrom = ({ idea, appidea, discussion, popup, contactpage }) => {
                 placeholder="Tell us about your Project"
               ></textarea>
             </div>
-            {popup || contactpage ? null : (
+            {popup || contactpage || aiPage ? null : (
               <>
                 <div className={`${styles.fieldBox} ${styles.checkBox} `}>
                   <input

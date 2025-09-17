@@ -10,7 +10,7 @@ import BannerPoster from "media/videos/AiServices/AiServicesImg.webp";
 import ButtonCommon from "@/src/components/common/button"
 
 
-import { ClientImages } from '@/src/app/ai-agent-development-company/data/data';
+import { ClientImages } from '@/src/app/ai-agent-development-company_old/data/data';
 import Clients from '@/src/components/ai/clients'
 
 const Banner = () => {
