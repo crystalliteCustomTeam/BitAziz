@@ -9,11 +9,11 @@ import arrow from "media/newmobileapp/arrow.png";
 import PopUp from '@/src/app/home/components/popup';
 
 //========= CaseStudy Images
-import slider1 from "media/newmobileapp/slider-2.png";
-import slider2 from "media/newmobileapp/slider-3.png";
-import slider3 from "media/newmobileapp/slider-5.png";
-import slider4 from "media/newmobileapp/slider-4.png";
-import slider5 from "media/newmobileapp/slider-1.png";
+import slider1 from "media/newmobileapp/Slider02.webp";
+import slider2 from "media/newmobileapp/Slider03.webp";
+import slider3 from "media/newmobileapp/Slider05.webp";
+import slider4 from "media/newmobileapp/Slider04.webp";
+import slider5 from "media/newmobileapp/Slider01.webp";
 
 const data = {
     title: "Engineering Intelligent AI Solutions Across Industries",

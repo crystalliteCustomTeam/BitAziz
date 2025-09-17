@@ -3,7 +3,7 @@ import Awards from "@/src/app/about-us/components/awards";
 import Services from "@/src/app/ai-agent-development-company/components/services"
 import Insdustry from "@/src/app/ai-agent-development-company/components/insdustry";
 import CuttingEdge from "@/src/app/ai-agent-development-company/components/cuttingedge";
-import WhyChoose from "@/src/app/ai-agent-development-company/components/WhyChoose";
+import WhyChoose from "@/src/app/ai-agent-development-company/components/whychoose";
 import CaseStudySection from "@/src/app/ai-agent-development-company/components/casestudy";
 import Testimonial from "@/src/app/home/testimonial";
 import Faqs from "@/src/app/home/faqs";
