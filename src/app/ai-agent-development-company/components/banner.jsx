@@ -2,7 +2,6 @@ import styles from "@/styles/ai-agent-development-company/banner.module.scss"
 import { Col, Container, Row } from "react-bootstrap";
 import { StarIcon } from "@/src/app/app-constants";
 import ButtonCommon from "@/src/components/common/button";
-import BannerPoster from "media/videos/AiServices/AiServicesImg.webp";
 import ContactFrom from "@/src/components/common/contactfrom";
 import Link from "next/link";
 const Banner = () => {
@@ -52,7 +51,6 @@ const Banner = () => {
                 aria-label="Background video"
                 className={styles.bannerVideo}
                 playsInline
-                poster={BannerPoster.src}
             >
                 <source src="/ai-agent/bannerVideo.mp4" type="video/mp4" />
             </video>
