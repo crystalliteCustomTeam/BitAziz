@@ -60,7 +60,7 @@ const data = [
         icon: <LogiSticS />,
     },
     {
-        title: "Taxi App",
+        title: "Ride Hailing",
         txt: "AI agents in the Taxi or ride hailing industry enhance rider and driver experiences by managing bookings, route optimization, pricing adjustments, and real-time support to improve reliability and satisfaction.",
         icon: <TaxiApp />,
     },

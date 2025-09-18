@@ -26,7 +26,7 @@ const CuttingEdge = () => {
             <Container>
                 <Row>
                     <Col md={7} className="offset-lg-1">
-                        <div className="subTitle txtColor">Integrating AI into Workflows with</div>
+                        <div className="subTitle txtColor">Integrate AI into Workflows with</div>
                         <h2>BitsWits AI Agent Development Services</h2>
                     </Col>
                 </Row>
