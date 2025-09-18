@@ -1,4 +1,4 @@
-import ButtonCommon from "@/src/components/common/cta";
+import ButtonCommon from "@/src/components/common/button";
 import styles from "@/styles/ai-agent-development-company/whychoose.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
 import ProjectCounter from "@/src/app/ai-agent-development-company/components/projectcounter";

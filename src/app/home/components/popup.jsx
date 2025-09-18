@@ -6,7 +6,7 @@ import BGIMG from "media/home/popupImg.webp";
 import styles from "@/styles/home/popup.module.scss";
 import { ArrowIcon, CheckListIcon, ClosedBtn, WhiteLogo } from "@/src/app/app-constants";
 
-const Popup = ({ txt }) => {
+const Popup = ({ show, txt }) => {
     const [modalShow, setModalShow] = useState(false);
     const handleHide = () => setModalShow(false);
     const [currentValue, setCurrentValue] = useState(10000);

@@ -6,7 +6,7 @@ import styles from "@/styles/services/casestudy.module.scss";
 //========= Images
 import store from "media/newmobileapp/store.png";
 import arrow from "media/newmobileapp/arrow.png";
-import PopUp from '@/src/app/home/components/popup';
+import PopUp from "@/src/app/services/popup";
 
 //========= CaseStudy Images
 import slider1 from "media/newmobileapp/Slider02.webp";
