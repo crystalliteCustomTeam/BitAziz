@@ -7,19 +7,13 @@ const Banner = () => {
     <section className={`${styles.projectSection}`}>
       <Container className="h-100">
         <Row className="h-100">
-          <Col lg={7} md={10} className="mx-auto mt-auto text-center">
+          <Col lg={8} md={10} className="mx-auto mt-auto text-center">
             <h1>
               About <span className="txtColor">BitsWits!</span>
             </h1>
             <p>
-              Dedicated to crafting digital solutions that simplify complexities
-              and enhance efficiency. Born from a global collaboration of tech
-              enthusiasts, our mission is to transform your biggest challenges
-              into your greatest assets using cutting-edge technology. We
-              specialize in developing intuitive mobile and web applications
-              that not only meet today’s needs but also anticipate tomorrow’s
-              opportunities.
-            </p>
+              BitsWits is a leading mobile app development company established in 2012, with over a decade of experience delivering innovative digital solutions. Our team of skilled developers, designers, and strategists has created apps for startups, large enterprises, and global brands, earning awards for creativity and excellence along the way.
+              We specialize in developing iOS and Android apps, designing intuitive user interfaces and experiences, creating games, building web applications, and leveraging emerging technologies such as AR/VR, blockchain, and Artificial Intelligence.</p>
             <ButtonCommon txt="Get an Idea!" />
           </Col>
         </Row>

@@ -80,8 +80,109 @@ export const ExtendedServicesList = [
         },
     },
 ];
+import logo1 from "media/why-chosse/certificates/1.webp"
+import logo2 from "media/why-chosse/certificates/2.webp"
+import logo3 from "media/why-chosse/certificates/3.webp"
+import logo4 from "media/why-chosse/certificates/4.webp"
+import logo5 from "media/why-chosse/certificates/5.webp"
+import logo6 from "media/why-chosse/certificates/6.webp"
+import logo7 from "media/why-chosse/certificates/7.webp"
+import logo8 from "media/why-chosse/certificates/8.webp"
+import logo9 from "media/why-chosse/certificates/9.webp"
+import logo10 from "media/why-chosse/certificates/10.webp"
+
+export const CertificatesTitle = {
+    subtitle: "Certificates",
+    title: "BitsWits Certificates and Partners",
+}
+export const CertificatesData = [
+    { title: "AWS Partner Network (APN)", logo: logo1.src },
+    { title: "Google Cloud Platform ", logo: logo2.src },
+    { title: "Microsoft Azure Partner", logo: logo3.src },
+    { title: "Microsoft Solution Partner", logo: logo4.src },
+    { title: "Certified Scrum Master (CSM)", logo: logo5.src },
+    { title: "CISSP (Certified Information Systems Security Professional)", logo: logo6.src },
+    { title: "microsoft Cybersecurity testing certification", logo: logo7.src },
+    { title: "FDA 21 CFR Part 11 Compliance", logo: logo8.src },
+    { title: "ISO 9001 (Quality Management Systems)", logo: logo9.src },
+    { title: "Salesforce partner ", logo: logo10.src },
+]
+
+import Awards1 from "media/why-chosse/awards/1.webp"
+import Awards2 from "media/why-chosse/awards/2.webp"
+import Awards3 from "media/why-chosse/awards/3.webp"
+import Awards4 from "media/why-chosse/awards/4.webp"
+import Awards5 from "media/why-chosse/awards/5.webp"
+import Awards6 from "media/why-chosse/awards/6.webp"
+import Awards7 from "media/why-chosse/awards/7.webp"
+import Awards8 from "media/why-chosse/awards/8.webp"
+import Awards9 from "media/why-chosse/awards/9.webp"
+import Awards10 from "media/why-chosse/awards/10.webp"
 
 
+export const AwardsTitle = {
+    subtitle: "Awards & Recognitions",
+    title: "Bitswits Awards and Recognition",
+}
+export const AwardsData = [
+    { title: "Top Mobile App Development Company 2023 by RightFirms", logo: Awards1.src },
+    { title: "Recognized as one of the highest-performing B2B companies by Clutch", logo: Awards2.src },
+    { title: "Top App Development Company by appfutura", logo: Awards3.src },
+    { title: "Honoring excellence in web creativity and digital communication by dotCOMM Awards", logo: Awards4.src },
+    { title: "Recognized as one of the highest-performing B2B companies by Clutch", logo: Awards5.src },
+    { title: "Best Mobile App Developers in Chicago for 2022 by Expertise.com", logo: Awards6.src },
+    { title: "Top Mobile App Developers USA in 2022 by TopDevelopersmicrosoft Cybersecurity testing certification", logo: Awards7.src },
+    { title: "Leaders Category Award in 2022 by GetApp", logo: Awards8.src },
+    { title: "High Performer Award for 2022 by G2 High Performer", logo: Awards9.src },
+    { title: "Top 1000 Companies Global for 2022 by Clutch ", logo: Awards10.src },
+]
+
+import Business1 from "media/why-chosse/business/1.webp"
+import Business2 from "media/why-chosse/business/2.webp"
+import Business3 from "media/why-chosse/business/3.webp"
+import Business4 from "media/why-chosse/business/4.webp"
+import Business5 from "media/why-chosse/business/5.webp"
+import Business6 from "media/why-chosse/business/6.webp"
+import Business7 from "media/why-chosse/business/7.webp"
+import Business8 from "media/why-chosse/business/8.webp"
+import Business9 from "media/why-chosse/business/9.webp"
+import Business10 from "media/why-chosse/business/10.webp"
+
+export const BusinessTitle = {
+    subtitle: "Business Citation",
+    title: "BitsWits Business Profiles and Citations",
+}
+
+export const BusinessData = [
+    { title: "BitsWits Profile on AppsInsight With 4.9/5.0 rating", logo: Business1.src },
+    { title: "BitsWits Profile on Real Reviews With 4.7/5.0 rating", logo: Business2.src },
+    { title: "BitsWits Profile on Find Best Firms With 4.9/5.0 rating", logo: Business3.src },
+    { title: "BitsWits Profile on Top Firms With 4.7/5.0 rating", logo: Business4.src },
+    { title: "BitsWits Profile on DesignRush With 4.9/5.0 rating", logo: Business5.src },
+    { title: "BitsWits Profile on Clutch With 4.9/5.0 rating", logo: Business6.src },
+    { title: "BitsWits Profile on TopDevelopers With 5.0/5.0 rating", logo: Business7.src },
+    { title: "BitsWits Profile on Trustpilot With 4.3/5.0 rating", logo: Business8.src },
+    { title: "BitsWits Profile on GoodFirms With 5.0/5.0  rating", logo: Business9.src },
+    { title: "BitsWits Profile on Tech Behemoths With 4.9/5.0 rating", logo: Business10.src },
+]
+import press1 from "media/why-chosse/press/1.webp"
+import press2 from "media/why-chosse/press/2.webp"
+import press3 from "media/why-chosse/press/3.webp"
+import press4 from "media/why-chosse/press/4.webp"
+import press5 from "media/why-chosse/press/5.webp"
+import press6 from "media/why-chosse/press/6.webp"
+export const PressTitle = {
+    subtitle: "Press Releases",
+    title: "BitsWits Latest Press Releases, News & Insights",
+}
+export const PressData = [
+    { title: "How to Increase App Downloads Powerful Strategies for Mobile Apps", logo: press1.src, link: "Business Insider" },
+    { title: "Why ERP Integration Is Essential for Modern Businesses Across Industries", logo: press2.src, link: "ABC News" },
+    { title: "Architecting On-Demand MVPs with Flutter and Firebase", logo: press3.src, link: "MSN " },
+    { title: "CRM vs ERP: What’s the Difference and Which One Does Your Business Need?", logo: press4.src, link: "USA Today" },
+    { title: "Building a Real-Time Chat App with flutter and firebase integration", logo: press5.src, link: "NBC" },
+    { title: "Best CRM for your Restaurant business in 2025", logo: press6.src, link: "Google News" },
+]
 
 export const TestimonialContent = {
     subtitle: "For Some, It’s Testimonials.",
@@ -124,7 +225,7 @@ export const FaqsContent = {
 }
 export const FaqsList = [
     {
-        title: "What is an AI agent, and how can BitsWits help build one for my business?",
+        title: "What kinds of help does BitsWits offer?",
         txt: (<p>An AI agent is a software-powered assistant capable of understanding tasks, making decisions, and automating processes intelligently. At BitsWits, we develop custom AI agents tailored to your business needs, whether it's customer support, data processing, or end-to-end task automation.</p>)
     },
     {

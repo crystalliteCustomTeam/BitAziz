@@ -9,60 +9,37 @@ import IMG06 from "media/home/awards/award06.webp"
 
 import Image from "next/image"
 
-const Awards = () => {
+const Awards = ({ data, content }) => {
     return (
         <section className={styles.awardsSection}>
             <Container>
                 <Row>
                     <Col className="text-center">
-                        <div className="subTitle txtColor">Awards & Recognition</div>
-                        <h2>Digital Marketing Awards & Recognitions</h2>
+                        <div className="subTitle txtColor">{content?.subtitle}</div>
+                        <h2>{content?.title}</h2>
                     </Col>
                     <Col md={12}>
 
                         <div className={styles.awardsWapper}>
-                            <div className={styles.awardsItem}>
-                                <div className={styles.awardsLogo}>
-                                    <Image src={IMG01.src} alt="Digital Agences" width={250} height={250} />
-                                </div>
-                                <div className={styles.awardsTxt}>Most Rewiewed Digital Agences in Huston for 2022 by <span>The Manifest</span></div>
-
-                            </div>
-                            <div className={styles.awardsItem}>
-                                <div className={styles.awardsLogo}>
-                                    <Image src={IMG02.src} alt="Digital Agences" width={250} height={250} />
-                                </div>
-                                <div className={styles.awardsTxt}>Most Rewiewed Digital Agences in Huston for 2022 by <span>The Manifest</span></div>
-
-                            </div>
-                            <div className={styles.awardsItem}>
-                                <div className={styles.awardsLogo}>
-                                    <Image src={IMG03.src} alt="Digital Agences" width={250} height={250} />
-                                </div>
-                                <div className={styles.awardsTxt}>Most Rewiewed Digital Agences in Huston for 2022 by <span>The Manifest</span></div>
-
-                            </div>
-                            <div className={styles.awardsItem}>
-                                <div className={styles.awardsLogo}>
-                                    <Image src={IMG04.src} alt="Digital Agences" width={250} height={250} />
-                                </div>
-                                <div className={styles.awardsTxt}>Most Rewiewed Digital Agences in Huston for 2022 by <span>The Manifest</span></div>
-
-                            </div>
-                            <div className={styles.awardsItem}>
-                                <div className={styles.awardsLogo}>
-                                    <Image src={IMG05.src} alt="Digital Agences" width={250} height={250} />
-                                </div>
-                                <div className={styles.awardsTxt}>Most Rewiewed Digital Agences in Huston for 2022 by <span>The Manifest</span></div>
-
-                            </div>
-                            <div className={styles.awardsItem}>
-                                <div className={styles.awardsLogo}>
-                                    <Image src={IMG06.src} alt="Digital Agences" width={250} height={250} />
-                                </div>
-                                <div className={styles.awardsTxt}>Most Rewiewed Digital Agences in Huston for 2022 by <span>The Manifest</span></div>
-
-                            </div>
+                            {Array.isArray(data) && data.length > 0 ? (
+                                data.map((item, index) => (
+                                    <div className={styles.awardsItem} key={index}>
+                                        <div className={styles.awardsLogo}>
+                                            <Image
+                                                src={item.logo}
+                                                alt="Award"
+                                                width={250}
+                                                height={250}
+                                            />
+                                        </div>
+                                        <div className={styles.awardsTxt}>
+                                            {item.title} <span>{item.link}</span>
+                                        </div>
+                                    </div>
+                                ))
+                            ) : (
+                                <p>No awards found.</p>
+                            )}
                         </div>
 
                     </Col>
