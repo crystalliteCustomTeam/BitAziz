@@ -220,34 +220,53 @@ export const TestimonialSLIDES = [
 
 export const FaqsContent = {
     subtitle: "Got Inquiries?",
-    title: "Read Our Frequently Asked Questions",
+    title: "What people commonly ask to bitswits",
     content: "Our FAQ section offers clear answers to common concerns, helping you navigate our services with ease.",
 }
 export const FaqsList = [
     {
         title: "What kinds of help does BitsWits offer?",
-        txt: (<p>An AI agent is a software-powered assistant capable of understanding tasks, making decisions, and automating processes intelligently. At BitsWits, we develop custom AI agents tailored to your business needs, whether it's customer support, data processing, or end-to-end task automation.</p>)
+        txt: (
+            <>
+                <p>BitsWits provides a lot of digital services that can help firms thrive and come up with new ideas. We make iOS and Android mobile apps, cross-platform apps, web apps, UI/UX design, and games. These are some of the main things we do.</p>
+                <p>We also use new technologies like AI, AR/VR, blockchain, and the Internet of Things (IoT) to make solutions that are at the bleeding edge. Each project is customised to meet the needs of the client, making sure it can grow, runs smoothly, and focuses on getting demonstrable business results. We don't just want to make apps; we want to make digital experiences that matter.</p>
+            </>)
     },
     {
-        title: "What industries do you specialize in for AI agent development?",
-        txt: (<p>We’ve built AI agents for industries like healthcare, finance, retail, e-commerce, manufacturing, logistics, and more. Each solution is customized to fit the unique workflows and compliance standards of the specific sector.</p>)
+        title: "What platforms does BitsWits make apps for?",
+        txt: (
+            <>
+                <p>To make sure they reach the most people and work the best, BitsWits makes apps for a lot of different platforms. We make apps for iPhones and iPads, Android phones and tablets, and cross-platform apps that perform well on all devices. </p>
+                <p>Our staff makes sure that apps work perfectly on all target platforms, giving users a seamless experience, excellent performance, and easy-to-use interfaces. We also look at things like OS upgrades, device-specific needs, and platform rules to make sure your app is up to date and competitive in the market.</p>
+            </>
+        )
     },
     {
-        title: "What technologies do you use in AI agent development?",
-        txt: (<p>BitsWits uses cutting-edge tools, including natural language processing, machine learning, multimodal AI, vector databases, large language models, LLMs, and real-time data APIs to create intelligent, scalable agents.</p>)
+        title: "How long does it take to make an app with BitsWits?",
+        txt: (
+            <>
+                <p>The length of time it takes to develop a project depends on how complicated it is, what features it has, and what platform it is on. Apps that are simple and only do basic things might take 4 to 8 weeks to build. Apps that are more complicated and have special features might take 3 to 5 months.</p>
+                <p>It could take 6 to 12 months or more to create large-scale or enterprise apps with extensive integrations, AI, or AR/VR features. During a consultation, BitsWits gives clients a complete project plan with milestones. This keeps clients informed at every stage and makes sure everything is clear. Our agile development method lets us be flexible while yet meeting deadlines and quality standards.</p>
+            </>
+        )
     },
     {
-        title: "Can you integrate AI agents with our existing systems or tools?",
-        txt: (<p>Absolutely. We ensure seamless integration with your current tech stack, whether it’s CRMs, ERPs, internal tools, or third-party APIs, to maximize efficiency and ensure smooth automation.</p>)
+        title: "Why should I believe in BitsWits' knowledge?",
+        txt: (
+            <>
+                <p>Since 2012, BitsWits has been a reliable firm for making mobile and web apps for startups, small and medium-sized businesses, and large businesses all around the world. We have been recognised on top sites like Clutch, GoodFirms, DesignRush, Top Firms, and Reviews.io for our work, which shows that our clients are happy and that we complete projects on time. </p>
+                <p>We make sure that every project we work on meets strict quality standards by combining technical knowledge with strategic thinking. We have experienced developers, designers, and project managers on our team who make sure that every app is not only useful but also new and ready for the future. Client reviews and case studies are more proof that we are reliable and know what we're doing.</p>
+            </>
+        )
     },
     {
-        title: "Do you offer post-deployment support and maintenance?",
-        txt: (<p>Yes, we offer ongoing support, performance monitoring, and iterative updates to ensure your AI agent remains effective, secure, and aligned with evolving business needs.</p>)
+        title: "What do I need to do to get started with BitsWits?",
+        txt: (<>
+            <p>It's easy to get started with BitsWits. You can get in touch with us directly through our website. Tell us about your project concept, your goals, your budget, and your target audience. </p>
+            <p>After we know what you need, our team will set up a meeting to talk about strategy, technology choices, timetables, and what you want us to provide. We then make a unique project plan, start the design and development process, and keep you updated on our progress at every step. We also offer support and maintenance after your app is live to make sure it keeps working well as your business expands.</p>
+        </>)
     },
-    {
-        title: "What’s the cost of developing an AI agent with BitsWits?",
-        txt: (<p>Costs vary based on complexity, features, and integration needs, but we provide transparent pricing after the discovery phase. Our goal is to deliver high ROI through efficient, scalable automation.</p>)
-    },
+
 ]
 
 export const IdeaCtaContent = {
