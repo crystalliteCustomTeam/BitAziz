@@ -8,13 +8,13 @@ import Head from "next/head";
 import Image from "next/image";
 
 
+
 const Banner = ({ data }) => {
   const [showVideo, setShowVideo] = useState(false);
-
   useEffect(() => {
     const timeout = setTimeout(() => {
-      setShowVideo(true); // load video after 1.5s
-    }, 1500);
+      setShowVideo(true);
+    }, 15000000);
     return () => clearTimeout(timeout);
   }, []);
   return (
@@ -36,6 +36,7 @@ const Banner = ({ data }) => {
                 <h1>{data?.title}</h1>
                 <p>{data?.content}</p>
                 <ButtonCommon txt="Let’s Discuss!" />
+
               </div>
             </Col>
           </Row>
@@ -66,6 +67,7 @@ const Banner = ({ data }) => {
         )}
 
       </section>
+
     </>
   );
 };

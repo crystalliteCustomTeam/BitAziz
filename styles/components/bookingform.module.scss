@@ -1,0 +1,128 @@
+.bookFrom {
+  .fieldBox {
+    margin-bottom: 10px;
+    input {
+      background: rgb(217, 217, 217, 0.2);
+      border-radius: 71px;
+      height: 55px;
+      width: 100%;
+      border: 0px;
+      outline: none;
+      padding: 0px 15px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 20px;
+      color: #73858f;
+    }
+    textarea {
+      background: rgb(217, 217, 217, 0.2);
+      border-radius: 20px;
+      height: 120px;
+      width: 100%;
+      border: 0px;
+      outline: none;
+      padding: 10px 15px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 20px;
+      color: #73858f;
+    }
+  }
+  .buttonBox {
+    button {
+      background: linear-gradient(
+        91.47deg,
+        #f32f56 -78.17%,
+        #f32faf 18.3%,
+        #4a78ef 110.98%
+      );
+      border-radius: 64px;
+      height: 45px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 14px;
+      color: #ffffff;
+      min-width: 150px;
+      width: auto;
+      padding: 0px 20px;
+      border: 0px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .bookFrom {
+    width: 95%;
+    .fieldBox {
+      margin-bottom: 15px;
+      input {
+        height: 55px;
+        padding: 0px 15px;
+      }
+      textarea {
+        height: 120px;
+        padding: 10px 15px;
+      }
+    }
+    .buttonBox {
+      button {
+        height: 45px;
+        min-width: 150px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .bookFrom {
+    width: 100%;
+    .fieldBox {
+      margin-bottom: 15px;
+      input {
+        height: 55px;
+        padding: 0px 15px;
+      }
+      textarea {
+        height: 120px;
+        padding: 10px 15px;
+      }
+    }
+    .buttonBox {
+      button {
+        height: 45px;
+        min-width: 150px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .bookFrom {
+    width: 100%;
+    .fieldBox {
+      margin-bottom: 15px;
+      input {
+        height: 45px;
+        padding: 0px 15px;
+        border-radius: 10px;
+        font-size: 12px;
+      }
+      textarea {
+        height: 80px;
+        padding: 10px 15px;
+        border-radius: 10px;
+        font-size: 12px;
+      }
+    }
+    .buttonBox {
+      button {
+        height: 40px;
+        min-width: 120px;
+        font-size: 14px;
+      }
+    }
+  }
+}

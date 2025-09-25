@@ -1,0 +1,687 @@
+.calendarWapper {
+  display: flex;
+  gap: 10px;
+
+  .calendarbox {
+    flex: 0 0 50%;
+    background: #f8f8f8;
+    padding: 20px 30px;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    .timeSlots {
+      display: flex;
+      height: 50px;
+      border-top: 1px solid #798aa4;
+      border-bottom: 1px solid #798aa4;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px 10px;
+      .timing {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 15px;
+        letter-spacing: -0.186522px;
+        color: #000000;
+      }
+      .slots {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: -0.186522px;
+        color: #798aa4;
+        div {
+          padding: 0px 0px 0px 30px;
+          &.active {
+            background: linear-gradient(
+              90deg,
+              #f32f56 -78.17%,
+              #f32faf 18.3%,
+              #4a78ef 110.98%
+            );
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+        }
+      }
+    }
+    .timeSlider {
+      .embla {
+        max-width: 80%;
+        margin: auto;
+        margin-top: 10px;
+        position: relative;
+        .embla__viewport {
+          overflow: hidden;
+        }
+        .embla__container {
+          display: flex;
+          touch-action: pan-y pinch-zoom;
+          margin-left: calc(5px * -1);
+        }
+        .embla__slide {
+          transform: translate3d(0, 0, 0);
+          flex: 0 0 calc(100% / 2.8);
+          min-width: 0;
+          padding-left: 5px;
+          .sliderTime {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 13px;
+            text-align: center;
+            letter-spacing: -0.199662px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #798aa4;
+            border: 1px solid #798aa4;
+            border-radius: 30px;
+            height: 38px;
+            padding: 0px 10px;
+            cursor: pointer;
+            &:hover {
+              background: linear-gradient(
+                91.47deg,
+                #f32f56 -78.17%,
+                #f32faf 18.3%,
+                #4a78ef 110.98%
+              );
+              border: 0px;
+              color: #fff;
+              svg {
+                path {
+                  fill: #fff;
+                }
+              }
+            }
+          }
+        }
+        .embla_container {
+          div {
+            position: absolute;
+            left: -40px;
+            top: 5px;
+            border: 1px solid #8a95a0b2;
+            height: 30px;
+            width: 30px;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            svg {
+              width: auto;
+              height: 12px;
+            }
+            &.embla_prev {
+              left: unset;
+              right: -40px;
+              transform: rotate(180deg);
+            }
+            &:hover {
+              background: linear-gradient(
+                91.47deg,
+                #f32f56 -78.17%,
+                #f32faf 18.3%,
+                #4a78ef 110.98%
+              );
+              border: 0px;
+              svg {
+                path {
+                  fill: #fff;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .poweredBy {
+      position: absolute;
+      right: -10px;
+      top: -10px;
+      z-index: -1;
+
+      svg {
+        width: auto;
+        height: 150px;
+      }
+    }
+  }
+  .formBox {
+    flex: 0 0 50%;
+    padding: 20px 30px;
+  }
+  .closedBtn {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    z-index: 9;
+    cursor: pointer;
+
+    svg {
+      width: auto;
+      height: 30px;
+
+      circle {
+        fill: #e4e4e4;
+      }
+
+      path {
+        fill: #000;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .calendarWapper {
+    gap: 10px;
+    .calendarbox {
+      flex: 0 0 50%;
+      padding: 20px 20px;
+      border-radius: 30px;
+      .timeSlots {
+        display: flex;
+        height: 50px;
+        border-top: 1px solid #798aa4;
+        border-bottom: 1px solid #798aa4;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 10px;
+        .timing {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 15px;
+          letter-spacing: -0.186522px;
+          color: #000000;
+        }
+        .slots {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 13px;
+          line-height: 13px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          letter-spacing: -0.186522px;
+          color: #798aa4;
+          div {
+            padding: 0px 0px 0px 30px;
+            &.active {
+              background: linear-gradient(
+                90deg,
+                #f32f56 -78.17%,
+                #f32faf 18.3%,
+                #4a78ef 110.98%
+              );
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+          }
+        }
+      }
+      .timeSlider {
+        .embla {
+          max-width: 80%;
+          margin: auto;
+          margin-top: 10px;
+          position: relative;
+          .embla__viewport {
+            overflow: hidden;
+          }
+          .embla__container {
+            display: flex;
+            touch-action: pan-y pinch-zoom;
+            margin-left: calc(5px * -1);
+          }
+          .embla__slide {
+            transform: translate3d(0, 0, 0);
+            flex: 0 0 calc(100% / 2.8);
+            min-width: 0;
+            padding-left: 5px;
+            .sliderTime {
+              font-style: normal;
+              font-weight: 400;
+              font-size: 13px;
+              line-height: 13px;
+              text-align: center;
+              letter-spacing: -0.199662px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: #798aa4;
+              border: 1px solid #798aa4;
+              border-radius: 30px;
+              height: 38px;
+              padding: 0px 10px;
+              cursor: pointer;
+              &:hover {
+                background: linear-gradient(
+                  91.47deg,
+                  #f32f56 -78.17%,
+                  #f32faf 18.3%,
+                  #4a78ef 110.98%
+                );
+                border: 0px;
+                color: #fff;
+                svg {
+                  path {
+                    fill: #fff;
+                  }
+                }
+              }
+            }
+          }
+          .embla_container {
+            div {
+              position: absolute;
+              left: -40px;
+              top: 5px;
+              border: 1px solid #8a95a0b2;
+              height: 30px;
+              width: 30px;
+              border-radius: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              cursor: pointer;
+              svg {
+                width: auto;
+                height: 12px;
+              }
+              &.embla_prev {
+                left: unset;
+                right: -40px;
+                transform: rotate(180deg);
+              }
+              &:hover {
+                background: linear-gradient(
+                  91.47deg,
+                  #f32f56 -78.17%,
+                  #f32faf 18.3%,
+                  #4a78ef 110.98%
+                );
+                border: 0px;
+                svg {
+                  path {
+                    fill: #fff;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .poweredBy {
+        position: absolute;
+        right: -10px;
+        top: -10px;
+        z-index: -1;
+
+        svg {
+          width: auto;
+          height: 130px;
+        }
+      }
+    }
+    .formBox {
+      flex: 0 0 50%;
+      padding: 20px 20px;
+      h4 {
+        font-size: 23px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 22px;
+      }
+    }
+    .closedBtn {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      z-index: 9;
+      cursor: pointer;
+
+      svg {
+        width: auto;
+        height: 26px;
+
+        circle {
+          fill: #e4e4e4;
+        }
+
+        path {
+          fill: #000;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 651px) and (max-width: 899px) {
+  .calendarWapper {
+    gap: 10px;
+    flex-wrap: wrap;
+    .calendarbox {
+      flex: 0 0 100%;
+      padding: 20px 20px;
+      border-radius: 30px;
+      .timeSlots {
+        display: flex;
+        height: 50px;
+        border-top: 1px solid #798aa4;
+        border-bottom: 1px solid #798aa4;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 10px;
+        .timing {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 15px;
+          letter-spacing: -0.186522px;
+          color: #000000;
+        }
+        .slots {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 13px;
+          line-height: 13px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          letter-spacing: -0.186522px;
+          color: #798aa4;
+          div {
+            padding: 0px 0px 0px 30px;
+            &.active {
+              background: linear-gradient(
+                90deg,
+                #f32f56 -78.17%,
+                #f32faf 18.3%,
+                #4a78ef 110.98%
+              );
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+          }
+        }
+      }
+      .timeSlider {
+        .embla {
+          max-width: 80%;
+          margin: auto;
+          margin-top: 10px;
+          position: relative;
+          .embla__viewport {
+            overflow: hidden;
+          }
+          .embla__container {
+            display: flex;
+            touch-action: pan-y pinch-zoom;
+            margin-left: calc(5px * -1);
+          }
+          .embla__slide {
+            transform: translate3d(0, 0, 0);
+            flex: 0 0 calc(100% / 2.8);
+            min-width: 0;
+            padding-left: 5px;
+            .sliderTime {
+              font-style: normal;
+              font-weight: 400;
+              font-size: 13px;
+              line-height: 13px;
+              text-align: center;
+              letter-spacing: -0.199662px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: #798aa4;
+              border: 1px solid #798aa4;
+              border-radius: 30px;
+              height: 38px;
+              padding: 0px 10px;
+              cursor: pointer;
+              &:hover {
+                background: linear-gradient(
+                  91.47deg,
+                  #f32f56 -78.17%,
+                  #f32faf 18.3%,
+                  #4a78ef 110.98%
+                );
+                border: 0px;
+                color: #fff;
+                svg {
+                  path {
+                    fill: #fff;
+                  }
+                }
+              }
+            }
+          }
+          .embla_container {
+            div {
+              position: absolute;
+              left: -40px;
+              top: 5px;
+              border: 1px solid #8a95a0b2;
+              height: 30px;
+              width: 30px;
+              border-radius: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              cursor: pointer;
+              svg {
+                width: auto;
+                height: 12px;
+              }
+              &.embla_prev {
+                left: unset;
+                right: -40px;
+                transform: rotate(180deg);
+              }
+              &:hover {
+                background: linear-gradient(
+                  91.47deg,
+                  #f32f56 -78.17%,
+                  #f32faf 18.3%,
+                  #4a78ef 110.98%
+                );
+                border: 0px;
+                svg {
+                  path {
+                    fill: #fff;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .poweredBy {
+        position: absolute;
+        right: -10px;
+        top: -10px;
+        z-index: 0;
+
+        svg {
+          width: auto;
+          height: 130px;
+        }
+      }
+    }
+    .formBox {
+      flex: 0 0 100%;
+      padding: 20px 20px;
+      h4 {
+        font-size: 23px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 22px;
+      }
+    }
+    .closedBtn {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      z-index: 9;
+      cursor: pointer;
+
+      svg {
+        width: auto;
+        height: 26px;
+
+        circle {
+          fill: #e4e4e4;
+        }
+
+        path {
+          fill: #000;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 650px) {
+  .calendarWapper {
+    gap: 10px;
+    flex-wrap: wrap;
+    .calendarbox {
+      flex: 0 0 100%;
+      padding: 15px;
+      border-radius: 20px;
+      .timeSlots {
+        height: 40px;
+        padding: 0px 0px;
+        width: 300px;
+        .timing {
+          font-size: 14px;
+          line-height: 14px;
+        }
+        .slots {
+          font-size: 12px;
+          line-height: 12px;
+          div {
+            padding: 0px 0px 0px 20px;
+          }
+        }
+      }
+      .timeSlider {
+        width: 100%;
+        .embla {
+          max-width: 100%;
+          margin: auto;
+          margin-top: 10px;
+          position: relative;
+          width: 300px;
+          .embla__viewport {
+            overflow: hidden;
+          }
+          .embla__container {
+            display: flex;
+            touch-action: pan-y pinch-zoom;
+            margin-left: calc(5px * -1);
+          }
+          .embla__slide {
+            transform: translate3d(0, 0, 0);
+            flex: 0 0 calc(100% / 3);
+            min-width: 0;
+            padding-left: 5px;
+            .sliderTime {
+              font-size: 13px;
+              line-height: 13px;
+              height: 32px;
+              padding: 0px 10px;
+            }
+          }
+          .embla_container {
+            display: flex;
+            gap: 5px;
+            margin-top: 10px;
+            justify-content: center;
+            div {
+              position: unset;
+              border: 1px solid #8a95a0b2;
+              height: 30px;
+              width: 30px;
+              border-radius: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              cursor: pointer;
+              svg {
+                width: auto;
+                height: 12px;
+              }
+              &.embla_prev {
+                left: unset;
+                right: -40px;
+                transform: rotate(0deg);
+              }
+              &.embla_next {
+                left: unset;
+                right: -40px;
+                transform: rotate(180deg);
+              }
+            }
+          }
+        }
+      }
+      .poweredBy {
+        position: absolute;
+        right: -10px;
+        top: -10px;
+        z-index: 0;
+
+        svg {
+          width: auto;
+          height: 120px;
+        }
+      }
+    }
+    .formBox {
+      flex: 0 0 100%;
+      padding: 20px 20px;
+      h4 {
+        font-size: 23px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 22px;
+      }
+    }
+    .closedBtn {
+      position: absolute;
+      top: -5px;
+      right: -5px;
+      z-index: 9;
+      cursor: pointer;
+
+      svg {
+        width: auto;
+        height: 26px;
+
+        circle {
+          fill: #e4e4e4;
+        }
+
+        path {
+          fill: #000;
+        }
+      }
+    }
+  }
+}

@@ -40,7 +40,8 @@
     "slick-slider": "^1.8.2",
     "swiper": "^11.2.6",
     "swiper-react": "^1.0.0",
-    "use-analytics": "^1.1.0"
+    "use-analytics": "^1.1.0",
+    "react-calendar": "^5.1.0"
   },
   "devDependencies": {
     "@types/node": "20.11.30",
