@@ -14,7 +14,7 @@ const Banner = ({ data }) => {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setShowVideo(true);
-    }, 15000000);
+    }, 1500);
     return () => clearTimeout(timeout);
   }, []);
   return (
