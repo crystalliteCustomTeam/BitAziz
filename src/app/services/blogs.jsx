@@ -30,7 +30,7 @@ const Blogs = () => {
                     {posts.length !== 0 ? (
                         <>
                             <Col lg={12} md={12} className="m-auto">
-                                <h2 className="text-center">Our Related Blog Posts</h2>
+                                <h2 className="text-center">Our Recent Blogs</h2>
                             </Col>
                             {posts.map((post, index) => (
                                 <Col lg={4} md={6} className='m-auto' key={index}>
@@ -77,7 +77,7 @@ const Blogs = () => {
                         </>
                     ) : (
                         <Col lg={12} md={12} className="m-auto">
-                            <h2 className="text-center">Loading Related Blog Posts</h2>
+                            <h2 className="text-center">Loading Our Recent Blogs</h2>
                         </Col>
                     )}
                 </Row>

@@ -426,3 +426,9 @@ export const IdeaCtaContent = {
     text: (<> App <span>Idea!</span></>),
     formtitle: (<>Let’s Create An Amazing<br /> Mobile App Together!</>)
 }
+
+export const BlogsContent = {
+    title: "Our Recent Blogs",
+}
+
+

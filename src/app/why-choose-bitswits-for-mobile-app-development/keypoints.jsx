@@ -42,11 +42,11 @@ const KeyPoints = () => {
                                             {item.title}
                                         </li>
                                     ))}
-                                    {keyPointsData.map((item, index) => (
+                                    {/* {keyPointsData.map((item, index) => (
                                         <div className={`${styles.bgTxt} ${activeIndex === index ? styles.active : ""}`} key={index}>
                                             {item.title}
                                         </div>
-                                    ))}
+                                    ))} */}
                                 </ul>
                             </div>
                             <div className={styles.keypointsContent}>

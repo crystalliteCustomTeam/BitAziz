@@ -9,7 +9,7 @@ const Banner = () => {
         <Row className="h-100">
           <Col lg={8} md={10} className="mx-auto mt-auto text-center">
             <h1>
-              About <span className="txtColor">BitsWits!</span>
+              Why Choose  <span className="txtColor">Bitswits </span>For <span className="txtColor">Mobile App Development </span>
             </h1>
             <p>
               BitsWits is a leading mobile app development company established in 2012, with over a decade of experience delivering innovative digital solutions. Our team of skilled developers, designers, and strategists has created apps for startups, large enterprises, and global brands, earning awards for creativity and excellence along the way.
@@ -18,7 +18,7 @@ const Banner = () => {
           </Col>
         </Row>
       </Container>
-    </section>
+    </section >
   );
 };
 
