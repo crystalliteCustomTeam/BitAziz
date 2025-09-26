@@ -40,6 +40,7 @@ const styleChange = [
   "/case-studies/home-pro-connect",
   "/contact-us",
   "/ai-agent-development-company",
+  "/why-choose-bitswits-for-mobile-app-development"
 ]
 const isLightHeader = [
   "/",
@@ -85,6 +86,7 @@ const isDarkHeader = [
   "/blog/",
   "/lp/mobile-app-development-services",
   "/ai-agent-development-company",
+  "/why-choose-bitswits-for-mobile-app-development"
 ]
 
 const lpHeaderFooterPaths = [

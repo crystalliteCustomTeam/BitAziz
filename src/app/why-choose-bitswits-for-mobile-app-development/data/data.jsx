@@ -1,5 +1,5 @@
 // Extended Services Images
-import { ArtificialIntelligence, BigData, Blockchain, InternetOfThings, MixedReality, ClutchLogo, GoogleLogo, TrustpilotLogo } from "@/src/app/app-constants"
+import { ArtificialIntelligence, BigData, Blockchain, InternetOfThings, MixedReality, ClutchLogo, GoogleLogo, TrustpilotLogo, StarIcon } from "@/src/app/app-constants"
 import Link from "next/link";
 export const ExtendedServicesContent = {
     subtitle: "Advanced Solutions",
@@ -125,16 +125,16 @@ export const AwardsTitle = {
     title: "Bitswits Awards and Recognition",
 }
 export const AwardsData = [
-    { title: "Top Mobile App Development Company 2023 by RightFirms", logo: Awards1.src },
-    { title: "Recognized as one of the highest-performing B2B companies by Clutch", logo: Awards2.src },
-    { title: "Top App Development Company by appfutura", logo: Awards3.src },
-    { title: "Honoring excellence in web creativity and digital communication by dotCOMM Awards", logo: Awards4.src },
-    { title: "Recognized as one of the highest-performing B2B companies by Clutch", logo: Awards5.src },
-    { title: "Best Mobile App Developers in Chicago for 2022 by Expertise.com", logo: Awards6.src },
-    { title: "Top Mobile App Developers USA in 2022 by TopDevelopersmicrosoft Cybersecurity testing certification", logo: Awards7.src },
-    { title: "Leaders Category Award in 2022 by GetApp", logo: Awards8.src },
-    { title: "High Performer Award for 2022 by G2 High Performer", logo: Awards9.src },
-    { title: "Top 1000 Companies Global for 2022 by Clutch ", logo: Awards10.src },
+    { title: "Top Mobile App Development Company 2023 by ", link: "RightFirms", logo: Awards1.src },
+    { title: "Recognized as one of the highest-performing B2B companies by", link: "Clutch", logo: Awards2.src },
+    { title: "Top App Development Company by ", link: "appfutura", logo: Awards3.src },
+    { title: "Honoring excellence in web creativity and digital communication by ", link: "dotCOMM Awards", logo: Awards4.src },
+    { title: "Recognized as one of the highest-performing B2B companies by ", link: "Clutch", logo: Awards5.src },
+    { title: "Best Mobile App Developers in Chicago for 2022 by ", link: "Expertise.com", logo: Awards6.src },
+    { title: "Top Mobile App Developers USA in 2022 by ", link: "TopDevelopersmicrosoft Cybersecurity testing certification", logo: Awards7.src },
+    { title: "Leaders Category Award in 2022 by ", link: "GetApp", logo: Awards8.src },
+    { title: "High Performer Award for 2022 by ", link: "G2 High Performer", logo: Awards9.src },
+    { title: "Top 1000 Companies Global for 2022 by  ", link: "Clutch", logo: Awards10.src },
 ]
 
 import Business1 from "media/why-chosse/business/1.webp"
@@ -154,16 +154,168 @@ export const BusinessTitle = {
 }
 
 export const BusinessData = [
-    { title: "BitsWits Profile on AppsInsight With 4.9/5.0 rating", logo: Business1.src },
-    { title: "BitsWits Profile on Real Reviews With 4.7/5.0 rating", logo: Business2.src },
-    { title: "BitsWits Profile on Find Best Firms With 4.9/5.0 rating", logo: Business3.src },
-    { title: "BitsWits Profile on Top Firms With 4.7/5.0 rating", logo: Business4.src },
-    { title: "BitsWits Profile on DesignRush With 4.9/5.0 rating", logo: Business5.src },
-    { title: "BitsWits Profile on Clutch With 4.9/5.0 rating", logo: Business6.src },
-    { title: "BitsWits Profile on TopDevelopers With 5.0/5.0 rating", logo: Business7.src },
-    { title: "BitsWits Profile on Trustpilot With 4.3/5.0 rating", logo: Business8.src },
-    { title: "BitsWits Profile on GoodFirms With 5.0/5.0  rating", logo: Business9.src },
-    { title: "BitsWits Profile on Tech Behemoths With 4.9/5.0 rating", logo: Business10.src },
+    {
+        title: (
+            <>
+                BitsWits Profile on{" "}
+                <Link href="https://realreviews.io/reviews/bitswits.co" rel="noopener noreferrer">
+                    AppsInsight
+                </Link>{" "}
+                <div>
+                    With
+                    {[...Array(5)].map((_, i) => (
+                        <StarIcon key={i} />
+                    ))}
+                    4.9/5.0 rating
+                </div>
+            </>
+        ),
+        logo: Business1.src
+    },
+    {
+        title: (
+            <>
+                BitsWits Profile on{" "}
+                <Link href="https://findbestfirms.com/freelancer/inhousebitswits" rel="noopener noreferrer">
+                    Find Best Firms
+                </Link>{" "}
+                <div>With
+                    {[...Array(5)].map((_, i) => (
+                        <StarIcon key={i} />
+                    ))} 4.9/5.0 rating
+                </div>
+            </>
+        ),
+        logo: Business3.src
+    },
+    {
+        title: (
+            <>
+                BitsWits Profile on{" "}
+                <Link href="https://findbestfirms.com/freelancer/inhousebitswits" rel="noopener noreferrer">
+                    Real Reviews
+                </Link>{" "}
+                <div>With
+                    {[...Array(5)].map((_, i) => (
+                        <StarIcon key={i} />
+                    ))} 4.7/5.0 rating
+                </div>
+            </>
+        ),
+        logo: Business2.src
+    },
+    {
+        title: (
+            <>
+                BitsWits Profile on{" "}
+                <Link href="https://topfirms.co/company-detail/4182/bitswits" rel="noopener noreferrer">
+                    Top Firms
+                </Link>{" "}
+                <div>With
+                    {[...Array(5)].map((_, i) => (
+                        <StarIcon key={i} />
+                    ))} 4.7/5.0 rating
+                </div>
+            </>
+        ),
+        logo: Business4.src
+    },
+    {
+        title: (
+            <>
+                BitsWits Profile on{" "}
+                <Link href="https://www.designrush.com/agency/profile/bitswits" rel="noopener noreferrer">
+                    DesignRush
+                </Link>{" "}
+                <div>With
+                    {[...Array(5)].map((_, i) => (
+                        <StarIcon key={i} />
+                    ))} 4.9/5.0 rating
+                </div>
+            </>
+        ),
+        logo: Business5.src
+    },
+    {
+        title: (
+            <>
+                BitsWits Profile on{" "}
+                <Link href="https://clutch.co/profile/bitswits" rel="noopener noreferrer">
+                    Clutch
+                </Link>{" "}
+                <div>With
+                    {[...Array(5)].map((_, i) => (
+                        <StarIcon key={i} />
+                    ))} 4.9/5.0 rating
+                </div>
+            </>
+        ),
+        logo: Business6.src
+    },
+    {
+        title: (
+            <>
+                BitsWits Profile on{" "}
+                <Link href="https://www.topdevelopers.co/profile/bitswits" rel="noopener noreferrer">
+                    TopDevelopers
+                </Link>{" "}
+                <div>With
+                    {[...Array(5)].map((_, i) => (
+                        <StarIcon key={i} />
+                    ))} 5.0/5.0 rating
+                </div>
+            </>
+        ),
+        logo: Business7.src
+    },
+    {
+        title: (
+            <>
+                BitsWits Profile on{" "}
+                <Link href="https://www.trustpilot.com/review/bitswits.com" rel="noopener noreferrer">
+                    Trustpilot
+                </Link>{" "}
+                <div>With
+                    {[...Array(5)].map((_, i) => (
+                        <StarIcon key={i} />
+                    ))} 4.3/5.0 rating
+                </div>
+            </>
+        ),
+        logo: Business8.src
+    },
+    {
+        title: (
+            <>
+                BitsWits Profile on{" "}
+                <Link href="https://www.goodfirms.co/company/bitswits" rel="noopener noreferrer">
+                    GoodFirms
+                </Link>{" "}
+                <div>With
+                    {[...Array(5)].map((_, i) => (
+                        <StarIcon key={i} />
+                    ))} 5.0/5.0 rating
+                </div>
+            </>
+        ),
+        logo: Business9.src
+    },
+    {
+        title: (
+            <>
+                BitsWits Profile on{" "}
+                <Link href="https://www.goodfirms.co/company/bitswits" rel="noopener noreferrer">
+                    Tech Behemoths
+                </Link>{" "}
+                <div>With
+                    {[...Array(5)].map((_, i) => (
+                        <StarIcon key={i} />
+                    ))} 4.9/5.0 rating
+                </div>
+            </>
+        ),
+        logo: Business10.src
+    },
 ]
 import press1 from "media/why-chosse/press/1.webp"
 import press2 from "media/why-chosse/press/2.webp"

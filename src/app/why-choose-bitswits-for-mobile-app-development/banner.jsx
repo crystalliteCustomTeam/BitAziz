@@ -4,7 +4,7 @@ import ButtonCommon from "@/src/components/common/button";
 
 const Banner = () => {
   return (
-    <section className={`${styles.projectSection}`}>
+    <section className={`${styles.projectSection} ${styles.whyBanner}`}>
       <Container className="h-100">
         <Row className="h-100">
           <Col lg={8} md={10} className="mx-auto mt-auto text-center">
