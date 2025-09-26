@@ -665,21 +665,22 @@ select:-webkit-autofill:focus {
 .react-calendar {
   position: relative;
   z-index: 2;
-  min-height: 400px;
+  min-height: 330px;
   overflow-y: auto;
+  max-width: 370px;
   &::-webkit-scrollbar {
     width: 0px;
   }
   .react-calendar__navigation {
-    height: 50px;
+    height: 40px;
     position: relative;
-    margin-bottom: 10px;
-    max-width: 70%;
+    margin-bottom: 0px;
+
     button {
       font-style: normal;
       font-weight: 600;
-      font-size: 22px;
-      line-height: 45px;
+      font-size: 20px;
+      line-height: 40px;
       letter-spacing: -0.219195px;
       color: #000000;
       border: 0px;
@@ -722,7 +723,7 @@ select:-webkit-autofill:focus {
         }
       }
       &:hover {
-        color: #1a76ff;
+        color: #f32faf;
       }
     }
   }
@@ -730,9 +731,9 @@ select:-webkit-autofill:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 40px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     color: #333;
     abbr {
@@ -745,7 +746,6 @@ select:-webkit-autofill:focus {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 50px;
       border: 0px solid #e6e6e6;
       text-align: center;
       font-weight: 500;
@@ -753,7 +753,7 @@ select:-webkit-autofill:focus {
       color: #333;
       background-color: transparent;
       border-radius: 10px;
-      height: 50px;
+      height: 40px;
       flex-basis: calc(100% / 4 - 5px) !important;
       margin-bottom: 5px;
       &.react-calendar__tile--now {
@@ -788,9 +788,9 @@ select:-webkit-autofill:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 40px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 15px;
     color: #333;
     gap: 2px;
@@ -821,11 +821,11 @@ select:-webkit-autofill:focus {
             #f32faf 18.3%,
             #4a78ef 110.98%
           );
-          width: 8px;
-          height: 8px;
+          width: 5px;
+          height: 5px;
           border-radius: 10px;
           position: absolute;
-          bottom: 5px;
+          bottom: 2px;
           left: 50%;
           transform: translate(-50%, -2px);
         }
@@ -1430,7 +1430,8 @@ select:-webkit-autofill:focus {
     }
   }
   .react-calendar {
-    min-height: 380px;
+    min-height: 350px;
+    max-width: 350px;
     .react-calendar__navigation {
       height: 40px;
       button {
@@ -1648,6 +1649,7 @@ select:-webkit-autofill:focus {
   }
   .react-calendar {
     min-height: 380px;
+    max-width: 100%;
     .react-calendar__navigation {
       height: 40px;
       button {
@@ -1864,7 +1866,8 @@ select:-webkit-autofill:focus {
     }
   }
   .react-calendar {
-    min-height: 380px;
+    min-height: 360px;
+
     .react-calendar__navigation {
       height: 40px;
       button {

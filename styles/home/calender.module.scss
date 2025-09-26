@@ -9,6 +9,10 @@
     border-radius: 30px;
     position: relative;
     overflow: hidden;
+    h3 {
+      margin-bottom: 30px;
+      font-weight: 600;
+    }
     .timeSlots {
       display: flex;
       height: 50px;
@@ -17,6 +21,7 @@
       justify-content: space-between;
       align-items: center;
       padding: 0px 10px;
+      width: 370px;
       .timing {
         font-style: normal;
         font-weight: 500;
@@ -196,6 +201,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 0px 10px;
+        max-width: 350px;
         .timing {
           font-style: normal;
           font-weight: 500;
@@ -383,6 +389,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 0px 10px;
+        width: 100%;
         .timing {
           font-style: normal;
           font-weight: 500;

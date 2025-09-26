@@ -50,6 +50,7 @@ const BookingPopUp = ({ onHide, show }) => {
                 </div>
 
                 <div className={styles.calendarbox}>
+                    <h3>Mark Your Availability</h3>
                     <Calendar
                         minDate={new Date()}
                         minDetail="month"
