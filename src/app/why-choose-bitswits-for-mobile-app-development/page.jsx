@@ -24,9 +24,9 @@ export default function Page() {
       <CaseStudySection />
       <Testimonial data={TestimonialContent} list={TestimonialSLIDES} />
       <Awards data={BusinessData} content={BusinessTitle} />
-      <Blogs />
       <Faqs data={FaqsContent} list={FaqsList} />
       <IdeaCta data={IdeaCtaContent} />
+      <Blogs />
     </>
   );
 }

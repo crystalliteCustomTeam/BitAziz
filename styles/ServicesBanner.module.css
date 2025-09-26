@@ -101,6 +101,7 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   transition: all 0.5s ease-in-out;
+  cursor: pointer;
 }
 
 .book {
@@ -142,7 +143,6 @@
   text-align: center;
 }
 
-
 .mobile .banImg {
   margin-top: -40px;
 }
@@ -164,7 +164,7 @@
   padding-bottom: 10px;
 }
 
-.custom .banImg{
+.custom .banImg {
   margin: 0;
   margin-bottom: 20px;
 }

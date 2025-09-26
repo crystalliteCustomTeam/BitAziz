@@ -17,13 +17,13 @@ const Newsuccess = (props) => {
           <Row>
             <Col xl={12}>
               <div>
-                <h5 className="newfycolr mb-0 mb-sm-2">{props.subtitle}</h5>
-                <h2 className="newchoose f-700 white center mb-3 mb-sm-5">
+                <h5 className='newfycolr mb-0 mb-sm-2'>{props.subtitle}</h5>
+                <h2 className='newchoose f-700 white center mb-3 mb-sm-5'>
                   {props.maintitle}
                 </h2>
               </div>
             </Col>
-            <Col xl={12} className="mx-auto d-none d-md-block">
+            <Col xl={12} className='mx-auto d-none d-md-block'>
               <div className={styles.mainBox}>
                 {props.successSteps.map((step, index) => (
                   <div
@@ -32,13 +32,13 @@ const Newsuccess = (props) => {
                       index === 1 ? styles.box2 : ""
                     }`}
                   >
-                    <span className="f-60 font-bold newfycolr mb-0">
+                    <span className='f-60 font-bold newfycolr mb-0'>
                       {step.number}
                     </span>
-                    <span className="font30 font-bold white mb-0">
+                    <span className='font30 font-bold white mb-0'>
                       {step.title}
                     </span>
-                    <span className="font16 white">{step.text}</span>
+                    <span className='font16 white'>{step.text}</span>
                     {step.link ? (
                       <a href={step.link} className={styles.sucssBtn}>
                         {step.buttonText}
@@ -62,13 +62,13 @@ const Newsuccess = (props) => {
                 <Image
                   quality={75}
                   src={team1}
-                  alt="BitsWits"
+                  alt='BitsWits'
                   className={`${styles.befImg} img-fluid`}
                 />
               </div>
             </Col>
             {/* =============================== */}
-            <Col xl={12} className="mx-auto d-block d-md-none">
+            <Col xl={12} className='mx-auto d-block d-md-none'>
               <div className={styles.mainBox}>
                 {props.successSteps.map((step, index) => (
                   <div
@@ -77,13 +77,13 @@ const Newsuccess = (props) => {
                       index === 1 ? styles.box2 : ""
                     }`}
                   >
-                    <span className="f-60 font-bold newfycolr mb-0">
+                    <span className='f-60 font-bold newfycolr mb-0'>
                       {step.number}
                     </span>
-                    <span className="font30 font-bold white mb-0">
+                    <span className='font30 font-bold white mb-0'>
                       {step.title}
                     </span>
-                    <span className="font16 white">{step.text}</span>
+                    <span className='font16 white'>{step.text}</span>
                     {step.link ? (
                       <a href={step.link} className={styles.sucssBtn}>
                         {step.buttonText}
@@ -107,7 +107,7 @@ const Newsuccess = (props) => {
                 <Image
                   quality={75}
                   src={team1}
-                  alt="BitsWits"
+                  alt='BitsWits'
                   className={`${styles.befImg} img-fluid`}
                 />
               </div>

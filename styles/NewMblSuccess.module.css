@@ -65,6 +65,7 @@
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
+  cursor: pointer;
 }
 
 .spacing2d {
@@ -139,7 +140,7 @@
     padding: 0 0 80px;
   }
 
-  .spacing2d{
+  .spacing2d {
     padding-bottom: 0;
   }
 }

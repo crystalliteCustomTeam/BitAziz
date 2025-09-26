@@ -127,8 +127,8 @@ const mobileApplication = () => {
   return (
     <>
       <ServicesBanner
-        assignClass="game3d"
-        subtitle="AWARDED #1 GAME APP DEVELOPMENT COMPANY"
+        assignClass='game3d'
+        subtitle='AWARDED #1 GAME APP DEVELOPMENT COMPANY'
         title={
           <>
             Experience The Roller Coaster Of <br /> The Gaming World With Us!
@@ -142,31 +142,31 @@ const mobileApplication = () => {
         }
         BannerImage={BannerImage}
       />
-      <People People="people" />
+      <People People='people' />
       <HomeBannerSlider />
       <LpForm />
-      <Nothing Nothing="nothingLp6" />
+      <Nothing Nothing='nothingLp6' />
       <ServicesAdvantage
-        subTitle="Bounties"
+        subTitle='Bounties'
         title={
           <> Attractive/Creative Opportunities 3D Game Development Offers </>
         }
-        title1="More Control Options"
-        content1="It enables the 3D game developer to provide gamers with more control options, such as the ability to customize their gaming experience by adjusting settings or controlling multiple characters."
-        title2="Increased Reach"
-        content2="3D games can be developed with a broader range of devices in mind, appealing to an increasingly global audience and expanding the potential customer base for businesses."
-        title3="Increased Customer Loyalty"
-        content3="With 3D game development, businesses can create entertaining and engaging games, creating a sense of loyalty amongst prospects that may result in repeat customers and long-term fans of the business."
-        title4="Scalability"
-        content4="3D games are incredibly scalable, allowing firms to add or remove the content as needed, depending on the customer base. This makes it easy for businesses to adjust their games to cater to different markets or demographics."
-        title5="Enhanced Visualization"
-        content5="The enhanced graphics, lighting, physics, and rendering capabilities of 3D game development create an interactive, immersive, and captivating environment for gaming enthusiasts."
-        title6="Increased Realism"
-        content6="It allows game developers to create a realistic world for gamers to explore. The improved graphics and rendering capabilities of 3D engines make the game look more pragmatic and believable."
+        title1='More Control Options'
+        content1='It enables the 3D game developer to provide gamers with more control options, such as the ability to customize their gaming experience by adjusting settings or controlling multiple characters.'
+        title2='Increased Reach'
+        content2='3D games can be developed with a broader range of devices in mind, appealing to an increasingly global audience and expanding the potential customer base for businesses.'
+        title3='Increased Customer Loyalty'
+        content3='With 3D game development, businesses can create entertaining and engaging games, creating a sense of loyalty amongst prospects that may result in repeat customers and long-term fans of the business.'
+        title4='Scalability'
+        content4='3D games are incredibly scalable, allowing firms to add or remove the content as needed, depending on the customer base. This makes it easy for businesses to adjust their games to cater to different markets or demographics.'
+        title5='Enhanced Visualization'
+        content5='The enhanced graphics, lighting, physics, and rendering capabilities of 3D game development create an interactive, immersive, and captivating environment for gaming enthusiasts.'
+        title6='Increased Realism'
+        content6='It allows game developers to create a realistic world for gamers to explore. The improved graphics and rendering capabilities of 3D engines make the game look more pragmatic and believable.'
         AdvantageOne={AdvantageOne}
       />
       <ServiceTarget
-        subTitle="Features Of Our Development Endeavors"
+        subTitle='Features Of Our Development Endeavors'
         title={
           <>
             Invigorate Your Target Audience <br /> With Dynamic Gameplay
@@ -181,17 +181,17 @@ const mobileApplication = () => {
             whether playing on a PC, console, or mobile device.
           </>
         }
-        heading1="We Ideate, Design, and Construct Expressive Games!!!"
+        heading1='We Ideate, Design, and Construct Expressive Games!!!'
         content1="BitsWits bring your visions into gaming reality following a structured and mindful approach. Our ideation process starts by exploring potential themes and genres to create an ideal design concept. We then move on to planning out the game's structure and detailing the game design document. Once the plan is locked in, we move on to building the game prototype. Our team works in tandem to create the basic visuals and gameplay for the game with all features intact. The end result is nothing short of amazing - a game that best aligns with the interests and goals of the client and functions seamlessly!"
-        heading2="We Design Flawless, Captivating User Interfaces And Experiences!!!"
-        content2="BitsWits shares a renowned name in developing top-class UI/UX processes that glues gamers to the screen for stretched hours. Our in-depth analysis of user behavior helps us create the perfect interface for each game, ensuring that no two experiences are the same. Our industry-trained game developers develop UI/UX optimized for maximum engagement and satiation."
-        heading3="We Utilize Cutting-Edge Mobile Gaming Technologies!!!"
-        content3="BitsWits collar the intricacies of mobile gaming technology and help develop a strategy for success. We use cutting-edge software, languages, and frameworks; you can enjoy superior graphics and sound that bring every battle, mission, or quest to life. Our innovative network protocols will keep your game running smoothly with low latency and excellent responsiveness."
+        heading2='We Design Flawless, Captivating User Interfaces And Experiences!!!'
+        content2='BitsWits shares a renowned name in developing top-class UI/UX processes that glues gamers to the screen for stretched hours. Our in-depth analysis of user behavior helps us create the perfect interface for each game, ensuring that no two experiences are the same. Our industry-trained game developers develop UI/UX optimized for maximum engagement and satiation.'
+        heading3='We Utilize Cutting-Edge Mobile Gaming Technologies!!!'
+        content3='BitsWits collar the intricacies of mobile gaming technology and help develop a strategy for success. We use cutting-edge software, languages, and frameworks; you can enjoy superior graphics and sound that bring every battle, mission, or quest to life. Our innovative network protocols will keep your game running smoothly with low latency and excellent responsiveness.'
       />
       {isSliderActive ? (
         <ServicesMaintain
-          assignClass="game3d"
-          subtitle="The Work We Undertake"
+          assignClass='game3d'
+          subtitle='The Work We Undertake'
           title0={
             <>
               The Genres Of <span>Games</span> We Develop
@@ -264,18 +264,18 @@ const mobileApplication = () => {
       ) : (
         <ServicesMaintainmobile severcedata={severcedata} />
       )}
-      <LpChoose transform="transform" />
+      <LpChoose transform='transform' />
       <ServiceExperience />
       <ServiceSolutions
-        addClass="game3d"
-        title="Create Engaging Worlds with Our 3D Game Development Studio!"
-        text="BitsWits creates highly interactive and immersive 3D games that take players on an unforgettable journey into a thrilling world of realism. Our services feature designing complex characters, environments, objects, and textures, animating scenes, creating realistic physics for game objects to interact with each other, and integrating user controls and interfaces. From designing and developing 3D models to producing and integrating game logic, we provide end-to-end solutions for creating cutting-edge gaming experiences."
+        addClass='game3d'
+        title='Create Engaging Worlds with Our 3D Game Development Studio!'
+        text='BitsWits creates highly interactive and immersive 3D games that take players on an unforgettable journey into a thrilling world of realism. Our services feature designing complex characters, environments, objects, and textures, animating scenes, creating realistic physics for game objects to interact with each other, and integrating user controls and interfaces. From designing and developing 3D models to producing and integrating game logic, we provide end-to-end solutions for creating cutting-edge gaming experiences.'
         Solution={Solution}
       />
       <ServiceGenre
-        addClass="game3d"
-        subTitle="OUR SERVICES ARE WHERE INNOVATION MEETS PLAY"
-        title="What Genre Of Games Do We Create?"
+        addClass='game3d'
+        subTitle='OUR SERVICES ARE WHERE INNOVATION MEETS PLAY'
+        title='What Genre Of Games Do We Create?'
         sections={[
           {
             title: <> 2D Games In Unity </>,
@@ -296,40 +296,38 @@ const mobileApplication = () => {
       />
       <Capabilities3d />
       <ServiceEngage
-        subTitle="HIRE THE BEST; FORGET THE REST!"
-        title="Why Engage BitsWits As Your Game Development Studio?"
+        subTitle='HIRE THE BEST; FORGET THE REST!'
+        title='Why Engage BitsWits As Your Game Development Studio?'
         main={main}
-        heading1="Skilled Team"
-        text1="BitsWits celebrates a team of experienced game developers and designers with the necessary skills and knowledge to create engaging, highly-converting 3D games. Our developers always keep an eye on innovation and creativity."
+        heading1='Skilled Team'
+        text1='BitsWits celebrates a team of experienced game developers and designers with the necessary skills and knowledge to create engaging, highly-converting 3D games. Our developers always keep an eye on innovation and creativity.'
         engIcon1={engIcon1}
-        heading2="Quality Graphics"
-        text2="BitsWits is committed to providing its clients with high-quality 3D graphics that capture the attention of players, making the gaming experience even more immersive."
+        heading2='Quality Graphics'
+        text2='BitsWits is committed to providing its clients with high-quality 3D graphics that capture the attention of players, making the gaming experience even more immersive.'
         engIcon2={engIcon2}
-        heading3="Cutting Edge Technology"
-        text3="The developers at BitsWits are always looking to stay ahead of the curve when it comes to using innovative technology in their 3D games. They utilize the latest technologies and tools to ensure top-quality 3D games with immersive graphics, engaging gameplay, and high performance."
+        heading3='Cutting Edge Technology'
+        text3='The developers at BitsWits are always looking to stay ahead of the curve when it comes to using innovative technology in their 3D games. They utilize the latest technologies and tools to ensure top-quality 3D games with immersive graphics, engaging gameplay, and high performance.'
         engIcon3={engIcon3}
-        heading4="Quality Assurance"
-        text4="BitsWits employs a rigorous quality assurance process to ensure that every game created meets the highest standards of excellence. This helps to guarantee an exciting and bug-free gaming experience for all players."
+        heading4='Quality Assurance'
+        text4='BitsWits employs a rigorous quality assurance process to ensure that every game created meets the highest standards of excellence. This helps to guarantee an exciting and bug-free gaming experience for all players.'
         engIcon4={engIcon4}
       />
       <Newsuccess
-        assignClass="spacing"
-        subtitle="Ready For Success?"
-        maintitle="Brace Yourself for What Happens Next"
+        assignClass='spacing'
+        subtitle='Ready For Success?'
+        maintitle='Brace Yourself for What Happens Next'
         successSteps={[
           {
             number: "01",
             title: "Talk To Our Experts",
             text: "Contact us without obligation by email or phone and secure your free consultation.",
             buttonText: "Connect Now!",
-            link: "javascript:window.replaceChat();",
           },
           {
             number: "02",
             title: "Get A Quote",
             text: "Get an exact cost breakdown structure of your app.",
             buttonText: "Chat Now!",
-            link: "javascript:window.replaceChat();",
           },
           {
             number: "03",
@@ -455,7 +453,7 @@ const mobileApplication = () => {
       />
       <HomeLocation />
 
-      <Script id="websiteSchema" type="application/ld+json">
+      <Script id='websiteSchema' type='application/ld+json'>
         {`
                     {
                       "@context": "https://schema.org/",
@@ -470,7 +468,7 @@ const mobileApplication = () => {
                     }
                 `}
       </Script>
-      <Script id="organizationSchema" type="application/ld+json">
+      <Script id='organizationSchema' type='application/ld+json'>
         {`
                     {
                       "@context": "https://schema.org",
@@ -488,7 +486,7 @@ const mobileApplication = () => {
                     }
                 `}
       </Script>
-      <Script id="localBusinessSchema" type="application/ld+json">
+      <Script id='localBusinessSchema' type='application/ld+json'>
         {`
                     {
                       "@context": "https://schema.org",
@@ -532,7 +530,7 @@ const mobileApplication = () => {
                     }
                 `}
       </Script>
-      <Script id="productSchema" type="application/ld+json">
+      <Script id='productSchema' type='application/ld+json'>
         {`
           {
             "@context": "https://schema.org/", 
@@ -553,7 +551,7 @@ const mobileApplication = () => {
         `}
       </Script>
       <script
-        type="application/ld+json"
+        type='application/ld+json'
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",

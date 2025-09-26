@@ -158,7 +158,7 @@ export const BusinessData = [
         title: (
             <>
                 BitsWits Profile on{" "}
-                <Link href="https://realreviews.io/reviews/bitswits.co" rel="noopener noreferrer">
+                <Link href="https://appsinsight.co/company/bitswits/" rel="noopener noreferrer">
                     AppsInsight
                 </Link>{" "}
                 <div>
@@ -192,7 +192,7 @@ export const BusinessData = [
         title: (
             <>
                 BitsWits Profile on{" "}
-                <Link href="https://findbestfirms.com/freelancer/inhousebitswits" rel="noopener noreferrer">
+                <Link href="https://realreviews.io/reviews/bitswits.co" rel="noopener noreferrer">
                     Real Reviews
                 </Link>{" "}
                 <div>With
@@ -304,7 +304,7 @@ export const BusinessData = [
         title: (
             <>
                 BitsWits Profile on{" "}
-                <Link href="https://www.goodfirms.co/company/bitswits" rel="noopener noreferrer">
+                <Link href="https://techbehemoths.com/company/bitswits-mobile-app-development-company-dallas" rel="noopener noreferrer">
                     Tech Behemoths
                 </Link>{" "}
                 <div>With

@@ -68,6 +68,7 @@
   -webkit-text-fill-color: transparent;
   font-weight: bold;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .desigh a img {
