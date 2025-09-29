@@ -5,7 +5,7 @@ import Faqs from "@/src/app/home/faqs";
 import IdeaCta from "@/src/app/services/ideacta";
 import Awards from "@/src/app/why-choose-bitswits-for-mobile-app-development/awards";
 import Testimonial from "@/src/app/home/testimonial";
-import { BlogsContent, TestimonialContent, TestimonialSLIDES, FaqsContent, FaqsList, IdeaCtaContent, CertificatesData, PressData, CertificatesTitle, PressTitle, AwardsTitle, BusinessTitle, BusinessData, AwardsData } from "@/src/app/why-choose-bitswits-for-mobile-app-development/data/data";
+import { TestimonialContent, TestimonialSLIDES, FaqsContent, FaqsList, IdeaCtaContent, CertificatesData, PressData, CertificatesTitle, PressTitle, AwardsTitle, BusinessTitle, BusinessData, AwardsData } from "@/src/app/why-choose-bitswits-for-mobile-app-development/data/data";
 import KeyPoints from "@/src/app/why-choose-bitswits-for-mobile-app-development/keypoints";
 import CaseStudySection from "@/src/app/why-choose-bitswits-for-mobile-app-development/casestudy";
 import Blogs from "@/src/app/services/blogs";

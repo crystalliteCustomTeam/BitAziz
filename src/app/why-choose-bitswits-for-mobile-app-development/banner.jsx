@@ -1,6 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "@/styles/portfolio/projectbanenr.module.scss";
 import ButtonCommon from "@/src/components/common/button";
+import Link from "next/link";
 
 const Banner = () => {
   return (
@@ -12,7 +13,7 @@ const Banner = () => {
               Why Choose  <span className="txtColor">Bitswits </span>For <span className="txtColor">Mobile App Development </span>
             </h1>
             <p>
-              BitsWits is a leading mobile app development company established in 2012, with over a decade of experience delivering innovative digital solutions. Our team of skilled developers, designers, and strategists has created apps for startups, large enterprises, and global brands, earning awards for creativity and excellence along the way.
+              BitsWits is a leading <Link href="/mobile-application-development-services">mobile app development company</Link> established in 2012, with over a decade of experience delivering innovative digital solutions. Our team of skilled developers, designers, and strategists has created apps for startups, large enterprises, and global brands, earning awards for creativity and excellence along the way.
               We specialize in developing iOS and Android apps, designing intuitive user interfaces and experiences, creating games, building web applications, and leveraging emerging technologies such as AR/VR, blockchain, and Artificial Intelligence.</p>
             <ButtonCommon txt="Get an Idea!" />
           </Col>
