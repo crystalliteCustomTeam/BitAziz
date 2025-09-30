@@ -178,7 +178,7 @@ const MainLinks = [
         url: "/term-and-condition"
     },
     {
-        title: "Why Choose",
+        title: "Why Choose Us",
         url: "/why-choose-bitswits-for-mobile-app-development"
     },
 ]
