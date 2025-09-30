@@ -1,9 +1,11 @@
+"use client";
 import Link from "next/link"
 import styles from "@/styles/layout/navigation.module.scss"
 import { NavIcon, ServiceArrow, SubMenuIcon } from "@/src/app/app-constants"
 import { Container } from "react-bootstrap"
 import { useState } from "react"
 import PopUp from "@/src/app/services/popup"
+import { usePathname } from "next/navigation";
 
 const ServicesMenu = [
   {
@@ -114,9 +116,18 @@ const IndustriesMenu = [
   },
 ]
 
+const arabicUrl = "/sa/شركة-تطوير-تطبيقات-الجوال-في-السعودية";
+const englishUrl = "/mobile-app-development-company-saudi-arabia";
+
 const Navigation = ({ isDarkHeader, isLightHeader, scrolled }) => {
   const [isActive, setIsActive] = useState(false)
   const [modalShow, setModalShow] = useState(false)
+  const pathname = usePathname();
+
+
+
+  const currentPath = decodeURIComponent(pathname);
+
 
   const handleClick = () => {
     setIsActive(!isActive)
@@ -196,13 +207,22 @@ const Navigation = ({ isDarkHeader, isLightHeader, scrolled }) => {
         <li>
           <Link href="/contact-us">Contact</Link>
         </li>
+        {currentPath === arabicUrl ? (
+          <li>
+            <Link href={englishUrl}>EN</Link>
+          </li>
+        ) : currentPath === englishUrl ? (
+          <li>
+            <Link href={arabicUrl}>عربي</Link>
+          </li>
+        ) : null}
         <li className={styles.btnHeader} onClick={() => handlePopUp()}>
           <Link href="">Connect Now</Link>
         </li>
         <li className={styles.btnHeader}>
           <a href="tel:+18335006007">+1 833 500 6007</a>
         </li>
-      </ul>
+      </ul >
       <div
         className={`${styles.mainMobileNavigation}  ${isActive ? `${styles.active}` : ""
           }`}
@@ -259,6 +279,15 @@ const Navigation = ({ isDarkHeader, isLightHeader, scrolled }) => {
               Contact
             </Link>
           </li>
+          {currentPath === arabicUrl ? (
+            <li onClick={handleClick}>
+              <Link href={englishUrl}>EN</Link>
+            </li>
+          ) : currentPath === englishUrl ? (
+            <li onClick={handleClick}>
+              <Link href={arabicUrl}>عربي</Link>
+            </li>
+          ) : null}
           <li>
             <Link href="/contact-us" onClick={() => handlePopUp()}>
               Connect Now
